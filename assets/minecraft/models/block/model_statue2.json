@@ -1,5 +1,5 @@
 {
-    "ambientocclusion": true,
+    "ambientocclusion": false,
     "elements": [
         {
             "from": [ 0.11, -6.37, 2.37 ],

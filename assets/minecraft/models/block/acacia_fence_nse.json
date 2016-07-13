@@ -1,0 +1,6 @@
+{
+    "parent": "block/megafence_nse",
+    "textures": {
+        "texture": "blocks/models/fence_acacia"
+    }
+}
