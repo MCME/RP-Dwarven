@@ -1,5 +1,8 @@
 {
     "variants": {
-        "normal": { "model": "oak_leaves" }
+	"normal": [
+        { "model": "oak_leaves" },
+	{ "model": "oak_leaves2", "weight": 8}
+	]
     }
 }

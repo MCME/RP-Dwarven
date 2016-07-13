@@ -1,7 +1,7 @@
 {
-    "parent": "block/floor",
+    "parent": "block/carpet",
     "textures": {
         "particle": "blocks/models/mozaic6",
-        "floor": "blocks/models/mozaic6"
+        "wool": "blocks/models/mozaic6"
     }
 }
