@@ -1,0 +1,7 @@
+{
+    "parent": "block/floor",
+    "textures": {
+        "particle": "blocks/models/mozaict3",
+        "floor": "blocks/models/mozaict3"
+    }
+}

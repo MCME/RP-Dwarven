@@ -1,0 +1,16 @@
+{
+    "parent": "block/support",
+    "textures": {
+        "texture": "blocks/models/fence_spruce",
+	"top": "blocks/models/fence_spruce_top"
+    },
+    "display": 
+    {
+        "gui": 
+        {        
+                "rotation": [ 45, 45, 45 ],
+                "translation": [ 0, 0, 0 ],
+                "scale": [ 0.50, 0.50, 0.50 ]
+        }
+    }
+}
