@@ -1,5 +1,12 @@
 {
     "variants": {
-        "normal": { "model": "melon" }
+        "normal": 
+	    [
+	    { "model": "shelf1" },
+	    { "model": "shelf2" },
+	    { "model": "shelf3" },
+	    { "model": "shelf4" },
+	    { "model": "shelf5" }
+	    ]
     }
 }

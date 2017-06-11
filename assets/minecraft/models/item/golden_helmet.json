@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/gold_helmet"
+    },
+    "overrides": [
+        { "predicate": { "damage": 0.01282 }, "model": "gui/page_up" },
+		{ "predicate": { "damage": 0.02564 }, "model": "gui/page_down" },
+		{ "predicate": { "damage": 0.03846 }, "model": "gui/page_left" },
+		{ "predicate": { "damage": 0.05128 }, "model": "gui/page_right" },
+		{ "predicate": { "damage": 0.06410 }, "model": "gui/works" },
+		{ "predicate": { "damage": 0.07692 }, "model": "gui/works_alt" },
+		{ "predicate": { "damage": 0.08974 }, "model": "gui/inter" },
+		{ "predicate": { "damage": 0.10256 }, "model": "gui/inter_alt" },
+		{ "predicate": { "damage": 0.11538 }, "model": "gui/deco" },
+		{ "predicate": { "damage": 0.12821 }, "model": "gui/deco_alt" },
+		
+		{ "predicate": { "damage": 0.14103 }, "model": "gui/misc" },
+		{ "predicate": { "damage": 0.15385 }, "model": "gui/misc_alt" }
+    ]
+}
