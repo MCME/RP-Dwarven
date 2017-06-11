@@ -1,7 +1,0 @@
-{
-    "parent": "block/support_side",
-    "textures": {
-        "texture": "blocks/models/fence_spruce",
-	"texture2": "blocks/log_spruce_top"
-    }
-}

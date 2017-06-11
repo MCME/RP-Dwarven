@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "blocks/models/rope_torn",
+	"particle": "blocks/models/rope_torn"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/flat_top",
+    "textures": {
+	 "side": "blocks/models/grate",
+	"particle": "blocks/models/grate"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/filling",
+    "textures": {
+        "side": "blocks/models/chemicals8"
+    }
+}

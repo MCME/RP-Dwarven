@@ -1,0 +1,6 @@
+{
+    "parent": "block/jar_small",
+    "textures": {
+        "jar": "blocks/models/jar7"
+    }
+}

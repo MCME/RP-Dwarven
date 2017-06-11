@@ -1,0 +1,22 @@
+{
+    "parent": "block/rack",
+    "textures": {
+        "bottom": "blocks/models/w_b",
+	"m1": "blocks/models/w1",
+	"m2": "blocks/models/w2",
+	"m3": "blocks/models/w3",
+	"m4": "blocks/models/w2",
+	"m5": "blocks/models/w1",
+	"m6": "blocks/models/w3",
+	"m7": "blocks/models/w2",
+	"m8": "blocks/models/w1",
+	"t1": "blocks/models/e_empty",
+	"t2": "blocks/models/e_empty",
+	"t3": "blocks/models/e_empty",
+	"t4": "blocks/models/e_empty",
+	"t5": "blocks/models/e_empty",
+	"t6": "blocks/models/e_empty",
+	"t7": "blocks/models/e_empty",
+	"t8": "blocks/models/e_empty"
+    }
+}

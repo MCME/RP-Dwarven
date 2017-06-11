@@ -1,103 +1,686 @@
 {
-    "variants": {
-        "east=none,north=none,south=none,west=none": { "model": "redstone_none" },
+    "multipart": [
+        
+	{   "when": { "power": "0", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_center"},
+              { "model": "redstone_dust_power0_center", "y": 90},
+              { "model": "redstone_dust_power0_center", "y": 180},
+              { "model": "redstone_dust_power0_center", "y": 270},
+              { "model": "redstone_dust_power0_center_1"},
+              { "model": "redstone_dust_power0_center_1", "y": 90},
+              { "model": "redstone_dust_power0_center_1", "y": 180},
+              { "model": "redstone_dust_power0_center_1", "y": 270},
+              { "model": "redstone_dust_power0_center_2"},
+              { "model": "redstone_dust_power0_center_2", "y": 90},
+              { "model": "redstone_dust_power0_center_2", "y": 180},
+              { "model": "redstone_dust_power0_center_2", "y": 270},
+              { "model": "redstone_dust_power0_center_3"},
+              { "model": "redstone_dust_power0_center_3", "y": 90},
+              { "model": "redstone_dust_power0_center_3", "y": 180},
+              { "model": "redstone_dust_power0_center_3", "y": 270},
+              { "model": "redstone_dust_power0_center_4"},
+              { "model": "redstone_dust_power0_center_4", "y": 90},
+              { "model": "redstone_dust_power0_center_4", "y": 180},
+              { "model": "redstone_dust_power0_center_4", "y": 270}
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_one_edge" }
+            ]
+        },
+        {   "when": { "power": "0", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_one_edge", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_one_edge", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_one_edge", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_two_edges"}
+            ]
+        },
+        {   "when": { "power": "0", "north": "none", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_two_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "none", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_two_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_two_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_opposite_edges"}
+            ]
+        },
+        {   "when": { "power": "0", "north": "none", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_opposite_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power0_three_edges"}
+            ]
+        },
+        {   "when": { "power": "0", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_three_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_three_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_three_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power0_four_edges"},
+              { "model": "redstone_dust_power0_four_edges", "y": 90 },
+              { "model": "redstone_dust_power0_four_edges", "y": 180 },
+              { "model": "redstone_dust_power0_four_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "0", "north": "up", "west": "side|none", "east": "side|none"},
+            "apply": { "model": "redstone_dust_power0_opposite_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "0", "north": "up", "west": "up", "east": "side|none"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "0", "north": "up", "west": "side|none", "east": "up"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 270}
+        },
+        {   "when": { "power": "0", "north": "up", "west": "up", "east": "up"},
+            "apply": { "model": "redstone_dust_power0_four_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "0", "east": "up", "north": "side|none", "south": "side|none"},
+            "apply": { "model": "redstone_dust_power0_opposite_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "0", "east": "up", "north": "up", "south": "side|none"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "0", "east": "up", "north": "side|none", "south": "up"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 270, "y": 90}
+        },
+        {   "when": { "power": "0", "east": "up", "north": "up", "south": "up"},
+            "apply": { "model": "redstone_dust_power0_four_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "0", "south": "up", "east": "side|none", "west": "side|none"},
+            "apply": { "model": "redstone_dust_power0_opposite_edges", "x": 90}
+        },
+        {   "when": { "power": "0", "south": "up", "east": "up", "west": "side|none"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 90}
+        },
+        {   "when": { "power": "0", "south": "up", "east": "side|none", "west": "up"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 270, "y": 180}
+        },
+        {   "when": { "power": "0", "south": "up", "east": "up", "west": "up"},
+            "apply": { "model": "redstone_dust_power0_four_edges", "x": 90}
+        },
+        {   "when": { "power": "0", "west": "up", "south": "side|none", "north": "side|none"},
+            "apply": { "model": "redstone_dust_power0_opposite_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "0", "west": "up", "south": "up", "north": "side|none"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "0", "west": "up", "south": "side|none", "north": "up"},
+            "apply": { "model": "redstone_dust_power0_three_edges", "x": 270, "y": 270}
+        },
+        {   "when": { "power": "0", "west": "up", "south": "up", "north": "up"},
+            "apply": { "model": "redstone_dust_power0_four_edges", "x": 90, "y": 90}
+        },
+	
+	
+	
+        {   "when": { "power": "1", "north": "none|up", "east": "none|up", "south": "none|up", "west": "none|up"},
+            "apply": { "model": "chain_down_center" }
+        },
+        {   "when": { "power": "1", "north": "none|side", "east": "none|side", "south": "none|side", "west": "none|side"},
+            "apply": { "model": "chain_up_center" }
+        },
+        {   "when": { "power": "1|2", "north": "up"},
+            "apply": { "model": "chain_up_north" }
+        },
+        {   "when": { "power": "1|2", "south": "up"},
+            "apply": { "model": "chain_up_north", "y": 180}
+        },
+        {   "when": { "power": "1|2", "east": "up"},
+            "apply": { "model": "chain_up_north", "y": 90 }
+        },
+        {   "when": { "power": "1|2", "west": "up"},
+            "apply": { "model": "chain_up_north", "y": 270 }
+        },
+        {   "when": { "power": "1", "east": "side"},
+            "apply": { "model": "chain_down_north", "y": 90  }
+        },
+        {   "when": { "power": "1", "west": "side"},
+            "apply": { "model": "chain_down_north", "y": 270  }
+        },
+        {   "when": { "power": "1", "north": "side"},
+            "apply": { "model": "chain_down_north" }
+        },
+        {   "when": { "power": "1", "south": "side"},
+            "apply": { "model": "chain_down_north", "y": 180  }
+        },
+        {   "when": { "power": "2", "north": "side"},
+            "apply": { "model": "chain_up_center", "x": 90}
+        },
+        {   "when": { "power": "2", "south": "side"},
+            "apply": { "model": "chain_down_center", "x": 90}
+        },
+        {   "when": { "power": "2", "east": "side"},
+            "apply": { "model": "chain_up_center_shift", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "2", "west": "side"},
+            "apply": { "model": "chain_down_center", "x": 90, "y": 90}
+        },
+	
+		
+		
+	{   "when": { "power": "3", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_center"},
+              { "model": "redstone_dust_power3_center", "y": 90},
+              { "model": "redstone_dust_power3_center", "y": 180},
+              { "model": "redstone_dust_power3_center", "y": 270},
+              { "model": "redstone_dust_power3_center_1"},
+              { "model": "redstone_dust_power3_center_1", "y": 90},
+              { "model": "redstone_dust_power3_center_1", "y": 180},
+              { "model": "redstone_dust_power3_center_1", "y": 270},
+              { "model": "redstone_dust_power3_center_2"},
+              { "model": "redstone_dust_power3_center_2", "y": 90},
+              { "model": "redstone_dust_power3_center_2", "y": 180},
+              { "model": "redstone_dust_power3_center_2", "y": 270},
+              { "model": "redstone_dust_power3_center_3"},
+              { "model": "redstone_dust_power3_center_3", "y": 90},
+              { "model": "redstone_dust_power3_center_3", "y": 180},
+              { "model": "redstone_dust_power3_center_3", "y": 270},
+              { "model": "redstone_dust_power3_center_4"},
+              { "model": "redstone_dust_power3_center_4", "y": 90},
+              { "model": "redstone_dust_power3_center_4", "y": 180},
+              { "model": "redstone_dust_power3_center_4", "y": 270}
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_one_edge" }
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_one_edge", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_one_edge", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_one_edge", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_two_edges"}
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_two_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_two_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_two_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_opposite_edges"}
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_opposite_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power3_three_edges"}
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_three_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_three_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_three_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power3_four_edges"},
+              { "model": "redstone_dust_power3_four_edges", "y": 90 },
+              { "model": "redstone_dust_power3_four_edges", "y": 180 },
+              { "model": "redstone_dust_power3_four_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "up", "west": "side|none", "east": "side|none"},
+            "apply": { "model": "redstone_dust_power3_opposite_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "3", "north": "up", "west": "up", "east": "side|none"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "3", "north": "up", "west": "side|none", "east": "up"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 270}
+        },
+        {   "when": { "power": "3", "north": "up", "west": "up", "east": "up"},
+            "apply": { "model": "redstone_dust_power3_four_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "3", "east": "up", "north": "side|none", "south": "side|none"},
+            "apply": { "model": "redstone_dust_power3_opposite_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "3", "east": "up", "north": "up", "south": "side|none"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "3", "east": "up", "north": "side|none", "south": "up"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 270, "y": 90}
+        },
+        {   "when": { "power": "3", "east": "up", "north": "up", "south": "up"},
+            "apply": { "model": "redstone_dust_power3_four_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "3", "south": "up", "east": "side|none", "west": "side|none"},
+            "apply": { "model": "redstone_dust_power3_opposite_edges", "x": 90}
+        },
+        {   "when": { "power": "3", "south": "up", "east": "up", "west": "side|none"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 90}
+        },
+        {   "when": { "power": "3", "south": "up", "east": "side|none", "west": "up"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 270, "y": 180}
+        },
+        {   "when": { "power": "3", "south": "up", "east": "up", "west": "up"},
+            "apply": { "model": "redstone_dust_power3_four_edges", "x": 90}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "side|none", "north": "side|none"},
+            "apply": { "model": "redstone_dust_power3_opposite_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "up", "north": "side|none"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "side|none", "north": "up"},
+            "apply": { "model": "redstone_dust_power3_three_edges", "x": 270, "y": 270}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "up", "north": "up"},
+            "apply": { "model": "redstone_dust_power3_four_edges", "x": 90, "y": 90}
+        },
 
-        "east=none,north=side,south=none,west=none": { "model": "redstone_n" },
-        "east=none,north=none,south=side,west=none": { "model": "redstone_n" },
-        "east=side,north=none,south=none,west=none": { "model": "redstone_n", "y": 90 },
-        "east=none,north=none,south=none,west=side": { "model": "redstone_n", "y": 90 },
+	
+	
 
-        "east=none,north=up,south=none,west=none": { "model": "redstone_uns" },
-        "east=none,north=none,south=up,west=none": { "model": "redstone_uns", "y": 180, "uvlock": true },
-        "east=up,north=none,south=none,west=none": { "model": "redstone_uew" },
-        "east=none,north=none,south=none,west=up": { "model": "redstone_uew", "y": 180, "uvlock": true },
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_center"},
+              { "model": "redstone_dust_power4_center", "y": 90},
+              { "model": "redstone_dust_power4_center", "y": 180},
+              { "model": "redstone_dust_power4_center", "y": 270},
+              { "model": "redstone_dust_power4_center_1"},
+              { "model": "redstone_dust_power4_center_1", "y": 90},
+              { "model": "redstone_dust_power4_center_1", "y": 180},
+              { "model": "redstone_dust_power4_center_1", "y": 270}
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_one_edge" }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_one_edge", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_one_edge", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_one_edge", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_two_edges"}
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_two_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_two_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_two_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_opposite_edges"}
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_opposite_edges", "y": 90 }
+            ]
+        },
 
-        "east=side,north=side,south=none,west=none":   { "model": "redstone_ne", "uvlock": true },
-        "east=side,north=up,south=none,west=none":  { "model": "redstone_une", "uvlock": true },
-        "east=up,north=side,south=none,west=none":  { "model": "redstone_nue", "uvlock": true },
-        "east=up,north=up,south=none,west=none": { "model": "redstone_unue", "uvlock": true },
-
-        "east=side,north=none,south=side,west=none":   { "model": "redstone_ne", "y": 90, "uvlock": true },
-        "east=up,north=none,south=side,west=none":  { "model": "redstone_une", "y": 90, "uvlock": true },
-        "east=side,north=none,south=up,west=none":  { "model": "redstone_nue", "y": 90, "uvlock": true },
-        "east=up,north=none,south=up,west=none": { "model": "redstone_unue", "y": 90, "uvlock": true },
-
-        "east=none,north=none,south=side,west=side":   { "model": "redstone_ne", "y": 180, "uvlock": true },
-        "east=none,north=none,south=up,west=side":  { "model": "redstone_une", "y": 180, "uvlock": true },
-        "east=none,north=none,south=side,west=up":  { "model": "redstone_nue", "y": 180, "uvlock": true },
-        "east=none,north=none,south=up,west=up": { "model": "redstone_unue", "y": 180, "uvlock": true },
-
-        "east=none,north=side,south=none,west=side":   { "model": "redstone_ne", "y": 270, "uvlock": true },
-        "east=none,north=side,south=none,west=up":  { "model": "redstone_une", "y": 270, "uvlock": true },
-        "east=none,north=up,south=none,west=side":  { "model": "redstone_nue", "y": 270, "uvlock": true },
-        "east=none,north=up,south=none,west=up": { "model": "redstone_unue", "y": 270, "uvlock": true },
-
-        "east=none,north=side,south=side,west=none":  { "model": "redstone_n" },
-        "east=none,north=up,south=side,west=none": { "model": "redstone_uns" },
-        "east=none,north=side,south=up,west=none": { "model": "redstone_uns", "y": 180 },
-        "east=none,north=up,south=up,west=none": { "model": "redstone_unus" },
-
-        "east=side,north=none,south=none,west=side":  { "model": "redstone_n", "y": 90 },
-        "east=up,north=none,south=none,west=side": { "model": "redstone_uns", "y": 90 },
-        "east=side,north=none,south=none,west=up": { "model": "redstone_uns", "y": 270 },
-        "east=up,north=none,south=none,west=up": { "model": "redstone_ueuw" },
-
-        "east=side,north=side,south=side,west=none":    { "model": "redstone_nse", "uvlock": true },
-        "east=side,north=up,south=side,west=none":   { "model": "redstone_unse", "uvlock": true },
-        "east=side,north=side,south=up,west=none":   { "model": "redstone_nuse", "uvlock": true },
-        "east=up,north=side,south=side,west=none":   { "model": "redstone_nsue", "uvlock": true },
-        "east=up,north=side,south=up,west=none":  { "model": "redstone_nusue", "uvlock": true },
-        "east=side,north=up,south=up,west=none":  { "model": "redstone_unuse", "uvlock": true },
-        "east=up,north=up,south=side,west=none":  { "model": "redstone_unsue", "uvlock": true },
-        "east=up,north=up,south=up,west=none": { "model": "redstone_unusue", "uvlock": true },
-
-        "east=side,north=none,south=side,west=side":    { "model": "redstone_nse", "y": 90, "uvlock": true },
-        "east=up,north=none,south=side,west=side":   { "model": "redstone_unse", "y": 90, "uvlock": true },
-        "east=side,north=none,south=side,west=up":   { "model": "redstone_nuse", "y": 90, "uvlock": true },
-        "east=side,north=none,south=up,west=side":   { "model": "redstone_nsue", "y": 90, "uvlock": true },
-        "east=side,north=none,south=up,west=up":  { "model": "redstone_nusue", "y": 90, "uvlock": true },
-        "east=up,north=none,south=side,west=up":  { "model": "redstone_unuse", "y": 90, "uvlock": true },
-        "east=up,north=none,south=up,west=side":  { "model": "redstone_unsue", "y": 90, "uvlock": true },
-        "east=up,north=none,south=up,west=up": { "model": "redstone_unusue", "y": 90, "uvlock": true },
-
-        "east=none,north=side,south=side,west=side":    { "model": "redstone_nse", "y": 180, "uvlock": true },
-        "east=none,north=side,south=up,west=side":   { "model": "redstone_unse", "y": 180, "uvlock": true },
-        "east=none,north=up,south=side,west=side":   { "model": "redstone_nuse", "y": 180, "uvlock": true },
-        "east=none,north=side,south=side,west=up":   { "model": "redstone_nsue", "y": 180, "uvlock": true },
-        "east=none,north=up,south=side,west=up":  { "model": "redstone_nusue", "y": 180, "uvlock": true },
-        "east=none,north=up,south=up,west=side":  { "model": "redstone_unuse", "y": 180, "uvlock": true },
-        "east=none,north=side,south=up,west=up":  { "model": "redstone_unsue", "y": 180, "uvlock": true },
-        "east=none,north=up,south=up,west=up": { "model": "redstone_unusue", "y": 180, "uvlock": true },
-
-        "east=side,north=side,south=none,west=side":    { "model": "redstone_nse", "y": 270, "uvlock": true },
-        "east=side,north=side,south=none,west=up":   { "model": "redstone_unse", "y": 270, "uvlock": true },
-        "east=up,north=side,south=none,west=side":   { "model": "redstone_nuse", "y": 270, "uvlock": true },
-        "east=side,north=up,south=none,west=side":   { "model": "redstone_nsue", "y": 270, "uvlock": true },
-        "east=up,north=up,south=none,west=side":  { "model": "redstone_nusue", "y": 270, "uvlock": true },
-        "east=up,north=side,south=none,west=up":  { "model": "redstone_unuse", "y": 270, "uvlock": true },
-        "east=side,north=up,south=none,west=up":  { "model": "redstone_unsue", "y": 270, "uvlock": true },
-        "east=up,north=up,south=none,west=up": { "model": "redstone_unusue", "y": 270, "uvlock": true },
-
-        "east=side,north=side,south=side,west=side": { "model": "redstone_nsew", "uvlock": true },
-
-        "east=side,north=up,south=side,west=side": { "model": "redstone_unsew", "uvlock": true },
-        "east=side,north=side,south=up,west=side": { "model": "redstone_unsew", "y": 180, "uvlock": true },
-        "east=up,north=side,south=side,west=side": { "model": "redstone_unsew", "y": 90, "uvlock": true },
-        "east=side,north=side,south=side,west=up": { "model": "redstone_unsew", "y": 270, "uvlock": true },
-
-        "east=side,north=up,south=up,west=side": { "model": "redstone_unusew", "uvlock": true },
-        "east=up,north=side,south=side,west=up": { "model": "redstone_unusew", "y": 90, "uvlock": true },
-
-        "east=up,north=up,south=side,west=side": { "model": "redstone_unsuew", "uvlock": true },
-        "east=up,north=side,south=up,west=side": { "model": "redstone_unsuew", "y": 90, "uvlock": true },
-        "east=side,north=side,south=up,west=up": { "model": "redstone_unsuew", "y": 180, "uvlock": true },
-        "east=side,north=up,south=side,west=up": { "model": "redstone_unsuew", "y": 270, "uvlock": true },
-
-        "east=up,north=up,south=up,west=side": { "model": "redstone_unusuew", "uvlock": true },
-        "east=up,north=side,south=up,west=up": { "model": "redstone_unusuew", "y": 90, "uvlock": true },
-        "east=side,north=up,south=up,west=up": { "model": "redstone_unusuew", "y": 180, "uvlock": true },
-        "east=up,north=up,south=side,west=up": { "model": "redstone_unusuew", "y": 270, "uvlock": true },
-
-        "east=up,north=up,south=up,west=up": { "model": "redstone_unusueuw", "uvlock": true }
-    }
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "redstone_dust_power4_three_edges"}
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_three_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_three_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_three_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "redstone_dust_power4_four_edges"},
+              { "model": "redstone_dust_power4_four_edges", "y": 90 },
+              { "model": "redstone_dust_power4_four_edges", "y": 180 },
+              { "model": "redstone_dust_power4_four_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "up", "west": "side|none", "east": "side|none"},
+            "apply": { "model": "redstone_dust_power4_opposite_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "4", "north": "up", "west": "up", "east": "side|none"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "4", "north": "up", "west": "side|none", "east": "up"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 270}
+        },
+        {   "when": { "power": "4", "north": "up", "west": "up", "east": "up"},
+            "apply": { "model": "redstone_dust_power4_four_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "4", "east": "up", "north": "side|none", "south": "side|none"},
+            "apply": { "model": "redstone_dust_power4_opposite_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "4", "east": "up", "north": "up", "south": "side|none"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "4", "east": "up", "north": "side|none", "south": "up"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 270, "y": 90}
+        },
+        {   "when": { "power": "4", "east": "up", "north": "up", "south": "up"},
+            "apply": { "model": "redstone_dust_power4_four_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "4", "south": "up", "east": "side|none", "west": "side|none"},
+            "apply": { "model": "redstone_dust_power4_opposite_edges", "x": 90}
+        },
+        {   "when": { "power": "4", "south": "up", "east": "up", "west": "side|none"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 90}
+        },
+        {   "when": { "power": "4", "south": "up", "east": "side|none", "west": "up"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 270, "y": 180}
+        },
+        {   "when": { "power": "4", "south": "up", "east": "up", "west": "up"},
+            "apply": { "model": "redstone_dust_power4_four_edges", "x": 90}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "side|none", "north": "side|none"},
+            "apply": { "model": "redstone_dust_power4_opposite_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "up", "north": "side|none"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "side|none", "north": "up"},
+            "apply": { "model": "redstone_dust_power4_three_edges", "x": 270, "y": 270}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "up", "north": "up"},
+            "apply": { "model": "redstone_dust_power4_four_edges", "x": 90, "y": 90}
+        },
+	
+	
+	{   "when": { "power": "5", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "pipe_ns"}
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "pipe_ns" }
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "pipe_ns", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "pipe_ns", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_ns", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "pipe_ne"}
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "pipe_ne", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_ne", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_ne", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "pipe_ns"}
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_ns", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "pipe_nes"}
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_nes", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_nes", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_nes", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "pipe_nesw"}
+            ]
+        },
+        {   "when": { "power": "5", "north": "up"},
+            "apply": { "model": "pipe_up" }
+        },
+       {   "when": { "power": "5", "east": "up"},
+            "apply": { "model": "pipe_up", "y": 90 }
+        },
+	{   "when": { "power": "5", "south": "up"},
+            "apply": { "model": "pipe_up",  "y": 180 }
+        },
+	{   "when": { "power": "5", "west": "up"},
+            "apply": { "model": "pipe_up", "y": 270 }
+        },
+	
+		{   "when": { "power": "6", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "aquewood_ns"}
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "aquewood_ns" }
+            ]
+        },
+        {   "when": { "power": "6", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "aquewood_ns", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "aquewood_ns", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_ns", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "aquewood_ne"}
+            ]
+        },
+        {   "when": { "power": "6", "north": "none", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "aquewood_ne", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "none", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_ne", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_ne", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "aquewood_ns"}
+            ]
+        },
+        {   "when": { "power": "6", "north": "none", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_ns", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "aquewood_nes"}
+            ]
+        },
+        {   "when": { "power": "6", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_nes", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_nes", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_nes", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "6", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "aquewood_nesw"}
+            ]
+        },
+        {   "when": { "power": "6", "north": "up"},
+            "apply": { "model": "aquewood_up", "y": 270 }
+        },
+       {   "when": { "power": "6", "east": "up"},
+            "apply": { "model": "aquewood_up" }
+        },
+	{   "when": { "power": "6", "south": "up"},
+            "apply": { "model": "aquewood_up",  "y": 90 }
+        },
+	{   "when": { "power": "6", "west": "up"},
+            "apply": { "model": "aquewood_up",  "y": 180 }
+        }
+    ]
 }
+
+
+
