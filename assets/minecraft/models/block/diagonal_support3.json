@@ -1,6 +1,0 @@
-{
-    "parent": "block/diagonal_support",
-    "textures": {
-	 "side": "blocks/red_sandstone"
-    }
-}

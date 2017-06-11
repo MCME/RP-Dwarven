@@ -1,12 +1,5 @@
 {
     "variants": {
-        "normal": 
-	    [
-	    { "model": "cabinet_wood1" },
-	    { "model": "cabinet_wood2" },
-	    { "model": "cabinet_wood3" },
-	    { "model": "cabinet_wood4" },
-	    { "model": "cabinet_wood5" }
-	    ]
+        "normal": { "model": "cobblestone" }
     }
 }

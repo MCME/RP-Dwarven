@@ -1,13 +1,14 @@
 {
-    "parent": "block/ballustrade",
+    "parent": "block/support",
     "textures": {
-        "side": "blocks/red_sandstone"
+        "texture": "blocks/models/fence_spruce",
+	"top": "blocks/models/fence_spruce_top"
     },
     "display": 
     {
         "gui": 
         {        
-                "rotation": [ 0, 45, 0 ],
+                "rotation": [ 45, 45, 45 ],
                 "translation": [ 0, 0, 0 ],
                 "scale": [ 0.50, 0.50, 0.50 ]
         }

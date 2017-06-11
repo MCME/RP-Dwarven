@@ -1,6 +1,0 @@
-{
-    "parent": "block/flat",
-    "textures": {
-        "top": "blocks/models/plate2"
-    }
-}

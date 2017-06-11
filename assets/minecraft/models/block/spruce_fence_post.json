@@ -1,0 +1,7 @@
+{
+    "parent": "block/support",
+    "textures": {
+        "texture": "blocks/models/fence_spruce",
+	"top": "blocks/models/fence_spruce_top"
+    }
+}

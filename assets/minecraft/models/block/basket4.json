@@ -1,6 +1,0 @@
-{
-    "parent": "block/basket",
-    "textures": {
-        "filling": "blocks/models/m_potato"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "blocks/models/foundry_top",
-	 "side": "blocks/models/foundry_output",
-	"particle": "blocks/models/foundry_output"
-    }
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "block/ballustrade",
-    "textures": {
-	 "side": "blocks/stone"
-    }
-}

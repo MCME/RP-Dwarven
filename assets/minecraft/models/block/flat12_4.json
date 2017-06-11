@@ -1,6 +1,0 @@
-{
-    "parent": "block/flat12",
-    "textures": {
-        "side": "blocks/nether_brick"
-    }
-}

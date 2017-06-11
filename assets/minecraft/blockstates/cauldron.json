@@ -1,8 +1,8 @@
 {
     "variants": {
         "level=0": { "model": "cauldron_empty" },
-        "level=1": { "model": "cauldron_full" },
-        "level=2": { "model": "cauldron_round" },
+        "level=1": { "model": "cauldron_level1" },
+        "level=2": { "model": "cauldron_level2" },
         "level=3": { "model": "cauldron_level3" }
     }
 }

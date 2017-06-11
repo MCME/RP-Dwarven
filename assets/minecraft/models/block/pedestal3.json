@@ -1,6 +1,0 @@
-{
-    "parent": "block/pedestal",
-    "textures": {
-	 "side": "blocks/red_sandstone"
-    }
-}

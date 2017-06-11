@@ -1,12 +1,6 @@
 {
     "variants": {
-        "stage=0": { "model": "reel" },
-        "stage=1": 
-	[
-	{ "model": "rack_spears" },
-	{ "model": "rack_spears", "y":90 },
-	{ "model": "rack_spears", "y":180 },
-	{ "model": "rack_spears", "y":270 }
-	]
+        "stage=0": { "model": "acacia_sapling" },
+        "stage=1": { "model": "acacia_sapling" }
     }
 }

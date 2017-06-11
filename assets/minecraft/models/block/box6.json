@@ -1,7 +1,0 @@
-{
-    "parent": "block/small_box",
-    "textures": {
-        "box": "blocks/models/box6",
-	"particle": "blocks/models/box6"
-    }
-}

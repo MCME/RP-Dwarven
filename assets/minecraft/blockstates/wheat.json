@@ -1,79 +1,11 @@
 {
     "variants": {
-        "age=0": [
-	    { "model": "plate1" },
-	    { "model": "plate1", "y": 90 },
-	    { "model": "plate1", "y": 180 },
-	    { "model": "plate1", "y": 270 },
-	    { "model": "plate2" },
-	    { "model": "plate2", "y": 90 },
-	    { "model": "plate2", "y": 180 },
-	    { "model": "plate2", "y": 270 },
-	    { "model": "plate3" },
-	    { "model": "plate3", "y": 90 },
-	    { "model": "plate3", "y": 180 },
-	    { "model": "plate3", "y": 270 }
-	],
-	"age=1": [
-	    { "model": "pot" },
-	    { "model": "pot", "y": 90 },
-	    { "model": "pot", "y": 180 },
-	    { "model": "pot", "y": 270 }
-	    ],
-        "age=2": [
-	    { "model": "cup" },
-	    { "model": "cup", "y": 90 },
-	    { "model": "cup", "y": 180 },
-	    { "model": "cup", "y": 270 }
-	    ],
-        "age=3": [
-	    { "model": "bottle1" },
-	    { "model": "bottle1", "y": 90 },
-	    { "model": "bottle1", "y": 180 },
-	    { "model": "bottle1", "y": 270 },
-	    { "model": "bottle2" },
-	    { "model": "bottle2", "y": 90 },
-	    { "model": "bottle2", "y": 180 },
-	    { "model": "bottle2", "y": 270 },
-	    { "model": "bottle3" },
-	    { "model": "bottle3", "y": 90 },
-	    { "model": "bottle3", "y": 180 },
-	    { "model": "bottle3", "y": 270 },
-	    { "model": "bottle4" },
-	    { "model": "bottle4", "y": 90 },
-	    { "model": "bottle4", "y": 180 },
-	    { "model": "bottle4", "y": 270 },
-	    { "model": "bottle5" },
-	    { "model": "bottle5", "y": 90 },
-	    { "model": "bottle5", "y": 180 },
-	    { "model": "bottle5", "y": 270 }
-	    ],
-        "age=4": 
-	    [
-	    { "model": "filling1" },
-	    { "model": "filling2" },
-	    { "model": "filling3" },
-	    { "model": "filling4" },
-	    { "model": "filling5" },
-	    { "model": "filling6" },
-	    { "model": "filling7" },
-	    { "model": "filling8" },
-	    { "model": "filling9" },
-	    { "model": "filling10" }
-	    ],
-        "age=5": 
-	    [
-	   { "model": "jar_small1"},
-	   { "model": "jar_small2"},
-	   { "model": "jar_small3"},
-	   { "model": "jar_small4"},
-	   { "model": "jar_small5"},
-	   { "model": "jar_small6"},
-	   { "model": "jar_small7"},
-	   { "model": "jar_small8"},
-	   { "model": "jar_small9"},
-	   { "model": "jar_small10"}
-	],
+        "age=0": { "model": "wheat_stage0" },
+        "age=1": { "model": "wheat_stage1" },
+        "age=2": { "model": "wheat_stage2" },
+        "age=3": { "model": "wheat_stage3" },
+        "age=4": { "model": "wheat_stage4" },
+        "age=5": { "model": "wheat_stage5" },
         "age=6": { "model": "wheat_stage6" },
         "age=7": { "model": "wheat_stage7" }
     }

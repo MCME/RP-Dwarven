@@ -1,12 +1,6 @@
 {
     "variants": {
-        "stage=0": { "model": "candle" },
-        "stage=1": 
-	[
-	{ "model": "rack_weapons" },
-	{ "model": "rack_weapons", "y":90 },
-	{ "model": "rack_weapons", "y":180 },
-	{ "model": "rack_weapons", "y":270 }
-	]
+        "stage=0": { "model": "dark_oak_sapling" },
+        "stage=1": { "model": "dark_oak_sapling" }
     }
 }

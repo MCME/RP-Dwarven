@@ -1,11 +1,5 @@
 {
     "variants": {
-        "normal": 
-	    [
-	    { "model": "cage" },
-	    { "model": "cage", "y":90 },
-	    { "model": "cage", "y":180 },
-	    { "model": "cage", "y":270 }
-	    ]
+        "normal": { "model": "glass_brown" }
     }
 }

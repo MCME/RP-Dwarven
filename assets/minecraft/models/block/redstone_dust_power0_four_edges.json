@@ -1,6 +1,0 @@
-{
-    "parent": "block/redstone_dust",
-    "textures": {
-        "cover": "blocks/redstone_dust_power0_four_edges"
-    }
-}
