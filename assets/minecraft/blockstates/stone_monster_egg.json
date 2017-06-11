@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+	    { "model": "cabinet1" },
+	    { "model": "cabinet2" },
+	    { "model": "cabinet3" },
+	    { "model": "cabinet4" },
+	    { "model": "cabinet5" }
+	    ]
+    }
+}

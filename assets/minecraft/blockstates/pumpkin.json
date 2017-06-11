@@ -1,8 +1,8 @@
 {
     "variants": {
-        "facing=north": { "model": "pumpkin" },
-        "facing=south": { "model": "pumpkin", "y": 180 },
-        "facing=west":  { "model": "pumpkin", "y": 270 },
-        "facing=east":  { "model": "pumpkin", "y": 90 }
+        "facing=north": { "model": "foundry_output" },
+        "facing=south": { "model": "logs_block" },
+        "facing=west":  { "model": "logs_block", "x": 90 },
+        "facing=east":  { "model": "logs_block", "x": 90, "y": 90 }
     }
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "block/flat12",
+    "textures": {
+        "side": "blocks/cobblestone"
+    }
+}

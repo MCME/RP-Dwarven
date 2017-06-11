@@ -1,5 +1,7 @@
 {
     "variants": {
-        "normal": { "model": "web" }
+       "normal": [
+	    { "model": "web" }
+	    ]
     }
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "block/flat4",
+    "textures": {
+        "side": "blocks/stonebrick"
+    }
+}

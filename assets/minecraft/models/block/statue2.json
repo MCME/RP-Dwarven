@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "blocks/models/statue2",
+	"particle": "blocks/models/statue2"
+    }
+}
