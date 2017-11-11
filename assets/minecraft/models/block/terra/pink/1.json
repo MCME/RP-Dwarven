@@ -1,0 +1,12 @@
+{
+    "parent": "block/corner_block",
+    "textures": {
+	"end": "blocks/terr/pink/end",
+	"side_1": "blocks/terr/pink/side_1",
+	"side_2": "blocks/terr/pink/side_2",
+	"side_3": "blocks/terr/pink/side_3",
+	"side_4": "blocks/terr/pink/side_4",
+	"back": "blocks/terr/pink/back",
+	"particle": "blocks/terr/pink/end"
+    }
+}
