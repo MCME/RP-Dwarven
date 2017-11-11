@@ -1,0 +1,11 @@
+{
+    "parent": "block/corner_block",
+    "textures": {
+	"end": "blocks/terr/magenta/end",
+	"side_1": "blocks/terr/magenta/side_1",
+	"side_2": "blocks/terr/magenta/side_2",
+	"side_3": "blocks/terr/magenta/side_3",
+	"side_4": "blocks/terr/magenta/side_4",
+	"particle": "blocks/terr/magenta/end"
+    }
+}
