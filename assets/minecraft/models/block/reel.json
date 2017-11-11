@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "blocks/models/reel",
+	"particle": "blocks/models/reel"
+    }
+}
