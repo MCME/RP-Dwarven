@@ -1,10 +1,25 @@
 {
-    "variants": {
-        "age=0": { "model": "bellows" },
-        "age=1": { "model": "supports_side"  },
-        "age=2": { "model": "supports_side", "y":90  },
-        "age=3": { "model": "supports_side", "y":180  },
-        "age=4": { "model": "supports_side", "y":270  },
-        "age=5": { "model": "chorus_flower_dead" }
+  "variants": {
+    "age\u003d0": {
+      "model": "block/bellows"
+    },
+    "age\u003d1": {
+      "model": "block/supports_side"
+    },
+    "age\u003d2": {
+      "model": "block/supports_side",
+      "y": 90
+    },
+    "age\u003d3": {
+      "model": "block/supports_side",
+      "y": 180
+    },
+    "age\u003d4": {
+      "model": "block/supports_side",
+      "y": 270
+    },
+    "age\u003d5": {
+      "model": "block/chorus_flower_dead"
     }
+  }
 }

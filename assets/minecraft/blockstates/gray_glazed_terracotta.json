@@ -1,8 +1,19 @@
 {
-    "variants": {
-        "facing=south": { "model": "terra/gray/1" },
-        "facing=west": { "model": "terra/gray/1", "y": 90 },
-        "facing=north": { "model": "terra/gray/1", "y": 180 },
-        "facing=east": { "model": "terra/gray/1", "y": 270 }
+  "variants": {
+    "facing\u003dsouth": {
+      "model": "block/terra/gray/1"
+    },
+    "facing\u003dwest": {
+      "model": "block/terra/gray/1",
+      "y": 90
+    },
+    "facing\u003dnorth": {
+      "model": "block/terra/gray/1",
+      "y": 180
+    },
+    "facing\u003deast": {
+      "model": "block/terra/gray/1",
+      "y": 270
     }
+  }
 }

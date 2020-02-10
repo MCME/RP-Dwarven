@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/runes/1"
+      },
+      {
+        "model": "block/runes/2"
+      },
+      {
+        "model": "block/runes/3"
+      },
+      {
+        "model": "block/runes/4"
+      },
+      {
+        "model": "block/runes/5"
+      }
+    ]
+  }
+}

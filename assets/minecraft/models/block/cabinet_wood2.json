@@ -1,8 +1,8 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "blocks/models/cabinet_wood_top",
-	 "side": "blocks/models/cabinet_wood2",
-	"particle": "blocks/models/cabinet_wood2"
-    }
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/models/cabinet_wood_top",
+    "side": "block/models/cabinet_wood2",
+    "particle": "block/models/cabinet_wood2"
+  }
 }

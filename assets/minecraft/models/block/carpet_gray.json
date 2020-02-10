@@ -1,7 +1,0 @@
-{
-    "parent": "block/carpet",
-    "textures": {
-        "particle": "blocks/models/mozaic8",
-        "wool": "blocks/models/mozaic8"
-    }
-}

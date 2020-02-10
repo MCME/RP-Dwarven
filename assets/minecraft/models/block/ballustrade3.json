@@ -1,6 +1,6 @@
 {
-    "parent": "block/ballustrade",
-    "textures": {
-	 "side": "blocks/red_sandstone"
-    }
+  "parent": "block/ballustrade",
+  "textures": {
+    "side": "block/red_sandstone"
+  }
 }

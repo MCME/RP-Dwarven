@@ -1,8 +1,9 @@
-{    "parent": "block/diagonal",
-    "textures": {
-        "bottom": "blocks/models/col_deco4_vert",
-        "invisible": "blocks/models/invisible",
-        "side": "blocks/models/col_deco4_side",
-        "particle":"blocks/models/col_deco4_vert"
-    }
+{
+  "parent": "block/diagonal",
+  "textures": {
+    "bottom": "block/models/col_deco4_vert",
+    "invisible": "block/models/invisible",
+    "side": "block/models/col_deco4_side",
+    "particle": "block/models/col_deco4_vert"
+  }
 }

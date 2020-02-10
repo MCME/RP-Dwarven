@@ -1,12 +1,21 @@
 {
-    "variants": {
-        "normal": [
-        { "model": "gems2/1" },
-        { "model": "gems2/2" },
-        { "model": "gems2/3" },
-        { "model": "gems2/4" },
-        { "model": "gems2/5" }
-        ]
-        
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/gems2/1"
+      },
+      {
+        "model": "block/gems2/2"
+      },
+      {
+        "model": "block/gems2/3"
+      },
+      {
+        "model": "block/gems2/4"
+      },
+      {
+        "model": "block/gems2/5"
+      }
+    ]
+  }
 }

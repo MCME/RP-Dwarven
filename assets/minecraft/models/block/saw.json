@@ -1,24 +1,63 @@
 {
-    "ambientocclusion": false,
-    "textures": {
-		"pane": "blocks/models/saw",
-        "particle": "blocks/models/saw"
-    },
-	"display": {
-        "gui": {
-            "rotation": [ 0, 90, 0 ],
-            "translation": [ 0, 3, 0],
-            "scale":[ 0.8, 0.8, 0.8 ]
+  "ambientocclusion": false,
+  "textures": {
+    "pane": "block/models/saw",
+    "particle": "block/models/saw"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  },
+  "elements": [
+    {
+      "from": [
+        8.9,
+        0,
+        0
+      ],
+      "to": [
+        9.1,
+        16,
+        16
+      ],
+      "shade": true,
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#pane",
+          "cull": false
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#pane",
+          "cull": false
         }
-    },
-    "elements": [
-        {   "from": [ 8.9, 0, 0 ],
-            "to": [ 9.1, 16, 16 ],
-            "shade": true,
-            "faces": {
-                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#pane", "cull": false },
-                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#pane", "cull": false }
-            }
-        }
-    ]
+      }
+    }
+  ]
 }

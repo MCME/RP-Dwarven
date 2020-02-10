@@ -1,5 +1,7 @@
 {
-    "variants": {
-        "normal": { "model": "stonebrick_mossy" }
+  "variants": {
+    "": {
+      "model": "block/mossy_stone_bricks"
     }
+  }
 }

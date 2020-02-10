@@ -1,10 +1,18 @@
 {
-    "variants": {
-        "normal": [
-            { "model": "concrete_powder/orange/1" },
-	    { "model": "concrete_powder/orange/2" },
-	    { "model": "concrete_powder/orange/3" },
-	    { "model": "concrete_powder/orange/4" }
-        ]
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/concrete_powder/orange/1"
+      },
+      {
+        "model": "block/concrete_powder/orange/2"
+      },
+      {
+        "model": "block/concrete_powder/orange/3"
+      },
+      {
+        "model": "block/concrete_powder/orange/4"
+      }
+    ]
+  }
 }

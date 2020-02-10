@@ -1,6 +1,6 @@
 {
-    "parent": "block/flat12",
-    "textures": {
-        "side": "blocks/stonebrick"
-    }
+  "parent": "block/flat12",
+  "textures": {
+    "side": "block/stone_bricks"
+  }
 }

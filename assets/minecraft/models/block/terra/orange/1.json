@@ -1,11 +1,11 @@
 {
-    "parent": "block/corner_block",
-    "textures": {
-	"end": "blocks/terr/orange/end",
-	"side_1": "blocks/terr/orange/side_1",
-	"side_2": "blocks/terr/orange/side_2",
-	"side_3": "blocks/terr/orange/side_3",
-	"side_4": "blocks/terr/orange/side_4",
-	"particle": "blocks/terr/orange/end"
-    }
+  "parent": "block/corner_block",
+  "textures": {
+    "end": "block/terr/orange/end",
+    "side_1": "block/terr/orange/side_1",
+    "side_2": "block/terr/orange/side_2",
+    "side_3": "block/terr/orange/side_3",
+    "side_4": "block/terr/orange/side_4",
+    "particle": "block/terr/orange/end"
+  }
 }

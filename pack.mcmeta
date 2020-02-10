@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 3,
-    "description": "MCME Moria November 11th, 2017"
+    "pack_format": 4,
+    "description": "MCME Dwarven 1.1 snapshot 6"
+  },
+  "meta": {
+    "game_version": "1.14"
   }
 }

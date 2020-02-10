@@ -1,29 +1,41 @@
 {
-    "parent": "block/rack",
-    "textures": {
-        "bottom": "blocks/models/w_b",
-	"m1": "blocks/models/w1",
-	"m2": "blocks/models/w2",
-	"m3": "blocks/models/w3",
-	"m4": "blocks/models/w2",
-	"m5": "blocks/models/w1",
-	"m6": "blocks/models/w3",
-	"m7": "blocks/models/w2",
-	"m8": "blocks/models/w1",
-	"t1": "blocks/models/e_empty",
-	"t2": "blocks/models/e_empty",
-	"t3": "blocks/models/e_empty",
-	"t4": "blocks/models/e_empty",
-	"t5": "blocks/models/e_empty",
-	"t6": "blocks/models/e_empty",
-	"t7": "blocks/models/e_empty",
-	"t8": "blocks/models/e_empty"
-    },
-	"display": {
-        "gui": {
-            "rotation": [ 30, 225, 0 ],
-            "translation": [ 0, 4, 0],
-            "scale":[ 0.625, 0.625, 0.625 ]
-        }
+  "parent": "block/rack",
+  "textures": {
+    "bottom": "block/models/w_b",
+    "m1": "block/models/w1",
+    "m2": "block/models/w2",
+    "m3": "block/models/w3",
+    "m4": "block/models/w2",
+    "m5": "block/models/w1",
+    "m6": "block/models/w3",
+    "m7": "block/models/w2",
+    "m8": "block/models/w1",
+    "t1": "block/models/e_empty",
+    "t2": "block/models/e_empty",
+    "t3": "block/models/e_empty",
+    "t4": "block/models/e_empty",
+    "t5": "block/models/e_empty",
+    "t6": "block/models/e_empty",
+    "t7": "block/models/e_empty",
+    "t8": "block/models/e_empty"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
     }
+  }
 }

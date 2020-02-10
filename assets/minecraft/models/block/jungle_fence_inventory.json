@@ -1,15 +1,25 @@
 {
-    "parent": "block/megafence_n",
-    "textures": {
-        "texture": "blocks/planks_fence_jungle"
-    },
-    "display": 
-    {
-        "gui": 
-        {        
-                "rotation": [ 45, 45, 45 ],
-                "translation": [ 0, 0, 0 ],
-                "scale": [ 0.50, 0.50, 0.50 ]
-        }
+  "parent": "block/megafence_n",
+  "textures": {
+    "texture": "block/planks_fence_jungle"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        45,
+        45,
+        45
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.50,
+        0.50,
+        0.50
+      ]
     }
+  }
 }

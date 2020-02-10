@@ -1,6 +1,6 @@
 {
-    "parent": "block/side_slab",
-    "textures": {
-        "side": "blocks/stone"
-    }
+  "parent": "block/side_slab",
+  "textures": {
+    "side": "block/stone"
+  }
 }

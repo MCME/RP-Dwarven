@@ -1,7 +1,7 @@
 {
-    "parent": "block/cross2",
-    "textures": {
-        "cross": "blocks/web6",
-	"cross2": "blocks/web6"
-    }
+  "parent": "block/cross2",
+  "textures": {
+    "cross": "block/web6",
+    "cross2": "block/web6"
+  }
 }

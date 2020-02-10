@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/hardened_clay_magenta/1"
+      },
+      {
+        "model": "block/hardened_clay_magenta/2"
+      },
+      {
+        "model": "block/hardened_clay_magenta/3"
+      }
+    ]
+  }
+}

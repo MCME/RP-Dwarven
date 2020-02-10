@@ -1,9 +1,7 @@
-{
-    "parent": "block/hook",
-    "textures": {
-
-        "hook": "blocks/models/m_hook",
-        "particle": "blocks/models/m_hook"
-
-    }
+{
+  "parent": "block/hook",
+  "textures": {
+    "hook": "block/models/m_hook",
+    "particle": "block/models/m_hook"
+  }
 }

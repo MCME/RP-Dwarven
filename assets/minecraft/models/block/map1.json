@@ -1,6 +1,6 @@
 {
-    "parent": "block/flat",
-    "textures": {
-        "top": "blocks/models/map1"
-    }
+  "parent": "block/flat",
+  "textures": {
+    "top": "block/models/map1"
+  }
 }

@@ -1,7 +1,7 @@
 {
-    "parent": "block/floor",
-    "textures": {
-        "particle": "blocks/models/mozaict2",
-        "floor": "blocks/models/mozaict2"
-    }
+  "parent": "block/floor",
+  "textures": {
+    "particle": "block/models/mozaict2",
+    "floor": "block/models/mozaict2"
+  }
 }

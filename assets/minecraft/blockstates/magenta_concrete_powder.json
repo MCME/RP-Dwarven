@@ -1,14 +1,31 @@
 {
-    "variants": {
-        "normal": [
-            { "model": "concrete_powder/magenta/1","weight": 10  },
-	    { "model": "concrete_powder/magenta/2" },
-	    { "model": "concrete_powder/magenta/3" },
-	    { "model": "concrete_powder/magenta/4" },
-	    { "model": "concrete_powder/magenta/5" },
-	    { "model": "concrete_powder/magenta/6" },
-	    { "model": "concrete_powder/magenta/7" },
-	    { "model": "concrete_powder/magenta/8" }
-        ]
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/concrete_powder/magenta/1",
+        "weight": 10
+      },
+      {
+        "model": "block/concrete_powder/magenta/2"
+      },
+      {
+        "model": "block/concrete_powder/magenta/3"
+      },
+      {
+        "model": "block/concrete_powder/magenta/4"
+      },
+      {
+        "model": "block/concrete_powder/magenta/5"
+      },
+      {
+        "model": "block/concrete_powder/magenta/6"
+      },
+      {
+        "model": "block/concrete_powder/magenta/7"
+      },
+      {
+        "model": "block/concrete_powder/magenta/8"
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "parent": "block/flat",
-    "textures": {
-        "top": "blocks/models/plate3"
-    }
+  "parent": "block/flat",
+  "textures": {
+    "top": "block/models/plate3"
+  }
 }

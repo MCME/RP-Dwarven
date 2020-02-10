@@ -1,10 +1,10 @@
 {
-    "parent": "block/rope_reel",    
-    "textures": {
-        "wooden": "blocks/models/m_planks_oak",
-        "mount": "blocks/models/m_mount",
-        "rope": "blocks/models/m_rope_block",
-        "side": "blocks/models/m_side",
-	"particle": "blocks/models/m_planks_oak"
-    }
+  "parent": "block/rope_reel",
+  "textures": {
+    "wooden": "block/models/m_planks_oak",
+    "mount": "block/models/m_mount",
+    "rope": "block/models/m_rope_block",
+    "side": "block/models/m_side",
+    "particle": "block/models/m_planks_oak"
+  }
 }

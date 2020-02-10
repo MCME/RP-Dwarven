@@ -1,66 +1,379 @@
-{
-    "ambientocclusion": true,
-    "elements": [
-        {
-            "from": [ 8.53, 12.44, 1.25 ],
-            "to": [ 17.53, 16.04, 14.75 ],
-            "faces": {
-                "west": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "north": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "east": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "south": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "down": { "uv": [ 1.0, 1.0, 15.0, 15.0 ], "texture": "#base", "rotation": 90 },
-                "up": { "uv": [ 1.0, 1.0, 15.0, 15.0 ], "texture": "#base", "rotation": 270 }
-            }
-        },
-        {
-            "from": [ 9.51, 2.39, 2.78 ],
-            "to": [ 13.89, 12.83, 13.22 ],
-            "faces": {
-                "west": { "uv": [ 1.0, 0.0, 15.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "north": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "east": { "uv": [ 1.0, 0.0, 15.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "south": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "down": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 90 },
-                "up": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 270 }
-            }
-        },
-        {
-            "from": [ -1.5, 12.44, 1.25 ],
-            "to": [ 7.5, 16.04, 14.75 ],
-            "faces": {
-                "west": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "north": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "east": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "south": { "uv": [ 1.0, 0.0, 15.0, 6.0 ], "texture": "#base", "rotation": 180 },
-                "down": { "uv": [ 1.0, 1.0, 15.0, 15.0 ], "texture": "#base", "rotation": 90 },
-                "up": { "uv": [ 1.0, 1.0, 15.0, 15.0 ], "texture": "#base", "rotation": 270 }
-            }
-        },
-        {
-            "from": [ 1.79, 2.39, 2.78 ],
-            "to": [ 6.17, 12.83, 13.22 ],
-            "faces": {
-                "west": { "uv": [ 1.0, 0.0, 15.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "north": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "east": { "uv": [ 1.0, 0.0, 15.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "south": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 180 },
-                "down": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 90 },
-                "up": { "uv": [ 4.0, 0.0, 12.0, 16.0 ], "texture": "#base", "rotation": 270 }
-            }
-        },
-        {
-            "from": [ 1.14, 0.04, 1.14 ],
-            "to": [ 14.86, 2.46, 14.86 ],
-            "faces": {
-                "west": { "uv": [ 16.0, 14.0, 0.0, 16.0 ], "texture": "#base", "rotation": 0 },
-                "north": { "uv": [ 16.0, 14.0, 0.0, 16.0 ], "texture": "#base", "rotation": 0 },
-                "east": { "uv": [ 16.0, 14.0, 0.0, 16.0 ], "texture": "#base", "rotation": 0 },
-                "south": { "uv": [ 16.0, 14.0, 0.0, 16.0 ], "texture": "#base", "rotation": 0 },
-                "down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#base", "rotation": 90 },
-                "up": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#base", "rotation": 270 }
-            }
-        }
-    ],
-    "textures": {
-        "base": "blocks/anvil_base_dwarven_2",                "particle": "blocks/anvil_base_dwarven_2"    }}
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "from": [
+        8.53,
+        12.44,
+        1.25
+      ],
+      "to": [
+        17.53,
+        16.04,
+        14.75
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "south": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            1.0,
+            1.0,
+            15.0,
+            15.0
+          ],
+          "texture": "#base",
+          "rotation": 90
+        },
+        "up": {
+          "uv": [
+            1.0,
+            1.0,
+            15.0,
+            15.0
+          ],
+          "texture": "#base",
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "from": [
+        9.51,
+        2.39,
+        2.78
+      ],
+      "to": [
+        13.89,
+        12.83,
+        13.22
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 90
+        },
+        "up": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        12.44,
+        1.25
+      ],
+      "to": [
+        7.5,
+        16.04,
+        14.75
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "south": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            6.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            1.0,
+            1.0,
+            15.0,
+            15.0
+          ],
+          "texture": "#base",
+          "rotation": 90
+        },
+        "up": {
+          "uv": [
+            1.0,
+            1.0,
+            15.0,
+            15.0
+          ],
+          "texture": "#base",
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "from": [
+        1.79,
+        2.39,
+        2.78
+      ],
+      "to": [
+        6.17,
+        12.83,
+        13.22
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            1.0,
+            0.0,
+            15.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 90
+        },
+        "up": {
+          "uv": [
+            4.0,
+            0.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "from": [
+        1.14,
+        0.04,
+        1.14
+      ],
+      "to": [
+        14.86,
+        2.46,
+        14.86
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            16.0,
+            14.0,
+            0.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            16.0,
+            14.0,
+            0.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            16.0,
+            14.0,
+            0.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            16.0,
+            14.0,
+            0.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 0
+        },
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 90
+        },
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ],
+          "texture": "#base",
+          "rotation": 270
+        }
+      }
+    }
+  ],
+  "textures": {
+    "base": "block/anvil_base_dwarven_2",
+    "particle": "block/anvil_base_dwarven_2"
+  }
+}

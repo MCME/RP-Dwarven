@@ -1,6 +1,10 @@
 {
-    "variants": {
-        "stage=0": { "model": "claw" },
-        "stage=1": { "model": "birch_sapling" }
+  "variants": {
+    "stage\u003d0": {
+      "model": "block/claw"
+    },
+    "stage\u003d1": {
+      "model": "block/birch_sapling"
     }
+  }
 }

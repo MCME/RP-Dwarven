@@ -1,8 +1,13 @@
 {
-    "variants": {
-	"normal": [
-        { "model": "oak_leaves" },
-	{ "model": "oak_leaves2", "weight": 8}
-	]
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/oak_leaves"
+      },
+      {
+        "model": "block/oak_leaves2",
+        "weight": 8
+      }
+    ]
+  }
 }
