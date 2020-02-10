@@ -1,7 +1,7 @@
 {
-    "parent": "block/cross",
-    "textures": {
-        "cross": "blocks/models/bag4",
-	"particle": "blocks/models/bag4"
-    }
+  "parent": "block/cross",
+  "textures": {
+    "cross": "block/models/bag4",
+    "particle": "block/models/bag4"
+  }
 }

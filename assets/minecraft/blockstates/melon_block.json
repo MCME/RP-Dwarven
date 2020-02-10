@@ -1,12 +1,21 @@
 {
-    "variants": {
-        "normal": 
-	    [
-	    { "model": "shelf1" },
-	    { "model": "shelf2" },
-	    { "model": "shelf3" },
-	    { "model": "shelf4" },
-	    { "model": "shelf5" }
-	    ]
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/shelf1"
+      },
+      {
+        "model": "block/shelf2"
+      },
+      {
+        "model": "block/shelf3"
+      },
+      {
+        "model": "block/shelf4"
+      },
+      {
+        "model": "block/shelf5"
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "parent": "block/wall_post",
-    "textures": {
-        "wall": "blocks/stone/1"
-    }
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "block/stone/1"
+  }
 }

@@ -1,12 +1,24 @@
 {
-    "variants": {
-        "stage=0": { "model": "chandelier" },
-        "stage=1": 
-	[
-	{ "model": "rack_arrows" },
-	{ "model": "rack_arrows", "y":90 },
-	{ "model": "rack_arrows", "y":180 },
-	{ "model": "rack_arrows", "y":270 }
-	]
-    }
+  "variants": {
+    "stage\u003d0": {
+      "model": "block/chandelier"
+    },
+    "stage\u003d1": [
+      {
+        "model": "block/rack_arrows"
+      },
+      {
+        "model": "block/rack_arrows",
+        "y": 90
+      },
+      {
+        "model": "block/rack_arrows",
+        "y": 180
+      },
+      {
+        "model": "block/rack_arrows",
+        "y": 270
+      }
+    ]
+  }
 }

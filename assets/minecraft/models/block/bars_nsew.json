@@ -1,55 +1,158 @@
-{
-    "ambientocclusion": false,
-    "elements": [
-        {
-
-            "from": [ 7, 0, 7],
-
-            "to": [ 9, 16, 9],
-
-            "faces": {
-
-                "west": { "uv": [ 0.0, 0.0, 2, 16.0 ], "texture": "#rope", "rotation": 0 },
-
-                "north": { "uv": [ 0, 0.0, 2, 16 ], "texture": "#rope", "rotation": 180 },
-
-                "east": { "uv": [ 0.0, 0.0, 2, 16.0 ], "texture": "#rope", "rotation": 0 },
-
-                "south": { "uv": [ 0, 0.0, 2, 16 ], "texture": "#rope", "rotation": 180 },
-
-                "down": { "uv": [ 3, 0, 4, 2 ], "texture": "#rope", "rotation": 180 },
-
-                "up": { "uv": [ 3, 0.0, 4, 2 ], "texture": "#rope", "rotation": 0 }
-
-            }
+{
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            16.0
+          ],
+          "texture": "#rope",
+          "rotation": 0
         },
-        {
-
-            "from": [ 7, 16, 7],
-
-            "to": [ 9, 24, 9],
-
-            "faces": {
-
-                "west": { "uv": [ 0.0, 0.0, 2, 8.0 ], "texture": "#rope", "rotation": 0 },
-
-                "north": { "uv": [ 0, 0.0, 2, 8 ], "texture": "#rope", "rotation": 180 },
-
-                "east": { "uv": [ 0.0, 0.0, 2, 8.0 ], "texture": "#rope", "rotation": 0 },
-
-                "south": { "uv": [ 0, 0.0, 2, 8 ], "texture": "#rope", "rotation": 180 },
-
-                "down": { "uv": [ 3, 0, 4, 2 ], "texture": "#rope", "rotation": 0 },
-
-                "up": { "uv": [ 3, 0.0, 4, 2 ], "texture": "#rope", "rotation": 0 }
-
-            }
-
-        }
-    ],
-    "textures": {
-        "rope": "blocks/models/steel_rope",
-        "rope_m": "blocks/models/steel_rope_mount",
-        "particle": "blocks/models/steel_rope"
-    }
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            2,
+            16
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            16.0
+          ],
+          "texture": "#rope",
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            2,
+            16
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            3,
+            0,
+            4,
+            2
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            3,
+            0.0,
+            4,
+            2
+          ],
+          "texture": "#rope",
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        16,
+        7
+      ],
+      "to": [
+        9,
+        24,
+        9
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            8.0
+          ],
+          "texture": "#rope",
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            2,
+            8
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            8.0
+          ],
+          "texture": "#rope",
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            2,
+            8
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            3,
+            0,
+            4,
+            2
+          ],
+          "texture": "#rope",
+          "rotation": 0
+        },
+        "up": {
+          "uv": [
+            3,
+            0.0,
+            4,
+            2
+          ],
+          "texture": "#rope",
+          "rotation": 0
+        }
+      }
+    }
+  ],
+  "textures": {
+    "rope": "block/models/steel_rope",
+    "rope_m": "block/models/steel_rope_mount",
+    "particle": "block/models/steel_rope"
+  }
 }

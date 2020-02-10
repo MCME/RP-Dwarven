@@ -1,8 +1,8 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "blocks/models/logs_small_top",
-	 "side": "blocks/models/logs_small",
-	"particle": "blocks/models/logs_small_top"
-    }
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/models/logs_small_top",
+    "side": "block/models/logs_small",
+    "particle": "block/models/logs_small_top"
+  }
 }

@@ -1,8 +1,8 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "blocks/planks_oak",
-	 "side": "blocks/models/shelf5",
-	"particle": "blocks/models/shelf5"
-    }
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/oak_planks",
+    "side": "block/models/shelf5",
+    "particle": "block/models/shelf5"
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "parent": "block/jar_small",
-    "textures": {
-        "jar": "blocks/models/jar3"
-    }
+  "parent": "block/jar_small",
+  "textures": {
+    "jar": "block/models/jar3"
+  }
 }

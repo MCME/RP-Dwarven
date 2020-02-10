@@ -1,6 +1,6 @@
 {
-    "parent": "block/flat4",
-    "textures": {
-        "side": "blocks/red_sandstone"
-    }
+  "parent": "block/flat4",
+  "textures": {
+    "side": "block/red_sandstone"
+  }
 }

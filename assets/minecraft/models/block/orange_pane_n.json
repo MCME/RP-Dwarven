@@ -1,7 +1,7 @@
 {
-    "parent": "block/deco_parent_n",
-    "textures": {
-        "base": "blocks/models/col_deco1",
-        "particle": "blocks/models/col_deco1"
-    }
+  "parent": "block/deco_parent_n",
+  "textures": {
+    "base": "block/models/col_deco1",
+    "particle": "block/models/col_deco1"
+  }
 }

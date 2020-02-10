@@ -1,6 +1,10 @@
 {
-    "variants": {
-        "stage=0": { "model": "lamp" },
-        "stage=1": { "model": "oak_sapling" }
+  "variants": {
+    "stage\u003d0": {
+      "model": "block/lamp"
+    },
+    "stage\u003d1": {
+      "model": "block/oak_sapling"
     }
+  }
 }

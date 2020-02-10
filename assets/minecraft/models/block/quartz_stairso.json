@@ -1,10 +1,9 @@
 {
-    "parent": "block/model_flat_stairs",
-    "textures": {
-        "bottom": "blocks/quartz_block_bottom",
-        "top": "blocks/quartz_invisible",
-        "side": "blocks/quartz_stairs_side",
-        "particle": "blocks/quartz_block_bottom"
-
-    }
+  "parent": "block/model_flat_stairs",
+  "textures": {
+    "bottom": "block/quartz_block_bottom",
+    "top": "block/quartz_invisible",
+    "side": "block/quartz_stairs_side",
+    "particle": "block/quartz_block_bottom"
+  }
 }

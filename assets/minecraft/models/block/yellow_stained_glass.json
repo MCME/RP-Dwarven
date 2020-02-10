@@ -1,0 +1,25 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block/sandstone_bottom"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        45,
+        45,
+        45
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.50,
+        0.50,
+        0.50
+      ]
+    }
+  }
+}

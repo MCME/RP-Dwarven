@@ -1,6 +1,6 @@
 {
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "blocks/gems/2"
-    }
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block/gems/2"
+  }
 }

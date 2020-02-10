@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/cabinet1"
+      },
+      {
+        "model": "block/cabinet2"
+      },
+      {
+        "model": "block/cabinet3"
+      },
+      {
+        "model": "block/cabinet4"
+      },
+      {
+        "model": "block/cabinet5"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
-    "parent": "block/cross",
-    "textures": {
-        "cross": "blocks/web3"
-    }
+  "parent": "block/cross",
+  "textures": {
+    "cross": "block/web3"
+  }
 }

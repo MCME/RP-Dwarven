@@ -1,8 +1,8 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "blocks/models/column1_top",
-	 "side": "blocks/models/column1",
-	"particle": "blocks/models/column1"
-    }
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/models/column1_top",
+    "side": "block/models/column1",
+    "particle": "block/models/column1"
+  }
 }

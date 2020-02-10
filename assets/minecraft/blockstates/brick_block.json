@@ -1,8 +1,13 @@
 {
-    "variants": {
-        "normal": [
-        { "model": "brick", "weight":10 },
-        { "model": "brick_cracked" }
-        ]
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/bricks",
+        "weight": 10
+      },
+      {
+        "model": "block/brick_cracked"
+      }
+    ]
+  }
 }

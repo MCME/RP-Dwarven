@@ -1,5 +1,7 @@
 {
-    "variants": {
-        "normal": { "model": "command_block" }
+  "variants": {
+    "": {
+      "model": "block/command_block"
     }
+  }
 }

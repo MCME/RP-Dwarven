@@ -1,92 +1,309 @@
 {
-    "variants": {
-        "age=0": [
-	    { "model": "box1" },
-	    { "model": "box1", "y": 90 },
-	    { "model": "box1", "y": 180 },
-	    { "model": "box1", "y": 270 },
-	    { "model": "box2" },
-	    { "model": "box2", "y": 90 },
-	    { "model": "box2", "y": 180 },
-	    { "model": "box2", "y": 270 },
-	    { "model": "box3" },
-	    { "model": "box3", "y": 90 },
-	    { "model": "box3", "y": 180 },
-	    { "model": "box3", "y": 270 },
-	    { "model": "box4" },
-	    { "model": "box4", "y": 90 },
-	    { "model": "box4", "y": 180 },
-	    { "model": "box4", "y": 270 },
-	    { "model": "box5" },
-	    { "model": "box5", "y": 90 },
-	    { "model": "box5", "y": 180 },
-	    { "model": "box5", "y": 270 },
-	    { "model": "box6" },
-	    { "model": "box6", "y": 90 },
-	    { "model": "box6", "y": 180 },
-	    { "model": "box6", "y": 270 },
-	    { "model": "box7" },
-	    { "model": "box7", "y": 90 },
-	    { "model": "box7", "y": 180 },
-	    { "model": "box7", "y": 270 },
-	    { "model": "box8" },
-	    { "model": "box8", "y": 90 },
-	    { "model": "box8", "y": 180 },
-	    { "model": "box8", "y": 270 },
-	    { "model": "box9" },
-	    { "model": "box9", "y": 90 },
-	    { "model": "box9", "y": 180 },
-	    { "model": "box9", "y": 270 },
-	    { "model": "box10" },
-	    { "model": "box10", "y": 90 },
-	    { "model": "box10", "y": 180 },
-	    { "model": "box10", "y": 270 }
-	    ],
-        "age=1": [
-	    { "model": "paper1" },
-	    { "model": "paper1", "y": 90 },
-	    { "model": "paper1", "y": 180 },
-	    { "model": "paper1", "y": 270 },
-	    { "model": "paper2" },
-	    { "model": "paper2", "y": 90 },
-	    { "model": "paper2", "y": 180 },
-	    { "model": "paper2", "y": 270 },
-	    { "model": "paper3" },
-	    { "model": "paper3", "y": 90 },
-	    { "model": "paper3", "y": 180 },
-	    { "model": "paper3", "y": 270 },
-	    { "model": "paper4" },
-	    { "model": "paper4", "y": 90 },
-	    { "model": "paper4", "y": 180 },
-	    { "model": "paper4", "y": 270 },
-	    { "model": "paper5" },
-	    { "model": "paper5", "y": 90 },
-	    { "model": "paper5", "y": 180 },
-	    { "model": "paper5", "y": 270 }
-	    ],
-        "age=2": [
-	     { "model": "map1" },
-	    { "model": "map1", "y": 90 },
-	    { "model": "map1", "y": 180 },
-	    { "model": "map1", "y": 270 },
-	     { "model": "map2" },
-	    { "model": "map2", "y": 90 },
-	    { "model": "map2", "y": 180 },
-	    { "model": "map2", "y": 270 }
-	    ],
-        "age=3": [
-	     { "model": "skin1" },
-	    { "model": "skin1", "y": 90 },
-	    { "model": "skin1", "y": 180 },
-	    { "model": "skin1", "y": 270 },
-	     { "model": "skin2" },
-	    { "model": "skin2", "y": 90 },
-	    { "model": "skin2", "y": 180 },
-	    { "model": "skin2", "y": 270 }
-	    ],
-        "age=4": { "model": "scale" },
-        "age=5": { "model": "carrots_stage2" },
-        "age=6": { "model": "carrots_stage2" },
-        "age=7": { "model": "carrots_stage3" }
+  "variants": {
+    "age\u003d0": [
+      {
+        "model": "block/box1"
+      },
+      {
+        "model": "block/box1",
+        "y": 90
+      },
+      {
+        "model": "block/box1",
+        "y": 180
+      },
+      {
+        "model": "block/box1",
+        "y": 270
+      },
+      {
+        "model": "block/box2"
+      },
+      {
+        "model": "block/box2",
+        "y": 90
+      },
+      {
+        "model": "block/box2",
+        "y": 180
+      },
+      {
+        "model": "block/box2",
+        "y": 270
+      },
+      {
+        "model": "block/box3"
+      },
+      {
+        "model": "block/box3",
+        "y": 90
+      },
+      {
+        "model": "block/box3",
+        "y": 180
+      },
+      {
+        "model": "block/box3",
+        "y": 270
+      },
+      {
+        "model": "block/box4"
+      },
+      {
+        "model": "block/box4",
+        "y": 90
+      },
+      {
+        "model": "block/box4",
+        "y": 180
+      },
+      {
+        "model": "block/box4",
+        "y": 270
+      },
+      {
+        "model": "block/box5"
+      },
+      {
+        "model": "block/box5",
+        "y": 90
+      },
+      {
+        "model": "block/box5",
+        "y": 180
+      },
+      {
+        "model": "block/box5",
+        "y": 270
+      },
+      {
+        "model": "block/box6"
+      },
+      {
+        "model": "block/box6",
+        "y": 90
+      },
+      {
+        "model": "block/box6",
+        "y": 180
+      },
+      {
+        "model": "block/box6",
+        "y": 270
+      },
+      {
+        "model": "block/box7"
+      },
+      {
+        "model": "block/box7",
+        "y": 90
+      },
+      {
+        "model": "block/box7",
+        "y": 180
+      },
+      {
+        "model": "block/box7",
+        "y": 270
+      },
+      {
+        "model": "block/box8"
+      },
+      {
+        "model": "block/box8",
+        "y": 90
+      },
+      {
+        "model": "block/box8",
+        "y": 180
+      },
+      {
+        "model": "block/box8",
+        "y": 270
+      },
+      {
+        "model": "block/box9"
+      },
+      {
+        "model": "block/box9",
+        "y": 90
+      },
+      {
+        "model": "block/box9",
+        "y": 180
+      },
+      {
+        "model": "block/box9",
+        "y": 270
+      },
+      {
+        "model": "block/box10"
+      },
+      {
+        "model": "block/box10",
+        "y": 90
+      },
+      {
+        "model": "block/box10",
+        "y": 180
+      },
+      {
+        "model": "block/box10",
+        "y": 270
+      }
+    ],
+    "age\u003d1": [
+      {
+        "model": "block/paper1"
+      },
+      {
+        "model": "block/paper1",
+        "y": 90
+      },
+      {
+        "model": "block/paper1",
+        "y": 180
+      },
+      {
+        "model": "block/paper1",
+        "y": 270
+      },
+      {
+        "model": "block/paper2"
+      },
+      {
+        "model": "block/paper2",
+        "y": 90
+      },
+      {
+        "model": "block/paper2",
+        "y": 180
+      },
+      {
+        "model": "block/paper2",
+        "y": 270
+      },
+      {
+        "model": "block/paper3"
+      },
+      {
+        "model": "block/paper3",
+        "y": 90
+      },
+      {
+        "model": "block/paper3",
+        "y": 180
+      },
+      {
+        "model": "block/paper3",
+        "y": 270
+      },
+      {
+        "model": "block/paper4"
+      },
+      {
+        "model": "block/paper4",
+        "y": 90
+      },
+      {
+        "model": "block/paper4",
+        "y": 180
+      },
+      {
+        "model": "block/paper4",
+        "y": 270
+      },
+      {
+        "model": "block/paper5"
+      },
+      {
+        "model": "block/paper5",
+        "y": 90
+      },
+      {
+        "model": "block/paper5",
+        "y": 180
+      },
+      {
+        "model": "block/paper5",
+        "y": 270
+      }
+    ],
+    "age\u003d2": [
+      {
+        "model": "block/map1"
+      },
+      {
+        "model": "block/map1",
+        "y": 90
+      },
+      {
+        "model": "block/map1",
+        "y": 180
+      },
+      {
+        "model": "block/map1",
+        "y": 270
+      },
+      {
+        "model": "block/map2"
+      },
+      {
+        "model": "block/map2",
+        "y": 90
+      },
+      {
+        "model": "block/map2",
+        "y": 180
+      },
+      {
+        "model": "block/map2",
+        "y": 270
+      }
+    ],
+    "age\u003d3": [
+      {
+        "model": "block/skin1"
+      },
+      {
+        "model": "block/skin1",
+        "y": 90
+      },
+      {
+        "model": "block/skin1",
+        "y": 180
+      },
+      {
+        "model": "block/skin1",
+        "y": 270
+      },
+      {
+        "model": "block/skin2"
+      },
+      {
+        "model": "block/skin2",
+        "y": 90
+      },
+      {
+        "model": "block/skin2",
+        "y": 180
+      },
+      {
+        "model": "block/skin2",
+        "y": 270
+      }
+    ],
+    "age\u003d4": {
+      "model": "block/scale"
+    },
+    "age\u003d5": {
+      "model": "block/carrots_stage2"
+    },
+    "age\u003d6": {
+      "model": "block/carrots_stage2"
+    },
+    "age\u003d7": {
+      "model": "block/carrots_stage3"
     }
+  }
 }

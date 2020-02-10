@@ -1,6 +1,6 @@
 {
-    "parent": "block/megafence_ns",
-    "textures": {
-	"texture": "blocks/models/fence_acacia"
-    }
+  "parent": "block/megafence_ns",
+  "textures": {
+    "texture": "block/models/fence_acacia"
+  }
 }

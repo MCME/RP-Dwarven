@@ -1,6 +1,6 @@
 {
-    "parent": "block/flat4",
-    "textures": {
-        "side": "blocks/nether_brick"
-    }
+  "parent": "block/flat4",
+  "textures": {
+    "side": "block/nether_bricks"
+  }
 }
