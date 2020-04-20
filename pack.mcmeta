@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 4,
-    "description": "MCME Dwarven 1.1 snapshot 6"
+    "pack_format": 5,
+    "description": "MCME Dwarven 1.1"
   },
   "meta": {
-    "game_version": "1.14"
+    "game_version": "1.15"
   }
 }

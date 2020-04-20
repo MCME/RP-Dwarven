@@ -1,5 +1,5 @@
-# RP-Moria
-The official repository for MCME's Moria pack.
+# RP-Dwarven
+The official repository for MCME's Dwarven pack.
 Created by members of the Minecraft Middle-Earth community.
 
 THIS IS A RESOURCEPACK IN DEVELOPMENT AND THEREFORE SHOULD NOT BE DOWNLOADED AND USED ON OUR SERVERS.
