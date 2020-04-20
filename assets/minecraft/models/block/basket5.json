@@ -1,6 +1,6 @@
 {
-    "parent": "block/basket",
-    "textures": {
-        "filling": "blocks/models/m_cucumber"
-    }
+  "parent": "block/basket",
+  "textures": {
+    "filling": "block/models/m_cucumber"
+  }
 }

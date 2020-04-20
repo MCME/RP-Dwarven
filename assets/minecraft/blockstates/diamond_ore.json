@@ -1,11 +1,21 @@
 {
-    "variants": {
-        "normal": [
-        { "model": "mithril_ore/1" },
-        { "model": "mithril_ore/2" },
-        { "model": "mithril_ore/3" },
-        { "model": "mithril_ore/4" },
-        { "model": "mithril_ore/5" }
-        ]
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/mithril_ore/1"
+      },
+      {
+        "model": "block/mithril_ore/2"
+      },
+      {
+        "model": "block/mithril_ore/3"
+      },
+      {
+        "model": "block/mithril_ore/4"
+      },
+      {
+        "model": "block/mithril_ore/5"
+      }
+    ]
+  }
 }

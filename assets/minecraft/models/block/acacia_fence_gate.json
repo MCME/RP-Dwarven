@@ -1,0 +1,6 @@
+{
+  "parent": "block/megafence_gate_closed",
+  "textures": {
+    "texture": "block/models/fence_acacia"
+  }
+}

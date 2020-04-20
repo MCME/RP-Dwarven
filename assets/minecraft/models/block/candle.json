@@ -1,7 +1,7 @@
 {
-    "parent": "block/cross",
-    "textures": {
-        "cross": "blocks/models/candle",
-	"particle": "blocks/models/candle"
-    }
+  "parent": "block/cross",
+  "textures": {
+    "cross": "block/models/candle",
+    "particle": "block/models/candle"
+  }
 }

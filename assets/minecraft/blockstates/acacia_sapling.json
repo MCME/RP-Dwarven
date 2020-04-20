@@ -1,12 +1,24 @@
 {
-    "variants": {
-        "stage=0": { "model": "reel" },
-        "stage=1": 
-	[
-	{ "model": "rack_spears" },
-	{ "model": "rack_spears", "y":90 },
-	{ "model": "rack_spears", "y":180 },
-	{ "model": "rack_spears", "y":270 }
-	]
-    }
+  "variants": {
+    "stage\u003d0": {
+      "model": "block/reel"
+    },
+    "stage\u003d1": [
+      {
+        "model": "block/rack_spears"
+      },
+      {
+        "model": "block/rack_spears",
+        "y": 90
+      },
+      {
+        "model": "block/rack_spears",
+        "y": 180
+      },
+      {
+        "model": "block/rack_spears",
+        "y": 270
+      }
+    ]
+  }
 }

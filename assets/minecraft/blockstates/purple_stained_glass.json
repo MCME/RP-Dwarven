@@ -1,5 +1,7 @@
 {
-    "variants": {
-        "normal": { "model": "glass_purple" }
+  "variants": {
+    "": {
+      "model": "block/purple_stained_glass"
     }
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "parent": "block/wall_post",
-    "textures": {
-        "wall": "blocks/models/col_deco3"
-    }
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "block/models/col_deco3"
+  }
 }

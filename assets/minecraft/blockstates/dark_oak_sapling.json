@@ -1,12 +1,24 @@
 {
-    "variants": {
-        "stage=0": { "model": "candle" },
-        "stage=1": 
-	[
-	{ "model": "rack_weapons" },
-	{ "model": "rack_weapons", "y":90 },
-	{ "model": "rack_weapons", "y":180 },
-	{ "model": "rack_weapons", "y":270 }
-	]
-    }
+  "variants": {
+    "stage\u003d0": {
+      "model": "block/candle"
+    },
+    "stage\u003d1": [
+      {
+        "model": "block/rack_weapons"
+      },
+      {
+        "model": "block/rack_weapons",
+        "y": 90
+      },
+      {
+        "model": "block/rack_weapons",
+        "y": 180
+      },
+      {
+        "model": "block/rack_weapons",
+        "y": 270
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "parent": "block/redstone_torch_model_wall",
-    "textures": {
-        "redstone_torch_off": "blocks/models/m_redstone_torch_on"
-    }
+  "parent": "block/redstone_torch_model_wall",
+  "textures": {
+    "redstone_torch_off": "block/models/m_redstone_torch_on"
+  }
 }

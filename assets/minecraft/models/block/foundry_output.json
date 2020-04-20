@@ -1,8 +1,8 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "blocks/models/foundry_top",
-	 "side": "blocks/models/foundry_output",
-	"particle": "blocks/models/foundry_output"
-    }
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/models/foundry_top",
+    "side": "block/models/foundry_output",
+    "particle": "block/models/foundry_output"
+  }
 }

@@ -1,6 +1,13 @@
 {
-    "variants": {
-        "half=bottom": { "model": "half_slab_quartz" },
-        "half=top": { "model": "upper_slab_quartz" }
+  "variants": {
+    "type\u003dbottom": {
+      "model": "block/quartz_slab"
+    },
+    "type\u003dtop": {
+      "model": "block/quartz_slab_top"
+    },
+    "type\u003ddouble": {
+      "model": "block/quartz_block"
     }
+  }
 }

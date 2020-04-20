@@ -1,8 +1,42 @@
 {
-    "variants": {
-        "facing=south": [{ "model": "terra/magenta/1" },{ "model": "terra/magenta/2" }],
-        "facing=west": [{ "model": "terra/magenta/1", "y": 90 },{ "model": "terra/magenta/2", "y": 90 }],
-        "facing=north": [{ "model": "terra/magenta/1", "y": 180 },{ "model": "terra/magenta/2", "y": 180 }],
-        "facing=east": [{ "model": "terra/magenta/1", "y": 270 },{ "model": "terra/magenta/2", "y": 270 }]
-    }
+  "variants": {
+    "facing\u003dsouth": [
+      {
+        "model": "block/terra/magenta/1"
+      },
+      {
+        "model": "block/terra/magenta/2"
+      }
+    ],
+    "facing\u003dwest": [
+      {
+        "model": "block/terra/magenta/1",
+        "y": 90
+      },
+      {
+        "model": "block/terra/magenta/2",
+        "y": 90
+      }
+    ],
+    "facing\u003dnorth": [
+      {
+        "model": "block/terra/magenta/1",
+        "y": 180
+      },
+      {
+        "model": "block/terra/magenta/2",
+        "y": 180
+      }
+    ],
+    "facing\u003deast": [
+      {
+        "model": "block/terra/magenta/1",
+        "y": 270
+      },
+      {
+        "model": "block/terra/magenta/2",
+        "y": 270
+      }
+    ]
+  }
 }

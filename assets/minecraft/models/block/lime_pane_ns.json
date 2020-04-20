@@ -1,7 +1,7 @@
 {
-    "parent": "block/pane_ns",
-    "textures": {
-        "edge": "blocks/models/col_deco5_top",
-        "pane": "blocks/models/col_deco5"
-    }
+  "parent": "block/pane_ns",
+  "textures": {
+    "edge": "block/models/col_deco5_top",
+    "pane": "block/models/col_deco5"
+  }
 }

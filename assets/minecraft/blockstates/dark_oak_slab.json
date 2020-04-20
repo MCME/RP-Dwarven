@@ -1,6 +1,13 @@
 {
-    "variants": {
-        "half=bottom": { "model": "half_slab_dark_oak" },
-        "half=top": { "model": "upper_slab_dark_oak" }
+  "variants": {
+    "type\u003dbottom": {
+      "model": "block/dark_oak_slab"
+    },
+    "type\u003dtop": {
+      "model": "block/dark_oak_slab_top"
+    },
+    "type\u003ddouble": {
+      "model": "block/dark_oak_planks"
     }
+  }
 }

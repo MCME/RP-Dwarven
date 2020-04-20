@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "facing\u003dsouth,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/flat4_1"
+    },
+    "facing\u003dwest,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/flat4_2"
+    },
+    "facing\u003dnorth,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/flat4_3"
+    },
+    "facing\u003deast,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/flat4_4"
+    },
+    "facing\u003dsouth,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/flat4_5"
+    },
+    "facing\u003dwest,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/flat4_6"
+    },
+    "facing\u003dnorth,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/flat4_7"
+    },
+    "facing\u003deast,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/flat4_8"
+    },
+    "facing\u003dsouth,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/flat4_9"
+    },
+    "facing\u003dwest,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/flat4_10"
+    },
+    "facing\u003dnorth,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/comparator_on",
+      "y": 180
+    },
+    "facing\u003deast,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/comparator_on",
+      "y": 270
+    },
+    "facing\u003dsouth,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_on_subtract"
+    },
+    "facing\u003dwest,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_on_subtract",
+      "y": 90
+    },
+    "facing\u003dnorth,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_on_subtract",
+      "y": 180
+    },
+    "facing\u003deast,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_on_subtract",
+      "y": 270
+    }
+  }
+}

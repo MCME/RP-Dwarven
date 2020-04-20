@@ -1,6 +1,6 @@
 {
-    "parent": "block/side_stairs",
-    "textures": {
-        "side": "blocks/stone"
-    }
+  "parent": "block/side_stairs",
+  "textures": {
+    "side": "block/stone"
+  }
 }
