@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/infested_cobblestone_top",
+    "side": "block/infested_cobblestone_front"
+  }
+}

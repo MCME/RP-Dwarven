@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/pink_tulip"
-    }
+    "": { "model": "block/pink_tulip" }
   }
 }

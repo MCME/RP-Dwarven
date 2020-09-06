@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "block/models/bag1",
-    "particle": "block/models/bag1"
-  }
-}

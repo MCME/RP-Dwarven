@@ -2210,6 +2210,14 @@
         "model": "block/aquewood_up",
         "y": 180
       }
+    },
+    {
+      "when": {
+        "power": "7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "block/unused_cross_0"
+      }
     }
   ]
 }

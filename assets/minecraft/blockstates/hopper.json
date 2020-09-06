@@ -1,22 +1,14 @@
 {
   "variants": {
-    "facing\u003ddown": {
-      "model": "block/hopper"
-    },
-    "facing\u003dnorth": {
-      "model": "block/hopper_side"
-    },
-    "facing\u003dsouth": {
-      "model": "block/hopper_side",
-      "y": 180
-    },
-    "facing\u003dwest": {
-      "model": "block/hopper_side",
-      "y": 270
-    },
-    "facing\u003deast": {
-      "model": "block/hopper_side",
-      "y": 90
-    }
+    "enabled=true,facing=down": { "model": "block/unused_cross_0" },
+    "enabled=true,facing=north": { "model": "block/unused_cross_0" },
+    "enabled=true,facing=south": { "model": "block/unused_cross_0" },
+    "enabled=true,facing=west": { "model": "block/unused_cross_0" },
+    "enabled=true,facing=east": { "model": "block/unused_cross_0" },
+    "enabled=false,facing=down": { "model": "block/unused_cross_0" },
+    "enabled=false,facing=north": { "model": "block/unused_cross_0" },
+    "enabled=false,facing=south": { "model": "block/unused_cross_0" },
+    "enabled=false,facing=west": { "model": "block/unused_cross_0" },
+    "enabled=false,facing=east": { "model": "block/unused_cross_0" }
   }
 }

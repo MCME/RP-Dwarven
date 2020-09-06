@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "waterlogged=false,bottom=false,distance=0": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=1": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=2": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=3": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=4": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=5": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=6": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=7": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=0": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=1": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=2": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=3": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=4": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=5": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=6": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=true,distance=7": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=0": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=1": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=2": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=3": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=4": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=5": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=6": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=false,distance=7": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=0": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=1": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=2": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=3": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=4": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=5": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=6": { "model": "block/unused_block" },
+    "waterlogged=true,bottom=true,distance=7": { "model": "block/unused_block" }
+  }
+}
+

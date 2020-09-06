@@ -1,0 +1,22 @@
+{
+  "parent": "block/rack",
+  "textures": {
+    "bottom": "block/acacia_sapling_1_0",
+    "m1": "block/acacia_sapling_1_0",
+    "m2": "block/acacia_sapling_1_0",
+    "m3": "block/acacia_sapling_1_0",
+    "m4": "block/acacia_sapling_1_0",
+    "m5": "block/acacia_sapling_1_0",
+    "m6": "block/acacia_sapling_1_0",
+    "m7": "block/acacia_sapling_1_0",
+    "m8": "block/acacia_sapling_1_0",
+    "t1": "block/acacia_sapling_1_1",
+    "t2": "block/acacia_sapling_1_2",
+    "t3": "block/acacia_sapling_1_3",
+    "t4": "block/acacia_sapling_1_2",
+    "t5": "block/acacia_sapling_1_1",
+    "t6": "block/acacia_sapling_1_2",
+    "t7": "block/acacia_sapling_1_3",
+    "t8": "block/acacia_sapling_1_2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/filling",
+  "textures": {
+    "side": "block/wheat_4_0"
+  }
+}

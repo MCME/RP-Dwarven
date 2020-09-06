@@ -1,9 +1,9 @@
 {
   "parent": "block/block",
   "textures": {
-    "particle": "block/models/piston_head_sticky_top",
-    "0": "block/models/piston_head_sticky_top",
-    "1": "block/models/piston_head_sticky_side",
+    "particle": "block/piston_head_sticky_top",
+    "0": "block/piston_head_sticky_top",
+    "1": "block/piston_head_sticky_side",
     "2": "block/oak_log"
   },
   "elements": [

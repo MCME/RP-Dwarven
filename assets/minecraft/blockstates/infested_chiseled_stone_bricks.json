@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/drawer_wood"
-    }
+    "": {"model": "block/infested_chiseled_stone_bricks"}
   }
 }

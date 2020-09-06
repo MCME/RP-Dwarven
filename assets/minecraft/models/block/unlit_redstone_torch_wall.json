@@ -1,6 +1,6 @@
 {
   "parent": "block/redstone_torch_model_wall",
   "textures": {
-    "redstone_torch_off": "block/models/m_redstone_torch_off"
+    "redstone_torch_off": "block/unlit_redstone_torch_wall"
   }
 }

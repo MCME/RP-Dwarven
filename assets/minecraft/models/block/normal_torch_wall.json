@@ -1,6 +1,6 @@
 {
-  "parent": "block/torch_wall",
+  "parent": "block/wall_torch",
   "textures": {
-    "torch": "block/models/orc_torch"
+    "torch": "block/torch"
   }
 }

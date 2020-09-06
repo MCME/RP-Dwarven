@@ -1,7 +1,18 @@
 {
   "variants": {
-    "": {
-      "model": "block/red_sandstone"
-    }
+    "": [
+      { "model": "block/red_sandstone" },
+      { "model": "block/red_sandstone", "x": 90, "z": 90 },
+      { "model": "block/red_sandstone", "x": 180, "z": 180 },
+      { "model": "block/red_sandstone", "x": 270, "z": 270 },
+      { "model": "block/red_sandstone1" },
+      { "model": "block/red_sandstone1", "x": 90, "z": 90 },
+      { "model": "block/red_sandstone1", "x": 180, "z": 180 },
+      { "model": "block/red_sandstone1", "x": 270, "z": 270 },
+      { "model": "block/red_sandstone2" },
+      { "model": "block/red_sandstone2", "x": 90, "z": 90 },
+      { "model": "block/red_sandstone2", "x": 180, "z": 180 },
+      { "model": "block/red_sandstone2", "x": 270, "z": 270 }
+    ]
   }
 }

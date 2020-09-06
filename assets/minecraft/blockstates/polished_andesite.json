@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {"model": "block/polished_andesite"},
+      {"model": "block/polished_andesite", "x": 90, "z": 90},
+      {"model": "block/polished_andesite", "x": 180, "z": 180},
+      {"model": "block/polished_andesite", "x": 270, "z": 270},
+      {"model": "block/polished_andesite1"},
+      {"model": "block/polished_andesite1", "x": 90, "z": 90},
+      { "model": "block/polished_andesite1", "x": 180, "z": 180},
+      {"model": "block/polished_andesite1", "x": 270, "z": 270}
+    ]
+  }
+}

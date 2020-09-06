@@ -1,76 +1,36 @@
 {
   "variants": {
-    "facing\u003dsouth,in_wall\u003dfalse,open\u003dfalse": {
-      "model": "block/birch_fence_gate"
-    },
-    "facing\u003dwest,in_wall\u003dfalse,open\u003dfalse": {
-      "model": "block/birch_fence_gate",
-      "y": 90,
-      "uvlock": true
-    },
-    "facing\u003dnorth,in_wall\u003dfalse,open\u003dfalse": {
-      "model": "block/birch_fence_gate",
-      "y": 180,
-      "uvlock": true
-    },
-    "facing\u003deast,in_wall\u003dfalse,open\u003dfalse": {
-      "model": "block/birch_fence_gate",
-      "y": 270,
-      "uvlock": true
-    },
-    "facing\u003dsouth,in_wall\u003dfalse,open\u003dtrue": {
-      "model": "block/birch_fence_gate_open"
-    },
-    "facing\u003dwest,in_wall\u003dfalse,open\u003dtrue": {
-      "model": "block/birch_fence_gate_open",
-      "y": 90,
-      "uvlock": true
-    },
-    "facing\u003dnorth,in_wall\u003dfalse,open\u003dtrue": {
-      "model": "block/birch_fence_gate_open",
-      "y": 180,
-      "uvlock": true
-    },
-    "facing\u003deast,in_wall\u003dfalse,open\u003dtrue": {
-      "model": "block/birch_fence_gate_open",
-      "y": 270,
-      "uvlock": true
-    },
-    "facing\u003dsouth,in_wall\u003dtrue,open\u003dfalse": {
-      "model": "block/birch_fence_gate_wall"
-    },
-    "facing\u003dwest,in_wall\u003dtrue,open\u003dfalse": {
-      "model": "block/birch_fence_gate_wall",
-      "y": 90,
-      "uvlock": true
-    },
-    "facing\u003dnorth,in_wall\u003dtrue,open\u003dfalse": {
-      "model": "block/birch_fence_gate_wall",
-      "y": 180,
-      "uvlock": true
-    },
-    "facing\u003deast,in_wall\u003dtrue,open\u003dfalse": {
-      "model": "block/birch_fence_gate_wall",
-      "y": 270,
-      "uvlock": true
-    },
-    "facing\u003dsouth,in_wall\u003dtrue,open\u003dtrue": {
-      "model": "block/birch_fence_gate_wall_open"
-    },
-    "facing\u003dwest,in_wall\u003dtrue,open\u003dtrue": {
-      "model": "block/birch_fence_gate_wall_open",
-      "y": 90,
-      "uvlock": true
-    },
-    "facing\u003dnorth,in_wall\u003dtrue,open\u003dtrue": {
-      "model": "block/birch_fence_gate_wall_open",
-      "y": 180,
-      "uvlock": true
-    },
-    "facing\u003deast,in_wall\u003dtrue,open\u003dtrue": {
-      "model": "block/birch_fence_gate_wall_open",
-      "y": 270,
-      "uvlock": true
-    }
+    "powered=false,facing=south,in_wall=false,open=false": { "model": "block/birch_fence_gate" },
+    "powered=false,facing=west,in_wall=false,open=false": { "model": "block/birch_fence_gate", "y": 90, "uvlock": true },
+    "powered=false,facing=north,in_wall=false,open=false": { "model": "block/birch_fence_gate", "y": 180, "uvlock": true },
+    "powered=false,facing=east,in_wall=false,open=false": { "model": "block/birch_fence_gate", "y": 270, "uvlock": true },
+    "powered=false,facing=south,in_wall=false,open=true": { "model": "block/birch_fence_gate_open" },
+    "powered=false,facing=west,in_wall=false,open=true": { "model": "block/birch_fence_gate_open", "y": 90, "uvlock": true },
+    "powered=false,facing=north,in_wall=false,open=true": { "model": "block/birch_fence_gate_open", "y": 180, "uvlock": true },
+    "powered=false,facing=east,in_wall=false,open=true": { "model": "block/birch_fence_gate_open", "y": 270, "uvlock": true },
+    "powered=false,facing=south,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall" },
+    "powered=false,facing=west,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall", "y": 90, "uvlock": true },
+    "powered=false,facing=north,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall", "y": 180, "uvlock": true },
+    "powered=false,facing=east,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall", "y": 270, "uvlock": true },
+    "powered=false,facing=south,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open" },
+    "powered=false,facing=west,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open", "y": 90, "uvlock": true },
+    "powered=false,facing=north,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open", "y": 180, "uvlock": true },
+    "powered=false,facing=east,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open", "y": 270, "uvlock": true },
+    "powered=true,facing=south,in_wall=false,open=false": { "model": "block/birch_fence_gate_powered" },
+    "powered=true,facing=west,in_wall=false,open=false": { "model": "block/birch_fence_gate_powered", "y": 90, "uvlock": true },
+    "powered=true,facing=north,in_wall=false,open=false": { "model": "block/birch_fence_gate_powered", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=false,open=false": { "model": "block/birch_fence_gate_powered", "y": 270, "uvlock": true },
+    "powered=true,facing=south,in_wall=false,open=true": { "model": "block/birch_fence_gate_open" },
+    "powered=true,facing=west,in_wall=false,open=true": { "model": "block/birch_fence_gate_open", "y": 90, "uvlock": true },
+    "powered=true,facing=north,in_wall=false,open=true": { "model": "block/birch_fence_gate_open", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=false,open=true": { "model": "block/birch_fence_gate_open", "y": 270, "uvlock": true },
+    "powered=true,facing=south,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall" },
+    "powered=true,facing=west,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall", "y": 90, "uvlock": true },
+    "powered=true,facing=north,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=true,open=false": { "model": "block/birch_fence_gate_wall", "y": 270, "uvlock": true },
+    "powered=true,facing=south,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open" },
+    "powered=true,facing=west,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open", "y": 90, "uvlock": true },
+    "powered=true,facing=north,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=true,open=true": { "model": "block/birch_fence_gate_wall_open", "y": 270, "uvlock": true }
   }
 }

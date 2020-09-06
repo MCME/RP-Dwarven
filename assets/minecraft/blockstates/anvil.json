@@ -1,69 +1,24 @@
 {
   "variants": {
-    "facing\u003dsouth": [
-      {
-        "model": "block/anvil_undamaged/1",
-        "weight": 3
-      },
-      {
-        "model": "block/anvil_undamaged/2",
-        "weight": 4
-      },
-      {
-        "model": "block/anvil_undamaged/3",
-        "weight": 7
-      }
+    "facing=south": [
+      { "model": "block/anvil", "weight": 7 },
+      { "model": "block/anvil1", "weight": 4 },
+      {  "model": "block/anvil2", "weight": 3 }
     ],
-    "facing\u003dwest": [
-      {
-        "model": "block/anvil_undamaged/1",
-        "y": 90,
-        "weight": 3
-      },
-      {
-        "model": "block/anvil_undamaged/2",
-        "y": 90,
-        "weight": 4
-      },
-      {
-        "model": "block/anvil_undamaged/3",
-        "y": 90,
-        "weight": 7
-      }
+    "facing=west": [
+      { "model": "block/anvil", "y": 90, "weight": 7 },
+      { "model": "block/anvil1", "y": 90, "weight": 4 },
+      { "model": "block/anvil2", "y": 90, "weight": 3 }
     ],
-    "facing\u003dnorth": [
-      {
-        "model": "block/anvil_undamaged/1",
-        "y": 180,
-        "weight": 3
-      },
-      {
-        "model": "block/anvil_undamaged/2",
-        "y": 180,
-        "weight": 4
-      },
-      {
-        "model": "block/anvil_undamaged/3",
-        "y": 180,
-        "weight": 7
-      }
+    "facing=north": [
+      { "model": "block/anvil", "y": 180, "weight": 7 },
+      { "model": "block/anvil1", "y": 180, "weight": 4 },
+      { "model": "block/anvil2", "y": 180, "weight": 3 }
     ],
-    "facing\u003deast": [
-      {
-        "model": "block/anvil_undamaged/1",
-        "y": 270,
-        "weight": 3
-      },
-      {
-        "model": "block/anvil_undamaged/2",
-        "y": 270,
-        "weight": 4
-      },
-      {
-        "model": "block/anvil_undamaged/3",
-        "y": 270,
-        "weight": 7
-      }
+    "facing=east": [
+      { "model": "block/anvil", "y": 270, "weight": 7 },
+      { "model": "block/anvil1", "y": 270, "weight": 4 },
+      { "model": "block/anvil2", "y": 270, "weight": 3 }
     ]
   }
 }

@@ -1,26 +1,16 @@
 {
   "variants": {
-    "facing\u003ddown": {
-      "model": "block/dispenser_vertical",
-      "x": 180
-    },
-    "facing\u003dup": {
-      "model": "block/dispenser_vertical"
-    },
-    "facing\u003dnorth": {
-      "model": "block/dispenser"
-    },
-    "facing\u003dsouth": {
-      "model": "block/dispenser",
-      "y": 180
-    },
-    "facing\u003dwest": {
-      "model": "block/dispenser",
-      "y": 270
-    },
-    "facing\u003deast": {
-      "model": "block/dispenser",
-      "y": 90
-    }
+    "triggered=false,facing=north": { "model": "block/unused_block" },
+    "triggered=false,facing=east": { "model": "block/unused_block" },
+    "triggered=false,facing=south": {  "model": "block/unused_block" },
+    "triggered=false,facing=west": { "model": "block/unused_block" },
+    "triggered=false,facing=down": { "model": "block/unused_block" },
+    "triggered=false,facing=up": { "model": "block/unused_block" },
+    "triggered=true,facing=north": { "model": "block/unused_block" },
+    "triggered=true,facing=east": { "model": "block/unused_block" },
+    "triggered=true,facing=south": { "model": "block/unused_block" },
+    "triggered=true,facing=west": { "model": "block/unused_block" },
+    "triggered=true,facing=down": { "model": "block/unused_block" },
+    "triggered=true,facing=up": { "model": "block/unused_block" }
   }
 }

@@ -1,13 +1,8 @@
 {
   "variants": {
-    "type\u003dbottom": {
-      "model": "block/spruce_slab"
-    },
-    "type\u003dtop": {
-      "model": "block/spruce_slab_top"
-    },
-    "type\u003ddouble": {
-      "model": "block/spruce_planks"
-    }
+    "type=bottom": { "model": "block/spruce_slab" },
+    "type=top": { "model": "block/spruce_slab_top" },
+    "waterlogged=false,type=double": { "model": "block/unused_block" },
+    "waterlogged=true,type=double": { "model": "block/unused_block" }
   }
 }

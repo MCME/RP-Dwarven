@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/oak_planks",
+    "side": "block/melon_block4",
+    "particle": "block/melon_block4"
+  }
+}

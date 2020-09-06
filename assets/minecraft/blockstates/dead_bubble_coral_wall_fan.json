@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "waterlogged=true,facing=north": { "model": "block/unused_cross_0" },
+    "waterlogged=true,facing=east": { "model": "block/unused_cross_0" },
+    "waterlogged=true,facing=south": { "model": "block/unused_cross_0" },
+    "waterlogged=true,facing=west": { "model": "block/unused_cross_0" },
+    "waterlogged=false,facing=north": { "model": "block/unused_cross_0" },
+    "waterlogged=false,facing=east": { "model": "block/unused_cross_0" },
+    "waterlogged=false,facing=south": { "model": "block/unused_cross_0" },
+    "waterlogged=false,facing=west": { "model": "block/unused_cross_0" }
+  }
+}

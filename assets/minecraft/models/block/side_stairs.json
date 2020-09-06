@@ -23,8 +23,7 @@
             0.0,
             16.0,
             16.0
-          ],
-          "cullface": "north"
+          ]
         },
         "east": {
           "texture": "#side",
@@ -33,8 +32,7 @@
             0.0,
             16.0,
             16.0
-          ],
-          "cullface": "east"
+          ]
         },
         "south": {
           "texture": "#side",
@@ -43,8 +41,7 @@
             0.0,
             16.0,
             16.0
-          ],
-          "cullface": "south"
+          ]
         },
         "west": {
           "texture": "#side",
@@ -53,8 +50,7 @@
             0.0,
             8.0,
             16.0
-          ],
-          "cullface": "west"
+          ]
         },
         "up": {
           "texture": "#side",
@@ -63,8 +59,7 @@
             0.0,
             16.0,
             8.0
-          ],
-          "cullface": "up"
+          ]
         },
         "down": {
           "texture": "#side",
@@ -73,8 +68,7 @@
             8.0,
             16.0,
             16.0
-          ],
-          "cullface": "down"
+          ]
         }
       }
     },
@@ -98,8 +92,7 @@
             0.0,
             8.0,
             16.0
-          ],
-          "cullface": "north"
+          ]
         },
         "east": {
           "texture": "#side",
@@ -108,8 +101,7 @@
             0.0,
             8.0,
             16.0
-          ],
-          "cullface": "east"
+          ]
         },
         "south": {
           "texture": "#side",
@@ -118,8 +110,7 @@
             0.0,
             16.0,
             16.0
-          ],
-          "cullface": "south"
+          ]
         },
         "west": {
           "texture": "#side",
@@ -128,8 +119,7 @@
             0.0,
             16.0,
             16.0
-          ],
-          "cullface": "west"
+          ]
         },
         "up": {
           "texture": "#side",
@@ -138,8 +128,7 @@
             8.0,
             16.0,
             16.0
-          ],
-          "cullface": "up"
+          ]
         },
         "down": {
           "texture": "#side",
@@ -148,8 +137,7 @@
             0.0,
             16.0,
             8.0
-          ],
-          "cullface": "down"
+          ]
         }
       }
     }

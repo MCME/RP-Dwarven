@@ -1,62 +1,20 @@
 {
   "variants": {
-    "east\u003dfalse,north\u003dfalse,south\u003dfalse,west\u003dfalse": {
-      "model": "block/pedestal2"
-    },
-    "east\u003dfalse,north\u003dtrue,south\u003dfalse,west\u003dfalse": {
-      "model": "block/side_slab2"
-    },
-    "east\u003dtrue,north\u003dfalse,south\u003dfalse,west\u003dfalse": {
-      "model": "block/side_slab2",
-      "y": 90
-    },
-    "east\u003dfalse,north\u003dfalse,south\u003dtrue,west\u003dfalse": {
-      "model": "block/side_slab2",
-      "y": 180
-    },
-    "east\u003dfalse,north\u003dfalse,south\u003dfalse,west\u003dtrue": {
-      "model": "block/side_slab2",
-      "y": 270
-    },
-    "east\u003dtrue,north\u003dtrue,south\u003dfalse,west\u003dfalse": {
-      "model": "block/side_stairs2"
-    },
-    "east\u003dtrue,north\u003dfalse,south\u003dtrue,west\u003dfalse": {
-      "model": "block/side_stairs2",
-      "y": 90
-    },
-    "east\u003dfalse,north\u003dfalse,south\u003dtrue,west\u003dtrue": {
-      "model": "block/side_stairs2",
-      "y": 180
-    },
-    "east\u003dfalse,north\u003dtrue,south\u003dfalse,west\u003dtrue": {
-      "model": "block/side_stairs2",
-      "y": 270
-    },
-    "east\u003dfalse,north\u003dtrue,south\u003dtrue,west\u003dfalse": {
-      "model": "block/ballustrade2"
-    },
-    "east\u003dtrue,north\u003dfalse,south\u003dfalse,west\u003dtrue": {
-      "model": "block/ballustrade2",
-      "y": 90
-    },
-    "east\u003dtrue,north\u003dtrue,south\u003dtrue,west\u003dfalse": {
-      "model": "block/side_slab2",
-      "y": 90
-    },
-    "east\u003dtrue,north\u003dfalse,south\u003dtrue,west\u003dtrue": {
-      "model": "block/side_slab2",
-      "y": 180
-    },
-    "east\u003dfalse,north\u003dtrue,south\u003dtrue,west\u003dtrue": {
-      "model": "block/side_slab2",
-      "y": 270
-    },
-    "east\u003dtrue,north\u003dtrue,south\u003dfalse,west\u003dtrue": {
-      "model": "block/side_slab2"
-    },
-    "east\u003dtrue,north\u003dtrue,south\u003dtrue,west\u003dtrue": {
-      "model": "block/pedestal2"
-    }
+    "north=false,east=false,south=false,west=false": { "model": "block/unused_cross_0" },
+    "north=false,east=false,south=false,west=true": { "model": "block/unused_cross_0" },
+    "north=false,east=false,south=true,west=false": { "model": "block/unused_cross_0" },
+    "north=false,east=false,south=true,west=true": { "model": "block/unused_cross_0" },
+    "north=false,east=true,south=false,west=false": { "model": "block/unused_cross_0" },
+    "north=false,east=true,south=false,west=true": { "model": "block/unused_cross_0" },
+    "north=false,east=true,south=true,west=false": { "model": "block/unused_cross_0" },
+    "north=false,east=true,south=true,west=true": { "model": "block/unused_cross_0" },
+    "north=true,east=false,south=false,west=false": { "model": "block/unused_cross_0" },
+    "north=true,east=false,south=false,west=true": { "model": "block/unused_cross_0" },
+    "north=true,east=false,south=true,west=true": { "model": "block/unused_cross_0" },
+    "north=true,east=false,south=true,west=false": { "model": "block/unused_cross_0" },
+    "north=true,east=true,south=false,west=false": { "model": "block/unused_cross_0" },
+    "north=true,east=true,south=false,west=true": { "model": "block/unused_cross_0" },
+    "north=true,east=true,south=true,west=false": { "model": "block/unused_cross_0" },
+    "north=true,east=true,south=true,west=true": { "model": "block/unused_cross_0" }
   }
 }

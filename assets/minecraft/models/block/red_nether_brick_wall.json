@@ -1,0 +1,6 @@
+{
+  "parent": "block/pillar",
+  "textures": {
+    "side": "block/dark_oak_planks"
+  }
+}

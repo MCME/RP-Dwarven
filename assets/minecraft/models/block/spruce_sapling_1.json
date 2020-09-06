@@ -1,0 +1,7 @@
+{
+  "parent": "block/floor",
+  "textures": {
+    "particle": "block/spruce_sapling_1",
+    "floor": "block/spruce_sapling_1"
+  }
+}

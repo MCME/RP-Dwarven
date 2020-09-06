@@ -1,309 +1,92 @@
 {
   "variants": {
-    "age\u003d0": [
-      {
-        "model": "block/box1"
-      },
-      {
-        "model": "block/box1",
-        "y": 90
-      },
-      {
-        "model": "block/box1",
-        "y": 180
-      },
-      {
-        "model": "block/box1",
-        "y": 270
-      },
-      {
-        "model": "block/box2"
-      },
-      {
-        "model": "block/box2",
-        "y": 90
-      },
-      {
-        "model": "block/box2",
-        "y": 180
-      },
-      {
-        "model": "block/box2",
-        "y": 270
-      },
-      {
-        "model": "block/box3"
-      },
-      {
-        "model": "block/box3",
-        "y": 90
-      },
-      {
-        "model": "block/box3",
-        "y": 180
-      },
-      {
-        "model": "block/box3",
-        "y": 270
-      },
-      {
-        "model": "block/box4"
-      },
-      {
-        "model": "block/box4",
-        "y": 90
-      },
-      {
-        "model": "block/box4",
-        "y": 180
-      },
-      {
-        "model": "block/box4",
-        "y": 270
-      },
-      {
-        "model": "block/box5"
-      },
-      {
-        "model": "block/box5",
-        "y": 90
-      },
-      {
-        "model": "block/box5",
-        "y": 180
-      },
-      {
-        "model": "block/box5",
-        "y": 270
-      },
-      {
-        "model": "block/box6"
-      },
-      {
-        "model": "block/box6",
-        "y": 90
-      },
-      {
-        "model": "block/box6",
-        "y": 180
-      },
-      {
-        "model": "block/box6",
-        "y": 270
-      },
-      {
-        "model": "block/box7"
-      },
-      {
-        "model": "block/box7",
-        "y": 90
-      },
-      {
-        "model": "block/box7",
-        "y": 180
-      },
-      {
-        "model": "block/box7",
-        "y": 270
-      },
-      {
-        "model": "block/box8"
-      },
-      {
-        "model": "block/box8",
-        "y": 90
-      },
-      {
-        "model": "block/box8",
-        "y": 180
-      },
-      {
-        "model": "block/box8",
-        "y": 270
-      },
-      {
-        "model": "block/box9"
-      },
-      {
-        "model": "block/box9",
-        "y": 90
-      },
-      {
-        "model": "block/box9",
-        "y": 180
-      },
-      {
-        "model": "block/box9",
-        "y": 270
-      },
-      {
-        "model": "block/box10"
-      },
-      {
-        "model": "block/box10",
-        "y": 90
-      },
-      {
-        "model": "block/box10",
-        "y": 180
-      },
-      {
-        "model": "block/box10",
-        "y": 270
-      }
+    "age=0": [
+      { "model": "block/carrots_0_0" },
+      { "model": "block/carrots_0_0", "y": 90 },
+      { "model": "block/carrots_0_0", "y": 180 },
+      { "model": "block/carrots_0_0", "y": 270 },
+      { "model": "block/carrots_0_1" },
+      { "model": "block/carrots_0_1", "y": 90 },
+      { "model": "block/carrots_0_1", "y": 180 },
+      { "model": "block/carrots_0_1", "y": 270 },
+      { "model": "block/carrots_0_2" },
+      { "model": "block/carrots_0_2", "y": 90 },
+      { "model": "block/carrots_0_2", "y": 180 },
+      { "model": "block/carrots_0_2", "y": 270 },
+      { "model": "block/carrots_0_3" },
+      { "model": "block/carrots_0_3", "y": 90 },
+      { "model": "block/carrots_0_3", "y": 180 },
+      { "model": "block/carrots_0_3", "y": 270 },
+      { "model": "block/carrots_0_4" },
+      { "model": "block/carrots_0_4", "y": 90 },
+      { "model": "block/carrots_0_4", "y": 180 },
+      { "model": "block/carrots_0_4", "y": 270 },
+      { "model": "block/carrots_0_5" },
+      { "model": "block/carrots_0_5", "y": 90 },
+      { "model": "block/carrots_0_5", "y": 180 },
+      { "model": "block/carrots_0_5", "y": 270 },
+      { "model": "block/carrots_0_6" },
+      { "model": "block/carrots_0_6", "y": 90 },
+      { "model": "block/carrots_0_6", "y": 180 },
+      { "model": "block/carrots_0_6", "y": 270 },
+      { "model": "block/carrots_0_7" },
+      { "model": "block/carrots_0_7", "y": 90 },
+      { "model": "block/carrots_0_7", "y": 180 },
+      { "model": "block/carrots_0_7", "y": 270 },
+      { "model": "block/carrots_0_8" },
+      { "model": "block/carrots_0_8", "y": 90 },
+      { "model": "block/carrots_0_8", "y": 180 },
+      { "model": "block/carrots_0_8", "y": 270 },
+      { "model": "block/carrots_0_9" },
+      { "model": "block/carrots_0_9", "y": 90 },
+      { "model": "block/carrots_0_9", "y": 180 },
+      { "model": "block/carrots_0_9", "y": 270 }
     ],
-    "age\u003d1": [
-      {
-        "model": "block/paper1"
-      },
-      {
-        "model": "block/paper1",
-        "y": 90
-      },
-      {
-        "model": "block/paper1",
-        "y": 180
-      },
-      {
-        "model": "block/paper1",
-        "y": 270
-      },
-      {
-        "model": "block/paper2"
-      },
-      {
-        "model": "block/paper2",
-        "y": 90
-      },
-      {
-        "model": "block/paper2",
-        "y": 180
-      },
-      {
-        "model": "block/paper2",
-        "y": 270
-      },
-      {
-        "model": "block/paper3"
-      },
-      {
-        "model": "block/paper3",
-        "y": 90
-      },
-      {
-        "model": "block/paper3",
-        "y": 180
-      },
-      {
-        "model": "block/paper3",
-        "y": 270
-      },
-      {
-        "model": "block/paper4"
-      },
-      {
-        "model": "block/paper4",
-        "y": 90
-      },
-      {
-        "model": "block/paper4",
-        "y": 180
-      },
-      {
-        "model": "block/paper4",
-        "y": 270
-      },
-      {
-        "model": "block/paper5"
-      },
-      {
-        "model": "block/paper5",
-        "y": 90
-      },
-      {
-        "model": "block/paper5",
-        "y": 180
-      },
-      {
-        "model": "block/paper5",
-        "y": 270
-      }
+    "age=1": [
+      { "model": "block/carrots_1_0" },
+      { "model": "block/carrots_1_0", "y": 90 },
+      { "model": "block/carrots_1_0", "y": 180 },
+      { "model": "block/carrots_1_0", "y": 270 },
+      { "model": "block/carrots_1_1" },
+      { "model": "block/carrots_1_1", "y": 90 },
+      { "model": "block/carrots_1_1", "y": 180 },
+      { "model": "block/carrots_1_1", "y": 270 },
+      { "model": "block/carrots_1_2" },
+      { "model": "block/carrots_1_2", "y": 90 },
+      { "model": "block/carrots_1_2", "y": 180 },
+      { "model": "block/carrots_1_2", "y": 270 },
+      { "model": "block/carrots_1_3" },
+      { "model": "block/carrots_1_3", "y": 90 },
+      { "model": "block/carrots_1_3", "y": 180 },
+      { "model": "block/carrots_1_3", "y": 270 },
+      { "model": "block/carrots_1_4" },
+      { "model": "block/carrots_1_4", "y": 90 },
+      { "model": "block/carrots_1_4", "y": 180 },
+      { "model": "block/carrots_1_4", "y": 270 }
     ],
-    "age\u003d2": [
-      {
-        "model": "block/map1"
-      },
-      {
-        "model": "block/map1",
-        "y": 90
-      },
-      {
-        "model": "block/map1",
-        "y": 180
-      },
-      {
-        "model": "block/map1",
-        "y": 270
-      },
-      {
-        "model": "block/map2"
-      },
-      {
-        "model": "block/map2",
-        "y": 90
-      },
-      {
-        "model": "block/map2",
-        "y": 180
-      },
-      {
-        "model": "block/map2",
-        "y": 270
-      }
+    "age=2": [
+      {"model": "block/carrots_2_0" },
+      { "model": "block/carrots_2_0", "y": 90 },
+      { "model": "block/carrots_2_0", "y": 180 },
+      { "model": "block/carrots_2_0", "y": 270 },
+      { "model": "block/carrots_2_1" },
+      { "model": "block/carrots_2_1", "y": 90 },
+      { "model": "block/carrots_2_1", "y": 180 },
+      { "model": "block/carrots_2_1", "y": 270 }
     ],
-    "age\u003d3": [
-      {
-        "model": "block/skin1"
-      },
-      {
-        "model": "block/skin1",
-        "y": 90
-      },
-      {
-        "model": "block/skin1",
-        "y": 180
-      },
-      {
-        "model": "block/skin1",
-        "y": 270
-      },
-      {
-        "model": "block/skin2"
-      },
-      {
-        "model": "block/skin2",
-        "y": 90
-      },
-      {
-        "model": "block/skin2",
-        "y": 180
-      },
-      {
-        "model": "block/skin2",
-        "y": 270
-      }
+    "age=3": [
+      { "model": "block/carrots_3_0" },
+      { "model": "block/carrots_3_0", "y": 90 },
+      { "model": "block/carrots_3_0", "y": 180 },
+      { "model": "block/carrots_3_0", "y": 270 },
+      { "model": "block/carrots_3_1" },
+      { "model": "block/carrots_3_1", "y": 90 },
+      { "model": "block/carrots_3_1", "y": 180 },
+      { "model": "block/carrots_3_1", "y": 270 }
     ],
-    "age\u003d4": {
-      "model": "block/scale"
-    },
-    "age\u003d5": {
-      "model": "block/carrots_stage2"
-    },
-    "age\u003d6": {
-      "model": "block/carrots_stage2"
-    },
-    "age\u003d7": {
-      "model": "block/carrots_stage3"
-    }
+    "age=4": { "model": "block/carrots_4" },
+    "age=5": { "model": "block/unused_cross_0" },
+    "age=6": { "model": "block/unused_cross_0" },
+    "age=7": { "model": "block/unused_cross_0" }
   }
 }

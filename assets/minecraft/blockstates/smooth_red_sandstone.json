@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/cut_red_sandstone"
-    }
+    "": {"model": "block/unused_block"}
   }
 }

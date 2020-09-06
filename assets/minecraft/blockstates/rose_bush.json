@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=upper": { "model": "block/unused_cross_0" },
+    "half=lower": { "model": "block/unused_cross_0" }
+  }
+}

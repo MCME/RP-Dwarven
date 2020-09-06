@@ -1,13 +1,8 @@
 {
   "variants": {
-    "type\u003dbottom": {
-      "model": "block/acacia_slab"
-    },
-    "type\u003dtop": {
-      "model": "block/acacia_slab_top"
-    },
-    "type\u003ddouble": {
-      "model": "block/acacia_planks"
-    }
+    "type=bottom": { "model": "block/acacia_slab" },
+    "type=top": { "model": "block/acacia_slab_top" },
+    "waterlogged=false,type=double": { "model": "block/unused_block" },
+    "waterlogged=true,type=double": { "model": "block/unused_block"}
   }
 }

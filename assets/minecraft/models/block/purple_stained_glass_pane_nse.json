@@ -1,0 +1,7 @@
+{
+  "parent": "block/deco_nse",
+  "textures": {
+    "details": "block/purple_stained_glass_pane_nse",
+    "particle": "block/purple_stained_glass_pane_nse"
+  }
+}

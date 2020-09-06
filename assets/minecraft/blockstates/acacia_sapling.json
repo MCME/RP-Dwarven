@@ -1,24 +1,11 @@
 {
   "variants": {
-    "stage\u003d0": {
-      "model": "block/reel"
-    },
-    "stage\u003d1": [
-      {
-        "model": "block/rack_spears"
-      },
-      {
-        "model": "block/rack_spears",
-        "y": 90
-      },
-      {
-        "model": "block/rack_spears",
-        "y": 180
-      },
-      {
-        "model": "block/rack_spears",
-        "y": 270
-      }
+    "stage=0": { "model": "block/acacia_sapling_0" },
+    "stage=1": [
+      { "model": "block/acacia_sapling_1" },
+      { "model": "block/acacia_sapling_1", "y": 90 },
+      { "model": "block/acacia_sapling_1", "y": 180 },
+      { "model": "block/acacia_sapling_1", "y": 270 }
     ]
   }
 }

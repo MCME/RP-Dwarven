@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/blue_terracotta"
-    }
+    "": { "model": "block/blue_terracotta" }
   }
 }

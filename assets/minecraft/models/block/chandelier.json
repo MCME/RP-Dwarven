@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "block/models/chandelier",
-    "particle": "block/models/chandelier"
-  }
-}

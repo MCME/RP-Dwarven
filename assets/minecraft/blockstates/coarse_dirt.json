@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/coarse_dirt"
-    }
+    "": {"model": "block/coarse_dirt"}
   }
 }

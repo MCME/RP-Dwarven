@@ -1,9 +1,0 @@
-{
-  "parent": "block/model_flat_stairs",
-  "textures": {
-    "bottom": "block/quartz_block_bottom",
-    "top": "block/quartz_invisible",
-    "side": "block/quartz_stairs_side",
-    "particle": "block/quartz_block_bottom"
-  }
-}
