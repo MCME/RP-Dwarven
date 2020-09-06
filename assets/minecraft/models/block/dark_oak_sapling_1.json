@@ -1,0 +1,41 @@
+{
+  "parent": "block/rack",
+  "textures": {
+    "bottom": "block/dark_oak_sapling_1_0",
+    "m1": "block/dark_oak_sapling_1_1",
+    "m2": "block/dark_oak_sapling_1_2",
+    "m3": "block/dark_oak_sapling_1_3",
+    "m4": "block/dark_oak_sapling_1_2",
+    "m5": "block/dark_oak_sapling_1_1",
+    "m6": "block/dark_oak_sapling_1_3",
+    "m7": "block/dark_oak_sapling_1_2",
+    "m8": "block/dark_oak_sapling_1_1",
+    "t1": "block/sapling_empty",
+    "t2": "block/sapling_empty",
+    "t3": "block/sapling_empty",
+    "t4": "block/sapling_empty",
+    "t5": "block/sapling_empty",
+    "t6": "block/sapling_empty",
+    "t7": "block/sapling_empty",
+    "t8": "block/sapling_empty"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  }
+}

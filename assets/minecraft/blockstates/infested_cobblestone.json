@@ -1,21 +1,8 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/cabinet_wood1"
-      },
-      {
-        "model": "block/cabinet_wood2"
-      },
-      {
-        "model": "block/cabinet_wood3"
-      },
-      {
-        "model": "block/cabinet_wood4"
-      },
-      {
-        "model": "block/cabinet_wood5"
-      }
+      {"model": "block/infested_cobblestone"},
+      {"model": "block/infested_cobblestone1"}
     ]
   }
 }

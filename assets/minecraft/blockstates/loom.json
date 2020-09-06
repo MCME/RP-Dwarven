@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "block/unused_block" },
+    "facing=east": { "model": "block/unused_block" },
+    "facing=south": { "model": "block/unused_block" },
+    "facing=west": { "model": "block/unused_block" }
+  }
+}

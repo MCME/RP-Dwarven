@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "type=bottom": { "model": "block/smooth_stone_slab" },
+    "type=top": { "model": "block/smooth_stone_slab_top" },
+    "waterlogged=false,type=double": { "model": "block/smooth_stone_slab_double" },
+    "waterlogged=true,type=double": { "model": "block/unused_block" }
+  }
+}

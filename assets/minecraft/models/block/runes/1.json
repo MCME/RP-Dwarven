@@ -1,8 +1,0 @@
-{
-  "parent": "block/runes/pillar",
-  "textures": {
-    "normal": "block/runes/normal",
-    "side": "block/runes/1",
-    "particle": "block/runes/normal"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "block/models/wardrobe_wood_top",
-    "side": "block/models/wardrobe_wood",
-    "particle": "block/models/wardrobe_wood"
-  }
-}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "stage=0,leaves=none,age=0": { "model": "block/unused_cross_0" },
+    "stage=0,leaves=none,age=1": { "model": "block/unused_cross_0" },
+    "stage=0,leaves=small,age=0": { "model": "block/unused_cross_0" },
+    "stage=0,leaves=small,age=1": { "model": "block/unused_cross_0" },
+    "stage=0,leaves=large,age=0": { "model": "block/unused_cross_0" },
+    "stage=0,leaves=large,age=1": { "model": "block/unused_cross_0" },
+    "stage=1,leaves=none,age=0": { "model": "block/unused_cross_0" },
+    "stage=1,leaves=none,age=1": { "model": "block/unused_cross_0" },
+    "stage=1,leaves=small,age=0": { "model": "block/unused_cross_0" },
+    "stage=1,leaves=small,age=1": { "model": "block/unused_cross_0" },
+    "stage=1,leaves=large,age=0": { "model": "block/unused_cross_0" },
+    "stage=1,leaves=large,age=1": { "model": "block/unused_cross_0" }
+  }
+}

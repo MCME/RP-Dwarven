@@ -1,21 +1,11 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/shelf1"
-      },
-      {
-        "model": "block/shelf2"
-      },
-      {
-        "model": "block/shelf3"
-      },
-      {
-        "model": "block/shelf4"
-      },
-      {
-        "model": "block/shelf5"
-      }
+      { "model": "block/melon_block" },
+      { "model": "block/melon_block1" },
+      { "model": "block/melon_block2" },
+      { "model": "block/melon_block3" },
+      { "model": "block/melon_block4" }
     ]
   }
 }

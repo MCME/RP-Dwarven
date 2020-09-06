@@ -1,0 +1,6 @@
+{
+  "parent": "block/jar_small",
+  "textures": {
+    "jar": "block/wheat_5_4"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "block/purple_stained_glass"
+      "model": "block/unused_block"
     }
   }
 }

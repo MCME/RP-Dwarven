@@ -1,28 +1,12 @@
 {
   "variants": {
-    "moisture\u003d0": {
-      "model": "block/farmland"
-    },
-    "moisture\u003d1": {
-      "model": "block/farmland"
-    },
-    "moisture\u003d2": {
-      "model": "block/farmland"
-    },
-    "moisture\u003d3": {
-      "model": "block/farmland"
-    },
-    "moisture\u003d4": {
-      "model": "block/farmland"
-    },
-    "moisture\u003d5": {
-      "model": "block/farmland"
-    },
-    "moisture\u003d6": {
-      "model": "block/farmland"
-    },
-    "moisture\u003d7": {
-      "model": "block/farmland_moist"
-    }
+    "moisture=0": { "model": "block/farmland_0" },
+    "moisture=1": { "model": "block/farmland_0", "y": 90 },
+    "moisture=2": { "model": "block/farmland_0", "y": 180 },
+    "moisture=3": { "model": "block/farmland_0", "y": 270 },
+    "moisture=4": { "model": "block/farmland_1" },
+    "moisture=5": { "model": "block/farmland_1", "y": 90 },
+    "moisture=6": { "model": "block/farmland_1", "y": 180 },
+    "moisture=7": { "model": "block/farmland_1", "y": 270 }
   }
 }

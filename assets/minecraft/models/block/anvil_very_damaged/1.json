@@ -1,8 +1,0 @@
-{
-  "parent": "block/anvil_very_damaged/anvil",
-  "textures": {
-    "particle": "block/anvil_base_orc",
-    "body": "block/anvil_base_orc",
-    "top": "block/anvil_top_orc"
-  }
-}

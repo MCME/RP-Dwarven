@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "block/models/brazier",
-    "particle": "block/models/brazier"
-  }
-}

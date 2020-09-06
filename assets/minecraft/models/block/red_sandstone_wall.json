@@ -1,0 +1,6 @@
+{
+  "parent": "block/pillar",
+  "textures": {
+    "side": "block/red_sandstone"
+  }
+}

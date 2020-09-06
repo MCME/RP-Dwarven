@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/soul_sand"
-    }
+    "": { "model": "block/soul_sand" }
   }
 }

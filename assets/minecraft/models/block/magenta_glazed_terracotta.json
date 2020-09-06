@@ -1,0 +1,11 @@
+{
+  "parent": "block/corner_block",
+  "textures": {
+    "end": "block/magenta_glazed_terracotta_end",
+    "side_1": "block/magenta_glazed_terracotta_side_1",
+    "side_2": "block/magenta_glazed_terracotta_side_2",
+    "side_3": "block/magenta_glazed_terracotta_side_3",
+    "side_4": "block/magenta_glazed_terracotta_side_4",
+    "particle": "block/magenta_glazed_terracotta_end"
+  }
+}

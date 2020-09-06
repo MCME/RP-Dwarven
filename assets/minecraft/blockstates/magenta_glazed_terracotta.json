@@ -1,42 +1,8 @@
 {
   "variants": {
-    "facing\u003dsouth": [
-      {
-        "model": "block/terra/magenta/1"
-      },
-      {
-        "model": "block/terra/magenta/2"
-      }
-    ],
-    "facing\u003dwest": [
-      {
-        "model": "block/terra/magenta/1",
-        "y": 90
-      },
-      {
-        "model": "block/terra/magenta/2",
-        "y": 90
-      }
-    ],
-    "facing\u003dnorth": [
-      {
-        "model": "block/terra/magenta/1",
-        "y": 180
-      },
-      {
-        "model": "block/terra/magenta/2",
-        "y": 180
-      }
-    ],
-    "facing\u003deast": [
-      {
-        "model": "block/terra/magenta/1",
-        "y": 270
-      },
-      {
-        "model": "block/terra/magenta/2",
-        "y": 270
-      }
-    ]
+    "facing=south": { "model": "block/magenta_glazed_terracotta" },
+    "facing=west": { "model": "block/magenta_glazed_terracotta", "y": 90 },
+    "facing=north": { "model": "block/magenta_glazed_terracotta", "y": 180 },
+    "facing=east":   { "model": "block/magenta_glazed_terracotta", "y": 270 }    
   }
 }

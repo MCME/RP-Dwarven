@@ -1,24 +1,6 @@
 {
   "variants": {
-    "snowy\u003dfalse": [
-      {
-        "model": "block/grass_block"
-      },
-      {
-        "model": "block/grass_block",
-        "y": 90
-      },
-      {
-        "model": "block/grass_block",
-        "y": 180
-      },
-      {
-        "model": "block/grass_block",
-        "y": 270
-      }
-    ],
-    "snowy\u003dtrue": {
-      "model": "block/grass_block_snow"
-    }
+    "snowy=false": {"model": "block/unused_block"},
+    "snowy=true": {"model": "block/unused_block"}
   }
 }

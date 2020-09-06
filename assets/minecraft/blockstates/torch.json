@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/normal_torch"
-    }
+    "": { "model": "block/normal_torch" }
   }
 }

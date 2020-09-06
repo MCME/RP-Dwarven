@@ -1,7 +1,18 @@
 {
   "variants": {
-    "": {
-      "model": "block/diorite"
-    }
+    "": [
+      {"model": "block/diorite"},
+      {"model": "block/diorite", "x": 90, "z": 90},
+      {"model": "block/diorite", "x": 180, "z": 180},
+      {"model": "block/diorite", "x": 270, "z": 270},
+      {"model": "block/diorite1"},
+      {"model": "block/diorite1", "x": 90, "z": 90},
+      {"model": "block/diorite1", "x": 180, "z": 180},
+      {"model": "block/diorite1", "x": 270, "z": 270},
+      {"model": "block/diorite2"},
+      {"model": "block/diorite2", "x": 90, "z": 90},
+      {"model": "block/diorite2", "x": 180, "z": 180},
+      {"model": "block/diorite2", "x": 270, "z": 270}
+    ]
   }
 }

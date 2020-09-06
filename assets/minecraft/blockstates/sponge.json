@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/sponge"
-    }
+    "": { "model": "block/sponge" }
   }
 }

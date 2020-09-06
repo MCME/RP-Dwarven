@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/wardrobe_wood"
-    }
+    "": {"model": "block/infested_mossy_stone_bricks"}
   }
 }

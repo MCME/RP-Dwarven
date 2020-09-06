@@ -1,19 +1,8 @@
 {
   "variants": {
-    "facing\u003dsouth": {
-      "model": "block/terra/yellow/1"
-    },
-    "facing\u003dwest": {
-      "model": "block/terra/yellow/1",
-      "y": 90
-    },
-    "facing\u003dnorth": {
-      "model": "block/terra/yellow/1",
-      "y": 180
-    },
-    "facing\u003deast": {
-      "model": "block/terra/yellow/1",
-      "y": 270
-    }
+    "facing=south": { "model": "block/yellow_glazed_terracotta" },
+    "facing=west": { "model": "block/yellow_glazed_terracotta", "y": 90 },
+    "facing=north": { "model": "block/yellow_glazed_terracotta", "y": 180 },
+    "facing=east": { "model": "block/yellow_glazed_terracotta", "y": 270 }
   }
 }

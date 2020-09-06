@@ -1,154 +1,23 @@
 {
-  "multipart": [
-    {
-      "when": {
-        "age": "0"
-      },
-      "apply": {
-        "model": "block/cactus",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "1"
-      },
-      "apply": {
-        "model": "block/table"
-      }
-    },
-    {
-      "when": {
-        "age": "2"
-      },
-      "apply": {
-        "model": "block/barrel"
-      }
-    },
-    {
-      "when": {
-        "age": "3"
-      },
-      "apply": {
-        "model": "block/barrel",
-        "x": 90
-      }
-    },
-    {
-      "when": {
-        "age": "4"
-      },
-      "apply": {
-        "model": "block/barrel",
-        "x": 90,
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "age": "5"
-      },
-      "apply": {
-        "model": "block/box_empty"
-      }
-    },
-    {
-      "when": {
-        "age": "6"
-      },
-      "apply": {
-        "model": "block/chair",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "7"
-      },
-      "apply": {
-        "model": "block/chair",
-        "y": 90,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "8"
-      },
-      "apply": {
-        "model": "block/chair",
-        "y": 180,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "9"
-      },
-      "apply": {
-        "model": "block/chair",
-        "y": 270,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "10"
-      },
-      "apply": {
-        "model": "block/bell",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "11"
-      },
-      "apply": [
-        {
-          "model": "block/supports"
-        },
-        {
-          "model": "block/supports",
-          "y": 90
-        }
-      ]
-    },
-    {
-      "when": {
-        "age": "12"
-      },
-      "apply": {
-        "model": "block/military_crate",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "13"
-      },
-      "apply": {
-        "model": "block/brazier",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "14"
-      },
-      "apply": {
-        "model": "block/cactus",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "15"
-      },
-      "apply": {
-        "model": "block/cactus",
-        "uvlock": true
-      }
-    }
-  ]
+  "variants": {
+    "age=0": { "model": "block/cactus_0", "uvlock": true },
+    "age=1": { "model": "block/cactus_1" },
+    "age=2": { "model": "block/cactus_2" },
+    "age=3": { "model": "block/cactus_2", "x": 90 },
+    "age=4": { "model": "block/cactus_2", "x": 90, "y": 90 },
+    "age=5": { "model": "block/cactus_5" },
+    "age=6": { "model": "block/cactus_6", "uvlock": true },
+    "age=7": { "model": "block/cactus_6", "y": 90, "uvlock": true },
+    "age=8": { "model": "block/cactus_6", "y": 180, "uvlock": true },
+    "age=9": { "model": "block/cactus_6", "y": 270, "uvlock": true },
+    "age=10": { "model": "block/cactus_10", "uvlock": true },
+    "age=11": [
+      { "model": "block/cactus_11" },
+      { "model": "block/cactus_11", "y": 90 }],
+    "age=12": { "model": "block/cactus_12", "uvlock": true },
+    "age=13": { "model": "block/cactus_13", "uvlock": true },
+    "age=14": { "model": "block/unused_cross_0" },
+    "age=15": { "model": "block/unused_cross_0" }
+     
+  }
 }

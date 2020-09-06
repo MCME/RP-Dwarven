@@ -1,60 +1,68 @@
 {
-  "multipart": [
-    { "when": {"north": true, "west": true, "south": false, "east": false, "up": true, "down": false },
-      "apply": [
-      {
-        "model": "block/logs_block"
-      }
-    ]},
-    { "when": {"north": true, "west": false, "south": false, "east": false, "up": true, "down": false },
-      "apply": [
-      {
-        "model": "block/logs_block", "x": 90
-      }
-    ]},
-    { "when": {"north": true, "west": false, "south": false, "east": true, "up": true, "down": false },
-      "apply": [
-      {
-        "model": "block/logs_block", "x": 90, "y": 90
-      }
-    ]},
-    { "when": {"north": false, "west": true, "south": false, "east": false, "up": true, "down": false },
-      "apply": [ 
-      {
-        "model": "block/unused_cross_0"
-      }
-    ]},
-    { "when": {"north": false, "west": false, "south": false, "east": false, "up": true, "down": false },
-      "apply": {
-      "model": "block/unused_cross_0"
-    }},
-    { "when": {"north": false, "west": false, "south": false, "east": true, "up": true, "down": false },
-      "apply": {
-      "model": "block/unused_cross_0",
-      "y": 90
-    }},
-    { "when": {"north": false, "west": true, "south": true, "east": false, "up": true, "down": false },
-      "apply": {
-      "model": "block/unused_cross_0"
-    }},
-    { "when": {"north": false, "west": false, "south": true, "east": false, "up": true, "down": false },
-      "apply": {
-      "model": "block/unused_cross_0",
-      "y": 90
-    }},
-    { "when": {"north": false, "west": false, "south": true, "east": true, "up": true, "down": false },
-      "apply": {
-      "model": "block/unused_cross_0"
-    }},
-    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": true },
-      "apply": {
-      "model": "block/unused_cross_0"
-    }},
-    { "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": false },
-      "apply": [
-      {
-        "model": "block/unused_cross_0"
-      }
-    ]}
-  ]
+  "variants": {
+    "north=false,east=false,south=false,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=false,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=false,south=false,west=false,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=false,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=false,east=false,south=false,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=false,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=false,south=false,west=true,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=false,west=true,up=true,down=true": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=false,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=true,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=false,south=true,west=true,up=true,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=false,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=true,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=false,west=true,up=true,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=false,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=true,up=true,down=false": {"model": "block/unused_block"},
+    "north=false,east=true,south=true,west=true,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=false,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=false,south=false,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=false,west=false,up=true,down=false": {"model": "block/logs_block", "x": 90},
+    "north=true,east=false,south=false,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=false,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=false,south=false,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=false,west=true,up=true,down=false": {"model": "block/logs_block"},
+    "north=true,east=false,south=false,west=true,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=false,up=true,down=false": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=true,up=true,down=false": {"model": "block/unused_block"},
+    "north=true,east=false,south=true,west=true,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=false,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=true,south=false,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=false,west=false,up=true,down=false": {"model": "block/logs_block", "x": 90, "y": 90},
+    "north=true,east=true,south=false,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=false,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=true,south=false,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=false,west=true,up=true,down=false": {"model": "block/unused_block"},
+    "north=true,east=true,south=false,west=true,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=false,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=false,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=false,up=true,down=false": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=false,up=true,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=true,up=false,down=false": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=true,up=false,down=true": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=true,up=true,down=false": {"model": "block/unused_block"},
+    "north=true,east=true,south=true,west=true,up=true,down=true": {"model": "block/unused_block"}
+  }
 }

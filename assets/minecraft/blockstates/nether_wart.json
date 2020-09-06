@@ -1,38 +1,18 @@
 {
   "variants": {
-    "age\u003d0": {
-      "model": "block/nether_wart_stage0"
-    },
-    "age\u003d1": {
-      "model": "block/rope_torn"
-    },
-    "age\u003d2": [
-      {
-        "model": "block/bag1"
-      },
-      {
-        "model": "block/bag2"
-      },
-      {
-        "model": "block/bag3"
-      },
-      {
-        "model": "block/bag4"
-      }
+    "age=0": { "model": "block/nether_wart_stage0" },
+    "age=1": { "model": "block/nether_wart_1" },
+    "age=2": [
+      { "model": "block/nether_wart_2_0" },
+      { "model": "block/nether_wart_2_1" },
+      { "model": "block/nether_wart_2_2" },
+      { "model": "block/nether_wart_2_3" }
     ],
-    "age\u003d3": [
-      {
-        "model": "block/statue1"
-      },
-      {
-        "model": "block/statue2"
-      },
-      {
-        "model": "block/statue3"
-      },
-      {
-        "model": "block/statue4"
-      }
+    "age=3": [
+      { "model": "block/nether_wart_3_0" },
+      { "model": "block/nether_wart_3_1" },
+      { "model": "block/nether_wart_3_2" },
+      { "model": "block/nether_wart_3_3" }
     ]
   }
 }

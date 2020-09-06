@@ -1,15 +1,10 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/hardened_clay_magenta/1"
-      },
-      {
-        "model": "block/hardened_clay_magenta/2"
-      },
-      {
-        "model": "block/hardened_clay_magenta/3"
-      }
+      { "model": "block/magenta_terracotta" },
+      { "model": "block/magenta_terracotta1" },
+      { "model": "block/magenta_terracotta2" },
+      { "model": "block/magenta_terracotta3" }
     ]
   }
 }

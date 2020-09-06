@@ -1,18 +1,10 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/concrete_powder/orange/1"
-      },
-      {
-        "model": "block/concrete_powder/orange/2"
-      },
-      {
-        "model": "block/concrete_powder/orange/3"
-      },
-      {
-        "model": "block/concrete_powder/orange/4"
-      }
+      { "model": "block/orange_concrete_powder" },
+      { "model": "block/orange_concrete_powder1" },
+      { "model": "block/orange_concrete_powder2" },
+      { "model": "block/orange_concrete_powder3" }
     ]
   }
 }

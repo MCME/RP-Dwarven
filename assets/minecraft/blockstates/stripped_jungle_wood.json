@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "block/unused_block" },
+    "axis=z": { "model": "block/unused_block" },
+    "axis=x": { "model": "block/unused_block" }
+  }
+}

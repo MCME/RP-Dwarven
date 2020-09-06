@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/polished_granite"},
+      { "model": "block/polished_granite", "x": 90, "z": 90 },
+      { "model": "block/polished_granite", "x": 180, "z": 180 },
+      { "model": "block/polished_granite", "x": 270, "z": 270 },
+      { "model": "block/polished_granite1" },
+      { "model": "block/polished_granite1", "x": 90, "z": 90 },
+      { "model": "block/polished_granite1", "x": 180, "z": 180 },
+      { "model": "block/polished_granite1", "x": 270, "z": 270 },
+      { "model": "block/polished_granite2" },
+      { "model": "block/polished_granite2", "x": 90, "z": 90 },
+      { "model": "block/polished_granite2", "x": 180, "z": 180 },
+      { "model": "block/polished_granite2", "x": 270, "z": 270 }
+    ]
+  }
+}
