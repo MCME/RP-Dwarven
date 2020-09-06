@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/slime_block"
-    }
+    "": {"model": "block/slime_block"}
   }
 }

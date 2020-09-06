@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "type=bottom": { "model": "block/prismarine_brick_slab" },
+    "type=top": { "model": "block/prismarine_brick_slab_top" },
+    "waterlogged=false,type=double": { "model": "block/unused_block" },
+    "waterlogged=true,type=double": { "model": "block/unused_block" }
+  }
+}

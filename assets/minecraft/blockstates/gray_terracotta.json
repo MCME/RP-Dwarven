@@ -1,21 +1,11 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/runes/1"
-      },
-      {
-        "model": "block/runes/2"
-      },
-      {
-        "model": "block/runes/3"
-      },
-      {
-        "model": "block/runes/4"
-      },
-      {
-        "model": "block/runes/5"
-      }
+      { "model": "block/gray_terracotta" },
+      { "model": "block/gray_terracotta1" },
+      { "model": "block/gray_terracotta2" },
+      { "model": "block/gray_terracotta3" },
+      { "model": "block/gray_terracotta4" }
     ]
   }
 }

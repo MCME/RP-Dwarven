@@ -1,49 +1,16 @@
 {
   "variants": {
-    "age\u003d0,facing\u003dsouth": {
-      "model": "block/cocoa_stage0"
-    },
-    "age\u003d0,facing\u003dwest": {
-      "model": "block/cocoa_stage0",
-      "y": 90
-    },
-    "age\u003d0,facing\u003dnorth": {
-      "model": "block/cocoa_stage0",
-      "y": 180
-    },
-    "age\u003d0,facing\u003deast": {
-      "model": "block/cocoa_stage0",
-      "y": 270
-    },
-    "age\u003d1,facing\u003dsouth": {
-      "model": "block/cocoa_stage1"
-    },
-    "age\u003d1,facing\u003dwest": {
-      "model": "block/cocoa_stage1",
-      "y": 90
-    },
-    "age\u003d1,facing\u003dnorth": {
-      "model": "block/cocoa_stage1",
-      "y": 180
-    },
-    "age\u003d1,facing\u003deast": {
-      "model": "block/cocoa_stage1",
-      "y": 270
-    },
-    "age\u003d2,facing\u003dsouth": {
-      "model": "block/cocoa_stage2"
-    },
-    "age\u003d2,facing\u003dwest": {
-      "model": "block/cocoa_stage2",
-      "y": 90
-    },
-    "age\u003d2,facing\u003dnorth": {
-      "model": "block/cocoa_stage2",
-      "y": 180
-    },
-    "age\u003d2,facing\u003deast": {
-      "model": "block/cocoa_stage2",
-      "y": 270
-    }
+    "facing=north,age=0": {"model": "block/unused_cross_0"},
+    "facing=north,age=1": {"model": "block/unused_cross_0"},
+    "facing=north,age=2": {"model": "block/unused_cross_0"},
+    "facing=east,age=0": {"model": "block/unused_cross_0"},
+    "facing=east,age=1": {"model": "block/unused_cross_0"},
+    "facing=east,age=2": {"model": "block/unused_cross_0"},
+    "facing=south,age=0": {"model": "block/unused_cross_0"},
+    "facing=south,age=1": {"model": "block/unused_cross_0"},
+    "facing=south,age=2": {"model": "block/unused_cross_0"},
+    "facing=west,age=0": {"model": "block/unused_cross_0"},
+    "facing=west,age=1": {"model": "block/unused_cross_0"},
+    "facing=west,age=2": {"model": "block/unused_cross_0"}
   }
 }

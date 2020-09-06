@@ -1,0 +1,12 @@
+{
+    "variants": {
+      "lit=false,facing=north": { "model": "block/blast_furnace" },
+      "lit=false,facing=east": { "model": "block/blast_furnace", "y": 90 },
+      "lit=false,facing=south": { "model": "block/blast_furnace", "y": 180 },
+      "lit=false,facing=west": { "model": "block/blast_furnace", "y": 270 },
+      "lit=true,facing=north": { "model": "block/unused_block" },
+      "lit=true,facing=east": { "model": "block/unused_block" },
+      "lit=true,facing=south": { "model": "block/unused_block" },
+      "lit=true,facing=west": { "model": "block/unused_block" }
+    }
+}

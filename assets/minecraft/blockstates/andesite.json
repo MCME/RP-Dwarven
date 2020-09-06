@@ -1,7 +1,18 @@
 {
   "variants": {
-    "": {
-      "model": "block/andesite"
-    }
+    "": [
+      {"model": "block/andesite"},
+      {"model": "block/andesite", "x": 90, "z": 90},
+      {"model": "block/andesite", "x": 180, "z": 180},
+      {"model": "block/andesite", "x": 270, "z": 270},
+      {"model": "block/andesite1"},
+      {"model": "block/andesite1", "x": 90, "z": 90},
+      {"model": "block/andesite1", "x": 180, "z": 180},
+      {"model": "block/andesite1", "x": 270, "z": 270},
+      {"model": "block/andesite2"},
+      {"model": "block/andesite2", "x": 90, "z": 90},
+      {"model": "block/andesite2", "x": 180, "z": 180},
+      {"model": "block/andesite2", "x": 270, "z": 270}
+    ]
   }
 }

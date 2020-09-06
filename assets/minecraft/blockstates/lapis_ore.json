@@ -1,21 +1,11 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/gems/1"
-      },
-      {
-        "model": "block/gems/2"
-      },
-      {
-        "model": "block/gems/3"
-      },
-      {
-        "model": "block/gems/4"
-      },
-      {
-        "model": "block/gems/5"
-      }
+      { "model": "block/lapis_ore" },
+      { "model": "block/lapis_ore1" },
+      { "model": "block/lapis_ore2" },
+      { "model": "block/lapis_ore3" },
+      { "model": "block/lapis_ore4" }
     ]
   }
 }

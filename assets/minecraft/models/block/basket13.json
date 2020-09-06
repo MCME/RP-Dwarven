@@ -1,6 +1,0 @@
-{
-  "parent": "block/basket",
-  "textures": {
-    "filling": "block/models/m_onion"
-  }
-}

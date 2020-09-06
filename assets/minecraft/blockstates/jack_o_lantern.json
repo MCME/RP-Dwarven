@@ -1,19 +1,8 @@
 {
   "variants": {
-    "facing\u003dnorth": {
-      "model": "block/pumpkin_lit"
-    },
-    "facing\u003dsouth": {
-      "model": "block/pumpkin_lit",
-      "y": 180
-    },
-    "facing\u003dwest": {
-      "model": "block/pumpkin_lit",
-      "y": 270
-    },
-    "facing\u003deast": {
-      "model": "block/pumpkin_lit",
-      "y": 90
-    }
+    "facing=north": { "model": "block/jack_o_lantern" },
+    "facing=east": { "model": "block/jack_o_lantern", "y": 90 },
+    "facing=south": { "model": "block/jack_o_lantern", "y": 180 },
+    "facing=west": { "model": "block/jack_o_lantern", "y": 270 }    
   }
 }

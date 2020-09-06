@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/yellow_carpet"
-    }
+    "": { "model": "block/yellow_carpet" }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "level=0": { "model": "block/unused_block" },
+    "level=1": { "model": "block/unused_block" },
+    "level=2": { "model": "block/unused_block" },
+    "level=3": { "model": "block/unused_block" },
+    "level=4": { "model": "block/unused_block" },
+    "level=5": { "model": "block/unused_block" },
+    "level=6": { "model": "block/unused_block" },
+    "level=7": { "model": "block/unused_block" },
+    "level=8": { "model": "block/unused_block" }
+  }
+}

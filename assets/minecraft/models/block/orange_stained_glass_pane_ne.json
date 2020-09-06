@@ -1,0 +1,7 @@
+{
+    "parent": "block/deco_ne",
+    "textures": {
+        "base": "block/red_mushroom_block_nswud",
+        "particle": "block/red_mushroom_block_nswud"
+    }
+}

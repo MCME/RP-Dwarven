@@ -1,13 +1,8 @@
 {
   "variants": {
-    "type\u003dbottom": {
-      "model": "block/nether_brick_slab"
-    },
-    "type\u003dtop": {
-      "model": "block/nether_brick_slab_top"
-    },
-    "type\u003ddouble": {
-      "model": "block/nether_bricks"
-    }
+    "type=bottom": { "model": "block/nether_brick_slab" },
+    "type=top": { "model": "block/nether_brick_slab_top" },
+    "waterlogged=false,type=double": { "model": "block/unused_block" },
+    "waterlogged=true,type=double": { "model": "block/unused_block" }
   }
 }

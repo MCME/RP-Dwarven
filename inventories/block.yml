@@ -227,16 +227,16 @@ Items:
     display: Foundry Output [86:2]
     category: Workshop
     type: BLOCK
-    blockData: minecraft:carved_pumpkin[facing=north]
+    blockData: minecraft:pumpkin
   Pumkpin1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 30
     display: Small Logs [86:0,1,2]
     category: Workshop
     type: THREE_AXIS
-    blockDataZ: minecraft:carved_pumpkin[facing=south]
-    blockDataX: minecraft:carved_pumpkin[facing=south]
-    blockDataY: minecraft:carved_pumpkin[facing=south]
+    blockDataZ: minecraft:brown_mushroom_block[north=true,east=false,south=false,west=false,up=true,down=false]
+    blockDataX: minecraft:brown_mushroom_block[north=true,east=false,south=false,west=true,up=true,down=false]
+    blockDataY: minecraft:brown_mushroom_block[north=true,east=true,south=false,west=false,up=true,down=false]
   Cactus0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 31
@@ -257,9 +257,9 @@ Items:
     display: Barrel [81:2,3,4]
     category: Interior
     type: THREE_AXIS
-    blockDataZ: minecraft:cactus[age=0]
-    blockDataX: minecraft:cactus[age=0]
-    blockDataY: minecraft:cactus[age=0]
+    blockDataZ: minecraft:cactus[age=3]
+    blockDataX: minecraft:cactus[age=4]
+    blockDataY: minecraft:cactus[age=2]
   Cactus5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 34
@@ -350,42 +350,42 @@ Items:
     category: Interior
     type: BLOCK
     blockData: minecraft:green_stained_glass
-  MonsterEgg0:
+  infested_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 46
     display: Stone Cabinet [97:0]
     category: Interior
     type: BLOCK
     blockData: minecraft:infested_stone
-  MonsterEgg1:
+  infested_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 47
-    display: Wooden Cabinet [97:1]
+    display: Sandstone Cabinet [97:1]
     category: Interior
     type: BLOCK
     blockData: minecraft:infested_cobblestone
-  MonsterEgg2:
+  infested_stone_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 48
     display: Stone Wardrobe [97:2]
     category: Interior
     type: BLOCK
     blockData: minecraft:infested_stone_bricks
-  MonsterEgg3:
+  infested_mossy_stone_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 49
     display: Wooden Wardrobe [97:3]
     category: Interior
     type: BLOCK
     blockData: minecraft:infested_mossy_stone_bricks
-  MonsterEgg4:
+  infested_cracked_stone_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 50
     display: Stone Drawers [97:4]
     category: Interior
     type: BLOCK
     blockData: minecraft:infested_cracked_stone_bricks
-  MonsterEgg5:
+  infested_chiseled_stone_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 51
     display: Wooden Drawers [97:5]
@@ -398,19 +398,19 @@ Items:
     display: Rope Block [158:8,10,12]
     category: Workshop
     type: THREE_AXIS
-    blockDataZ: minecraft:dropper[facing=down,triggered=false]
-    blockDataX: minecraft:dropper[facing=down,triggered=false]
-    blockDataY: minecraft:dropper[facing=down,triggered=false]
+    blockDataZ: minecraft:dropper[facing=north,triggered=true]
+    blockDataX: minecraft:dropper[facing=west,triggered=true]
+    blockDataY: minecraft:dropper[facing=down,triggered=true]
   Dropper9:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 53
     display: Chain Block [158:9,11,13]
     category: Workshop
     type: THREE_AXIS
-    blockDataZ: minecraft:dropper[facing=down,triggered=false]
-    blockDataX: minecraft:dropper[facing=down,triggered=false]
-    blockDataY: minecraft:dropper[facing=down,triggered=false]
-  Observer0:
+    blockDataZ: minecraft:dropper[facing=south,triggered=true]
+    blockDataX: minecraft:dropper[facing=east,triggered=true]
+    blockDataY: minecraft:dropper[facing=down,triggered=true]
+  Observer_nwu:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 54
     display: Column Type A [218:0,1,2]
@@ -419,7 +419,7 @@ Items:
     blockDataZ: minecraft:observer[facing=north,powered=false]
     blockDataX: minecraft:observer[facing=west,powered=false]
     blockDataY: minecraft:observer[facing=up,powered=false]
-  Observer3:
+  Observer_sed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 55
     display: Column Type B [218:3,4,5]
@@ -616,28 +616,28 @@ Items:
     display: Empty Basket [94:0]
     category: Interior
     type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=false]
-  RedstoneRepeaterOn1:
+    blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
+  Spruce_trapdoor:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 90
     display: Grate for Fireplace [94:1]
     category: Workshop
     type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
-  RedstoneRepeaterOn2:
+    blockData: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  Light_weighted_pressure_plate2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 91
     display: Foundry Form [94:2]
     category: Workshop
     type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=north,locked=false,powered=false]
-  RedstoneRepeaterOn3:
+    blockData: minecraft:light_weighted_pressure_plate[power=2]
+  Light_weighted_pressure_plate3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 92
     display: Foundry Form Closed [94:3]
     category: Workshop
     type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=east,locked=false,powered=false]
+    blockData: minecraft:light_weighted_pressure_plate[power=3]
   RedstoneRepeaterOn4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 93
@@ -645,16 +645,16 @@ Items:
     category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=south,locked=false,powered=false]
-  RedstoneRepeaterOn5:
+  Light_weighted_pressure_plate4/5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 94
     display: Precision Tools [94:5,6]
     category: Workshop
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:repeater[delay=2,facing=west,locked=false,powered=false]
-    blockDataWest: minecraft:repeater[delay=2,facing=north,locked=false,powered=false]
-    blockDataNorth: minecraft:repeater[delay=2,facing=west,locked=false,powered=false]
-    blockDataEast: minecraft:repeater[delay=2,facing=north,locked=false,powered=false]
+    blockDataSouth: minecraft:light_weighted_pressure_plate[power=5]
+    blockDataWest: minecraft:light_weighted_pressure_plate[power=4]
+    blockDataNorth: minecraft:light_weighted_pressure_plate[power=5]
+    blockDataEast: minecraft:light_weighted_pressure_plate[power=4]
   EndPortal0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 95
@@ -739,13 +739,17 @@ Items:
     category: Workshop
     type: BLOCK
     blockData: minecraft:cauldron[level=3]
-  golden_rail_flat:
+  powered_rail:
     itemMaterial: POWERED_RAIL
     damage: 0
     display: Chain horizontal [27:0]
     category: Workshop
-    type: VANILLA
-  golden_rail_flat_diagonal:
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:powered_rail[powered=false,shape=north_south]
+    blockDataEast: minecraft:powered_rail[powered=false,shape=east_west]
+    blockDataSouth: minecraft:powered_rail[powered=false,shape=north_south]
+    blockDataWest: minecraft:powered_rail[powered=false,shape=east_west]
+  powered_rail_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 107
     display: Chain diagonal [27:8]
@@ -771,7 +775,11 @@ Items:
     damage: 0
     display: Rope horizontal [28:0]
     category: Workshop
-    type: VANILLA
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft: detector_rail[powered=false,shape=north_south]
+    blockDataEast: minecraft: detector_rail[powered=false,shape=east_west]
+    blockDataSouth: minecraft: detector_rail[powered=false,shape=north_south]
+    blockDataWest: minecraft: detector_rail[powered=false,shape=east_west]
   detector_rail_flat_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 109

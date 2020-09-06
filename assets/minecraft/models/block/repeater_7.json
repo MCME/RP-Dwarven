@@ -1,0 +1,7 @@
+{
+  "parent": "block/flat_top",
+  "textures": {
+    "side": "block/repeater_7",
+    "particle": "block/repeater_7"
+  }
+}

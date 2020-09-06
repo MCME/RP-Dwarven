@@ -1,6 +1,7 @@
 {
-  "parent": "block/redstone_torch_model_wall",
+  "parent": "block/lit_redstone_torch_model_wall",
   "textures": {
-    "redstone_torch_off": "block/models/m_redstone_torch_on"
+    "redstone_torch_off": "block/unlit_redstone_torch_wall",
+    "crystal": "block/allium"
   }
 }

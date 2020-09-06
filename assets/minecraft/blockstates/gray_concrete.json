@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/gray_concrete" },
+      {"model": "block/gray_concrete", "x": 90, "z": 90},
+      {"model": "block/gray_concrete", "x": 180, "z": 180},
+      {"model": "block/gray_concrete", "x": 270, "z": 270},
+      {"model": "block/gray_concrete1"},
+      {"model": "block/gray_concrete1", "x": 90, "z": 90},
+      {"model": "block/gray_concrete1", "x": 180, "z": 180},
+      {"model": "block/gray_concrete1", "x": 270, "z": 270},
+      {"model": "block/gray_concrete2"},
+      {"model": "block/gray_concrete2", "x": 90, "z": 90},
+      {"model": "block/gray_concrete2", "x": 180, "z": 180},
+      {"model": "block/gray_concrete2", "x": 270, "z": 270}
+    ]
+  }
+}
+

@@ -1,122 +1,16 @@
 {
-  "multipart": [
-    {
-      "when": {
-        "facing": "down",
-        "triggered": "false"
-      },
-      "apply": {
-        "model": "block/dropper_vertical",
-        "x": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "up",
-        "triggered": "false"
-      },
-      "apply": {
-        "model": "block/dropper_vertical"
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "triggered": "false"
-      },
-      "apply": {
-        "model": "block/dropper"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "triggered": "false"
-      },
-      "apply": {
-        "model": "block/dropper",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "triggered": "false"
-      },
-      "apply": {
-        "model": "block/dropper",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "triggered": "false"
-      },
-      "apply": {
-        "model": "block/dropper",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "down",
-        "triggered": "true"
-      },
-      "apply": {
-        "model": "block/rope_block"
-      }
-    },
-    {
-      "when": {
-        "facing": "up",
-        "triggered": "true"
-      },
-      "apply": {
-        "model": "block/chain_block"
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "triggered": "true"
-      },
-      "apply": {
-        "model": "block/rope_block",
-        "x": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "triggered": "true"
-      },
-      "apply": {
-        "model": "block/chain_block",
-        "x": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "triggered": "true"
-      },
-      "apply": {
-        "model": "block/rope_block",
-        "y": 90,
-        "x": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "triggered": "true"
-      },
-      "apply": {
-        "model": "block/chain_block",
-        "y": 90,
-        "x": 90
-      }
-    }
-  ]
+  "variants": {
+    "triggered=false,facing=north": { "model": "block/unused_block" },
+    "triggered=false,facing=east": { "model": "block/unused_block" },
+    "triggered=false,facing=south": { "model": "block/unused_block" },
+    "triggered=false,facing=west": { "model": "block/unused_block" },
+    "triggered=false,facing=up": { "model": "block/dropper_vertical","x": 270 },
+    "triggered=false,facing=down": { "model": "block/dropper_vertical", "x": 90 },
+    "triggered=true,facing=north": { "model": "block/dropper_1", "x": 90 },
+    "triggered=true,facing=east": { "model": "block/dropper_2", "y": 90, "x": 90 },
+    "triggered=true,facing=south": { "model": "block/dropper_2", "x": 90 },
+    "triggered=true,facing=west": { "model": "block/dropper_1", "y": 90, "x": 90 },
+    "triggered=true,facing=up": { "model": "block/dropper_2" },
+    "triggered=true,facing=down":{"model": "block/dropper_1"}
+  }
 }

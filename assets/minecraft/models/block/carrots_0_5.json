@@ -1,0 +1,7 @@
+{
+  "parent": "block/small_box",
+  "textures": {
+    "box": "block/carrots_0_5",
+    "particle": "block/carrots_0_5"
+  }
+}

@@ -1,7 +1,18 @@
 {
   "variants": {
-    "": {
-      "model": "block/quartz_block"
-    }
+    "": [
+      {"model": "block/quartz_block"},
+      {"model": "block/quartz_block", "x":90, "z": 90},
+      {"model": "block/quartz_block", "x": 180, "z": 180},
+      {"model": "block/quartz_block", "x": 270, "z": 270},
+      {"model": "block/quartz_block1"},
+      {"model": "block/quartz_block1", "x": 90, "z": 90},
+      {"model": "block/quartz_block1", "x": 180, "z": 180},
+      {"model": "block/quartz_block1", "x": 270, "z": 270},
+      {"model": "block/quartz_block2"},
+      {"model": "block/quartz_block2", "x": 90, "z": 90},
+      {"model": "block/quartz_block2", "x": 180, "z": 180},
+      {"model": "block/quartz_block2", "x": 270, "z": 270}
+    ]
   }
 }

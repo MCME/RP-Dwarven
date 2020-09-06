@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/allium"
-    }
+    "": { "model": "block/allium" }
   }
 }

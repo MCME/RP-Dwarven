@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/cyan_terracotta" },
+      { "model": "block/cyan_terracotta1" },
+      { "model": "block/cyan_terracotta2" },
+      { "model": "block/cyan_terracotta3" },
+      { "model": "block/cyan_terracotta4" },
+      { "model": "block/cyan_terracotta5" },
+      { "model": "block/cyan_terracotta6" }
+    ]
+  }
+}

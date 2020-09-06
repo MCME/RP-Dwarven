@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "block/foundry_output"
-    }
+    "": { "model": "block/pumpkin" }
   }
 }

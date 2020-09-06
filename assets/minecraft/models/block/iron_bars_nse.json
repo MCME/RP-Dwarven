@@ -1,0 +1,158 @@
+{
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "from": [
+        7,
+        7,
+        0
+      ],
+      "to": [
+        9,
+        9,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            16.0
+          ],
+          "texture": "#rope",
+          "rotation": 90
+        },
+        "north": {
+          "uv": [
+            3,
+            0.0,
+            4,
+            2
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            16.0
+          ],
+          "texture": "#rope",
+          "rotation": 90
+        },
+        "south": {
+          "uv": [
+            3,
+            0.0,
+            4,
+            2
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            16.0
+          ],
+          "texture": "#rope",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            2,
+            16.0
+          ],
+          "texture": "#rope",
+          "rotation": 0
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        4,
+        4
+      ],
+      "to": [
+        16,
+        12,
+        12
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            8,
+            8
+          ],
+          "texture": "#rope_m",
+          "rotation": 0
+        },
+        "north": {
+          "uv": [
+            8,
+            0.0,
+            16,
+            8
+          ],
+          "texture": "#rope_m",
+          "rotation": 0
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            8,
+            8
+          ],
+          "texture": "#rope_m",
+          "rotation": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            0.0,
+            16,
+            8
+          ],
+          "texture": "#rope_m",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            8,
+            0.0,
+            16,
+            8
+          ],
+          "texture": "#rope_m",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            8,
+            0.0,
+            16,
+            8
+          ],
+          "texture": "#rope_m",
+          "rotation": 180
+        }
+      }
+    }
+  ],
+  "textures": {
+    "rope": "block/iron_bars_0",
+    "rope_m": "block/iron_bars_1",
+    "particle": "block/iron_bars_0"
+  }
+}

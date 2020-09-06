@@ -1,0 +1,7 @@
+{
+  "parent": "block/deco_parent_n",
+  "textures": {
+    "base": "block/dark_oak_log",
+    "particle": "block/dark_oak_log"
+  }
+}

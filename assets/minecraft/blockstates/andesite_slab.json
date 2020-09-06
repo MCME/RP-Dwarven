@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "type=bottom": { "model": "block/andesite_slab" },
+    "type=top": { "model": "block/andesite_slab_top" },
+    "waterlogged=false,type=double": { "model": "block/unused_block" },
+    "waterlogged=true,type=double": { "model": "block/unused_block" }
+  }
+}

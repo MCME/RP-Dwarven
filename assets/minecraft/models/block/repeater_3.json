@@ -1,0 +1,6 @@
+{
+  "parent": "block/basket",
+  "textures": {
+    "filling": "block/repeater_3"
+  }
+}

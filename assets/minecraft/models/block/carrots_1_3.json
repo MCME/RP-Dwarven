@@ -1,0 +1,7 @@
+{
+  "parent": "block/flat",
+  "textures": {
+    "top": "block/carrots_1_3",
+    "particle": "block/carrots_1_3"
+  }
+}

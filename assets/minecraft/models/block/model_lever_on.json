@@ -1,5 +1,9 @@
 {
   "ambientocclusion": true,
+  "textures": {
+    "m_old_torch": "block/lever_on",
+    "particle": "block/torch"
+  },
   "elements": [
     {
       "from": [
@@ -472,9 +476,5 @@
         }
       }
     }
-  ],
-  "textures": {
-    "m_old_torch": "block/models/m_old_torch",
-    "particle": "block/torch"
-  }
+  ]
 }

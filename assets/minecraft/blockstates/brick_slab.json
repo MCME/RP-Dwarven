@@ -1,13 +1,8 @@
 {
   "variants": {
-    "type\u003dbottom": {
-      "model": "block/brick_slab"
-    },
-    "type\u003dtop": {
-      "model": "block/brick_slab_top"
-    },
-    "type\u003ddouble": {
-      "model": "block/bricks"
-    }
+    "type=bottom": { "model": "block/brick_slab" },
+    "type=top": { "model": "block/brick_slab_top" },
+    "waterlogged=false,type=double": { "model": "block/unused_block" },
+    "waterlogged=true,type=double": { "model": "block/unused_block" }
   }
 }

@@ -1,21 +1,11 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/copper_ore/1"
-      },
-      {
-        "model": "block/copper_ore/2"
-      },
-      {
-        "model": "block/copper_ore/3"
-      },
-      {
-        "model": "block/copper_ore/4"
-      },
-      {
-        "model": "block/copper_ore/5"
-      }
+      { "model": "block/nether_quartz_ore" },
+      { "model": "block/nether_quartz_ore1" },
+      { "model": "block/nether_quartz_ore2" },
+      { "model": "block/nether_quartz_ore3" },
+      { "model": "block/nether_quartz_ore4" }
     ]
   }
 }
