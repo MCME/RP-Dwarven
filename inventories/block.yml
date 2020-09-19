@@ -409,7 +409,7 @@ Items:
     type: THREE_AXIS
     blockDataZ: minecraft:dropper[facing=south,triggered=true]
     blockDataX: minecraft:dropper[facing=east,triggered=true]
-    blockDataY: minecraft:dropper[facing=down,triggered=true]
+    blockDataY: minecraft:dropper[facing=up,triggered=true]
   Observer_nwu:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 54
