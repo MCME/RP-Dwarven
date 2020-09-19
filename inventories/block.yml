@@ -776,10 +776,10 @@ Items:
     display: Rope horizontal [28:0]
     category: Workshop
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft: detector_rail[powered=false,shape=north_south]
-    blockDataEast: minecraft: detector_rail[powered=false,shape=east_west]
-    blockDataSouth: minecraft: detector_rail[powered=false,shape=north_south]
-    blockDataWest: minecraft: detector_rail[powered=false,shape=east_west]
+    blockDataNorth: minecraft:detector_rail[powered=false,shape=north_south]
+    blockDataEast: minecraft:detector_rail[powered=false,shape=east_west]
+    blockDataSouth: minecraft:detector_rail[powered=false,shape=north_south]
+    blockDataWest: minecraft:detector_rail[powered=false,shape=east_west]
   detector_rail_flat_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 109
