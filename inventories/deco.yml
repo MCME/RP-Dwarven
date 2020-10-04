@@ -1,0 +1,183 @@
+Items:
+  Cactus11:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 37
+    display: Supports [81:11]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:cactus[age=11]
+  ChorusFlower1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 41
+    display: Supports Side [200:1,2,3,4]
+    category: Deco
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:chorus_flower[age=3]
+    blockDataWest: minecraft:chorus_flower[age=4]
+    blockDataNorth: minecraft:chorus_flower[age=1]
+    blockDataEast: minecraft:chorus_flower[age=2]
+  Observer_nwu:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 54
+    display: Column Type A [218:0,1,2]
+    category: Deco
+    type: THREE_AXIS
+    blockDataZ: minecraft:observer[facing=north,powered=false]
+    blockDataX: minecraft:observer[facing=west,powered=false]
+    blockDataY: minecraft:observer[facing=up,powered=false]
+  Observer_sed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 55
+    display: Column Type B [218:3,4,5]
+    category: Deco
+    type: THREE_AXIS
+    blockDataZ: minecraft:observer[facing=south,powered=false]
+    blockDataX: minecraft:observer[facing=east,powered=false]
+    blockDataY: minecraft:observer[facing=down,powered=false]
+  RedstoneWire0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 56
+    display: Dust [55:0]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=0,south=none,west=none]
+  RedstoneWire3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 59
+    display: Dirt [55:3]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=3,south=none,west=none]
+  RedstoneWire4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 60
+    display: Coal [55:4]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=4,south=none,west=none]
+  RedstoneComparator0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 63
+    display: 1/4 Block [149:0]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=compare,powered=false]
+  RedstoneComparator1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 64
+    display: 1/4 Block [149:1]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=false]
+  RedstoneComparator2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 65
+    display: 1/4 Block [149:2]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=north,mode=compare,powered=false]
+  RedstoneComparator3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 66
+    display: 1/4 Block [149:3]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=compare,powered=false]
+  RedstoneComparator4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 67
+    display: 1/4 Block [149:4]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=subtract,powered=false]
+  RedstoneComparator5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 68
+    display: 1/4 Block [149:5]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=subtract,powered=false]
+  RedstoneComparator6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 69
+    display: 1/4 Block [149:6]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=north,mode=subtract,powered=false]
+  RedstoneComparator7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 70
+    display: 1/4 Block [149:7]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=subtract,powered=false]
+  RedstoneComparator8:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 71
+    display: 1/4 Block [149:8]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=compare,powered=true]
+  RedstoneComparator9:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 72
+    display: 1/4 Block [149:9]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
+  EndPortal0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 95
+    display: 3/4 Block [120:0]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=south]
+  EndPortal1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 96
+    display: 3/4 Block [120:1]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=west]
+  EndPortal2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 97
+    display: 3/4 Block [120:2]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=north]
+  EndPortal3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 98
+    display: 3/4 Block [120:03]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=east]
+  EndPortal4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 99
+    display: 3/4 Block [120:4]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=south]
+  EndPortal5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 100
+    display: 3/4 Block [120:5]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=west]
+  EndPortal6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 101
+    display: 3/4 Block [120:6]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=north]
+  EndPortal7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 102
+    display: 3/4 Block [120:7]
+    category: Deco
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=east]

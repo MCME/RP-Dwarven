@@ -1,0 +1,21 @@
+Categories:
+  Workshop:
+    itemMaterial: GOLDEN_HELMET
+    damage: 5
+    damageCurrent: 6
+    display: Workshop items
+  Interior:
+    itemMaterial: GOLDEN_HELMET
+    damage: 7
+    damageCurrent: 8
+    display: Interior items
+  Deco:
+    itemMaterial: GOLDEN_HELMET
+    damage: 9
+    damageCurrent: 10
+    display: Decoration
+  Misc:
+    itemMaterial: GOLDEN_HELMET
+    damage: 11
+    damageCurrent: 12
+    display: Miscellanous blocks

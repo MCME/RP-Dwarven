@@ -1,0 +1,184 @@
+Items:
+  white_wool:
+    itemMaterial: WHITE_WOOL
+    damage: 0
+    display: White wool block
+    category: Misc
+    type: VANILLA
+  yellow_wool:
+    itemMaterial: YELLOW_WOOL
+    damage: 4
+    display: Yellow wool block
+    category: Misc
+    type: VANILLA
+  orange_wool:
+    itemMaterial: ORANGE_WOOL
+    damage: 1
+    display: Orange wool block
+    category: Misc
+    type: VANILLA
+  pink_wool:
+    itemMaterial: PINK_WOOL
+    damage: 6
+    display: Pink wool block
+    category: Misc
+    type: VANILLA
+  red_wool:
+    itemMaterial: RED_WOOL
+    damage: 14
+    display: Red wool block
+    category: Misc
+    type: VANILLA
+  magenta_wool:
+    itemMaterial: MAGENTA_WOOL
+    damage: 2
+    display: Magenta wool block
+    category: Misc
+    type: VANILLA
+  purple_wool:
+    itemMaterial: PURPLE_WOOL
+    damage: 10
+    display: Purple wool block
+    category: Misc
+    type: VANILLA
+  blue_wool:
+    itemMaterial: BLUE_WOOL
+    damage: 11
+    display: Blue wool block
+    category: Misc
+    type: VANILLA
+  light_blue_wool:
+    itemMaterial: LIGHT_BLUE_WOOL
+    damage: 3
+    display: Light wool block
+    category: Misc
+    type: VANILLA
+  cyan_wool:
+    itemMaterial: CYAN_WOOL
+    damage: 9
+    display: Cyan wool block
+    category: Misc
+    type: VANILLA
+  green_wool:
+    itemMaterial: GREEN_WOOL
+    damage: 13
+    display: Green wool block
+    category: Misc
+    type: VANILLA
+  lime_wool:
+    itemMaterial: LIME_WOOL
+    damage: 5
+    display: Lime wool block
+    category: Misc
+    type: VANILLA
+  brown_wool:
+    itemMaterial: BROWN_WOOL
+    damage: 12
+    display: Brown wool block
+    category: Misc
+    type: VANILLA
+  silver_wool:
+    itemMaterial: LIGHT_GRAY_WOOL
+    damage: 8
+    display: Light gray wool block
+    category: Misc
+    type: VANILLA
+  gray_wool:
+    itemMaterial: GRAY_WOOL
+    damage: 7
+    display: Dark gray wool block
+    category: Misc
+    type: VANILLA
+  black_wool:
+    itemMaterial: BLACK_WOOL
+    damage: 15
+    display: Black wool block
+    category: Misc
+    type: VANILLA
+  fireworks:
+    itemMaterial: TNT
+    damage: 1
+    display: Fireworks
+    category: Misc
+    type: VANILLA
+  fire:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 
+    display: Fire
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:fire[age=0,east=false,north=false,south=false,up=false,west=false]
+  portal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 
+    display: Eye of Sauron [90:0]
+    category: Misc
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:nether_portal[axis=x]
+    blockDataWest: minecraft:nether_portal[axis=z]
+    blockDataNorth: minecraft:nether_portal[axis=x]
+    blockDataEast: minecraft:nether_portal[axis=z]
+  diamond_block:
+    itemMaterial: DIAMOND_BLOCK
+    damage: 1
+    display: Diamon block
+    category: Misc
+    type: VANILLA
+  activator_rail_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 
+    display: Footprints [157:0]
+    category: Exter
+    type: EIGHT_FACES
+    blockDataSouth: minecraft:activator_rail[powered=true,shape=north_south]
+    blockDataSouthWest: minecraft:activator_rail[powered=true,shape=ascending_west]
+    blockDataWest: minecraft:activator_rail[powered=true,shape=east_west]
+    blockDataNorthWest: minecraft:activator_rail[powered=false,shape=ascending_east]
+    blockDataNorth: minecraft:activator_rail[powered=false,shape=north_south]
+    blockDataNorthEast: minecraft:activator_rail[powered=false,shape=ascending_west]
+    blockDataEast: minecraft:activator_rail[powered=false,shape=east_west]
+    blockDataSouthEast: minecraft:activator_rail[powered=true,shape=ascending_east]
+  glow_stone:
+    itemMaterial: GLOWSTONE
+    damage: 1
+    display: Glowing stone
+    category: Misc
+    type: VANILLA
+  sign:
+    itemMaterial: OAK_SIGN
+    damage: 0
+    display: Sign
+    category: Misc
+    type: VANILLA
+  dragon_egg:
+    itemMaterial: DRAGON_EGG
+    damage: 0
+    display: Palantir
+    category: Misc
+    type: VANILLA
+  green_terracotta:
+   itemMaterial: GREEN_TERRACOTTA
+    damage: 0
+    display: Shiny block
+    category: Misc
+    type: VANILLA
+  beacon:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 
+    display: Glass lamp
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:beacon
+  carpet_black:
+    itemMaterial: BLACK_CARPET
+    damage: 15
+    display: Black Carpet
+    category: Misc
+    type: VANILLA
+  carpet_red:
+    itemMaterial: RED_CARPET
+    damage: 14
+    display: Red Carpet
+    category: Misc
+    type: VANILLA
+  

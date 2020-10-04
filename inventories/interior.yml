@@ -1,0 +1,265 @@
+Items:
+  Netherwart3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 3
+    display: Statue/Decoration [115:3]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:nether_wart[age=3]
+  Crops0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 5
+    display: Plate [59:0]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:wheat[age=0]
+  Crops1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 6
+    display: Pot [59:1]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:wheat[age=1]
+  Crops2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 7
+    display: Cup [59:2]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:wheat[age=2]
+  Crops3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 8
+    display: Bottle [59:3]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:wheat[age=3]
+  Crops4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 9
+    display: Jar Filling [59:4]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:wheat[age=4]
+  Crops5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 10
+    display: Small Jar [59:5]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:wheat[age=5]
+  Carrots0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 11
+    display: Small Box [141:0]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:carrots[age=0]
+  Carrots1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 12
+    display: Paper [141:1]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:carrots[age=1]
+  Carrots2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 13
+    display: Map [141:2]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:carrots[age=2]
+  Carrots3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 14
+    display: Skin [141:3]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:carrots[age=3]
+  Carrots4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 15
+    display: Scale [141:4]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:carrots[age=4]
+  Melon:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 28
+    display: Shelves [103:0]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:melon
+  Cactus0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 31
+    display: Meat [81:0]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:cactus[age=0]
+  Cactus1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 32
+    display: Table [81:1]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:cactus[age=1]
+  Cactus2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 33
+    display: Barrel [81:2,3,4]
+    category: Interior
+    type: THREE_AXIS
+    blockDataZ: minecraft:cactus[age=3]
+    blockDataX: minecraft:cactus[age=4]
+    blockDataY: minecraft:cactus[age=2]
+  Cactus5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 34
+    display: Empty Box [81:5]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:cactus[age=5]
+  Cactus6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 35
+    display: Chair [81:6,7,8,9]
+    category: Interior
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cactus[age=8]
+    blockDataWest: minecraft:cactus[age=9]
+    blockDataNorth: minecraft:cactus[age=6]
+    blockDataEast: minecraft:cactus[age=7]
+  Cactus10:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 36
+    display: Bell [81:10]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:cactus[age=10]
+  BrownGlass:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 44
+    display: Cage [95:12]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:brown_stained_glass
+  GreenGlass:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 45
+    display: Jar [95:13]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:green_stained_glass
+  infested_stone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 46
+    display: Stone Cabinet [97:0]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:infested_stone
+  infested_cobblestone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 47
+    display: Sandstone Cabinet [97:1]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:infested_cobblestone
+  infested_stone_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 48
+    display: Stone Wardrobe [97:2]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:infested_stone_bricks
+  infested_mossy_stone_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 49
+    display: Wooden Wardrobe [97:3]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:infested_mossy_stone_bricks
+  infested_cracked_stone_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 50
+    display: Stone Drawers [97:4]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:infested_cracked_stone_bricks
+  infested_chiseled_stone_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 51
+    display: Wooden Drawers [97:5]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:infested_chiseled_stone_bricks
+  RedstoneRepeater0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 73
+    display: Basket [93:0]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=false]
+  RedstoneRepeater1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 74
+    display: Basket [93:1]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
+  RedstoneRepeater6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 79
+    display: Basket [93:6]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=2,facing=north,locked=false,powered=false]
+  RedstoneRepeater8:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 81
+    display: Basket [93:8]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=south,locked=false,powered=false]
+  RedstoneRepeater9:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 82
+    display: Basket [93:9]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=false]
+  RedstoneRepeater11:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 84
+    display: Basket [93:11]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=east,locked=false,powered=false]
+  RedstoneRepeater13:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 86
+    display: Basket [93:13]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=west,locked=false,powered=false]
+  RedstoneRepeater14:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 87
+    display: Basket [93:14]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=north,locked=false,powered=false]
+  RedstoneRepeater15:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 88
+    display: Basket [93:15]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=east,locked=false,powered=false]
+  RedstoneRepeaterOn0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 89
+    display: Empty Basket [94:0]
+    category: Interior
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
