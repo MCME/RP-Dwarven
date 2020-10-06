@@ -32,25 +32,25 @@
       "predicate": {
         "damage": 0.06410
       },
-      "model": "gui/works"
+      "model": "gui/terra" 
     },
     {
       "predicate": {
         "damage": 0.07692
       },
-      "model": "gui/works_alt"
+      "model": "gui/terra_alt"
     },
     {
       "predicate": {
         "damage": 0.08974
       },
-      "model": "gui/inter"
+      "model": "gui/block"
     },
     {
       "predicate": {
         "damage": 0.10256
       },
-      "model": "gui/inter_alt"
+      "model": "gui/block_alt"
     },
     {
       "predicate": {
@@ -68,13 +68,55 @@
       "predicate": {
         "damage": 0.14103
       },
-      "model": "gui/misc"
+      "model": "gui/works"
     },
     {
       "predicate": {
         "damage": 0.15385
       },
+      "model": "gui/works_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.16667
+      },
+      "model": "gui/works"
+    },
+    {
+      "predicate": {
+        "damage": 0.17949
+      },
+      "model": "gui/works_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.19231
+      },
+      "model": "gui/inter"
+    },
+    {
+      "predicate": {
+        "damage": 0.20513
+      },
+      "model": "gui/inter_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.21795
+      },
+      "model": "gui/misc"
+    },
+    {
+      "predicate": {
+        "damage": 0.23077
+      },
       "model": "gui/misc_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.44872
+      },
+      "model": "gui/block_collection_mask"
     }
   ]
 }

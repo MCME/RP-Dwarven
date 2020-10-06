@@ -1,21 +1,41 @@
 Categories:
-  Workshop:
+  Terra:
     itemMaterial: GOLDEN_HELMET
     damage: 5
     damageCurrent: 6
-    display: Workshop items
-  Interior:
+    display: Terrain Blocks
+  Block:
     itemMaterial: GOLDEN_HELMET
     damage: 7
     damageCurrent: 8
-    display: Interior items
+    display: Building Blocks (brick, sandstone, etc)
+  Block2:
+    itemMaterial: GOLDEN_HELMET
+    damage: 7
+    damageCurrent: 8
+    display: Building Blocks (dark stone, green stone, etc)
   Deco:
     itemMaterial: GOLDEN_HELMET
     damage: 9
     damageCurrent: 10
-    display: Decoration
-  Misc:
+    display: Decor Blocks (color details, pillars)
+  Workshop:
     itemMaterial: GOLDEN_HELMET
     damage: 11
     damageCurrent: 12
-    display: Miscellanous blocks
+    display: Workshop Blocks
+  #Mines:
+  #  itemMaterial: GOLDEN_HELMET
+  #  damage: 13
+  #  damageCurrent: 14
+  #  display: Blocks used in Mines (wood,ores)
+  Inter:
+    itemMaterial: GOLDEN_HELMET
+    damage: 15
+    damageCurrent: 16
+    display: Interior Blocks
+  Misc:
+    itemMaterial: GOLDEN_HELMET
+    damage: 17
+    damageCurrent: 18
+    display: Misc Blocks
