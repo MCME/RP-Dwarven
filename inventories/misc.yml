@@ -103,14 +103,14 @@ Items:
     type: VANILLA
   fire:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 
+    damage: 113
     display: Fire
     category: Misc
     type: BLOCK
     blockData: minecraft:fire[age=0,east=false,north=false,south=false,up=false,west=false]
   portal:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 
+    damage: 112
     display: Eye of Sauron [90:0]
     category: Misc
     type: FOUR_DIRECTIONS
@@ -126,7 +126,7 @@ Items:
     type: VANILLA
   activator_rail_flat:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 
+    damage: 114
     display: Footprints [157:0]
     category: Exter
     type: EIGHT_FACES
@@ -164,7 +164,7 @@ Items:
     type: VANILLA
   beacon:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 
+    damage: 115
     display: Glass lamp
     category: Misc
     type: BLOCK
