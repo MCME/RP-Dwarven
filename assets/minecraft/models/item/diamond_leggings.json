@@ -1123,6 +1123,55 @@
       },
       "name": 160,
       "model": "block/"
+    }, 
+    {
+      "predicate": {
+        "damage": 0.32258
+      }, 
+      "name": 161,
+      "model": "block/mossy_cobblestone_wall_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.32258
+      },
+      "name": 162,
+      "model": "block/mossy_cobblestone_wall_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.32258
+      },
+      "name": 163,
+      "model": "block/mossy_cobblestone_wall_nsew"
+    },
+    {
+      "predicate": {
+        "damage": 0.32258
+      },
+      "name": 164,
+      "model": "block/mossy_cobblestone_wall"
+    },
+    {
+      "predicate": {
+        "damage": 0.32258
+      },
+      "name": 165,
+      "model": "item/iron_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.32258
+      },
+      "name": 166,
+      "model": "block/pink_stained_glass_pane_nsew"
     }
+
+    
+
+
+
+
+
   ]
 }
