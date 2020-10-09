@@ -229,3 +229,48 @@ Items:
     blockDataSouth: minecraft:iron_door[facing=south,half:upper,hinge:left,open=false,powered=true]
     blockDataEast: minecraft:iron_door[facing=east,half:upper,hinge:left,open=false,powered=true]
     blockDataWest: minecraft:iron_door[facing=west,half:upper,hinge:left,open=false,powered=true]
+
+
+  # brown stone collection
+  granite:
+    itemMaterial: GRANITE
+    damage: 1
+    display: Rough Brown Stone [1:1]
+    category: Terra
+    type: VANILLA
+  polished_granite:
+    itemMaterial: POLISHED_GRANITE
+    damage: 2
+    display: Rought Red Stone [1:2]
+    category: Terra
+    type: VANILLA
+  light_blue_concrete:
+    itemMaterial: LIGHT_BLUE_CONCRETE
+    damage: 3
+    display: Brown Stone [251:3]
+    category: Terra
+    type: VANILLA
+  orange_concrete:
+    itemMaterial: ORANGE_CONCRETE
+    damage: 1
+    display: Light Brown Stone [251:1]
+    category: Terra
+    type: VANILLA
+  lime_concrete:
+    itemMaterial: LIME_CONCRETE
+    damage: 5
+    display: Dry Clay [251:5]
+    category: Terra
+    type: VANILLA
+  cyan_concrete:
+    itemMaterial: CYAN_CONCRETE
+    damage: 9
+    display: Yellow Stone [251:9]
+    category: Terra
+    type: VANILLA
+  terracotta:
+    itemMaterial: TERRACOTTA
+    damage: 0
+    display: Smooth Brown Stone [172:0]
+    category: Terra
+    type: VANILLA
