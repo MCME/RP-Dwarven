@@ -1193,13 +1193,62 @@
       },
       "name": 170,
       "model": "block/granite_wall"
+    },
+    {
+      "predicate": {
+        "damage": 0.34476
+      },
+      "name": 171,
+      "model": "block/andesite_wall_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.34677
+      },
+      "name": 172,
+      "model": "block/andesite_wall_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.34879
+      },
+      "name": 173,
+      "model": "block/andesite_wall_nsew"
+    },
+    {
+      "predicate": {
+        "damage": 0.35081
+      },
+      "name": 174,
+      "model": "block/andesite_wall"
+    },
+    {
+      "predicate": {
+        "damage": 0.35282
+      },
+      "name": 175,
+      "model": "block/diorite_wall_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.35484
+      },
+      "name": 176,
+      "model": "block/diorite_wall_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.35685
+      },
+      "name": 177,
+      "model": "block/diorite_wall_nsew"
+    },
+    {
+      "predicate": {
+        "damage": 0.35887
+      },
+      "name": 178,
+      "model": "block/diorite_wall"
     }
-
-    
-
-
-
-
-
   ]
 }
