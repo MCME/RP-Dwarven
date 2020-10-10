@@ -84,25 +84,26 @@ Items:
     display: stone [1:0]
     category: Terra
     type: VANILLA
-    C0: stone
-    A1: light_gray_terracotta
-    F1: coal_block
-    G2: polished_andesite
-    H2: polished_andesite_stairs
-    I2: polished_andesite_slab
-    J1: stone_button
-    E0: very_thin_stone_pillar
-    E1: iron_door_bottom
-    D2: stone_slab
-    C2: stone_stairs
-    B2: cyan_terracotta
-    A4: stone_vertical_slab
-    B4: stone_vertical_stair
-    C4: stone_balustrade
-    D4: thin_stone_pillar
-    E4: fancy_thin_stone_pillar
-    F4: gray_concrete
-    G4: brown_concrete
+    collection:
+      C0: stone
+      A1: light_gray_terracotta
+      F1: coal_block
+      G2: polished_andesite
+      H2: polished_andesite_stairs
+      I2: polished_andesite_slab
+      J1: stone_button
+      E0: very_thin_stone_pillar
+      E1: iron_door_bottom
+      D2: stone_slab
+      C2: stone_stairs
+      B2: cyan_terracotta
+      A4: stone_vertical_slab
+      B4: stone_vertical_stair
+      C4: stone_balustrade
+      D4: thin_stone_pillar
+      E4: fancy_thin_stone_pillar
+      F4: gray_concrete
+      G4: brown_concrete
   polished_andesite:
     itemMaterial: POLISHED_ANDESITE
     damage: 6
@@ -238,42 +239,72 @@ Items:
     display: Rough Brown Stone [1:1]
     category: Terra
     type: VANILLA
+    collection:
+      A1: pink_concrete
+      F1: orange_concrete
+      G2: polished_granite
+      H2: polished_granite_stairs
+      I2: polished_granite_slab
+      J1: lime_concrete
+      E1: cyan_concrete
+      D2: granite_slab 
+      C2: granite_stairs
+      B2: granite
+      A4: granite_vertical_slab
+      B4: granite_vertical_stair
+      C4: granite_balustrade
+      D4: thin_granite_pillar
+      E4: fancy_thin_granite_pillar
+      F4: light_blue_concrete
+      G4: terracotta
   polished_granite:
     itemMaterial: POLISHED_GRANITE
     damage: 2
     display: Rought Red Stone [1:2]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: granite
   light_blue_concrete:
     itemMaterial: LIGHT_BLUE_CONCRETE
     damage: 3
     display: Brown Stone [251:3]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: granite
   orange_concrete:
     itemMaterial: ORANGE_CONCRETE
     damage: 1
     display: Light Brown Stone [251:1]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: granite
   lime_concrete:
     itemMaterial: LIME_CONCRETE
     damage: 5
     display: Dry Clay [251:5]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: granite
   cyan_concrete:
     itemMaterial: CYAN_CONCRETE
     damage: 9
     display: Yellow Stone [251:9]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: granite
   terracotta:
     itemMaterial: TERRACOTTA
     damage: 0
     display: Smooth Brown Stone [172:0]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: granite
   
   # inside collections
   pink_concrete:
