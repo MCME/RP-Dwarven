@@ -418,24 +418,32 @@ Items:
     display: White Stone 1 [1:5]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: diorite
   white_concrete:
     itemMaterial: WHITE_CONCRETE
     damage: 0
     display: White Stone 2 [251:0]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: diorite
   red_sand:
     itemMaterial: RED_SAND
     damage: 1
     display: Rough Light Stone [12:1]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: diorite
   yellow_terracotta:
     itemMaterial: yellow_terracotta
     damage: 4
     display: Rough Light Grey Stone [159:4]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: diorite
   
   # inside collections
   andesite_stairs:
@@ -537,3 +545,53 @@ Items:
     type: BLOCK
     blockData: minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
   
+  
+  # crystal collection
+  black_stained_glass:
+    itemMaterial: BLACK_STAINED_GLASS
+    damage: 15
+    display: Light Blue Crystal Block [95:15]
+    category: Terra
+    type: VANILLA
+  orange_terracotta:
+    itemMaterial: ORANGE_TERRACOTTA
+    damage: 1
+    display: Yellow Crystal Block [159:1]
+    category: Terra
+    type: VANILLA
+  purple_concrete:
+    itemMaterial: PURPLE_CONCRETE
+    damage: 10
+    display: Green Crystal Block [251:10]
+    category: Terra
+    type: VANILLA
+  magenta_concrete:
+    itemMaterial: MAGENTA_CONCRETE
+    damage: 2
+    display: Orange Crystal Block [251:2]
+    category: Terra
+    type: VANILLA
+  green_concrete:
+    itemMaterial: GREEN_CONCRETE
+    damage: 13
+    display: Mixed Blue Crystal Block [251:13]
+    category: Terra
+    type: VANILLA
+  white_terracotta:
+    itemMaterial: WHITE_TERRACOTTA
+    damage: 0
+    display: Smooth Blue Crystal Block [159:0]
+    category: Terra
+    type: VANILLA
+  light_blue_terracotta:
+    itemMaterial: LIGHT_BLUE_TERRACOTTA
+    damage: 3
+    display: Smooth Pink Crystal Block [159:3]
+    category: Terra
+    type: VANILLA
+  redstone_lamp:
+    itemMaterial: REDSTONE_LAMP
+    damage: 0
+    display: Cluster Crystal [123]
+    category: Terra
+    type: VANILLA
