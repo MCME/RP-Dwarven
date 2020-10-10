@@ -274,3 +274,70 @@ Items:
     display: Smooth Brown Stone [172:0]
     category: Terra
     type: VANILLA
+  
+  # inside collections
+  pink_concrete:
+    itemMaterial: PINK_CONCRETE
+    damage: 6
+    display: Dark Brown Stone [251:6]
+    type: VANILLA
+  granite_stairs:
+    itemMaterial: GRANITE_STAIRS
+    damage: 0
+    display: Rough Brown Stone Stairs
+    type: VANILLA
+  granite_slab:
+    itemMaterial: GRANITE_SLAB
+    damage: 0
+    display: Rough Brown Stone Slab
+    type: VANILLA
+  polished_granite_stairs:
+    itemMaterial: POLISHED_GRANITE_STAIRS
+    damage: 0
+    display: Red Stone Stairs
+    type: VANILLA
+  polished_granite_slab:
+    itemMaterial: POLISHED_GRANITE_SLAB
+    damage: 0
+    display: Red Stone Slab
+    type: VANILLA
+  granite_vertical_slab:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 167
+    display: Vertical Rough Brown Stone Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:granite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:granite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+  granite_vertical_stair:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 168
+    display: Vertical Rough Brown Stone Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:granite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:granite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:granite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:granite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+  granite_balustrade:
+    itemMaterial: GRANITE_WALL
+    damage: 0
+    display: Rough Brown Stone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+  fancy_thin_granite_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 169
+    display: Fancy Thin Rough Brown Stone Pillar
+    type: BLOCK
+    blockData: minecraft:granite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+  thin_granite_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 170
+    display: Thin Rough Brown Stone Pillar
+    type: BLOCK
+    blockData: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+
