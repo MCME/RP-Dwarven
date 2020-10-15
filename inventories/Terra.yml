@@ -53,7 +53,7 @@ Items:
     collection:
       indirect: netherrack
 
-  #inside collections
+  #inside collection
   bedrock:
     itemMaterial: BEDROCK
     damage: 0
@@ -151,7 +151,7 @@ Items:
     collection:
       indirect: stone
   
-  # inside collections
+  #inside collection
   brown_concrete:
     itemMaterial: BROWN_CONCRETE
     damage: 12
@@ -315,7 +315,7 @@ Items:
     collection:
       indirect: granite
   
-  # inside collections
+  #inside collection
   pink_concrete:
     itemMaterial: PINK_CONCRETE
     damage: 6
@@ -382,7 +382,7 @@ Items:
     blockData: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
 
 
-  #light stone collection
+  # light stone collection
   diorite:
     itemMaterial: DIORITE
     damage: 3
@@ -445,7 +445,7 @@ Items:
     collection:
       indirect: diorite
   
-  # inside collections
+  #inside collection
   andesite_stairs:
     itemMaterial: ANDESITE_STAIRS
     damage: 0
@@ -553,45 +553,160 @@ Items:
     display: Light Blue Crystal Block [95:15]
     category: Terra
     type: VANILLA
+    collection: 
+      C0: black_stained_glass
+      A1: black_concrete
+      A0: light_gray_concrete
+      F1: red_concrete
+      G2: green_concrete
+      H2: yellow_concrete
+      I2: white_terracotta
+      J1: redstone_lamp_lit
+      E0: allium
+      E1: redstone_lamp
+      D2: dandelion
+      C2: light_blue_terracotta
+      B2: magenta_terracotta
+      A4: red_stained_glass
+      B4: azure_bluet
+      D4: red_tulip
+      E4: orange_terracotta
+      F4: purple_concrete
+      G4: blue_orchid
+      I4: poppy
+      J4: magenta_concrete
   orange_terracotta:
     itemMaterial: ORANGE_TERRACOTTA
     damage: 1
     display: Yellow Crystal Block [159:1]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   purple_concrete:
     itemMaterial: PURPLE_CONCRETE
     damage: 10
     display: Green Crystal Block [251:10]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   magenta_concrete:
     itemMaterial: MAGENTA_CONCRETE
     damage: 2
     display: Orange Crystal Block [251:2]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   green_concrete:
     itemMaterial: GREEN_CONCRETE
     damage: 13
     display: Mixed Blue Crystal Block [251:13]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   white_terracotta:
     itemMaterial: WHITE_TERRACOTTA
     damage: 0
-    display: Smooth Blue Crystal Block [159:0]
+    display: Aqua Crystal Block [159:0]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   light_blue_terracotta:
     itemMaterial: LIGHT_BLUE_TERRACOTTA
     damage: 3
-    display: Smooth Pink Crystal Block [159:3]
+    display: Pink Crystal Block [159:3]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   redstone_lamp:
     itemMaterial: REDSTONE_LAMP
     damage: 0
     display: Cluster Crystal [123]
     category: Terra
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
+  
+  #inside collection
+  red_tulip:
+    itemMaterial: RED_TULIP
+    damage: 4
+    display: Yellow Crystal [38:4]
+    type: BLOCK
+    blockData: minecraft:red_tulip
+  blue_orchid:
+    itemMaterial: BLUE_ORCHID
+    damage: 1
+    display: Green Crystal [38:1]
+    type: BLOCK
+    blockData: minecraft:blue_orchid
+  poppy:
+    itemMaterial: POPPY
+    damage: 0
+    display: Orange Crystal [38:0]
+    type: BLOCK
+    blockData: minecraft:poppy
+  allium:
+    itemMaterial: ALLIUM
+    damage: 2
+    display: Light Blue Crystal [38:2]
+    type: BLOCK
+    blockData: minecraft:allium
+  red_stained_glass:
+    itemMaterial: RED_STAINED_GLASS
+    damage: 14
+    display: Blue Crystal Block [95:14]
+    type: VANILLA
+  azure_bluet:
+    itemMaterial: AZURE_BLUET
+    damage: 3
+    display: Blue Crystal [38:3]
+    type: BLOCK
+    blockData: minecraft:azure_bluet
+  red_concrete: 
+    itemMaterial: RED_CONCRETE
+    damage: 14
+    display: Dark Blue Crystal Block [251:14]
+    type: VANILLA
+  light_gray_concrete:
+    itemMaterial: LIGHT_GRAY_CONCRETE
+    damage: 8
+    display: Purple Crystal Block [251:8]
+    type: VANILLA
+  yellow_concrete:
+    itemMaterial: YELLOW_CONCRETE
+    damage: 4
+    display: Smooth Blue Crystal Block [251:4]
+    type: VANILLA
+  black_concrete:
+    itemMaterial: BLACK_CONCRETE
+    damage: 15
+    display: Rough White Crystal Block [251:15]
+    type: VANILLA
+  magenta_terracotta:
+    itemMaterial: MAGENTA_TERRACOTTA
+    damage: 2
+    display: Light Pink Crystal Block [159:2]
+    type: VANILLA
+  redstone_lamp_lit:
+    itemMaterial: REDSTONE_LAMP
+    damage: 0
+    display: Cluster Crystal (Glowing)
+    type: BLOCK
+    blockData: minecraft:redstone_lamp[lit=true]
+  dandelion:
+    itemMaterial: DANDELION
+    damage: 0
+    display: Red Crystal [37:0]
+    type: BLOCK
+    blockData: minecraft:dandelion
+
+
+
+
+  
