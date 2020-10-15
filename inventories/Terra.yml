@@ -705,6 +705,121 @@ Items:
     display: Red Crystal [37:0]
     type: BLOCK
     blockData: minecraft:dandelion
+  
+
+  # plant collection
+  podzol:
+    itemMaterial: PODZOL
+    damage: 2
+    display: Podzol [3:2]
+    category: Terra
+    type: VANILLA
+    collection:
+      A1: mycelium
+      F1: podzol
+      G2: orange_tulip
+      I2: white_tulip
+      J1: tomato_plant
+      E0: lily_pad
+      E1: dark_oak_leaves
+      D2: soul_sand
+      B2: orange_concrete_powder
+      A4: oxeye_daisy
+      B4: pink_tulip
+      D4: red_mushroom
+      E4: dead_bush
+  orange_concrete_powder:
+    itemMaterial: ORANGE_CONCRETE_POWDER
+    damage: 1
+    display: Waste Block 1 [252:1]
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: podzol
+  dark_oak_leaves:
+    itemMaterial: DARK_OAK_LEAVES
+    damage: 1
+    display: Dead Leaves 
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:dark_oak_leaves[distance=7,persistent=true]
+    collection:
+      indirect: podzol
+  pink_tulip:
+    itemMaterial: PINK_TULIP
+    damage: 7
+    display: Large Red Mushrrom [38:7]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:pink_tulip
+    collection:
+      indirect: podzol
+  oxeye_daisy:
+    itemMaterial: OXEYE_DAISY
+    damage: 8
+    display: Dead Mushroom [38:8]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:oxeye_daisy
+    collection:
+      indirect: podzol
+  orange_tulip:
+    itemMaterial: ORANGE_TULIP
+    damage: 5
+    display: Red Mycelium [38:5]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:orange_tulip
+    collection:
+      indirect: podzol
+  lily_pad:
+    itemMaterial: LILY_PAD
+    damage: 0
+    display: Algae [111:0]
+    category: Terra
+    type: BLOCK_ON_WATER
+    blockData: minecraft:lily_pad
+    collection:
+      indirect: podzol
+  
+  #inside collection
+  mycelium:
+    itemMaterial: MYCELIUM
+    damage: 0
+    display: Farmland [110:0]
+    type: VANILLA
+  soul_sand:
+    itemMaterial: SOUL_SAND
+    damage: 0
+    display: Waste Block 2 [88:0]
+    type: VANILLA
+  dead_bush:
+    itemMaterial: DEAD_BUSH
+    damage: 0
+    display: Mushrooms [31:0]
+    type: BLOCK
+    blockData: minecraft:dead_bush
+  red_mushroom:
+    itemMaterial: RED_MUSHROOM
+    damage: 0
+    display: Red Mushrooms [40:0]
+    type: BLOCK
+    blockData: minecraft:red_mushroom
+  white_tulip:
+    itemMaterial: WHITE_TULIP
+    damage: 6
+    display: Mycelium [38:6]
+    type: BLOCK
+    blockData: minecraft:white_tulip
+  tomato_plant:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 179
+    display: Potato Plant [115:0]
+    type: BLOCK
+    blockData: minecraft:nether_wart[age=0]
+
+  
+  
 
 
 

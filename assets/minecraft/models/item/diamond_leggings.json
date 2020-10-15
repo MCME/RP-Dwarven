@@ -1249,6 +1249,14 @@
       },
       "name": 178,
       "model": "block/diorite_wall"
+    },
+    {
+      "predicate": {
+        "damage": 0.36089
+      },
+      "name": 179,
+      "model": "block/nether_wart_stage0"
     }
+
   ]
 }
