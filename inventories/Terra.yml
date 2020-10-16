@@ -59,26 +59,36 @@ Items:
     damage: 0
     display: Bedrock [7:0]
     type: VANILLA
+    collection:
+      indirect: netherrack
   coarse_dirt:
     itemMaterial: COARSE_DIRT
     damage: 1
     display: Rough Green Stone [3:1]
     type: VANILLA
+    collection:
+      indirect: netherrack
   polished_diorite_stairs:
     itemMaterial: POLISHED_DIORITE_STAIRS
     damage: 0
     display: Smooth Dark Grey Stone Stairs
     type: VANILLA
+    collection:
+      indirect: netherrack
   polished_diorite_slab:
     itemMaterial: POLISHED_DIORITE_SLAB
     damage: 0
     display: Smooth Dark Grey Stone Slab
     type: VANILLA
+    collection:
+      indirect: netherrack
   gravel:
     itemMaterial: GRAVEL
     damage: 0
     display: Rough Grey Stone [13:0]
     type: VANILLA
+    collection:
+      indirect: netherrack
 
   # normal stone collection
   stone:
@@ -157,31 +167,43 @@ Items:
     damage: 12
     display: Smooth Grey Stone [251:12]
     type: VANILLA
+    collection:
+      indirect: stone
   polished_andesite_stairs:
     itemMaterial: POLISHED_ANDESITE_STAIRS
     damage: 0
     display: Light Green Stone Stairs
     type: VANILLA
+    collection:
+      indirect: stone
   polished_andesite_slab:
     itemMaterial: POLISHED_ANDESITE_SLAB
     damage: 0
     display: Light Green Stone Slab
     type: VANILLA
+    collection:
+      indirect: stone
   stone_stairs:
     itemMaterial: STONE_STAIRS
     damage: 0
     display: Stone Stairs
     type: VANILLA
+    collection:
+      indirect: stone
   stone_slab:
     itemMaterial: STONE_SLAB
     damage: 0
     display: Stone Slab
     type: VANILLA
+    collection:
+      indirect: stone
   stone_button:
     itemMaterial: STONE_BUTTON
     damage: 0
     display: Stone Button [77:0]
     type: VANILLA
+    collection:
+      indirect: stone
   stone_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 161
@@ -191,6 +213,8 @@ Items:
     blockDataSouth: minecraft:mossy_cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:mossy_cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone
   stone_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 162
@@ -200,6 +224,8 @@ Items:
     blockDataSouth: minecraft:mossy_cobblestone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:mossy_cobblestone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:mossy_cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone
   stone_balustrade:
     itemMaterial: MOSSY_COBBLESTONE_WALL
     damage: 1
@@ -209,24 +235,32 @@ Items:
     blockDataSouth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataWest: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone
   fancy_thin_stone_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 163
     display: Fancy Thin Stone Pillar
     type: BLOCK
     blockData: minecraft:mossy_cobblestone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone
   thin_stone_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 164
     display: Thin Stone Pillar
     type: BLOCK
     blockData: minecraft:mossy_cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: stone
   very_thin_stone_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
     display: Small Stone Pillar
     type: BLOCK
     blockData: minecraft:pink_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stone
   iron_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 165
@@ -236,6 +270,8 @@ Items:
     blockDataSouth: minecraft:iron_door[facing=south,half:upper,hinge:left,open=false,powered=true]
     blockDataEast: minecraft:iron_door[facing=east,half:upper,hinge:left,open=false,powered=true]
     blockDataWest: minecraft:iron_door[facing=west,half:upper,hinge:left,open=false,powered=true]
+    collection:
+      indirect: stone
 
 
   # brown stone collection
@@ -321,26 +357,36 @@ Items:
     damage: 6
     display: Dark Brown Stone [251:6]
     type: VANILLA
+    collection:
+      indirect: granite
   granite_stairs:
     itemMaterial: GRANITE_STAIRS
     damage: 0
     display: Rough Brown Stone Stairs
     type: VANILLA
+    collection:
+      indirect: granite
   granite_slab:
     itemMaterial: GRANITE_SLAB
     damage: 0
     display: Rough Brown Stone Slab
     type: VANILLA
+    collection:
+      indirect: granite
   polished_granite_stairs:
     itemMaterial: POLISHED_GRANITE_STAIRS
     damage: 0
     display: Red Stone Stairs
     type: VANILLA
+    collection:
+      indirect: granite
   polished_granite_slab:
     itemMaterial: POLISHED_GRANITE_SLAB
     damage: 0
     display: Red Stone Slab
     type: VANILLA
+    collection:
+      indirect: granite
   granite_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 167
@@ -350,6 +396,8 @@ Items:
     blockDataSouth: minecraft:granite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: granite
   granite_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 168
@@ -359,6 +407,8 @@ Items:
     blockDataSouth: minecraft:granite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:granite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:granite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: granite
   granite_balustrade:
     itemMaterial: GRANITE_WALL
     damage: 0
@@ -368,18 +418,24 @@ Items:
     blockDataSouth: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataWest: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: granite
   fancy_thin_granite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 169
     display: Fancy Thin Rough Brown Stone Pillar
     type: BLOCK
     blockData: minecraft:granite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: granite
   thin_granite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 170
     display: Thin Rough Brown Stone Pillar
     type: BLOCK
     blockData: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: granite
 
 
   # light stone collection
@@ -451,21 +507,29 @@ Items:
     damage: 0
     display: White Stone Stairs
     type: VANILLA
+    collection:
+      indirect: diorite
   andesite_slab:
     itemMaterial: ANDESITE_SLAB
     damage: 0
     display: White Stone Slab
     type: VANILLA
+    collection:
+      indirect: diorite
   diorite_stairs:
     itemMaterial: DIORITE_STAIRS
     damage: 0
     display: Smooth White Stone Stairs
     type: VANILLA
+    collection:
+      indirect: diorite
   diorite_slab:
     itemMaterial: DIORITE_SLAB
     damage: 0
     display: Smooth White Stone Slab
     type: VANILLA
+    collection:
+      indirect: diorite
   andesite_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 171
@@ -475,6 +539,8 @@ Items:
     blockDataSouth: minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   andesite_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 172
@@ -484,6 +550,8 @@ Items:
     blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:andesite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   andesite_balustrade:
     itemMaterial: ANDESITE_WALL
     damage: 0
@@ -493,18 +561,24 @@ Items:
     blockDataSouth: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataWest: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   fancy_thin_andesite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 173
     display: Fancy Thin White Stone Pillar
     type: BLOCK
     blockData: minecraft:andesite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   thin_andesite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 174
     display: Thin White Stone Pillar
     type: BLOCK
     blockData: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: diorite
   diorite_vertical_slab:       
     itemMaterial: DIAMOND_LEGGINGS
     damage: 171
@@ -514,6 +588,8 @@ Items:
     blockDataSouth: minecraft:diorite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   diorite_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 172
@@ -523,6 +599,8 @@ Items:
     blockDataSouth: minecraft:diorite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:diorite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:diorite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   diorite_balustrade:
     itemMaterial: DIORITE_WALL
     damage: 0
@@ -532,18 +610,24 @@ Items:
     blockDataSouth: minecraft:diorite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataWest: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   fancy_thin_diorite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 173
     display: Fancy Thin Smooth White Stone Pillar
     type: BLOCK
     blockData: minecraft:diorite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: diorite
   thin_diorite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 174
     display: Thin Smooth White Stone Pillar
     type: BLOCK
     blockData: minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: diorite
   
   
   # crystal collection
@@ -639,72 +723,98 @@ Items:
     display: Yellow Crystal [38:4]
     type: BLOCK
     blockData: minecraft:red_tulip
+    collection:
+      indirect: black_stained_glass
   blue_orchid:
     itemMaterial: BLUE_ORCHID
     damage: 1
     display: Green Crystal [38:1]
     type: BLOCK
     blockData: minecraft:blue_orchid
+    collection:
+      indirect: black_stained_glass
   poppy:
     itemMaterial: POPPY
     damage: 0
     display: Orange Crystal [38:0]
     type: BLOCK
     blockData: minecraft:poppy
+    collection:
+      indirect: black_stained_glass
   allium:
     itemMaterial: ALLIUM
     damage: 2
     display: Light Blue Crystal [38:2]
     type: BLOCK
     blockData: minecraft:allium
+    collection:
+      indirect: black_stained_glass
   red_stained_glass:
     itemMaterial: RED_STAINED_GLASS
     damage: 14
     display: Blue Crystal Block [95:14]
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   azure_bluet:
     itemMaterial: AZURE_BLUET
     damage: 3
     display: Blue Crystal [38:3]
     type: BLOCK
     blockData: minecraft:azure_bluet
+    collection:
+      indirect: black_stained_glass
   red_concrete: 
     itemMaterial: RED_CONCRETE
     damage: 14
     display: Dark Blue Crystal Block [251:14]
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   light_gray_concrete:
     itemMaterial: LIGHT_GRAY_CONCRETE
     damage: 8
     display: Purple Crystal Block [251:8]
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   yellow_concrete:
     itemMaterial: YELLOW_CONCRETE
     damage: 4
     display: Smooth Blue Crystal Block [251:4]
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   black_concrete:
     itemMaterial: BLACK_CONCRETE
     damage: 15
     display: Rough White Crystal Block [251:15]
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   magenta_terracotta:
     itemMaterial: MAGENTA_TERRACOTTA
     damage: 2
     display: Light Pink Crystal Block [159:2]
     type: VANILLA
+    collection:
+      indirect: black_stained_glass
   redstone_lamp_lit:
     itemMaterial: REDSTONE_LAMP
     damage: 0
     display: Cluster Crystal (Glowing)
     type: BLOCK
     blockData: minecraft:redstone_lamp[lit=true]
+    collection:
+      indirect: black_stained_glass
   dandelion:
     itemMaterial: DANDELION
     damage: 0
     display: Red Crystal [37:0]
     type: BLOCK
     blockData: minecraft:dandelion
+    collection:
+      indirect: black_stained_glass
   
 
   # plant collection
@@ -788,35 +898,47 @@ Items:
     damage: 0
     display: Farmland [110:0]
     type: VANILLA
+    collection:
+      indirect: podzol
   soul_sand:
     itemMaterial: SOUL_SAND
     damage: 0
     display: Waste Block 2 [88:0]
     type: VANILLA
+    collection:
+      indirect: podzol
   dead_bush:
     itemMaterial: DEAD_BUSH
     damage: 0
     display: Mushrooms [31:0]
     type: BLOCK
     blockData: minecraft:dead_bush
+    collection:
+      indirect: podzol
   red_mushroom:
     itemMaterial: RED_MUSHROOM
     damage: 0
     display: Red Mushrooms [40:0]
     type: BLOCK
     blockData: minecraft:red_mushroom
+    collection:
+      indirect: podzol
   white_tulip:
     itemMaterial: WHITE_TULIP
     damage: 6
     display: Mycelium [38:6]
     type: BLOCK
     blockData: minecraft:white_tulip
+    collection:
+      indirect: podzol
   tomato_plant:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 179
     display: Potato Plant [115:0]
     type: BLOCK
     blockData: minecraft:nether_wart[age=0]
+    collection:
+      indirect: podzol
 
   
   
