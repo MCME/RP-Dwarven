@@ -939,7 +939,186 @@ Items:
     blockData: minecraft:nether_wart[age=0]
     collection:
       indirect: podzol
+  
+  # water collection
+  water_7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 180
+    display: Water Level 8 [8:0]
+    type: BLOCK
+    blockData: minecraft:water[level=0]
+    collection:
+      C0: ice
+      A1: water_0
+      A0: packed_ice
+      F1: water_7
+      G2: water_6
+      I2: water_5
+      J1: water_4
+      E1: water_3
+      D2: water_2
+      B2: water_1
+  packed_ice:
+    itemMaterial: PACKED_ICE
+    damage: 0
+    display: Packed Ice [174:0]
+    type: VANILLA
+    collection:
+      indirect: water_7
 
+
+  #inside collection
+  water_0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 181
+    display: Water Level 1 [8:7]
+    type: BLOCK
+    blockData: minecraft:water[level=7]
+    collection:
+      indirect: water_7
+  water_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 182
+    display: Water Level 2 [8:6]
+    type: BLOCK
+    blockData: minecraft:water[level=6]  
+    collection:
+      indirect: water_7
+  water_2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 182
+    display: Water Level 3 [8:5]
+    type: BLOCK
+    blockData: minecraft:water[level=5]  
+    collection:
+      indirect: water_7
+  water_3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 182
+    display: Water Level 4 [8:4]
+    type: BLOCK
+    blockData: minecraft:water[level=4]  
+    collection:
+      indirect: water_7
+  water_4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 182
+    display: Water Level 5 [8:3]
+    type: BLOCK
+    blockData: minecraft:water[level=3]  
+    collection:
+      indirect: water_7
+  water_5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 182
+    display: Water Level 6 [8:2]
+    type: BLOCK
+    blockData: minecraft:water[level=2] 
+    collection:
+      indirect: water_7
+  water_6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 182
+    display: Water Level 7 [8:1]
+    type: BLOCK
+    blockData: minecraft:water[level=1] 
+    collection:
+      indirect: water_7
+  ice:
+    itemMaterial: ICE
+    damage: 0
+    display: Ice [79:0]
+    type: VANILLA
+    collection:
+      indirect: water_7
+  
+
+  # lava collection
+  lava_7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 188
+    display: Lava Level 8 [10:0]
+    type: BLOCK
+    blockData: minecraft:lava[level=0]
+    collection:
+      C0: magma_block
+      A1: lava_0
+      F1: lava_7
+      G2: lava_6
+      I2: lava_5
+      J1: lava_4
+      E1: lava_3
+      D2: lava_2
+      B2: lava_1
+  magma_block:
+    itemMaterial: MAGMA_BLOCK
+    damage: 0
+    display: Magma Block [213:0]
+    type: VANILLA
+    collection:
+      indirect: lava_7
+
+  #inside collection
+  lava_0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Lava Level 1 [10:7]
+    type: BLOCK
+    blockData: minecraft:lava[level=7]
+    collection:
+      indirect: lava_7
+  lava_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Lava Level 2 [10:6]
+    type: BLOCK
+    blockData: minecraft:lava[level=6]
+    collection:
+      indirect: lava_7
+  lava_2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Lava Level 3 [10:5]
+    type: BLOCK
+    blockData: minecraft:lava[level=5]
+    collection:
+      indirect: lava_7
+  lava_3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Lava Level 4 [10:4]
+    type: BLOCK
+    blockData: minecraft:lava[level=4]
+    collection:
+      indirect: lava_7
+  lava_4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Lava Level 5 [10:3]
+    type: BLOCK
+    blockData: minecraft:lava[level=3]
+    collection:
+      indirect: lava_7
+  lava_5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Lava Level 6 [10:2]
+    type: BLOCK
+    blockData: minecraft:lava[level=2]
+    collection:
+      indirect: lava_7
+  lava_6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Lava Level 7 [10:1]
+    type: BLOCK
+    blockData: minecraft:lava[level=1]
+    collection:
+      indirect: lava_7
+
+  
+
+  
   
   
 
