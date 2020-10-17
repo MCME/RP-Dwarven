@@ -1,0 +1,6 @@
+{
+  "parent": "block/pedestal",
+  "textures": {
+    "side": "block/mossy_stone_bricks"
+  }
+}
