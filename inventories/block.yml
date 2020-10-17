@@ -400,7 +400,7 @@ Items:
     type: THREE_AXIS
     blockDataZ: minecraft:dropper[facing=north,triggered=true]
     blockDataX: minecraft:dropper[facing=west,triggered=true]
-    blockDataY: minecraft:dropper[facing=down,triggered=true]
+    blockDataY: minecraft:dropper[facing=up,triggered=true]
   Dropper9:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 53
