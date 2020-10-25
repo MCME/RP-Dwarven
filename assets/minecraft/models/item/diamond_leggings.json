@@ -1368,6 +1368,13 @@
       },
       "name": 195,
       "model": "item/stationary_lava_height14"
+    },
+    {
+      "predicate": {
+        "damage": 0.39516
+      },
+      "name": 196,
+      "model": "block/purple_stained_glass_pane_nsew"
     }
 
   ]

@@ -8,8 +8,8 @@ Items:
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:anvil[facing=south]
     blockDataWest: minecaft:anvil[facing=west]
-    blockDataNorth: minecraft:anvil[facing=south]
-    blockDataEast: minecaft:anvil[facing=west]
+    blockDataNorth: minecraft:anvil[facing=north]
+    blockDataEast: minecaft:anvil[facing=east]
     collection:
       C0: crafting_table
       A0: jack_o_lantern
@@ -28,8 +28,8 @@ Items:
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:chipped_anvil[facing=south]
     blockDataWest: minecaft:chipped_anvil[facing=west]
-    blockDataNorth: minecraft:chipped_anvil[facing=south]
-    blockDataEast: minecaft:chipped_anvil[facing=west]
+    blockDataNorth: minecraft:chipped_anvil[facing=north]
+    blockDataEast: minecaft:chipped_anvil[facing=east]
     collection:
       indirect: anvil
   pumpkin:
@@ -66,8 +66,8 @@ Items:
     type: FOUR_DRECTIONS
     blockDataSouth: minecraft:damaged_anvil[facing=south]
     blockDataWest: minecaft:damaged_anvil[facing=west]
-    blockDataNorth: minecraft:damaged_anvil[facing=south]
-    blockDataEast: minecaft:damaged_anvil[facing=west]
+    blockDataNorth: minecraft:damaged_anvil[facing=north]
+    blockDataEast: minecaft:damaged_anvil[facing=east]
     collection:
       indirect: anvil
   crafting_table:
@@ -133,6 +133,149 @@ Items:
     blockData: minecraft:cauldron[level=1]
     collection:
       indirect: cauldron2
+  
+
+  # pipes collection
+  blue_terracotta:
+    itemMaterial: BLUE_TERRACOTTA
+    damage: 11
+    display: Wooden Gear Block [159:11]
+    category: Workshop
+    type: VANILLA
+    collection:
+      C0: iron_bars
+      A1: sponge
+      F1: purple_stained_glass_pane_nsew
+      G2: light_weighted_pressure_plate_2
+      H2: redstone_wire_5
+      I2: light_weighted_pressure_plate_3
+      J1: chorus_plant
+      E1: chorus_flower_5
+      D2: chorus_flower_0
+      C2: redstone_wire_6
+      B2: blue_terracotta
+      A4: spruce_sapling_1
+      B4: oak_sapling_1
+      D4: birch_sapling_1
+      E4: iron_trapdoor
+  chorus_flower_0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 40
+    display: Bellows [200:0]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:chorus_flower[age=0]
+    collection:
+      indirect: blue_terracotta
+  chorus_flower_5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 42
+    display: Pipe End [200:5]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:chorus_flower[age=5]
+    collection:
+      indirect: blue_terracotta
+  chorus_Plant:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 43
+    display: Rusty Pipe [199:0]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:chorus_plant
+    collection:
+      indirect: blue_terracotta
+  redstone_wire_6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 62
+    display: Wooden Aqueduct [55:6]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:redstone_wire[power=6]
+    collection:
+      indirect: blue_terracotta
+  sponge:
+    itemMaterial: SPONGE
+    damage: 0
+    display: Rust Block [19:0]
+    category: Workshop
+    type: VANILLA
+    collection:
+      indirect: blue_terracotta
+  light_weighted_pressure_plate_3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 92
+    display: Foundry Form Closed [94:3]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=3]  
+    collection:
+      indirect: blue_terracotta
+  redstone_wire_5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 61
+    display: Foundry Pipe [55:5]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:redstone_wire[power=5]
+    collection:
+      indirect: blue_terracotta
+  iron_bars:
+    itemMaterial: IRON_BARS
+    damage: 0
+    display: Iron Bars [101:0]
+    category: Workshop
+    type: VANILLA
+    collection:
+      indirect: blue_terracotta
+  spruce_sapling_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 23
+    display: Grate [6:9]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:spruce_sapling[stage=1]
+    collection:
+      indirect: blue_terracotta
+  iron_trapdoor:
+    itemMaterial: IRON_TRAPDOOR
+    damage: 8
+    display: Grate [167:8]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:iron_trapdoor[waterlogged=false,powered=false,half=top,open=false,facing=north]
+    collection:
+      indirect: blue_terracotta
+ 
+  #inside collection
+  birch_sapling_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 24
+    display: Grate [6:10]
+    type: BLOCK
+    blockData: minecraft:birch_sapling[stage=1]
+    collection:
+      indirect: blue_terracotta
+  oak_sapling_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 22
+    display: Grate [6:8]
+    type: BLOCK
+    blockData: minecraft:oak_sapling[stage=1]
+  purple_stained_glass_pane_nsew:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 196
+    display: Rusty Pipe
+    type: BLOCK
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+  light_weighted_pressure_plate_2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 91
+    type: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=2]
+  
+
+
 
 
 
@@ -185,55 +328,6 @@ Items:
     category: Workshop
     type: BLOCK
     blockData: minecraft:cactus[age=12]
-  ChorusFlower0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 40
-    display: Bellows [200:0]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:chorus_flower[age=0]
-  ChorusFlower5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 42
-    display: Pipe Ending [200:5]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:chorus_flower[age=5]
-  ChorusPlant0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 43
-    display: Rusty Pipe [199:0]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:chorus_plant[down=false,east=false,north=false,south=false,up=false,west=false]
-  RedstoneWire5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 61
-    display: Foundry Pipe [55:5]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=5,south=none,west=none]
-  RedstoneWire6:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 62
-    display: Wooden Aqueduct [55:6]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=6,south=none,west=none]
-  Light_weighted_pressure_plate2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 91
-    display: Foundry Form [94:2]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:light_weighted_pressure_plate[power=2]
-  Light_weighted_pressure_plate3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 92
-    display: Foundry Form Closed [94:3]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:light_weighted_pressure_plate[power=3]
   RedstoneRepeaterOn4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 93
