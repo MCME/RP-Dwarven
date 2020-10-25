@@ -1,0 +1,95 @@
+Items:
+  Dropper8:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 52
+    display: Rope Block [158:8,10,12]
+    category: Workshop
+    type: THREE_AXIS
+    blockDataZ: minecraft:dropper[facing=north,triggered=true]
+    blockDataX: minecraft:dropper[facing=west,triggered=true]
+    blockDataY: minecraft:dropper[facing=down,triggered=true]
+  Dropper9:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 53
+    display: Chain Block [158:9,11,13]
+    category: Workshop
+    type: THREE_AXIS
+    blockDataZ: minecraft:dropper[facing=south,triggered=true]
+    blockDataX: minecraft:dropper[facing=east,triggered=true]
+    blockDataY: minecraft:dropper[facing=down,triggered=true]
+  RedstoneWire1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 57
+    display: Chain (vertical) [55:1]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=1,south=none,west=none]
+  RedstoneWire2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 58
+    display: Chain (horizontal) [55:2]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=2,south=none,west=none]
+  powered_rail:
+    itemMaterial: POWERED_RAIL
+    damage: 0
+    display: Chain horizontal [27:0]
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:powered_rail[powered=false,shape=north_south]
+    blockDataEast: minecraft:powered_rail[powered=false,shape=east_west]
+    blockDataSouth: minecraft:powered_rail[powered=false,shape=north_south]
+    blockDataWest: minecraft:powered_rail[powered=false,shape=east_west]
+  powered_rail_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 107
+    display: Chain diagonal [27:8]
+    category: Workshop
+    type: EIGHT_FACES
+    blockDataSouth: minecraft:powered_rail[powered=true,shape=north_south]
+    blockDataSouthWest: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataWest: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataNorthWest: minecraft:powered_rail[powered=true,shape=north_south]
+    blockDataNorth: minecraft:powered_rail[powered=true,shape=north_south]
+    blockDataNorthEast: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataEast: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataSouthEast: minecraft:powered_rail[powered=true,shape=north_south]
+  golden_rail_raised_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 108
+    display: Chain vertical [27:10]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:powered_rail[powered=true,shape=ascending_east]
+  detector_rail_flat:
+    itemMaterial: DETECTOR_RAIL
+    damage: 0
+    display: Rope horizontal [28:0]
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft: detector_rail[powered=false,shape=north_south]
+    blockDataEast: minecraft: detector_rail[powered=false,shape=east_west]
+    blockDataSouth: minecraft: detector_rail[powered=false,shape=north_south]
+    blockDataWest: minecraft: detector_rail[powered=false,shape=east_west]
+  detector_rail_flat_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 109
+    display: Rope diagonal [28:8]
+    category: Workshop
+    type: EIGHT_FACES
+    blockDataSouth: minecraft:detector_rail[powered=true,shape=north_south]
+    blockDataSouthWest: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataWest: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataNorthWest: minecraft:detector_rail[powered=true,shape=north_south]
+    blockDataNorth: minecraft:detector_rail[powered=true,shape=north_south]
+    blockDataNorthEast: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataEast: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataSouthEast: minecraft:detector_rail[powered=true,shape=north_south]
+  detector_rail_raised_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 110
+    display: Rope vertical [28:10]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:detector_rail[powered=true,shape=ascending_east]
