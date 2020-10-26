@@ -1375,6 +1375,13 @@
       },
       "name": 196,
       "model": "block/purple_stained_glass_pane_nsew"
+    },
+    {
+      "predicate": {
+        "damage": 0.39718
+      },
+      "name": 197,
+      "model": "block/coca_stage0"
     }
 
   ]

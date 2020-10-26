@@ -275,67 +275,71 @@ Items:
     blockData: minecraft:light_weighted_pressure_plate[power=2]
   
 
-
-
-
-
-
-
-  Beetroot1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 4
-    display: Saw blade [207:1+2]
-    category: Workshop
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:beetroots[age=1]
-    blockDataWest: minecraft:beetroots[age=0]
-    blockDataNorth: minecraft:beetroots[age=1]
-    blockDataEast: minecraft:beetroots[age=0]
-  Sapling11:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 25
-    display: Arrows [6:11]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:jungle_sapling[stage=1]
-  Sapling12:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 26
-    display: Spears [6:12]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:acacia_sapling[stage=1]
-  Sapling13:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 27
-    display: Weapons [6:13]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:dark_oak_sapling[stage=1]
-  Pumkpin1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 30
-    display: Small Logs [86:0,1,2]
-    category: Workshop
-    type: THREE_AXIS
-    blockDataZ: minecraft:brown_mushroom_block[north=true,east=false,south=false,west=false,up=true,down=false]
-    blockDataX: minecraft:brown_mushroom_block[north=true,east=false,south=false,west=true,up=true,down=false]
-    blockDataY: minecraft:brown_mushroom_block[north=true,east=true,south=false,west=false,up=true,down=false]
-  Cactus12:
+  # inter collection
+  cactus_12:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 38
     display: Military Crate [81:12]
     category: Workshop
     type: BLOCK
     blockData: minecraft:cactus[age=12]
-  RedstoneRepeaterOn4:
+    collection:
+      C0: light_weighted_pressure_plate_4
+      A1: sticky_piston_head
+      F1: dark_oak_button_north
+      G2: carrots_4
+      I2: cactus_1
+      J1: acacia_sapling_1
+      E0: dark_oak_sapling_1
+      E1: jungle_sapling_1
+      D2: cactus_12
+      B2: beetroot_1
+  jungle_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 93
-    display: Parts box [94:4]
+    damage: 25
+    display: Arrows [6:11]
     category: Workshop
     type: BLOCK
-    blockData: minecraft:repeater[delay=2,facing=south,locked=false,powered=false]
-  Light_weighted_pressure_plate4/5:
+    blockData: minecraft:jungle_sapling[stage=1]
+    collection:
+      indirect: cactus_12
+  acacia_sapling_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 26
+    display: Spears [6:12]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:acacia_sapling[stage=1]
+    collection:
+      indirect: cactus_12
+  dark_oak_sapling_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 27
+    display: Weapons [6:13]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:dark_oak_sapling[stage=1]
+    collection:
+      indirect: cactus_12
+  cactus_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 32
+    display: Table [81:1]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:cactus[age=1]
+    collection:
+      indirect: cactus_12
+  carrots_4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 15
+    display: Scale [141:4]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:carrots[age=4]
+    collection:
+      indirect: cactus_12
+  light_weighted_pressure_plate_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 94
     display: Precision Tools [94:5,6]
@@ -345,7 +349,9 @@ Items:
     blockDataWest: minecraft:light_weighted_pressure_plate[power=4]
     blockDataNorth: minecraft:light_weighted_pressure_plate[power=5]
     blockDataEast: minecraft:light_weighted_pressure_plate[power=4]
-  StickyPistonHead:
+    collection:
+      indirect: cactus_12
+  sticky_piston_head:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 111
     display: Wheel Long Axle [34:10]
@@ -357,3 +363,56 @@ Items:
     blockDataEast: minecraft:piston_head[facing=east,short=false,type=sticky]
     blockDataDown: minecraft:piston_head[facing=down,short=false,type=sticky]
     blockDataUp: minecraft:piston_head[facing=up,short=false,type=sticky]
+    collection:
+      indirect: cactus_12
+  dark_oak_button_north:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 197
+    display: Wheel Short Axle
+    category: Workshop
+    type: SIX_FACES
+    blockDataSouth: minecraft:dark_oak_button[powered=false,facing=south,face=wall]
+    blockDataWest: minecraft:dark_oak_button[powered=false,facing=west,face=wall]
+    blockDataNorth: minecraft:dark_oak_button[powered=false,facing=north,face=wall]
+    blockDataEast: minecraft:dark_oak_button[powered=false,facing=east,face=wall]
+    blockDataDown: minecraft:dark_oak_button[powered=false,facing=north,face=floor]
+    blockDataUp: minecraft:dark_oak_button[powered=false,facing=north,face=floor]
+    collection:
+      indirect: cactus_12
+
+  #inside collection
+  beetroot_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 4
+    display: Saw blade [207:1+2]
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:beetroots[age=1]
+    blockDataWest: minecraft:beetroots[age=0]
+    blockDataNorth: minecraft:beetroots[age=1]
+    blockDataEast: minecraft:beetroots[age=0]
+    collection:
+      indirect: cactus_12
+
+
+
+
+
+
+  Pumkpin1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 30
+    display: Small Logs [86:0,1,2]
+    category: Workshop
+    type: THREE_AXIS
+    blockDataZ: minecraft:brown_mushroom_block[north=true,east=false,south=false,west=false,up=true,down=false]
+    blockDataX: minecraft:brown_mushroom_block[north=true,east=false,south=false,west=true,up=true,down=false]
+    blockDataY: minecraft:brown_mushroom_block[north=true,east=true,south=false,west=false,up=true,down=false]
+  RedstoneRepeaterOn4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 93
+    display: Parts box [94:4]
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:repeater[delay=2,facing=south,locked=false,powered=false]
+  
