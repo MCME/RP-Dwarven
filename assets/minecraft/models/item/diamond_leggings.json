@@ -1410,7 +1410,62 @@
       },
       "name": 201,
       "model": "block/Coat_hook"
+    },
+    {
+      "predicate": {
+        "damage": 0.40726
+      },
+      "name": 202,
+      "model": "block/rail"
+    },
+    {
+      "predicate": {
+        "damage": 0.40927
+      },
+      "name": 203,
+      "model": "block/bell_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.41129
+      },
+      "name": 204,
+      "model": "block/birch_fence_gate_powered"
+    },
+    {
+      "predicate": {
+        "damage": 0.41331
+      },
+      "name": 205,
+      "model": "block/oak_fence_gate_powered"
+    },
+    {
+      "predicate": {
+        "damage": 0.41532
+      },
+      "name": 206,
+      "model": "block/"
+    },
+    {
+      "predicate": {
+        "damage": 0.41734
+      },
+      "name": 207,
+      "model": "block/"
+    },
+    {
+      "predicate": {
+        "damage": 0.41935
+      },
+      "name": 208,
+      "model": "block/"
+    },
+    {
+      "predicate": {
+        "damage": 0.42137
+      },
+      "name": 209,
+      "model": "block/"
     }
-
   ]
 }
