@@ -3,7 +3,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 39
     display: Brazier
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:cactus[age=13]
     collection:
@@ -42,7 +42,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 19
     display: Chandelier
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:jungle_sapling[stage=0]
     collection:
@@ -51,7 +51,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 21
     display: Candle
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:dark_oak_sapling[stage=0]
     collection:
@@ -60,7 +60,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 199
     display: Crystal lamp
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:redstone_torch[lit:true]
     collection:
@@ -69,7 +69,7 @@ Items:
     itemMaterial: TORCH
     damage: 0
     display: Torch
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: Cactus13
@@ -77,7 +77,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 10
     display: Small Jar
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:wheat[age=5]
     collection:
@@ -116,7 +116,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 6
     display: Pot
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:wheat[age=1]
     collection:
@@ -125,7 +125,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 2
     display: Bag
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:nether_wart[age=2]
     collection:
@@ -141,7 +141,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 35
     display: Chair
-    category: Interior
+    category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:cactus[age=8]
     blockDataWest: minecraft:cactus[age=9]
@@ -161,7 +161,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 12
     display: Paper
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:carrots[age=1]
     collection:
@@ -170,7 +170,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 1
     display: Statue/Decoration
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:nether_wart[age=3]
     collection:
@@ -187,7 +187,7 @@ Items:
     itemMaterial: GREEN_STAINED_GLASS
     damage: 0
     display: Jar
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: Crops5
@@ -203,7 +203,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 36
     display: Bell
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:cactus[age=10]
     collection:
@@ -220,7 +220,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 201
     display: Coat hook
-    category: Interior
+    category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:tripwire_hook[attached=false,facing=south,powered=false]
     blockDataWest: minecraft:tripwire_hook[attached=false,facing=west,powered=false]
@@ -232,7 +232,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 8
     display: Bottle
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:wheat[age=3]
     collection:
@@ -247,7 +247,7 @@ Items:
     itemMaterial: LIGHT_WEIGHTED_PRESSURE_PLATE
     damage: 0
     display: Gold plate
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: Crops3
@@ -262,7 +262,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 31
     display: Meat
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:cactus[age=0]
     collection:
@@ -271,7 +271,7 @@ Items:
     itemMaterial: CAKE
     damage: 0
     display: Bread
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: Crops3
@@ -295,7 +295,7 @@ Items:
     itemMaterial: JUKEBOX
     damage: 0
     display: Table
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       A0: infested_stone_bricks
@@ -324,7 +324,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 49
     display: Wooden Wardrobe
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:infested_mossy_stone_bricks
     collection:
@@ -340,7 +340,7 @@ Items:
     itemMaterial: BOOKSHELF
     damage: 0
     display: Scroll Shelf
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: Jukebox
@@ -348,7 +348,7 @@ Items:
     itemMaterial: PISTON
     damage: 0
     display: Stone base table
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: Jukebox
@@ -356,7 +356,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 198
     display: Stone foundation table
-    type:BLOCK
+    type: BLOCK
     blockData: minecraft:piston[extended=true,facing=up]
     collection:
       indirect: Jukebox
@@ -364,7 +364,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 47
     display: Sandstone Cabinet
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:infested_cobblestone
     collection:
@@ -389,7 +389,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 48
     display: Stone Wardrobe
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:infested_stone_bricks
     collection:
@@ -398,7 +398,7 @@ Items:
     itemMaterial: CHEST
     damage: 0
     display: Stone Chest
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: Jukebox
@@ -420,7 +420,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 56
     display: Dust
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=0,south=none,west=none]
     collection:
@@ -445,7 +445,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 59
     display: Coal dust
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=3,south=none,west=none]
     collection:
@@ -454,7 +454,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 60
     display: Dirt dust
-    category: Interior
+    category: Inter
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=4,south=none,west=none]
     collection:
@@ -463,7 +463,7 @@ Items:
     itemMaterial: LIGHT_BLUE_CARPET
     damage: 0
     display: Knitted Carpet 1
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: RedstoneWire0
@@ -478,7 +478,7 @@ Items:
     itemMaterial: ORANGE_CARPET
     damage: 0
     display: Knitted Carpet 3
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: RedstoneWire0
@@ -514,7 +514,7 @@ Items:
     itemMaterial: LIGHT_GRAY_CARPET
     damage: 0
     display: Knitted Carpet 8
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: RedstoneWire0
@@ -550,7 +550,7 @@ Items:
     itemMaterial: PURPLE_CARPET
     damage: 0
     display: Rotten Cloth
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: RedstoneWire0
@@ -558,7 +558,7 @@ Items:
     itemMaterial: BLUE_CARPET
     damage: 1
     display: Cloth
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: RedstoneWire0
@@ -590,7 +590,7 @@ Items:
     itemMaterial: BLUE_BED
     damage: 11
     display: Quilted Leather Bench
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: bed_magenta
@@ -598,7 +598,7 @@ Items:
     itemMaterial: RED_BED
     damage: 14
     display: Sandstone Bench 2
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: bed_magenta
@@ -606,7 +606,7 @@ Items:
     itemMaterial: BROWN_BED
     damage: 12
     display: Cobblestone Bench
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: bed_magenta
@@ -649,7 +649,7 @@ Items:
     itemMaterial: PURPLE_BED
     damage: 10
     display: Black Stone Bench
-    category: Interior
+    category: Inter
     type: VANILLA
     collection:
       indirect: bed_magenta
