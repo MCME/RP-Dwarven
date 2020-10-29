@@ -1,4 +1,140 @@
 Items:
+  # blocks collection
+  jungle_planks:
+    itemMaterial: JUNGLE_PLANKS
+    damage: 3
+    display: Quilted Leather Block [5:3]
+    category: Mines
+    type: VANILLA
+    collection:
+      C0: comparator_compare_off_south
+      A1: birch_planks
+      F1: oak_planks
+      G2: birch_stairs
+      H2: oak_fence_gate_powered
+      I2: oak_slab
+      J1: oak_button
+      E1: birch_button
+      D2: birch_slab
+      C2: birch_fence_gate_powered
+      B2: birch_stairs
+      A4: jungle_planks
+      B4: jungle_stairs
+      D4: jungle_slab
+      E4: jungle_button
+  oak_planks:
+    itemMaterial: OAK_PLANKS
+    damage: 0
+    display: Wooden Planks [5:0]
+    category: Mines
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  birch_planks:
+    itemMaterial: BIRCH_PLANKS
+    damage: 2
+    display: Old Wooden Planks [5:2]
+    category: Mines
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+
+  #inside collection
+  jungle_stairs:
+    itemMaterial: JUNGLE_STAIRS
+    damage: 0
+    display: Quilted Leather Stairs [136:0]
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  jungle_slab:
+    itemMaterial: JUNGLE_SLAB
+    damage: 3
+    display: Quilted Leather Slab [125:3]
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  jungle_button:
+    itemMaterial: JUNGLE_BUTTON
+    damage: 0
+    display: Quilted Leather Button 
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  oak_stairs:
+    itemMaterial: OAK_STAIRS
+    damage: 0
+    display: Wooden Stairs [53:0]
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  oak_slab: 
+    itemMaterial: OAK_SLAB
+    damage: 0
+    display: Wooden Slab [125:0]
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  oak_button:
+    itemMaterial: OAK_BUTTON
+    damage: 0
+    display: Wooden Button [143:0]
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  oak_fence_gate_powered:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 205
+    display: Wooden Vertical Slab [107:11]
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataSouth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:oak_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: jungle_planks
+  comparator_compare_off_south:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 63
+    display: Wooden 1/4 Block [149:0]
+    type: BLOCK
+    blockData: minecraft:comparator[mode=compare,powered=false,facing=south]\
+    collection:
+      indirect: jungle_planks
+  birch_stairs:
+    itemMaterial: BIRCH_STAIRS
+    damage: 0
+    display: Old Wooden Stairs [135:0]
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  birch_slab:
+    itemMaterial: BIRCH_SLAB
+    damage: 2
+    display: Old Wooden Slab [125:2]
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  birch_button:
+    itemMaterial: BIRCH_BUTTON
+    damage: 0
+    display: Old Wooden Button 
+    type: VANILLA
+    collection:
+      indirect: jungle_planks
+  birch_fence_gate_powered:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 11
+    display: Old Wooden Vertical Slab [184:11]
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataSouth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:birch_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: jungle_planks
+
+
   Dropper8:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 52
