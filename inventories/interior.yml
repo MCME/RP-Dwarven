@@ -422,7 +422,7 @@ Items:
     display: Dust
     category: Inter
     type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=0,south=none,west=none]
+    blockData: minecraft:redstone_wire[power=0]
     collection:
       A0: light_blue_carpet
       A1: magenta_carpet
@@ -447,7 +447,7 @@ Items:
     display: Coal dust
     category: Inter
     type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=3,south=none,west=none]
+    blockData: minecraft:redstone_wire[power=3]
     collection:
       indirect: RedstoneWire0
   RedstoneWire4:
@@ -456,7 +456,7 @@ Items:
     display: Dirt dust
     category: Inter
     type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=4,south=none,west=none]
+    blockData: minecraft:redstone_wire[power=4]
     collection:
       indirect: RedstoneWire0
   light_blue_carpet:
