@@ -1,9 +1,0 @@
-Items:
-  Spruce_trapdoor:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 90
-    display: Grate for Fireplace [94:1]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
-  

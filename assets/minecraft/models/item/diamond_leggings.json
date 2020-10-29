@@ -1382,6 +1382,34 @@
       },
       "name": 197,
       "model": "block/coca_stage0"
+    },
+	{
+      "predicate": {
+        "damage": 0.39919
+      },
+      "name": 198,
+      "model": "block/Piston2"
+    },
+    {
+      "predicate": {
+        "damage": 0.40121
+      },
+      "name": 199,
+      "model": "block/spruce_trapdoor"
+    },
+	{
+      "predicate": {
+        "damage": 0.40323
+      },
+      "name": 200,
+      "model": "block/Crystal_lamp"
+    },
+    {
+      "predicate": {
+        "damage": 0.40524
+      },
+      "name": 201,
+      "model": "block/Coat_hook"
     }
 
   ]
