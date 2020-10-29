@@ -24,70 +24,100 @@ Items:
     itemMaterial: CLAY
     damage: 0
     display: Patchwork Cloth
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Snow:
     itemMaterial: SNOW
     damage: 0
     display: Gold Coins
     category: Deco
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Snow_layer:
     itemMaterial: CLAY
     damage: 0
     display: Gold layer
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Emerald_block:
     itemMaterial: EMERALD_BLOCK
     damage: 0
     display: Color Pattern Block
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Cobweb:
     itemMaterial: COBWEB
     damage: 0
     display: Curse
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Blue_stained_glass:
     itemMaterial: BLUE_STAINED_GLASS
     damage: 0
     display: Crystal Glass
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Glass:
     itemMaterial: GLASS
     damage: 0
     display: Glass
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Glass_pane:
     itemMaterial: GLASS_PANE
     damage: 0
     display: Glass pane
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: End_stone_bricks
   Stained_glass_pane_red:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 210
     display: Metal lattice
+    category: Deco
     type: BLOCK
-    blockdata: minecraft:red_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+    blockdata: minecraft:red_stained_glass_pane
+    collection:
+      indirect: End_stone_bricks
   Stained_glass_pane_black:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 211
     display: Metal grid
     type: BLOCK
-    blockdata: minecraft:black_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+    blockdata: minecraft:black_stained_glass_pane
+    collection:
+      indirect: End_stone_bricks
   Stained_glass_pane_green:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 212
     display: Metal rusty grate
     type: BLOCK
-    blockdata: minecraft:green_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+    blockdata: minecraft:green_stained_glass_pane
+    collection:
+      indirect: End_stone_bricks
   farmland0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 213
     display: Statue down
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:farmland[moisture=2]
     blockDataWest: minecraft:farmland[moisture=3]
     blockDataNorth: minecraft:farmland[moisture=0]
     blockDataEast: minecraft:farmland[moisture=1]
+    collection:
+      indirect: End_stone_bricks
   farmland1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 214
@@ -97,10 +127,13 @@ Items:
     blockDataWest: minecraft:farmland[moisture=7]
     blockDataNorth: minecraft:farmland[moisture=4]
     blockDataEast: minecraft:farmland[moisture=5]
+    collection:
+      indirect: End_stone_bricks
   glazed_terracotta_orange:
     itemMaterial: ORANGE_GLAZED_TERRACOTTA
     damage: 0
     display: Sandstone Corner pattern
+    category: Deco
     type: VANILLA
     collection:
       C2: glazed_terracotta_orange
@@ -116,43 +149,60 @@ Items:
     damage: 0
     display: Small Brick Corner Pattern
     type: VANILLA
+    collection:
+      indirect: glazed_terracotta_orange
   glazed_terracotta_pink:
     itemMaterial: PINK_GLAZED_TERRACOTTA
     damage: 0
     display: Tiny Brick Corner Pattern
     type: VANILLA
+    collection:
+      indirect: glazed_terracotta_orange
   glazed_terracotta_light_blue:
     itemMaterial: LIGHT_BLUE_GLAZED_TERRACOTTA
     damage: 0
     display: Large Bricks Corner Pattern
     type: VANILLA
+    collection:
+      indirect: glazed_terracotta_orange
   glazed_terracotta_white:
     itemMaterial: WHITE_GLAZED_TERRACOTTA
     damage: 0
     display: Cobblestone Corner Pattern
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: glazed_terracotta_orange
   glazed_terracotta_yellow:
     itemMaterial: YELLOW_GLAZED_TERRACOTTA
     damage: 0
     display: White Cobblestone Corner Pattern
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: glazed_terracotta_orange
   glazed_terracotta_lime:
     itemMaterial: LIME_GLAZED_TERRACOTTA
     damage: 0
     display: Green Stone Corner Pattern
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: glazed_terracotta_orange
   glazed_terracotta_gray:
     itemMaterial: GREY_GLAZED_TERRACOTTA
     damage: 0
     display: Black Stone Corner Pattern
+    category: Deco
     type: VANILLA
+    collection:
+      indirect: glazed_terracotta_orange
   wooden_door_powered:
     blockMaterial: OAK_DOOR
     powered: true
     itemMaterial: OAK_DOOR
     damage: 0
     display: Stone Door
-    category: Exter
     type: DOOR
     collection:
       A1: wooden_door_powered
@@ -162,13 +212,22 @@ Items:
       H2: spruce_door_powered
       C2: dark_oak_door_powered
       B2: iron_door_powered
+  dark_oak_door_powered:
+    blockMaterial: DARK_OAK_DOOR
+    powered: true
+    itemMaterial: DARK_OAK_DOOR
+    damage: 0
+    display: Goblin Door
+    type: DOOR
+    collection:
+      indirect: wooden_door_powered
   spruce_door_powered:
     blockMaterial: SPRUCE_DOOR
     powered: true
     itemMaterial: SPRUCE_DOOR
     damage: 0
     display: Sturdy Door
-    category: Exter
+    category: Deco
     type: DOOR
     collection:
       indirect: wooden_door_powered
@@ -177,8 +236,8 @@ Items:
     powered: true
     itemMaterial: JUNGLE_DOOR
     damage: 0
-    display: Makeshift door [195:10]
-    category: Exter
+    display: Makeshift door
+    category: Deco
     type: DOOR
     collection:
       indirect: wooden_door_powered
@@ -188,7 +247,7 @@ Items:
     itemMaterial: ACACIA_DOOR
     damage: 0
     display: Iron Door
-    category: Exter
+    category: Deco
     type: DOOR
     collection:
       indirect: wooden_door_powered
@@ -197,7 +256,7 @@ Items:
     itemMaterial: BIRCH_DOOR
     damage: 0
     display: Quilted Leather Door
-    category: Exter
+    category: Deco
     type: DOOR
     powered: true
     collection:
@@ -207,7 +266,7 @@ Items:
     itemMaterial: IRON_DOOR
     damage: 0
     display: Hidden Stone Door
-    category: Exter
+    category: Deco
     type: DOOR
     powered: true
     collection:
@@ -216,6 +275,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 215
     display: White thin deco
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:lime_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
     blockDataNorth: minecraft:lime_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
@@ -240,6 +300,8 @@ Items:
     blockDataNorth: minecraft:cyan_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:cyan_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:cyan_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_cyan1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 217
@@ -249,15 +311,20 @@ Items:
     blockDataNorth: minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_light_grey:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 218
     display: White wide deco
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:light_grey_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
     blockDataNorth: minecraft:light_grey_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:light_grey_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:light_grey_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_light_grey1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 219
@@ -267,24 +334,32 @@ Items:
     blockDataNorth: minecraft:light_grey_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:light_grey_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:light_grey_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_grey:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 220
     display: White deco side
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:grey_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
     blockDataNorth: minecraft:grey_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:grey_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:grey_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_grey1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 221
     display: White gold gray deco
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:grey_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
     blockDataNorth: minecraft:grey_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:grey_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:grey_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_yellow:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 222
@@ -294,6 +369,8 @@ Items:
     blockDataNorth: minecraft:yellow_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:yellow_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:yellow_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_pink:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 223
@@ -303,10 +380,13 @@ Items:
     blockDataNorth: minecraft:pink_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:pink_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:pink_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_lime
   stained_glass_pane_purple:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 224
     display: Gold decoration vertical
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:purple_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
     blockDataNorth: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
@@ -330,6 +410,8 @@ Items:
     blockDataNorth: minecraft:purple_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:purple_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:purple_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_purple
   stained_glass_pane_blue:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 226
@@ -339,24 +421,32 @@ Items:
     blockDataNorth: minecraft:blue_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:blue_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:blue_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_purple
   stained_glass_pane_blue1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 227
     display: Golden pink deco
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:blue_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
     blockDataNorth: minecraft:blue_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:blue_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:blue_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_purple
   stained_glass_pane_brown:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 228
     display: Golden deco vertical
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:brown_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
     blockDataNorth: minecraft:brown_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:brown_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:brown_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_purple
   stained_glass_pane_brown1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 229
@@ -366,15 +456,20 @@ Items:
     blockDataNorth: minecraft:brown_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:brown_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:brown_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_purple
   stained_glass_pane_orange:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 230
     display: Golden pink deco
+    category: Deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:orange_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
     blockDataNorth: minecraft:orange_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:orange_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:orange_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_purple
   stained_glass_pane_magenta:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 231
@@ -384,3 +479,5 @@ Items:
     blockDataNorth: minecraft:magenta_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
     blockDataSouth: minecraft:magenta_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
     blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stained_glass_pane_purple
