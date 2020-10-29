@@ -1444,28 +1444,28 @@
         "damage": 0.41532
       },
       "name": 206,
-      "model": "block/"
+      "model": "block/hopper_enabled_down"
     },
     {
       "predicate": {
         "damage": 0.41734
       },
       "name": 207,
-      "model": "block/"
+      "model": "block/hopper_enabled_north"
     },
     {
       "predicate": {
         "damage": 0.41935
       },
       "name": 208,
-      "model": "block/"
+      "model": "block/hopper_enabled_south"
     },
     {
       "predicate": {
         "damage": 0.42137
       },
       "name": 209,
-      "model": "block/"
+      "model": "block/brewing_stand_empty"
     }
   ]
 }
