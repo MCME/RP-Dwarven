@@ -471,3 +471,109 @@ Items:
     blockDataSouthEast: minecraft:detector_rail[powered=true,shape=north_south]
     collection:
       indirect: bell_floor_east
+  
+  # mine interior collection
+  brown_stained_glass:
+    itemMaterial: BROWN_STAINED_GLASS
+    damage: 12
+    display: Cage [95:12]
+    category: Mines
+    type: VANILLA
+    collection:
+      C0: hopper_enabled_down
+      A1: hopper_enabled_south
+      F1: oak_sapling_0
+      G2: brewing_stand_empty
+      I2: brown_stained_glass
+      J1: rail
+      E1: hopper_off_south
+      D2: hopper_off_north
+      B2: hopper_enabled_north
+  brewing_stand:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 209
+    display: Torch Support [117:0]
+    cateogory: Mines
+    type: VANILLA
+    collection:
+      indirect: brown_stained_glass
+  oak_sapling_0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 16
+    display: Lamp [6:0]
+    category: Mines
+    type: BLOCK
+    blockData: minecraft:oak_sapling[stage=0]
+    collection:
+      indirect: brown_stained_glass
+  rail:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 202
+    display: Minecart Rail [66:0]
+    category: Mines
+    type: BLOCK
+    blockData: minecraft:rail
+    collection:
+      indirect: brown_stained_glass
+  hopper_enabled_down:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 206
+    display: Tipped Minecart [154:0]
+    category: Mines
+    type: BLOCK
+    blockData: minecraft:hopper[enabled=true,facing=down]
+    collection:
+      indirect: brown_stained_glass
+  hopper_enabled_south:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 208
+    display: Empty Minecart on Tracks [154:3,4]
+    category: Mines
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:hopper[enabled=true,facing=south]
+    blockDataSouth: minecraft:hopper[enabled=true,facing=south]
+    blockDataEast: minecraft:hopper[enabled=true,facing=west]
+    blockDataWest: minecraft:hopper[enabled=true,facing=west]
+    nextBlock: hopper_off_south
+    collection:
+      indirect: brown_stained_glass
+  hopper_enabled_north:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 207
+    display: Cobblestone Minecart on Tracks [154:2,5]
+    category: Mines
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:hopper[enabled=true,facing=north]
+    blockDataSouth: minecraft:hopper[enabled=true,facing=north]
+    blockDataEast: minecraft:hopper[enabled=true,facing=east]
+    blockDataWest: minecraft:hopper[enabled=true,facing=east]
+    nextBlock: hopper_off_north
+    collection:
+      indirect: brown_stained_glass
+
+  #inside collection:
+  hopper_off_south:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 208
+    display: Empty Minecart no Tracks [154:10,13]
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:hopper[enabled=false,facing=south]
+    blockDataSouth: minecraft:hopper[enabled=false,facing=south]
+    blockDataEast: minecraft:hopper[enabled=false,facing=west]
+    blockDataWest: minecraft:hopper[enabled=false,facing=west]
+    nextBlock: hopper_enabled_south
+    collection:
+      indirect: brown_stained_glass
+  hopper_off_north:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 207
+    display: Cobblestone Minecart no Tracks [154:11,12]
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:hopper[enabled=false,facing=north]
+    blockDataSouth: minecraft:hopper[enabled=false,facing=north]
+    blockDataEast: minecraft:hopper[enabled=false,facing=east]
+    blockDataWest: minecraft:hopper[enabled=false,facing=east]
+    nextBlock: hopper_enabled_north
+    collection:
+      indirect: brown_stained_glass
+   
