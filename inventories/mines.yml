@@ -1,6 +1,6 @@
 Items:
   # blocks collection
-  jungle_planks:
+  jungle_planks:  
     itemMaterial: JUNGLE_PLANKS
     damage: 3
     display: Quilted Leather Block [5:3]
@@ -22,6 +22,10 @@ Items:
       B4: jungle_stairs
       D4: jungle_slab
       E4: jungle_button
+      F4: acacia_sapling_0
+      G4: oak_log
+      I4: rail
+      J4: iron_ore
   oak_planks:
     itemMaterial: OAK_PLANKS
     damage: 0
@@ -151,6 +155,10 @@ Items:
       B4: jungle_fence
       D4: dark_oak_fence
       E4: oak_fence
+      F4: acacia_sapling_0
+      G4: oak_planks 
+      I4: rail
+      J4: iron_ore
   cactus_11:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 37
@@ -282,6 +290,9 @@ Items:
       E4: white_stained_glass
       F4: bell_floor_east
       G4: bell_ceiling_east
+      H4: oak_planks
+      I4: oak_log
+      J4: rail
   white_stained_glass:
     itemMaterial: WHITE_STAINED_GLASS
     damage: 0
@@ -489,6 +500,10 @@ Items:
       E1: hopper_off_south
       D2: hopper_off_north
       B2: hopper_enabled_north
+      F4: acacia_sapling_0
+      G4: oak_planks
+      I4: oak_log
+      J4: iron_ore
   brewing_stand:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
@@ -576,4 +591,79 @@ Items:
     nextBlock: hopper_enabled_north
     collection:
       indirect: brown_stained_glass
-   
+
+  
+  # ore collection
+  iron_ore:
+    itemMaterial: IRON_ORE
+    damage: 0
+    display: Silver Ore [15:0]
+    category: Mines
+    type: VANILLA
+    collection:
+      C0: gold_ore
+      A1: diamond_ore
+      F1: nether_quartz_ore 
+      H2: emerald_ore
+      J1: lapis_ore
+      E1: coal_ore
+      D2: iron_ore
+      B2: sea_lantern
+      F4: acacia_sapling_0
+      G4: oak_planks
+      I4: oak_log
+      J4: iron_ore
+  diamond_ore:
+    itemMaterial: DIAMOND_ORE
+    damage: 0
+    display: Mithril Ore [56:0]
+    category: Mines
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  sea_lantern:
+    itemMaterial: SEA_LANTERN
+    damage: 0
+    display: Glowing Ore [169:0]
+    category: Mines
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+
+  #inside collection
+  emerald_ore:
+    itemMaterial: EMERALD_ORE
+    damage: 0
+    display: Green Gems [129:0]
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  nether_quartz_ore:
+    itemMaterial: NETHER_QUARTZ_ORE
+    damage: 0
+    display: Copper Ore [153:0]
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  coal_ore:
+    itemMaterial: COAL_ORE
+    damage: 0
+    display: Coal Ore [16:0]
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  lapis_ore:
+    itemMaterial: LAPIS_ORE
+    damage: 0
+    display: Red Gems [21:0]
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  gold_ore:
+    itemMaterial: GOLD_ORE
+    damage: 0
+    display: Gold_Ore [14:0]
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  
