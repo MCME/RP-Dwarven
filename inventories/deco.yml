@@ -22,14 +22,14 @@ Items:
       B4: farmland1
   Clay:
     itemMaterial: CLAY
-    damage: 0
+    damage: 1
     display: Patchwork Cloth
     category: Deco
     type: VANILLA
     collection:
       indirect: End_stone_bricks
   Snow:
-    itemMaterial: SNOW
+    itemMaterial: SNOW_BLOCK
     damage: 0
     display: Gold Coins
     category: Deco
@@ -37,7 +37,7 @@ Items:
     collection:
       indirect: End_stone_bricks
   Snow_layer:
-    itemMaterial: CLAY
+    itemMaterial: SNOW
     damage: 0
     display: Gold layer
     type: VANILLA

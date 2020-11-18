@@ -1,9 +1,8 @@
 Items:
-  # forges / table collection
   anvil:
     itemMaterial: ANVIL
     damage: 0
-    display: Anvil [145:0]
+    display: Anvil
     category: Workshop
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:anvil[facing=south]
@@ -25,7 +24,7 @@ Items:
   chipped_anvil:
     itemMaterial: CHIPPED_ANVIL
     damage: 4
-    display: Woodworking Anvil [145:4]
+    display: Woodworking Anvil
     category: Workshop
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:chipped_anvil[facing=south]
@@ -35,12 +34,11 @@ Items:
     collection:
       indirect: anvil
   pumpkin:
-    itemMaterialL: PUMPKIN
+    itemMaterial: PUMPKIN
     damage: 0
     display: Foundry Output
     category: Workshop
-    type: BLOCK
-    blockData: minecraft:pumpkin
+    type: VANILLA
     collection:
       indirect: anvil
   blast_furnace:

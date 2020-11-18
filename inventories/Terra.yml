@@ -3,7 +3,7 @@ Items:
   netherrack:
     itemMaterial: NETHERRACK
     damage: 0
-    display: Ashes 1 [87:0]
+    display: Ashes 1
     category: Terra
     type: VANILLA
     collection:
@@ -23,7 +23,7 @@ Items:
   lime_terracotta:
     itemMaterial: LIME_TERRACOTTA
     damage: 5
-    display: Ashes 2 [159:5]
+    display: Ashes 2
     category: Terra
     type: VANILLA
     collection:
@@ -39,7 +39,7 @@ Items:
   sand:
     itemMaterial: SAND
     damage: 0
-    display: Rough Dark Grey Stone [12:0]
+    display: Rough Dark Grey Stone
     category: Terra
     type: VANILLA
     collection:
@@ -64,7 +64,7 @@ Items:
   coarse_dirt:
     itemMaterial: COARSE_DIRT
     damage: 1
-    display: Rough Green Stone [3:1]
+    display: Rough Green Stone
     type: VANILLA
     collection:
       indirect: netherrack
@@ -85,7 +85,7 @@ Items:
   gravel:
     itemMaterial: GRAVEL
     damage: 0
-    display: Rough Grey Stone [13:0]
+    display: Rough Grey Stone
     type: VANILLA
     collection:
       indirect: netherrack
@@ -94,7 +94,7 @@ Items:
   stone:
     itemMaterial: STONE
     damage: 0
-    display: stone [1:0]
+    display: stone
     category: Terra
     type: VANILLA
     collection:
@@ -123,7 +123,7 @@ Items:
   polished_andesite:
     itemMaterial: POLISHED_ANDESITE
     damage: 6
-    display: Light Green Stone [1:6]
+    display: Light Green Stone
     category: Terra
     type: VANILLA
     collection:
@@ -131,7 +131,7 @@ Items:
   gray_concrete:
     itemMaterial: GRAY_CONCRETE
     damage: 7
-    display: Light Grey Stone [251:7]
+    display: Light Grey Stone
     category: Terra
     type: VANILLA
     collection:
@@ -139,7 +139,7 @@ Items:
   light_gray_terracotta:
     itemMaterial: LIGHT_GRAY_TERRACOTTA
     damage: 8
-    display: Mossy Stone [159:8]
+    display: Mossy Stone
     category: Terra
     type: VANILLA
     collection:
@@ -147,7 +147,7 @@ Items:
   coal_block:
     itemMaterial: COAL_BLOCK
     damage: 0
-    display: Pink Stone [173:0]
+    display: Pink Stone
     category: Terra
     type: VANILLA
     collection:
@@ -155,7 +155,7 @@ Items:
   cyan_terracotta:
     itemMaterial: CYAN_TERRACOTTA
     damage: 9
-    display: Grey Stone [159:9]
+    display: Grey Stone
     category: Terra
     type: VANILLA
     collection:
@@ -165,7 +165,7 @@ Items:
   brown_concrete:
     itemMaterial: BROWN_CONCRETE
     damage: 12
-    display: Smooth Grey Stone [251:12]
+    display: Smooth Grey Stone
     type: VANILLA
     collection:
       indirect: stone
@@ -200,7 +200,7 @@ Items:
   stone_button:
     itemMaterial: STONE_BUTTON
     damage: 0
-    display: Stone Button [77:0]
+    display: Stone Button
     type: VANILLA
     collection:
       indirect: stone
@@ -278,7 +278,7 @@ Items:
   granite:
     itemMaterial: GRANITE
     damage: 1
-    display: Rough Brown Stone [1:1]
+    display: Rough Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -305,7 +305,7 @@ Items:
   polished_granite:
     itemMaterial: POLISHED_GRANITE
     damage: 2
-    display: Rought Red Stone [1:2]
+    display: Rought Red Stone
     category: Terra
     type: VANILLA
     collection:
@@ -313,7 +313,7 @@ Items:
   light_blue_concrete:
     itemMaterial: LIGHT_BLUE_CONCRETE
     damage: 3
-    display: Brown Stone [251:3]
+    display: Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -321,7 +321,7 @@ Items:
   orange_concrete:
     itemMaterial: ORANGE_CONCRETE
     damage: 1
-    display: Light Brown Stone [251:1]
+    display: Light Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -329,7 +329,7 @@ Items:
   lime_concrete:
     itemMaterial: LIME_CONCRETE
     damage: 5
-    display: Dry Clay [251:5]
+    display: Dry Clay
     category: Terra
     type: VANILLA
     collection:
@@ -337,7 +337,7 @@ Items:
   cyan_concrete:
     itemMaterial: CYAN_CONCRETE
     damage: 9
-    display: Yellow Stone [251:9]
+    display: Yellow Stone
     category: Terra
     type: VANILLA
     collection:
@@ -345,7 +345,7 @@ Items:
   terracotta:
     itemMaterial: TERRACOTTA
     damage: 0
-    display: Smooth Brown Stone [172:0]
+    display: Smooth Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -355,7 +355,7 @@ Items:
   pink_concrete:
     itemMaterial: PINK_CONCRETE
     damage: 6
-    display: Dark Brown Stone [251:6]
+    display: Dark Brown Stone
     type: VANILLA
     collection:
       indirect: granite
@@ -471,7 +471,7 @@ Items:
   andesite:
     itemMaterial: ANDESITE
     damage: 5
-    display: White Stone 1 [1:5]
+    display: White Stone 1
     category: Terra
     type: VANILLA
     collection:
@@ -479,7 +479,7 @@ Items:
   white_concrete:
     itemMaterial: WHITE_CONCRETE
     damage: 0
-    display: White Stone 2 [251:0]
+    display: White Stone 2
     category: Terra
     type: VANILLA
     collection:
@@ -487,7 +487,7 @@ Items:
   red_sand:
     itemMaterial: RED_SAND
     damage: 1
-    display: Rough Light Stone [12:1]
+    display: Rough Light Stone
     category: Terra
     type: VANILLA
     collection:
@@ -495,7 +495,7 @@ Items:
   yellow_terracotta:
     itemMaterial: yellow_terracotta
     damage: 4
-    display: Rough Light Grey Stone [159:4]
+    display: Rough Light Grey Stone
     category: Terra
     type: VANILLA
     collection:
@@ -634,7 +634,7 @@ Items:
   black_stained_glass:
     itemMaterial: BLACK_STAINED_GLASS
     damage: 15
-    display: Light Blue Crystal Block [95:15]
+    display: Light Blue Crystal Block
     category: Terra
     type: VANILLA
     collection: 
@@ -662,7 +662,7 @@ Items:
   orange_terracotta:
     itemMaterial: ORANGE_TERRACOTTA
     damage: 1
-    display: Yellow Crystal Block [159:1]
+    display: Yellow Crystal Block
     category: Terra
     type: VANILLA
     collection:
@@ -670,7 +670,7 @@ Items:
   purple_concrete:
     itemMaterial: PURPLE_CONCRETE
     damage: 10
-    display: Green Crystal Block [251:10]
+    display: Green Crystal Block
     category: Terra
     type: VANILLA
     collection:
@@ -678,7 +678,7 @@ Items:
   magenta_concrete:
     itemMaterial: MAGENTA_CONCRETE
     damage: 2
-    display: Orange Crystal Block [251:2]
+    display: Orange Crystal Block
     category: Terra
     type: VANILLA
     collection:
@@ -686,7 +686,7 @@ Items:
   green_concrete:
     itemMaterial: GREEN_CONCRETE
     damage: 13
-    display: Mixed Blue Crystal Block [251:13]
+    display: Mixed Blue Crystal Block
     category: Terra
     type: VANILLA
     collection:
@@ -694,7 +694,7 @@ Items:
   white_terracotta:
     itemMaterial: WHITE_TERRACOTTA
     damage: 0
-    display: Aqua Crystal Block [159:0]
+    display: Aqua Crystal Block
     category: Terra
     type: VANILLA
     collection:
@@ -702,7 +702,7 @@ Items:
   light_blue_terracotta:
     itemMaterial: LIGHT_BLUE_TERRACOTTA
     damage: 3
-    display: Pink Crystal Block [159:3]
+    display: Pink Crystal Block
     category: Terra
     type: VANILLA
     collection:
@@ -710,7 +710,7 @@ Items:
   redstone_lamp:
     itemMaterial: REDSTONE_LAMP
     damage: 0
-    display: Cluster Crystal [123]
+    display: Cluster Crystal
     category: Terra
     type: VANILLA
     collection:
@@ -720,7 +720,7 @@ Items:
   red_tulip:
     itemMaterial: RED_TULIP
     damage: 4
-    display: Yellow Crystal [38:4]
+    display: Yellow Crystal
     type: BLOCK
     blockData: minecraft:red_tulip
     collection:
@@ -728,7 +728,7 @@ Items:
   blue_orchid:
     itemMaterial: BLUE_ORCHID
     damage: 1
-    display: Green Crystal [38:1]
+    display: Green Crystal
     type: BLOCK
     blockData: minecraft:blue_orchid
     collection:
@@ -736,7 +736,7 @@ Items:
   poppy:
     itemMaterial: POPPY
     damage: 0
-    display: Orange Crystal [38:0]
+    display: Orange Crystal
     type: BLOCK
     blockData: minecraft:poppy
     collection:
@@ -744,7 +744,7 @@ Items:
   allium:
     itemMaterial: ALLIUM
     damage: 2
-    display: Light Blue Crystal [38:2]
+    display: Light Blue Crystal
     type: BLOCK
     blockData: minecraft:allium
     collection:
@@ -752,14 +752,14 @@ Items:
   red_stained_glass:
     itemMaterial: RED_STAINED_GLASS
     damage: 14
-    display: Blue Crystal Block [95:14]
+    display: Blue Crystal Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   azure_bluet:
     itemMaterial: AZURE_BLUET
     damage: 3
-    display: Blue Crystal [38:3]
+    display: Blue Crystal
     type: BLOCK
     blockData: minecraft:azure_bluet
     collection:
@@ -767,35 +767,35 @@ Items:
   red_concrete: 
     itemMaterial: RED_CONCRETE
     damage: 14
-    display: Dark Blue Crystal Block [251:14]
+    display: Dark Blue Crystal Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   light_gray_concrete:
     itemMaterial: LIGHT_GRAY_CONCRETE
     damage: 8
-    display: Purple Crystal Block [251:8]
+    display: Purple Crystal Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   yellow_concrete:
     itemMaterial: YELLOW_CONCRETE
     damage: 4
-    display: Smooth Blue Crystal Block [251:4]
+    display: Smooth Blue Crystal Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   black_concrete:
     itemMaterial: BLACK_CONCRETE
     damage: 15
-    display: Rough White Crystal Block [251:15]
+    display: Rough White Crystal Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   magenta_terracotta:
     itemMaterial: MAGENTA_TERRACOTTA
     damage: 2
-    display: Light Pink Crystal Block [159:2]
+    display: Light Pink Crystal Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
@@ -810,7 +810,7 @@ Items:
   dandelion:
     itemMaterial: DANDELION
     damage: 0
-    display: Red Crystal [37:0]
+    display: Red Crystal
     type: BLOCK
     blockData: minecraft:dandelion
     collection:
@@ -821,7 +821,7 @@ Items:
   podzol:
     itemMaterial: PODZOL
     damage: 2
-    display: Podzol [3:2]
+    display: Podzol
     category: Terra
     type: VANILLA
     collection:
@@ -841,7 +841,7 @@ Items:
   orange_concrete_powder:
     itemMaterial: ORANGE_CONCRETE_POWDER
     damage: 1
-    display: Waste Block 1 [252:1]
+    display: Waste Block 1
     category: Terra
     type: VANILLA
     collection:
@@ -858,7 +858,7 @@ Items:
   pink_tulip:
     itemMaterial: PINK_TULIP
     damage: 7
-    display: Large Red Mushrrom [38:7]
+    display: Large Red Mushrrom
     category: Terra
     type: BLOCK
     blockData: minecraft:pink_tulip
@@ -867,7 +867,7 @@ Items:
   oxeye_daisy:
     itemMaterial: OXEYE_DAISY
     damage: 8
-    display: Dead Mushroom [38:8]
+    display: Dead Mushroom
     category: Terra
     type: BLOCK
     blockData: minecraft:oxeye_daisy
@@ -876,7 +876,7 @@ Items:
   orange_tulip:
     itemMaterial: ORANGE_TULIP
     damage: 5
-    display: Red Mycelium [38:5]
+    display: Red Mycelium
     category: Terra
     type: BLOCK
     blockData: minecraft:orange_tulip
@@ -896,21 +896,21 @@ Items:
   mycelium:
     itemMaterial: MYCELIUM
     damage: 0
-    display: Farmland [110:0]
+    display: Farmland
     type: VANILLA
     collection:
       indirect: podzol
   soul_sand:
     itemMaterial: SOUL_SAND
     damage: 0
-    display: Waste Block 2 [88:0]
+    display: Waste Block 2
     type: VANILLA
     collection:
       indirect: podzol
   dead_bush:
     itemMaterial: DEAD_BUSH
     damage: 0
-    display: Mushrooms [31:0]
+    display: Mushrooms
     type: BLOCK
     blockData: minecraft:dead_bush
     collection:
@@ -918,7 +918,7 @@ Items:
   red_mushroom:
     itemMaterial: RED_MUSHROOM
     damage: 0
-    display: Red Mushrooms [40:0]
+    display: Red Mushrooms
     type: BLOCK
     blockData: minecraft:red_mushroom
     collection:
@@ -926,7 +926,7 @@ Items:
   white_tulip:
     itemMaterial: WHITE_TULIP
     damage: 6
-    display: Mycelium [38:6]
+    display: Mycelium
     type: BLOCK
     blockData: minecraft:white_tulip
     collection:
@@ -934,7 +934,7 @@ Items:
   tomato_plant:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 179
-    display: Potato Plant [115:0]
+    display: Potato Plant
     type: BLOCK
     blockData: minecraft:nether_wart[age=0]
     collection:
@@ -944,7 +944,8 @@ Items:
   water_7:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 180
-    display: Water Level 8 [8:0]
+    display: Water Level 8
+    category: Terra
     type: BLOCK
     blockData: minecraft:water[level=0]
     collection:
@@ -961,7 +962,8 @@ Items:
   packed_ice:
     itemMaterial: PACKED_ICE
     damage: 0
-    display: Packed Ice [174:0]
+    display: Packed Ice
+    category: Terra
     type: VANILLA
     collection:
       indirect: water_7
@@ -971,7 +973,7 @@ Items:
   water_0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 181
-    display: Water Level 1 [8:7]
+    display: Water Level 1
     type: BLOCK
     blockData: minecraft:water[level=7]
     collection:
@@ -979,7 +981,7 @@ Items:
   water_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 182
-    display: Water Level 2 [8:6]
+    display: Water Level 2
     type: BLOCK
     blockData: minecraft:water[level=6]  
     collection:
@@ -987,7 +989,7 @@ Items:
   water_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 182
-    display: Water Level 3 [8:5]
+    display: Water Level 3
     type: BLOCK
     blockData: minecraft:water[level=5]  
     collection:
@@ -995,7 +997,7 @@ Items:
   water_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 182
-    display: Water Level 4 [8:4]
+    display: Water Level 4
     type: BLOCK
     blockData: minecraft:water[level=4]  
     collection:
@@ -1003,7 +1005,7 @@ Items:
   water_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 182
-    display: Water Level 5 [8:3]
+    display: Water Level 5
     type: BLOCK
     blockData: minecraft:water[level=3]  
     collection:
@@ -1011,7 +1013,7 @@ Items:
   water_5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 182
-    display: Water Level 6 [8:2]
+    display: Water Level 6
     type: BLOCK
     blockData: minecraft:water[level=2] 
     collection:
@@ -1019,7 +1021,7 @@ Items:
   water_6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 182
-    display: Water Level 7 [8:1]
+    display: Water Level 7
     type: BLOCK
     blockData: minecraft:water[level=1] 
     collection:
@@ -1027,7 +1029,7 @@ Items:
   ice:
     itemMaterial: ICE
     damage: 0
-    display: Ice [79:0]
+    display: Ice
     type: VANILLA
     collection:
       indirect: water_7
@@ -1037,7 +1039,8 @@ Items:
   lava_7:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 188
-    display: Lava Level 8 [10:0]
+    display: Lava Level 8
+    category: Terra
     type: BLOCK
     blockData: minecraft:lava[level=0]
     collection:
@@ -1053,7 +1056,8 @@ Items:
   magma_block:
     itemMaterial: MAGMA_BLOCK
     damage: 0
-    display: Magma Block [213:0]
+    display: Magma Block
+    category: Terra
     type: VANILLA
     collection:
       indirect: lava_7
@@ -1062,7 +1066,7 @@ Items:
   lava_0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Lava Level 1 [10:7]
+    display: Lava Level 1
     type: BLOCK
     blockData: minecraft:lava[level=7]
     collection:
@@ -1070,7 +1074,7 @@ Items:
   lava_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Lava Level 2 [10:6]
+    display: Lava Level 2
     type: BLOCK
     blockData: minecraft:lava[level=6]
     collection:
@@ -1078,7 +1082,7 @@ Items:
   lava_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Lava Level 3 [10:5]
+    display: Lava Level 3
     type: BLOCK
     blockData: minecraft:lava[level=5]
     collection:
@@ -1086,7 +1090,7 @@ Items:
   lava_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Lava Level 4 [10:4]
+    display: Lava Level 4
     type: BLOCK
     blockData: minecraft:lava[level=4]
     collection:
@@ -1094,7 +1098,7 @@ Items:
   lava_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Lava Level 5 [10:3]
+    display: Lava Level 5
     type: BLOCK
     blockData: minecraft:lava[level=3]
     collection:
@@ -1102,7 +1106,7 @@ Items:
   lava_5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Lava Level 6 [10:2]
+    display: Lava Level 6
     type: BLOCK
     blockData: minecraft:lava[level=2]
     collection:
@@ -1110,19 +1114,8 @@ Items:
   lava_6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Lava Level 7 [10:1]
+    display: Lava Level 7
     type: BLOCK
     blockData: minecraft:lava[level=1]
     collection:
       indirect: lava_7
-
-  
-
-  
-  
-  
-
-
-
-
-  
