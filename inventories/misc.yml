@@ -22,8 +22,8 @@ Items:
       B4: cyan_wool
       C4: light_blue_wool
       D4: magenta_wool
-      F1: carpet_black
-      G2: carpet_red
+      F2: carpet_black
+      G3: carpet_red
   pink_wool:
     itemMaterial: PINK_WOOL
     damage: 6
@@ -129,7 +129,7 @@ Items:
     collection:
       indirect: white_wool
   gray_wool:
-    itemMaterial: GREY_WOOL
+    itemMaterial: GRAY_WOOL
     damage: 7
     display: Dark gray wool block
     category: Misc
@@ -179,7 +179,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 114
     display: Footprints [157:0]
-    category: Exter
+    category: Misc
     type: EIGHT_FACES
     blockDataSouth: minecraft:activator_rail[powered=true,shape=north_south]
     blockDataSouthWest: minecraft:activator_rail[powered=true,shape=ascending_west]
@@ -221,13 +221,13 @@ Items:
     collection:
       indirect: fireworks
   green_terracotta:
-   itemMaterial: GREEN_TERRACOTTA
+    itemMaterial: GREEN_TERRACOTTA
     damage: 0
     display: Shiny block
     category: Misc
     type: VANILLA
     collection:
-      indirect: fireworks
+     indirect: fireworks
   glow_stone:
     itemMaterial: GLOWSTONE
     damage: 1
@@ -237,12 +237,11 @@ Items:
     collection:
       indirect: fireworks
   beacon:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 115
+    itemMaterial: BEACON
+    damage: 0
     display: Glass lamp
     category: Misc
-    type: BLOCK
-    blockData: minecraft:beacon
+    type: VANILLA
     collection:
       indirect: fireworks
   sign:

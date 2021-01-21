@@ -3,11 +3,10 @@ Items:
   jungle_planks:  
     itemMaterial: JUNGLE_PLANKS
     damage: 3
-    display: Quilted Leather Block [5:3]
+    display: Quilted Leather Block
     category: Mines
     type: VANILLA
     collection:
-      C0: oak_planks
       A1: birch_planks
       F1: oak_planks
       G2: birch_stairs
@@ -29,7 +28,7 @@ Items:
   oak_planks:
     itemMaterial: OAK_PLANKS
     damage: 0
-    display: Wooden Planks [5:0]
+    display: Wooden Planks
     category: Mines
     type: VANILLA
     collection:
@@ -37,24 +36,23 @@ Items:
   birch_planks:
     itemMaterial: BIRCH_PLANKS
     damage: 2
-    display: Old Wooden Planks [5:2]
+    display: Old Wooden Planks
     category: Mines
     type: VANILLA
     collection:
       indirect: jungle_planks
-
   #inside collection
   jungle_stairs:
     itemMaterial: JUNGLE_STAIRS
     damage: 0
-    display: Quilted Leather Stairs [136:0]
+    display: Quilted Leather Stairs
     type: VANILLA
     collection:
       indirect: jungle_planks
   jungle_slab:
     itemMaterial: JUNGLE_SLAB
     damage: 3
-    display: Quilted Leather Slab [125:3]
+    display: Quilted Leather Slab
     type: VANILLA
     collection:
       indirect: jungle_planks
@@ -68,46 +66,46 @@ Items:
   oak_stairs:
     itemMaterial: OAK_STAIRS
     damage: 0
-    display: Wooden Stairs [53:0]
+    display: Wooden Stairs
     type: VANILLA
     collection:
       indirect: jungle_planks
   oak_slab: 
     itemMaterial: OAK_SLAB
     damage: 0
-    display: Wooden Slab [125:0]
+    display: Wooden Slab
     type: VANILLA
     collection:
       indirect: jungle_planks
   oak_button:
     itemMaterial: OAK_BUTTON
     damage: 0
-    display: Wooden Button [143:0]
+    display: Wooden Button
     type: VANILLA
     collection:
       indirect: jungle_planks
   oak_fence_gate_powered:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 205
-    display: Wooden Vertical Slab [107:11]
+    display: Wooden Vertical Slab
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataSouth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:oak_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=false,open=false,powered=true]
     collection:
       indirect: jungle_planks
   birch_stairs:
     itemMaterial: BIRCH_STAIRS
     damage: 0
-    display: Old Wooden Stairs [135:0]
+    display: Old Wooden Stairs
     type: VANILLA
     collection:
       indirect: jungle_planks
   birch_slab:
     itemMaterial: BIRCH_SLAB
     damage: 2
-    display: Old Wooden Slab [125:2]
+    display: Old Wooden Slab
     type: VANILLA
     collection:
       indirect: jungle_planks
@@ -121,7 +119,7 @@ Items:
   birch_fence_gate_powered:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 11
-    display: Old Wooden Vertical Slab [184:11]
+    display: Old Wooden Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataSouth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=false,powered=true]
@@ -129,12 +127,11 @@ Items:
     blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=false,open=false,powered=true]
     collection:
       indirect: jungle_planks
-  
   # wooden details collection
   chorus_flower_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 41
-    display: Supports Side [200:1,2,3,4]
+    display: Supports Side
     category: Mines
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:chorus_flower[age=3]
@@ -162,8 +159,8 @@ Items:
   cactus_11:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 37
-    display: Supports [81:11]
-    category: Deco
+    display: Supports
+    category: Mines
     type: BLOCK
     blockData: minecraft:cactus[age=11]
     collection:
@@ -171,7 +168,7 @@ Items:
   ladder:
     itemMaterial: LADDER
     damage: 4
-    display: Ladder [65:4]
+    display: Ladder
     category: Mines
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:ladder[facing=south,waterlogged=false]
@@ -183,7 +180,7 @@ Items:
   oak_trapdoor:
     itemMaterial: OAK_TRAPDOOR
     damage: 0
-    display: Wodden Cover [96:0]
+    display: Wodden Cover
     category: Mines
     type: VANILLA
     collection:
@@ -191,7 +188,7 @@ Items:
   jungle_log:
     itemMaterial: JUNGLE_LOG
     damage: 3
-    display: Log [17:3]
+    display: Log
     category: Mines
     type: VANILLA
     collection:
@@ -199,66 +196,62 @@ Items:
   oak_log:
     itemMaterial: OAK_LOG
     damage: 0
-    display: Old Log [17:0]
+    display: Old Log
     category: Mines
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  
-  
   #inside collection
   jungle_wood:
     itemMaterial: JUNGLE_WOOD
     damage: 15
-    display: Six Sided Log [17:15]
+    display: Six Sided Log
     type: VANILLA
     collection:
       indirect: chorus_flower_1
   oak_wood:
     itemMaterial: OAK_WOOD
     damage: 12
-    display: Six Sided Old Log [17:12]
+    display: Six Sided Old Log
     type: VANILLA
     collection:
       indirect: chorus_flower_1
   oak_fence:
     itemMaterial: OAK_FENCE
     damage: 0
-    display: Wooden Fence [85:0]
+    display: Wooden Fence
     type: VANILLA
     collection:
       indirect: chorus_flower_1
   dark_oak_fence:
     itemMaterial: DARK_OAK_FENCE
     damage: 0
-    display: Thin Wooden Fence [191:0]
+    display: Thin Wooden Fence
     type: VANILLA
     collection:
       indirect: chorus_flower_1
   birch_fence:
     itemMaterial: BIRCH_FENCE
     damage: 0
-    display: Old Wooden Fence [189:0]
+    display: Old Wooden Fence
     type: VANILLA
     collection:
       indirect: chorus_flower_1
   jungle_fence:
     itemMaterial: JUNGLE_FENCE
     damage: 0
-    display: Thin Old Wooden Fence [190:0]
+    display: Thin Old Wooden Fence
     type: VANILLA
     collection:
       indirect: chorus_flower_1
   comparator_compare_off_south:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 63
-    display: Wooden 1/4 Block [149:0]
+    display: Wooden 1/4 Block
     type: BLOCK
     blockData: minecraft:comparator[mode=compare,powered=false,facing=south]
     collection:
       indirect: chorus_flower_1
-
-  
   # ropes/chains collection
   bell_floor_east:
     itemMaterial: DIAMOND_LEGGINGS
@@ -296,7 +289,7 @@ Items:
   white_stained_glass:
     itemMaterial: WHITE_STAINED_GLASS
     damage: 0
-    display: Net Block [95:0]
+    display: Net Block
     category: Mines
     type: VANILLA
     collection:
@@ -304,7 +297,7 @@ Items:
   birch_sapling_0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 18
-    display: Hook [6:2]
+    display: Hook
     category: Mines
     type: BLOCK
     blockData: minecraft:birch_sapling[stage=0]
@@ -313,7 +306,7 @@ Items:
   redstone_wire_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 57
-    display: 3d Chain (vertical) [55:1]
+    display: 3d Chain (vertical)
     category: Mines
     type: BLOCK
     blockData: minecraft:redstone_wire[power=1]
@@ -322,7 +315,7 @@ Items:
   redstone_wire_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 58
-    display: 3d Chain (horizontal) [55:2]
+    display: 3d Chain (horizontal)
     category: Mines
     type: BLOCK
     blockData: minecraft:redstone_wire[power=2]
@@ -331,7 +324,7 @@ Items:
   dropper_on_up:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 53
-    display: Chain Block [158:9,11,13]
+    display: Chain Block
     category: Mines
     type: THREE_AXIS
     blockDataZ: minecraft:dropper[facing=south,triggered=true]
@@ -342,7 +335,7 @@ Items:
   detector_rail_flat:
     itemMaterial: DETECTOR_RAIL
     damage: 0
-    display: Rope horizontal [28:0]
+    display: Rope horizontal
     category: Mines
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:detector_rail[powered=false,shape=north_south]
@@ -351,10 +344,10 @@ Items:
     blockDataWest: minecraft:detector_rail[powered=false,shape=east_west]
     collection:
       indirect: bell_floor_east
- detector_rail_raised_e:
+  detector_rail_raised_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 110
-    display: Rope vertical [28:10]
+    display: Rope vertical
     category: Mines
     type: BLOCK
     blockData: minecraft:detector_rail[powered=true,shape=ascending_east]
@@ -363,7 +356,7 @@ Items:
   nether_wart_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 1
-    display: Torn Rope [115:1]
+    display: Torn Rope
     category: Mines
     type: BLOCK
     blockData: minecraft:nether_wart[age=1]
@@ -372,7 +365,7 @@ Items:
   acacia_sapling_0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 20
-    display: Reel [6:4]
+    display: Reel
     category: Mines
     type: BLOCK
     blockData: minecraft:acacia_sapling[stage=0]
@@ -381,19 +374,19 @@ Items:
   dropper_on_down:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 52
-    display: Rope Block [158:8,10,12]
+    display: Rope Block
     category: Mines
     type: THREE_AXIS
-    blockDataZ: minecraft:dropper[facing=north,triggered=true]
-    blockDataX: minecraft:dropper[facing=west,triggered=true]
-    blockDataY: minecraft:dropper[facing=down,triggered=true]
+    blockDataZ: minecraft:dropper[triggered=true,facing=north]
+    blockDataX: minecraft:dropper[triggered=true,facing=west]
+    blockDataY: minecraft:dropper[triggered=true,facing=down]
     collection:
       indirect: bell_floor_east
 
   #inside collection
   bell_ceiling_east:
-    itemMateral: DIAMOND_LEGGINGS
-    damage: 203
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 116
     display: Hanging Rope Reel
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:bell[attachment=ceiling,facing=north,powered=false]
@@ -405,14 +398,14 @@ Items:
   white_stained_glass_pane:
     itemMaterial: WHITE_STAINED_GLASS_PANE
     damage: 0
-    display: Net [160:0]
+    display: Net
     type: VANILLA
     collection:
       indirect: bell_floor_east
   oak_leaves_persistent_7:
     itemMaterial: OAK_LEAVES
     damage: 0
-    display: Reinforced Cable [18:0]
+    display: Reinforced Cable
     type: BLOCK
     blockData: minecraft:oak_leaves[persistent=true,distance=7]
     collection:
@@ -420,7 +413,7 @@ Items:
   acacia_leaves_persistent_7:
     itemMaterial: ACACIA_LEAVES
     damage: 0
-    display: Net Structure [161:0]
+    display: Net Structure
     type: BLOCK
     blockData: minecraft:acacia_leaves[persistent=true,distance=7]
     collection:
@@ -428,7 +421,7 @@ Items:
   birch_leaves_persistent_7:
     itemMaterial: BIRCH_LEAVES
     damage: 0
-    display: Hook [18:2]
+    display: Hook
     type: BLOCK
     blockData: minecraft:birch_leaves[persistent=true,distance=7]  
     collection:
@@ -436,7 +429,7 @@ Items:
   powered_rail:
     itemMaterial: POWERED_RAIL
     damage: 0
-    display: Chain horizontal [27:0]
+    display: Chain horizontal
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:powered_rail[powered=false,shape=north_south]
     blockDataEast: minecraft:powered_rail[powered=false,shape=east_west]
@@ -447,7 +440,7 @@ Items:
   powered_rail_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 107
-    display: Chain diagonal [27:8]
+    display: Chain diagonal
     type: EIGHT_FACES
     blockDataSouth: minecraft:powered_rail[powered=true,shape=north_south]
     blockDataSouthWest: minecraft:powered_rail[powered=true,shape=east_west]
@@ -462,7 +455,7 @@ Items:
   golden_rail_raised_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 108
-    display: Chain vertical [27:10]
+    display: Chain vertical
     type: BLOCK
     blockData: minecraft:powered_rail[powered=true,shape=ascending_east]
     collection:
@@ -470,7 +463,7 @@ Items:
   detector_rail_flat_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 109
-    display: Rope diagonal [28:8]
+    display: Rope diagonal
     type: EIGHT_FACES
     blockDataSouth: minecraft:detector_rail[powered=true,shape=north_south]
     blockDataSouthWest: minecraft:detector_rail[powered=true,shape=east_west]
@@ -482,12 +475,11 @@ Items:
     blockDataSouthEast: minecraft:detector_rail[powered=true,shape=north_south]
     collection:
       indirect: bell_floor_east
-  
   # mine interior collection
   brown_stained_glass:
     itemMaterial: BROWN_STAINED_GLASS
     damage: 12
-    display: Cage [95:12]
+    display: Cage
     category: Mines
     type: VANILLA
     collection:
@@ -507,7 +499,7 @@ Items:
   brewing_stand:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
-    display: Torch Support [117:0]
+    display: Torch Support
     cateogory: Mines
     type: VANILLA
     collection:
@@ -515,7 +507,7 @@ Items:
   oak_sapling_0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 16
-    display: Lamp [6:0]
+    display: Lamp
     category: Mines
     type: BLOCK
     blockData: minecraft:oak_sapling[stage=0]
@@ -524,7 +516,7 @@ Items:
   rail:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 202
-    display: Minecart Rail [66:0]
+    display: Minecart Rail
     category: Mines
     type: BLOCK
     blockData: minecraft:rail
@@ -533,7 +525,7 @@ Items:
   hopper_enabled_down:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 206
-    display: Tipped Minecart [154:0]
+    display: Tipped Minecart
     category: Mines
     type: BLOCK
     blockData: minecraft:hopper[enabled=true,facing=down]
@@ -542,7 +534,7 @@ Items:
   hopper_enabled_south:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 208
-    display: Empty Minecart on Tracks [154:3,4]
+    display: Empty Minecart on Tracks
     category: Mines
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:hopper[enabled=true,facing=south]
@@ -555,7 +547,7 @@ Items:
   hopper_enabled_north:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 207
-    display: Cobblestone Minecart on Tracks [154:2,5]
+    display: Cobblestone Minecart on Tracks
     category: Mines
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:hopper[enabled=true,facing=north]
@@ -565,12 +557,11 @@ Items:
     nextBlock: hopper_off_north
     collection:
       indirect: brown_stained_glass
-
   #inside collection:
   hopper_off_south:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 208
-    display: Empty Minecart no Tracks [154:10,13]
+    display: Empty Minecart no Tracks
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:hopper[enabled=false,facing=south]
     blockDataSouth: minecraft:hopper[enabled=false,facing=south]
@@ -582,7 +573,7 @@ Items:
   hopper_off_north:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 207
-    display: Cobblestone Minecart no Tracks [154:11,12]
+    display: Cobblestone Minecart no Tracks
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:hopper[enabled=false,facing=north]
     blockDataSouth: minecraft:hopper[enabled=false,facing=north]
@@ -590,14 +581,12 @@ Items:
     blockDataWest: minecraft:hopper[enabled=false,facing=east]
     nextBlock: hopper_enabled_north
     collection:
-      indirect: brown_stained_glass
-
-  
+      indirect: brown_stained_glass  
   # ore collection
   iron_ore:
     itemMaterial: IRON_ORE
     damage: 0
-    display: Silver Ore [15:0]
+    display: Silver Ore
     category: Mines
     type: VANILLA
     collection:
@@ -616,7 +605,7 @@ Items:
   diamond_ore:
     itemMaterial: DIAMOND_ORE
     damage: 0
-    display: Mithril Ore [56:0]
+    display: Mithril Ore
     category: Mines
     type: VANILLA
     collection:
@@ -624,46 +613,44 @@ Items:
   sea_lantern:
     itemMaterial: SEA_LANTERN
     damage: 0
-    display: Glowing Ore [169:0]
+    display: Glowing Ore
     category: Mines
     type: VANILLA
     collection:
       indirect: iron_ore
-
   #inside collection
   emerald_ore:
     itemMaterial: EMERALD_ORE
     damage: 0
-    display: Green Gems [129:0]
+    display: Green Gems
     type: VANILLA
     collection:
       indirect: iron_ore
   nether_quartz_ore:
     itemMaterial: NETHER_QUARTZ_ORE
     damage: 0
-    display: Copper Ore [153:0]
+    display: Copper Ore
     type: VANILLA
     collection:
       indirect: iron_ore
   coal_ore:
     itemMaterial: COAL_ORE
     damage: 0
-    display: Coal Ore [16:0]
+    display: Coal Ore
     type: VANILLA
     collection:
       indirect: iron_ore
   lapis_ore:
     itemMaterial: LAPIS_ORE
     damage: 0
-    display: Red Gems [21:0]
+    display: Red Gems
     type: VANILLA
     collection:
       indirect: iron_ore
   gold_ore:
     itemMaterial: GOLD_ORE
     damage: 0
-    display: Gold_Ore [14:0]
+    display: Gold_Ore
     type: VANILLA
     collection:
       indirect: iron_ore
-  

@@ -1,0 +1,933 @@
+Items:
+  sandstone:
+    itemMaterial: SANDSTONE
+    damage: 0
+    display: Sandstone
+    category: Block
+    type: VANILLA
+    collection:
+      F1: chiseled_stone_bricks
+      G2: pink_terracotta
+      H2: black_terracotta
+      A1: sandstone
+      B2: sandstone_stairs
+      C2: EndPortal1
+      D2: sandstone_slab
+      E1: RedstoneComparator2
+      E4: blue_stained_glass_pane_diagonal
+      D4: purple_stained_glass_pane
+      A4: lime_stained_glass_pane_side
+      B4: lime_stained_glass_pane_diagonal
+      C4: lime_stained_glass_pane_pillar
+      F4: sandstone_wall_pillar
+      G4: sandstone_wall_side
+      H4: sandstone_wall_diagonal
+      I4: sandstone_wall_middle
+      J4: sandstone_wall_middle_big
+  EndPortal1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 96
+    display: Sandstone 3/4 Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=west]
+    collection:
+      indirect: sandstone
+  sandstone_stairs:
+    itemMaterial: SANDSTONE_STAIRS
+    damage: 0
+    display: Sandstone Stairs
+    type: VANILLA
+    collection:
+      indirect: sandstone
+  sandstone_slab:
+    itemMaterial: SANDSTONE_SLAB
+    damage: 0
+    display: Sandstone Slab
+    type: VANILLA
+    collection:
+      indirect: sandstone
+  RedstoneComparator2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 65
+    display: Sandstone 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=north,mode=compare,powered=false]
+    collection:
+      indirect: sandstone
+  sandstone_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 134
+    display: Sandstone Pillar
+    type: BLOCK
+    blockData: minecraft:sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: sandstone
+  sandstone_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 135
+    display: Vertical Sandstone Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:sandstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: sandstone
+  sandstone_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 136
+    display: Vertical Sandstone Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:sandstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:sandstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: sandstone
+  chiseled_stone_bricks:
+    itemMaterial: SANDSTONE_SLAB
+    damage: 0
+    display: Cut Sandstone
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: sandstone
+  pink_terracotta:
+    itemMaterial: PINK_TERRACOTTA
+    damage: 0
+    display: Sandstone Engraved Cross
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: sandstone
+  black_terracotta:
+    itemMaterial: BLACK_TERRACOTTA
+    damage: 0
+    display: Carved Sandstone
+    type: VANILLA
+    collection:
+      indirect: sandstone
+  lime_stained_glass_pane_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 137
+    display: Sandstone Pillar Side
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:lime_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:lime_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:lime_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:lime_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: sandstone
+  lime_stained_glass_pane_diagonal:
+   itemMaterial: DIAMOND_LEGGINGS
+   damage: 138
+   display: Sandstone Pillar Diagonal
+   type: FOUR_DIRECTIONS
+   blockDataNorth: minecraft:lime_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+   blockDataEast: minecraft:lime_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+   blockDataSouth: minecraft:lime_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+   blockDataWest: minecraft:lime_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+   collection:
+      indirect: sandstone
+  lime_stained_glass_pane_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 139
+    display: Sandstone Pillar Thin
+    type: BLOCK
+    blockData: minecraft:lime_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: sandstone
+  blue_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 140
+    display: Sandstone diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:blue_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:blue_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:blue_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:blue_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: sandstone
+  purple_stained_glass_pane:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 141
+    display: Sandstone Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:purple_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:purple_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: sandstone
+  sandstone_wall_middle:
+    itemMaterial: SANDSTONE_WALL
+    damage: 0
+    display: Sandstone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: sandstone
+  sandstone_wall_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 142
+    display: Fancy Sandstone Pillar
+    type: BLOCK
+    blockData: sandstone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: sandstone
+  stone_bricks:
+    itemMaterial: STONE_BRICKS
+    damage: 0
+    display: Small Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      A0: red_mushroom_block_small_bricks_mossy   
+      A1: dark_oak_planks
+      B2: dark_oak_stairs
+      C2: EndPortal5
+      D2: dark_oak_slab
+      E1: RedstoneComparator6
+      E0: dark_oak_button
+      F1: red_mushroom_block_small_bricks
+      G2: stone_brick_stairs
+      H2: EndPortal4
+      I2: stone_brick_slab
+      J1: RedstoneComparator5
+      A4: stone_brick_wall_pillar
+      B4: stone_brick_wall_side
+      C4: stone_brick_wall_diagonal
+      D4: stone_brick_wall_middle
+      E4: stone_brick_middle_big
+      F4: red_nether_brick_wall_pillar
+      G4: red_nether_brick_wall_side
+      H4: red_nether_brick_wall_diagonal
+      I4: red_nether_brick_wall_middle
+      J4: red_nether_brick_middle_big
+  EndPortal4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 99
+    display: Small Brick 3/4 Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=south]
+    collection:
+      indirect: stone_bricks
+  stone_brick_slab:
+    itemMaterial: STONE_BRICKS
+    damage: 0
+    display: Small Bricks Slab
+    type: VANILLA
+    collection:
+      indirect: stone_bricks
+  stone_brick_stairs:
+    itemMaterial: STONE_BRICK_STAIRS
+    damage: 0
+    display: Small Bricks Stairs
+    type: VANILLA
+    collection:
+      indirect: stone_bricks
+  RedstoneComparator5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 68
+    display: Small bricks 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=subtract,powered=false]
+    collection:
+      indirect: stone_bricks
+  dark_oak_button:
+    itemMaterial: DARK_OAK_BUTTON
+    damage: 0
+    display: Sandstone Button
+    type: VANILLA
+    collection:
+      indirect: stone_bricks
+  stone_brick_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 143
+    display: Brick Pillar
+    type: BLOCK
+    blockData: minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: stone_bricks
+  stone_brick_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 144
+    display: Vertical Small Brick Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  stone_brick_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 145
+    display: Vertical Small Brick Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:stone_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:stone_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  stone_brick_wall_middle:
+    itemMaterial: STONE_BRICK_WALL
+    damage: 0
+    display: Small Brick Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  red_mushroom_block_small_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 125
+    display: Small Bricks Shiny
+    category: Block
+    type: BLOCK
+    blockData: red_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=true]
+    collection:
+      indirect: stone_bricks
+  red_mushroom_block_small_bricks_mossy:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 126
+    display: Small Bricks Mossy
+    type: BLOCK
+    blockData: red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]
+    collection:
+      indirect: stone_bricks
+  stone_brick_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 146
+    display: Fancy Small Bricks Pillar
+    type: BLOCK
+    blockData: stone_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  dark_oak_planks:
+    itemMaterial: DARK_OAK_PLANKS
+    damage: 0
+    display: Tiny Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: stone_bricks
+  EndPortal5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 100
+    display: Tiny Brick 3/4 Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=west]
+    collection:
+      indirect: stone_bricks
+  dark_oak_stairs:
+    itemMaterial: DARK_OAK_STAIRS
+    damage: 0
+    display: Tiny Bricks Stairs
+    type: VANILLA
+    collection:
+      indirect: stone_bricks
+  dark_oak_slab:
+    itemMaterial: DARK_OAK_SLAB
+    damage: 0
+    display: Tiny Bricks Slab
+    type: VANILLA
+    collection:
+      indirect: stone_bricks
+  RedstoneComparator6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 69
+    display: Tiny Bricks 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=north,mode=subtract,powered=false]
+    collection:
+      indirect: stone_bricks
+  red_nether_brick_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 147
+    display: Small Small Brick Pillar
+    type: BLOCK
+    blockData: minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: stone_bricks
+  red_nether_brick_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 148
+    display: Vertical Small Small Brick Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_nether_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  red_nether_brick_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 149
+    display: Vertical Small Small Brick Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:red_nether_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_nether_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_nether_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  red_nether_brick_wall_middle:
+    itemMaterial: RED_NETHER_BRICK_WALL
+    damage: 0
+    display: Small Small Brick Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  red_nether_brick_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 150
+    display: Fancy Small Small Bricks Pillar
+    type: BLOCK
+    blockData: red_nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: stone_bricks
+  acacia_log:
+    itemMaterial: ACACIA_LOG
+    damage: 0
+    display: Sandstone Pillar Block 1
+    category: Block
+    type: VANILLA
+    collection:
+      G2: dark_oak_wood
+      A0: cut_sandstone
+      B2: acacia_wood
+      D2: acacia_log
+      E1: cracked_stone_bricks
+      E0: chiseled_sandstone
+      J1: red_terracotta
+      I2: dark_oak_log
+      A4: magenta_stained_glass_pane_side
+      B4: magenta_stained_glass_pane_diagonal
+      C4: magenta_stained_glass_pane_pillar
+  acacia_wood:
+    itemMaterial: ACACIA_WOOD
+    damage: 0
+    display: Sandstone Pillar Block 1 Six Sided
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  magenta_stained_glass_pane_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 151
+    display: Sandstone Thin Pillar Side
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:magenta_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: acacia_log
+  magenta_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 152
+    display: Sandstone Thin Pillar Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:magenta_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: acacia_log
+  magenta_stained_glass_pane_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 153
+    display: Sandstone Pillar Thin
+    type: BLOCK
+    blockData: minecraft:magenta_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: acacia_log
+  chiseled_sandstone:
+    itemMaterial: CHISELED_SANDSTONE
+    damage: 0
+    display: Sandstone Pillar Bottom
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  cracked_stone_bricks:
+    itemMaterial: CRACKED_STONE_BRICKS
+    damage: 0
+    display: Chiseled Sandstone 1
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  cut_sandstone:
+    itemMaterial: CUT_SANDSTONE
+    damage: 0
+    display: Sandstone Pillar Top
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  red_terracotta:
+    itemMaterial: RED_TERRACOTTA
+    damage: 0
+    display: Chiseled Sandstone 2
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  dark_oak_log:
+    itemMaterial: DARK_OAK_LOG
+    damage: 0
+    display: Sandstone Pillar Block 2
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  dark_oak_wood:
+    itemMaterial: DARK_OAK_WOOD
+    damage: 0
+    display: Sandstone Pillar Block 2 Six Sided
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  cobblestone:
+    itemMaterial: COBBLESTONE
+    damage: 0
+    display: Cobblestone
+    category: Block
+    type: VANILLA
+    collection:
+      D2: mossy_stone_bricks_slab
+      C2: mossy_stone_bricks_stairs
+      B2: mossy_stone_bricks
+      A1: weathered_stone
+      A0: weathered_stone
+      F1: cobblestone
+      G2: cobblestone_stairs
+      H2: EndPortal0
+      I2: cobblestone_slab
+      J1: RedstoneComparator1
+      E1: red_mushroom_block_cobblestone_mossy
+      A4: cobblestone_wall_pillar
+      B4: cobblestone_wall_side
+      C4: cobblestone_wall_diagonal
+      D4: cobblestone_wall_middle
+      E4: cobblestone_middle_big
+      F4: pink_stained_glass_pane_side
+      G4: pink_stained_glass_pane_diagonal
+      H4: blue_stained_glass_pane_pillar
+      I4: brown_stained_glass_pane_diagonal
+  cobblestone_stairs:
+    itemMaterial: COBBLESTONE_STAIRS
+    damage: 0
+    display: Cobblestone Stairs
+    type: VANILLA
+    collection:
+      indirect: cobblestone
+  EndPortal0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 95
+    display: Cobblestone 3/4 Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=south]
+    collection:
+      indirect: cobblestone
+  cobblestone_slab:
+    itemMaterial: COBBLESTONE_SLAB
+    damage: 0
+    display: Cobblestone Slab
+    type: VANILLA
+    collection:
+      indirect: cobblestone
+  RedstoneComparator1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 64
+    display: Cobblestone 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=false]
+    collection:
+      indirect: cobblestone
+  cobblestone_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 154
+    display: Cobblestone Pillar
+    type: BLOCK
+    blockData: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: cobblestone
+  cobblestone_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 155
+    display: Vertical Cobblestone Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cobblestone
+  cobblestone_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 156
+    display: Vertical Cobblestone Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:cobblestone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobblestone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cobblestone
+  cobblestone_wall_middle:
+    itemMaterial: COBBLESTONE_WALL
+    damage: 0
+    display: Cobblestone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cobblestone
+  cobblestone_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 157
+    display: Fancy Cobblestone Pillar
+    type: BLOCK
+    blockData: cobblestone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cobblestone
+  mossy_stone_bricks:
+    itemMaterial: MOSSY_STONE_BRICKS
+    damage: 0
+    display: Dark Cobblestone
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: cobblestone
+  mossy_stone_bricks_stairs:
+    itemMaterial: MOSSY_STONE_BRICK_STAIRS
+    damage: 0
+    display: Dark Cobblestone Stair
+    type: VANILLA
+    collection:
+      indirect: cobblestone
+  mossy_stone_bricks_slab:
+    itemMaterial: MOSSY_STONE_BRICK_SLAB
+    damage: 0
+    display: Dark Cobblestone Slab
+    type: VANILLA
+    collection:
+      indirect: cobblestone
+  blue_stained_glass_pane_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 158
+    display: Thin Dark Cobblestone Pillar
+    type: BLOCK
+    blockData: minecraft:blue_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: cobblestone
+  brown_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 159
+    display: Dark Cobblestone Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:brown_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:brown_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:brown_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:brown_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: cobblestone
+  pink_stained_glass_pane_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 160
+    display: Dark Cobblestone Pillar Side
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:pink_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:pink_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:pink_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:pink_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: cobblestone
+  pink_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 254
+    display: Dark Cobblestone Pillar Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:pink_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:pink_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:pink_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:pink_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: cobblestone
+  red_mushroom_block_cobblestone_mossy:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 127
+    display: Mossy Cobblestone
+    type: BLOCK
+    blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=false,up=true,west=true]
+    collection:
+      indirect: cobblestone
+  weathered_stone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 128
+    display: Weathered Stone Lower Corner
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=true]
+    blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
+    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]
+    blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]
+    collection:
+      indirect: cobblestone
+  weathered_stone_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 129
+    display: Wheatered Stone Upper Corner
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=false]
+    blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]
+    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=false]
+    blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=false]
+    collection:
+      indirect: cobblestone
+  nether_bricks:
+    itemMaterial: NETHER_BRICKS
+    damage: 0
+    display: Cracked Large Light Stone Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      E1: red_mushroom_block_mossy_dark_bricks
+      E2: red_mushroom_block_mossy_heavy_dark_bricks
+      D2: RedstoneComparator3
+      C2: brick_slab
+      B2: EndPortal2
+      A1: brick_stairs
+      A0: bricks
+      F1: nether_bricks_stairs
+      G2: EndPortal3
+      H2: nether_bricks_slab
+      I2: RedstoneComparator4
+      J2: red_mushroom_block_mix_bricks
+      J1: red_mushroom_block_mix_sandstone
+      A4: brick_wall_pillar
+      B4: brick_wall_side
+      C4: brick_wall_diagonal
+      D4: brick_wall_middle
+      E4: brick_middle_big
+      F4: nether_brick_wall_pillar
+      G4: nether_brick_wall_side
+      H4: nether_brick_wall_diagonal
+      I4: nether_brick_wall_middle
+      J4: nether_brick_middle_big
+  EndPortal3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 98
+    display: Cracked Large Light Stone Bricks 3/4
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=east]
+    collection:
+      indirect: nether_bricks
+  nether_bricks_stairs:
+    itemMaterial: NETHER_BRICK_STAIRS
+    damage: 0
+    display: Cracked Large Light Stone Bricks stairs
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
+  nether_bricks_slab:
+    itemMaterial: NETHER_BRICK_SLAB
+    damage: 0
+    display: Cracked Large Light Stone Bricks slab
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
+  RedstoneComparator4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 67
+    display: Cracked Large Light Stone Bricks 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=subtract,powered=false]
+    collection:
+      indirect: nether_bricks
+  nether_brick_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 256
+    display: Small Small Brick Pillar
+    type: BLOCK
+    blockData: minecraft:nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: nether_bricks
+  nether_brick_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 257
+    display: Vertical Small Small Brick Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:nether_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  nether_brick_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 258
+    display: Vertical Small Small Brick Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:nether_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:nether_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:nether_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  nether_brick_wall_middle:
+    itemMaterial: NETHER_BRICK_WALL
+    damage: 0
+    display: Small Small Brick Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  nether_brick_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 259
+    display: Fancy Small Small Bricks Pillar
+    type: BLOCK
+    blockData: nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  bricks:
+    itemMaterial: BRICKS
+    damage: 0
+    display: Large Dark Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
+  EndPortal2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 97
+    display: Large Dark Bricks 3/4
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=north]
+    collection:
+      indirect: nether_bricks
+  brick_stairs:
+    itemMaterial: BRICK_STAIRS
+    damage: 0
+    display: Large Dark Bricks Stairs
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
+  brick_slab:
+    itemMaterial: BRICK_SLAB
+    damage: 0
+    display: Large Dark Bricks Slab
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
+  RedstoneComparator3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 66
+    display: Large Dark Brick 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=compare,powered=false]
+    collection:
+      indirect: nether_bricks
+  brick_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 260
+    display: Small Small Brick Pillar
+    type: BLOCK
+    blockData: minecraft:brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: nether_bricks
+  brick_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 261
+    display: Vertical Small Small Brick Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  brick_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 262
+    display: Vertical Small Small Brick Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  brick_wall_middle:
+    itemMaterial: BRICK_WALL
+    damage: 0
+    display: Small Small Brick Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  brick_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 263
+    display: Fancy Small Small Bricks Pillar
+    type: BLOCK
+    blockData: brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  red_mushroom_block_mix_sandstone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 130
+    display: Mixed Sandstone
+    category: Block
+    type: BLOCK
+    blockData: red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
+    collection:
+      indirect: nether_bricks
+  red_mushroom_block_mix_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 131
+    display: Mixed Bricks
+    type: BLOCK
+    blockData: red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
+    collection:
+      indirect: nether_bricks
+  red_mushroom_block_mossy_heavy_dark_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 132
+    display: Heavy Mossy Dark Bricks
+    type: BLOCK
+    blockData: red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=true]
+    collection:
+      indirect: nether_bricks
+  red_mushroom_block_mossy_dark_bricks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 133
+    display: Mossy Dark Bricks
+    type: BLOCK
+    blockData: red_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=true]
+    collection:
+      indirect: nether_bricks

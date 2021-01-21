@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 5,
-    "description": "MCME Dwarven 1.2"
+    "pack_format": 6,
+    "description": "MCME Dwarven 1.4 maski&duke edition"
   },
   "meta": {
-    "game_version": "1.15"
+    "game_version": "1.16.3"
   }
 }

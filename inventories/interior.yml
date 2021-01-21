@@ -97,6 +97,8 @@ Items:
       B4: Cactus10
       C4: spruce_trapdoor
       D4: Coat_hook
+      F4: lever_ground
+      G4: lever_wall
   Carrots0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 11
@@ -213,7 +215,7 @@ Items:
     damage: 199
     display: Fireplace Grate / Shelf
     type: BLOCK
-    blockData: minecraft:spruce_trapdoor[facing=north,half=top,open=false,power=false,waterlogged=false]
+    blockData: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: Crops5
   Coat_hook:
@@ -226,6 +228,24 @@ Items:
     blockDataWest: minecraft:tripwire_hook[attached=false,facing=west,powered=false]
     blockDataNorth: minecraft:tripwire_hook[attached=false,facing=north,powered=false]
     blockDataEast: minecraft:tripwire_hook[attached=false,facing=east,powered=false]
+    collection:
+      indirect: Crops5
+  lever_ground:
+    itemMaterial: LEVER
+    damage: 0
+    display: Ground hook/handle
+    type: VANILLA
+    collection:
+      indirect: Crops5
+  lever_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 276
+    display: Wall Torch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:lever[face=wall,facing=north,powered=false]
+    blockDataWest: minecraft:lever[face=wall,facing=east,powered=false]
+    blockDataNorth: minecraft:lever[face=wall,facing=south,powered=false]
+    blockDataEast: minecraft:lever[face=wall,facing=west,powered=false]
     collection:
       indirect: Crops5
   Crops3:
@@ -565,6 +585,7 @@ Items:
   bed_magenta:
     itemMaterial: MAGENTA_BED
     damage: 2
+    category: Inter
     display: Wooden Bench 1
     type: VANILLA
     collection:

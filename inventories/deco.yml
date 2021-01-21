@@ -112,10 +112,10 @@ Items:
     display: Statue down
     category: Deco
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:farmland[moisture=2]
-    blockDataWest: minecraft:farmland[moisture=3]
-    blockDataNorth: minecraft:farmland[moisture=0]
-    blockDataEast: minecraft:farmland[moisture=1]
+    blockDataSouth: minecraft:farmland[moisture=0]
+    blockDataWest: minecraft:farmland[moisture=1]
+    blockDataNorth: minecraft:farmland[moisture=2]
+    blockDataEast: minecraft:farmland[moisture=3]
     collection:
       indirect: End_stone_bricks
   farmland1:
@@ -123,10 +123,10 @@ Items:
     damage: 214
     display: Statue up
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:farmland[moisture=6]
-    blockDataWest: minecraft:farmland[moisture=7]
-    blockDataNorth: minecraft:farmland[moisture=4]
-    blockDataEast: minecraft:farmland[moisture=5]
+    blockDataSouth: minecraft:farmland[moisture=4]
+    blockDataWest: minecraft:farmland[moisture=5]
+    blockDataNorth: minecraft:farmland[moisture=6]
+    blockDataEast: minecraft:farmland[moisture=7]
     collection:
       indirect: End_stone_bricks
   glazed_terracotta_orange:
@@ -190,7 +190,7 @@ Items:
     collection:
       indirect: glazed_terracotta_orange
   glazed_terracotta_gray:
-    itemMaterial: GREY_GLAZED_TERRACOTTA
+    itemMaterial: GRAY_GLAZED_TERRACOTTA
     damage: 0
     display: Black Stone Corner Pattern
     category: Deco
@@ -283,13 +283,13 @@ Items:
     blockDataWest: minecraft:lime_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
     collection:
       D2: stained_glass_pane_yellow
-      C2: stained_glass_pane_grey1
-      B2: stained_glass_pane_grey
+      C2: stained_glass_pane_gray1
+      B2: stained_glass_pane_gray
       A1: stained_glass_pane_lime
       A0: stained_glass_pane_cyan
       F1: stained_glass_pane_cyan1
-      G2: stained_glass_pane_light_grey
-      H2: stained_glass_pane_light_grey1
+      G2: stained_glass_pane_light_gray
+      H2: stained_glass_pane_light_gray1
       I2: stained_glass_pane_pink
   stained_glass_pane_cyan:
     itemMaterial: DIAMOND_LEGGINGS
@@ -313,51 +313,51 @@ Items:
     blockDataWest: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: stained_glass_pane_lime
-  stained_glass_pane_light_grey:
+  stained_glass_pane_light_gray:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 218
     display: White wide deco
     category: Deco
     type: FOUR_DIRECTIONS
-    blockDataEast: minecraft:light_grey_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
-    blockDataNorth: minecraft:light_grey_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
-    blockDataSouth: minecraft:light_grey_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:light_grey_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:light_gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataNorth: minecraft:light_gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:light_gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:light_gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
     collection:
       indirect: stained_glass_pane_lime
-  stained_glass_pane_light_grey1:
+  stained_glass_pane_light_gray1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 219
     display: White gray thin deco
     type: FOUR_DIRECTIONS
-    blockDataEast: minecraft:light_grey_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
-    blockDataNorth: minecraft:light_grey_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
-    blockDataSouth: minecraft:light_grey_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
-    blockDataWest: minecraft:light_grey_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    blockDataEast: minecraft:light_gray_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
+    blockDataNorth: minecraft:light_gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
+    blockDataSouth: minecraft:light_gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
+    blockDataWest: minecraft:light_gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: stained_glass_pane_lime
-  stained_glass_pane_grey:
+  stained_glass_pane_gray:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 220
     display: White deco side
     category: Deco
     type: FOUR_DIRECTIONS
-    blockDataEast: minecraft:grey_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
-    blockDataNorth: minecraft:grey_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
-    blockDataSouth: minecraft:grey_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:grey_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataNorth: minecraft:gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
     collection:
       indirect: stained_glass_pane_lime
-  stained_glass_pane_grey1:
+  stained_glass_pane_gray1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 221
     display: White gold gray deco
     category: Deco
     type: FOUR_DIRECTIONS
-    blockDataEast: minecraft:grey_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
-    blockDataNorth: minecraft:grey_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
-    blockDataSouth: minecraft:grey_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
-    blockDataWest: minecraft:grey_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    blockDataEast: minecraft:gray_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
+    blockDataNorth: minecraft:gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
+    blockDataSouth: minecraft:gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
+    blockDataWest: minecraft:gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_yellow:

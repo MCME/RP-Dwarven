@@ -6,33 +6,20 @@ Items:
     category: Workshop
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:anvil[facing=south]
-    blockDataWest: minecaft:anvil[facing=west]
+    blockDataWest: minecraft:anvil[facing=west]
     blockDataNorth: minecraft:anvil[facing=north]
-    blockDataEast: minecaft:anvil[facing=east]
+    blockDataEast: minecraft:anvil[facing=east]
     collection:
       C0: crafting_table
       A0: jack_o_lantern
       G2: blast_furnace
       I2: furnace
       J1: damaged_anvil
-      E0: chipped_anvil
       E1: anvil
       D2: pumpkin
       B2: smoker
       I4: cauldron_2
       J4: chorus_plant
-  chipped_anvil:
-    itemMaterial: CHIPPED_ANVIL
-    damage: 4
-    display: Woodworking Anvil
-    category: Workshop
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:chipped_anvil[facing=south]
-    blockDataWest: minecaft:chipped_anvil[facing=west]
-    blockDataNorth: minecraft:chipped_anvil[facing=north]
-    blockDataEast: minecaft:chipped_anvil[facing=east]
-    collection:
-      indirect: anvil
   pumpkin:
     itemMaterial: PUMPKIN
     damage: 0
@@ -57,7 +44,6 @@ Items:
     type: VANILLA
     collection:
       indirect: anvil
-  
   #inside collection
   damaged_anvil:
     itemMaterial: DAMAGED_ANVIL
@@ -91,8 +77,6 @@ Items:
     type: VANILLA
     collection:
       indirect: anvil
-
-
   # cauldron collection
   cauldron_2:
     itemMaterial: DIAMOND_LEGGINGS
@@ -117,7 +101,6 @@ Items:
     blockData: minecraft:cauldron[level=3]
     collection:
       indirect: cauldron2
-  
   #inside collection
   cauldron_0:
     itemMaterial: DIAMOND_LEGGINGS
@@ -135,8 +118,6 @@ Items:
     blockData: minecraft:cauldron[level=1]
     collection:
       indirect: cauldron2
-  
-
   # pipes collection
   blue_terracotta:
     itemMaterial: BLUE_TERRACOTTA
@@ -250,7 +231,6 @@ Items:
     blockData: minecraft:iron_trapdoor[waterlogged=false,powered=false,half=top,open=false,facing=north]
     collection:
       indirect: blue_terracotta
- 
   #inside collection
   birch_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
@@ -283,8 +263,6 @@ Items:
     blockData: minecraft:light_weighted_pressure_plate[power=2]
     collection:
       indirect: blue_terracotta
-
-
   # inter collection
   cactus_12:
     itemMaterial: DIAMOND_LEGGINGS
@@ -387,11 +365,10 @@ Items:
     blockDataWest: minecraft:dark_oak_button[powered=false,facing=west,face=wall]
     blockDataNorth: minecraft:dark_oak_button[powered=false,facing=north,face=wall]
     blockDataEast: minecraft:dark_oak_button[powered=false,facing=east,face=wall]
-    blockDataDown: minecraft:dark_oak_button[powered=false,facing=north,face=floor]
-    blockDataUp: minecraft:dark_oak_button[powered=false,facing=north,face=ceiling]
+    blockDataDown: minecraft:dark_oak_button[powered=false,facing=north,face=ceiling]
+    blockDataUp: minecraft:dark_oak_button[powered=false,facing=north,face=floor]
     collection:
       indirect: cactus_12
-
   #inside collection
   beetroot_1:
     itemMaterial: DIAMOND_LEGGINGS
@@ -405,8 +382,6 @@ Items:
     blockDataEast: minecraft:beetroots[age=0]
     collection:
       indirect: cactus_12
-
-
   # storage collection
   cactus_2:
     itemMaterial: DIAMOND_LEGGINGS
@@ -450,7 +425,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 89
     display: Empty Basket [94:0]
-    category: Interior
+    category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
     collection:
@@ -483,7 +458,6 @@ Items:
     blockDataY: minecraft:brown_mushroom_block[north=true,east=true,south=false,west=false,up=true,down=false]
     collection:
       indirect: cactus_2
-    
   #inside collections
   white_shulker_box:
     itemMaterial: WHITE_SHULKER_BOX
@@ -499,8 +473,6 @@ Items:
     type: VANILLA
     collection:
       indirect: cactus_2
-  
-  
   # storage collection 2
   orange_shulker_box:
     itemMaterial: ORANGE_SHULKER_BOX
@@ -591,7 +563,6 @@ Items:
     blockData: minecraft:repeater[powered=false,facing=south,delay=4,locked=false]
     collection:
       indirect: orange_shulker_box
-
   #inisde collection
   magenta_shulker_box:
     itemMaterial: MAGENTA_SHULKER_BOX
@@ -766,6 +737,3 @@ Items:
     type: VANILLA
     collection:
       indirect: orange_shulker_box
-  
-
-  

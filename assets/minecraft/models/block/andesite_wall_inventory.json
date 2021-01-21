@@ -1,7 +1,7 @@
 {
   "parent": "block/ballustrade",
   "textures": {
-    "side": "block/andesite"
+    "side": "block/cyan_terracotta"
   },
   "display": {
     "gui": {

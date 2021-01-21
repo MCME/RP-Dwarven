@@ -1,94 +1,4 @@
 Items:
-  # dark stone collection
-  netherrack:
-    itemMaterial: NETHERRACK
-    damage: 0
-    display: Ashes 1
-    category: Terra
-    type: VANILLA
-    collection:
-      A1: netherrack
-      F1: lime_terracotta
-      G2: polished_diorite
-      H2: polished_diorite_stairs
-      I2: polished_diorite_slab
-      J1: sand
-      E1: gravel
-      D2: coarse_dirt
-      C2: bedrock
-      B2: obsidian
-      H4: lime_concrete
-      I4: stone
-      J4: andesite
-  lime_terracotta:
-    itemMaterial: LIME_TERRACOTTA
-    damage: 5
-    display: Ashes 2
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: netherrack
-  obsidian:
-    itemMaterial: OBSIDIAN
-    damage: 0
-    display: Dark Stone [49:0]
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: netherrack
-  sand:
-    itemMaterial: SAND
-    damage: 0
-    display: Rough Dark Grey Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: netherrack
-  polished_diorite:
-    itemMaterial: POLISHED_DIORITE
-    damage: 4
-    display: Smooth Dark Grey Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: netherrack
-
-  #inside collection
-  bedrock:
-    itemMaterial: BEDROCK
-    damage: 0
-    display: Bedrock [7:0]
-    type: VANILLA
-    collection:
-      indirect: netherrack
-  coarse_dirt:
-    itemMaterial: COARSE_DIRT
-    damage: 1
-    display: Rough Green Stone
-    type: VANILLA
-    collection:
-      indirect: netherrack
-  polished_diorite_stairs:
-    itemMaterial: POLISHED_DIORITE_STAIRS
-    damage: 0
-    display: Smooth Dark Grey Stone Stairs
-    type: VANILLA
-    collection:
-      indirect: netherrack
-  polished_diorite_slab:
-    itemMaterial: POLISHED_DIORITE_SLAB
-    damage: 0
-    display: Smooth Dark Grey Stone Slab
-    type: VANILLA
-    collection:
-      indirect: netherrack
-  gravel:
-    itemMaterial: GRAVEL
-    damage: 0
-    display: Rough Grey Stone
-    type: VANILLA
-    collection:
-      indirect: netherrack
 
   # normal stone collection
   stone:
@@ -131,7 +41,7 @@ Items:
   gray_concrete:
     itemMaterial: GRAY_CONCRETE
     damage: 7
-    display: Light Grey Stone
+    display: Light gray Stone
     category: Terra
     type: VANILLA
     collection:
@@ -155,7 +65,7 @@ Items:
   cyan_terracotta:
     itemMaterial: CYAN_TERRACOTTA
     damage: 9
-    display: Grey Stone
+    display: gray Stone
     category: Terra
     type: VANILLA
     collection:
@@ -165,7 +75,7 @@ Items:
   brown_concrete:
     itemMaterial: BROWN_CONCRETE
     damage: 12
-    display: Smooth Grey Stone
+    display: Smooth gray Stone
     type: VANILLA
     collection:
       indirect: stone
@@ -240,7 +150,7 @@ Items:
   fancy_thin_stone_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 163
-    display: Fancy Thin Stone Pillar
+    display: Fancy Stone Pillar
     type: BLOCK
     blockData: minecraft:mossy_cobblestone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -248,7 +158,7 @@ Items:
   thin_stone_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 164
-    display: Thin Stone Pillar
+    display: Stone Pillar
     type: BLOCK
     blockData: minecraft:mossy_cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
@@ -272,6 +182,98 @@ Items:
     blockDataWest: minecraft:iron_door[facing=west,half:upper,hinge:left,open=false,powered=true]
     collection:
       indirect: stone
+
+
+  # dark stone collection
+  netherrack:
+    itemMaterial: NETHERRACK
+    damage: 0
+    display: Ashes 1
+    category: Terra
+    type: VANILLA
+    collection:
+      A1: netherrack
+      F1: lime_terracotta
+      G2: polished_diorite
+      H2: polished_diorite_stairs
+      I2: polished_diorite_slab
+      J1: sand
+      E1: gravel
+      D2: coarse_dirt
+      C2: bedrock
+      B2: obsidian
+      H4: lime_concrete
+      I4: stone
+      J4: andesite
+  lime_terracotta:
+    itemMaterial: LIME_TERRACOTTA
+    damage: 5
+    display: Ashes 2
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: netherrack
+  obsidian:
+    itemMaterial: OBSIDIAN
+    damage: 0
+    display: Dark Stone [49:0]
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: netherrack
+  sand:
+    itemMaterial: SAND
+    damage: 0
+    display: Rough Dark gray Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: netherrack
+  polished_diorite:
+    itemMaterial: POLISHED_DIORITE
+    damage: 4
+    display: Smooth Dark gray Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: netherrack
+
+  #inside collection
+  bedrock:
+    itemMaterial: BEDROCK
+    damage: 0
+    display: Bedrock [7:0]
+    type: VANILLA
+    collection:
+      indirect: netherrack
+  coarse_dirt:
+    itemMaterial: COARSE_DIRT
+    damage: 1
+    display: Rough Green Stone
+    type: VANILLA
+    collection:
+      indirect: netherrack
+  polished_diorite_stairs:
+    itemMaterial: POLISHED_DIORITE_STAIRS
+    damage: 0
+    display: Smooth Dark gray Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: netherrack
+  polished_diorite_slab:
+    itemMaterial: POLISHED_DIORITE_SLAB
+    damage: 0
+    display: Smooth Dark gray Stone Slab
+    type: VANILLA
+    collection:
+      indirect: netherrack
+  gravel:
+    itemMaterial: GRAVEL
+    damage: 0
+    display: Rough gray Stone
+    type: VANILLA
+    collection:
+      indirect: netherrack
 
 
   # brown stone collection
@@ -423,7 +425,7 @@ Items:
   fancy_thin_granite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 169
-    display: Fancy Thin Rough Brown Stone Pillar
+    display: Fancy Rough Brown Stone Pillar
     type: BLOCK
     blockData: minecraft:granite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -431,7 +433,7 @@ Items:
   thin_granite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 170
-    display: Thin Rough Brown Stone Pillar
+    display: Rough Brown Stone Pillar
     type: BLOCK
     blockData: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
@@ -495,7 +497,7 @@ Items:
   yellow_terracotta:
     itemMaterial: yellow_terracotta
     damage: 4
-    display: Rough Light Grey Stone
+    display: Rough Light gray Stone
     category: Terra
     type: VANILLA
     collection:
@@ -566,7 +568,7 @@ Items:
   fancy_thin_andesite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 173
-    display: Fancy Thin White Stone Pillar
+    display: Fancy White Stone Pillar
     type: BLOCK
     blockData: minecraft:andesite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -574,7 +576,7 @@ Items:
   thin_andesite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 174
-    display: Thin White Stone Pillar
+    display: White Stone Pillar
     type: BLOCK
     blockData: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
@@ -615,7 +617,7 @@ Items:
   fancy_thin_diorite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 173
-    display: Fancy Thin Smooth White Stone Pillar
+    display: Fancy Smooth White Stone Pillar
     type: BLOCK
     blockData: minecraft:diorite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -623,14 +625,97 @@ Items:
   thin_diorite_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 174
-    display: Thin Smooth White Stone Pillar
+    display: Smooth White Stone Pillar
     type: BLOCK
     blockData: minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: diorite
+  campfire_light_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 117
+    display: Light boulders
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:campfire[facing=south,lit=false,signal_fire=false,waterlogged=false]
+    collection:
+      A1: campfire_light_boulders
+      B2: campfire_dark_boulders
+      C2: campfire_cobblestone_boulders
+      D2: campfire_sandstone_boulders
+      F1: noteblock_light_big_boulders
+      G2: noteblock_dark_big_boulders
+      H2: noteblock_mixed_big_boulders
+      I2: noteblock_mossy_big_boulders
+      E1: campfire_ore_boulders
+  campfire_dark_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 118
+    display: Dark boulders
+    type: BLOCK
+    blockData: minecraft:campfire[facing=east,lit=false,signal_fire=false,waterlogged=false]
+    collection:
+      indirect: campfire_light_boulders
+  campfire_cobblestone_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 119
+    display: Loose Cobblestone
+    type: BLOCK
+    blockData: minecraft:campfire[facing=west,lit=false,signal_fire=false,waterlogged=false]
+    collection:
+      indirect: campfire_light_boulders
+  campfire_sandstone_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 120
+    display: Sandstone boulders
+    type: BLOCK
+    blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
+    collection:
+      indirect: campfire_light_boulders
+  campfire_ore_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 275
+    display: Ore boulders
+    type: BLOCK
+    blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
+    collection:
+      indirect: campfire_light_boulders
+  noteblock_light_big_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 121
+    display: Light large boulders
+    category: Terra
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=0,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=1,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=2,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=3,powered=false]
+    collection:
+      indirect: campfire_light_boulders
+  noteblock_dark_big_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 122
+    display: Dark large boulders
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=4,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=5,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=6,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=7,powered=false]
+    collection:
+      indirect: campfire_light_boulders
+  noteblock_mixed_big_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 123
+    display: Crystal large boulders
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=8,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=9,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=10,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=11,powered=false]
+    collection:
+      indirect: campfire_light_boulders
+
   
-  
-  # crystal collection
+  # marble collection
   black_stained_glass:
     itemMaterial: BLACK_STAINED_GLASS
     damage: 15
@@ -662,7 +747,7 @@ Items:
   orange_terracotta:
     itemMaterial: ORANGE_TERRACOTTA
     damage: 1
-    display: Yellow Crystal Block
+    display: Yellow Marble Block
     category: Terra
     type: VANILLA
     collection:
@@ -670,7 +755,7 @@ Items:
   purple_concrete:
     itemMaterial: PURPLE_CONCRETE
     damage: 10
-    display: Green Crystal Block
+    display: Green Marble Block
     category: Terra
     type: VANILLA
     collection:
@@ -678,7 +763,7 @@ Items:
   magenta_concrete:
     itemMaterial: MAGENTA_CONCRETE
     damage: 2
-    display: Orange Crystal Block
+    display: Orange Marble Block
     category: Terra
     type: VANILLA
     collection:
@@ -686,7 +771,7 @@ Items:
   green_concrete:
     itemMaterial: GREEN_CONCRETE
     damage: 13
-    display: Mixed Blue Crystal Block
+    display: Mixed Blue Marble Block
     category: Terra
     type: VANILLA
     collection:
@@ -694,7 +779,7 @@ Items:
   white_terracotta:
     itemMaterial: WHITE_TERRACOTTA
     damage: 0
-    display: Aqua Crystal Block
+    display: Aqua Marble Block
     category: Terra
     type: VANILLA
     collection:
@@ -702,7 +787,7 @@ Items:
   light_blue_terracotta:
     itemMaterial: LIGHT_BLUE_TERRACOTTA
     damage: 3
-    display: Pink Crystal Block
+    display: Pink Marble Block
     category: Terra
     type: VANILLA
     collection:
@@ -767,35 +852,35 @@ Items:
   red_concrete: 
     itemMaterial: RED_CONCRETE
     damage: 14
-    display: Dark Blue Crystal Block
+    display: Dark Blue Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   light_gray_concrete:
     itemMaterial: LIGHT_GRAY_CONCRETE
     damage: 8
-    display: Purple Crystal Block
+    display: Purple Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   yellow_concrete:
     itemMaterial: YELLOW_CONCRETE
     damage: 4
-    display: Smooth Blue Crystal Block
+    display: Smooth Blue Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   black_concrete:
     itemMaterial: BLACK_CONCRETE
     damage: 15
-    display: Rough White Crystal Block
+    display: Rough White Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   magenta_terracotta:
     itemMaterial: MAGENTA_TERRACOTTA
     damage: 2
-    display: Light Pink Crystal Block
+    display: Light Pink Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
@@ -988,7 +1073,7 @@ Items:
       indirect: water_7
   water_2:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
+    damage: 264
     display: Water Level 3
     type: BLOCK
     blockData: minecraft:water[level=5]  
@@ -996,7 +1081,7 @@ Items:
       indirect: water_7
   water_3:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
+    damage: 265
     display: Water Level 4
     type: BLOCK
     blockData: minecraft:water[level=4]  
@@ -1004,7 +1089,7 @@ Items:
       indirect: water_7
   water_4:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
+    damage: 266
     display: Water Level 5
     type: BLOCK
     blockData: minecraft:water[level=3]  
@@ -1012,7 +1097,7 @@ Items:
       indirect: water_7
   water_5:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
+    damage: 267
     display: Water Level 6
     type: BLOCK
     blockData: minecraft:water[level=2] 
@@ -1020,7 +1105,7 @@ Items:
       indirect: water_7
   water_6:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
+    damage: 268
     display: Water Level 7
     type: BLOCK
     blockData: minecraft:water[level=1] 
@@ -1073,7 +1158,7 @@ Items:
       indirect: lava_7
   lava_1:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 189
+    damage: 269
     display: Lava Level 2
     type: BLOCK
     blockData: minecraft:lava[level=6]
@@ -1081,7 +1166,7 @@ Items:
       indirect: lava_7
   lava_2:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 189
+    damage: 270
     display: Lava Level 3
     type: BLOCK
     blockData: minecraft:lava[level=5]
@@ -1089,7 +1174,7 @@ Items:
       indirect: lava_7
   lava_3:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 189
+    damage: 271
     display: Lava Level 4
     type: BLOCK
     blockData: minecraft:lava[level=4]
@@ -1097,7 +1182,7 @@ Items:
       indirect: lava_7
   lava_4:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 189
+    damage: 272
     display: Lava Level 5
     type: BLOCK
     blockData: minecraft:lava[level=3]
@@ -1105,7 +1190,7 @@ Items:
       indirect: lava_7
   lava_5:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 189
+    damage: 273
     display: Lava Level 6
     type: BLOCK
     blockData: minecraft:lava[level=2]
@@ -1113,7 +1198,7 @@ Items:
       indirect: lava_7
   lava_6:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 189
+    damage: 274
     display: Lava Level 7
     type: BLOCK
     blockData: minecraft:lava[level=1]

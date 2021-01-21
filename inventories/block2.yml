@@ -1,0 +1,797 @@
+Items:
+  purpur_block:
+    itemMaterial: PURPUR_BLOCK
+    damage: 0
+    display: Smooth Black Stone
+    category: Block2
+    type: VANILLA
+    collection:
+      A0: RedstoneComparator9
+      F1: purpur_slab
+      G2: EndPortal7
+      H2: purpur_stairs
+      I2: purpur_block
+      J1: end_stone
+      E0: quartz_pillar
+      E1: cyan_stained_glass_pane
+      D2: quartz_pillar
+      C2: chiseled_quartz_block
+      F4: quartz_block
+      G4: quartz_stairs
+      H4: quartz_slab
+      I4: yellow_stained_glass_pane
+      J4: yellow_stained_glass_pane_side
+      J3: yellow_stained_glass_pane_diagonal
+  purpur_stairs:
+    itemMaterial: PURPUR_STAIRS
+    damage: 0
+    display: Black Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  purpur_slab:
+    itemMaterial: PURPUR_SLAB
+    damage: 0
+    display: Black Stone Slab
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  RedstoneComparator9:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 72
+    display: Black Stone 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
+    collection:
+      indirect: purpur_block
+  EndPortal7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 102
+    display: Black Stone 3/4 Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=east]
+    collection:
+      indirect: purpur_block
+  cyan_stained_glass_pane:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 232
+    display: Black Stone thin pillar
+    type: BLOCK
+    blockData: minecraft:cyan_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: purpur_block
+  end_stone:
+    itemMaterial: END_STONE
+    damage: 0
+    display: Black Stone Cross
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  quartz_pillar:
+    itemMaterial: QUARTZ_PILLAR
+    damage: 0
+    display: Mixed Dark Stone Pillar
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  chiseled_quartz_block:
+    itemMaterial: CHISELED_QUARTZ_BLOCK
+    damage: 0
+    display: Engraved Mixed Dark Stone
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  quartz_stairs:
+    itemMaterial: QUARTZ_STAIRS
+    damage: 0
+    display: Mixed Black Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  quartz_block:
+    itemMaterial: QUARTZ_BLOCK
+    damage: 0
+    display: Mixed Black Stone
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  yellow_stained_glass_pane:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 233
+    display: Mixed dark Stone column
+    type: BLOCK
+    blockData: minecraft:yellow_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: purpur_block
+  yellow_stained_glass_pane_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 234
+    display: Mixed Dark Stone Thin Side
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:yellow_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:yellow_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:yellow_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:yellow_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: purpur_block
+  yellow_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 235
+    display: Mixed Dark Stone Thin Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:yellow_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:yellow_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:yellow_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:yellow_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: purpur_block
+  quartz_slab:
+    itemMaterial: QUARTZ_SLAB
+    damage: 0
+    display: Mixed Black Stone Slab
+    type: VANILLA
+    collection:
+      indirect: purpur_block
+  iron_block:
+    itemMaterial: IRON_BLOCK
+    damage: 0
+    display: Iron Block
+    category: Block2
+    type: VANILLA
+    collection:
+      A1: green_concrete_powder
+      A0: light_blue_concrete_powder
+      F1: blue_concrete_powder
+      G2: brown_concrete_powder
+      H2: gold_block
+      I2: light_weighted_pressure_plate
+      J1: iron_block
+      E0: heavy_weighted_pressure_plate
+      E1: acacia_block
+      D2: lapiz_block
+      C2: lime_concrete_powder
+      B2: red_concrete_powder
+      F3: gray_stained_glass_pane
+      F4: gray_stained_glass_pane_diagonal
+      G4: acacia_stairs
+      H4: acacia_slab
+      I4: RedstoneComparator3
+      J4: acacia_button
+  gold_block:
+    itemMaterial: GOLD_BLOCK
+    damage: 0
+    display: Gold Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  green_concrete_powder:
+    itemMaterial: GREEN_CONCRETE_POWDER
+    damage: 0
+    display: Orange Cobblestone
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  light_blue_concrete_powder:
+    itemMaterial: LIGHT_BLUE_CONCRETE_POWDER
+    damage: 0
+    display: Red & Green Pattern Block
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  lime_concrete_powder:
+    itemMaterial: LIME_CONCRETE_POWDER
+    damage: 0
+    display: Red Bricks
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  red_concrete_powder:
+    itemMaterial: RED_CONCRETE_POWDER
+    damage: 0
+    display: Red Cobblestone
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  lapiz_block:
+    itemMaterial: LAPIS_BLOCK
+    damage: 0
+    display: Color Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  blue_concrete_powder:
+    itemMaterial: BLUE_CONCRETE_POWDER
+    damage: 0
+    display: Yellow Bricks
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  brown_concrete_powder:
+    itemMaterial: BROWN_CONCRETE_POWDER
+    damage: 0
+    display: Yellow Cobblestone
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  heavy_weighted_pressure_plate:
+    itemMaterial: HEAVY_WEIGHTED_PRESSURE_PLATE
+    damage: 0
+    display: Iron Plate
+    type: BLOCK
+    blockData: minecraft:heavy_weighted_pressure_plate[power=1]
+    collection:
+      indirect: iron_block
+  light_weighted_pressure_plate:
+    itemMaterial: LIGHT_WEIGHTED_PRESSURE_PLATE
+    damage: 0
+    display: Gold Plate
+    typy: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=1]
+    collection:
+      indirect: iron_block
+  acacia_block:
+    itemMaterial: ACACIA_PLANKS
+    damage: 0
+    display: White Cobblestone
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  acacia_stairs:
+    itemMaterial: ACACIA_STAIRS
+    damage: 0
+    display: White Cobblestone Stairs
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  acacia_slab:
+    itemMaterial: ACACIA_SLAB
+    damage: 0
+    display: White Cobblestone Slab
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  acacia_button:
+    itemMaterial: ACACIA_BUTTON
+    damage: 0
+    display: White Cobblestone Button
+    type: VANILLA
+    collection:
+      indirect: iron_block
+  RedstoneComparator7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 70
+    display: White Cobblestone Slab 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=subtract,powered=false]
+    collection:
+      indirect: iron_block
+  gray_stained_glass_pane:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 236
+    display: White Cobblestone Pillar Thin
+    type: BLOCK
+    blockData: minecraft:gray_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: iron_block
+  gray_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 237
+    display: White Cobblestone Thin Wall
+    type: FOUR_DIRECTIONS
+    blockDataEast: minecraft:gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataNorth: minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataSouth: minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: iron_block
+  black_concrete_powder:
+    itemMaterial: BLACK_CONCRETE_POWDER
+    damage: 0
+    display: Light gray Pattern Block
+    category: Block2
+    type: VANILLA
+    collection:
+      D2: black_concrete_powder
+      C2: gray_concrete_powder
+      B2: pink_concrete_powder
+      A1: bone_block
+      A0: white_concrete_powder
+      F1: purple_concrete_powder
+      G2: light_gray_concrete_powder
+      H2: cyan_concrete_powder
+  gray_concrete_powder:
+    itemMaterial: GRAY_CONCRETE_POWDER
+    damage: 0
+    display: Horizontal Hexagon Pattern Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  pink_concrete_powder:
+    itemMaterial: PINK_CONCRETE_POWDER
+    damage: 0
+    display: Vertical Hexagon Pattern Block
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  white_concrete_powder:
+    itemMaterial: WHITE_CONCRETE_POWDER
+    damage: 0
+    display: Smooth gray Pattern Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  bone_block:
+    itemMaterial: BONE_BLOCK
+    damage: 0
+    display: Carved gray Pillar
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  purple_concrete_powder:
+    itemMaterial: PURPLE_CONCRETE_POWDER
+    damage: 0
+    display: gray Pattern Block 2
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  cyan_concrete_powder:
+    itemMaterial: CYAN_CONCRETE_POWDER
+    damage: 0
+    display: gray Diamond Pattern Block
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  light_gray_concrete_powder:
+    itemMaterial: LIGHT_GRAY_CONCRETE_POWDER
+    damage: 0
+    display: gray Pattern Block 1
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  nether_wart_block:
+    itemMaterial: NETHER_WART_BLOCK
+    damage: 0
+    display: Curved Stone 1
+    category: Block2
+    type: VANILLA
+    collection:
+      A1: spruce_planks
+      A0: spruce_stair
+      F1: spruce_slab
+      G2: smooth_stone_slab
+      H2: smooth_stone_slab_block
+      J2: daylight_detector
+      I1: honeycomb_block
+      E0: gray_terracotta
+      E1: red_nether_bricks
+      D2: nether_wart_block
+      C2: Observer_nwu
+      B2: Observer_sed
+      A4: spruce_button
+  red_nether_bricks:
+    itemMaterial: RED_NETHER_BRICKS
+    damage: 0
+    display: Curved Stone 2
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  smooth_stone_slab:
+    itemMaterial: SMOOTH_STONE_SLAB
+    damage: 0
+    display: Smooth Stone Slab
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  honeycomb_block:
+    itemMaterial: HONEYCOMB_BLOCK
+    damage: 0
+    display: Stone Runes
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  gray_terracotta:
+    itemMaterial: GRAY_TERRACOTTA
+    damage: 0
+    display: Sandstone Runes
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  spruce_slab:
+    itemMaterial: SPRUCE_SLAB
+    damage: 0
+    display: Roof Tiles Slab
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  spruce_stair:
+    itemMaterial: SPRUCE_STAIRS
+    damage: 0
+    display: Roof Tiles Stair
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  spruce_planks:
+    itemMaterial: SPRUCE_PLANKS
+    damage: 0
+    display: Roof Tiles
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  spruce_button:
+    itemMaterial: SPRUCE_BUTTON
+    damage: 0
+    display: Roof Tiles Button
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  smooth_stone_slab_block:
+    itemMaterial: SMOOTH_STONE
+    damage: 0
+    display: Smooth Stone
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:smooth_stone_slab[type=double,waterlogged=false]
+    collection:
+      indirect: nether_wart_block
+  daylight_detector:
+    itemMaterial: DAYLIGHT_DETECTOR
+    damage: 0
+    display: 1/3 Engraved Stone Slab
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  Observer_nwu:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 54
+    display: Column Type A
+    type: THREE_AXIS
+    blockDataZ: minecraft:observer[facing=north,powered=false]
+    blockDataX: minecraft:observer[facing=west,powered=false]
+    blockDataY: minecraft:observer[facing=up,powered=false]
+    collection:
+      indirect: nether_wart_block
+  Observer_sed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 55
+    display: Column Type B
+    type: THREE_AXIS
+    blockDataZ: minecraft:observer[facing=south,powered=false]
+    blockDataX: minecraft:observer[facing=east,powered=false]
+    blockDataY: minecraft:observer[facing=down,powered=false]
+    collection:
+      indirect: nether_wart_block
+  red_sandstone:
+    itemMaterial: RED_SANDSTONE
+    damage: 0
+    display: Green Stone
+    category: Block2
+    type: VANILLA
+    collection:
+      A1: chiseled_red_sandstone
+      A0: red_sandstone
+      F1: red_sandstone_stairs
+      G2: EndPortal6
+      H2: red_sandstone_slab
+      I2: RedstoneComparator8
+      J1: lime_stained_glass_pane
+      E0: pink_stained_glass_pane
+      B2: cut_red_sandstone
+      A4: red_sandstone_wall_pillar
+      B4: red_sandstone_wall_wall
+      D4: red_sandstone_wall_middle
+      C4: red_sandstone_wall_diagonal
+      E4: red_sandstone_wall_middle_big
+  EndPortal6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 101
+    display: Green Stone 3/4 Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=north]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_slab:
+    itemMaterial: RED_SANDSTONE_SLAB
+    damage: 0
+    display: Green Stone Slab
+    type: VANILLA
+    collection:
+      indirect: red_sandstone
+  RedstoneComparator8:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 71
+    display: Green Stone 1/4
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=compare,powered=true]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_stairs:
+    itemMaterial: RED_SANDSTONE_STAIRS
+    damage: 0
+    display: Green Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: red_sandstone
+  chiseled_red_sandstone:
+    itemMaterial: CHISELED_RED_SANDSTONE
+    damage: 0
+    display: Carved Green Stone
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: red_sandstone
+  cut_red_sandstone:
+    itemMaterial: CUT_RED_SANDSTONE
+    damage: 0
+    display: Green Stone Pillar
+    type: VANILLA
+    collection:
+      indirect: red_sandstone
+  pink_stained_glass_pane:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 238
+    display: Green Stone Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:pink_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:pink_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataNorth: minecraft:lime_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataEast: minecraft:lime_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 240
+    display: Green Stone Pillar
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:red_sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_wall_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 241
+    display: Vertical Green Stone Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:red_sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_sandstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 242
+    display: Vertical Green Stone Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:red_sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_sandstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_wall_middle:
+    itemMaterial: RED_SANDSTONE_WALL
+    damage: 0
+    display: Green Stone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:red_sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:red_sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_wall_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 239
+    display: Fancy Green Stone Pillar
+    type: BLOCK
+    blockData: red_sandstone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: red_sandstone
+  red_mushroom_block_mossy_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 243
+    display: Mossy Gray Pillar
+    category: Block2
+    type: THREE_AXIS
+    blockDataZ: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=false]
+    blockDataX: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=false]
+    blockDataY: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=true]
+    collection:
+      D2: cyan_stained_glass_diagonal
+      C2: light_blue_stained_glass_pane_side
+      B2: light_blue_stained_glass_pane_d
+      A1: light_blue_stained_glass_pane_pillar
+      A0: orange_stained_glass_pane_pillar
+      F1: orange_blue_stained_glass_pane_d
+      G2: orange_stained_glass_pane_side
+      H2: orange_stained_glass_pane_wall
+      I2: red_mushroom_block_cracked_pillar
+      J1: red_mushroom_block_gray_pillar
+      E0: red_mushroom_block_mossy_pillar
+  red_mushroom_block_cracked_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 244
+    display: Cracked Gray Pillar
+    category: Block2
+    type: THREE_AXIS
+    blockDataZ: minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=false]
+    blockDataX: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=false]
+    blockDataY: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  red_mushroom_block_gray_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 245
+    display: Gray Pillar
+    category: Block2
+    type: THREE_AXIS
+    blockDataZ: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=true]
+    blockDataX: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=true]
+    blockDataY: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  light_blue_stained_glass_pane_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 246
+    display: Gray Thin Side Pillar
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:light_blue_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:light_blue_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:light_blue_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:light_blue_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  light_blue_stained_glass_pane_d:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 247
+    display: Gray Thin Diagonal Pillar
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:light_blue_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:light_blue_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:light_blue_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:light_blue_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  light_blue_stained_glass_pane_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 248
+    display: Gray Thin Pillar
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:light_blue_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  cyan_stained_glass_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 249
+    display: Very Dark Gray Diagonal Pillar
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cyan_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:cyan_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  orange_stained_glass_pane_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 250
+    display: Dark Thin Side Pillar
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:orange_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:orange_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:orange_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:orange_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  orange_blue_stained_glass_pane_d:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 251
+    display: Gray Thin Diagonal Pillar
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:orange_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:orange_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:orange_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:orange_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  orange_stained_glass_pane_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 252
+    display: Dark Thin Wall Pillar
+    type: FOUR_DIRECTIONS
+    blockDataEast: minecraft:orange_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataNorth: minecraft:orange_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:orange_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataSouth: minecraft:orange_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  orange_stained_glass_pane_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 253
+    display: Dark Gray Thin Pillar
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:orange_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: red_mushroom_block_mossy_pillar
+  yellow_concrete_powder:
+   itemMaterial: YELLOW_CONCRETE_POWDER
+   damage: 0
+   display: Black Lattice Pattern Block
+   category: Block2
+   type: VANILLA
+   collection:
+     E0: yellow_concrete_powder
+     E1: mossy_cobblestone
+     D2: mossy_cobblestone_stairs
+     C2: mossy_cobblestone_slab
+     B2: prismarine_slab
+     A1: prismarine
+     A0: prismarine_bricks
+     F1: prismarine_brick_slab
+  mossy_cobblestone:
+    itemMaterial: MOSSY_COBBLESTONE
+    damage: 0
+    display: Mixed Dark Bricks
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  mossy_cobblestone_stairs:
+    itemMaterial: MOSSY_COBBLESTONE_STAIRS
+    damage: 0
+    display: Mixed Dark Bricks Stairs
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  mossy_cobblestone_slab:
+    itemMaterial: MOSSY_COBBLESTONE_SLAB
+    damage: 0
+    display: Mixed Dark Bricks Slab
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  prismarine_bricks:
+    itemMaterial: PRISMARINE_BRICKS
+    damage: 0
+    display: Mixed Black Bricks
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  prismarine_brick_slab:
+    itemMaterial: PRISMARINE_BRICK_SLAB
+    damage: 0
+    display: Mixed Black Bricks Slab
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  prismarine:
+    itemMaterial: PRISMARINE
+    damage: 0
+    display: Carved Dark Blue Bricks
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  prismarine_slab:
+    itemMaterial: PRISMARINE_SLAB
+    damage: 0
+    display: Carved Dark Blue Bricks Slab
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
