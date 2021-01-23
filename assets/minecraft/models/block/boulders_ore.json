@@ -1,0 +1,10 @@
+{
+  "parent": "block/boulders",
+  "textures": {
+    "stone": "block/stone",
+    "stone_1": "block/iron_ore",
+    "stone_2": "block/stone",
+    "stone_3": "block/iron_ore",
+    "base": "block/stone"
+  }
+}

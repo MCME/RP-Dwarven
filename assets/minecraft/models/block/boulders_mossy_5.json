@@ -1,0 +1,12 @@
+{
+  "parent": "block/boulders_5",
+  "textures": {
+    "stone": "block/sandstone",
+    "stone_1": "block/sandstone",
+    "stone_2": "block/sandstone",
+    "stone_3": "block/sandstone",
+    "stone_4": "block/sandstone",
+    "stone_5": "block/sandstone",
+    "base": "block/sandstone"
+  }
+}
