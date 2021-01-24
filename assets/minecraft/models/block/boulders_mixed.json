@@ -1,0 +1,10 @@
+{
+  "parent": "block/boulders",
+  "textures": {
+    "stone": "block/mossy_stone_bricks1",
+    "stone_1": "block/cobblestone",
+    "stone_2": "block/cobblestone2",
+    "stone_3": "block/mossy_stone_bricks3",
+    "base": "block/cobblestone3"
+  }
+}
