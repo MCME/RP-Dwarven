@@ -1,8 +1,0 @@
-{
-  "parent": "block/anvil_mod",
-  "textures": {
-    "particle": "block/anvil_orc",
-    "body": "block/anvil_orc",
-    "top": "block/anvil_orc_top"
-  }
-}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/boulders_3",
+  "textures": {
+    "stone": "block/cyan_terracotta1",
+    "stone_1": "block/cyan_terracotta1",
+    "stone_2": "block/cyan_terracotta1",
+    "stone_3": "block/cyan_terracotta1",
+    "stone_4": "block/cyan_terracotta1",
+    "stone_5": "block/cyan_terracotta1",
+    "base": "block/cyan_terracotta1"
+  }
+}

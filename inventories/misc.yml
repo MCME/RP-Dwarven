@@ -1,0 +1,262 @@
+Items:
+  white_wool:
+    itemMaterial: WHITE_WOOL
+    damage: 0
+    display: White wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      A1: silver_wool
+      A0: white_wool
+      F1: pink_wool
+      G2: red_wool
+      H2: orange_wool
+      I2: yellow_wool
+      J1: green_wool
+      E0: blue_wool
+      E1: purple_wool
+      D2: brown_wool
+      C2: black_wool
+      B2: gray_wool
+      A4: lime_wool
+      B4: cyan_wool
+      C4: light_blue_wool
+      D4: magenta_wool
+      F2: carpet_black
+      G3: carpet_red
+  pink_wool:
+    itemMaterial: PINK_WOOL
+    damage: 6
+    display: Pink wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  red_wool:
+    itemMaterial: RED_WOOL
+    damage: 14
+    display: Red wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  orange_wool:
+    itemMaterial: ORANGE_WOOL
+    damage: 1
+    display: Orange wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  yellow_wool:
+    itemMaterial: YELLOW_WOOL
+    damage: 4
+    display: Yellow wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  lime_wool:
+    itemMaterial: LIME_WOOL
+    damage: 5
+    display: Lime wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  green_wool:
+    itemMaterial: GREEN_WOOL
+    damage: 13
+    display: Green wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  cyan_wool:
+    itemMaterial: CYAN_WOOL
+    damage: 9
+    display: Cyan wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  blue_wool:
+    itemMaterial: BLUE_WOOL
+    damage: 11
+    display: Blue wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  light_blue_wool:
+    itemMaterial: LIGHT_BLUE_WOOL
+    damage: 3
+    display: Light wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  magenta_wool:
+    itemMaterial: MAGENTA_WOOL
+    damage: 2
+    display: Magenta wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  purple_wool:
+    itemMaterial: PURPLE_WOOL
+    damage: 10
+    display: Purple wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  brown_wool:
+    itemMaterial: BROWN_WOOL
+    damage: 12
+    display: Brown wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  black_wool:
+    itemMaterial: BLACK_WOOL
+    damage: 15
+    display: Black wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  gray_wool:
+    itemMaterial: GRAY_WOOL
+    damage: 7
+    display: Dark gray wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  silver_wool:
+    itemMaterial: LIGHT_GRAY_WOOL
+    damage: 8
+    display: Light gray wool block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  carpet_black:
+    itemMaterial: BLACK_CARPET
+    damage: 15
+    display: Black Carpet
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  carpet_red:
+    itemMaterial: RED_CARPET
+    damage: 14
+    display: Red Carpet
+    type: VANILLA
+    collection:
+      indirect: white_wool
+  fireworks:
+    itemMaterial: TNT
+    damage: 1
+    display: Fireworks
+    category: Misc
+    type: VANILLA
+    collection:
+      C2: portal
+      B2: fire
+      A1: activator_rail_flat
+      A0: fireworks
+      F1: green_terracotta
+      G2: diamond_block
+      H2: glow_stone
+      I2: beacon
+      J1: dragon_egg
+      E0: sign
+  activator_rail_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 114
+    display: Footprints [157:0]
+    category: Misc
+    type: EIGHT_FACES
+    blockDataSouth: minecraft:activator_rail[powered=true,shape=north_south]
+    blockDataSouthWest: minecraft:activator_rail[powered=true,shape=ascending_west]
+    blockDataWest: minecraft:activator_rail[powered=true,shape=east_west]
+    blockDataNorthWest: minecraft:activator_rail[powered=false,shape=ascending_east]
+    blockDataNorth: minecraft:activator_rail[powered=false,shape=north_south]
+    blockDataNorthEast: minecraft:activator_rail[powered=false,shape=ascending_west]
+    blockDataEast: minecraft:activator_rail[powered=false,shape=east_west]
+    blockDataSouthEast: minecraft:activator_rail[powered=true,shape=ascending_east]
+    collection:
+      indirect: fireworks
+  fire:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 113
+    display: Fire
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:fire[age=0,east=false,north=false,south=false,up=false,west=false]
+    collection:
+      indirect: fireworks
+  portal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 112
+    display: Eye of Sauron
+    category: Misc
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:nether_portal[axis=x]
+    blockDataWest: minecraft:nether_portal[axis=z]
+    blockDataNorth: minecraft:nether_portal[axis=x]
+    blockDataEast: minecraft:nether_portal[axis=z]
+    collection:
+      indirect: fireworks
+  diamond_block:
+    itemMaterial: DIAMOND_BLOCK
+    damage: 1
+    display: Diamon block
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: fireworks
+  green_terracotta:
+    itemMaterial: GREEN_TERRACOTTA
+    damage: 0
+    display: Shiny block
+    category: Misc
+    type: VANILLA
+    collection:
+     indirect: fireworks
+  glow_stone:
+    itemMaterial: GLOWSTONE
+    damage: 1
+    display: Glowing stone
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: fireworks
+  beacon:
+    itemMaterial: BEACON
+    damage: 0
+    display: Glass lamp
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: fireworks
+  sign:
+    itemMaterial: OAK_SIGN
+    damage: 0
+    display: Sign
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: fireworks
+  dragon_egg:
+    itemMaterial: DRAGON_EGG
+    damage: 0
+    display: Palantir
+    category: Misc
+    type: VANILLA
+    collection:
+      indirect: fireworks
