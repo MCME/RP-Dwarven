@@ -336,6 +336,7 @@ Items:
   StickyPistonHead:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 111
+    display: Wooden Table
     type: SIX_FACES
     blockDataSouth: minecraft:piston_head[facing=south,short=false,type=sticky]
     blockDataWest: minecraft:piston_head[facing=west,short=false,type=sticky]
