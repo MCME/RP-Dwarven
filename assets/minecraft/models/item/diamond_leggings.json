@@ -1397,13 +1397,6 @@
       "name": 199,
       "model": "block/repeater_7"
     },
-	{
-      "predicate": {
-        "damage": 0.40323
-      },
-      "name": 200,
-      "model": "block/Crystal_lamp"
-    },
     {
       "predicate": {
         "damage": 0.40524
@@ -1956,13 +1949,6 @@
       },
       "name": 279,
       "model": "block/end_stone_brick_wall_nsew"
-    },
-    {
-      "predicate": {
-        "damage": 0.56452
-      },
-      "name": 280,
-      "model": "block/"
     }
   ]
 }
