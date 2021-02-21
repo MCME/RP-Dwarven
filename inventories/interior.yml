@@ -332,6 +332,17 @@ Items:
       A1: infested_stone
       A4: Drawers
       B4: Piston2
+      C4: StickyPistonHead
+  StickyPistonHead:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 111
+    type: SIX_FACES
+    blockDataSouth: minecraft:piston_head[facing=south,short=false,type=sticky]
+    blockDataWest: minecraft:piston_head[facing=west,short=false,type=sticky]
+    blockDataNorth: minecraft:piston_head[facing=north,short=false,type=sticky]
+    blockDataEast: minecraft:piston_head[facing=east,short=false,type=sticky]
+    blockDataDown: minecraft:piston_head[facing=down,short=false,type=sticky]
+    blockDataUp: minecraft:piston_head[facing=up,short=false,type=sticky]    
   infested_chiseled_stone_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 51
