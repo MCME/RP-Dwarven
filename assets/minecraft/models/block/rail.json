@@ -64,8 +64,8 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [85, 0, -20],
-			"translation": [2, 1, 0],
+			"rotation": [30, -45, 0],
+			"translation": [0, 3, 0],
 			"scale": [0.8, 0.8, 0.8]
 		}
 	}

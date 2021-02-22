@@ -1949,6 +1949,48 @@
       },
       "name": 279,
       "model": "block/end_stone_brick_wall_nsew"
+    },
+    {
+      "predicate": {
+        "damage": 0.56452
+      },
+      "name": 280,
+      "model": "block/mossy_stone_brick_wall"
+    },
+    {
+      "predicate": {
+        "damage": 0.56653
+      },
+      "name": 281,
+      "model": "block/mossy_stone_brick_wall_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.56855
+      },
+      "name": 282,
+      "model": "block/mossy_stone_brick_wall_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.57056
+      },
+      "name": 283,
+      "model": "block/mossy_stone_brick_wall_nsew"
+    },
+    {
+      "predicate": {
+        "damage": 0.57258
+      },
+      "name": 284,
+      "model": "block/birch_fence_gate_powered"
+	},
+	{
+      "predicate": {
+        "damage": 0.57460
+      },
+      "name": 285,
+      "model": "block/Crystal_lamp"
     }
   ]
 }

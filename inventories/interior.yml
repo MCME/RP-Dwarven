@@ -57,12 +57,11 @@ Items:
     collection:
       indirect: Cactus13
   Crystal_lamp:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 199
+    itemMaterial: REDSTONE_TORCH
+    damage: 0
     display: Crystal lamp
     category: Inter
-    type: BLOCK
-    blockData: minecraft:redstone_torch[lit:true]
+    type: VANILLA
     collection:
       indirect: Cactus13
   Torch:
@@ -453,7 +452,7 @@ Items:
     damage: 56
     display: Dust
     category: Inter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=0]
     collection:
       A0: light_blue_carpet
@@ -478,7 +477,7 @@ Items:
     damage: 59
     display: Coal dust
     category: Inter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=3]
     collection:
       indirect: RedstoneWire0
@@ -487,7 +486,7 @@ Items:
     damage: 60
     display: Dirt dust
     category: Inter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=4]
     collection:
       indirect: RedstoneWire0
