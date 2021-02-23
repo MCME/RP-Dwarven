@@ -1984,13 +1984,6 @@
       },
       "name": 284,
       "model": "block/birch_fence_gate_powered"
-	},
-	{
-      "predicate": {
-        "damage": 0.57460
-      },
-      "name": 285,
-      "model": "block/Crystal_lamp"
-    }
+	}
   ]
 }
