@@ -645,7 +645,7 @@ Items:
       F1: noteblock_light_big_boulders
       G2: noteblock_dark_big_boulders
       H2: noteblock_mixed_big_boulders
-      I2: noteblock_mossy_big_boulders
+      I2: noteblock_sandstone_big_boulders
       E1: campfire_ore_boulders
   campfire_dark_boulders:
     itemMaterial: DIAMOND_LEGGINGS
@@ -713,7 +713,17 @@ Items:
     blockDataEast: minecraft:note_block[instrument=basedrum,note=11,powered=false]
     collection:
       indirect: campfire_light_boulders
-
+  noteblock_sandstone_big_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 124
+    display: Sandstone Large Boulders
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=12,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=13,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=14,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=15,powered=false]
+    collection:
+      indirect: campfire_light_boulders
   
   # marble collection
   black_stained_glass:
