@@ -1,0 +1,7 @@
+{
+    "parent": "block/redstone_torch_model",
+    "textures": {
+      "redstone_torch_off": "block/lit_redstone_torch"
+    }
+  }
+  
