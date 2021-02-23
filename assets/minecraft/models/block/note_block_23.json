@@ -1,8 +1,8 @@
 {
   "parent": "block/boulders_big_4",
   "textures": {
-    "0": "block/cobweb",
-	"1": "block/cobweb",
-	"2": "block/cobweb"
+    "0": "block/sandstone_comp",
+	"1": "block/sandstone_comp",
+	"2": "block/sandstone_comp"
   }
 }

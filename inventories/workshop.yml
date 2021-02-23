@@ -14,7 +14,6 @@ Items:
       A0: jack_o_lantern
       G2: blast_furnace
       I2: furnace
-      J1: damaged_anvil
       E1: anvil
       D2: pumpkin
       B2: smoker
@@ -45,17 +44,6 @@ Items:
     collection:
       indirect: anvil
   #inside collection
-  damaged_anvil:
-    itemMaterial: DAMAGED_ANVIL
-    damage: 8
-    display: Rusted Anvil [145:8]
-    type: FOUR_DRECTIONS
-    blockDataSouth: minecraft:damaged_anvil[facing=south]
-    blockDataWest: minecaft:damaged_anvil[facing=west]
-    blockDataNorth: minecraft:damaged_anvil[facing=north]
-    blockDataEast: minecaft:damaged_anvil[facing=east]
-    collection:
-      indirect: anvil
   crafting_table:
     itemMaterial: CRAFTING_TABLE
     damage: 0
@@ -179,14 +167,6 @@ Items:
     blockData: minecraft:redstone_wire[power=6]
     collection:
       indirect: blue_terracotta
-  sponge:
-    itemMaterial: SPONGE
-    damage: 0
-    display: Rust Block [19:0]
-    category: Workshop
-    type: VANILLA
-    collection:
-      indirect: blue_terracotta
   light_weighted_pressure_plate_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 92
@@ -246,14 +226,6 @@ Items:
     display: Grate [6:8]
     type: BLOCK
     blockData: minecraft:oak_sapling[stage=1]
-    collection:
-      indirect: blue_terracotta
-  purple_stained_glass_pane_nsew:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 196
-    display: Rusty Pipe
-    type: BLOCK
-    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: blue_terracotta
   light_weighted_pressure_plate_2:

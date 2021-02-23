@@ -1,0 +1,6 @@
+{
+  "parent": "block/pedestal",
+  "textures": {
+    "side": "block/end_stone_bricks"
+  }
+}

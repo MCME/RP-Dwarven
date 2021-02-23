@@ -57,12 +57,11 @@ Items:
     collection:
       indirect: Cactus13
   Crystal_lamp:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 199
+    itemMaterial: REDSTONE_TORCH
+    damage: 0
     display: Crystal lamp
     category: Inter
-    type: BLOCK
-    blockData: minecraft:redstone_torch[lit:true]
+    type: VANILLA
     collection:
       indirect: Cactus13
   Torch:
@@ -332,6 +331,18 @@ Items:
       A1: infested_stone
       A4: Drawers
       B4: Piston2
+      C4: StickyPistonHead
+  StickyPistonHead:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 111
+    display: Wooden Table
+    type: SIX_FACES
+    blockDataSouth: minecraft:piston_head[facing=south,short=false,type=sticky]
+    blockDataWest: minecraft:piston_head[facing=west,short=false,type=sticky]
+    blockDataNorth: minecraft:piston_head[facing=north,short=false,type=sticky]
+    blockDataEast: minecraft:piston_head[facing=east,short=false,type=sticky]
+    blockDataDown: minecraft:piston_head[facing=down,short=false,type=sticky]
+    blockDataUp: minecraft:piston_head[facing=up,short=false,type=sticky]    
   infested_chiseled_stone_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 51
@@ -441,7 +452,7 @@ Items:
     damage: 56
     display: Dust
     category: Inter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=0]
     collection:
       A0: light_blue_carpet
@@ -466,7 +477,7 @@ Items:
     damage: 59
     display: Coal dust
     category: Inter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=3]
     collection:
       indirect: RedstoneWire0
@@ -475,7 +486,7 @@ Items:
     damage: 60
     display: Dirt dust
     category: Inter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=4]
     collection:
       indirect: RedstoneWire0

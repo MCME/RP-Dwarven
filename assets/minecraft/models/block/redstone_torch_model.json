@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "block/block",
 	"textures": {
     "2": "#redstone_torch_off",
     "particle": "block/unlit_redstone_torch"

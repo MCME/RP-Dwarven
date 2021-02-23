@@ -1,8 +1,8 @@
 Items:
-  End_stone_bricks:
-    itemMaterial: END_STONE_BRICKS
-    damage: 0
-    display: Dark Pattern Block
+  Clay:
+    itemMaterial: CLAY
+    damage: 1
+    display: Patchwork Cloth
     category: Deco
     type: VANILLA
     collection:
@@ -17,17 +17,8 @@ Items:
       E1: Snow_layer
       D2: Snow
       C2: Clay
-      B2: End_stone_bricks
       A4: farmland0
       B4: farmland1
-  Clay:
-    itemMaterial: CLAY
-    damage: 1
-    display: Patchwork Cloth
-    category: Deco
-    type: VANILLA
-    collection:
-      indirect: End_stone_bricks
   Snow:
     itemMaterial: SNOW_BLOCK
     damage: 0
@@ -35,14 +26,14 @@ Items:
     category: Deco
     type: VANILLA
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Snow_layer:
     itemMaterial: SNOW
     damage: 0
     display: Gold layer
     type: VANILLA
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Emerald_block:
     itemMaterial: EMERALD_BLOCK
     damage: 0
@@ -50,21 +41,21 @@ Items:
     category: Deco
     type: VANILLA
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Cobweb:
     itemMaterial: COBWEB
     damage: 0
-    display: Curse
+    display: Cobweb
     type: VANILLA
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Blue_stained_glass:
     itemMaterial: BLUE_STAINED_GLASS
     damage: 0
     display: Crystal Glass
     type: VANILLA
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Glass:
     itemMaterial: GLASS
     damage: 0
@@ -72,7 +63,7 @@ Items:
     category: Deco
     type: VANILLA
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Glass_pane:
     itemMaterial: GLASS_PANE
     damage: 0
@@ -80,7 +71,7 @@ Items:
     category: Deco
     type: VANILLA
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Stained_glass_pane_red:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 210
@@ -89,7 +80,7 @@ Items:
     type: BLOCK
     blockdata: minecraft:red_stained_glass_pane
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Stained_glass_pane_black:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 211
@@ -97,7 +88,7 @@ Items:
     type: BLOCK
     blockdata: minecraft:black_stained_glass_pane
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   Stained_glass_pane_green:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 212
@@ -105,7 +96,7 @@ Items:
     type: BLOCK
     blockdata: minecraft:green_stained_glass_pane
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   farmland0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 213
@@ -117,7 +108,7 @@ Items:
     blockDataNorth: minecraft:farmland[moisture=2]
     blockDataEast: minecraft:farmland[moisture=3]
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   farmland1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 214
@@ -128,7 +119,7 @@ Items:
     blockDataNorth: minecraft:farmland[moisture=6]
     blockDataEast: minecraft:farmland[moisture=7]
     collection:
-      indirect: End_stone_bricks
+      indirect: Clay
   glazed_terracotta_orange:
     itemMaterial: ORANGE_GLAZED_TERRACOTTA
     damage: 0

@@ -372,14 +372,17 @@ Items:
       F1: spruce_slab
       G2: smooth_stone_slab
       H2: smooth_stone_slab_block
-      J2: daylight_detector
-      I1: honeycomb_block
+      I2: daylight_detector
+      J1: honeycomb_block
       E0: gray_terracotta
       E1: red_nether_bricks
       D2: nether_wart_block
       C2: Observer_nwu
       B2: Observer_sed
       A4: spruce_button
+      F4: sponge
+      G4: wet_sponge
+      H4: purple_stained_glass_pane_nsew
   red_nether_bricks:
     itemMaterial: RED_NETHER_BRICKS
     damage: 0
@@ -472,6 +475,30 @@ Items:
     blockDataZ: minecraft:observer[facing=south,powered=false]
     blockDataX: minecraft:observer[facing=east,powered=false]
     blockDataY: minecraft:observer[facing=down,powered=false]
+    collection:
+      indirect: nether_wart_block
+  sponge:
+    itemMaterial: SPONGE
+    damage: 0
+    display: Gray Smooth Slab
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  wet_sponge:
+    itemMaterial: WET_SPONGE
+    damage: 0
+    display: Dark Gray Smooth Slab
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
+  purple_stained_glass_pane_nsew:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 196
+    display: Rusty Pipe
+    type: BLOCK
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: nether_wart_block
   red_sandstone:
@@ -743,6 +770,14 @@ Items:
      A1: prismarine
      A0: prismarine_bricks
      F1: prismarine_brick_slab
+     G2: end_stone_brick_slab
+     H2: end_stone_brick_stair
+     I2: end_stone_bricks
+     F4: end_stone_brick_wall_pillar
+     G4: end_stone_brick_wall_side
+     H4: end_stone_brick_wall_diagonal
+     I4: end_stone_brick_wall_middle
+     J4: end_stone_brick_middle_big
   mossy_cobblestone:
     itemMaterial: MOSSY_COBBLESTONE
     damage: 0
@@ -792,6 +827,78 @@ Items:
     itemMaterial: PRISMARINE_SLAB
     damage: 0
     display: Carved Dark Blue Bricks Slab
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_bricks:
+    itemMaterial: END_STONE_BRICKS
+    damage: 0
+    display: Rusty Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_brick_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 255
+    display: Rusty Pillar
+    type: BLOCK
+    blockData: minecraft:end_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_brick_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 277
+    display: Vertical Rusty Slab
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:end_stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:end_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:end_stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:end_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_brick_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 278
+    display: Vertical Rusty Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:end_stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:end_stone_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:end_stone_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:end_stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_brick_wall_middle:
+    itemMaterial: END_STONE_BRICK_WALL
+    damage: 0
+    display: Small Rusty Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:end_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:end_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:end_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:end_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_brick_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 279
+    display: Fancy Rusty Pillar
+    type: BLOCK
+    blockData: end_stone_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_brick_stair:
+    itemMaterial: END_STONE_BRICK_STAIRS
+    damage: 0
+    display: Rusty Block Stair
+    type: VANILLA
+    collection:
+      indirect: yellow_concrete_powder
+  end_stone_brick_slab:
+    itemMaterial: END_STONE_BRICK_SLAB
+    damage: 0
+    display: Rusty Block Slab
     type: VANILLA
     collection:
       indirect: yellow_concrete_powder
