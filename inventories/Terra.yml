@@ -104,10 +104,10 @@ Items:
     damage: 0
     display: Gray Stone Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataSouth: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataWest: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: diorite
   fancy_thin_andesite_pillar:
@@ -195,10 +195,10 @@ Items:
     damage: 1
     display: Stone Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataSouth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataWest: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:mossy_cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mossy_cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: stone
   fancy_thin_stone_pillar:
@@ -470,10 +470,10 @@ Items:
     damage: 0
     display: Rough Brown Stone Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataSouth: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataWest: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: granite
   fancy_thin_granite_pillar:
@@ -608,10 +608,10 @@ Items:
     damage: 0
     display: Smooth White Stone Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:diorite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataSouth: minecraft:diorite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataWest: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:diorite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:diorite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: diorite
   fancy_thin_diorite_pillar:

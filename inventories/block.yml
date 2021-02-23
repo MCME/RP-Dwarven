@@ -166,10 +166,10 @@ Items:
     damage: 0
     display: Sandstone Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: sandstone
   sandstone_wall_middle_big:
@@ -282,10 +282,10 @@ Items:
     damage: 0
     display: Small Brick Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: stone_bricks
   red_mushroom_block_small_bricks:
@@ -386,10 +386,10 @@ Items:
     damage: 0
     display: Small Small Brick Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: stone_bricks
   red_nether_brick_middle_big:
@@ -592,10 +592,10 @@ Items:
     damage: 0
     display: Cobblestone Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: cobblestone
   cobblestone_middle_big:
@@ -796,10 +796,10 @@ Items:
     damage: 0
     display: Small Small Brick Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: nether_bricks
   nether_brick_middle_big:
@@ -884,10 +884,10 @@ Items:
     damage: 0
     display: Small Small Brick Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: nether_bricks
   brick_middle_big:

@@ -874,10 +874,10 @@ Items:
     damage: 0
     display: Small Rusty Balustrade
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:end_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:end_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:end_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:end_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataNorth: minecraft:end_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:end_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:end_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:end_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: yellow_concrete_powder
   end_stone_brick_middle_big:
