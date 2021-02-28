@@ -1,0 +1,7 @@
+{
+    "parent": "block/pedestal",
+    "textures": {
+      "side": "block/purpur_block"
+    }
+  }
+  

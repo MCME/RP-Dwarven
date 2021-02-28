@@ -1,5 +1,6 @@
 {
   "ambientocclusion": true,
+  "parent": "block/block",
   "textures": {
     "particle": "#pane"
   },

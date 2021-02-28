@@ -14,7 +14,7 @@ Items:
       G2: polished_andesite
       H2: polished_andesite_stairs
       I2: polished_andesite_slab
-      J1: stone_button
+      J2: stone_button
       E0: very_thin_stone_pillar
       E1: iron_door_bottom
       D2: stone_slab
@@ -35,6 +35,42 @@ Items:
       H4: obsidian
       I4: lime_concrete
       J4: andesite
+      E2: yellow_stained_glass_pane_ns
+      J1: grey_stained_glass_pane_diagonal
+      E3: cyan_stained_glass_pane_wall
+  cyan_stained_glass_pane_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 285
+    display: Gray Stone Thin Wall
+    type: FOUR_DIRECTIONS
+    blockDataEast: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataNorth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataSouth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: stone
+  yellow_stained_glass_pane_ns:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 286
+    display: Stone Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:yellow_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:yellow_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataNorth: minecraft:light_blue_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataEast: minecraft:light_blue_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: stone
+  grey_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 287
+    display: Stone Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: stone
   polished_andesite:
     itemMaterial: POLISHED_ANDESITE
     damage: 6
