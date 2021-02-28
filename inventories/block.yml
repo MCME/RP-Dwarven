@@ -444,7 +444,7 @@ Items:
     blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
     blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:magenta_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
     collection:
       indirect: acacia_log
   magenta_stained_glass_pane_pillar:
@@ -510,7 +510,7 @@ Items:
       C2: mossy_stone_bricks_stairs
       B2: mossy_stone_bricks
       A1: weathered_stone
-      A0: weathered_stone
+      A0: weathered_stone_1
       F1: cobblestone
       G2: cobblestone_stairs
       H2: EndPortal0
