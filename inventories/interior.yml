@@ -169,7 +169,7 @@ Items:
       indirect: Crops5
   Netherwart3:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 1
+    damage: 3
     display: Statue/Decoration
     category: Inter
     type: BLOCK

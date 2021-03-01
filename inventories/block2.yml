@@ -16,12 +16,67 @@ Items:
       E1: cyan_stained_glass_pane
       D2: quartz_pillar
       C2: chiseled_quartz_block
+      A4: prismarine_wall_pillar
+      B4: prismarine_wall_side
+      C4: prismarine_wall_diagonal
+      D4: prismarine_wall_middle
+      E4: prismarine_wall_middle_big
       F4: quartz_block
       G4: quartz_stairs
       H4: quartz_slab
       I4: yellow_stained_glass_pane
       J4: yellow_stained_glass_pane_side
       J3: yellow_stained_glass_pane_diagonal
+  prismarine_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 288
+    display: Black Stone Pillar 
+    type: BLOCK
+    blockData: minecraft:prismarine_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: purpur_block
+  prismarine_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 289
+    display: Vertical Black Stone Slab
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:prismarine_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:prismarine_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:prismarine_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:prismarine_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: purpur_block
+  prismarine_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 290
+    display: Vertical Black Stone Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:prismarine_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:prismarine_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:prismarine_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:prismarine_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: purpur_block
+  prismarine_wall_middle:
+    itemMaterial: PRISMARINE_WALL
+    damage: 0
+    display: Small Black Stone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:prismarine_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:prismarine_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:prismarine_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:prismarine_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: purpur_block
+  prismarine_wall_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 291
+    display: Fancy Small Black Pillar
+    type: BLOCK
+    blockData: prismarine_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: purpur_block
   purpur_stairs:
     itemMaterial: PURPUR_STAIRS
     damage: 0

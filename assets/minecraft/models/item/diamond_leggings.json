@@ -1984,6 +1984,55 @@
       },
       "name": 284,
       "model": "block/birch_fence_gate_powered"
+	},
+    {
+      "predicate": {
+        "damage": 0.57460
+      },
+      "name": 285,
+      "model": "block/cyan_stained_glass_pane_ns"
+	},
+    {
+      "predicate": {
+        "damage": 0.57662
+      },
+      "name": 286,
+      "model": "block/yellow_stained_glass_pane_ns"
+	},
+    {
+      "predicate": {
+        "damage": 0.57863
+      },
+      "name": 287,
+      "model": "block/gray_stained_glass_pane_ne"
+	},
+    {
+      "predicate": {
+        "damage": 0.58065
+      },
+      "name": 288,
+      "model": "block/prismarine_wall"
+	},
+    {
+      "predicate": {
+        "damage": 0.58266
+      },
+      "name": 289,
+      "model": "block/prismarine_wall_n"
+	},
+    {
+      "predicate": {
+        "damage": 0.58468
+      },
+      "name": 290,
+      "model": "block/prismarine_wall_ne"
+	},
+    {
+      "predicate": {
+        "damage": 0.58669
+      },
+      "name": 291,
+      "model": "block/prismarine_wall_nsew"
 	}
   ]
 }
