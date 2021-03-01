@@ -89,10 +89,10 @@ Items:
     damage: 205
     display: Wooden Vertical Slab
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataSouth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:oak_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=false,open=false,powered=true]
     collection:
       indirect: jungle_planks
   birch_stairs:
