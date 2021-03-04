@@ -486,8 +486,9 @@ Items:
       C0: hopper_enabled_down
       A1: hopper_enabled_south
       F1: oak_sapling_0
-      G2: brewing_stand_empty
-      I2: brown_stained_glass
+      G2: brewing_stand
+      H2: brown_stained_glass
+      I2: oak_leaves_1
       J1: rail
       E1: hopper_off_south
       D2: hopper_off_north
@@ -516,10 +517,22 @@ Items:
   rail:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 202
-    display: Minecart Rail
+    display: Rail
     category: Mines
     type: BLOCK
     blockData: minecraft:rail
+    collection:
+      indirect: brown_stained_glass
+  oak_leaves_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 292
+    display: Rail Barrier
+    category: Mines
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:oak_leaves[persistent=false,distance=3]
+    blockDataSouth: minecraft:oak_leaves[persistent=false,distance=1]
+    blockDataEast: minecraft:oak_leaves[persistent=false,distance=4]
+    blockDataWest: minecraft:oak_leaves[persistent=false,distance=2]
     collection:
       indirect: brown_stained_glass
   hopper_enabled_down:
