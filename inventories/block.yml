@@ -624,6 +624,7 @@ Items:
     damage: 280
     display: Dark Cobblestone Pillar
     category: Block
+    type: BLOCK
     blockData: minecraft:mossy_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: cobblestone

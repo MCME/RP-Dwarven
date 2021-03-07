@@ -75,12 +75,13 @@ Items:
   Crops5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 10
-    display: Small Jar
+    display: Vase
     category: Inter
     type: BLOCK
     blockData: minecraft:wheat[age=5]
     collection:
-      A0: Crops5
+      C0: Crops5
+      A0: dark_oak_button_floor_west
       F1: Carrots0
       G2: Clay_pot
       H2: Crops1
@@ -96,8 +97,18 @@ Items:
       B4: Cactus10
       C4: spruce_trapdoor
       D4: Coat_hook
+      E4: dark_oak_button_floor_south
       F4: lever_ground
       G4: lever_wall
+  dark_oak_button_floor_west:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 293
+    display: Tiny Vases
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:dark_oak_button[face=floor,facing=west,powered=false]
+    collection:
+      indirect: Crops5
   Carrots0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 11
@@ -165,6 +176,15 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:carrots[age=1]
+    collection:
+      indirect: Crops5
+  dark_oak_button_floor_south:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 200
+    display: Scrolls
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:dark_oak_button[face=floor,facing=south,powered=false]
     collection:
       indirect: Crops5
   Netherwart3:
