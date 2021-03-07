@@ -1,9 +1,21 @@
 {
   "variants": {
-    "persistent=false,distance=1": { "model": "block/unused_block" },
-    "persistent=false,distance=2": { "model": "block/unused_block" },
-    "persistent=false,distance=3": { "model": "block/unused_block" },
-    "persistent=false,distance=4": { "model": "block/unused_block" },
+    "persistent=false,distance=1": [
+      {"model" : "block/rail_barrier", "weight" : 2},
+      {"model" : "block/rail_barrier_2"}
+    ],
+    "persistent=false,distance=2": [
+      {"model" : "block/rail_barrier", "weight" : 2, "y": 90},
+      {"model" : "block/rail_barrier_2", "y": 90}
+    ],
+    "persistent=false,distance=3": [
+      {"model" : "block/rail_barrier", "weight" : 2, "y": 180},
+      {"model" : "block/rail_barrier_2", "y": 180}
+    ],
+    "persistent=false,distance=4": [
+      {"model" : "block/rail_barrier", "weight" : 2, "y": 270},
+      {"model" : "block/rail_barrier_2", "y": 270}
+    ],
     "persistent=false,distance=5": { "model": "block/unused_block" },
     "persistent=false,distance=6": { "model": "block/unused_block" },
     "persistent=false,distance=7": { "model": "block/unused_block" },
