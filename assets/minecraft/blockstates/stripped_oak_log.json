@@ -1,5 +1,5 @@
 {
     "variants": {
-        "":  { "model": "block/unused_block" }
+        "":  [ "model": "block/unused_block" ]
     }
 }
