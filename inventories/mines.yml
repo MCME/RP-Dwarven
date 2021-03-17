@@ -9,7 +9,7 @@ Items:
     collection:
       A1: birch_planks
       F1: oak_planks
-      G2: birch_stairs
+      G2: oak_stairs
       H2: oak_fence_gate_powered
       I2: oak_slab
       J1: oak_button
@@ -118,7 +118,7 @@ Items:
       indirect: jungle_planks
   birch_fence_gate_powered:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 11
+    damage: 284
     display: Old Wooden Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -171,16 +171,16 @@ Items:
     display: Ladder
     category: Mines
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:ladder[facing=south,waterlogged=false]
-    blockDataNorth: minecraft:ladder[facing=north,waterlogged=false]
-    blockDataEast: minecraft:ladder[facing=east,waterlogged=false]
-    blockDataWest: minecraft:ladder[facing=west,waterlogged=false]
+    blockDataSouth: minecraft:ladder[facing=north,waterlogged=false]
+    blockDataNorth: minecraft:ladder[facing=south,waterlogged=false]
+    blockDataEast: minecraft:ladder[facing=west,waterlogged=false]
+    blockDataWest: minecraft:ladder[facing=east,waterlogged=false]
     collection:
       indirect: chorus_flower_1
   oak_trapdoor:
     itemMaterial: OAK_TRAPDOOR
     damage: 0
-    display: Wodden Cover
+    display: Wooden Cover
     category: Mines
     type: VANILLA
     collection:
@@ -308,7 +308,7 @@ Items:
     damage: 57
     display: 3d Chain (vertical)
     category: Mines
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=1]
     collection:
       indirect: bell_floor_east
@@ -317,7 +317,7 @@ Items:
     damage: 58
     display: 3d Chain (horizontal)
     category: Mines
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=2]
     collection:
       indirect: bell_floor_east
@@ -486,8 +486,9 @@ Items:
       C0: hopper_enabled_down
       A1: hopper_enabled_south
       F1: oak_sapling_0
-      G2: brewing_stand_empty
-      I2: brown_stained_glass
+      G2: brewing_stand
+      H2: brown_stained_glass
+      I2: oak_leaves_1
       J1: rail
       E1: hopper_off_south
       D2: hopper_off_north
@@ -516,10 +517,22 @@ Items:
   rail:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 202
-    display: Minecart Rail
+    display: Rail
     category: Mines
     type: BLOCK
     blockData: minecraft:rail
+    collection:
+      indirect: brown_stained_glass
+  oak_leaves_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 292
+    display: Rail Barrier
+    category: Mines
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:oak_leaves[persistent=false,distance=3]
+    blockDataSouth: minecraft:oak_leaves[persistent=false,distance=1]
+    blockDataEast: minecraft:oak_leaves[persistent=false,distance=4]
+    blockDataWest: minecraft:oak_leaves[persistent=false,distance=2]
     collection:
       indirect: brown_stained_glass
   hopper_enabled_down:

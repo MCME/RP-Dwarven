@@ -444,7 +444,7 @@ Items:
     blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
     blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:magenta_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
     collection:
       indirect: acacia_log
   magenta_stained_glass_pane_pillar:
@@ -510,7 +510,7 @@ Items:
       C2: mossy_stone_bricks_stairs
       B2: mossy_stone_bricks
       A1: weathered_stone
-      A0: weathered_stone
+      A0: weathered_stone_1
       F1: cobblestone
       G2: cobblestone_stairs
       H2: EndPortal0
@@ -526,6 +526,11 @@ Items:
       G4: pink_stained_glass_pane_diagonal
       H4: blue_stained_glass_pane_pillar
       I4: brown_stained_glass_pane_diagonal
+      A3: mossy_stone_brick_wall_pillar
+      B3: mossy_stone_brick_wall_side
+      C3: mossy_stone_brick_wall_diagonal
+      D3: mossy_stone_brick_wall_middle
+      E3: mossy_stone_brick_middle_big
   cobblestone_stairs:
     itemMaterial: COBBLESTONE_STAIRS
     damage: 0
@@ -612,6 +617,57 @@ Items:
     display: Dark Cobblestone
     category: Block
     type: VANILLA
+    collection:
+      indirect: cobblestone
+  mossy_stone_brick_wall_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 280
+    display: Dark Cobblestone Pillar
+    category: Block
+    type: BLOCK
+    blockData: minecraft:mossy_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: cobblestone
+  mossy_stone_brick_wall_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 281
+    display: Vertical Dark Cobblestone Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mossy_stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mossy_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mossy_stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mossy_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cobblestone
+  mossy_stone_brick_wall_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 282
+    display: Vertical Dark Cobblestone Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mossy_stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:mossy_stone_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mossy_stone_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mossy_stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cobblestone
+  mossy_stone_brick_wall_middle:
+    itemMaterial: MOSSY_STONE_BRICK_WALL
+    damage: 0
+    display: Dark Cobblestone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mossy_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mossy_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:mossy_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mossy_stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cobblestone
+  mossy_stone_brick_middle_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 283
+    display: Fancy Dark Cobblestone Pillar
+    type: BLOCK
+    blockData: mossy_stone_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: cobblestone
   mossy_stone_bricks_stairs:
