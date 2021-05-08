@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/block",
+	"parent": "block/fullBlockHead",
 	"elements": [
 		{
 			"from": [8.9, 0, 2.21],

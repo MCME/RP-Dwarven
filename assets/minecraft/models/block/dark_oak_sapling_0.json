@@ -3,5 +3,11 @@
   "textures": {
     "cross": "block/dark_oak_sapling_0",
     "particle": "block/dark_oak_sapling_0"
+  },
+  "display": {
+    "head": { 
+      "scale": [1.6, 1.6, 1.6],
+      "rotation": [0, 180, 0] 
+      }
   }
 }

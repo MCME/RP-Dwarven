@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/block",
+	"parent": "block/fullBlockHead",
 	"ambientocclusion": false,
 	"textures": {
 		"particle": "#side"

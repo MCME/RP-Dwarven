@@ -243,10 +243,10 @@ Items:
     display: Coat hook
     category: Inter
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:tripwire_hook[attached=false,facing=south,powered=false]
-    blockDataWest: minecraft:tripwire_hook[attached=false,facing=west,powered=false]
-    blockDataNorth: minecraft:tripwire_hook[attached=false,facing=north,powered=false]
-    blockDataEast: minecraft:tripwire_hook[attached=false,facing=east,powered=false]
+    blockDataSouth: minecraft:tripwire_hook[attached=false,facing=north,powered=false]
+    blockDataWest: minecraft:tripwire_hook[attached=false,facing=east,powered=false]
+    blockDataNorth: minecraft:tripwire_hook[attached=false,facing=south,powered=false]
+    blockDataEast: minecraft:tripwire_hook[attached=false,facing=west,powered=false]
     collection:
       indirect: Crops5
   lever_ground:
