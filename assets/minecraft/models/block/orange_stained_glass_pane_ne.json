@@ -2,6 +2,7 @@
     "parent": "block/deco_ne",
     "textures": {
         "base": "block/red_mushroom_block_nswud",
+        "top": "block/cyan_terracotta",
         "particle": "block/red_mushroom_block_nswud"
     }
 }
