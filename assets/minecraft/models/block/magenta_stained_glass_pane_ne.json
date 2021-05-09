@@ -2,6 +2,7 @@
   "parent": "block/deco_ne",
   "textures": {
     "base": "block/dark_oak_log",
+    "top": "block/sandstone",
     "particle": "block/dark_oak_log"
   }
 }
