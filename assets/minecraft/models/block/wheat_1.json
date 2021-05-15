@@ -1,5 +1,5 @@
 {
-  "parent": "block/fullBlockHead",
+  "parent": "block/block",
   "ambientocclusion": false,
   "textures": {
     "particle": "block/wheat_1_top",
@@ -455,5 +455,11 @@
         }
       }
     }
-  ]
+  ],
+  "display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
+		}
+  }
 }

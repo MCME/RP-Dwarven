@@ -1,5 +1,5 @@
 {
-  "parent": "block/fullBlockHead",
+  "parent": "block/block",
   "textures": {
     "particle": "block/piston_head_sticky_top",
     "0": "block/piston_head_sticky_top",
@@ -1734,5 +1734,11 @@
         }
       }
     }
-  ]
+  ],
+  "display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
+		}
+  }
 }

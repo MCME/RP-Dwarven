@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/fullBlockHead",
+	"parent": "block/block/block",
 	"textures": {
 		"top": "#top",
 		"base": "#side",
-		"particle": "block/#top"
+		"particle": "#top"
 	},
 	"elements": [
 		{
@@ -110,6 +110,11 @@
 			"rotation": [30, 45, 0],
 			"translation": [0, -1.75, 0],
 			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+			"rotation": [0,180,0]
 		}
+
 	}
 }

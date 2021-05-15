@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/fullBlockHead",
+	"parent": "block/block",
 	"elements": [
 		{
 			"from": [4, 0, 0],
@@ -19,6 +19,10 @@
 		"gui": {
 			"rotation": [30, 45, 0],
 			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
 		}
 	}
 }
