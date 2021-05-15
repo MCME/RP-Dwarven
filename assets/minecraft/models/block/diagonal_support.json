@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/fullBlockHead",
+	"parent": "block/block",
 	"ambientocclusion": false,
 	"textures": {
 		"particle": "#side"
@@ -56,6 +56,10 @@
 			"rotation": [0, 60, 0],
 			"translation": [2, -2, 0],
 			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
 		}
 	}
 }
