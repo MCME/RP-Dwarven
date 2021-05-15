@@ -1,5 +1,5 @@
 {
-  "parent": "block/block",
+  "parent": "block/fullBlockHead",
   "textures": {
     "particle": "block/piston_head_sticky_top",
     "0": "block/piston_head_sticky_top",
