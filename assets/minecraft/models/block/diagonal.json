@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/fullBlockHead",
+	"parent": "block/block",
 	"ambientocclusion": false,
 	"texture_size": [23, 16],
 	"elements": [
@@ -45,6 +45,10 @@
 		"gui": {
 			"rotation": [30, 90, 0],
 			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
 		}
 	}
 }
