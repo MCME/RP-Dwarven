@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/fullBlockHead",
+	"parent": "block/block",
 	"textures": {
     "2": "#redstone_torch_off",
     "particle": "block/unlit_redstone_torch"
@@ -282,5 +282,11 @@
         "west": { "uv": [ 0, 12, 6, 13 ], "texture": "#2" }
       }
     }
-  ]
+  ],
+  "display": {
+	"head": {
+		"scale": [1.6, 1.6, 1.6],
+		"rotation": [0,180,0]
+	}
+  }
 }

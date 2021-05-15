@@ -1,5 +1,5 @@
 {
-  "parent": "block/fullBlockHead",
+  "parent": "block/block",
   "textures": {
     "particle": "#side"
   },
@@ -119,5 +119,11 @@
         "down": { "texture": "#side", "uv": [ 6.0, 0.0, 10.0, 4.0 ] }
       }
     }
-  ]
+  ],
+  "display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
+		}
+  }
 }

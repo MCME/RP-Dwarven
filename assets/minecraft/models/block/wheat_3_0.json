@@ -1,5 +1,5 @@
 {
-  "parent": "block/fullBlockHead",
+  "parent": "block/block",
   "textures": {
     "0": "block/wheat_3",
     "particle": "block/wheat_3"
@@ -21,7 +21,11 @@
         0.625,
         0.625
       ]
-    }
+    },
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
+		}
   },
   "elements": [
     {

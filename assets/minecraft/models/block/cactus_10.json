@@ -1,5 +1,5 @@
 {
-  "parent": "block/fullBlockHead",
+  "parent": "block/block",
   "ambientocclusion": false,
   "textures": {
     "particle": "block/cactus_10",
@@ -754,5 +754,11 @@
         }
       }
     }
-  ]
+  ],
+  "display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
+		}
+  }
 }
