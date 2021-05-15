@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "block/fullBlockHead",
 	"textures": {
 		"0": "block/carrots_1_2",
 		"2": "block/carrots_1_3",

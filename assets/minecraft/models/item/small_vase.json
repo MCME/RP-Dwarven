@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "block/fullBlockHead",
 	"texture_size": [3, 3],
 	"textures": {
 		"5": "block/models/vase_4",
