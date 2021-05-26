@@ -34,6 +34,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 17
     display: Hanging Brazier
+    category: Inter
     type: BLOCK
     blockData: minecraft:spruce_sapling[stage=0]
     collection:
@@ -60,7 +61,6 @@ Items:
     itemMaterial: REDSTONE_TORCH
     damage: 0
     display: Crystal lamp
-    category: Inter
     type: VANILLA
     collection:
       indirect: Cactus13

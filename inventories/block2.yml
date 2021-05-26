@@ -551,7 +551,7 @@ Items:
   purple_stained_glass_pane_nsew:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 196
-    display: Light Gray Smooth Block
+    display: Light Gray Smooth Block Pillar
     type: BLOCK
     blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
@@ -810,6 +810,105 @@ Items:
     blockData: minecraft:orange_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: red_mushroom_block_mossy_pillar
+  acacia_log:
+    itemMaterial: ACACIA_LOG
+    damage: 0
+    display: Sandstone Pillar Block 1
+    category: Block2
+    type: VANILLA
+    collection:
+      G2: dark_oak_wood
+      A0: cut_sandstone
+      B2: acacia_wood
+      D2: acacia_log
+      E1: cracked_stone_bricks
+      E0: chiseled_sandstone
+      J1: red_terracotta
+      I2: dark_oak_log
+      A4: magenta_stained_glass_pane_side
+      B4: magenta_stained_glass_pane_diagonal
+      C4: magenta_stained_glass_pane_pillar
+  acacia_wood:
+    itemMaterial: ACACIA_WOOD
+    damage: 0
+    display: Sandstone Pillar Block 1 Six Sided
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  magenta_stained_glass_pane_side:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 151
+    display: Sandstone Thin Pillar Side
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:magenta_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: acacia_log
+  magenta_stained_glass_pane_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 152
+    display: Sandstone Thin Pillar Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:magenta_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: acacia_log
+  magenta_stained_glass_pane_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 153
+    display: Sandstone Pillar Thin
+    type: BLOCK
+    blockData: minecraft:magenta_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: acacia_log
+  chiseled_sandstone:
+    itemMaterial: CHISELED_SANDSTONE
+    damage: 0
+    display: Sandstone Pillar Bottom
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  cracked_stone_bricks:
+    itemMaterial: CRACKED_STONE_BRICKS
+    damage: 0
+    display: Chiseled Sandstone 1
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  cut_sandstone:
+    itemMaterial: CUT_SANDSTONE
+    damage: 0
+    display: Sandstone Pillar Top
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  red_terracotta:
+    itemMaterial: RED_TERRACOTTA
+    damage: 0
+    display: Chiseled Sandstone 2
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  dark_oak_log:
+    itemMaterial: DARK_OAK_LOG
+    damage: 0
+    display: Sandstone Pillar Block 2
+    type: VANILLA
+    collection:
+      indirect: acacia_log
+  dark_oak_wood:
+    itemMaterial: DARK_OAK_WOOD
+    damage: 0
+    display: Sandstone Pillar Block 2 Six Sided
+    type: VANILLA
+    collection:
+      indirect: acacia_log
   yellow_concrete_powder:
    itemMaterial: YELLOW_CONCRETE_POWDER
    damage: 0
