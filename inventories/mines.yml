@@ -151,6 +151,7 @@ Items:
     collection:
       C0: ladder
       A1: cactus_11
+      A0: chorus_plant
       F1: chorus_flower_1
       G2: oak_wood
       I2: oak_log
@@ -209,6 +210,15 @@ Items:
     display: Old Log
     category: Mines
     type: VANILLA
+    collection:
+      indirect: chorus_flower_1
+  chorus_plant:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 43
+    display: Thin Log
+    category: Mines
+    type: BLOCK_CONNECT
+    blockData: minecraft:chorus_plant
     collection:
       indirect: chorus_flower_1
   #inside collection
