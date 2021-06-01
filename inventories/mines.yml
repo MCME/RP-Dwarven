@@ -13,6 +13,7 @@ Items:
       H2: oak_fence_gate_powered
       I2: oak_slab
       J1: oak_button
+      E0: comparator_compare_off_south
       E1: birch_button
       D2: birch_slab
       C2: birch_fence_gate_powered
@@ -127,6 +128,15 @@ Items:
     blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=false,open=false,powered=true]
     collection:
       indirect: jungle_planks
+  comparator_compare_off_south:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 63
+    display: Wooden 1/4 Block
+    type: BLOCK
+    blockData: minecraft:comparator[mode=compare,powered=false,facing=south]
+    collection:
+      indirect: jungle_planks
+
   # wooden details collection
   chorus_flower_1:
     itemMaterial: DIAMOND_LEGGINGS
@@ -141,6 +151,7 @@ Items:
     collection:
       C0: ladder
       A1: cactus_11
+      A0: chorus_plant
       F1: chorus_flower_1
       G2: oak_wood
       I2: oak_log
@@ -201,6 +212,15 @@ Items:
     type: VANILLA
     collection:
       indirect: chorus_flower_1
+  chorus_plant:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 43
+    display: Thin Log
+    category: Mines
+    type: BLOCK_CONNECT
+    blockData: minecraft:chorus_plant
+    collection:
+      indirect: chorus_flower_1
   #inside collection
   jungle_wood:
     itemMaterial: JUNGLE_WOOD
@@ -244,14 +264,7 @@ Items:
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  comparator_compare_off_south:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 63
-    display: Wooden 1/4 Block
-    type: BLOCK
-    blockData: minecraft:comparator[mode=compare,powered=false,facing=south]
-    collection:
-      indirect: chorus_flower_1
+
   # ropes/chains collection
   bell_floor_east:
     itemMaterial: DIAMOND_LEGGINGS
