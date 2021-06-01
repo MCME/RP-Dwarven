@@ -535,7 +535,7 @@ Items:
   sponge:
     itemMaterial: SPONGE
     damage: 0
-    display: Gray Smooth Slab
+    display: Gray Smooth Block
     category: Block2
     type: VANILLA
     collection:
@@ -543,7 +543,7 @@ Items:
   wet_sponge:
     itemMaterial: WET_SPONGE
     damage: 0
-    display: Dark Gray Smooth Slab
+    display: Light Gray Smooth Block
     category: Block2
     type: VANILLA
     collection:
@@ -551,7 +551,7 @@ Items:
   purple_stained_glass_pane_nsew:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 196
-    display: Rusty Pipe
+    display: Light Gray Smooth Block
     type: BLOCK
     blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:

@@ -39,5 +39,11 @@
 				"down": {"uv": [1, 1, 15, 15], "texture": "#side"}
 			}
 		}
-	]
+	],
+	"display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
+		}
+	}
 }

@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
+	"ambientocclusion": false,
 	"textures": {
 		"particle": "#wall"
 	},
@@ -18,5 +19,11 @@
 				"down": {"uv": [4, 4, 12, 12], "texture": "#wall", "cullface": "down"}
 			}
 		}
-	]
+	],
+	"display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
+		}
+	}
 }

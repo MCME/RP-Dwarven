@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "block/block",
 	"texture_size": [3, 3],
 	"textures": {
 		"5": "block/models/vase_4",
@@ -200,6 +201,10 @@
 			"rotation": [30, 34, 0],
 			"translation": [0, 2.5, 0],
 			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+            "rotation": [0,180,0]
 		}
 	},
 	"groups": [
