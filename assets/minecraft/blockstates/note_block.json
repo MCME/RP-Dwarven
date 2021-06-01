@@ -133,6 +133,17 @@
 			{ "model":"block/note_block_22", "y":90 },
 			{ "model":"block/note_block_23", "y":270 },
 			{ "model":"block/note_block_24", "y":270 }
+			],
+		"instrument=basedrum,note=16,powered=false,": [
+			{ "model":"block/pillar_top" }
+			],
+		"instrument=basedrum,note=17,powered=false,": [
+			{ "model":"block/pillar_top_2" }
+			],
+		"instrument=basedrum,note=18,powered=false,": [
+			{ "model":"block/pillar_bottom" }
 			]
+    }
+}
     }
 }
