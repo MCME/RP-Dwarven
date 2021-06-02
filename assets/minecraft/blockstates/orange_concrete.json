@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/orange_concrete" },
+	  { "model": "block/orange_concrete_2" },
+	  { "model": "block/orange_concrete_3" },
+	  { "model": "block/orange_concrete_4" },
+	  { "model": "block/orange_concrete_5" },
+	  { "model": "block/orange_concrete_6" },
+	  { "model": "block/orange_concrete_7" },
+	  { "model": "block/orange_concrete_8" }
+    ]
+  }
+}

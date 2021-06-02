@@ -16,7 +16,11 @@
       { "model": "block/cactus_11", "y": 90 }],
     "age=12": { "model": "block/cactus_12", "uvlock": true },
     "age=13": { "model": "block/cactus_13", "uvlock": true },
-    "age=14": { "model": "block/unused_cross_0" },
+    "age=14": [
+	  { "model": "block/cactus_14" },
+      { "model": "block/cactus_14", "y": 90 },
+      { "model": "block/cactus_14", "y": 180 },
+      { "model": "block/cactus_14", "y": 270 }],
     "age=15": { "model": "block/unused_cross_0" }
      
   }
