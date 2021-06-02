@@ -118,7 +118,6 @@ Items:
       G2: light_weighted_pressure_plate_2
       H2: redstone_wire_5
       I2: light_weighted_pressure_plate_3
-      J1: chorus_plant # broken
       E1: chorus_flower_5
       D2: chorus_flower_0
       C2: redstone_wire_6
@@ -145,15 +144,6 @@ Items:
     category: Workshop
     type: BLOCK
     blockData: minecraft:chorus_flower[age=5]
-    collection:
-      indirect: blue_terracotta
-  chorus_plant:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 43
-    display: Rusty Pipe [199:0]
-    category: Workshop
-    type: BLOCK
-    blockData: minecraft:chorus_plant
     collection:
       indirect: blue_terracotta
   redstone_wire_6:

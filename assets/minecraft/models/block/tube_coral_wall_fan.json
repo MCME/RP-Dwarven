@@ -1,0 +1,7 @@
+{
+  "parent": "block/deco_n",
+  "textures": {
+    "details": "block/tube_coral_wall_fan",
+    "particle": "block/tube_coral_wall_fan"
+  }
+}

@@ -188,17 +188,17 @@ Items:
     type: VANILLA
     collection:
       A0: red_mushroom_block_small_bricks_mossy   
-      A1: dark_oak_planks
-      B2: dark_oak_stairs
-      C2: EndPortal5
-      D2: dark_oak_slab
-      E1: RedstoneComparator6
+      F1: dark_oak_planks
+      G2: dark_oak_stairs
+      H2: EndPortal5
+      I2: dark_oak_slab
+      J1: RedstoneComparator6
       E0: dark_oak_button
-      F1: red_mushroom_block_small_bricks
-      G2: stone_brick_stairs
-      H2: EndPortal4
-      I2: stone_brick_slab
-      J1: RedstoneComparator5
+      A1: red_mushroom_block_small_bricks
+      B2: stone_brick_stairs
+      C2: EndPortal4
+      D2: stone_brick_slab
+      E1: RedstoneComparator5
       A4: stone_brick_wall_pillar
       B4: stone_brick_wall_side
       C4: stone_brick_wall_diagonal
@@ -354,7 +354,7 @@ Items:
   red_nether_brick_wall_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 147
-    display: Small Small Brick Pillar
+    display: Tiny Brick Pillar
     type: BLOCK
     blockData: minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
@@ -362,7 +362,7 @@ Items:
   red_nether_brick_wall_side:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 148
-    display: Vertical Small Small Brick Slab
+    display: Vertical Tiny Brick Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:red_nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
@@ -373,7 +373,7 @@ Items:
   red_nether_brick_wall_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 149
-    display: Vertical Small Small Brick Stair
+    display: Vertical Tiny Brick Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:red_nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:red_nether_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -384,7 +384,7 @@ Items:
   red_nether_brick_wall_middle:
     itemMaterial: RED_NETHER_BRICK_WALL
     damage: 0
-    display: Small Small Brick Balustrade
+    display: Tiny Brick Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
@@ -395,110 +395,11 @@ Items:
   red_nether_brick_middle_big:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 150
-    display: Fancy Small Small Bricks Pillar
+    display: Fancy Tiny Bricks Pillar
     type: BLOCK
     blockData: red_nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: stone_bricks
-  acacia_log:
-    itemMaterial: ACACIA_LOG
-    damage: 0
-    display: Sandstone Pillar Block 1
-    category: Block
-    type: VANILLA
-    collection:
-      G2: dark_oak_wood
-      A0: cut_sandstone
-      B2: acacia_wood
-      D2: acacia_log
-      E1: cracked_stone_bricks
-      E0: chiseled_sandstone
-      J1: red_terracotta
-      I2: dark_oak_log
-      A4: magenta_stained_glass_pane_side
-      B4: magenta_stained_glass_pane_diagonal
-      C4: magenta_stained_glass_pane_pillar
-  acacia_wood:
-    itemMaterial: ACACIA_WOOD
-    damage: 0
-    display: Sandstone Pillar Block 1 Six Sided
-    type: VANILLA
-    collection:
-      indirect: acacia_log
-  magenta_stained_glass_pane_side:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 151
-    display: Sandstone Thin Pillar Side
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
-    blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
-    blockDataSouth: minecraft:magenta_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
-    collection:
-      indirect: acacia_log
-  magenta_stained_glass_pane_diagonal:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 152
-    display: Sandstone Thin Pillar Diagonal
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:magenta_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
-    blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
-    blockDataSouth: minecraft:magenta_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
-    collection:
-      indirect: acacia_log
-  magenta_stained_glass_pane_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 153
-    display: Sandstone Pillar Thin
-    type: BLOCK
-    blockData: minecraft:magenta_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
-    collection:
-      indirect: acacia_log
-  chiseled_sandstone:
-    itemMaterial: CHISELED_SANDSTONE
-    damage: 0
-    display: Sandstone Pillar Bottom
-    category: Block
-    type: VANILLA
-    collection:
-      indirect: acacia_log
-  cracked_stone_bricks:
-    itemMaterial: CRACKED_STONE_BRICKS
-    damage: 0
-    display: Chiseled Sandstone 1
-    category: Block
-    type: VANILLA
-    collection:
-      indirect: acacia_log
-  cut_sandstone:
-    itemMaterial: CUT_SANDSTONE
-    damage: 0
-    display: Sandstone Pillar Top
-    type: VANILLA
-    collection:
-      indirect: acacia_log
-  red_terracotta:
-    itemMaterial: RED_TERRACOTTA
-    damage: 0
-    display: Chiseled Sandstone 2
-    type: VANILLA
-    collection:
-      indirect: acacia_log
-  dark_oak_log:
-    itemMaterial: DARK_OAK_LOG
-    damage: 0
-    display: Sandstone Pillar Block 2
-    type: VANILLA
-    collection:
-      indirect: acacia_log
-  dark_oak_wood:
-    itemMaterial: DARK_OAK_WOOD
-    damage: 0
-    display: Sandstone Pillar Block 2 Six Sided
-    type: VANILLA
-    collection:
-      indirect: acacia_log
   cobblestone:
     itemMaterial: COBBLESTONE
     damage: 0
@@ -819,7 +720,7 @@ Items:
   nether_brick_wall_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 256
-    display: Small Small Brick Pillar
+    display: Large Light Brick Pillar
     type: BLOCK
     blockData: minecraft:nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
@@ -827,7 +728,7 @@ Items:
   nether_brick_wall_side:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 257
-    display: Vertical Small Small Brick Slab
+    display: Vertical Large Light Brick Slab
     category: Block
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -839,7 +740,7 @@ Items:
   nether_brick_wall_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 258
-    display: Vertical Small Small Brick Stair
+    display: Vertical Large Light Brick Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:nether_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -850,7 +751,7 @@ Items:
   nether_brick_wall_middle:
     itemMaterial: NETHER_BRICK_WALL
     damage: 0
-    display: Small Small Brick Balustrade
+    display: Large Light Brick Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
@@ -861,7 +762,7 @@ Items:
   nether_brick_middle_big:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 259
-    display: Fancy Small Small Bricks Pillar
+    display: Fancy Large Light Bricks Pillar
     type: BLOCK
     blockData: nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -907,7 +808,7 @@ Items:
   brick_wall_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 260
-    display: Small Small Brick Pillar
+    display: Large Dark Brick Pillar
     type: BLOCK
     blockData: minecraft:brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
@@ -915,7 +816,7 @@ Items:
   brick_wall_side:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 261
-    display: Vertical Small Small Brick Slab
+    display: Vertical Large Dark Brick Slab
     category: Block
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -927,7 +828,7 @@ Items:
   brick_wall_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 262
-    display: Vertical Small Small Brick Stair
+    display: Vertical Large Dark Brick Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -938,7 +839,7 @@ Items:
   brick_wall_middle:
     itemMaterial: BRICK_WALL
     damage: 0
-    display: Small Small Brick Balustrade
+    display: Large Dark Brick Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
@@ -949,7 +850,7 @@ Items:
   brick_middle_big:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 263
-    display: Fancy Small Small Bricks Pillar
+    display: Fancy Large Dark Bricks Pillar
     type: BLOCK
     blockData: brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
