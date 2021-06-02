@@ -1,6 +1,6 @@
 {
   "variants": {
     "waterlogged=true": { "model": "block/unused_cross_0" },
-    "waterlogged=false": { "model": "block/unused_cross_0" }
+    "waterlogged=false": { "model": "block/stalagmite" }
   }
 }
