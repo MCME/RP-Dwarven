@@ -49,7 +49,7 @@ Items:
   RedstoneComparator2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 65
-    display: Sandstone 1/4
+    display: Sandstone Thin Slab
     type: BLOCK
     blockData: minecraft:comparator[facing=north,mode=compare,powered=false]
     collection:
@@ -218,9 +218,9 @@ Items:
     collection:
       indirect: stone_bricks
   stone_brick_slab:
-    itemMaterial: STONE_BRICKS
+    itemMaterial: STONE_BRICK_SLAB
     damage: 0
-    display: Small Bricks Slab
+    display: Small Brick Slab
     type: VANILLA
     collection:
       indirect: stone_bricks
@@ -234,7 +234,7 @@ Items:
   RedstoneComparator5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 68
-    display: Small brick 1/4
+    display: Small Brick Thin Slab
     type: BLOCK
     blockData: minecraft:comparator[facing=west,mode=subtract,powered=false]
     collection:
@@ -291,7 +291,7 @@ Items:
   red_mushroom_block_small_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 125
-    display: Small Bricks Shiny
+    display: Small Brick Shiny
     category: Block
     type: BLOCK
     blockData: red_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=true]
@@ -300,7 +300,7 @@ Items:
   red_mushroom_block_small_bricks_mossy:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 126
-    display: Small Bricks Mossy
+    display: Small Brick Mossy
     type: BLOCK
     blockData: red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]
     collection:
@@ -308,7 +308,7 @@ Items:
   stone_brick_middle_big:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 146
-    display: Fancy Small Bricks Pillar
+    display: Fancy Small Brick Pillar
     type: BLOCK
     blockData: stone_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -346,7 +346,7 @@ Items:
   RedstoneComparator6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 69
-    display: Tiny Bricks 1/4
+    display: Tiny Brick Thin Slab
     type: BLOCK
     blockData: minecraft:comparator[facing=north,mode=subtract,powered=false]
     collection:
@@ -457,7 +457,7 @@ Items:
   RedstoneComparator1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 64
-    display: Cobblestone 1/4
+    display: Cobblestone Thin Slab
     type: BLOCK
     blockData: minecraft:comparator[facing=west,mode=compare,powered=false]
     collection:
@@ -660,15 +660,17 @@ Items:
   nether_bricks:
     itemMaterial: NETHER_BRICKS
     damage: 0
-    display: Large Light Stone Bricks
+    display: Large Light Bricks
     category: Block
     type: VANILLA
     collection:
+      E0: cyan_glazed_terracotta
       E1: red_mushroom_block_mossy_dark_bricks
       E2: red_mushroom_block_mossy_heavy_dark_bricks
       D2: RedstoneComparator3
       C2: brick_slab
       B2: EndPortal2
+      A2: blackstone
       A1: brick_stairs
       A0: bricks
       F1: nether_bricks_stairs
@@ -682,6 +684,10 @@ Items:
       C4: brick_wall_diagonal
       D4: brick_wall_middle
       E4: brick_middle_big
+      F3: stripped_birch_log
+      G3: red_nether_bricks
+      H3: red_nether_brick_stairs
+      I3: red_nether_brick_slab
       F4: nether_brick_wall_pillar
       G4: nether_brick_wall_side
       H4: nether_brick_wall_diagonal
@@ -712,7 +718,7 @@ Items:
   RedstoneComparator4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 67
-    display: Large Light Brick 1/4 Block
+    display: Large Light Brick Thin Slab
     type: BLOCK
     blockData: minecraft:comparator[facing=south,mode=subtract,powered=false]
     collection:
@@ -735,6 +741,35 @@ Items:
     blockDataEast: minecraft:nether_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
     blockDataSouth: minecraft:nether_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: nether_bricks
+  cyan_glazed_terracotta:
+    itemMaterial: CYAN_GLAZED_TERRACOTTA
+    damage: 0
+    display: Full Light Bricks
+    category: Block
+    type: VANILLA
+    nextBlock: cyan_glazed_terracotta_cut
+    collection:
+      indirect: nether_bricks
+  cyan_glazed_terracotta_cut:
+    itemMaterial: CYAN_GLAZED_TERRACOTTA
+    damage: 0
+    display: Full Light Bricks Cut
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cyan_glazed_terracotta[facing=east]
+    blockDataSouth: minecraft:cyan_glazed_terracotta[facing=east]
+    blockDataEast: minecraft:cyan_glazed_terracotta[facing=north]
+    blockDataWest: minecraft:cyan_glazed_terracotta[facing=north]
+    nextBlock: cyan_glazed_terracotta
+    collection:
+      indirect: nether_bricks
+  stripped_birch_log:
+    itemMaterial: STRIPPED_BIRCH_LOG
+    damage: 0
+    display: Smooth Light Pillar
+    category: Block
+    type: VANILLA
     collection:
       indirect: nether_bricks
   nether_brick_wall_diagonal:
@@ -767,6 +802,27 @@ Items:
     blockData: nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: nether_bricks
+  red_nether_bricks:
+    itemMaterial: RED_NETHER_BRICKS
+    damage: 0
+    display: Cracked Large Light Bricks
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
+  red_nether_brick_stairs:
+    itemMaterial: RED_NETHER_BRICK_STAIRS
+    damage: 0
+    display: Cracked Large Light Brick Stairs
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
+  red_nether_brick_slab:
+    itemMaterial: RED_NETHER_BRICK_SLAB
+    damage: 0
+    display: Cracked Large Light Brick Slab
+    type: VANILLA
+    collection:
+      indirect: nether_bricks
   bricks:
     itemMaterial: BRICKS
     damage: 0
@@ -778,7 +834,7 @@ Items:
   EndPortal2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 97
-    display: Large Dark Bricks 3/4
+    display: Large Dark Bricks 3/4 Block
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=false,facing=north]
     collection:
@@ -800,7 +856,7 @@ Items:
   RedstoneComparator3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 66
-    display: Large Dark Brick 1/4
+    display: Large Dark Brick Thin Slab
     type: BLOCK
     blockData: minecraft:comparator[facing=east,mode=compare,powered=false]
     collection:
@@ -855,10 +911,18 @@ Items:
     blockData: brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: nether_bricks
+  blackstone:
+    itemMaterial: BLACKSTONE
+    damage: 0
+    display: Mixed Large Dark Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: nether_bricks 
   red_mushroom_block_mix_sandstone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 130
-    display: Mixed Sandstone
+    display: Mixed Dark Bricks
     category: Block
     type: BLOCK
     blockData: red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
@@ -867,7 +931,7 @@ Items:
   red_mushroom_block_mix_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 131
-    display: Mixed Bricks
+    display: Mixed Light Bricks
     type: BLOCK
     blockData: red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
     collection:
@@ -888,3 +952,112 @@ Items:
     blockData: red_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=true]
     collection:
       indirect: nether_bricks
+  dark_prismarine:
+    itemMaterial: DARK_PRISMARINE
+    damage: 0
+    display: Smooth Red Stone
+    category: Block
+    type: VANILLA
+    collection:
+      C0: dark_prismarine
+      A1: light_gray_glazed_terracotta
+      F1: stripped_oak_log
+      G2: prismarine
+      H2: prismarine_stairs
+      I2: prismarine_slab
+      J1: dark_prismarine_slab
+      E1: dark_prismarine_stairs
+      D2: prismarine_brick_slab
+      C2: prismarine_brick_stairs
+      B2: prismarine_bricks
+  prismarine:
+    itemMaterial: PRISMARINE
+    damage: 0
+    display: Large Red Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  prismarine_bricks:
+    itemMaterial: PRISMARINE_BRICKS
+    damage: 0
+    display: Red Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  light_gray_glazed_terracotta:
+    itemMaterial: LIGHT_GRAY_GLAZED_TERRACOTTA
+    damage: 0
+    display: Full Red Bricks
+    category: Block
+    type: VANILLA
+    nextBlock: light_gray_glazed_terracotta_cut
+    collection:
+      indirect: dark_prismarine
+  light_gray_glazed_terracotta_cut:
+    itemMaterial: LIGHT_GRAY_GLAZED_TERRACOTTA
+    damage: 0
+    display: Full Red Bricks Cut
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:light_gray_glazed_terracotta[facing=east]
+    blockDataSouth: minecraft:light_gray_glazed_terracotta[facing=east]
+    blockDataEast: minecraft:light_gray_glazed_terracotta[facing=north]
+    blockDataWest: minecraft:light_gray_glazed_terracotta[facing=north]
+    nextBlock: light_gray_glazed_terracotta
+    collection:
+      indirect: dark_prismarine
+  stripped_oak_log:
+    itemMaterial: STRIPPED_OAK_LOG
+    damage: 0
+    display: Smooth Red Pillar
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  #inside collection
+  prismarine_stairs:
+    itemMaterial: PRISMARINE_STAIRS
+    damage: 0
+    display: Large Red Brick Stairs
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  prismarine_slab:
+    itemMaterial: PRISMARINE_SLAB
+    damage: 0
+    display: Large Red Brick Slab
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  dark_prismarine_slab:
+    itemMaterial: DARK_PRISMARINE_SLAB
+    damage: 0
+    display: Smooth Red Stone Slab
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  dark_prismarine_stairs:
+    itemMaterial: DARK_PRISMARINE_STAIRS
+    damage: 0
+    display: Smooth Red Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  prismarine_brick_stairs:
+    itemMaterial: PRISMARINE_BRICK_STAIRS
+    damage: 0
+    display: Red Brick Stairs
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+  prismarine_brick_slab:
+    itemMaterial: PRISMARINE_BRICK_SLAB
+    damage: 0
+    display: Red Brick Slab
+    type: VANILLA
+    collection:
+      indirect: dark_prismarine
+    
+  
+    

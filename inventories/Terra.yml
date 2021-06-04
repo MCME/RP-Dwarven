@@ -37,7 +37,7 @@ Items:
       I4: lime_concrete
       J4: andesite
       E2: yellow_stained_glass_pane_ns
-      J1: grey_stained_glass_pane_diagonal
+      J1: gray_stained_glass_pane_diagonal
       E3: cyan_stained_glass_pane_wall
   yellow_terracotta:
     itemMaterial: yellow_terracotta
@@ -69,7 +69,7 @@ Items:
     blockDataEast: minecraft:light_blue_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
     collection:
       indirect: stone
-  grey_stained_glass_pane_diagonal:
+  gray_stained_glass_pane_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 287
     display: Stone Diagonal

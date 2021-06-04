@@ -427,7 +427,7 @@ Items:
       F1: spruce_slab
       G2: smooth_stone_slab
       H2: smooth_stone_slab_block
-      I2: daylight_detector
+      I2: stripped_spruce_log
       J1: honeycomb_block
       E0: gray_terracotta
       E1: red_nether_bricks
@@ -435,6 +435,7 @@ Items:
       C2: Observer_nwu
       B2: Observer_sed
       A4: spruce_button
+      B4: daylight_detector
       F4: sponge
       G4: wet_sponge
       H4: purple_stained_glass_pane_nsew
@@ -505,10 +506,18 @@ Items:
     blockData: minecraft:smooth_stone_slab[type=double,waterlogged=false]
     collection:
       indirect: nether_wart_block
+  stripped_spruce_log:
+    itemMaterial: STRIPPED_SPRUCE_LOG
+    damage: 0
+    display: Double Smooth Stone Slab
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
   daylight_detector:
     itemMaterial: DAYLIGHT_DETECTOR
     damage: 0
-    display: 1/3 Engraved Stone Slab
+    display: Engraved Stone 1/3 Slab
     type: VANILLA
     collection:
       indirect: nether_wart_block
