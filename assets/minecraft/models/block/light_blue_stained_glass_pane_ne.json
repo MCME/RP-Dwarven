@@ -1,7 +1,7 @@
 {
   "parent": "block/deco_ne",
   "textures": {
-    "side": "block/red_mushroom_nwd_side",
+    "base": "block/red_mushroom_nwd_side",
     "top": "block/sponge",
     "particle": "block/red_mushroom_nwd_side"
   }

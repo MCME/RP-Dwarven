@@ -227,14 +227,14 @@ Items:
   stone_brick_stairs:
     itemMaterial: STONE_BRICK_STAIRS
     damage: 0
-    display: Small Bricks Stairs
+    display: Small Brick Stairs
     type: VANILLA
     collection:
       indirect: stone_bricks
   RedstoneComparator5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 68
-    display: Small bricks 1/4
+    display: Small brick 1/4
     type: BLOCK
     blockData: minecraft:comparator[facing=west,mode=subtract,powered=false]
     collection:
@@ -332,14 +332,14 @@ Items:
   dark_oak_stairs:
     itemMaterial: DARK_OAK_STAIRS
     damage: 0
-    display: Tiny Bricks Stairs
+    display: Tiny Brick Stairs
     type: VANILLA
     collection:
       indirect: stone_bricks
   dark_oak_slab:
     itemMaterial: DARK_OAK_SLAB
     damage: 0
-    display: Tiny Bricks Slab
+    display: Tiny Brick Slab
     type: VANILLA
     collection:
       indirect: stone_bricks
@@ -395,7 +395,7 @@ Items:
   red_nether_brick_middle_big:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 150
-    display: Fancy Tiny Bricks Pillar
+    display: Fancy Tiny Brick Pillar
     type: BLOCK
     blockData: red_nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -660,7 +660,7 @@ Items:
   nether_bricks:
     itemMaterial: NETHER_BRICKS
     damage: 0
-    display: Cracked Large Light Stone Bricks
+    display: Large Light Stone Bricks
     category: Block
     type: VANILLA
     collection:
@@ -690,7 +690,7 @@ Items:
   EndPortal3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 98
-    display: Cracked Large Light Stone Bricks 3/4
+    display: Large Light Brick 3/4 Block
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=false,facing=east]
     collection:
@@ -698,21 +698,21 @@ Items:
   nether_bricks_stairs:
     itemMaterial: NETHER_BRICK_STAIRS
     damage: 0
-    display: Cracked Large Light Stone Bricks stairs
+    display: Large Light Brick stairs
     type: VANILLA
     collection:
       indirect: nether_bricks
   nether_bricks_slab:
     itemMaterial: NETHER_BRICK_SLAB
     damage: 0
-    display: Cracked Large Light Stone Bricks slab
+    display: Large Light Brick slab
     type: VANILLA
     collection:
       indirect: nether_bricks
   RedstoneComparator4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 67
-    display: Cracked Large Light Stone Bricks 1/4
+    display: Large Light Brick 1/4 Block
     type: BLOCK
     blockData: minecraft:comparator[facing=south,mode=subtract,powered=false]
     collection:
@@ -762,7 +762,7 @@ Items:
   nether_brick_middle_big:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 259
-    display: Fancy Large Light Bricks Pillar
+    display: Fancy Large Light Brick Pillar
     type: BLOCK
     blockData: nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -786,7 +786,7 @@ Items:
   brick_stairs:
     itemMaterial: BRICK_STAIRS
     damage: 0
-    display: Large Dark Bricks Stairs
+    display: Large Dark Brick Stairs
     type: VANILLA
     collection:
       indirect: nether_bricks
@@ -850,7 +850,7 @@ Items:
   brick_middle_big:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 263
-    display: Fancy Large Dark Bricks Pillar
+    display: Fancy Large Dark Brick Pillar
     type: BLOCK
     blockData: brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:

@@ -215,7 +215,7 @@ Items:
   diamond_block:
     itemMaterial: DIAMOND_BLOCK
     damage: 1
-    display: Diamon block
+    display: Diamond block
     category: Misc
     type: VANILLA
     collection:
@@ -279,45 +279,45 @@ Items:
     damage: 0
     display: Fix Lighting Tool
     category: Misc
-    collecton: 
+    collection:
       indirect: flint
   axe:
     itemMaterial: WOODEN_AXE
     damage: 0
     display: World Edit Wand
     category: Misc
-    collecton: 
+    collection:
       indirect: flint
   arrow:
     itemMaterial: ARROW
     damage: 0
     display: Voxel Place
     category: Misc
-    collecton: 
+    collection:
       indirect: flint
   gunpowder:
     itemMaterial: GUNPOWDER
     damage: 0
     display: Voxel Remove
     category: Misc
-    collecton: 
+    collection:
       indirect: flint
   torch_hand:
     itemMaterial: TORCH
     damage: 0
     display: Torch
     category: Misc
-    collecton: 
+    collection:
       indirect: flint
   ghast_tear:
     itemMaterial: GHAST_TEAR
     damage: 0
     display: Sitting Tool (Requires perk)
-    collecton: 
+    collection:
       indirect: flint
   blaze_rod:
     itemMaterial: BLAZE_ROD
     damage: 0
     display: Animation Tool
-    collecton: 
+    collection:
       indirect: flint
