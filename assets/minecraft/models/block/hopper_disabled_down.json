@@ -3,7 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [48, 48],
 	"textures": {
-		"1": "block/minecart"
+		"1": "block/minecart",
+		"particle": "block/models/rails"
 	},
 	"elements": [
 		{

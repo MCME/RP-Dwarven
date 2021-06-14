@@ -10,6 +10,7 @@ Items:
     collection:
       C0: stone
       A1: light_gray_terracotta
+      A0: yellow_terracotta
       F1: coal_block
       G2: polished_andesite
       H2: polished_andesite_stairs
@@ -36,8 +37,16 @@ Items:
       I4: lime_concrete
       J4: andesite
       E2: yellow_stained_glass_pane_ns
-      J1: grey_stained_glass_pane_diagonal
+      J1: gray_stained_glass_pane_diagonal
       E3: cyan_stained_glass_pane_wall
+  yellow_terracotta:
+    itemMaterial: yellow_terracotta
+    damage: 4
+    display: Rough Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: stone
   cyan_stained_glass_pane_wall:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 285
@@ -60,7 +69,7 @@ Items:
     blockDataEast: minecraft:light_blue_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
     collection:
       indirect: stone
-  grey_stained_glass_pane_diagonal:
+  gray_stained_glass_pane_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 287
     display: Stone Diagonal
@@ -74,7 +83,7 @@ Items:
   polished_andesite:
     itemMaterial: POLISHED_ANDESITE
     damage: 6
-    display: Light Green Stone
+    display: Rough Gray Stone
     category: Terra
     type: VANILLA
     collection:
@@ -98,7 +107,7 @@ Items:
   coal_block:
     itemMaterial: COAL_BLOCK
     damage: 0
-    display: Pink Stone
+    display: Rough Light Gray Stone
     category: Terra
     type: VANILLA
     collection:
@@ -172,14 +181,14 @@ Items:
   polished_andesite_stairs:
     itemMaterial: POLISHED_ANDESITE_STAIRS
     damage: 0
-    display: Light Green Stone Stairs
+    display: Rough Gray Stone Stairs
     type: VANILLA
     collection:
       indirect: stone
   polished_andesite_slab:
     itemMaterial: POLISHED_ANDESITE_SLAB
     damage: 0
-    display: Light Green Stone Slab
+    display: Rough Gray Stone Slab
     type: VANILLA
     collection:
       indirect: stone
@@ -272,6 +281,7 @@ Items:
     blockDataWest: minecraft:iron_door[facing=west,half:upper,hinge:left,open=false,powered=true]
     collection:
       indirect: stone
+
 
 
   # dark stone collection
@@ -375,6 +385,7 @@ Items:
     type: VANILLA
     collection:
       A1: pink_concrete
+      A0: white_concrete
       F1: orange_concrete
       G2: polished_granite
       H2: polished_granite_stairs
@@ -394,10 +405,18 @@ Items:
       H4: andesite
       I4: stone
       J4: obsidian
+  white_concrete:
+    itemMaterial: WHITE_CONCRETE
+    damage: 0
+    display: Rough Light Brown Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: granite
   polished_granite:
     itemMaterial: POLISHED_GRANITE
     damage: 2
-    display: Rought Red Stone
+    display: Rough Red Stone
     category: Terra
     type: VANILLA
     collection:
@@ -468,14 +487,14 @@ Items:
   polished_granite_stairs:
     itemMaterial: POLISHED_GRANITE_STAIRS
     damage: 0
-    display: Red Stone Stairs
+    display: Rough Red Stone Stairs
     type: VANILLA
     collection:
       indirect: granite
   polished_granite_slab:
     itemMaterial: POLISHED_GRANITE_SLAB
     damage: 0
-    display: Red Stone Slab
+    display: Rough Red Stone Slab
     type: VANILLA
     collection:
       indirect: granite
@@ -538,9 +557,7 @@ Items:
     category: Terra
     type: VANILLA
     collection:
-      A1: yellow_terracotta
-      A0: white_concrete
-      F1: red_sand
+      A0: red_sand
       G2: andesite
       H2: andesite_stairs
       I2: andesite_slab
@@ -558,15 +575,7 @@ Items:
   andesite:
     itemMaterial: ANDESITE
     damage: 5
-    display: White Stone 1
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: diorite
-  white_concrete:
-    itemMaterial: WHITE_CONCRETE
-    damage: 0
-    display: White Stone 2
+    display: White Stone
     category: Terra
     type: VANILLA
     collection:
@@ -575,14 +584,6 @@ Items:
     itemMaterial: RED_SAND
     damage: 1
     display: Rough Light Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: diorite
-  yellow_terracotta:
-    itemMaterial: yellow_terracotta
-    damage: 4
-    display: Rough Light gray Stone
     category: Terra
     type: VANILLA
     collection:
