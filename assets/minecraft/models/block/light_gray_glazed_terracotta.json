@@ -1,12 +1,12 @@
 {
   "parent": "block/corner_block",
   "textures": {
-    "end": "block/pink_glazed_terracotta_end",
+    "end": "block/light_gray_glazed_terracotta_side_1",
     "side_1": "block/light_gray_glazed_terracotta_side_1",
     "side_2": "block/light_gray_glazed_terracotta_side_2",
     "side_3": "block/light_gray_glazed_terracotta_side_1",
     "side_4": "block/light_gray_glazed_terracotta_side_2",
-    "back": "block/pink_glazed_terracotta_back",
+    "back": "block/light_gray_glazed_terracotta_side_1",
     "particle": "block/light_gray_glazed_terracotta_side_1"
   }
 }
