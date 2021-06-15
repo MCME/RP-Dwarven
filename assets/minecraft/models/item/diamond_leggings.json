@@ -2048,6 +2048,13 @@
     },
     "name": 293,
     "model": "item/small_vase"
-}
+  },
+  {
+    "predicate": {
+      "damage": 0.59275
+    },
+    "name": 294,
+    "model": "block/tube_coral_wall_fan"
+  }  
   ]
 }

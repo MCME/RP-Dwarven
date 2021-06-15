@@ -472,3 +472,13 @@ Items:
     blockDataWest: minecraft:magenta_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: stained_glass_pane_purple
+  tube_coral_fan:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 294
+    display: Wall Runes
+    category: Deco
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:tube_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataSouth: minecraft:tube_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataEast: minecraft:tube_coral_wall_fan[facing=west,waterlogged=false]
+    blockDataWest: minecraft:tube_coral_wall_fan[facing=east,waterlogged=false]
