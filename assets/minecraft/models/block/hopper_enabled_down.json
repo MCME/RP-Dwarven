@@ -4,7 +4,8 @@
 	"ambientocclusion": false,
 	"texture_size": [48, 48],
 	"textures": {
-		"1": "block/minecart"
+		"1": "block/minecart",
+		"particle": "block/models/rails"
 	},
 	"elements": [
 		{
@@ -222,13 +223,13 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [10, 80, 0],
-			"translation": [2, 0, 0],
+			"rotation": [30, 80, 0],
+			"translation": [1.5, -1, 0],
 			"scale": [0.6, 0.6, 0.6]
 		},
 		"head": {
-			"scale": [1.6, 1.6, 1.6],
-            "rotation": [0,180,0]
+			"rotation": [0, 180, 0],
+			"scale": [1.6, 1.6, 1.6]
 		}
 	}
 }
