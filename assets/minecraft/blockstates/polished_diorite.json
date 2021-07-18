@@ -2,17 +2,17 @@
   "variants": {
     "": [
       {"model": "block/polished_diorite"},
-      {"model": "block/polished_diorite", "x": 90, "z": 90},
-      {"model": "block/polished_diorite", "x": 180, "z": 180},
-      {"model": "block/polished_diorite", "x": 270, "z": 270},
+      {"model": "block/polished_diorite", "y": 90},
+      {"model": "block/polished_diorite", "y": 180},
+      {"model": "block/polished_diorite", "y": 270},
       {"model": "block/polished_diorite1"},
-      {"model": "block/polished_diorite1", "x": 90, "z": 90},
-      {"model": "block/polished_diorite1", "x": 180, "z": 180},
-      {"model": "block/polished_diorite1", "x": 270, "z": 270},
+      {"model": "block/polished_diorite1", "y": 90},
+      {"model": "block/polished_diorite1", "y": 180},
+      {"model": "block/polished_diorite1", "y": 270},
       {"model": "block/polished_diorite2"},
-      {"model": "block/polished_diorite2", "x": 90, "z": 90},
-      {"model": "block/polished_diorite2", "x": 180, "z": 180},
-      {"model": "block/polished_diorite2", "x": 270, "z": 270}
+      {"model": "block/polished_diorite2", "y": 90},
+      {"model": "block/polished_diorite2", "y": 180},
+      {"model": "block/polished_diorite2", "y": 270}
     ]
   }
 }

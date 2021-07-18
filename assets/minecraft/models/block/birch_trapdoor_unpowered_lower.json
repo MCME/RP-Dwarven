@@ -1,0 +1,6 @@
+{
+    "parent": "block/thin_slab",
+    "textures": {
+        "side": "block/nether_bricks"
+    }   
+}
