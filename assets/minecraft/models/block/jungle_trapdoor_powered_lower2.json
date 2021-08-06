@@ -1,6 +1,6 @@
 {
     "parent": "block/thin_slab",
     "textures": {
-        "side": "block/cyan_terracotta3"
+        "side": "block/diorite2"
     }   
 }

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/diagonal_wedge",
-	"texture_size": [48, 48],
+	"texture_size": [16, 16],
 	"textures": {
-		"side": "block/stone"
+		"side": "block/light_gray_terracotta"
 	}
 }
