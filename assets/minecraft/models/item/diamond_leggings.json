@@ -2300,6 +2300,27 @@
     },
     "name": 329,
     "model": "block/jungle_trapdoor_powered_upper"
+  },
+  {
+    "predicate": {
+      "damage": 0.66532
+    },
+    "name": 330,
+    "model": "block/beam_diagonal_s_down"
+  },
+  {
+    "predicate": {
+      "damage": 0.66734
+    },
+    "name": 331,
+    "model": "block/beam_diagonal_s"
+  },
+  {
+    "predicate": {
+      "damage": 0.66935
+    },
+    "name": 332,
+    "model": "block/beam_diagonal_s_support"
   }   
   ]
 }

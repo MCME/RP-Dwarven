@@ -166,8 +166,11 @@ Items:
       A0: chorus_plant
       F1: chorus_flower_1
       G2: oak_wood
+      H2: oak_trapdoor
       I2: oak_log
-      E1: oak_trapdoor
+      J1: upper_support_plus
+      E0: upper_support
+      E1: support
       D2: jungle_log
       B2: jungle_wood
       A4: birch_fence
@@ -232,7 +235,103 @@ Items:
     blockData: minecraft:chorus_plant
     collection:
       indirect: chorus_flower_1
+  
   #inside collection
+    
+  support:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 330
+    display: Support Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:blackstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:blackstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # editDataNorth refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:blackstone_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=low]
+      S: minecraft:blackstone_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]
+      E: minecraft:blackstone_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+      WS: minecraft:blackstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]
+      SE: minecraft:blackstone_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=tall]
+      EN: minecraft:blackstone_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NS: minecraft:blackstone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=tall]
+      WE: minecraft:blackstone_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=low]
+      NWS: minecraft:blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=low]
+      WSE: minecraft:blackstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=tall]
+      SEN: minecraft:blackstone_wall[east=tall,north=low,south=low,up=false,waterlogged=false,west=tall]
+      ENW: minecraft:blackstone_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      NWSE: minecraft:blackstone_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=tall]
+    # editDataEast refer to blockDataEast. Block data which are obmitted here are obtained from editDataNorth
+    # by rotation
+    collection:
+      indirect: chorus_flower_1
+  upper_support:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 331
+    display: Upper Support Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:blackstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:blackstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Missing entries will make that combination not available.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:blackstone_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:blackstone_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+      E: minecraft:blackstone_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:blackstone_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      WS: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=tall]
+      SE: minecraft:blackstone_wall[east=tall,north=low,south=low,up=true,waterlogged=false,west=low]
+      EN: minecraft:blackstone_wall[east=tall,north=low,south=none,up=false,waterlogged=false,west=tall]
+      NS: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=tall]
+      WE: minecraft:blackstone_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]
+      NWS: minecraft:blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=tall]
+      WSE: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=tall]
+      SEN: minecraft:blackstone_wall[east=tall,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      ENW: minecraft:blackstone_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      NWSE: minecraft:blackstone_wall[east=low,north=tall,south=low,up=false,waterlogged=false,west=tall]
+    # editDataSouth refer to blockDataSouth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataSouth
+    # Entries which are obmitted here are obtained from editDataNorth by rotation
+    editDataSouth:
+      WE: minecraft:blackstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=tall]
+    editDataWest:
+      NS: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: chorus_flower_1
+  upper_support_plus:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 333
+    display: Upper Support Beams with horizontal Beam
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:blackstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:blackstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      W: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      E: minecraft:blackstone_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:blackstone_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=low]
+      WS: minecraft:blackstone_wall[east=none,north=low,south=tall,up=false,waterlogged=false,west=low]
+      SE: minecraft:blackstone_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=low]
+      EN: minecraft:blackstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: chorus_flower_1
   jungle_wood:
     itemMaterial: JUNGLE_WOOD
     damage: 15

@@ -903,7 +903,7 @@ Items:
   campfire_dark_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 118
-    display: Dark boulders
+    display: Dark Boulders
     type: BLOCK
     blockData: minecraft:campfire[facing=east,lit=false,signal_fire=false,waterlogged=false]
     collection:
@@ -919,7 +919,7 @@ Items:
   campfire_sandstone_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 120
-    display: Sandstone boulders
+    display: Sandstone Boulders
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
     collection:
@@ -927,7 +927,7 @@ Items:
   campfire_ore_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 275
-    display: Ore boulders
+    display: Ore Boulders
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
     collection:
@@ -935,7 +935,7 @@ Items:
   noteblock_light_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 121
-    display: Light large boulders
+    display: Light Large Boulders
     category: Terra
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=0,powered=false]
@@ -947,7 +947,7 @@ Items:
   noteblock_dark_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 122
-    display: Dark large boulders
+    display: Dark Large Boulders
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=4,powered=false]
     blockDataWest: minecraft:note_block[instrument=basedrum,note=5,powered=false]
@@ -958,7 +958,7 @@ Items:
   noteblock_mixed_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 123
-    display: Crystal large boulders
+    display: Cobblestone Large Boulder
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=8,powered=false]
     blockDataWest: minecraft:note_block[instrument=basedrum,note=9,powered=false]
