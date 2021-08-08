@@ -9,36 +9,24 @@ Items:
     type: VANILLA
     collection:
       C0: stone
-      A1: light_gray_terracotta
-      A0: yellow_terracotta
-      F1: coal_block
-      G2: polished_andesite
-      H2: polished_andesite_stairs
-      I2: polished_andesite_slab
-      J2: stone_button
-      E0: very_thin_stone_pillar
-      E1: iron_door_bottom
-      D2: stone_slab
-      C2: stone_stairs
-      B2: cyan_terracotta
+      F1: yellow_terracotta
+      G2: stone_stairs
+      I2: stone_slab
+      J1: mossy_cobblestone_wall_wedge
+      E1: mossy_cobblestone_wall_arch
+      D2: gray_stained_glass_pane_diagonal
+      C2: oak_trapdoor_unpowered_upper_flat
+      B2: oak_trapdoor_unpowered_upper
+      A1: very_thin_stone_pillar
       A4: stone_vertical_slab
       B4: stone_vertical_stair
       C4: stone_balustrade
-      D4: thin_stone_pillar
-      E4: fancy_thin_stone_pillar
-      A3: andesite_vertical_slab
-      B3: andesite_vertical_stair
-      C3: andesite_balustrade
-      D3: thin_andesite_pillar
-      E3: fancy_thin_andesite_pillar
-      F4: gray_concrete
-      G4: brown_concrete
-      H4: obsidian
+      D4: stone_thin_pillar
+      E4: stone_fancy_thin_pillar
+      G4: andesite
+      H4: cyan_terracotta
       I4: lime_concrete
-      J4: andesite
-      E2: yellow_stained_glass_pane_ns
-      J1: gray_stained_glass_pane_diagonal
-      E3: cyan_stained_glass_pane_wall
+      J4: obsidian
   yellow_terracotta:
     itemMaterial: yellow_terracotta
     damage: 4
@@ -47,26 +35,48 @@ Items:
     type: VANILLA
     collection:
       indirect: stone
-  cyan_stained_glass_pane_wall:
+  
+  #inside collection
+  oak_trapdoor_unpowered_upper_flat:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 285
-    display: Gray Stone Thin Wall
-    type: FOUR_DIRECTIONS
-    blockDataEast: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
-    blockDataNorth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
-    blockDataWest: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
-    blockDataSouth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    damage: 63
+    display: Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:oak_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
     collection:
       indirect: stone
-  yellow_stained_glass_pane_ns:
+  oak_trapdoor_unpowered_upper:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 68
+    display: Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: stone
+  mossy_cobblestone_wall_wedge:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 286
-    display: Stone Arch
+    display: Stone Wedge
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:yellow_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:yellow_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
-    blockDataNorth: minecraft:light_blue_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
-    blockDataEast: minecraft:light_blue_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mossy_cobblestone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: stone
+  mossy_cobblestone_wall_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 165
+    display: Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mossy_cobblestone_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mossy_cobblestone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mossy_cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
     collection:
       indirect: stone
   gray_stained_glass_pane_diagonal:
@@ -78,118 +88,6 @@ Items:
     blockDataEast: minecraft:gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
     blockDataSouth: minecraft:gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
-    collection:
-      indirect: stone
-  polished_andesite:
-    itemMaterial: POLISHED_ANDESITE
-    damage: 6
-    display: Rough Gray Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: stone
-  gray_concrete:
-    itemMaterial: GRAY_CONCRETE
-    damage: 7
-    display: Light Gray Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: stone
-  light_gray_terracotta:
-    itemMaterial: LIGHT_GRAY_TERRACOTTA
-    damage: 8
-    display: Mossy Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: stone
-  coal_block:
-    itemMaterial: COAL_BLOCK
-    damage: 0
-    display: Rough Light Gray Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: stone
-  cyan_terracotta:
-    itemMaterial: CYAN_TERRACOTTA
-    damage: 9
-    display: Gray Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: stone
-  
-  #inside collection
-  andesite_vertical_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 171
-    display: Vertical Gray Stone Slab
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:andesite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
-    blockDataSouth: minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
-    collection:
-      indirect: diorite
-  andesite_vertical_stair:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 172
-    display: Vertical Gray Stone Stair
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:andesite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
-    blockDataEast: minecraft:andesite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
-    collection:
-      indirect: diorite
-  andesite_balustrade:
-    itemMaterial: ANDESITE_WALL
-    damage: 0
-    display: Gray Stone Balustrade
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
-    blockDataEast: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    blockDataWest: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
-    collection:
-      indirect: diorite
-  fancy_thin_andesite_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 173
-    display: Fancy Gray Stone Pillar
-    type: BLOCK
-    blockData: minecraft:andesite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
-    collection:
-      indirect: diorite
-  thin_andesite_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 174
-    display: White Gray Pillar
-    type: BLOCK
-    blockData: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
-    collection:
-      indirect: diorite
-  brown_concrete:
-    itemMaterial: BROWN_CONCRETE
-    damage: 12
-    display: Smooth gray Stone
-    type: VANILLA
-    collection:
-      indirect: stone
-  polished_andesite_stairs:
-    itemMaterial: POLISHED_ANDESITE_STAIRS
-    damage: 0
-    display: Rough Gray Stone Stairs
-    type: VANILLA
-    collection:
-      indirect: stone
-  polished_andesite_slab:
-    itemMaterial: POLISHED_ANDESITE_SLAB
-    damage: 0
-    display: Rough Gray Stone Slab
-    type: VANILLA
     collection:
       indirect: stone
   stone_stairs:
@@ -206,17 +104,10 @@ Items:
     type: VANILLA
     collection:
       indirect: stone
-  stone_button:
-    itemMaterial: STONE_BUTTON
-    damage: 0
-    display: Stone Button
-    type: VANILLA
-    collection:
-      indirect: stone
   stone_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 161
-    display: Vertical Stone Slab
+    display: Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataSouth: minecraft:mossy_cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
@@ -227,7 +118,7 @@ Items:
   stone_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 162
-    display: Vertical Stone Stair
+    display: Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataSouth: minecraft:mossy_cobblestone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
@@ -246,7 +137,7 @@ Items:
     blockDataWest: minecraft:mossy_cobblestone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: stone
-  fancy_thin_stone_pillar:
+  stone_fancy_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 163
     display: Fancy Stone Pillar
@@ -254,7 +145,7 @@ Items:
     blockData: minecraft:mossy_cobblestone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: stone
-  thin_stone_pillar:
+  stone_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 164
     display: Stone Pillar
@@ -270,18 +161,294 @@ Items:
     blockData: minecraft:pink_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: stone
-  iron_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 165
-    display: Vertical Stone Trapdoor
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:iron_door[facing=north,half:upper,hinge:left,open=false,powered=true]
-    blockDataSouth: minecraft:iron_door[facing=south,half:upper,hinge:left,open=false,powered=true]
-    blockDataEast: minecraft:iron_door[facing=east,half:upper,hinge:left,open=false,powered=true]
-    blockDataWest: minecraft:iron_door[facing=west,half:upper,hinge:left,open=false,powered=true]
-    collection:
-      indirect: stone
 
+  # gray stone collection
+  cyan_terracotta:
+    itemMaterial: CYAN_TERRACOTTA
+    damage: 9
+    display: Gray Stone
+    category: Terra
+    type: VANILLA
+    collection:
+     C0: cyan_terracotta
+     A0: light_gray_terracotta
+     F1: cyan_stained_glass_pane_wall
+     F2: jungle_trapdoor_unpowered_lower
+     G2: jungle_trapdoor_unpowered_lower_flat
+     H2: gray_concrete
+     I2: coal_block
+     J2: polished_blackstone_wall_arch
+     J1: polished_blackstone_wall_wedge
+     E0: brown_concrete
+     E1: andesite_wall_wedge
+     E2: andesite_wall_arch
+     D2: polished_andesite_slab
+     C2: polished_andesite_stairs
+     B2: birch_trapdoor_powered_upper_flat
+     A2: birch_trapdoor_powered_upper
+     A1: polished_andesite
+     A4: andesite_vertical_slab
+     B4: andesite_vertical_stair
+     C4: andesite_balustrade
+     D4: andesite_thin_pillar
+     E4: andesite_fancy_thin_pillar
+     A3: polished_blackstone_vertical_slab
+     B3: polished_blackstone_vertical_stair
+     C3: polished_blackstone_balustrade
+     D3: polished_blackstone_thin_pillar
+     E3: polished_blackstone_fancy_thin_pillar
+     G4: andesite
+     H4: stone
+     I4: lime_concrete
+     J4: obsidian
+  polished_andesite:
+    itemMaterial: POLISHED_ANDESITE
+    damage: 6
+    display: Rough Gray Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: cyan_terracotta
+  gray_concrete:
+    itemMaterial: GRAY_CONCRETE
+    damage: 7
+    display: Light Gray Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: cyan_terracotta
+  light_gray_terracotta:
+    itemMaterial: LIGHT_GRAY_TERRACOTTA
+    damage: 8
+    display: Light Green Stone Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: cyan_terracotta
+  coal_block:
+    itemMaterial: COAL_BLOCK
+    damage: 0
+    display: Rough Light Gray Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: cyan_terracotta
+
+  #inside collection
+  birch_trapdoor_powered_upper_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 69
+    display: Gray Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:birch_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:birch_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: cyan_terracotta
+  birch_trapdoor_powered_upper:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 71
+    display: Gray Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:birch_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:birch_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:birch_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:birch_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: cyan_terracotta
+  jungle_trapdoor_unpowered_lower_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 72
+    display: Light Green Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: cyan_terracotta
+  jungle_trapdoor_unpowered_lower:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 238
+    display: Light Green Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: cyan_terracotta
+  andesite_wall_wedge:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 295
+    display: Gray Stone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:andesite_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:andesite_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: cyan_terracotta
+  andesite_wall_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 296
+    display: Gray Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:andesite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:andesite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: cyan_terracotta
+  cyan_stained_glass_pane_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 285
+    display: Gray Stone Thin Wall
+    type: FOUR_DIRECTIONS
+    blockDataEast: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataNorth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    blockDataSouth: minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    collection:
+      indirect: cyan_terracotta
+  andesite_vertical_slab:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 171
+    display: Gray Stone Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:andesite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cyan_terracotta
+  andesite_vertical_stair:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 172
+    display: Gray Stone Vertical Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:andesite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cyan_terracotta
+  andesite_balustrade:
+    itemMaterial: ANDESITE_WALL
+    damage: 0
+    display: Gray Stone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: cyan_terracotta
+  andesite_fancy_thin_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 173
+    display: Fancy Gray Stone Pillar
+    type: BLOCK
+    blockData: minecraft:andesite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cyan_terracotta
+  andesite_thin_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 174
+    display: Gray Stone Pillar
+    type: BLOCK
+    blockData: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: cyan_terracotta
+  polished_blackstone_vertical_slab:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 297
+    display: Light Green Stone Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:polished_blackstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_blackstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cyan_terracotta
+  polished_blackstone_vertical_stair:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 298
+    display: Light Green Stone Vertical Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:polished_blackstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_blackstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_blackstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cyan_terracotta
+  polished_blackstone_balustrade:
+    itemMaterial: polished_blackstone_WALL
+    damage: 0
+    display: Light Green Stone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_blackstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:polished_blackstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:polished_blackstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_blackstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: cyan_terracotta
+  polished_blackstone_fancy_thin_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 299
+    display: Fancy Light Green Stone Pillar
+    type: BLOCK
+    blockData: minecraft:polished_blackstone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: cyan_terracotta
+  polished_blackstone_thin_pillar:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 300
+    display: Light Green Stone Pillar
+    type: BLOCK
+    blockData: minecraft:polished_blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: cyan_terracotta
+  polished_blackstone_wall_wedge:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 301
+    display: Light Green Stone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:polished_blackstone_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_blackstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:polished_blackstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: cyan_terracotta
+  polished_blackstone_wall_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 302
+    display: Light Green Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:polished_blackstone_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_blackstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: cyan_terracotta
+  brown_concrete:
+    itemMaterial: BROWN_CONCRETE
+    damage: 0
+    display: Smooth gray Stone
+    type: VANILLA
+    collection:
+      indirect: cyan_terracotta
+  polished_andesite_stairs:
+    itemMaterial: POLISHED_ANDESITE_STAIRS
+    damage: 0
+    display: Rough Gray Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: cyan_terracotta
+  polished_andesite_slab:
+    itemMaterial: POLISHED_ANDESITE_SLAB
+    damage: 0
+    display: Rough Gray Stone Slab
+    type: VANILLA
+    collection:
+      indirect: cyan_terracotta
 
 
   # dark stone collection
@@ -302,9 +469,10 @@ Items:
       D2: coarse_dirt
       C2: bedrock
       B2: obsidian
-      H4: lime_concrete
-      I4: stone
-      J4: andesite
+      G4: andesite
+      H4: stone
+      I4: cyan_terracotta
+      J4: lime_concrete
   lime_terracotta:
     itemMaterial: LIME_TERRACOTTA
     damage: 5
@@ -384,26 +552,27 @@ Items:
     category: Terra
     type: VANILLA
     collection:
+      C0: granite
       A1: pink_concrete
-      A0: white_concrete
+      A0: light_blue_concrete
       F1: orange_concrete
       G2: polished_granite
       H2: polished_granite_stairs
       I2: polished_granite_slab
       J1: lime_concrete
+      E0: terracotta
       E1: cyan_concrete
       D2: granite_slab 
       C2: granite_stairs
-      B2: granite
+      B2: white_concrete
       A4: granite_vertical_slab
       B4: granite_vertical_stair
       C4: granite_balustrade
-      D4: thin_granite_pillar
-      E4: fancy_thin_granite_pillar
-      F4: light_blue_concrete
-      G4: terracotta
-      H4: andesite
-      I4: stone
+      D4: granite_thin_pillar
+      E4: granite_fancy_thin_pillar
+      G4: andesite
+      H4: stone
+      I4: cyan_terracotta
       J4: obsidian
   white_concrete:
     itemMaterial: WHITE_CONCRETE
@@ -501,7 +670,7 @@ Items:
   granite_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 167
-    display: Vertical Rough Brown Stone Slab
+    display: Rough Brown Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:granite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataSouth: minecraft:granite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
@@ -512,7 +681,7 @@ Items:
   granite_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 168
-    display: Vertical Rough Brown Stone Stair
+    display: Rough Brown Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:granite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataSouth: minecraft:granite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
@@ -531,7 +700,7 @@ Items:
     blockDataWest: minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: granite
-  fancy_thin_granite_pillar:
+  granite_fancy_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 169
     display: Fancy Rough Brown Stone Pillar
@@ -539,7 +708,7 @@ Items:
     blockData: minecraft:granite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: granite
-  thin_granite_pillar:
+  granite_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 170
     display: Rough Brown Stone Pillar
@@ -558,20 +727,25 @@ Items:
     type: VANILLA
     collection:
       A0: red_sand
+      F1: jungle_trapdoor_powered_lower_flat
       G2: andesite
       H2: andesite_stairs
       I2: andesite_slab
-      J1: stone
-      E0: lime_concrete
-      E1: obsidian
+      J1: diorite_wall_wedge
+      E1: diorite_wall_arch
       D2: diorite_slab
       C2: diorite_stairs
       B2: diorite
+      A1: jungle_trapdoor_powered_lower
       A4: diorite_vertical_slab
       B4: diorite_vertical_stair
       C4: diorite_balustrade
-      D4: thin_diorite_pillar
-      E4: fancy_thin_diorite_pillar
+      D4: diorite_thin_pillar
+      E4: diorite_fancy_thin_pillar
+      G4: stone
+      H4: cyan_terracotta
+      I4: lime_concrete
+      J4: obsidian
   andesite:
     itemMaterial: ANDESITE
     damage: 5
@@ -590,6 +764,48 @@ Items:
       indirect: diorite
   
   #inside collection
+  jungle_trapdoor_powered_lower_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 306
+    display: Smooth Light Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:jungle_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:jungle_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: diorite
+  jungle_trapdoor_powered_lower:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 307
+    display: Smooth Light Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: diorite
+  diorite_wall_wedge:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 303
+    display: Smooth White Stone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:diorite_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:diorite_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:diorite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: diorite
+  diorite_wall_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 304
+    display: Smooth White Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:diorite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:diorite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:diorite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: diorite
   andesite_stairs:
     itemMaterial: ANDESITE_STAIRS
     damage: 0
@@ -621,7 +837,7 @@ Items:
   diorite_vertical_slab:       
     itemMaterial: DIAMOND_LEGGINGS
     damage: 175
-    display: Vertical Smooth White Stone Slab
+    display: Smooth White Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:diorite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataSouth: minecraft:diorite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
@@ -632,7 +848,7 @@ Items:
   diorite_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 176
-    display: Vertical Smooth White Stone Stair
+    display: Smooth White Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:diorite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataSouth: minecraft:diorite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
@@ -651,7 +867,7 @@ Items:
     blockDataWest: minecraft:diorite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: diorite
-  fancy_thin_diorite_pillar:
+  diorite_fancy_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 177
     display: Fancy Smooth White Stone Pillar
@@ -659,7 +875,7 @@ Items:
     blockData: minecraft:diorite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: diorite
-  thin_diorite_pillar:
+  diorite_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 178
     display: Smooth White Stone Pillar
