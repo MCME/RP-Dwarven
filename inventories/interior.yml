@@ -100,6 +100,8 @@ Items:
       E4: dark_oak_button_floor_south
       F4: lever_ground
       G4: lever_wall
+      H4: red_banner
+      I4: blue_banner
   dark_oak_button_floor_west:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 293
@@ -247,6 +249,30 @@ Items:
     blockDataWest: minecraft:tripwire_hook[attached=false,facing=east,powered=false]
     blockDataNorth: minecraft:tripwire_hook[attached=false,facing=south,powered=false]
     blockDataEast: minecraft:tripwire_hook[attached=false,facing=west,powered=false]
+    collection:
+      indirect: Crops5
+  red_banner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 333
+    display: Red Wall Banner
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:bubble_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataSouth: minecraft:bubble_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataEast: minecraft:bubble_coral_wall_fan[facing=west,waterlogged=false]
+    blockDataWest: minecraft:bubble_coral_wall_fan[facing=east,waterlogged=false]
+    collection:
+      indirect: Crops5
+  blue_banner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 334
+    display: Blue Wall Banner
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:brain_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataSouth: minecraft:brain_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataEast: minecraft:brain_coral_wall_fan[facing=west,waterlogged=false]
+    blockDataWest: minecraft:brain_coral_wall_fan[facing=east,waterlogged=false]
     collection:
       indirect: Crops5
   lever_ground:
@@ -705,3 +731,4 @@ Items:
     type: VANILLA
     collection:
       indirect: bed_magenta
+  

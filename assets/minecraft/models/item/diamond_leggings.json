@@ -2321,6 +2321,20 @@
     },
     "name": 332,
     "model": "block/beam_diagonal_s_support"
-  }   
+  },
+  {
+    "predicate": {
+      "damage": 0.67137
+    },
+    "name": 333,
+    "model": "block/red_banner"
+  },
+  {
+    "predicate": {
+      "damage": 0.67339
+    },
+    "name": 334,
+    "model": "block/blue_banner"
+  }         
   ]
 }
