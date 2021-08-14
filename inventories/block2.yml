@@ -2,32 +2,75 @@ Items:
   purpur_block:
     itemMaterial: PURPUR_BLOCK
     damage: 0
-    display: Smooth Black Stone
+    display: Black Stone
     category: Block2
     type: VANILLA
     collection:
-      A0: RedstoneComparator9
-      F1: purpur_slab
-      G2: EndPortal7
-      H2: purpur_stairs
-      I2: purpur_block
-      J1: end_stone
-      E0: quartz_pillar
-      E1: cyan_stained_glass_pane
+      F1: spruce_trapdoor_unpowered_lower_flat
+      G2: purpur_stairs
+      H2: EndPortal7
+      I2: purpur_slab
+      J1: prismarine_wall_wedge
+      E0: cyan_stained_glass_pane
+      E1: prismarine_wall_arch
       D2: quartz_pillar
       C2: chiseled_quartz_block
-      A4: prismarine_wall_pillar
-      B4: prismarine_wall_side
-      C4: prismarine_wall_diagonal
-      D4: prismarine_wall_middle
-      E4: prismarine_wall_middle_big
+      B2: end_stone
+      A1: spruce_trapdoor_unpowered_lower
+      A4: prismarine_vertical_slab
+      B4: prismarine_vertical_stair
+      C4: prismarine_balustrade
+      D4: thin_prismarine_pillar
+      E4: fancy_thin_prismarine_pillar
       F4: quartz_block
       G4: quartz_stairs
       H4: quartz_slab
       I4: yellow_stained_glass_pane
       J4: yellow_stained_glass_pane_side
       J3: yellow_stained_glass_pane_diagonal
-  prismarine_wall_pillar:
+  spruce_trapdoor_unpowered_lower_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 322
+    display: Black Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: purpur_block
+  spruce_trapdoor_unpowered_lower:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 323
+    display: Black Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: purpur_block
+  prismarine_wall_wedge:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 64
+    display: Black Stone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:prismarine_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:prismarine_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:prismarine_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:prismarine_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: purpur_block
+  prismarine_wall_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 65
+    display: Black Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:prismarine_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:prismarine_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:prismarine_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:prismarine_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: purpur_block
+  thin_prismarine_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 288
     display: Black Stone Pillar 
@@ -35,7 +78,7 @@ Items:
     blockData: minecraft:prismarine_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: purpur_block
-  prismarine_wall_side:
+  prismarine_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 289
     display: Vertical Black Stone Slab
@@ -47,7 +90,7 @@ Items:
     blockDataWest: minecraft:prismarine_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
     collection:
       indirect: purpur_block
-  prismarine_wall_diagonal:
+  prismarine_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 290
     display: Vertical Black Stone Stair
@@ -58,7 +101,7 @@ Items:
     blockDataWest: minecraft:prismarine_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: purpur_block
-  prismarine_wall_middle:
+  prismarine_balustrade:
     itemMaterial: PRISMARINE_WALL
     damage: 0
     display: Small Black Stone Balustrade
@@ -69,7 +112,7 @@ Items:
     blockDataWest: minecraft:prismarine_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: purpur_block
-  prismarine_wall_middle_big:
+  fancy_thin_prismarine_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 291
     display: Fancy Small Black Pillar
@@ -89,14 +132,6 @@ Items:
     damage: 0
     display: Black Stone Slab
     type: VANILLA
-    collection:
-      indirect: purpur_block
-  RedstoneComparator9:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 72
-    display: Black Stone 1/4
-    type: BLOCK
-    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
     collection:
       indirect: purpur_block
   EndPortal7:
@@ -211,10 +246,10 @@ Items:
       C2: lime_concrete_powder
       B2: red_concrete_powder
       F3: gray_stained_glass_pane
-      F4: gray_stained_glass_pane_diagonal
+      F4: gray_stained_glass_pane_thin
       G4: acacia_stairs
       H4: acacia_slab
-      I4: RedstoneComparator3
+      I4: RedstoneComparator7
       J4: acacia_button
   gold_block:
     itemMaterial: GOLD_BLOCK
@@ -337,7 +372,7 @@ Items:
     blockData: minecraft:gray_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
       indirect: iron_block
-  gray_stained_glass_pane_diagonal:
+  gray_stained_glass_pane_thin:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 237
     display: White Cobblestone Thin Wall
@@ -572,20 +607,63 @@ Items:
     category: Block2
     type: VANILLA
     collection:
-      A1: chiseled_red_sandstone
-      A0: red_sandstone
-      F1: red_sandstone_stairs
-      G2: EndPortal6
-      H2: red_sandstone_slab
-      I2: RedstoneComparator8
-      J1: lime_stained_glass_pane
-      E0: pink_stained_glass_pane
+      C0: red_sandstone
+      F1: spruce_trapdoor_powered_lower_flat
+      G2: red_sandstone_stairs
+      H2: EndPortal6
+      I2: red_sandstone_slab
+      J1: red_sandstone_wall_wedge
+      E1: red_sandstone_wall_arch
+      D2: chiseled_red_sandstone
       B2: cut_red_sandstone
-      A4: red_sandstone_wall_pillar
-      B4: red_sandstone_wall_wall
-      D4: red_sandstone_wall_middle
-      C4: red_sandstone_wall_diagonal
-      E4: red_sandstone_wall_middle_big
+      A1: spruce_trapdoor_powered_lower
+      A4: red_sandstone_vertical_slab
+      B4: red_sandstone_vertical_stair
+      C4: red_sandstone_balustrade
+      D4: red_sandstone_thin_pillar
+      E4: red_sandstone_fancy_thin_pillar
+  spruce_trapdoor_powered_lower_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 324
+    display: Green Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: red_sandstone
+  spruce_trapdoor_powered_lower:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 325
+    display: Green Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_wall_wedge:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 66
+    display: Green Stone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_sandstone_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:red_sandstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:red_sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: red_sandstone
+  red_sandstone_wall_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 67
+    display: Green Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_sandstone_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:red_sandstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: red_sandstone
   EndPortal6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 101
@@ -599,14 +677,6 @@ Items:
     damage: 0
     display: Green Stone Slab
     type: VANILLA
-    collection:
-      indirect: red_sandstone
-  RedstoneComparator8:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 71
-    display: Green Stone 1/4
-    type: BLOCK
-    blockData: minecraft:comparator[facing=south,mode=compare,powered=true]
     collection:
       indirect: red_sandstone
   red_sandstone_stairs:
@@ -631,18 +701,7 @@ Items:
     type: VANILLA
     collection:
       indirect: red_sandstone
-  pink_stained_glass_pane:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 238
-    display: Green Stone Arch
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:pink_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
-    blockDataWest: minecraft:pink_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
-    blockDataNorth: minecraft:lime_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
-    blockDataEast: minecraft:lime_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
-    collection:
-      indirect: red_sandstone
-  red_sandstone_wall_pillar:
+  red_sandstone_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 240
     display: Green Stone Pillar
@@ -651,7 +710,7 @@ Items:
     blockData: minecraft:red_sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: red_sandstone
-  red_sandstone_wall_wall:
+  red_sandstone_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 241
     display: Vertical Green Stone Slab
@@ -662,7 +721,7 @@ Items:
     blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
     collection:
       indirect: red_sandstone
-  red_sandstone_wall_diagonal:
+  red_sandstone_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 242
     display: Vertical Green Stone Stair
@@ -673,7 +732,7 @@ Items:
     blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: red_sandstone
-  red_sandstone_wall_middle:
+  red_sandstone_balustrade:
     itemMaterial: RED_SANDSTONE_WALL
     damage: 0
     display: Green Stone Balustrade
@@ -684,7 +743,7 @@ Items:
     blockDataWest: minecraft:red_sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     collection:
       indirect: red_sandstone
-  red_sandstone_wall_middle_big:
+  red_sandstone_fancy_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 239
     display: Fancy Green Stone Pillar
@@ -935,11 +994,11 @@ Items:
      G2: end_stone_brick_slab
      H2: end_stone_brick_stair
      I2: end_stone_bricks
-     F4: end_stone_brick_wall_pillar
-     G4: end_stone_brick_wall_side
-     H4: end_stone_brick_wall_diagonal
-     I4: end_stone_brick_wall_middle
-     J4: end_stone_brick_middle_big
+     F4: end_stone_brick_vertical_slab
+     G4: end_stone_brick_vertical_stair
+     H4: end_stone_brick_balustrade
+     I4: end_stone_brick_thin_pillar
+     J4: end_stone_brick_fancy_thin_pillar
   mossy_cobblestone:
     itemMaterial: MOSSY_COBBLESTONE
     damage: 0
@@ -992,7 +1051,7 @@ Items:
     type: VANILLA
     collection:
       indirect: yellow_concrete_powder
-  end_stone_brick_wall_pillar:
+  end_stone_brick_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 255
     display: Slag Pillar
@@ -1000,7 +1059,7 @@ Items:
     blockData: minecraft:end_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: yellow_concrete_powder
-  end_stone_brick_wall_side:
+  end_stone_brick_vertical_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 277
     display: Vertical Slab Slab
@@ -1012,7 +1071,7 @@ Items:
     blockDataWest: minecraft:end_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
     collection:
       indirect: yellow_concrete_powder
-  end_stone_brick_wall_diagonal:
+  end_stone_brick_vertical_stair:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 278
     display: Vertical Slag Stairs
@@ -1023,7 +1082,7 @@ Items:
     blockDataWest: minecraft:end_stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: yellow_concrete_powder
-  end_stone_brick_wall_middle:
+  end_stone_brick_balustrade:
     itemMaterial: END_STONE_BRICK_WALL
     damage: 0
     display: Slag Balustrade
@@ -1034,7 +1093,7 @@ Items:
     blockDataWest: minecraft:end_stone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     collection:
       indirect: yellow_concrete_powder
-  end_stone_brick_middle_big:
+  end_stone_brick_fancy_thin_pillar:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 279
     display: Fancy Slag Pillar
