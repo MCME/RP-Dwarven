@@ -1,8 +1,8 @@
 {
   "parent": "block/boulders_big_4",
   "textures": {
-    "0": "block/red_stained_glass_comp",
-	"1": "block/red_stained_glass_comp",
-	"2": "block/red_stained_glass_comp"
+    "0": "block/cobblestone_comp",
+	"1": "block/cobblestone_comp",
+	"2": "block/cobblestone_comp"
   }
 }

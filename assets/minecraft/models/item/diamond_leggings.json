@@ -437,49 +437,49 @@
         "damage": 0.12702
       },
       "name": 63,
-      "model": "block/comparator_2"
+      "model": "item/oak_trapdoor_powered_s"
     },
     {
       "predicate": {
         "damage": 0.12903
       },
       "name": 64,
-      "model": "block/comparator_3"
+      "model": "block/prismarine_wall_wedge"
     },
     {
       "predicate": {
         "damage": 0.13105
       },
       "name": 65,
-      "model": "block/comparator_0"
+      "model": "item/prismarine_wall_arch"
     },
     {
       "predicate": {
         "damage": 0.13306
       },
       "name": 66,
-      "model": "block/comparator_1"
+      "model": "block/red_sandstone_wall_wedge"
     },
     {
       "predicate": {
         "damage": 0.13508
       },
       "name": 67,
-      "model": "block/comparator_10"
+      "model": "item/red_sandstone_wall_arch"
     },
     {
       "predicate": {
         "damage": 0.13710
       },
       "name": 68,
-      "model": "block/comparator_11"
+      "model": "block/oak_trapdoor_unpowered_upper"
     },
     {
       "predicate": {
         "damage": 0.13911
       },
       "name": 69,
-      "model": "block/comparator_8"
+      "model": "item/birch_trapdoor_powered_w"
     },
     {
       "predicate": {
@@ -493,14 +493,14 @@
         "damage": 0.14315
       },
       "name": 71,
-      "model": "block/comparator_6"
+      "model": "block/birch_trapdoor_powered_upper"
     },
     {
       "predicate": {
         "damage": 0.14516
       },
       "name": 72,
-      "model": "block/comparator_7"
+      "model": "item/jungle_trapdoor_powered_n"
     },
     {
       "predicate": {
@@ -983,7 +983,7 @@
         "damage": 0.28427
       },
       "name": 141,
-      "model": "block/purple_stained_glass_pane_ns"
+      "model": "block/sandstone_wall_wedge"
     },
     {
       "predicate": {
@@ -1151,7 +1151,7 @@
         "damage": 0.33266
       },
       "name": 165,
-      "model": "item/iron_half_door"
+      "model": "item/mossy_cobblestone_wall_arch"
     },
     {
       "predicate": {
@@ -1662,7 +1662,7 @@
         "damage": 0.47984
       },
       "name": 238,
-      "model": "block/pink_stained_glass_pane_ns"
+      "model": "block/jungle_trapdoor_unpowered_lower"
     },
     {
       "predicate": {
@@ -1998,7 +1998,7 @@
         "damage": 0.57662
       },
       "name": 286,
-      "model": "block/yellow_stained_glass_pane_ns"
+      "model": "block/mossy_cobblestone_wall_wedge"
 	},
     {
       "predicate": {
@@ -2055,6 +2055,286 @@
     },
     "name": 294,
     "model": "block/tube_coral_wall_fan"
-  }  
+  },
+  {
+    "predicate": {
+      "damage": 0.59476 
+    },
+    "name": 295,
+    "model": "block/andesite_wall_wedge"
+  },
+  {
+    "predicate": {
+      "damage": 0.59677
+    },
+    "name": 296,
+    "model": "item/andesite_wall_arch"
+  },
+  {
+    "predicate": {
+      "damage": 0.59879
+    },
+    "name": 297,
+    "model": "block/polished_blackstone_wall_n"
+  },
+  {
+    "predicate": {
+      "damage": 0.60081
+    },
+    "name": 298,
+    "model": "block/polished_blackstone_wall_ne"
+  },
+  {
+    "predicate": {
+      "damage": 0.60282
+    },
+    "name": 299,
+    "model": "block/polished_blackstone_wall_nsew"
+  },
+  {
+    "predicate": {
+      "damage": 0.60484
+    },
+    "name": 300,
+    "model": "block/polished_blackstone_wall"
+  },
+  {
+    "predicate": {
+      "damage": 0.60685
+    },
+    "name": 301,
+    "model": "block/polished_blackstone_wall_wedge"
+  },
+  {
+    "predicate": {
+      "damage": 0.60887
+    },
+    "name": 302,
+    "model": "item/polished_blackstone_wall_arch"
+  },
+  {
+    "predicate": {
+      "damage": 0.61089
+    },
+    "name": 303,
+    "model": "block/diorite_wall_wedge"
+  },
+  {
+    "predicate": {
+      "damage": 0.61290
+    },
+    "name": 304,
+    "model": "item/diorite_wall_arch"
+  },
+  {
+    "predicate": {
+      "damage": 0.61492
+    },
+    "name": 305,
+    "model": "item/sandstone_wall_arch"
+  },
+  {
+    "predicate": {
+      "damage": 0.61694
+    },
+    "name": 306,
+    "model": "item/jungle_trapdoor_powered_s"
+  },
+  {
+    "predicate": {
+      "damage": 0.61895
+    },
+    "name": 307,
+    "model": "block/jungle_trapdoor_powered_lower"
+  },
+  {
+    "predicate": {
+      "damage": 0.62097
+    },
+    "name": 308,
+    "model": "item/birch_trapdoor_powered_s"
+  },
+  {
+    "predicate": {
+      "damage": 0.62298
+    },
+    "name": 309,
+    "model": "block/birch_trapdoor_powered_lower"
+  },
+  {
+    "predicate": {
+      "damage": 0.62500
+    },
+    "name": 310,
+    "model": "item/acacia_trapdoor_powered_n"
+  },
+  {
+    "predicate": {
+      "damage": 0.62702
+    },
+    "name": 311,
+    "model": "block/acacia_trapdoor_unpowered_lower"
+  },
+  {
+    "predicate": {
+      "damage": 0.62903
+    },
+    "name": 312,
+    "model": "item/spruce_trapdoor_powered_w"
+  },
+  {
+    "predicate": {
+      "damage": 0.63105
+    },
+    "name": 313,
+    "model": "block/spruce_trapdoor_powered_upper"
+  },
+  {
+    "predicate": {
+      "damage": 0.63306
+    },
+    "name": 314,
+    "model": "item/oak_trapdoor_powered_n"
+  },
+  {
+    "predicate": {
+      "damage": 0.63508
+    },
+    "name": 315,
+    "model": "block/oak_trapdoor_powered_lower"
+  },
+  {
+    "predicate": {
+      "damage": 0.63710
+    },
+    "name": 316,
+    "model": "item/spruce_trapdoor_powered_e"
+  },
+  {
+    "predicate": {
+      "damage": 0.63911
+    },
+    "name": 317,
+    "model": "block/spruce_trapdoor_unpowered_upper"
+  },
+  {
+    "predicate": {
+      "damage": 0.64113
+    },
+    "name": 318,
+    "model": "item/oak_trapdoor_powered_e"
+  },
+  {
+    "predicate": {
+      "damage": 0.64315
+    },
+    "name": 319,
+    "model": "block/oak_trapdoor_powered_upper"
+  },
+  {
+    "predicate": {
+      "damage": 0.64516
+    },
+    "name": 320,
+    "model": "item/birch_trapdoor_powered_n"
+  },
+  {
+    "predicate": {
+      "damage": 0.64718
+    },
+    "name": 321,
+    "model": "block/birch_trapdoor_unpowered_lower"
+  },
+  {
+    "predicate": {
+      "damage": 0.64919
+    },
+    "name": 322,
+    "model": "item/spruce_trapdoor_powered_n"
+  },
+  {
+    "predicate": {
+      "damage": 0.65121
+    },
+    "name": 323,
+    "model": "block/spruce_trapdoor_unpowered_lower"
+  },
+  {
+    "predicate": {
+      "damage": 0.65323
+    },
+    "name": 324,
+    "model": "item/spruce_trapdoor_powered_s"
+  },
+  {
+    "predicate": {
+      "damage": 0.65524
+    },
+    "name": 325,
+    "model": "block/spruce_trapdoor_powered_lower"
+  },
+  {
+    "predicate": {
+      "damage": 0.65726
+    },
+    "name": 326,
+    "model": "item/jungle_trapdoor_powered_e"
+  },
+  {
+    "predicate": {
+      "damage": 0.65927
+    },
+    "name": 327,
+    "model": "block/jungle_trapdoor_unpowered_upper"
+  },
+  {
+    "predicate": {
+      "damage": 0.66129
+    },
+    "name": 328,
+    "model": "item/jungle_trapdoor_powered_w"
+  },
+  {
+    "predicate": {
+      "damage": 0.66331
+    },
+    "name": 329,
+    "model": "block/jungle_trapdoor_powered_upper"
+  },
+  {
+    "predicate": {
+      "damage": 0.66532
+    },
+    "name": 330,
+    "model": "block/beam_diagonal_s_down"
+  },
+  {
+    "predicate": {
+      "damage": 0.66734
+    },
+    "name": 331,
+    "model": "block/beam_diagonal_s"
+  },
+  {
+    "predicate": {
+      "damage": 0.66935
+    },
+    "name": 332,
+    "model": "block/beam_diagonal_s_support"
+  },
+  {
+    "predicate": {
+      "damage": 0.67137
+    },
+    "name": 333,
+    "model": "block/red_banner"
+  },
+  {
+    "predicate": {
+      "damage": 0.67339
+    },
+    "name": 334,
+    "model": "block/blue_banner"
+  }         
   ]
 }

@@ -36,10 +36,30 @@
             { "model": "block/birch_trapdoor_unpowered_lower3", "y": 90 },
             { "model": "block/birch_trapdoor_unpowered_lower4", "y": 90 }
         ],
-        "facing=north,half=top,open=true,powered=false": { "model": "block/unused_cross_0" },
-        "facing=south,half=top,open=true,powered=false": { "model": "block/unused_cross_0" },
-        "facing=east,half=top,open=true,powered=false": { "model": "block/unused_cross_0" },
-        "facing=west,half=top,open=true,powered=false": { "model": "block/unused_cross_0" },
+        "facing=north,half=top,open=true,powered=false": [
+            { "model": "block/birch_trapdoor_unpowered_upper", "y": 180 },
+            { "model": "block/birch_trapdoor_unpowered_upper1", "y": 180 },
+            { "model": "block/birch_trapdoor_unpowered_upper2", "y": 180 },
+            { "model": "block/birch_trapdoor_unpowered_upper3", "y": 180 }
+        ],
+        "facing=south,half=top,open=true,powered=false": [
+            { "model": "block/birch_trapdoor_unpowered_upper" },
+            { "model": "block/birch_trapdoor_unpowered_upper1" },
+            { "model": "block/birch_trapdoor_unpowered_upper2" },
+            { "model": "block/birch_trapdoor_unpowered_upper3" }
+        ],
+        "facing=east,half=top,open=true,powered=false": [
+            { "model": "block/birch_trapdoor_unpowered_upper", "y": 270 },
+            { "model": "block/birch_trapdoor_unpowered_upper1", "y": 270 },
+            { "model": "block/birch_trapdoor_unpowered_upper2", "y": 270 },
+            { "model": "block/birch_trapdoor_unpowered_upper3", "y": 270 }
+        ],
+        "facing=west,half=top,open=true,powered=false": [
+            { "model": "block/birch_trapdoor_unpowered_upper", "y": 90 },
+            { "model": "block/birch_trapdoor_unpowered_upper1", "y": 90 },
+            { "model": "block/birch_trapdoor_unpowered_upper2", "y": 90 },
+            { "model": "block/birch_trapdoor_unpowered_upper3", "y": 90 }
+        ],
 		"facing=north,half=bottom,open=false,powered=true": [
             { "model": "block/birch_trapdoor_unpowered_lower", "x": 90 },
             { "model": "block/birch_trapdoor_unpowered_lower1", "x": 90 },
@@ -53,8 +73,20 @@
             { "model": "block/birch_trapdoor_powered_lower2", "x": 90 },
             { "model": "block/birch_trapdoor_powered_lower3", "x": 90 }
         ],
-        "facing=east,half=bottom,open=false,powered=true": { "model": "block/unused_cross_0" },
-        "facing=west,half=bottom,open=false,powered=true": { "model": "block/unused_cross_0" },
+        "facing=east,half=bottom,open=false,powered=true": [
+            { "model": "block/birch_trapdoor_unpowered_upper", "x": 90 },
+            { "model": "block/birch_trapdoor_unpowered_upper1", "x": 90 },
+            { "model": "block/birch_trapdoor_unpowered_upper2", "x": 90 },
+            { "model": "block/birch_trapdoor_unpowered_upper3", "x": 90 }
+        ],
+        "facing=west,half=bottom,open=false,powered=true": [
+            { "model": "block/birch_trapdoor_powered_upper", "x": 90 },
+            { "model": "block/birch_trapdoor_powered_upper2", "x": 90 },
+            { "model": "block/birch_trapdoor_powered_upper3", "x": 90 },
+            { "model": "block/birch_trapdoor_powered_upper4", "x": 90 },
+            { "model": "block/birch_trapdoor_powered_upper5", "x": 90 },
+            { "model": "block/birch_trapdoor_powered_upper6", "x": 90 }
+        ],
         "facing=north,half=top,open=false,powered=true": [
             { "model": "block/birch_trapdoor_unpowered_lower", "x": 270 },
             { "model": "block/birch_trapdoor_unpowered_lower1", "x": 270 },
@@ -68,8 +100,20 @@
             { "model": "block/birch_trapdoor_powered_lower2", "x": 270 },
             { "model": "block/birch_trapdoor_powered_lower3", "x": 270 }
         ],
-        "facing=east,half=top,open=false,powered=true": { "model": "block/unused_cross_0" },
-        "facing=west,half=top,open=false,powered=true": { "model": "block/unused_cross_0" },
+        "facing=east,half=top,open=false,powered=true": [
+            { "model": "block/birch_trapdoor_unpowered_upper", "x": 270 },
+            { "model": "block/birch_trapdoor_unpowered_upper1", "x": 270 },
+            { "model": "block/birch_trapdoor_unpowered_upper2", "x": 270 },
+            { "model": "block/birch_trapdoor_unpowered_upper3", "x": 270 }
+        ],
+        "facing=west,half=top,open=false,powered=true": [
+            { "model": "block/birch_trapdoor_powered_upper", "x": 270 },
+            { "model": "block/birch_trapdoor_powered_upper2", "x": 270 },
+            { "model": "block/birch_trapdoor_powered_upper3", "x": 270 },
+            { "model": "block/birch_trapdoor_powered_upper4", "x": 270 },
+            { "model": "block/birch_trapdoor_powered_upper5", "x": 270 },
+            { "model": "block/birch_trapdoor_powered_upper6", "x": 270 }
+        ],
         "facing=north,half=bottom,open=true,powered=true": [
             { "model": "block/birch_trapdoor_powered_lower", "y": 180 },
             { "model": "block/birch_trapdoor_powered_lower1", "y": 180 },
@@ -94,9 +138,37 @@
             { "model": "block/birch_trapdoor_powered_lower2", "y": 90 },
             { "model": "block/birch_trapdoor_powered_lower3", "y": 90 }
         ],
-        "facing=north,half=top,open=true,powered=true": { "model": "block/unused_cross_0" },
-        "facing=south,half=top,open=true,powered=true": { "model": "block/unused_cross_0" },
-        "facing=east,half=top,open=true,powered=true": { "model": "block/unused_cross_0" },
-        "facing=west,half=top,open=true,powered=true": { "model": "block/unused_cross_0" }
+        "facing=north,half=top,open=true,powered=true": [
+            { "model": "block/birch_trapdoor_powered_upper", "y": 180 },
+            { "model": "block/birch_trapdoor_powered_upper2", "y": 180 },
+            { "model": "block/birch_trapdoor_powered_upper3", "y": 180 },
+            { "model": "block/birch_trapdoor_powered_upper4", "y": 180 },
+            { "model": "block/birch_trapdoor_powered_upper5", "y": 180 },
+            { "model": "block/birch_trapdoor_powered_upper6", "y": 180 }
+        ],
+        "facing=south,half=top,open=true,powered=true": [
+            { "model": "block/birch_trapdoor_powered_upper" },
+            { "model": "block/birch_trapdoor_powered_upper2" },
+            { "model": "block/birch_trapdoor_powered_upper3" },
+            { "model": "block/birch_trapdoor_powered_upper4" },
+            { "model": "block/birch_trapdoor_powered_upper5" },
+            { "model": "block/birch_trapdoor_powered_upper6" }
+        ],
+        "facing=east,half=top,open=true,powered=true": [
+            { "model": "block/birch_trapdoor_powered_upper", "y": 270 },
+            { "model": "block/birch_trapdoor_powered_upper2", "y": 270 },
+            { "model": "block/birch_trapdoor_powered_upper3", "y": 270 },
+            { "model": "block/birch_trapdoor_powered_upper4", "y": 270 },
+            { "model": "block/birch_trapdoor_powered_upper5", "y": 270 },
+            { "model": "block/birch_trapdoor_powered_upper6", "y": 270 }
+        ],
+        "facing=west,half=top,open=true,powered=true": [
+            { "model": "block/birch_trapdoor_powered_upper", "y": 90 },
+            { "model": "block/birch_trapdoor_powered_upper2", "y": 90 },
+            { "model": "block/birch_trapdoor_powered_upper3", "y": 90 },
+            { "model": "block/birch_trapdoor_powered_upper4", "y": 90 },
+            { "model": "block/birch_trapdoor_powered_upper5", "y": 90 },
+            { "model": "block/birch_trapdoor_powered_upper6", "y": 90 }
+        ]
     }
 }
