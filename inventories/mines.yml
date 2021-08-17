@@ -311,7 +311,7 @@ Items:
       indirect: chorus_flower_1
   upper_support_plus:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 333
+    damage: 332
     display: Upper Support Beams with horizontal Beam
     type: FOUR_DIRECTIONS_COMPLEX
     blockDataNorth: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
