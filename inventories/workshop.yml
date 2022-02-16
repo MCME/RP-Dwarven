@@ -47,21 +47,21 @@ Items:
   crafting_table:
     itemMaterial: CRAFTING_TABLE
     damage: 0
-    display: Workshop Table [58:0]
+    display: Workshop Table
     type: VANILLA
     collection:
       indirect: anvil
   jack_o_lantern:
     itemMaterial: JACK_O_LANTERN
     damage: 0
-    display: Forge 3 [91:0]
+    display: Forge 3
     type: VANILLA
     collection:
       indirect: anvil
   furnace:
     itemMaterial: FURNACE
     damage: 0
-    display: Forge 2 [61:0]
+    display: Forge 2
     type: VANILLA
     collection:
       indirect: anvil
@@ -69,10 +69,10 @@ Items:
   cauldron_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 105
-    display: Cauldron 1[118:2]
+    display: Cauldron with Legs
     category: Workshop
     type: BLOCK
-    blockData: minecraft:cauldron[level=2]
+    blockData: minecraft:water_cauldron[level=2]
     collection:
       C0: cauldron_1
       G2: cauldron_2
@@ -83,27 +83,27 @@ Items:
   cauldron_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 106
-    display: Cauldron filled [118:3]
+    display: Cauldron filled
     category: Workshop
     type: BLOCK
-    blockData: minecraft:cauldron[level=3]
+    blockData: minecraft:water_cauldron[level=3]
     collection:
       indirect: cauldron_2
   #inside collection
   cauldron_0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 103
-    display: Cauldron 2[118:0]
+    display: Cauldron
     type: BLOCK
-    blockData: minecraft:cauldron[level=0]
+    blockData: minecraft:cauldron
     collection:
       indirect: cauldron_2
   cauldron_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 104
-    display: Cauldron No Legs [118:1]
+    display: Cauldron No Legs 
     type: BLOCK
-    blockData: minecraft:cauldron[level=1]
+    blockData: minecraft:water_cauldron[level=1]
     collection:
       indirect: cauldron_2
   # pipes collection
@@ -131,7 +131,7 @@ Items:
   chorus_flower_0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 40
-    display: Bellows [200:0]
+    display: Bellows 
     category: Workshop
     type: BLOCK
     blockData: minecraft:chorus_flower[age=0]
@@ -140,7 +140,7 @@ Items:
   chorus_flower_5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 42
-    display: Pipe End [200:5]
+    display: Pipe End
     category: Workshop
     type: BLOCK
     blockData: minecraft:chorus_flower[age=5]
@@ -149,7 +149,7 @@ Items:
   redstone_wire_6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 62
-    display: Wooden Aqueduct [55:6]
+    display: Wooden Aqueduct
     category: Workshop
     type: BLOCK
     blockData: minecraft:redstone_wire[power=6]
@@ -158,7 +158,7 @@ Items:
   light_weighted_pressure_plate_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 92
-    display: Foundry Form Closed [94:3]
+    display: Foundry Form Closed 
     category: Workshop
     type: BLOCK
     blockData: minecraft:light_weighted_pressure_plate[power=3]  
@@ -167,7 +167,7 @@ Items:
   redstone_wire_5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 61
-    display: Foundry Pipe [55:5]
+    display: Foundry Pipe 
     category: Workshop
     type: BLOCK
     blockData: minecraft:redstone_wire[power=5]
@@ -176,7 +176,7 @@ Items:
   iron_bars:
     itemMaterial: IRON_BARS
     damage: 0
-    display: Iron Bars [101:0]
+    display: Iron Bars
     category: Workshop
     type: VANILLA
     collection:
@@ -184,7 +184,7 @@ Items:
   spruce_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 23
-    display: Grate [6:9]
+    display: Grate
     category: Workshop
     type: BLOCK
     blockData: minecraft:spruce_sapling[stage=1]
@@ -193,7 +193,7 @@ Items:
   iron_trapdoor:
     itemMaterial: IRON_TRAPDOOR
     damage: 8
-    display: Grate [167:8]
+    display: Grate
     category: Workshop
     type: BLOCK
     blockData: minecraft:iron_trapdoor[waterlogged=false,powered=false,half=top,open=false,facing=north]
@@ -203,7 +203,7 @@ Items:
   birch_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 24
-    display: Grate [6:10]
+    display: Grate
     type: BLOCK
     blockData: minecraft:birch_sapling[stage=1]
     collection:
@@ -211,7 +211,7 @@ Items:
   oak_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 22
-    display: Grate [6:8]
+    display: Grate
     type: BLOCK
     blockData: minecraft:oak_sapling[stage=1]
     collection:
@@ -227,7 +227,7 @@ Items:
   cactus_12:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 38
-    display: Military Crate [81:12]
+    display: Military Crate
     category: Workshop
     type: BLOCK
     blockData: minecraft:cactus[age=12]
@@ -247,7 +247,7 @@ Items:
   jungle_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 25
-    display: Arrows [6:11]
+    display: Arrows
     category: Workshop
     type: BLOCK
     blockData: minecraft:jungle_sapling[stage=1]
@@ -256,7 +256,7 @@ Items:
   acacia_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 26
-    display: Spears [6:12]
+    display: Spears
     category: Workshop
     type: BLOCK
     blockData: minecraft:acacia_sapling[stage=1]
@@ -265,7 +265,7 @@ Items:
   dark_oak_sapling_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 27
-    display: Weapons [6:13]
+    display: Weapons
     category: Workshop
     type: BLOCK
     blockData: minecraft:dark_oak_sapling[stage=1]
@@ -274,7 +274,7 @@ Items:
   cactus_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 32
-    display: Table [81:1]
+    display: Table
     category: Workshop
     type: BLOCK
     blockData: minecraft:cactus[age=1]
@@ -283,7 +283,7 @@ Items:
   carrots_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 15
-    display: Scale [141:4]
+    display: Scale
     category: Workshop
     type: BLOCK
     blockData: minecraft:carrots[age=4]
@@ -292,7 +292,7 @@ Items:
   light_weighted_pressure_plate_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 94
-    display: Precision Tools [94:5,6]
+    display: Precision Tools
     category: Workshop
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:light_weighted_pressure_plate[power=5]
@@ -304,7 +304,7 @@ Items:
   sticky_piston_head:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 111
-    display: Wheel Long Axle [34:10]
+    display: Wheel Long Axle
     category: Workshop
     type: SIX_FACES
     blockDataSouth: minecraft:piston_head[facing=south,short=false,type=sticky]
@@ -333,7 +333,7 @@ Items:
   beetroot_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 4
-    display: Saw blade [207:1+2]
+    display: Saw blade
     category: Workshop
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:beetroots[age=1]
@@ -346,7 +346,7 @@ Items:
   cactus_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 33
-    display: Barrel [81:2,3,4]
+    display: Barrel
     category: Workshop
     type: THREE_AXIS
     blockDataZ: minecraft:cactus[age=3]
@@ -367,7 +367,7 @@ Items:
   brown_terracotta:
     itemMaterial: BROWN_TERRACOTTA
     damage: 12
-    display: Crate [159:12]
+    display: Crate
     category: Workshop
     type: VANILLA
     collection:
@@ -375,7 +375,7 @@ Items:
   cactus_5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 34
-    display: Empty Crate [81:5]
+    display: Empty Crate
     category: Workshop
     type: BLOCK
     blockData: minecraft:cactus[age=5]
@@ -384,7 +384,7 @@ Items:
   redstone_repeater_on_south_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 89
-    display: Empty Basket [94:0]
+    display: Empty Basket
     category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
@@ -393,7 +393,7 @@ Items:
   redstone_repeater_off_south_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 93
-    display: Parts box [94:4]
+    display: Parts box
     category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=south,locked=false,powered=false]
@@ -402,7 +402,7 @@ Items:
   hay_block:
     itemMaterial: HAY_BLOCK
     damage: 0
-    display: Hay Bale [170:0]
+    display: Hay Bale
     category: Workshop
     type: VANILLA
     collection:
@@ -410,7 +410,7 @@ Items:
   small_logs:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 30
-    display: Small Logs [86:0,1,2]
+    display: Small Logs
     category: Workshop
     type: THREE_AXIS
     blockDataZ: minecraft:brown_mushroom_block[north=true,east=false,south=false,west=false,up=true,down=false]
@@ -422,14 +422,14 @@ Items:
   white_shulker_box:
     itemMaterial: WHITE_SHULKER_BOX
     damage: 1
-    display: Covered Crate [219:1]
+    display: Covered Crate
     type: VANILLA
     collection:
       indirect: cactus_2
   purple_terracotta:
     itemMaterial: PURPLE_TERRACOTTA
     damage: 10
-    display: Crate [159:10]
+    display: Crate
     type: VANILLA
     collection:
       indirect: cactus_2
@@ -437,7 +437,7 @@ Items:
   orange_shulker_box:
     itemMaterial: ORANGE_SHULKER_BOX
     damage: 1
-    display: Crate of Salt [220:1]
+    display: Crate of Salt
     category: Workshop
     type: VANILLA
     collection:
@@ -474,7 +474,7 @@ Items:
   redstone_repeater_off_west_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 76
-    display: Basket of Salt [93:1]
+    display: Basket of Salt
     category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=west,delay=1,locked=false]
@@ -483,7 +483,7 @@ Items:
   blue_shulker_box:
     itemMaterial: BLUE_SHULKER_BOX
     damage: 1
-    display: Crate of Mushrooms [230:1]
+    display: Crate of Mushrooms
     category: Workshop
     type: VANILLA
     collection:
@@ -491,7 +491,7 @@ Items:
   redstone_repeater_off_south_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 82
-    display: Basket of Light Mushrooms [93:11]
+    display: Basket of Light Mushrooms
     category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=south,delay=3,locked=false]
@@ -500,7 +500,7 @@ Items:
   redstone_repeater_off_east_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 83
-    display: Basket of Brown Mushrooms [93:8]
+    display: Basket of Brown Mushrooms
     category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=east,delay=3,locked=false]
@@ -509,7 +509,7 @@ Items:
   black_shulker_box:
     itemMaterial: BLACK_SHULKER_BOX
     damage: 1
-    display: Crate of Fish [234:1]
+    display: Crate of Fish
     category: Workshop
     type: VANILLA
     collection:
@@ -517,7 +517,7 @@ Items:
   redstone_repeater_off_south_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 86
-    display: Basket of Fish [93:15]
+    display: Basket of Fish
     category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=south,delay=4,locked=false]
@@ -527,14 +527,14 @@ Items:
   magenta_shulker_box:
     itemMaterial: MAGENTA_SHULKER_BOX
     damage: 1
-    display: Crate of Tomatoes [221:1]
+    display: Crate of Tomatoes
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_north_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 73
-    display: Basket of Tomatoes [93:2]
+    display: Basket of Tomatoes
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=north,delay=1,locked=false]
     collection:
@@ -542,14 +542,14 @@ Items:
   light_blue_shulker_box:
     itemMaterial: LIGHT_BLUE_SHULKER_BOX
     damage: 1
-    display: Crate of Potatoes [222:1]
+    display: Crate of Potatoes
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_south_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 74
-    display: Basket of Potatoes [93:3]
+    display: Basket of Potatoes
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=south,delay=1,locked=false]
     collection:
@@ -557,7 +557,7 @@ Items:
   redstone_repeater_off_east_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 75
-    display: Misc Basket [93:0]
+    display: Misc Basket
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=east,delay=1,locked=false]
     collection:
@@ -565,14 +565,14 @@ Items:
   light_blue_shulker_box:
     itemMaterial: PINK_SHULKER_BOX
     damage: 1
-    display: Crate of Berries [225:1]
+    display: Crate of Berries
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_north_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 77
-    display: Basket of Berries [93:6]
+    display: Basket of Berries
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=north,delay=2,locked=false]
     collection:
@@ -580,14 +580,14 @@ Items:
   gray_shulker_box:
     itemMaterial: GRAY_SHULKER_BOX
     damage: 1
-    display: Crate of Lettuce [226:1]
+    display: Crate of Lettuce
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_south_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 78
-    display: Basket of Lettuce [93:7]
+    display: Basket of Lettuce
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=south,delay=2,locked=false]
     collection:
@@ -595,14 +595,14 @@ Items:
   yellow_shulker_box:
     itemMaterial: YELLOW_SHULKER_BOX
     damage: 1
-    display: Crate of Cucumbers [223:1]
+    display: Crate of Cucumbers
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_east_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 79
-    display: Basket of Cucumbers [93:4]
+    display: Basket of Cucumbers
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=east,delay=2,locked=false]
     collection:
@@ -610,7 +610,7 @@ Items:
   redstone_repeater_off_west_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 80
-    display: Misc Basket [93:5]
+    display: Misc Basket
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=west,delay=2,locked=false]
     collection:
@@ -618,14 +618,14 @@ Items:
   shulker_box:
     itemMaterial: SHULKER_BOX
     damage: 1
-    display: Crate of Eggs [229:1]
+    display: Crate of Eggs
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_north_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 81
-    display: Basket of Eggs [93:10]
+    display: Basket of Eggs
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=north,delay=3,locked=false]
     collection:
@@ -633,14 +633,14 @@ Items:
   cyan_shulker_box:
     itemMaterial: CYAN_SHULKER_BOX
     damage: 1
-    display: Crate of Spoiled Food [228:1]
+    display: Crate of Spoiled Food
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_west_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 84
-    display: Basket of Spoiled Food [93:9]
+    display: Basket of Spoiled Food
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=west,delay=3,locked=false]
     collection:
@@ -648,14 +648,14 @@ Items:
   red_shulker_box:
     itemMaterial: RED_SHULKER_BOX
     damage: 1
-    display: Crate of Grains [233:1]
+    display: Crate of Grains
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_north_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 85
-    display: Basket of Grains [93:14]
+    display: Basket of Grains
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=north,delay=4,locked=false]
     collection:
@@ -663,14 +663,14 @@ Items:
   brown_shulker_box:
     itemMaterial: BROWN_SHULKER_BOX
     damage: 1
-    display: Crate of Red Onions [231:1]
+    display: Crate of Red Onions
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_east_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 87
-    display: Basket of Red Onions [93:12]
+    display: Basket of Red Onions
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=east,delay=4,locked=false]
     collection:
@@ -678,14 +678,14 @@ Items:
   green_shulker_box:
     itemMaterial: GREEN_SHULKER_BOX
     damage: 1
-    display: Crate of Minced Meat [232:1]
+    display: Crate of Minced Meat
     type: VANILLA
     collection:
       indirect: orange_shulker_box
   redstone_repeater_off_west_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 88
-    display: Basket of Minced Meat [93:13]
+    display: Basket of Minced Meat
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=west,delay=4,locked=false]
     collection:
@@ -693,7 +693,7 @@ Items:
   lime_shulker_box:
     itemMaterial: LIME_SHULKER_BOX
     damage: 1
-    display: Crate of Carrots [224:1]
+    display: Crate of Carrots
     type: VANILLA
     collection:
       indirect: orange_shulker_box
