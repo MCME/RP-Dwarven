@@ -6,10 +6,13 @@ Items:
     category: Block
     type: VANILLA
     collection:
+      A0: pink_terracotta
       F1: birch_trapdoor_powered_lower_flat
-      G2: pink_terracotta
-      I2: black_terracotta
+      G2: prismarine
+      H2: prismarine_stairs
+      I2: prismarine_slab
       J1: sandstone_wall_wedge
+      E0: black_terracotta
       E1: sandstone_wall_arch
       A1: birch_trapdoor_powered_lower
       B2: sandstone_stairs
@@ -24,6 +27,28 @@ Items:
       H4: sandstone_balustrade
       I4: sandstone_thin_pillar
       J4: sandstone_fancy_thin_pillar
+  prismarine:
+    itemMaterial: PRISMARINE
+    damage: 0
+    display: Rough Sandstone
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: sandstone
+  prismarine_stairs:
+    itemMaterial: PRISMARINE_STAIRS
+    damage: 0
+    display: Rough Sandstone Stairs
+    type: VANILLA
+    collection:
+      indirect: sandstone
+  prismarine_slab:
+    itemMaterial: PRISMARINE_SLAB
+    damage: 0
+    display: Rough Sandstone Slab
+    type: VANILLA
+    collection:
+      indirect: sandstone
   birch_trapdoor_powered_lower_flat:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 308
@@ -1066,22 +1091,11 @@ Items:
       C0: dark_prismarine
       A1: light_gray_glazed_terracotta
       F1: stripped_oak_log
-      G2: prismarine
-      H2: prismarine_stairs
-      I2: prismarine_slab
+      I2: dark_prismarine_stairs
       J1: dark_prismarine_slab
-      E1: dark_prismarine_stairs
-      D2: prismarine_brick_slab
-      C2: prismarine_brick_stairs
+      E1: prismarine_brick_slab
+      D2: prismarine_brick_stairs
       B2: prismarine_bricks
-  prismarine:
-    itemMaterial: PRISMARINE
-    damage: 0
-    display: Large Red Bricks
-    category: Block
-    type: VANILLA
-    collection:
-      indirect: dark_prismarine
   prismarine_bricks:
     itemMaterial: PRISMARINE_BRICKS
     damage: 0
@@ -1120,20 +1134,6 @@ Items:
     collection:
       indirect: dark_prismarine
   #inside collection
-  prismarine_stairs:
-    itemMaterial: PRISMARINE_STAIRS
-    damage: 0
-    display: Large Red Brick Stairs
-    type: VANILLA
-    collection:
-      indirect: dark_prismarine
-  prismarine_slab:
-    itemMaterial: PRISMARINE_SLAB
-    damage: 0
-    display: Large Red Brick Slab
-    type: VANILLA
-    collection:
-      indirect: dark_prismarine
   dark_prismarine_slab:
     itemMaterial: DARK_PRISMARINE_SLAB
     damage: 0
