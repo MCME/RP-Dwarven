@@ -1302,10 +1302,12 @@ Items:
       A0: packed_ice
       F1: water_7
       G2: water_6
+      H2: snow_layer
       I2: water_5
       J1: water_4
       E1: water_3
       D2: water_2
+      C2: snow
       B2: water_1
   packed_ice:
     itemMaterial: PACKED_ICE
@@ -1315,9 +1317,23 @@ Items:
     type: VANILLA
     collection:
       indirect: water_7
-
+  snow:
+    itemMaterial: SNOW_BLOCK
+    cmd: 0
+    display: Snow Block
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: water_7
+  
 
   #inside collection
+  snow_layer:
+    itemMaterial: SNOW
+    cmd: 0
+    display: Layered Snow
+    type: VANILLA
+    collection: water_7
   water_0:
     itemMaterial: CLAY_BALL
     cmd: 181

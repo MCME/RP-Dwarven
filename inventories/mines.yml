@@ -616,6 +616,11 @@ Items:
       E1: hopper_off_south
       D2: hopper_off_north
       B2: hopper_enabled_north
+      A4: flower_pot
+      B4: potted_spruce_sapling
+      C4: potted_jungle_sapling
+      D4: potted_oak_sapling
+      E4: potted_birch_sapling
       F4: acacia_sapling_0
       G4: oak_planks
       I4: oak_log
@@ -624,7 +629,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 209
     display: Torch Support
-    cateogory: Mines
+    category: Mines
     type: VANILLA
     collection:
       indirect: brown_stained_glass
@@ -656,6 +661,49 @@ Items:
     blockDataSouth: minecraft:oak_leaves[persistent=false,distance=1]
     blockDataEast: minecraft:oak_leaves[persistent=false,distance=4]
     blockDataWest: minecraft:oak_leaves[persistent=false,distance=2]
+    collection:
+      indirect: brown_stained_glass
+  flower_pot:
+    itemMaterial: CLAY_BALL
+    cmd: 343
+    display: Bucket Handle Down
+    category: Mines
+    type: BLOCK
+    blockData: minecraft:flower_pot
+    collection:
+      indirect: brown_stained_glass
+  potted_oak_sapling:
+    itemMaterial: CLAY_BALL
+    cmd: 344
+    display: Bucket Handle Up
+    type: BLOCK
+    blockData: minecraft:potted_oak_sapling
+    collection:
+      indirect: brown_stained_glass
+  potted_spruce_sapling:
+    itemMaterial: CLAY_BALL
+    cmd: 345
+    display: Filled Bucket Handle Down
+    category: Mines
+    type: BLOCK
+    blockData: minecraft:potted_spruce_sapling
+    collection:
+      indirect: brown_stained_glass
+  potted_birch_sapling:
+    itemMaterial: CLAY_BALL
+    cmd: 346
+    display: Filled Bucket Handle Up
+    type: BLOCK
+    blockData: minecraft:potted_birch_sapling
+    collection:
+      indirect: brown_stained_glass
+  potted_jungle_sapling:
+    itemMaterial: CLAY_BALL
+    cmd: 347
+    display: Fallen Bucket
+    category: Mines
+    type: BLOCK
+    blockData: minecraft:potted_jungle_sapling
     collection:
       indirect: brown_stained_glass
   hopper_enabled_down:

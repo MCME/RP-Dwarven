@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "block/unused_cross_0" }
+    "": [
+      { "model": "block/bucket_handle_up" },
+      { "model": "block/bucket_handle_up", "y": 90 }
+    ]
   }
 }

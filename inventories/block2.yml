@@ -7,27 +7,21 @@ Items:
     type: VANILLA
     collection:
       F1: spruce_trapdoor_unpowered_lower_flat
-      G2: purpur_stairs
-      H2: EndPortal7
-      I2: purpur_slab
+      H2: end_stone
       J1: prismarine_wall_wedge
-      E0: cyan_stained_glass_pane
       E1: prismarine_wall_arch
-      D2: quartz_pillar
-      C2: chiseled_quartz_block
-      B2: end_stone
+      C2: cyan_stained_glass_pane
       A1: spruce_trapdoor_unpowered_lower
       A4: prismarine_vertical_slab
       B4: prismarine_vertical_stair
       C4: prismarine_balustrade
       D4: thin_prismarine_pillar
       E4: fancy_thin_prismarine_pillar
-      F4: quartz_block
-      G4: quartz_stairs
-      H4: quartz_slab
-      I4: yellow_stained_glass_pane
-      J4: yellow_stained_glass_pane_side
-      J3: yellow_stained_glass_pane_diagonal
+      F4: purpur_stairs
+      G4: EndPortal7
+      H4: purpur_slab
+      I4: quartz_block
+      J4: red_sandstone
   spruce_trapdoor_unpowered_lower_flat:
     itemMaterial: CLAY_BALL
     cmd: 322
@@ -81,8 +75,7 @@ Items:
   prismarine_vertical_slab:
     itemMaterial: CLAY_BALL
     cmd: 289
-    display: Vertical Black Stone Slab
-    category: Block2
+    display: Black Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:prismarine_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:prismarine_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
@@ -93,7 +86,7 @@ Items:
   prismarine_vertical_stair:
     itemMaterial: CLAY_BALL
     cmd: 290
-    display: Vertical Black Stone Stair
+    display: Black Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:prismarine_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:prismarine_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -104,7 +97,7 @@ Items:
   prismarine_balustrade:
     itemMaterial: PRISMARINE_WALL
     cmd: 0
-    display: Small Black Stone Balustrade
+    display: Black Stone Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:prismarine_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:prismarine_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
@@ -115,7 +108,7 @@ Items:
   fancy_thin_prismarine_pillar:
     itemMaterial: CLAY_BALL
     cmd: 291
-    display: Fancy Small Black Pillar
+    display: Fancy Black Stone Pillar
     type: BLOCK
     blockData: prismarine_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
@@ -145,7 +138,7 @@ Items:
   cyan_stained_glass_pane:
     itemMaterial: CLAY_BALL
     cmd: 232
-    display: Black Stone thin pillar
+    display: Black Stone Pillar
     type: BLOCK
     blockData: minecraft:cyan_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
@@ -158,29 +151,8 @@ Items:
     type: VANILLA
     collection:
       indirect: purpur_block
-  quartz_pillar:
-    itemMaterial: QUARTZ_PILLAR
-    cmd: 0
-    display: Mixed Dark Stone Pillar
-    category: Block2
-    type: VANILLA
-    collection:
-      indirect: purpur_block
-  chiseled_quartz_block:
-    itemMaterial: CHISELED_QUARTZ_BLOCK
-    cmd: 0
-    display: Engraved Mixed Dark Stone
-    category: Block2
-    type: VANILLA
-    collection:
-      indirect: purpur_block
-  quartz_stairs:
-    itemMaterial: QUARTZ_STAIRS
-    cmd: 0
-    display: Mixed Black Stone Stairs
-    type: VANILLA
-    collection:
-      indirect: purpur_block
+
+  
   quartz_block:
     itemMaterial: QUARTZ_BLOCK
     cmd: 0
@@ -188,7 +160,138 @@ Items:
     category: Block2
     type: VANILLA
     collection:
-      indirect: purpur_block
+      F1: acacia_trapdoor_unpowered_upper_flat
+      G2: yellow_stained_glass_pane
+      H2: yellow_stained_glass_pane_diagonal
+      I2: yellow_stained_glass_pane_side
+      J1: cobbled_deepslate_wall_wedge
+      E1: cobbled_deepslate_wall_arch
+      D2: quartz_slab
+      B2: quartz_stairs
+      A1: acacia_trapdoor_unpowered_upper
+      A4: cobbled_deepslate_vertical_slab 
+      B4: cobbled_deepslate_vertical_stair
+      C4: cobbled_deepslate_balustrade
+      D4: thin_cobbled_deepslate_pillar
+      E4: fancy_thin_cobbled_deepslate_pillar
+      F4: quartz_pillar
+      G4: chiseled_quartz_block
+      I4: red_sandstone
+      J4: purpur_block
+  acacia_trapdoor_unpowered_upper_flat:
+    itemMaterial: CLAY_BALL
+    cmd: 341
+    display: Mixed Black Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:acacia_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:acacia_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: quartz_block
+  acacia_trapdoor_unpowered_upper:
+    itemMaterial: CLAY_BALL
+    cmd: 342
+    display: Mixed Black Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: quartz_block
+  cobbled_deepslate_wall_wedge:
+    itemMaterial: CLAY_BALL
+    cmd: 339
+    display: Mixed Black Stone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobbled_deepslate_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobbled_deepslate_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:cobbled_deepslate_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:cobbled_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: quartz_block
+  cobbled_deepslate_wall_arch:
+    itemMaterial: CLAY_BALL
+    cmd: 340
+    display: Mixed Black Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobbled_deepslate_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobbled_deepslate_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:cobbled_deepslate_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:cobbled_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: quartz_block
+  thin_cobbled_deepslate_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 338
+    display: Mixed Black Stone Pillar 
+    type: BLOCK
+    blockData: minecraft:cobbled_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: quartz_block
+  cobbled_deepslate_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 335
+    display: Mixed Black Stone Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobbled_deepslate_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:cobbled_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobbled_deepslate_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:cobbled_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: quartz_block
+  cobbled_deepslate_vertical_stair:
+    itemMaterial: CLAY_BALL
+    cmd: 336
+    display: Mixed Black Stone Vertical Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobbled_deepslate_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:cobbled_deepslate_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobbled_deepslate_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:cobbled_deepslate_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: quartz_block
+  cobbled_deepslate_balustrade:
+    itemMaterial: COBBLED_DEEPSLATE_WALL
+    cmd: 0
+    display: Mixed Black Stone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:cobbled_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:cobbled_deepslate_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:cobbled_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:cobbled_deepslate_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: quartz_block
+  fancy_thin_cobbled_deepslate_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 337
+    display: Fancy Mixed Black Stone Pillar
+    type: BLOCK
+    blockData: cobbled_deepslate_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: quartz_block
+  quartz_pillar:
+    itemMaterial: QUARTZ_PILLAR
+    cmd: 0
+    display: Mixed Dark Stone Pillar
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: quartz_block
+  chiseled_quartz_block:
+    itemMaterial: CHISELED_QUARTZ_BLOCK
+    cmd: 0
+    display: Engraved Mixed Dark Stone
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: quartz_block
+  quartz_stairs:
+    itemMaterial: QUARTZ_STAIRS
+    cmd: 0
+    display: Mixed Black Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: quartz_block
   yellow_stained_glass_pane:
     itemMaterial: CLAY_BALL
     cmd: 233
@@ -196,7 +299,7 @@ Items:
     type: BLOCK
     blockData: minecraft:yellow_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
     collection:
-      indirect: purpur_block
+      indirect: quartz_block
   yellow_stained_glass_pane_side:
     itemMaterial: CLAY_BALL
     cmd: 234
@@ -207,7 +310,7 @@ Items:
     blockDataSouth: minecraft:yellow_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:yellow_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
     collection:
-      indirect: purpur_block
+      indirect: quartz_block
   yellow_stained_glass_pane_diagonal:
     itemMaterial: CLAY_BALL
     cmd: 235
@@ -218,14 +321,14 @@ Items:
     blockDataSouth: minecraft:yellow_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
     blockDataWest: minecraft:yellow_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
     collection:
-      indirect: purpur_block
+      indirect: quartz_block
   quartz_slab:
     itemMaterial: QUARTZ_SLAB
     cmd: 0
     display: Mixed Black Stone Slab
     type: VANILLA
     collection:
-      indirect: purpur_block
+      indirect: quartz_block
   iron_block:
     itemMaterial: IRON_BLOCK
     cmd: 0
@@ -1062,7 +1165,7 @@ Items:
   end_stone_brick_vertical_slab:
     itemMaterial: CLAY_BALL
     cmd: 277
-    display: Vertical Slab Slab
+    display: Slab Vertical Slab
     category: Block2
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:end_stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -1074,7 +1177,7 @@ Items:
   end_stone_brick_vertical_stair:
     itemMaterial: CLAY_BALL
     cmd: 278
-    display: Vertical Slag Stairs
+    display: Slag Vertical Stairs
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:end_stone_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
     blockDataEast: minecraft:end_stone_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]

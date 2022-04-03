@@ -2007,6 +2007,84 @@
                 "custom_model_data": 334
             },
             "model": "block/blue_banner"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 335
+            },
+            "model": "block/cobbled_deepslate_wall_n"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 336
+            },
+            "model": "block/cobbled_deepslate_wall_ne"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 337
+            },
+            "model": "block/cobbled_deepslate_wall_nsew"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 338
+            },
+            "model": "block/cobbled_deepslate_wall"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 339
+            },
+            "model": "block/cobbled_deepslate_wall_wedge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 340
+            },
+            "model": "item/cobbled_deepslate_wall_arch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 341
+            },
+            "model": "item/acacia_trapdoor_powered_e"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 342
+            },
+            "model": "block/acacia_trapdoor_unpowered_upper"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 343
+            },
+            "model": "block/bucket_handle_down"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 344
+            },
+            "model": "block/bucket_handle_up"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 345
+            },
+            "model": "block/bucket_handle_down_filled"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 346
+            },
+            "model": "block/bucket_handle_up_filled"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 347
+            },
+            "model": "block/bucket_fallen"
         }
     ]
 }
