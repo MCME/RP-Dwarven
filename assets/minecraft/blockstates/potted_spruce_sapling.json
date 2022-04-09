@@ -1,5 +1,10 @@
 {
   "variants": {
-    "": { "model": "block/unused_cross_0" }
+    "": [
+      { "model": "block/bucket_handle_down_filled" },
+      { "model": "block/bucket_handle_down_filled", "y": 90 },
+      { "model": "block/bucket_handle_down_filled", "y": 180 },
+      { "model": "block/bucket_handle_down_filled", "y": 270 }
+  ]
   }
 }
