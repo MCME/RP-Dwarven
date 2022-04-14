@@ -1,7 +1,7 @@
 Items:
   Cactus13:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 39
+    itemMaterial: CLAY_BALL
+    cmd: 39
     display: Brazier
     category: Inter
     type: BLOCK
@@ -16,8 +16,8 @@ Items:
       H2: Crystal_lamp
       I2: Torch
   Sapling0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 16
+    itemMaterial: CLAY_BALL
+    cmd: 16
     display: Lamp
     type: BLOCK
     blockData: minecraft:oak_sapling[stage=0]
@@ -25,14 +25,14 @@ Items:
       indirect: Cactus13
   Hook:
     itemMaterial: LEVER
-    damage: 0
+    cmd: 0
     display: Lever/Holder
     type: VANILLA
     collection:
       indirect: Cactus13
   Sapling1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 17
+    itemMaterial: CLAY_BALL
+    cmd: 17
     display: Hanging Brazier
     category: Inter
     type: BLOCK
@@ -40,8 +40,8 @@ Items:
     collection:
       indirect: Cactus13
   Sapling3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 19
+    itemMaterial: CLAY_BALL
+    cmd: 19
     display: Chandelier
     category: Inter
     type: BLOCK
@@ -49,8 +49,8 @@ Items:
     collection:
       indirect: Cactus13
   Sapling5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 21
+    itemMaterial: CLAY_BALL
+    cmd: 21
     display: Candle
     category: Inter
     type: BLOCK
@@ -59,22 +59,22 @@ Items:
       indirect: Cactus13
   Crystal_lamp:
     itemMaterial: REDSTONE_TORCH
-    damage: 0
+    cmd: 0
     display: Crystal lamp
     type: VANILLA
     collection:
       indirect: Cactus13
   Torch:
     itemMaterial: TORCH
-    damage: 0
+    cmd: 0
     display: Torch
     category: Inter
     type: VANILLA
     collection:
       indirect: Cactus13
   Crops5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 10
+    itemMaterial: CLAY_BALL
+    cmd: 10
     display: Vase
     category: Inter
     type: BLOCK
@@ -103,8 +103,8 @@ Items:
       H4: red_banner
       I4: blue_banner
   dark_oak_button_floor_west:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 293
+    itemMaterial: CLAY_BALL
+    cmd: 293
     display: Tiny Vases
     category: Inter
     type: BLOCK
@@ -112,8 +112,8 @@ Items:
     collection:
       indirect: Crops5
   Carrots0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 11
+    itemMaterial: CLAY_BALL
+    cmd: 11
     display: Small Box
     type: BLOCK
     blockData: minecraft:carrots[age=0]
@@ -121,14 +121,14 @@ Items:
       indirect: Crops5
   Clay_pot:
     itemMaterial: FLOWER_POT
-    damage: 1
+    cmd: 1
     display: Clay pot
     type: VANILLA
     collection:
       indirect: Crops5
   Crops1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 6
+    itemMaterial: CLAY_BALL
+    cmd: 6
     display: Pot
     category: Inter
     type: BLOCK
@@ -136,8 +136,8 @@ Items:
     collection:
       indirect: Crops5
   Netherwart2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 2
+    itemMaterial: CLAY_BALL
+    cmd: 2
     display: Bag
     category: Inter
     type: BLOCK
@@ -146,14 +146,14 @@ Items:
       indirect: Crops5
   Drum:
     itemMaterial: SLIME_BLOCK
-    damage: 1
+    cmd: 1
     display: Drum
     type: VANILLA
     collection:
       indirect: Crops5
   Cactus6:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 35
+    itemMaterial: CLAY_BALL
+    cmd: 35
     display: Chair
     category: Inter
     type: FOUR_DIRECTIONS
@@ -164,16 +164,16 @@ Items:
     collection:
       indirect: Crops5
   Carrots2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 13
+    itemMaterial: CLAY_BALL
+    cmd: 13
     display: Map
     type: BLOCK
     blockData: minecraft:carrots[age=2]
     collection:
       indirect: Crops5
   Carrots1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 12
+    itemMaterial: CLAY_BALL
+    cmd: 12
     display: Paper
     category: Inter
     type: BLOCK
@@ -181,8 +181,8 @@ Items:
     collection:
       indirect: Crops5
   dark_oak_button_floor_south:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 200
+    itemMaterial: CLAY_BALL
+    cmd: 200
     display: Scrolls
     category: Inter
     type: BLOCK
@@ -190,8 +190,8 @@ Items:
     collection:
       indirect: Crops5
   Netherwart3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 3
+    itemMaterial: CLAY_BALL
+    cmd: 3
     display: Statue/Decoration
     category: Inter
     type: BLOCK
@@ -199,8 +199,8 @@ Items:
     collection:
       indirect: Crops5
   Crops4:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 9
+    itemMaterial: CLAY_BALL
+    cmd: 9
     display: Jar Filling
     type: BLOCK
     blockData: minecraft:wheat[age=4]
@@ -208,23 +208,23 @@ Items:
       indirect: Crops5
   Jar:
     itemMaterial: GREEN_STAINED_GLASS
-    damage: 0
+    cmd: 0
     display: Jar
     category: Inter
     type: VANILLA
     collection:
       indirect: Crops5
   Carrots3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 14
+    itemMaterial: CLAY_BALL
+    cmd: 14
     display: Skin
     type: BLOCK
     blockData: minecraft:carrots[age=3]
     collection:
       indirect: Crops5
   Cactus10:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 36
+    itemMaterial: CLAY_BALL
+    cmd: 36
     display: Bell
     category: Inter
     type: BLOCK
@@ -232,16 +232,16 @@ Items:
     collection:
       indirect: Crops5
   spruce_trapdoor:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 199
+    itemMaterial: CLAY_BALL
+    cmd: 199
     display: Fireplace Grate / Shelf
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: Crops5
   Coat_hook:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 201
+    itemMaterial: CLAY_BALL
+    cmd: 201
     display: Coat hook
     category: Inter
     type: FOUR_DIRECTIONS
@@ -252,8 +252,8 @@ Items:
     collection:
       indirect: Crops5
   red_banner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 333
+    itemMaterial: CLAY_BALL
+    cmd: 333
     display: Red Wall Banner
     category: Inter
     type: FOUR_DIRECTIONS
@@ -264,8 +264,8 @@ Items:
     collection:
       indirect: Crops5
   blue_banner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 334
+    itemMaterial: CLAY_BALL
+    cmd: 334
     display: Blue Wall Banner
     category: Inter
     type: FOUR_DIRECTIONS
@@ -277,14 +277,14 @@ Items:
       indirect: Crops5
   lever_ground:
     itemMaterial: LEVER
-    damage: 0
+    cmd: 0
     display: Ground hook/handle
     type: VANILLA
     collection:
       indirect: Crops5
   lever_wall:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 276
+    itemMaterial: CLAY_BALL
+    cmd: 276
     display: Wall Torch
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:lever[face=wall,facing=north,powered=false]
@@ -294,8 +294,8 @@ Items:
     collection:
       indirect: Crops5
   Crops3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 8
+    itemMaterial: CLAY_BALL
+    cmd: 8
     display: Bottle
     category: Inter
     type: BLOCK
@@ -310,7 +310,7 @@ Items:
       H2: Crops2
   Gold_plate:
     itemMaterial: LIGHT_WEIGHTED_PRESSURE_PLATE
-    damage: 0
+    cmd: 0
     display: Gold plate
     category: Inter
     type: VANILLA
@@ -318,14 +318,14 @@ Items:
       indirect: Crops3
   Iron_plate:
     itemMaterial: HEAVY_WEIGHTED_PRESSURE_PLATE
-    damage: 0
+    cmd: 0
     display: Iron plate
     type: VANILLA
     collection:
       indirect: Crops3
   Cactus0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 31
+    itemMaterial: CLAY_BALL
+    cmd: 31
     display: Meat
     category: Inter
     type: BLOCK
@@ -334,23 +334,23 @@ Items:
       indirect: Crops3
   Cake:
     itemMaterial: CAKE
-    damage: 0
+    cmd: 0
     display: Bread
     category: Inter
     type: VANILLA
     collection:
       indirect: Crops3
   Crops0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 5
+    itemMaterial: CLAY_BALL
+    cmd: 5
     display: Plate
     type: BLOCK
     blockData: minecraft:wheat[age=0]
     collection:
       indirect: Crops3
   Crops2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 7
+    itemMaterial: CLAY_BALL
+    cmd: 7
     display: Cup
     type: BLOCK
     blockData: minecraft:wheat[age=2]
@@ -358,7 +358,7 @@ Items:
       indirect: Crops3
   Jukebox:
     itemMaterial: JUKEBOX
-    damage: 0
+    cmd: 0
     display: Table
     category: Inter
     type: VANILLA
@@ -379,8 +379,8 @@ Items:
       B4: Piston2
       C4: StickyPistonHead
   StickyPistonHead:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 111
+    itemMaterial: CLAY_BALL
+    cmd: 111
     display: Wooden Table
     type: SIX_FACES
     blockDataSouth: minecraft:piston_head[facing=south,short=false,type=sticky]
@@ -390,16 +390,16 @@ Items:
     blockDataDown: minecraft:piston_head[facing=down,short=false,type=sticky]
     blockDataUp: minecraft:piston_head[facing=up,short=false,type=sticky]    
   infested_chiseled_stone_bricks:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 51
+    itemMaterial: CLAY_BALL
+    cmd: 51
     display: Wooden Drawers
     type: BLOCK
     blockData: minecraft:infested_chiseled_stone_bricks
     collection:
       indirect: Jukebox
   infested_mossy_stone_bricks:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 49
+    itemMaterial: CLAY_BALL
+    cmd: 49
     display: Wooden Wardrobe
     category: Inter
     type: BLOCK
@@ -408,14 +408,14 @@ Items:
       indirect: Jukebox
   Melon:
     itemMaterial: MELON
-    damage: 0
+    cmd: 0
     display: Shelf
     type: VANILLA
     collection:
       indirect: Jukebox
   Scroll_shelf:
     itemMaterial: BOOKSHELF
-    damage: 0
+    cmd: 0
     display: Scroll Shelf
     category: Inter
     type: VANILLA
@@ -423,23 +423,23 @@ Items:
       indirect: Jukebox
   Piston1:
     itemMaterial: PISTON
-    damage: 0
+    cmd: 0
     display: Stone base table
     category: Inter
     type: VANILLA
     collection:
       indirect: Jukebox
   Piston2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 198
+    itemMaterial: CLAY_BALL
+    cmd: 198
     display: Stone foundation table
     type: BLOCK
     blockData: minecraft:piston[extended=true,facing=up]
     collection:
       indirect: Jukebox
   infested_cobblestone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 47
+    itemMaterial: CLAY_BALL
+    cmd: 47
     display: Sandstone Cabinet
     category: Inter
     type: BLOCK
@@ -447,24 +447,24 @@ Items:
     collection:
       indirect: Jukebox
   infested_stone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 46
+    itemMaterial: CLAY_BALL
+    cmd: 46
     display: Stone Cabinet
     type: BLOCK
     blockData: minecraft:infested_stone
     collection:
       indirect: Jukebox
   infested_cracked_stone_bricks:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 50
+    itemMaterial: CLAY_BALL
+    cmd: 50
     display: Stone Drawers
     type: BLOCK
     blockData: minecraft:infested_cracked_stone_bricks
     collection:
       indirect: Jukebox
   infested_stone_bricks:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 48
+    itemMaterial: CLAY_BALL
+    cmd: 48
     display: Stone Wardrobe
     category: Inter
     type: BLOCK
@@ -473,7 +473,7 @@ Items:
       indirect: Jukebox
   Chest:
     itemMaterial: CHEST
-    damage: 0
+    cmd: 0
     display: Stone Chest
     category: Inter
     type: VANILLA
@@ -481,21 +481,21 @@ Items:
       indirect: Jukebox
   trapped_chest:
     itemMaterial: TRAPPED_CHEST
-    damage: 1
+    cmd: 1
     display: Wooden chest
     type: VANILLA
     collection:
       indirect: Jukebox
   Drawers:
     itemMaterial: NOTE_BLOCK
-    damage: 0
+    cmd: 0
     display: Drawers
     type: VANILLA
     collection:
       indirect: Jukebox
   RedstoneWire0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 56
+    itemMaterial: CLAY_BALL
+    cmd: 56
     display: Dust
     category: Inter
     type: BLOCK_CONNECT
@@ -519,8 +519,8 @@ Items:
       H4: Rotten_cloth
       I4: Cloth
   RedstoneWire3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 59
+    itemMaterial: CLAY_BALL
+    cmd: 59
     display: Coal dust
     category: Inter
     type: BLOCK_CONNECT
@@ -528,8 +528,8 @@ Items:
     collection:
       indirect: RedstoneWire0
   RedstoneWire4:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 60
+    itemMaterial: CLAY_BALL
+    cmd: 60
     display: Dirt dust
     category: Inter
     type: BLOCK_CONNECT
@@ -538,7 +538,7 @@ Items:
       indirect: RedstoneWire0
   light_blue_carpet:
     itemMaterial: LIGHT_BLUE_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 1
     category: Inter
     type: VANILLA
@@ -546,14 +546,14 @@ Items:
       indirect: RedstoneWire0
   magenta_carpet:
     itemMaterial: MAGENTA_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 2
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   orange_carpet:
     itemMaterial: ORANGE_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 3
     category: Inter
     type: VANILLA
@@ -561,35 +561,35 @@ Items:
       indirect: RedstoneWire0
   white_carpet:
     itemMaterial: WHITE_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 4
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   yellow_carpet:
     itemMaterial: YELLOW_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 5
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   cyan_carpet:
     itemMaterial: CYAN_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 6
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   gray_carpet:
     itemMaterial: GRAY_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 7
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   light_gray_carpet:
     itemMaterial: LIGHT_GRAY_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 8
     category: Inter
     type: VANILLA
@@ -597,35 +597,35 @@ Items:
       indirect: RedstoneWire0
   lime_carpet:
     itemMaterial: LIME_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 9
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   pink_carpet:
     itemMaterial: PINK_CARPET
-    damage: 0
+    cmd: 0
     display: Knitted Carpet 10
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   brown_carpet:
     itemMaterial: BROWN_CARPET
-    damage: 0
+    cmd: 0
     display: Mold
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   Green_carpet:
     itemMaterial: GREEN_CARPET
-    damage: 0
+    cmd: 0
     display: Thin Rotten Wood
     type: VANILLA
     collection:
       indirect: RedstoneWire0
   Rotten_cloth:
     itemMaterial: PURPLE_CARPET
-    damage: 0
+    cmd: 0
     display: Rotten Cloth
     category: Inter
     type: VANILLA
@@ -633,7 +633,7 @@ Items:
       indirect: RedstoneWire0
   Cloth:
     itemMaterial: BLUE_CARPET
-    damage: 1
+    cmd: 1
     display: Cloth
     category: Inter
     type: VANILLA
@@ -641,7 +641,7 @@ Items:
       indirect: RedstoneWire0
   bed_magenta:
     itemMaterial: MAGENTA_BED
-    damage: 2
+    cmd: 2
     category: Inter
     display: Wooden Bench 1
     type: VANILLA
@@ -659,14 +659,14 @@ Items:
       D2: Black_stone_bench
   bed_white:
     itemMaterial: WHITE_BED
-    damage: 16
+    cmd: 16
     display: Wooden bench 3
     type: VANILLA
     collection:
       indirect: bed_magenta
   bed_blue:
     itemMaterial: BLUE_BED
-    damage: 11
+    cmd: 11
     display: Quilted Leather Bench
     category: Inter
     type: VANILLA
@@ -674,7 +674,7 @@ Items:
       indirect: bed_magenta
   bed_red:
     itemMaterial: RED_BED
-    damage: 14
+    cmd: 14
     display: Sandstone Bench 2
     category: Inter
     type: VANILLA
@@ -682,7 +682,7 @@ Items:
       indirect: bed_magenta
   bed_brown:
     itemMaterial: BROWN_BED
-    damage: 12
+    cmd: 12
     display: Cobblestone Bench
     category: Inter
     type: VANILLA
@@ -690,42 +690,42 @@ Items:
       indirect: bed_magenta
   bed_green:
     itemMaterial: GREEN_BED
-    damage: 13
+    cmd: 13
     display: Large Bricks Bench
     type: VANILLA
     collection:
       indirect: bed_magenta
   bed_light_blue:
     itemMaterial: LIGHT_BLUE_BED
-    damage: 3
+    cmd: 3
     display: Light Wooden Bench
     type: VANILLA
     collection:
       indirect: bed_magenta
   bed_yellow:
     itemMaterial: YELLOW_BED
-    damage: 4
+    cmd: 4
     display: Light Wooden Stone Bench
     type: VANILLA
     collection:
       indirect: bed_magenta
   bed_black:
     itemMaterial: BLACK_BED
-    damage: 15
+    cmd: 15
     display: Sandstone Bench 1
     type: VANILLA
     collection:
       indirect: bed_magenta
   bed_orange:
     itemMaterial: ORANGE_BED
-    damage: 1
+    cmd: 1
     display: Wooden bench 2
     type: VANILLA
     collection:
       indirect: bed_magenta
   Black_stone_bench:
     itemMaterial: PURPLE_BED
-    damage: 10
+    cmd: 10
     display: Black Stone Bench
     category: Inter
     type: VANILLA

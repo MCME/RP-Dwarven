@@ -1,0 +1,122 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "gui/page_up"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "gui/page_down"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "gui/page_left"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "gui/page_right"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "gui/terra" 
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "gui/terra_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "gui/block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "gui/block_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "gui/deco"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "gui/deco_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "gui/works"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "gui/works_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "gui/mine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "gui/mine_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "gui/inter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "gui/inter_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "gui/misc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "gui/misc_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "gui/block_collection_mask"
+    }
+  ]
+}
