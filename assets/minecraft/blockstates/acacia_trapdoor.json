@@ -34,31 +34,23 @@
         ],
         "facing=north,half=top,open=true,powered=false": [
             { "model": "block/acacia_trapdoor_unpowered_upper", "y": 180 },
-            { "model": "block/acacia_trapdoor_unpowered_upper2", "y": 180 },
-            { "model": "block/acacia_trapdoor_unpowered_upper3", "y": 180 },
-            { "model": "block/acacia_trapdoor_unpowered_upper4", "y": 180 },
-            { "model": "block/acacia_trapdoor_unpowered_upper5", "y": 180 }
+            { "model": "block/acacia_trapdoor_unpowered_upper1", "y": 180 },
+            { "model": "block/acacia_trapdoor_unpowered_upper2", "y": 180 }
         ],
         "facing=south,half=top,open=true,powered=false": [
             { "model": "block/acacia_trapdoor_unpowered_upper" },
-            { "model": "block/acacia_trapdoor_unpowered_upper2" },
-            { "model": "block/acacia_trapdoor_unpowered_upper3" },
-            { "model": "block/acacia_trapdoor_unpowered_upper4" },
-            { "model": "block/acacia_trapdoor_unpowered_upper5" }
+            { "model": "block/acacia_trapdoor_unpowered_upper1" },
+            { "model": "block/acacia_trapdoor_unpowered_upper2" }
         ],
         "facing=east,half=top,open=true,powered=false": [
             { "model": "block/acacia_trapdoor_unpowered_upper", "y": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper2", "y": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper3", "y": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper4", "y": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper5", "y": 270 }
+            { "model": "block/acacia_trapdoor_unpowered_upper1", "y": 270 },
+            { "model": "block/acacia_trapdoor_unpowered_upper2", "y": 270 }
         ],
         "facing=west,half=top,open=true,powered=false": [
             { "model": "block/acacia_trapdoor_unpowered_upper", "y": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper2", "y": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper3", "y": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper4", "y": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper5", "y": 90 }
+            { "model": "block/acacia_trapdoor_unpowered_upper1", "y": 90 },
+            { "model": "block/acacia_trapdoor_unpowered_upper2", "y": 90 }
         ],
 		"facing=north,half=bottom,open=false,powered=true": [
             { "model": "block/acacia_trapdoor_unpowered_lower", "x": 90 },
@@ -73,10 +65,8 @@
         ],
         "facing=east,half=bottom,open=false,powered=true": [
             { "model": "block/acacia_trapdoor_unpowered_upper", "x": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper2", "x": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper3", "x": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper4", "x": 90 },
-            { "model": "block/acacia_trapdoor_unpowered_upper5", "x": 90 }
+            { "model": "block/acacia_trapdoor_unpowered_upper1", "x": 90 },
+            { "model": "block/acacia_trapdoor_unpowered_upper2", "x": 90 }
         ],
         "facing=west,half=bottom,open=false,powered=true": [
             { "model": "block/acacia_trapdoor_powered_upper", "x": 90 },
@@ -97,10 +87,8 @@
         ],
         "facing=east,half=top,open=false,powered=true": [
             { "model": "block/acacia_trapdoor_unpowered_upper", "x": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper2", "x": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper3", "x": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper4", "x": 270 },
-            { "model": "block/acacia_trapdoor_unpowered_upper5", "x": 270 }
+            { "model": "block/acacia_trapdoor_unpowered_upper1", "x": 270 },
+            { "model": "block/acacia_trapdoor_unpowered_upper2", "x": 270 }
         ],
         "facing=west,half=top,open=false,powered=true": [
             { "model": "block/acacia_trapdoor_powered_upper", "x": 270 },
