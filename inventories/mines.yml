@@ -12,16 +12,16 @@ Items:
       G2: oak_stairs
       H2: oak_fence_gate_powered
       I2: oak_slab
-      J1: oak_button
-      E0: comparator_compare_off_south
-      E1: birch_button
+      J2: jungle_trapdoor_unpowered_upper_flat
+      J1: jungle_trapdoor_unpowered_upper
+      E1: jungle_trapdoor_powered_upper
+      E2: jungle_trapdoor_powered_upper_flat
       D2: birch_slab
       C2: birch_fence_gate_powered
       B2: birch_stairs
       A4: jungle_planks
       B4: jungle_stairs
-      D4: jungle_slab
-      E4: jungle_button
+      C4: jungle_slab
       F4: acacia_sapling_0
       G4: oak_log
       I4: rail
@@ -42,7 +42,48 @@ Items:
     type: VANILLA
     collection:
       indirect: jungle_planks
+
   #inside collection
+  jungle_trapdoor_unpowered_upper_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 326
+    display: Wooden Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:jungle_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:jungle_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: jungle_planks
+  jungle_trapdoor_unpowered_upper:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 327
+    display: Wooden Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: jungle_planks
+  jungle_trapdoor_powered_upper_flat:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 328
+    display: Old Wooden Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:jungle_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:jungle_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: jungle_planks
+  jungle_trapdoor_powered_upper:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 329
+    display: Old Wooden Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: jungle_planks
   jungle_stairs:
     itemMaterial: JUNGLE_STAIRS
     damage: 0
@@ -57,13 +98,6 @@ Items:
     type: VANILLA
     collection:
       indirect: jungle_planks
-  jungle_button:
-    itemMaterial: JUNGLE_BUTTON
-    damage: 0
-    display: Quilted Leather Button 
-    type: VANILLA
-    collection:
-      indirect: jungle_planks
   oak_stairs:
     itemMaterial: OAK_STAIRS
     damage: 0
@@ -75,13 +109,6 @@ Items:
     itemMaterial: OAK_SLAB
     damage: 0
     display: Wooden Slab
-    type: VANILLA
-    collection:
-      indirect: jungle_planks
-  oak_button:
-    itemMaterial: OAK_BUTTON
-    damage: 0
-    display: Wooden Button
     type: VANILLA
     collection:
       indirect: jungle_planks
@@ -110,13 +137,6 @@ Items:
     type: VANILLA
     collection:
       indirect: jungle_planks
-  birch_button:
-    itemMaterial: BIRCH_BUTTON
-    damage: 0
-    display: Old Wooden Button 
-    type: VANILLA
-    collection:
-      indirect: jungle_planks
   birch_fence_gate_powered:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 284
@@ -126,14 +146,6 @@ Items:
     blockDataSouth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=false,powered=true]
     blockDataEast: minecraft:birch_fence_gate[facing=west,in_wall=false,open=false,powered=true]
     blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=false,open=false,powered=true]
-    collection:
-      indirect: jungle_planks
-  comparator_compare_off_south:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 63
-    display: Wooden 1/4 Block
-    type: BLOCK
-    blockData: minecraft:comparator[mode=compare,powered=false,facing=south]
     collection:
       indirect: jungle_planks
 
@@ -154,9 +166,11 @@ Items:
       A0: chorus_plant
       F1: chorus_flower_1
       G2: oak_wood
+      H2: oak_trapdoor
       I2: oak_log
-      J1: comparator_compare_off_south
-      E1: oak_trapdoor
+      J1: upper_support_plus
+      E0: upper_support
+      E1: support
       D2: jungle_log
       B2: jungle_wood
       A4: birch_fence
@@ -221,7 +235,103 @@ Items:
     blockData: minecraft:chorus_plant
     collection:
       indirect: chorus_flower_1
+  
   #inside collection
+    
+  support:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 330
+    display: Support Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:blackstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:blackstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # editDataNorth refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:blackstone_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=low]
+      S: minecraft:blackstone_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]
+      E: minecraft:blackstone_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+      WS: minecraft:blackstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]
+      SE: minecraft:blackstone_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=tall]
+      EN: minecraft:blackstone_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NS: minecraft:blackstone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=tall]
+      WE: minecraft:blackstone_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=low]
+      NWS: minecraft:blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=low]
+      WSE: minecraft:blackstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=tall]
+      SEN: minecraft:blackstone_wall[east=tall,north=low,south=low,up=false,waterlogged=false,west=tall]
+      ENW: minecraft:blackstone_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      NWSE: minecraft:blackstone_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=tall]
+    # editDataEast refer to blockDataEast. Block data which are obmitted here are obtained from editDataNorth
+    # by rotation
+    collection:
+      indirect: chorus_flower_1
+  upper_support:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 331
+    display: Upper Support Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:blackstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:blackstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Missing entries will make that combination not available.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:blackstone_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:blackstone_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+      E: minecraft:blackstone_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:blackstone_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      WS: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=tall]
+      SE: minecraft:blackstone_wall[east=tall,north=low,south=low,up=true,waterlogged=false,west=low]
+      EN: minecraft:blackstone_wall[east=tall,north=low,south=none,up=false,waterlogged=false,west=tall]
+      NS: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=tall]
+      WE: minecraft:blackstone_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]
+      NWS: minecraft:blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=tall]
+      WSE: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=tall]
+      SEN: minecraft:blackstone_wall[east=tall,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      ENW: minecraft:blackstone_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      NWSE: minecraft:blackstone_wall[east=low,north=tall,south=low,up=false,waterlogged=false,west=tall]
+    # editDataSouth refer to blockDataSouth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataSouth
+    # Entries which are obmitted here are obtained from editDataNorth by rotation
+    editDataSouth:
+      WE: minecraft:blackstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=tall]
+    editDataWest:
+      NS: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: chorus_flower_1
+  upper_support_plus:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 332
+    display: Upper Support Beams with horizontal Beam
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:blackstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:blackstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:blackstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      W: minecraft:blackstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:blackstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      E: minecraft:blackstone_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:blackstone_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=low]
+      WS: minecraft:blackstone_wall[east=none,north=low,south=tall,up=false,waterlogged=false,west=low]
+      SE: minecraft:blackstone_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=low]
+      EN: minecraft:blackstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: chorus_flower_1
   jungle_wood:
     itemMaterial: JUNGLE_WOOD
     damage: 15
