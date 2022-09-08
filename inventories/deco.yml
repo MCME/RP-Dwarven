@@ -1,7 +1,7 @@
 Items:
   Clay:
     itemMaterial: CLAY
-    damage: 1
+    cmd: 1
     display: Patchwork Cloth
     category: Deco
     type: VANILLA
@@ -21,7 +21,7 @@ Items:
       B4: farmland1
   Snow:
     itemMaterial: SNOW_BLOCK
-    damage: 0
+    cmd: 0
     display: Gold Coins
     category: Deco
     type: VANILLA
@@ -29,14 +29,14 @@ Items:
       indirect: Clay
   Snow_layer:
     itemMaterial: SNOW
-    damage: 0
+    cmd: 0
     display: Gold layer
     type: VANILLA
     collection:
       indirect: Clay
   Emerald_block:
     itemMaterial: EMERALD_BLOCK
-    damage: 0
+    cmd: 0
     display: Color Pattern Block
     category: Deco
     type: VANILLA
@@ -44,21 +44,21 @@ Items:
       indirect: Clay
   Cobweb:
     itemMaterial: COBWEB
-    damage: 0
+    cmd: 0
     display: Cobweb
     type: VANILLA
     collection:
       indirect: Clay
   Blue_stained_glass:
     itemMaterial: BLUE_STAINED_GLASS
-    damage: 0
+    cmd: 0
     display: Crystal Glass
     type: VANILLA
     collection:
       indirect: Clay
   Glass:
     itemMaterial: GLASS
-    damage: 0
+    cmd: 0
     display: Glass
     category: Deco
     type: VANILLA
@@ -66,15 +66,15 @@ Items:
       indirect: Clay
   Glass_pane:
     itemMaterial: GLASS_PANE
-    damage: 0
+    cmd: 0
     display: Glass pane
     category: Deco
     type: VANILLA
     collection:
       indirect: Clay
   Stained_glass_pane_red:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 210
+    itemMaterial: CLAY_BALL
+    cmd: 210
     display: Metal lattice
     category: Deco
     type: BLOCK
@@ -82,24 +82,24 @@ Items:
     collection:
       indirect: Clay
   Stained_glass_pane_black:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 211
+    itemMaterial: CLAY_BALL
+    cmd: 211
     display: Metal grid
     type: BLOCK
     blockdata: minecraft:black_stained_glass_pane
     collection:
       indirect: Clay
   Stained_glass_pane_green:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 212
+    itemMaterial: CLAY_BALL
+    cmd: 212
     display: Metal rusty grate
     type: BLOCK
     blockdata: minecraft:green_stained_glass_pane
     collection:
       indirect: Clay
   farmland0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 213
+    itemMaterial: CLAY_BALL
+    cmd: 213
     display: Statue down
     category: Deco
     type: FOUR_DIRECTIONS
@@ -110,8 +110,8 @@ Items:
     collection:
       indirect: Clay
   farmland1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 214
+    itemMaterial: CLAY_BALL
+    cmd: 214
     display: Statue up
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:farmland[moisture=4]
@@ -122,7 +122,7 @@ Items:
       indirect: Clay
   glazed_terracotta_orange:
     itemMaterial: ORANGE_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Sandstone Corner pattern
     category: Deco
     type: VANILLA
@@ -137,28 +137,28 @@ Items:
       I2: glazed_terracotta_gray
   glazed_terracotta_magenta:
     itemMaterial: MAGENTA_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Small Brick Corner Pattern
     type: VANILLA
     collection:
       indirect: glazed_terracotta_orange
   glazed_terracotta_pink:
     itemMaterial: PINK_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Tiny Brick Corner Pattern
     type: VANILLA
     collection:
       indirect: glazed_terracotta_orange
   glazed_terracotta_light_blue:
     itemMaterial: LIGHT_BLUE_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Large Bricks Corner Pattern
     type: VANILLA
     collection:
       indirect: glazed_terracotta_orange
   glazed_terracotta_white:
     itemMaterial: WHITE_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Cobblestone Corner Pattern
     category: Deco
     type: VANILLA
@@ -166,7 +166,7 @@ Items:
       indirect: glazed_terracotta_orange
   glazed_terracotta_yellow:
     itemMaterial: YELLOW_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: White Cobblestone Corner Pattern
     category: Deco
     type: VANILLA
@@ -174,7 +174,7 @@ Items:
       indirect: glazed_terracotta_orange
   glazed_terracotta_lime:
     itemMaterial: LIME_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Green Stone Corner Pattern
     category: Deco
     type: VANILLA
@@ -182,7 +182,7 @@ Items:
       indirect: glazed_terracotta_orange
   glazed_terracotta_gray:
     itemMaterial: GRAY_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Black Stone Corner Pattern
     category: Deco
     type: VANILLA
@@ -192,7 +192,7 @@ Items:
     blockMaterial: OAK_DOOR
     powered: true
     itemMaterial: OAK_DOOR
-    damage: 0
+    cmd: 0
     display: Stone Door
     type: DOOR
     collection:
@@ -207,7 +207,7 @@ Items:
     blockMaterial: DARK_OAK_DOOR
     powered: true
     itemMaterial: DARK_OAK_DOOR
-    damage: 0
+    cmd: 0
     display: Goblin Door
     type: DOOR
     collection:
@@ -216,7 +216,7 @@ Items:
     blockMaterial: SPRUCE_DOOR
     powered: true
     itemMaterial: SPRUCE_DOOR
-    damage: 0
+    cmd: 0
     display: Sturdy Door
     category: Deco
     type: DOOR
@@ -226,7 +226,7 @@ Items:
     blockMaterial: JUNGLE_DOOR
     powered: true
     itemMaterial: JUNGLE_DOOR
-    damage: 0
+    cmd: 0
     display: Makeshift door
     category: Deco
     type: DOOR
@@ -236,7 +236,7 @@ Items:
     blockMaterial: ACACIA_DOOR
     powered: true
     itemMaterial: ACACIA_DOOR
-    damage: 0
+    cmd: 0
     display: Iron Door
     category: Deco
     type: DOOR
@@ -245,7 +245,7 @@ Items:
   birch_door_powered:
     blockMaterial: BIRCH_DOOR
     itemMaterial: BIRCH_DOOR
-    damage: 0
+    cmd: 0
     display: Quilted Leather Door
     category: Deco
     type: DOOR
@@ -255,7 +255,7 @@ Items:
   iron_door_powered:
     blockMaterial: IRON_DOOR
     itemMaterial: IRON_DOOR
-    damage: 0
+    cmd: 0
     display: Hidden Stone Door
     category: Deco
     type: DOOR
@@ -263,8 +263,8 @@ Items:
     collection:
       indirect: wooden_door_powered
   stained_glass_pane_lime:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 215
+    itemMaterial: CLAY_BALL
+    cmd: 215
     display: White thin deco
     category: Deco
     type: FOUR_DIRECTIONS
@@ -283,8 +283,8 @@ Items:
       H2: stained_glass_pane_light_gray1
       I2: stained_glass_pane_pink
   stained_glass_pane_cyan:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 216
+    itemMaterial: CLAY_BALL
+    cmd: 216
     display: White pink gray deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
@@ -294,8 +294,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_cyan1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 217
+    itemMaterial: CLAY_BALL
+    cmd: 217
     display: White pink gray deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:cyan_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
@@ -305,8 +305,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_light_gray:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 218
+    itemMaterial: CLAY_BALL
+    cmd: 218
     display: White wide deco
     category: Deco
     type: FOUR_DIRECTIONS
@@ -317,8 +317,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_light_gray1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 219
+    itemMaterial: CLAY_BALL
+    cmd: 219
     display: White gray thin deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:light_gray_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
@@ -328,8 +328,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_gray:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 220
+    itemMaterial: CLAY_BALL
+    cmd: 220
     display: White deco side
     category: Deco
     type: FOUR_DIRECTIONS
@@ -340,8 +340,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_gray1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 221
+    itemMaterial: CLAY_BALL
+    cmd: 221
     display: White gold gray deco
     category: Deco
     type: FOUR_DIRECTIONS
@@ -352,8 +352,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_yellow:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 222
+    itemMaterial: CLAY_BALL
+    cmd: 222
     display: White + Pink Decoration
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:yellow_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
@@ -363,8 +363,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_pink:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 223
+    itemMaterial: CLAY_BALL
+    cmd: 223
     display: White decoration
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:pink_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
@@ -374,8 +374,8 @@ Items:
     collection:
       indirect: stained_glass_pane_lime
   stained_glass_pane_purple:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 224
+    itemMaterial: CLAY_BALL
+    cmd: 224
     display: Gold decoration vertical
     category: Deco
     type: FOUR_DIRECTIONS
@@ -393,8 +393,8 @@ Items:
       H2: stained_glass_pane_brown
       I2: stained_glass_pane_brown1
   stained_glass_pane_purple1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 225
+    itemMaterial: CLAY_BALL
+    cmd: 225
     display: Gold decoration horizontal
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:purple_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
@@ -404,8 +404,8 @@ Items:
     collection:
       indirect: stained_glass_pane_purple
   stained_glass_pane_blue:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 226
+    itemMaterial: CLAY_BALL
+    cmd: 226
     display: Golden deco side
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:blue_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
@@ -415,8 +415,8 @@ Items:
     collection:
       indirect: stained_glass_pane_purple
   stained_glass_pane_blue1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 227
+    itemMaterial: CLAY_BALL
+    cmd: 227
     display: Golden pink deco
     category: Deco
     type: FOUR_DIRECTIONS
@@ -427,8 +427,8 @@ Items:
     collection:
       indirect: stained_glass_pane_purple
   stained_glass_pane_brown:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 228
+    itemMaterial: CLAY_BALL
+    cmd: 228
     display: Golden deco vertical
     category: Deco
     type: FOUR_DIRECTIONS
@@ -439,8 +439,8 @@ Items:
     collection:
       indirect: stained_glass_pane_purple
   stained_glass_pane_brown1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 229
+    itemMaterial: CLAY_BALL
+    cmd: 229
     display: Golden pink deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:brown_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
@@ -450,8 +450,8 @@ Items:
     collection:
       indirect: stained_glass_pane_purple
   stained_glass_pane_orange:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 230
+    itemMaterial: CLAY_BALL
+    cmd: 230
     display: Golden pink deco
     category: Deco
     type: FOUR_DIRECTIONS
@@ -462,8 +462,8 @@ Items:
     collection:
       indirect: stained_glass_pane_purple
   stained_glass_pane_magenta:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 231
+    itemMaterial: CLAY_BALL
+    cmd: 231
     display: Golden deco
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:magenta_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
@@ -473,8 +473,8 @@ Items:
     collection:
       indirect: stained_glass_pane_purple
   tube_coral_fan:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 294
+    itemMaterial: CLAY_BALL
+    cmd: 294
     display: Wall Runes
     category: Deco
     type: FOUR_DIRECTIONS

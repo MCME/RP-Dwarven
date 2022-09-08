@@ -3,7 +3,7 @@ Items:
   # normal stone collection
   stone:
     itemMaterial: STONE
-    damage: 0
+    cmd: 0
     display: stone
     category: Terra
     type: VANILLA
@@ -29,7 +29,7 @@ Items:
       J4: obsidian
   yellow_terracotta:
     itemMaterial: yellow_terracotta
-    damage: 4
+    cmd: 4
     display: Rough Stone
     category: Terra
     type: VANILLA
@@ -38,8 +38,8 @@ Items:
   
   #inside collection
   oak_trapdoor_unpowered_upper_flat:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 63
+    itemMaterial: CLAY_BALL
+    cmd: 63
     display: Stone Thin Slab
     type: BISECTED
     blockDataUp: minecraft:oak_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
@@ -47,8 +47,8 @@ Items:
     collection:
       indirect: stone
   oak_trapdoor_unpowered_upper:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 68
+    itemMaterial: CLAY_BALL
+    cmd: 68
     display: Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
@@ -58,8 +58,8 @@ Items:
     collection:
       indirect: stone
   mossy_cobblestone_wall_wedge:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 286
+    itemMaterial: CLAY_BALL
+    cmd: 286
     display: Stone Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
@@ -69,8 +69,8 @@ Items:
     collection:
       indirect: stone
   mossy_cobblestone_wall_arch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 165
+    itemMaterial: CLAY_BALL
+    cmd: 165
     display: Stone Upper Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
@@ -80,8 +80,8 @@ Items:
     collection:
       indirect: stone
   gray_stained_glass_pane_diagonal:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 287
+    itemMaterial: CLAY_BALL
+    cmd: 287
     display: Stone Diagonal
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
@@ -92,21 +92,21 @@ Items:
       indirect: stone
   stone_stairs:
     itemMaterial: STONE_STAIRS
-    damage: 0
+    cmd: 0
     display: Stone Stairs
     type: VANILLA
     collection:
       indirect: stone
   stone_slab:
     itemMaterial: STONE_SLAB
-    damage: 0
+    cmd: 0
     display: Stone Slab
     type: VANILLA
     collection:
       indirect: stone
   stone_vertical_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 161
+    itemMaterial: CLAY_BALL
+    cmd: 161
     display: Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -116,8 +116,8 @@ Items:
     collection:
       indirect: stone
   stone_vertical_stair:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 162
+    itemMaterial: CLAY_BALL
+    cmd: 162
     display: Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:mossy_cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
@@ -128,7 +128,7 @@ Items:
       indirect: stone
   stone_balustrade:
     itemMaterial: MOSSY_COBBLESTONE_WALL
-    damage: 1
+    cmd: 1
     display: Stone Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:mossy_cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
@@ -138,24 +138,24 @@ Items:
     collection:
       indirect: stone
   stone_fancy_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 163
+    itemMaterial: CLAY_BALL
+    cmd: 163
     display: Fancy Stone Pillar
     type: BLOCK
     blockData: minecraft:mossy_cobblestone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: stone
   stone_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 164
+    itemMaterial: CLAY_BALL
+    cmd: 164
     display: Stone Pillar
     type: BLOCK
     blockData: minecraft:mossy_cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: stone
   very_thin_stone_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 166
+    itemMaterial: CLAY_BALL
+    cmd: 166
     display: Small Stone Pillar
     type: BLOCK
     blockData: minecraft:pink_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
@@ -165,7 +165,7 @@ Items:
   # gray stone collection
   cyan_terracotta:
     itemMaterial: CYAN_TERRACOTTA
-    damage: 9
+    cmd: 9
     display: Gray Stone
     category: Terra
     type: VANILLA
@@ -203,7 +203,7 @@ Items:
      J4: obsidian
   polished_andesite:
     itemMaterial: POLISHED_ANDESITE
-    damage: 6
+    cmd: 6
     display: Rough Gray Stone
     category: Terra
     type: VANILLA
@@ -211,7 +211,7 @@ Items:
       indirect: cyan_terracotta
   gray_concrete:
     itemMaterial: GRAY_CONCRETE
-    damage: 7
+    cmd: 7
     display: Light Gray Stone
     category: Terra
     type: VANILLA
@@ -219,7 +219,7 @@ Items:
       indirect: cyan_terracotta
   light_gray_terracotta:
     itemMaterial: LIGHT_GRAY_TERRACOTTA
-    damage: 8
+    cmd: 8
     display: Light Green Stone Stone
     category: Terra
     type: VANILLA
@@ -227,7 +227,7 @@ Items:
       indirect: cyan_terracotta
   coal_block:
     itemMaterial: COAL_BLOCK
-    damage: 0
+    cmd: 0
     display: Rough Light Gray Stone
     category: Terra
     type: VANILLA
@@ -236,8 +236,8 @@ Items:
 
   #inside collection
   birch_trapdoor_powered_upper_flat:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 69
+    itemMaterial: CLAY_BALL
+    cmd: 69
     display: Gray Stone Thin Slab
     type: BISECTED
     blockDataUp: minecraft:birch_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
@@ -245,8 +245,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   birch_trapdoor_powered_upper:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 71
+    itemMaterial: CLAY_BALL
+    cmd: 71
     display: Gray Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:birch_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
@@ -256,8 +256,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   jungle_trapdoor_unpowered_lower_flat:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 72
+    itemMaterial: CLAY_BALL
+    cmd: 72
     display: Light Green Stone Thin Slab
     type: BISECTED
     blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
@@ -265,8 +265,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   jungle_trapdoor_unpowered_lower:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 238
+    itemMaterial: CLAY_BALL
+    cmd: 238
     display: Light Green Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
@@ -276,8 +276,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   andesite_wall_wedge:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 295
+    itemMaterial: CLAY_BALL
+    cmd: 295
     display: Gray Stone Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:andesite_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
@@ -287,8 +287,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   andesite_wall_arch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 296
+    itemMaterial: CLAY_BALL
+    cmd: 296
     display: Gray Stone Upper Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:andesite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
@@ -298,8 +298,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   cyan_stained_glass_pane_wall:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 285
+    itemMaterial: CLAY_BALL
+    cmd: 285
     display: Gray Stone Thin Wall
     type: FOUR_DIRECTIONS
     blockDataEast: minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
@@ -309,8 +309,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   andesite_vertical_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 171
+    itemMaterial: CLAY_BALL
+    cmd: 171
     display: Gray Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:andesite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -320,8 +320,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   andesite_vertical_stair:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 172
+    itemMaterial: CLAY_BALL
+    cmd: 172
     display: Gray Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:andesite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
@@ -332,7 +332,7 @@ Items:
       indirect: cyan_terracotta
   andesite_balustrade:
     itemMaterial: ANDESITE_WALL
-    damage: 0
+    cmd: 0
     display: Gray Stone Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
@@ -342,24 +342,24 @@ Items:
     collection:
       indirect: cyan_terracotta
   andesite_fancy_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 173
+    itemMaterial: CLAY_BALL
+    cmd: 173
     display: Fancy Gray Stone Pillar
     type: BLOCK
     blockData: minecraft:andesite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: cyan_terracotta
   andesite_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 174
+    itemMaterial: CLAY_BALL
+    cmd: 174
     display: Gray Stone Pillar
     type: BLOCK
     blockData: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: cyan_terracotta
   polished_blackstone_vertical_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 297
+    itemMaterial: CLAY_BALL
+    cmd: 297
     display: Light Green Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -369,8 +369,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   polished_blackstone_vertical_stair:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 298
+    itemMaterial: CLAY_BALL
+    cmd: 298
     display: Light Green Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
@@ -381,7 +381,7 @@ Items:
       indirect: cyan_terracotta
   polished_blackstone_balustrade:
     itemMaterial: polished_blackstone_WALL
-    damage: 0
+    cmd: 0
     display: Light Green Stone Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:polished_blackstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
@@ -391,24 +391,24 @@ Items:
     collection:
       indirect: cyan_terracotta
   polished_blackstone_fancy_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 299
+    itemMaterial: CLAY_BALL
+    cmd: 299
     display: Fancy Light Green Stone Pillar
     type: BLOCK
     blockData: minecraft:polished_blackstone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: cyan_terracotta
   polished_blackstone_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 300
+    itemMaterial: CLAY_BALL
+    cmd: 300
     display: Light Green Stone Pillar
     type: BLOCK
     blockData: minecraft:polished_blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: cyan_terracotta
   polished_blackstone_wall_wedge:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 301
+    itemMaterial: CLAY_BALL
+    cmd: 301
     display: Light Green Stone Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
@@ -418,8 +418,8 @@ Items:
     collection:
       indirect: cyan_terracotta
   polished_blackstone_wall_arch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 302
+    itemMaterial: CLAY_BALL
+    cmd: 302
     display: Light Green Stone Upper Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:polished_blackstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
@@ -430,21 +430,21 @@ Items:
       indirect: cyan_terracotta
   brown_concrete:
     itemMaterial: BROWN_CONCRETE
-    damage: 0
+    cmd: 0
     display: Smooth gray Stone
     type: VANILLA
     collection:
       indirect: cyan_terracotta
   polished_andesite_stairs:
     itemMaterial: POLISHED_ANDESITE_STAIRS
-    damage: 0
+    cmd: 0
     display: Rough Gray Stone Stairs
     type: VANILLA
     collection:
       indirect: cyan_terracotta
   polished_andesite_slab:
     itemMaterial: POLISHED_ANDESITE_SLAB
-    damage: 0
+    cmd: 0
     display: Rough Gray Stone Slab
     type: VANILLA
     collection:
@@ -454,7 +454,7 @@ Items:
   # dark stone collection
   netherrack:
     itemMaterial: NETHERRACK
-    damage: 0
+    cmd: 0
     display: Ashes 1
     category: Terra
     type: VANILLA
@@ -475,7 +475,7 @@ Items:
       J4: lime_concrete
   lime_terracotta:
     itemMaterial: LIME_TERRACOTTA
-    damage: 5
+    cmd: 5
     display: Ashes 2
     category: Terra
     type: VANILLA
@@ -483,7 +483,7 @@ Items:
       indirect: netherrack
   obsidian:
     itemMaterial: OBSIDIAN
-    damage: 0
+    cmd: 0
     display: Dark Stone [49:0]
     category: Terra
     type: VANILLA
@@ -491,7 +491,7 @@ Items:
       indirect: netherrack
   sand:
     itemMaterial: SAND
-    damage: 0
+    cmd: 0
     display: Rough Dark gray Stone
     category: Terra
     type: VANILLA
@@ -499,7 +499,7 @@ Items:
       indirect: netherrack
   polished_diorite:
     itemMaterial: POLISHED_DIORITE
-    damage: 4
+    cmd: 4
     display: Smooth Dark gray Stone
     category: Terra
     type: VANILLA
@@ -509,35 +509,35 @@ Items:
   #inside collection
   bedrock:
     itemMaterial: BEDROCK
-    damage: 0
+    cmd: 0
     display: Bedrock [7:0]
     type: VANILLA
     collection:
       indirect: netherrack
   coarse_dirt:
     itemMaterial: COARSE_DIRT
-    damage: 1
+    cmd: 1
     display: Rough Green Stone
     type: VANILLA
     collection:
       indirect: netherrack
   polished_diorite_stairs:
     itemMaterial: POLISHED_DIORITE_STAIRS
-    damage: 0
+    cmd: 0
     display: Smooth Dark gray Stone Stairs
     type: VANILLA
     collection:
       indirect: netherrack
   polished_diorite_slab:
     itemMaterial: POLISHED_DIORITE_SLAB
-    damage: 0
+    cmd: 0
     display: Smooth Dark gray Stone Slab
     type: VANILLA
     collection:
       indirect: netherrack
   gravel:
     itemMaterial: GRAVEL
-    damage: 0
+    cmd: 0
     display: Rough gray Stone
     type: VANILLA
     collection:
@@ -547,7 +547,7 @@ Items:
   # brown stone collection
   granite:
     itemMaterial: GRANITE
-    damage: 1
+    cmd: 1
     display: Rough Brown Stone
     category: Terra
     type: VANILLA
@@ -576,7 +576,7 @@ Items:
       J4: obsidian
   white_concrete:
     itemMaterial: WHITE_CONCRETE
-    damage: 0
+    cmd: 0
     display: Rough Light Brown Stone
     category: Terra
     type: VANILLA
@@ -584,7 +584,7 @@ Items:
       indirect: granite
   polished_granite:
     itemMaterial: POLISHED_GRANITE
-    damage: 2
+    cmd: 2
     display: Rough Red Stone
     category: Terra
     type: VANILLA
@@ -592,7 +592,7 @@ Items:
       indirect: granite
   light_blue_concrete:
     itemMaterial: LIGHT_BLUE_CONCRETE
-    damage: 3
+    cmd: 3
     display: Brown Stone
     category: Terra
     type: VANILLA
@@ -600,7 +600,7 @@ Items:
       indirect: granite
   orange_concrete:
     itemMaterial: ORANGE_CONCRETE
-    damage: 1
+    cmd: 1
     display: Light Brown Stone
     category: Terra
     type: VANILLA
@@ -608,7 +608,7 @@ Items:
       indirect: granite
   lime_concrete:
     itemMaterial: LIME_CONCRETE
-    damage: 5
+    cmd: 5
     display: Dry Clay
     category: Terra
     type: VANILLA
@@ -616,7 +616,7 @@ Items:
       indirect: granite
   cyan_concrete:
     itemMaterial: CYAN_CONCRETE
-    damage: 9
+    cmd: 9
     display: Yellow Stone
     category: Terra
     type: VANILLA
@@ -624,7 +624,7 @@ Items:
       indirect: granite
   terracotta:
     itemMaterial: TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Smooth Brown Stone
     category: Terra
     type: VANILLA
@@ -634,42 +634,42 @@ Items:
   #inside collection
   pink_concrete:
     itemMaterial: PINK_CONCRETE
-    damage: 6
+    cmd: 6
     display: Dark Brown Stone
     type: VANILLA
     collection:
       indirect: granite
   granite_stairs:
     itemMaterial: GRANITE_STAIRS
-    damage: 0
+    cmd: 0
     display: Rough Brown Stone Stairs
     type: VANILLA
     collection:
       indirect: granite
   granite_slab:
     itemMaterial: GRANITE_SLAB
-    damage: 0
+    cmd: 0
     display: Rough Brown Stone Slab
     type: VANILLA
     collection:
       indirect: granite
   polished_granite_stairs:
     itemMaterial: POLISHED_GRANITE_STAIRS
-    damage: 0
+    cmd: 0
     display: Rough Red Stone Stairs
     type: VANILLA
     collection:
       indirect: granite
   polished_granite_slab:
     itemMaterial: POLISHED_GRANITE_SLAB
-    damage: 0
+    cmd: 0
     display: Rough Red Stone Slab
     type: VANILLA
     collection:
       indirect: granite
   granite_vertical_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 167
+    itemMaterial: CLAY_BALL
+    cmd: 167
     display: Rough Brown Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:granite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -679,8 +679,8 @@ Items:
     collection:
       indirect: granite
   granite_vertical_stair:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 168
+    itemMaterial: CLAY_BALL
+    cmd: 168
     display: Rough Brown Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:granite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
@@ -691,7 +691,7 @@ Items:
       indirect: granite
   granite_balustrade:
     itemMaterial: GRANITE_WALL
-    damage: 0
+    cmd: 0
     display: Rough Brown Stone Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:granite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
@@ -701,16 +701,16 @@ Items:
     collection:
       indirect: granite
   granite_fancy_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 169
+    itemMaterial: CLAY_BALL
+    cmd: 169
     display: Fancy Rough Brown Stone Pillar
     type: BLOCK
     blockData: minecraft:granite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: granite
   granite_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 170
+    itemMaterial: CLAY_BALL
+    cmd: 170
     display: Rough Brown Stone Pillar
     type: BLOCK
     blockData: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
@@ -721,7 +721,7 @@ Items:
   # light stone collection
   diorite:
     itemMaterial: DIORITE
-    damage: 3
+    cmd: 3
     display: Smooth White Stone [3:1]
     category: Terra
     type: VANILLA
@@ -748,7 +748,7 @@ Items:
       J4: obsidian
   andesite:
     itemMaterial: ANDESITE
-    damage: 5
+    cmd: 5
     display: White Stone
     category: Terra
     type: VANILLA
@@ -756,7 +756,7 @@ Items:
       indirect: diorite
   red_sand:
     itemMaterial: RED_SAND
-    damage: 1
+    cmd: 1
     display: Rough Light Stone
     category: Terra
     type: VANILLA
@@ -765,8 +765,8 @@ Items:
   
   #inside collection
   jungle_trapdoor_powered_lower_flat:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 306
+    itemMaterial: CLAY_BALL
+    cmd: 306
     display: Smooth Light Stone Thin Slab
     type: BISECTED
     blockDataUp: minecraft:jungle_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
@@ -774,8 +774,8 @@ Items:
     collection:
       indirect: diorite
   jungle_trapdoor_powered_lower:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 307
+    itemMaterial: CLAY_BALL
+    cmd: 307
     display: Smooth Light Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
@@ -785,8 +785,8 @@ Items:
     collection:
       indirect: diorite
   diorite_wall_wedge:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 303
+    itemMaterial: CLAY_BALL
+    cmd: 303
     display: Smooth White Stone Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:diorite_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
@@ -796,8 +796,8 @@ Items:
     collection:
       indirect: diorite
   diorite_wall_arch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 304
+    itemMaterial: CLAY_BALL
+    cmd: 304
     display: Smooth White Stone Upper Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:diorite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
@@ -808,35 +808,35 @@ Items:
       indirect: diorite
   andesite_stairs:
     itemMaterial: ANDESITE_STAIRS
-    damage: 0
+    cmd: 0
     display: White Stone Stairs
     type: VANILLA
     collection:
       indirect: diorite
   andesite_slab:
     itemMaterial: ANDESITE_SLAB
-    damage: 0
+    cmd: 0
     display: White Stone Slab
     type: VANILLA
     collection:
       indirect: diorite
   diorite_stairs:
     itemMaterial: DIORITE_STAIRS
-    damage: 0
+    cmd: 0
     display: Smooth White Stone Stairs
     type: VANILLA
     collection:
       indirect: diorite
   diorite_slab:
     itemMaterial: DIORITE_SLAB
-    damage: 0
+    cmd: 0
     display: Smooth White Stone Slab
     type: VANILLA
     collection:
       indirect: diorite
   diorite_vertical_slab:       
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 175
+    itemMaterial: CLAY_BALL
+    cmd: 175
     display: Smooth White Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:diorite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
@@ -846,8 +846,8 @@ Items:
     collection:
       indirect: diorite
   diorite_vertical_stair:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 176
+    itemMaterial: CLAY_BALL
+    cmd: 176
     display: Smooth White Stone Vertical Stair
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:diorite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
@@ -858,7 +858,7 @@ Items:
       indirect: diorite
   diorite_balustrade:
     itemMaterial: DIORITE_WALL
-    damage: 0
+    cmd: 0
     display: Smooth White Stone Balustrade
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
@@ -868,24 +868,24 @@ Items:
     collection:
       indirect: diorite
   diorite_fancy_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 177
+    itemMaterial: CLAY_BALL
+    cmd: 177
     display: Fancy Smooth White Stone Pillar
     type: BLOCK
     blockData: minecraft:diorite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
     collection:
       indirect: diorite
   diorite_thin_pillar:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 178
+    itemMaterial: CLAY_BALL
+    cmd: 178
     display: Smooth White Stone Pillar
     type: BLOCK
     blockData: minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
       indirect: diorite
   campfire_light_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 117
+    itemMaterial: CLAY_BALL
+    cmd: 117
     display: Light boulders
     category: Terra
     type: BLOCK
@@ -901,40 +901,40 @@ Items:
       I2: noteblock_sandstone_big_boulders
       E1: campfire_ore_boulders
   campfire_dark_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 118
+    itemMaterial: CLAY_BALL
+    cmd: 118
     display: Dark Boulders
     type: BLOCK
     blockData: minecraft:campfire[facing=east,lit=false,signal_fire=false,waterlogged=false]
     collection:
       indirect: campfire_light_boulders
   campfire_cobblestone_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 119
+    itemMaterial: CLAY_BALL
+    cmd: 119
     display: Loose Cobblestone
     type: BLOCK
     blockData: minecraft:campfire[facing=west,lit=false,signal_fire=false,waterlogged=false]
     collection:
       indirect: campfire_light_boulders
   campfire_sandstone_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 120
+    itemMaterial: CLAY_BALL
+    cmd: 120
     display: Sandstone Boulders
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
     collection:
       indirect: campfire_light_boulders
   campfire_ore_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 275
+    itemMaterial: CLAY_BALL
+    cmd: 275
     display: Ore Boulders
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
     collection:
       indirect: campfire_light_boulders
   noteblock_light_big_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 121
+    itemMaterial: CLAY_BALL
+    cmd: 121
     display: Light Large Boulders
     category: Terra
     type: FOUR_DIRECTIONS
@@ -945,8 +945,8 @@ Items:
     collection:
       indirect: campfire_light_boulders
   noteblock_dark_big_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 122
+    itemMaterial: CLAY_BALL
+    cmd: 122
     display: Dark Large Boulders
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=4,powered=false]
@@ -956,8 +956,8 @@ Items:
     collection:
       indirect: campfire_light_boulders
   noteblock_mixed_big_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 123
+    itemMaterial: CLAY_BALL
+    cmd: 123
     display: Cobblestone Large Boulder
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=8,powered=false]
@@ -967,8 +967,8 @@ Items:
     collection:
       indirect: campfire_light_boulders
   noteblock_sandstone_big_boulders:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 124
+    itemMaterial: CLAY_BALL
+    cmd: 124
     display: Sandstone Large Boulders
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=12,powered=false]
@@ -981,7 +981,7 @@ Items:
   # marble collection
   black_stained_glass:
     itemMaterial: BLACK_STAINED_GLASS
-    damage: 15
+    cmd: 15
     display: Light Blue Crystal Block
     category: Terra
     type: VANILLA
@@ -1009,7 +1009,7 @@ Items:
       J4: magenta_concrete
   orange_terracotta:
     itemMaterial: ORANGE_TERRACOTTA
-    damage: 1
+    cmd: 1
     display: Yellow Marble Block
     category: Terra
     type: VANILLA
@@ -1017,7 +1017,7 @@ Items:
       indirect: black_stained_glass
   purple_concrete:
     itemMaterial: PURPLE_CONCRETE
-    damage: 10
+    cmd: 10
     display: Green Marble Block
     category: Terra
     type: VANILLA
@@ -1025,7 +1025,7 @@ Items:
       indirect: black_stained_glass
   magenta_concrete:
     itemMaterial: MAGENTA_CONCRETE
-    damage: 2
+    cmd: 2
     display: Orange Marble Block
     category: Terra
     type: VANILLA
@@ -1033,7 +1033,7 @@ Items:
       indirect: black_stained_glass
   green_concrete:
     itemMaterial: GREEN_CONCRETE
-    damage: 13
+    cmd: 13
     display: Mixed Blue Marble Block
     category: Terra
     type: VANILLA
@@ -1041,7 +1041,7 @@ Items:
       indirect: black_stained_glass
   white_terracotta:
     itemMaterial: WHITE_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Aqua Marble Block
     category: Terra
     type: VANILLA
@@ -1049,7 +1049,7 @@ Items:
       indirect: black_stained_glass
   light_blue_terracotta:
     itemMaterial: LIGHT_BLUE_TERRACOTTA
-    damage: 3
+    cmd: 3
     display: Pink Marble Block
     category: Terra
     type: VANILLA
@@ -1057,7 +1057,7 @@ Items:
       indirect: black_stained_glass
   redstone_lamp:
     itemMaterial: REDSTONE_LAMP
-    damage: 0
+    cmd: 0
     display: Cluster Crystal
     category: Terra
     type: VANILLA
@@ -1067,7 +1067,7 @@ Items:
   #inside collection
   red_tulip:
     itemMaterial: RED_TULIP
-    damage: 4
+    cmd: 4
     display: Yellow Crystal
     type: BLOCK
     blockData: minecraft:red_tulip
@@ -1075,7 +1075,7 @@ Items:
       indirect: black_stained_glass
   blue_orchid:
     itemMaterial: BLUE_ORCHID
-    damage: 1
+    cmd: 1
     display: Green Crystal
     type: BLOCK
     blockData: minecraft:blue_orchid
@@ -1083,7 +1083,7 @@ Items:
       indirect: black_stained_glass
   poppy:
     itemMaterial: POPPY
-    damage: 0
+    cmd: 0
     display: Orange Crystal
     type: BLOCK
     blockData: minecraft:poppy
@@ -1091,7 +1091,7 @@ Items:
       indirect: black_stained_glass
   allium:
     itemMaterial: ALLIUM
-    damage: 2
+    cmd: 2
     display: Light Blue Crystal
     type: BLOCK
     blockData: minecraft:allium
@@ -1099,14 +1099,14 @@ Items:
       indirect: black_stained_glass
   red_stained_glass:
     itemMaterial: RED_STAINED_GLASS
-    damage: 14
+    cmd: 14
     display: Blue Crystal Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   azure_bluet:
     itemMaterial: AZURE_BLUET
-    damage: 3
+    cmd: 3
     display: Blue Crystal
     type: BLOCK
     blockData: minecraft:azure_bluet
@@ -1114,42 +1114,42 @@ Items:
       indirect: black_stained_glass
   red_concrete: 
     itemMaterial: RED_CONCRETE
-    damage: 14
+    cmd: 14
     display: Dark Blue Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   light_gray_concrete:
     itemMaterial: LIGHT_GRAY_CONCRETE
-    damage: 8
+    cmd: 8
     display: Purple Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   yellow_concrete:
     itemMaterial: YELLOW_CONCRETE
-    damage: 4
+    cmd: 4
     display: Smooth Blue Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   black_concrete:
     itemMaterial: BLACK_CONCRETE
-    damage: 15
+    cmd: 15
     display: Rough White Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   magenta_terracotta:
     itemMaterial: MAGENTA_TERRACOTTA
-    damage: 2
+    cmd: 2
     display: Light Pink Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass
   redstone_lamp_lit:
     itemMaterial: REDSTONE_LAMP
-    damage: 0
+    cmd: 0
     display: Cluster Crystal (Glowing)
     type: BLOCK
     blockData: minecraft:redstone_lamp[lit=true]
@@ -1157,7 +1157,7 @@ Items:
       indirect: black_stained_glass
   dandelion:
     itemMaterial: DANDELION
-    damage: 0
+    cmd: 0
     display: Red Crystal
     type: BLOCK
     blockData: minecraft:dandelion
@@ -1168,7 +1168,7 @@ Items:
   # plant collection
   podzol:
     itemMaterial: PODZOL
-    damage: 2
+    cmd: 2
     display: Podzol
     category: Terra
     type: VANILLA
@@ -1188,7 +1188,7 @@ Items:
       E4: dead_bush
   orange_concrete_powder:
     itemMaterial: ORANGE_CONCRETE_POWDER
-    damage: 1
+    cmd: 1
     display: Waste Block 1
     category: Terra
     type: VANILLA
@@ -1196,7 +1196,7 @@ Items:
       indirect: podzol
   dark_oak_leaves:
     itemMaterial: DARK_OAK_LEAVES
-    damage: 1
+    cmd: 1
     display: Dead Leaves 
     category: Terra
     type: BLOCK
@@ -1205,7 +1205,7 @@ Items:
       indirect: podzol
   pink_tulip:
     itemMaterial: PINK_TULIP
-    damage: 7
+    cmd: 7
     display: Large Red Mushrrom
     category: Terra
     type: BLOCK
@@ -1214,7 +1214,7 @@ Items:
       indirect: podzol
   oxeye_daisy:
     itemMaterial: OXEYE_DAISY
-    damage: 8
+    cmd: 8
     display: Dead Mushroom
     category: Terra
     type: BLOCK
@@ -1223,7 +1223,7 @@ Items:
       indirect: podzol
   orange_tulip:
     itemMaterial: ORANGE_TULIP
-    damage: 5
+    cmd: 5
     display: Red Mycelium
     category: Terra
     type: BLOCK
@@ -1232,7 +1232,7 @@ Items:
       indirect: podzol
   lily_pad:
     itemMaterial: LILY_PAD
-    damage: 0
+    cmd: 0
     display: Algae [111:0]
     category: Terra
     type: BLOCK_ON_WATER
@@ -1243,21 +1243,21 @@ Items:
   #inside collection
   mycelium:
     itemMaterial: MYCELIUM
-    damage: 0
+    cmd: 0
     display: Farmland
     type: VANILLA
     collection:
       indirect: podzol
   soul_sand:
     itemMaterial: SOUL_SAND
-    damage: 0
+    cmd: 0
     display: Waste Block 2
     type: VANILLA
     collection:
       indirect: podzol
   dead_bush:
     itemMaterial: DEAD_BUSH
-    damage: 0
+    cmd: 0
     display: Mushrooms
     type: BLOCK
     blockData: minecraft:dead_bush
@@ -1265,7 +1265,7 @@ Items:
       indirect: podzol
   red_mushroom:
     itemMaterial: RED_MUSHROOM
-    damage: 0
+    cmd: 0
     display: Red Mushrooms
     type: BLOCK
     blockData: minecraft:red_mushroom
@@ -1273,15 +1273,15 @@ Items:
       indirect: podzol
   white_tulip:
     itemMaterial: WHITE_TULIP
-    damage: 6
+    cmd: 6
     display: Mycelium
     type: BLOCK
     blockData: minecraft:white_tulip
     collection:
       indirect: podzol
   tomato_plant:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 179
+    itemMaterial: CLAY_BALL
+    cmd: 179
     display: Potato Plant
     type: BLOCK
     blockData: minecraft:nether_wart[age=0]
@@ -1290,8 +1290,8 @@ Items:
   
   # water collection
   water_7:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 180
+    itemMaterial: CLAY_BALL
+    cmd: 180
     display: Water Level 8
     category: Terra
     type: BLOCK
@@ -1302,73 +1302,89 @@ Items:
       A0: packed_ice
       F1: water_7
       G2: water_6
+      H2: snow_layer
       I2: water_5
       J1: water_4
       E1: water_3
       D2: water_2
+      C2: snow
       B2: water_1
   packed_ice:
     itemMaterial: PACKED_ICE
-    damage: 0
+    cmd: 0
     display: Packed Ice
     category: Terra
     type: VANILLA
     collection:
       indirect: water_7
-
+  snow:
+    itemMaterial: SNOW_BLOCK
+    cmd: 0
+    display: Snow Block
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: water_7
+  
 
   #inside collection
+  snow_layer:
+    itemMaterial: SNOW
+    cmd: 0
+    display: Layered Snow
+    type: VANILLA
+    collection: water_7
   water_0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 181
+    itemMaterial: CLAY_BALL
+    cmd: 181
     display: Water Level 1
     type: BLOCK
     blockData: minecraft:water[level=7]
     collection:
       indirect: water_7
   water_1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
+    itemMaterial: CLAY_BALL
+    cmd: 182
     display: Water Level 2
     type: BLOCK
     blockData: minecraft:water[level=6]  
     collection:
       indirect: water_7
   water_2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 264
+    itemMaterial: CLAY_BALL
+    cmd: 264
     display: Water Level 3
     type: BLOCK
     blockData: minecraft:water[level=5]  
     collection:
       indirect: water_7
   water_3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 265
+    itemMaterial: CLAY_BALL
+    cmd: 265
     display: Water Level 4
     type: BLOCK
     blockData: minecraft:water[level=4]  
     collection:
       indirect: water_7
   water_4:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 266
+    itemMaterial: CLAY_BALL
+    cmd: 266
     display: Water Level 5
     type: BLOCK
     blockData: minecraft:water[level=3]  
     collection:
       indirect: water_7
   water_5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 267
+    itemMaterial: CLAY_BALL
+    cmd: 267
     display: Water Level 6
     type: BLOCK
     blockData: minecraft:water[level=2] 
     collection:
       indirect: water_7
   water_6:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 268
+    itemMaterial: CLAY_BALL
+    cmd: 268
     display: Water Level 7
     type: BLOCK
     blockData: minecraft:water[level=1] 
@@ -1376,7 +1392,7 @@ Items:
       indirect: water_7
   ice:
     itemMaterial: ICE
-    damage: 0
+    cmd: 0
     display: Ice
     type: VANILLA
     collection:
@@ -1385,8 +1401,8 @@ Items:
 
   # lava collection
   lava_7:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 188
+    itemMaterial: CLAY_BALL
+    cmd: 188
     display: Lava Level 8
     category: Terra
     type: BLOCK
@@ -1403,7 +1419,7 @@ Items:
       B2: lava_1
   magma_block:
     itemMaterial: MAGMA_BLOCK
-    damage: 0
+    cmd: 0
     display: Magma Block
     category: Terra
     type: VANILLA
@@ -1412,56 +1428,56 @@ Items:
 
   #inside collection
   lava_0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 189
+    itemMaterial: CLAY_BALL
+    cmd: 189
     display: Lava Level 1
     type: BLOCK
     blockData: minecraft:lava[level=7]
     collection:
       indirect: lava_7
   lava_1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 269
+    itemMaterial: CLAY_BALL
+    cmd: 269
     display: Lava Level 2
     type: BLOCK
     blockData: minecraft:lava[level=6]
     collection:
       indirect: lava_7
   lava_2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 270
+    itemMaterial: CLAY_BALL
+    cmd: 270
     display: Lava Level 3
     type: BLOCK
     blockData: minecraft:lava[level=5]
     collection:
       indirect: lava_7
   lava_3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 271
+    itemMaterial: CLAY_BALL
+    cmd: 271
     display: Lava Level 4
     type: BLOCK
     blockData: minecraft:lava[level=4]
     collection:
       indirect: lava_7
   lava_4:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 272
+    itemMaterial: CLAY_BALL
+    cmd: 272
     display: Lava Level 5
     type: BLOCK
     blockData: minecraft:lava[level=3]
     collection:
       indirect: lava_7
   lava_5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 273
+    itemMaterial: CLAY_BALL
+    cmd: 273
     display: Lava Level 6
     type: BLOCK
     blockData: minecraft:lava[level=2]
     collection:
       indirect: lava_7
   lava_6:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 274
+    itemMaterial: CLAY_BALL
+    cmd: 274
     display: Lava Level 7
     type: BLOCK
     blockData: minecraft:lava[level=1]
