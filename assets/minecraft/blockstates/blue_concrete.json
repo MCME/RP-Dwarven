@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/blue_concrete" },
+      { "model": "block/blue_concrete_2" },
+      { "model": "block/blue_concrete_3" },
+      { "model": "block/blue_concrete_4" }
+    ]
+  }
+}
