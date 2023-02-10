@@ -3,7 +3,7 @@
 	"texture_size": [48, 48],
 	"textures": {
 		"1": "block/minecart",
-		"2": "block/cobblestone4",
+		"2": "block/mossy_stone_bricks4",
 		"particle": "block/models/rails",
 		"rails": "block/models/rails"
 	},
