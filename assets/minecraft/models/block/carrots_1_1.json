@@ -1,7 +1,43 @@
 {
-  "parent": "block/flat",
-  "textures": {
-    "top": "block/carrots_1_1",
-    "particle": "block/carrots_1_1"
-  }
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/carrots_1_1",
+		"3": "block/carrots_1_2",
+		"particle": "block/carrots_1_1"
+	},
+	"elements": [
+		{
+			"from": [-2.25, 0.3, 0.5],
+			"to": [9.75, 0.3, 12.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8.75, 7.1, 6.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-0.25, 0.075, 0.5],
+			"to": [11.75, 0.075, 12.5],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.75, 7.1, 6.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [4.75, 0.025, 4.5],
+			"to": [16.75, 0.025, 16.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.75, 7.1, 6.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [90, 0, 0]
+		}
+	}
 }
