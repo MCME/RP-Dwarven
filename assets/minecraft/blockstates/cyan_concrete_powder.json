@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {"model": "block/cyan_concrete_powder"},
+      {"model": "block/cyan_concrete_powder", "x": 90, "z": 90},
+      {"model": "block/cyan_concrete_powder", "x": 180, "z": 180},
+      {"model": "block/cyan_concrete_powder", "x": 270, "z": 270},
+      {"model": "block/cyan_concrete_powder_2"},
+      {"model": "block/cyan_concrete_powder_2", "x": 90, "z": 90},
+      {"model": "block/cyan_concrete_powder_2", "x": 180, "z": 180},
+      {"model": "block/cyan_concrete_powder_2",  "x": 270, "z": 270},
+      {"model": "block/cyan_concrete_powder_3"},
+      {"model": "block/cyan_concrete_powder_3", "x": 90, "z": 90},
+      {"model": "block/cyan_concrete_powder_3", "x": 180, "z": 180},
+      {"model": "block/cyan_concrete_powder_3", "x": 270, "z": 270}
+    ]
+  }
+}
