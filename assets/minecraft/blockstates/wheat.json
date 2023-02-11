@@ -24,7 +24,19 @@
       { "model": "block/wheat_2" },
       { "model": "block/wheat_2", "y": 90 },
       { "model": "block/wheat_2", "y": 180 },
-      { "model": "block/wheat_2", "y": 270 }
+      { "model": "block/wheat_2", "y": 270 },
+      { "model": "block/wheat_2_1" },
+      { "model": "block/wheat_2_1", "y": 90 },
+      { "model": "block/wheat_2_1", "y": 180 },
+      { "model": "block/wheat_2_1", "y": 270 },
+      { "model": "block/wheat_2_2" },
+      { "model": "block/wheat_2_2", "y": 90 },
+      { "model": "block/wheat_2_2", "y": 180 },
+      { "model": "block/wheat_2_2", "y": 270 },
+      { "model": "block/wheat_2_3" },
+      { "model": "block/wheat_2_3", "y": 90 },
+      { "model": "block/wheat_2_3", "y": 180 },
+      { "model": "block/wheat_2_3", "y": 270 }
     ],
     "age=3": [
       { "model": "block/wheat_3_0" },
