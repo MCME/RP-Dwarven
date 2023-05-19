@@ -114,7 +114,7 @@
     },
     {
       "predicate": {
-        "custom_model_data": 19
+        "custom_model_data": 35
       },
       "model": "gui/block_collection_mask"
     }
