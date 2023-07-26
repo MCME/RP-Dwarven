@@ -8,6 +8,7 @@ Categories:
     itemMaterial: PAPER
     cmdCurrent: PAPER
     cmd: 7
+    cmdCurrent: 8
     display: Building Blocks (brick, sandstone, etc)
   Block2:
     itemMaterial: PAPER
