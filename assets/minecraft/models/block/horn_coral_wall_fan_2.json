@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "block/horn_coral_wall_fan_2",
+		"particle": "block/fire_coral_wall_fan"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.1],
+			"to": [16, 16, 0.2],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	]
+}
