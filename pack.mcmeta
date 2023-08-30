@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 8,
-    "description": "MCME Dwarven 2.1"
+    "pack_format": 13,
+    "description": "MCME Dwarven 2.2.0"
   },
   "meta": {
-    "game_version": "1.18"
+    "game_version": "1.19.4"
   }
 }
