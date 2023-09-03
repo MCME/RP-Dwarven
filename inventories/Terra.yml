@@ -1122,7 +1122,7 @@ Items:
   light_gray_concrete:
     itemMaterial: LIGHT_GRAY_CONCRETE
     cmd: 8
-    display: Purple Marble Block
+    display: Gray Marble Block
     type: VANILLA
     collection:
       indirect: black_stained_glass

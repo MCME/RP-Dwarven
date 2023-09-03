@@ -482,3 +482,59 @@ Items:
     blockDataSouth: minecraft:tube_coral_wall_fan[facing=north,waterlogged=false]
     blockDataEast: minecraft:tube_coral_wall_fan[facing=west,waterlogged=false]
     blockDataWest: minecraft:tube_coral_wall_fan[facing=east,waterlogged=false]
+  horn_coral_wall_fan:
+    itemMaterial: CLAY_BALL
+    cmd: 354
+    display: Black Vertical Strip
+    category: Deco
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:horn_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataSouth: minecraft:horn_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataEast: minecraft:horn_coral_wall_fan[facing=west,waterlogged=false]
+    blockDataWest: minecraft:horn_coral_wall_fan[facing=east,waterlogged=false]
+    collection:
+     A0: dead_horn_coral_block
+     B2: dead_fire_coral_block
+     E1: fire_coral_wall_fan
+     G2: dead_tube_coral_block
+     J1: dead_brain_coral_block
+  fire_coral_wall_fan:
+    itemMaterial: CLAY_BALL
+    cmd: 355
+    display: Gold Vertical Strip
+    category: Deco
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:fire_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataSouth: minecraft:fire_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataEast: minecraft:fire_coral_wall_fan[facing=west,waterlogged=false]
+    blockDataWest: minecraft:fire_coral_wall_fan[facing=east,waterlogged=false]
+    collection:
+      indirect: horn_coral_wall_fan
+  dead_tube_coral_block:
+    itemMaterial: DEAD_TUBE_CORAL_BLOCK
+    cmd: 0
+    display: Sandstone Decorated Vertical 1
+    type: VANILLA
+    collection:
+      indirect: horn_coral_wall_fan
+  dead_fire_coral_block:
+    itemMaterial: DEAD_FIRE_CORAL_BLOCK
+    cmd: 0
+    display: Sandstone Decorated Vertical 2
+    type: VANILLA
+    collection:
+      indirect: horn_coral_wall_fan
+  dead_horn_coral_block:
+    itemMaterial: DEAD_HORN_CORAL_BLOCK
+    cmd: 0
+    display: Sandstone Decorated Horizontal Black
+    type: VANILLA
+    collection:
+      indirect: horn_coral_wall_fan
+  dead_brain_coral_block:
+    itemMaterial: DEAD_BRAIN_CORAL_BLOCK
+    cmd: 0
+    display: Sandstone Decorated Horizontal Gold
+    type: VANILLA
+    collection:
+      indirect: horn_coral_wall_fan
