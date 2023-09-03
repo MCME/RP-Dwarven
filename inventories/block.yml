@@ -812,6 +812,7 @@ Items:
       J1: red_mushroom_block_mix_sandstone
       A4: brick_vertical_slab
       B4: brick_vertical_stair
+      B3: brick_slab_double
       C4: brick_balustrade
       D4: brick_pillar
       E4: brick_fancy_thin_pillar
@@ -824,6 +825,14 @@ Items:
       H4: nether_brick_balustrade
       I4: nether_brick_pillar
       J4: nether_brick_fancy_thin_pillar
+  brick_slab_double:
+    itemMaterial: CLAY_BALL
+    cmd: 360
+    display: Cracked Large Dark Bricks
+    type: BLOCK
+    blockData: minecraft:brick_slab[type=double,waterlogged=false]
+    collection:
+      indirect: nether_bricks
   oak_trapdoor_powered_upper_flat:
     itemMaterial: CLAY_BALL
     cmd: 318

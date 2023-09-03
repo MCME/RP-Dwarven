@@ -200,7 +200,7 @@ Items:
       I3: plank_rubble_4
   plank_rubble:
     itemMaterial: CLAY_BALL
-    cmd: 353
+    cmd: 359
     display: Plank Rubble
     type: BLOCK
     blockData: minecraft:black_candle[candles=1,lit=false]

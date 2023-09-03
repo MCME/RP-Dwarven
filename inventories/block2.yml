@@ -580,7 +580,7 @@ Items:
       H4: purple_stained_glass_pane_nsew
   stone_pillar:
     itemMaterial: CLAY_BALL
-    cmd: 355
+    cmd: 353
     display: Stone Pillar
     type: VANILLA
     collection:
