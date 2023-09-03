@@ -2085,6 +2085,84 @@
                 "custom_model_data": 347
             },
             "model": "block/bucket_fallen"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 348
+            },
+            "model": "block/pillar_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 349
+            },
+            "model": "block/pillar_top_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 350
+            },
+            "model": "block/pillar_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 351
+            },
+            "model": "block/target_block_power0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 352
+            },
+            "model": "block/cactus_14"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 353
+            },
+            "model": "block/birch_log"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 354
+            },
+            "model": "block/horn_coral_wall_fan"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 355
+            },
+            "model": "block/fire_coral_wall_fan"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 356
+            },
+            "model": "block/planks_stack2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 357
+            },
+            "model": "block/planks_stack3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 358
+            },
+            "model": "block/planks_stack4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 359
+            },
+            "model": "block/planks"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 360
+            },
+            "model": "block/double_slab_brick"
         }
     ]
 }
