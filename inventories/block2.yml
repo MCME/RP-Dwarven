@@ -582,8 +582,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 355
     display: Stone Pillar
-    type: BLOCK
-    blockData: minecraft:birch_log[axis=y]
+    type: VANILLA
     collection:
       indirect: nether_wart_block
   red_nether_bricks:

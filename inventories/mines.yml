@@ -194,6 +194,42 @@ Items:
       G4: oak_planks
       I4: rail
       J4: iron_ore
+      F3: plank_rubble
+      G3: plank_rubble_2
+      H3: plank_rubble_3
+      I3: plank_rubble_4
+  plank_rubble:
+    itemMaterial: CLAY_BALL
+    cmd: 353
+    display: Plank Rubble
+    type: BLOCK
+    blockData: minecraft:black_candle[candles=1,lit=false]
+    collection:
+      indirect: brown_stained_glass
+  plank_rubble_2:
+    itemMaterial: CLAY_BALL
+    cmd: 356
+    display: Plank Rubble 2
+    type: BLOCK
+    blockData: minecraft:black_candle[candles=2,lit=false]
+    collection:
+      indirect: brown_stained_glass
+  plank_rubble_3:
+    itemMaterial: CLAY_BALL
+    cmd: 357
+    display: Plank Rubble 3
+    type: BLOCK
+    blockData: minecraft:black_candle[candles=3,lit=false]
+    collection:
+      indirect: brown_stained_glass
+  plank_rubble_4:
+    itemMaterial: CLAY_BALL
+    cmd: 358
+    display: Plank Rubble 4
+    type: BLOCK
+    blockData: minecraft:black_candle[candles=4,lit=false]
+    collection:
+      indirect: brown_stained_glass
   cactus_14:
     itemMaterial: CLAY_BALL
     cmd: 352
@@ -628,7 +664,6 @@ Items:
     category: Mines
     type: VANILLA
     collection:
-      A0: plank_rubble
       C0: hopper_enabled_down
       A1: hopper_enabled_south
       F1: oak_sapling_0
@@ -648,14 +683,6 @@ Items:
       G4: oak_planks
       I4: oak_log
       J4: iron_ore
-  plank_rubble:
-    itemMaterial: CLAY_BALL
-    cmd: 353
-    display: Plank Rubble
-    type: BLOCK
-    blockData: minecraft:black_candle[candles=1,lit=false]
-    collection:
-      indirect: brown_stained_glass
   brewing_stand:
     itemMaterial: CLAY_BALL
     cmd: 209
