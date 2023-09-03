@@ -7,6 +7,7 @@ Items:
     category: Mines
     type: VANILLA
     collection:
+      A0: log_wall
       A1: birch_planks
       F1: oak_planks
       G2: oak_stairs
@@ -44,6 +45,17 @@ Items:
       indirect: jungle_planks
 
   #inside collection
+  log_wall:
+    itemMaterial: CLAY_BALL
+    cmd: 351
+    display: Log Wall
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:target[power=3]
+    blockDataSouth: minecraft:target[power=3]
+    blockDataEast: minecraft:target[power=0]
+    blockDataWest: minecraft:target[power=0]
+    collection:
+      indirect: jungle_planks
   jungle_trapdoor_unpowered_upper_flat:
     itemMaterial: CLAY_BALL
     cmd: 326
@@ -162,6 +174,7 @@ Items:
     blockDataEast: minecraft:chorus_flower[age=2]
     collection:
       C0: ladder
+      C4: cactus_14
       A1: cactus_11
       A0: chorus_plant
       F1: chorus_flower_1
@@ -178,9 +191,18 @@ Items:
       D4: dark_oak_fence
       E4: oak_fence
       F4: acacia_sapling_0
-      G4: oak_planks 
+      G4: oak_planks
       I4: rail
       J4: iron_ore
+  cactus_14:
+    itemMaterial: CLAY_BALL
+    cmd: 352
+    display: Thick Log
+    category: Mines
+    type: BLOCK
+    blockData: minecraft:cactus[age=14]
+    collection:
+      indirect: chorus_flower_1
   cactus_11:
     itemMaterial: CLAY_BALL
     cmd: 37
@@ -606,6 +628,7 @@ Items:
     category: Mines
     type: VANILLA
     collection:
+      A0: plank_rubble
       C0: hopper_enabled_down
       A1: hopper_enabled_south
       F1: oak_sapling_0
@@ -625,6 +648,14 @@ Items:
       G4: oak_planks
       I4: oak_log
       J4: iron_ore
+  plank_rubble:
+    itemMaterial: CLAY_BALL
+    cmd: 353
+    display: Plank Rubble
+    type: BLOCK
+    blockData: minecraft:black_candle[candles=1,lit=false]
+    collection:
+      indirect: brown_stained_glass
   brewing_stand:
     itemMaterial: CLAY_BALL
     cmd: 209
