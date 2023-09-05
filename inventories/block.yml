@@ -16,7 +16,7 @@ Items:
       E1: sandstone_wall_arch
       A1: birch_trapdoor_powered_lower
       B2: sandstone_stairs
-      C2: EndPortal1
+      C2: endportal1
       D2: sandstone_slab
       A4: lime_stained_glass_pane_side
       B4: lime_stained_glass_pane_diagonal
@@ -27,6 +27,9 @@ Items:
       H4: sandstone_balustrade
       I4: sandstone_thin_pillar
       J4: sandstone_fancy_thin_pillar
+      J3: column_bottom
+      J2: column_2
+      I3: column_1
   prismarine:
     itemMaterial: PRISMARINE
     cmd: 0
@@ -91,7 +94,7 @@ Items:
     blockDataWest: minecraft:sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
     collection:
       indirect: sandstone
-  EndPortal1:
+  endportal1:
     itemMaterial: CLAY_BALL
     cmd: 96
     display: Sandstone 3/4 Block
@@ -201,8 +204,6 @@ Items:
     blockDataWest: minecraft:blue_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
     collection:
       indirect: sandstone
-    collection:
-      indirect: sandstone
   sandstone_balustrade:
     itemMaterial: SANDSTONE_WALL
     cmd: 0
@@ -212,6 +213,31 @@ Items:
     blockDataEast: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
     blockDataSouth: minecraft:sandstone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
     blockDataWest: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: sandstone
+  column_1:
+    itemMaterial: CLAY_BALL
+    cmd: 348
+    display: Column Top 1
+    category: Block
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=basedrum,note=17]
+    collection:
+      indirect: sandstone
+  column_2:
+    itemMaterial: CLAY_BALL
+    cmd: 349
+    display: Column Top 2
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=basedrum,note=16]
+    collection:
+      indirect: sandstone
+  column_bottom:
+    itemMaterial: CLAY_BALL
+    cmd: 350
+    display: Column Bottom
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=basedrum,note=18]
     collection:
       indirect: sandstone
   sandstone_fancy_thin_pillar:
@@ -786,6 +812,7 @@ Items:
       J1: red_mushroom_block_mix_sandstone
       A4: brick_vertical_slab
       B4: brick_vertical_stair
+      B3: brick_slab_double
       C4: brick_balustrade
       D4: brick_pillar
       E4: brick_fancy_thin_pillar
@@ -798,6 +825,14 @@ Items:
       H4: nether_brick_balustrade
       I4: nether_brick_pillar
       J4: nether_brick_fancy_thin_pillar
+  brick_slab_double:
+    itemMaterial: CLAY_BALL
+    cmd: 360
+    display: Cracked Large Dark Bricks
+    type: BLOCK
+    blockData: minecraft:brick_slab[type=double,waterlogged=false]
+    collection:
+      indirect: nether_bricks
   oak_trapdoor_powered_upper_flat:
     itemMaterial: CLAY_BALL
     cmd: 318

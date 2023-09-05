@@ -571,12 +571,20 @@ Items:
       E1: red_nether_bricks
       D2: nether_wart_block
       C2: Observer_nwu
+      C4: stone_pillar
       B2: Observer_sed
       A4: spruce_button
       B4: daylight_detector
       F4: sponge
       G4: wet_sponge
       H4: purple_stained_glass_pane_nsew
+  stone_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 353
+    display: Stone Pillar
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
   red_nether_bricks:
     itemMaterial: RED_NETHER_BRICKS
     cmd: 0
