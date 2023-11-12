@@ -44,10 +44,22 @@
 	{ "model": "block/retaining_wall_3", "y":180, "weight":4  },
 	{ "model": "block/retaining_wall_4", "y":180, "weight":1  }
 	],
-    "powered=false,half=lower,hinge=right,open=false,facing=north": { "model": "block/unused_cross_0" },
-    "powered=false,half=lower,hinge=right,open=false,facing=east": { "model": "block/unused_cross_0" },
-    "powered=false,half=lower,hinge=right,open=false,facing=south": { "model": "block/unused_cross_0" },
-    "powered=false,half=lower,hinge=right,open=false,facing=west": { "model": "block/unused_cross_0" },
+    "powered=false,half=lower,hinge=right,open=false,facing=north": [
+	{ "model": "block/empty_rack", "y":180 },
+	{ "model": "block/empty_rack_2", "y":180 }
+	],
+    "powered=false,half=lower,hinge=right,open=false,facing=east": [
+	{ "model": "block/empty_rack", "y":270 },
+	{ "model": "block/empty_rack_2", "y":270 }
+	],
+    "powered=false,half=lower,hinge=right,open=false,facing=south": [
+	{ "model": "block/empty_rack" },
+	{ "model": "block/empty_rack_2" }
+	],
+    "powered=false,half=lower,hinge=right,open=false,facing=west": [
+	{ "model": "block/empty_rack", "y":90 },
+	{ "model": "block/empty_rack_2", "y":90 }
+	],
     "powered=false,half=lower,hinge=right,open=true,facing=north": { "model": "block/unused_cross_0" },
     "powered=false,half=lower,hinge=right,open=true,facing=east": { "model": "block/unused_cross_0" },
     "powered=false,half=lower,hinge=right,open=true,facing=south": { "model": "block/unused_cross_0" },
