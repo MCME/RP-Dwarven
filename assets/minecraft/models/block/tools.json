@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/cauldron_side",
+		"1": "block/carved_pumpkin_top",
 		"2": "block/oak_log",
 		"3": "block/oak_log_composite",
-		"particle": "block/cauldron_side"
+		"particle": "block/carved_pumpkin_top"
 	},
 	"elements": [
 		{

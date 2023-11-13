@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/iron_ingots",
-		"particle": "block/iron_ingots"
+		"0": "block/carved_pumpkin_top",
+		"particle": "block/carved_pumpkin_top"
 	},
 	"elements": [
 		{
-			"from": [0, 0, 4],
-			"to": [3, 1.75, 14],
+			"from": [-1, 0, 4],
+			"to": [2, 1.75, 14],
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [1, 1, 4, 2.75], "texture": "#0"},
@@ -19,8 +19,8 @@
 			}
 		},
 		{
-			"from": [10, 0, 2],
-			"to": [13, 1.75, 12],
+			"from": [11, 0, 2],
+			"to": [14, 1.75, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, 0.875, 8]},
 			"faces": {
 				"north": {"uv": [0, 2, 3, 3.75], "rotation": 180, "texture": "#0"},
@@ -29,19 +29,6 @@
 				"west": {"uv": [1, 9, 11, 10.75], "rotation": 180, "texture": "#0"},
 				"up": {"uv": [8, 3, 11, 13], "rotation": 180, "texture": "#0"},
 				"down": {"uv": [7, 4, 10, 14], "rotation": 180, "texture": "#0"}
-			}
-		},
-		{
-			"from": [7, 1.75, 3],
-			"to": [10, 3.5, 13],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [11.5, 0.875, 8]},
-			"faces": {
-				"north": {"uv": [3, 3, 6, 4.75], "texture": "#0"},
-				"east": {"uv": [3, 3, 13, 4.75], "texture": "#0"},
-				"south": {"uv": [3, 3, 6, 4.75], "texture": "#0"},
-				"west": {"uv": [3, 9, 13, 10.75], "texture": "#0"},
-				"up": {"uv": [4, 3, 7, 13], "texture": "#0"},
-				"down": {"uv": [8, 3, 11, 13], "texture": "#0"}
 			}
 		}
 	]
