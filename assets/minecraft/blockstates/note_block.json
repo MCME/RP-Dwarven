@@ -144,7 +144,7 @@
 			{ "model":"block/pillar_bottom" }
 			],
 			"instrument=basedrum,note=19,powered=false,": [
-			{ "model":"block/white_pillar_top" }
+			{ "model":"block/unused_block" }
 			],
 						"instrument=basedrum,note=20,powered=false,": [
 			{ "model":"block/rust_log" }
