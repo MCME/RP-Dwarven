@@ -2,7 +2,7 @@
   "parent": "block/rope_reel",
   "textures": {
     "wooden": "block/oak_planks",
-    "mount": "block/cobblestone",
+    "mount": "block/oak_log",
     "rope": "block/bell_0",
     "side": "block/piston_head_sticky_top",
     "particle": "block/oak_planks"
