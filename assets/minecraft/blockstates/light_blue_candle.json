@@ -30,9 +30,12 @@
     "candles=2,lit=true": {
       "model": "minecraft:block/light_blue_candle_two_candles_lit"
     },
-    "candles=3,lit=false": {
-      "model": "minecraft:block/light_blue_candle_three_candles"
-    },
+    "candles=3,lit=false": [
+      {"model": "minecraft:block/hammer"},
+      {"model": "minecraft:block/hammer", "y": 90},
+      {"model": "minecraft:block/hammer", "y": 180},
+      {"model": "minecraft:block/hammer", "y": 270}
+    ],
     "candles=3,lit=true": {
       "model": "minecraft:block/light_blue_candle_three_candles_lit"
     },
