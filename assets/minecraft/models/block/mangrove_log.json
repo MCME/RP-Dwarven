@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/diorite_pillar_top",
+        "side": "block/mangrove_log"
+    }
+}

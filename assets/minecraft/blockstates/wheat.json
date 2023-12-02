@@ -84,7 +84,24 @@
       { "model": "block/wheat_5_8" },
       { "model": "block/wheat_5_9" }
     ],
-    "age=6": { "model": "block/unused_cross_0" },
+    "age=6": [
+	{ "model": "block/small_crates" },
+	{ "model": "block/small_crates", "y":90 },
+	{ "model": "block/small_crates", "y":180 },
+	{ "model": "block/small_crates", "y":270 },
+	{ "model": "block/small_crates_2" },
+	{ "model": "block/small_crates_2", "y":90 },
+	{ "model": "block/small_crates_2", "y":180 },
+	{ "model": "block/small_crates_2", "y":270 },
+	{ "model": "block/small_crates_3" },
+	{ "model": "block/small_crates_3", "y":90 },
+	{ "model": "block/small_crates_3", "y":180 },
+	{ "model": "block/small_crates_3", "y":270 },
+		{ "model": "block/small_crates_4" },
+	{ "model": "block/small_crates_4", "y":90 },
+	{ "model": "block/small_crates_4", "y":180 },
+	{ "model": "block/small_crates_4", "y":270 }
+	],
     "age=7": { "model": "block/unused_cross_0" }
   }
 }
