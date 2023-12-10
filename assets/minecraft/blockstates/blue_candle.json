@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "candles=1,lit=false": [
+      {"model": "minecraft:block/book_stack"},
+      {"model": "minecraft:block/book_stack", "y": 90},
+      {"model": "minecraft:block/book_stack", "y": 180},
+      {"model": "minecraft:block/book_stack", "y": 270},
+	  {"model": "minecraft:block/book_stack_2"},
+      {"model": "minecraft:block/book_stack_2", "y": 90},
+      {"model": "minecraft:block/book_stack_2", "y": 180},
+      {"model": "minecraft:block/book_stack_2", "y": 270},
+	  {"model": "minecraft:block/book_stack_3"},
+      {"model": "minecraft:block/book_stack_3", "y": 90},
+      {"model": "minecraft:block/book_stack_3", "y": 180},
+      {"model": "minecraft:block/book_stack_3", "y": 270}
+  ],
+    "candles=1,lit=true": {
+      "model": "minecraft:block/light_blue_candle_one_candle_lit"
+    },
+    "candles=2,lit=false": [
+      {"model": "minecraft:block/book_open"},
+      {"model": "minecraft:block/book_open", "y": 90},
+      {"model": "minecraft:block/book_open", "y": 180},
+      {"model": "minecraft:block/book_open", "y": 270},
+	  {"model": "minecraft:block/book_open"},
+      {"model": "minecraft:block/book_open_2", "y": 90},
+      {"model": "minecraft:block/book_open_2", "y": 180},
+      {"model": "minecraft:block/book_open_2", "y": 270}
+  ],
+    "candles=2,lit=true": {
+      "model": "minecraft:block/light_blue_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": {
+      "model": "minecraft:block/unused_cross_0"
+    },
+    "candles=3,lit=true": {
+      "model": "minecraft:block/light_blue_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": {
+      "model": "minecraft:block/light_blue_candle_four_candles"
+    },
+    "candles=4,lit=true": {
+      "model": "minecraft:block/light_blue_candle_four_candles_lit"
+    }
+  }
+}
