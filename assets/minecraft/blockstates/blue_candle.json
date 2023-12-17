@@ -30,9 +30,24 @@
     "candles=2,lit=true": {
       "model": "minecraft:block/light_blue_candle_two_candles_lit"
     },
-    "candles=3,lit=false": {
-      "model": "minecraft:block/unused_cross_0"
-    },
+    "candles=3,lit=false": [
+	{"model": "minecraft:block/weapons_ground"},
+	{"model": "minecraft:block/weapons_ground", "y":90},
+	{"model": "minecraft:block/weapons_ground", "y":180},
+	{"model": "minecraft:block/weapons_ground", "y":270},
+	{"model": "minecraft:block/weapons_ground_2"},
+	{"model": "minecraft:block/weapons_ground_2", "y":90},
+	{"model": "minecraft:block/weapons_ground_2", "y":180},
+	{"model": "minecraft:block/weapons_ground_2", "y":270},
+	{"model": "minecraft:block/weapons_ground_3"},
+	{"model": "minecraft:block/weapons_ground_3", "y":90},
+	{"model": "minecraft:block/weapons_ground_3", "y":180},
+	{"model": "minecraft:block/weapons_ground_3", "y":270},
+	{"model": "minecraft:block/weapons_ground_4"},
+	{"model": "minecraft:block/weapons_ground_4", "y":90},
+	{"model": "minecraft:block/weapons_ground_4", "y":180},
+	{"model": "minecraft:block/weapons_ground_4", "y":270}
+    ],
     "candles=3,lit=true": {
       "model": "minecraft:block/light_blue_candle_three_candles_lit"
     },

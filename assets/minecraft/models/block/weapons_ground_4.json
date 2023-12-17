@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/weapons_tops",
+		"1": "block/acacia_sapling_1_0",
+		"particle": "block/weapons_tops"
+	},
+	"elements": [
+		{
+			"from": [10.69512, 0.25, 6.33293],
+			"to": [11.69512, 1.25, 17.33293],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.59511, 1.285, 7.27422]},
+			"faces": {
+				"north": {"uv": [10.5, 0, 11.5, 1], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [10.5, 0, 11.5, 7], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [10.5, 0, 11.5, 1], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [10.5, 0, 11.5, 7], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [10.5, 0, 11.5, 7], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 0, 11.5, 7], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3.87723, 1.07, 7.94263],
+			"to": [11.27723, 1.07, 18.30263],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.59511, 1.285, 7.27422]},
+			"faces": {
+				"north": {"uv": [4, 2.5, 9, 2.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [2, 2, 2, 9], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [2, 2, 7, 2], "texture": "#0"},
+				"west": {"uv": [2, 1.5, 2, 8.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [2, 8.5, 7, 15.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2, 8.5, 7, 15.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10.64359, 0.25, -0.76044],
+			"to": [11.64359, 1.25, 6.23956],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8.59511, 1.285, 7.27422]},
+			"faces": {
+				"north": {"uv": [10.5, 0, 11.5, 1], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [10.5, 3.5, 11.5, 8], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [10.5, 0, 11.5, 1], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [10.5, 3.5, 11.5, 8], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [10.5, 3.5, 11.5, 8], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 3.5, 11.5, 8], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [0, -14, 0],
+					"color": 0,
+					"children": [0, 1]
+				},
+				2
+			]
+		}
+	]
+}
