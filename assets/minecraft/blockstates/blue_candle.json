@@ -17,7 +17,20 @@
     "candles=1,lit=true": {
       "model": "minecraft:block/light_blue_candle_one_candle_lit"
     },
-    "candles=2,lit=false": { "model": "block/unused_cross_0" },
+    "candles=2,lit=false": [
+      {"model": "minecraft:block/shield"},
+      {"model": "minecraft:block/shield", "y": 90},
+      {"model": "minecraft:block/shield", "y": 180},
+      {"model": "minecraft:block/shield", "y": 270},
+	  {"model": "minecraft:block/shield_2"},
+      {"model": "minecraft:block/shield_2", "y": 90},
+      {"model": "minecraft:block/shield_2", "y": 180},
+      {"model": "minecraft:block/shield_2", "y": 270},
+	  {"model": "minecraft:block/shield_3"},
+      {"model": "minecraft:block/shield_3", "y": 90},
+      {"model": "minecraft:block/shield_3", "y": 180},
+      {"model": "minecraft:block/shield_3", "y": 270}
+	  ],
     "candles=2,lit=true": {
       "model": "minecraft:block/light_blue_candle_two_candles_lit"
     },
