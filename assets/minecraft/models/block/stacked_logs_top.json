@@ -111,6 +111,25 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.34, 0.34, 0.33]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.39, 0.39, 0.38]
+		},
+		"firstperson_righthand": {
+			"scale": [0.34, 0.33, 0.32]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.4, 0.4, 0.38]
+		},
+		"gui": {
+			"rotation": [20, 24, 0],
+			"translation": [1.75, 0.25, 0],
+			"scale": [0.49, 0.49, 0.49]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

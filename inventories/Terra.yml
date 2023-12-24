@@ -198,6 +198,7 @@ Items:
      D3: polished_blackstone_thin_pillar
      E3: polished_blackstone_fancy_thin_pillar
      G4: andesite
+     F4: polished_deepslate
      H4: stone
      I4: lime_concrete
      J4: obsidian
@@ -449,6 +450,161 @@ Items:
     type: VANILLA
     collection:
       indirect: cyan_terracotta
+  blue_stone:
+    itemMaterial: POLISHED_DEEPSLATE
+    cmd: 0
+    display: Blue Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      C0: blue_stone
+      F1: light_blue_stone
+      G2: blue_stone_stairs
+      I2: blue_stone_slab
+      J1: polished_deepslate_wall_wedge
+      E1: polished_deepslate_wall_arch
+      D2: dark_blue_stone
+      C2: acacia_trapdoor_powered_upper_flat
+      B2: acacia_trapdoor_powered_upper
+      A1: rough_light_blue_stone
+      A4: blue_stone_vertical_slab
+      B4: blue_stone_vertical_stair
+      C4: blue_stone_balustrade
+      D4: blue_stone_thin_pillar
+      E4: blue_stone_fancy_thin_pillar
+      G4: andesite
+      H4: cyan_terracotta
+      I4: lime_concrete
+      J4: stone
+  light_blue_stone:
+    itemMaterial: CRACKED_DEEPSLATE_TILES
+    cmd: 0
+    display: Light Blue Stone
+    category: Terra
+    type: VANILLA
+    collection:
+      indirect: blue_stone
+  
+  #inside collection
+  acacia_trapdoor_powered_upper_flat:
+    itemMaterial: CLAY_BALL
+    cmd: 401
+    display: Blue Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:acacia_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:acacia_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: blue_stone
+  acacia_trapdoor_powered_upper:
+    itemMaterial: CLAY_BALL
+    cmd: 402
+    display: Blue Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: blue_stone
+  polished_deepslate_wall_wedge:
+    itemMaterial: CLAY_BALL
+    cmd: 403
+    display: Blue Stone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_deepslate_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:polished_deepslate_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_deepslate_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:polished_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: blue_stone
+  polished_deepslate_wall_arch:
+    itemMaterial: CLAY_BALL
+    cmd: 404
+    display: Blue Stone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_deepslate_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:potlished_deepslate_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_deepslate_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: blue_stone
+  rough_light_blue_stone:
+    itemMaterial: CHISELED_DEEPSLATE
+    cmd: 0
+    display: Rough Light Blue Stone
+    type: VANILLA
+    collection:
+      indirect: blue_stone
+  dark_blue_stone:
+    itemMaterial: REINFORCED_DEEPSLATE
+    cmd: 0
+    display: Dark Blue Stone
+    type: VANILLA
+    collection:
+      indirect: blue_stone
+  blue_stone_stairs:
+    itemMaterial: POLISHED_DEEPSLATE_STAIRS
+    cmd: 0
+    display: Blue Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: blue_stone
+  blue_stone_slab:
+    itemMaterial: POLISHED_DEEPSLATE_SLAB
+    cmd: 0
+    display: Blue Stone Slab
+    type: VANILLA
+    collection:
+      indirect: blue_stone
+  blue_stone_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 405
+    display: Blue Stone Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_deepslate_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:polished_deepslate_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_stone
+  blue_stone_vertical_stair:
+    itemMaterial: CLAY_BALL
+    cmd: 406
+    display: Blue Stone Vertical Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_deepslate_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:polished_deepslate_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:polished_deepslate_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_deepslate_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_stone
+  blue_stone_balustrade:
+    itemMaterial: POLISHED_DEEPSLATE_WALL
+    cmd: 1
+    display: Blue Stone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:polished_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:polished_deepslate_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:polished_deepslate_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:polished_deepslate_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: blue_stone
+  blue_stone_fancy_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 407
+    display: Fancy Blue Stone Pillar
+    type: BLOCK
+    blockData: minecraft:polished_deepslate_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_stone
+  blue_stone_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 408
+    display: Blue Stone Pillar
+    type: BLOCK
+    blockData: minecraft:polished_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: blue_stone
 
 
   # dark stone collection
@@ -473,6 +629,38 @@ Items:
       H4: stone
       I4: cyan_terracotta
       J4: lime_concrete
+      A0: blue_concrete
+      A4: nether_quartz_ore
+      B4: red_sand
+      C4: nether_gold_ore
+  nether_gold_ore:
+    itemMaterial: NETHER_GOLD_ORE
+    cmd: 0
+    display: Rough Dark Gravel
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  red_sand:
+    itemMaterial: RED_SAND
+    cmd: 0
+    display: Light Gravel
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  nether_quartz_ore:
+    itemMaterial: NETHER_QUARTZ_ORE
+    cmd: 0
+    display: Rough Light Gravel
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  blue_concrete:
+    itemMaterial: BLUE_CONCRETE
+    cmd: 0
+    display: Ashes 3
+    type: VANILLA
+    collection:
+      indirect: netherrack
   lime_terracotta:
     itemMaterial: LIME_TERRACOTTA
     cmd: 5
@@ -574,6 +762,28 @@ Items:
       H4: stone
       I4: cyan_terracotta
       J4: obsidian
+      J3: granite_thin_slab
+      I3: granite_thin_vertical_slab
+  granite_thin_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 395
+    display: Rough Brown Stone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: granite
+  granite_thin_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 396
+    display: Rough Brown Stone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: granite
   white_concrete:
     itemMaterial: WHITE_CONCRETE
     cmd: 0
@@ -726,7 +936,6 @@ Items:
     category: Terra
     type: VANILLA
     collection:
-      A0: red_sand
       F1: jungle_trapdoor_powered_lower_flat
       G2: andesite
       H2: andesite_stairs
@@ -750,14 +959,6 @@ Items:
     itemMaterial: ANDESITE
     cmd: 5
     display: White Stone
-    category: Terra
-    type: VANILLA
-    collection:
-      indirect: diorite
-  red_sand:
-    itemMaterial: RED_SAND
-    cmd: 1
-    display: Rough Light Stone
     category: Terra
     type: VANILLA
     collection:
@@ -900,6 +1101,28 @@ Items:
       H2: noteblock_mixed_big_boulders
       I2: noteblock_sandstone_big_boulders
       E1: campfire_ore_boulders
+      E0: campfire_blue_boulders
+      J1: noteblock_blue_big_boulders
+  noteblock_blue_big_boulders:
+    itemMaterial: CLAY_BALL
+    cmd: 398
+    display: Light Large Boulders
+    category: Terra
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=21,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=22,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=23,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=24,powered=false]
+    collection:
+      indirect: campfire_light_boulders
+  campfire_blue_boulders:
+    itemMaterial: CLAY_BALL
+    cmd: 397
+    display: Blue Boulders
+    type: BLOCK
+    blockData: minecraft:campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
+    collection:
+      indirect: campfire_light_boulders
   campfire_dark_boulders:
     itemMaterial: CLAY_BALL
     cmd: 118
@@ -1176,6 +1399,8 @@ Items:
       A1: mycelium
       F1: podzol
       G2: orange_tulip
+      H2: brown_mushrooms
+      C2: large_brown_mushrooms
       I2: white_tulip
       J1: tomato_plant
       E0: lily_pad
@@ -1186,6 +1411,22 @@ Items:
       B4: pink_tulip
       D4: red_mushroom
       E4: dead_bush
+  large_brown_mushrooms:
+    itemMaterial: CLAY_BALL
+    cmd: 394
+    display: Large Brown Mushrooms
+    type: BLOCK
+    blockData: minecraft:cornflower
+    collection:
+      indirect: podzol
+  brown_mushrooms:
+    itemMaterial: CLAY_BALL
+    cmd: 393
+    display: Brown Mushrooms
+    type: BLOCK
+    blockData: minecraft:brown_mushroom
+    collection:
+      indirect: podzol
   orange_concrete_powder:
     itemMaterial: ORANGE_CONCRETE_POWDER
     cmd: 1
@@ -1234,7 +1475,6 @@ Items:
     itemMaterial: LILY_PAD
     cmd: 0
     display: Algae [111:0]
-    category: Terra
     type: BLOCK_ON_WATER
     blockData: minecraft:lily_pad
     collection:
@@ -1313,7 +1553,6 @@ Items:
     itemMaterial: PACKED_ICE
     cmd: 0
     display: Packed Ice
-    category: Terra
     type: VANILLA
     collection:
       indirect: water_7
@@ -1321,7 +1560,6 @@ Items:
     itemMaterial: SNOW_BLOCK
     cmd: 0
     display: Snow Block
-    category: Terra
     type: VANILLA
     collection:
       indirect: water_7
