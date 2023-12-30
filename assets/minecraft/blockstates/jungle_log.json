@@ -1,7 +1,34 @@
 {
-    "variants": {
-        "axis=y":  { "model": "block/jungle_log" },
-        "axis=z":   { "model": "block/jungle_log", "x": 90 },
-        "axis=x":   { "model": "block/jungle_log", "x": 90, "y": 90 }
-    }
+  "variants": {
+      "axis=y": [
+  { "model": "block/pine_log" },
+  { "model": "block/pine_log_2" },
+  { "model": "block/pine_log_3" },
+  { "model": "block/pine_log_4" },
+  { "model": "block/pine_log_5" },
+  { "model": "block/pine_log_6" },
+  { "model": "block/pine_log_7" },
+  { "model": "block/pine_log_8" }
+  ],
+      "axis=z": [
+        { "model": "block/pine_log" },
+        { "model": "block/pine_log_2" },
+        { "model": "block/pine_log_3" },
+        { "model": "block/pine_log_4" },
+        { "model": "block/pine_log_5" },
+        { "model": "block/pine_log_6" },
+        { "model": "block/pine_log_7" },
+        { "model": "block/pine_log_8" }
+  ],
+      "axis=x": [    
+        { "model": "block/pine_log" },
+        { "model": "block/pine_log_2" },
+        { "model": "block/pine_log_3" },
+        { "model": "block/pine_log_4" },
+        { "model": "block/pine_log_5" },
+        { "model": "block/pine_log_6" },
+        { "model": "block/pine_log_7" },
+        { "model": "block/pine_log_8" }
+  ]
+  }
 }
