@@ -183,7 +183,7 @@ Items:
     blockDataEast: minecraft:chorus_flower[age=2]
     collection:
       C0: ladder
-      C4: cactus_14
+      C2: cactus_14
       A1: cactus_11
       A0: chorus_plant
       F1: chorus_flower_1
@@ -195,10 +195,12 @@ Items:
       E1: support
       D2: jungle_log
       B2: jungle_wood
-      A4: birch_fence
-      B4: jungle_fence
-      D4: dark_oak_fence
-      E4: oak_fence
+      A4: dark_planks
+      B4: dark_plank_stair
+      C4: dark_plank_slab
+      D4: dark_plank_vertical_slab
+      E4: dark_plank_vertical_thin
+      E3: dark_plank_thin
       F4: acacia_sapling_0
       G4: oak_planks
       H4: leaning_ladder
@@ -426,32 +428,57 @@ Items:
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  oak_fence:
-    itemMaterial: OAK_FENCE
+  dark_planks:
+    itemMaterial: WARPED_PLANKS
     cmd: 0
-    display: Wooden Fence
+    display: Dark Wooden Fence
+    category: Mines
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  dark_oak_fence:
-    itemMaterial: DARK_OAK_FENCE
+  dark_plank_stair:
+    itemMaterial: WARPED_STAIRS
     cmd: 0
-    display: Thin Wooden Fence
+    display: Dark Wooden Stairs
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  birch_fence:
-    itemMaterial: BIRCH_FENCE
+  dark_plank_slab:
+    itemMaterial: WARPED_SLAB
     cmd: 0
-    display: Old Wooden Fence
+    display: Dark Wooden Slab
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  jungle_fence:
-    itemMaterial: JUNGLE_FENCE
-    cmd: 0
-    display: Thin Old Wooden Fence
-    type: VANILLA
+  dark_plank_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 428
+    display: Dark Wooden Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth:  minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataSouth:  minecraft:spruce_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast:  minecraft:spruce_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataWest:  minecraft:spruce_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: chorus_flower_1
+  dark_plank_vertical_thin:
+    itemMaterial: CLAY_BALL
+    cmd: 429
+    display: Dark Wooden Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth:  minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth:  minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast:  minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest:  minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: chorus_flower_1
+  dark_plank_thin:
+    itemMaterial: CLAY_BALL
+    cmd: 430
+    display: Dark Wooden Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
     collection:
       indirect: chorus_flower_1
 
