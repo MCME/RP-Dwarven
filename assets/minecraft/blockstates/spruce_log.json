@@ -18,7 +18,7 @@
       { "model": "block/spruce_log_6", "x": 90 },
       { "model": "block/spruce_log_7", "x": 90 }
     ],
-    "axis=x": [    
+    "axis=x": [ 
       { "model": "block/spruce_log", "x": 90, "y": 90 },
       { "model": "block/spruce_log_2", "x": 90, "y": 90 },
       { "model": "block/spruce_log_3", "x": 90, "y": 90 },
