@@ -1,0 +1,10 @@
+{
+  "moria": {
+    "sounds": [
+      {
+        "name": "mcme:region/moria_theme",
+        "stream": true
+      }
+    ]
+  }
+}

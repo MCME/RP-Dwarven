@@ -1,6 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_column",
     "textures": {
-        "all": "block/spruce_log_2"
+        "end": "block/spruce_log_top",
+        "side": "block/spruce_log_2"
     }
 }
