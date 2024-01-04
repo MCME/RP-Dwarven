@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/weapons_tops",
+		"1": "block/acacia_sapling_1_0",
+		"particle": "block/weapons_tops"
+	},
+	"elements": [
+		{
+			"from": [-3.15724, 0.2, 11.65964],
+			"to": [17.84276, 1.2, 12.65964],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [12.58276, 6.26, 12.14435]},
+			"faces": {
+				"north": {"uv": [12.5, 0, 13.5, 13.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [8, 2, 9, 3], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [12.5, 0, 13.5, 13.5], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [12.5, 0, 13.5, 1], "texture": "#1"},
+				"up": {"uv": [12.5, 0, 13.5, 13.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [12.5, 0, 13.5, 13.5], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [-4.85724, 0.82, 8.42906],
+			"to": [5.50276, 0.82, 15.82906],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [12.58276, 6.26, 12.14435]},
+			"faces": {
+				"north": {"uv": [9, 4.5, 9, 11.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [11, 5.5, 16, 5.5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [9, 5, 9, 12], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [9, 5, 14, 5], "texture": "#0"},
+				"up": {"uv": [9, 4.5, 14, 11.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [9, 4.5, 14, 11.5], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

@@ -148,6 +148,38 @@
 			],
 						"instrument=basedrum,note=20,powered=false,": [
 			{ "model":"block/rust_log" }
+			],
+			"instrument=basedrum,note=21,powered=false,": [
+			{ "model":"block/note_block_25" },
+			{ "model":"block/note_block_26", "y":-90 },
+			{ "model":"block/note_block_27", "y":-180 },
+			{ "model":"block/note_block_28", "y":180 },
+			{ "model":"block/note_block_29" },
+			{ "model":"block/note_block_30" }
+			],
+		"instrument=basedrum,note=22,powered=false,": [
+			{ "model":"block/note_block_25", "y":90 },
+			{ "model":"block/note_block_26" },
+			{ "model":"block/note_block_27", "y":-90 },
+			{ "model":"block/note_block_28", "y":270 },
+			{ "model":"block/note_block_29", "y":90  },
+			{ "model":"block/note_block_30", "y":90  }
+			],
+		"instrument=basedrum,note=23,powered=false,": [
+			{ "model":"block/note_block_25", "y":180 },
+			{ "model":"block/note_block_26", "y":90 },
+			{ "model":"block/note_block_27" },
+			{ "model":"block/note_block_28" },
+			{ "model":"block/note_block_29", "y":180  },
+			{ "model":"block/note_block_30", "y":180  }
+			],
+		"instrument=basedrum,note=24,powered=false,": [
+			{ "model":"block/note_block_25", "y":270 },
+			{ "model":"block/note_block_26", "y":180 },
+			{ "model":"block/note_block_27", "y":90 },
+			{ "model":"block/note_block_28", "y":90 },
+			{ "model":"block/note_block_29", "y":270 },
+			{ "model":"block/note_block_30", "y":270 }
 			]
     }
 }

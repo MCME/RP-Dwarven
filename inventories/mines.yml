@@ -27,6 +27,15 @@ Items:
       G4: oak_log
       I4: rail
       J4: iron_ore
+      E0: vertical_oak_planks
+  vertical_oak_planks:
+    itemMaterial: CLAY_BALL
+    cmd: 377
+    display: Vertical Wooden Planks
+    type: BLOCK
+    blockData: minecraft:crimson_slab[type=double,waterlogged=false]
+    collection:
+      indirect: jungle_planks
   oak_planks:
     itemMaterial: OAK_PLANKS
     cmd: 0
@@ -174,7 +183,7 @@ Items:
     blockDataEast: minecraft:chorus_flower[age=2]
     collection:
       C0: ladder
-      C4: cactus_14
+      C2: cactus_14
       A1: cactus_11
       A0: chorus_plant
       F1: chorus_flower_1
@@ -186,18 +195,33 @@ Items:
       E1: support
       D2: jungle_log
       B2: jungle_wood
-      A4: birch_fence
-      B4: jungle_fence
-      D4: dark_oak_fence
-      E4: oak_fence
+      A4: dark_planks
+      B4: dark_plank_stair
+      C4: dark_plank_slab
+      D4: dark_plank_vertical_slab
+      E4: dark_plank_vertical_thin
+      E3: dark_plank_thin
       F4: acacia_sapling_0
       G4: oak_planks
+      H4: leaning_ladder
       I4: rail
       J4: iron_ore
       F3: plank_rubble
       G3: plank_rubble_2
       H3: plank_rubble_3
       I3: plank_rubble_4
+  leaning_ladder:
+    itemMaterial: CLAY_BALL
+    cmd: 374
+    display: Leaning_Ladder
+    category: Mines
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=0]
+    blockDataSouth: minecraft:weeping_vines[age=2]
+    blockDataEast: minecraft:weeping_vines[age=1]
+    blockDataWest: minecraft:weeping_vines[age=3]
+    collection:
+      indirect: chorus_flower_1
   plank_rubble:
     itemMaterial: CLAY_BALL
     cmd: 359
@@ -404,32 +428,57 @@ Items:
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  oak_fence:
-    itemMaterial: OAK_FENCE
+  dark_planks:
+    itemMaterial: WARPED_PLANKS
     cmd: 0
-    display: Wooden Fence
+    display: Dark Wooden Fence
+    category: Mines
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  dark_oak_fence:
-    itemMaterial: DARK_OAK_FENCE
+  dark_plank_stair:
+    itemMaterial: WARPED_STAIRS
     cmd: 0
-    display: Thin Wooden Fence
+    display: Dark Wooden Stairs
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  birch_fence:
-    itemMaterial: BIRCH_FENCE
+  dark_plank_slab:
+    itemMaterial: WARPED_SLAB
     cmd: 0
-    display: Old Wooden Fence
+    display: Dark Wooden Slab
     type: VANILLA
     collection:
       indirect: chorus_flower_1
-  jungle_fence:
-    itemMaterial: JUNGLE_FENCE
-    cmd: 0
-    display: Thin Old Wooden Fence
-    type: VANILLA
+  dark_plank_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 428
+    display: Dark Wooden Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth:  minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataSouth:  minecraft:spruce_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast:  minecraft:spruce_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataWest:  minecraft:spruce_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: chorus_flower_1
+  dark_plank_vertical_thin:
+    itemMaterial: CLAY_BALL
+    cmd: 429
+    display: Dark Wooden Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth:  minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth:  minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast:  minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest:  minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: chorus_flower_1
+  dark_plank_thin:
+    itemMaterial: CLAY_BALL
+    cmd: 430
+    display: Dark Wooden Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
     collection:
       indirect: chorus_flower_1
 
@@ -460,6 +509,7 @@ Items:
       B2: detector_rail_raised_e
       A4: redstone_wire_1
       B4: redstone_wire_2
+      C4: hand_crank
       D4: white_stained_glass_pane
       E4: white_stained_glass
       F4: bell_floor_east
@@ -467,6 +517,43 @@ Items:
       H4: oak_planks
       I4: oak_log
       J4: rail
+      F3: bell_wall
+      J3: mine_swing
+  mine_swing:
+    itemMaterial: CLAY_BALL
+    cmd: 387
+    display: Mining Chair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: bell_floor_east
+  bell_wall:
+    itemMaterial: CLAY_BALL
+    cmd: 376
+    display: Wall Rope Wheel
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:bell[attachment=single_wall,facing=north,powered=false]
+    blockDataEast: minecraft:bell[attachment=single_wall,facing=east,powered=false]
+    blockDataSouth: minecraft:bell[attachment=single_wall,facing=south,powered=false]
+    blockDataWest: minecraft:bell[attachment=single_wall,facing=west,powered=false]
+    collection:
+      indirect: bell_floor_east
+  hand_crank:
+    itemMaterial: CLAY_BALL
+    cmd: 375
+    display: Hand Crank
+    type: SIX_FACES
+    blockDataSouth: minecraft:acacia_button[face=wall,facing=north,powered=false]
+    blockDataWest: minecraft:acacia_button[face=wall,facing=east,powered=false]
+    blockDataNorth: minecraft:acacia_button[face=wall,facing=south,powered=false]
+    blockDataEast: minecraft:acacia_button[face=wall,facing=west,powered=false]
+    blockDataDown: minecraft:acacia_button[face=floor,facing=south,powered=false]
+    blockDataUp: minecraft:acacia_button[face=ceiling,facing=south,powered=false]
+    collection:
+      indirect: bell_floor_east
   white_stained_glass:
     itemMaterial: WHITE_STAINED_GLASS
     cmd: 0
@@ -683,6 +770,18 @@ Items:
       G4: oak_planks
       I4: oak_log
       J4: iron_ore
+      A0: retaining_wall
+  retaining_wall:
+    itemMaterial: CLAY_BALL
+    cmd: 388
+    display: Retaining Wall
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:spruce_door[facing=east,half=lower,hinge=left,open=true,powered=false]
+    blockDataSouth: minecraft:spruce_door[facing=west,half=lower,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:spruce_door[facing=south,half=lower,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:spruce_door[facing=north,half=lower,hinge=left,open=true,powered=false]
+    collection:
+      indirect: brown_stained_glass
   brewing_stand:
     itemMaterial: CLAY_BALL
     cmd: 209
@@ -834,8 +933,11 @@ Items:
     collection:
       C0: gold_ore
       A1: diamond_ore
-      F1: nether_quartz_ore 
-      H2: emerald_ore
+      F1: cracked_deepslate_bricks
+      A0: deepslate_diamond_ore
+      G2: emerald_ore
+      H2: mithril_veins_small
+      I2: mithril_veins
       J1: lapis_ore
       E1: coal_ore
       D2: iron_ore
@@ -844,6 +946,36 @@ Items:
       G4: oak_planks
       I4: oak_log
       J4: iron_ore
+  mithril_veins:
+    itemMaterial: CLAY_BALL
+    cmd: 400
+    display: Mithril Veins
+    type: BLOCK
+    blockData: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
+    collection:
+      indirect: iron_ore
+  mithril_veins_small:
+    itemMaterial: CLAY_BALL
+    cmd: 399
+    display: Small Mithril Veins
+    type: BLOCK
+    blockData: minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]
+    collection:
+      indirect: iron_ore
+  deepslate_diamond_ore:
+    itemMaterial: DEEPSLATE_DIAMOND_ORE
+    cmd: 0
+    display: Blue Stone Mithril Veins
+    type: VANILLA
+    collection:
+      indirect: iron_ore
+  cracked_deepslate_bricks:
+    itemMaterial: CRACKED_DEEPSLATE_BRICKS
+    cmd: 0
+    display: Small Blue Stone Mithril Veins
+    type: VANILLA
+    collection:
+      indirect: iron_ore
   diamond_ore:
     itemMaterial: DIAMOND_ORE
     cmd: 0
@@ -868,13 +1000,6 @@ Items:
     type: VANILLA
     collection:
       indirect: iron_ore
-  nether_quartz_ore:
-    itemMaterial: NETHER_QUARTZ_ORE
-    cmd: 0
-    display: Copper Ore
-    type: VANILLA
-    collection:
-      indirect: iron_ore
   coal_ore:
     itemMaterial: COAL_ORE
     cmd: 0
@@ -896,3 +1021,158 @@ Items:
     type: VANILLA
     collection:
       indirect: iron_ore
+  green_concrete_powder:
+    itemMaterial: GREEN_CONCRETE_POWDER
+    cmd: 0
+    display: Rust Block
+    type: BLOCK
+    blockData:  minecraft:light_blue_candle[candles=3,lit=false,waterlogged=false]
+    category: Mines
+    collection:
+      C0: green_concrete_powder
+      A1: rust_log
+      F1: rust_streaks
+      H2: rivet
+  rust_log:
+    itemMaterial: CLAY_BALL
+    cmd: 371
+    display: Rust Reinforced Log
+    type: BLOCK
+    blockData:  minecraft:note_block[instrument=basedrum,note=20,powered=false]
+    collection:
+      indirect: green_concrete_powder
+  rust_streaks:
+    itemMaterial: CLAY_BALL
+    cmd: 372
+    display: Rust Streaks
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:red_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+    blockDataSouth: minecraft:pink_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+    blockDataEast: minecraft:purple_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+    blockDataWest: minecraft:orange_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+    collection:
+      indirect: green_concrete_powder
+  rivet:
+    itemMaterial: CLAY_BALL
+    cmd: 373
+    display: Rivet
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:spruce_button[face=wall,facing=south,powered=true]
+    blockDataSouth: minecraft:spruce_button[face=wall,facing=north,powered=true]
+    blockDataEast: minecraft:spruce_button[face=wall,facing=west,powered=true]
+    blockDataWest: minecraft:spruce_button[face=wall,facing=east,powered=true]
+    collection:
+      indirect: green_concrete_powder
+  plank_railing:  
+    itemMaterial: CLAY_BALL
+    cmd: 378
+    display: Plank Railing
+    category: Mines
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:acacia_door[facing=west,half=lower,hinge=right,open=true,powered=false]
+    blockDataSouth: minecraft:acacia_door[facing=east,half=lower,hinge=right,open=true,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=north,half=lower,hinge=right,open=true,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=south,half=lower,hinge=right,open=true,powered=false]
+    collection:
+      A0: plank_railing
+      A1: plank_cross_railing
+      F1: plank_railing_diagonal
+      G2: horizontal_beam_upper
+      H2: horizontal_beam_lower
+      J4: oak_planks
+      I4: oak_log
+      J1: upper_support_plus
+      E0: upper_support
+      E1: support
+      A4: 45_degree_beam_right
+      B4: 45_degree_beam_left
+      C4: 22_degree_beam_right
+      D4: 22_degree_beam_left
+  plank_cross_railing:  
+    itemMaterial: CLAY_BALL
+    cmd: 379
+    display: Plank Cross Railing
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:acacia_door[facing=east,half=upper,hinge=left,open=true,powered=false]
+    blockDataSouth: minecraft:acacia_door[facing=west,half=upper,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=south,half=upper,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=north,half=upper,hinge=left,open=true,powered=false]
+    collection:
+      indirect: plank_railing
+  plank_railing_diagonal:  
+    itemMaterial: CLAY_BALL
+    cmd: 380
+    display: Plank Railing Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:acacia_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+    blockDataSouth: minecraft:acacia_door[facing=north,half=upper,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=west,half=upper,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=east,half=upper,hinge=left,open=false,powered=false]
+    collection:
+      indirect: plank_railing
+  horizontal_beam_upper:  
+    itemMaterial: CLAY_BALL
+    cmd: 381
+    display: Horizontal Beam Upper
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:dead_brain_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataSouth: minecraft:dead_brain_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataEast: minecraft:dead_brain_coral_wall_fan[facing=west,waterlogged=false]
+    blockDataWest: minecraft:dead_brain_coral_wall_fan[facing=east,waterlogged=false]
+    collection:
+      indirect: plank_railing
+  horizontal_beam_lower:  
+    itemMaterial: CLAY_BALL
+    cmd: 382
+    display: Horizontal Beam Lower
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:dead_bubble_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataSouth: minecraft:dead_bubble_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataEast: minecraft:dead_bubble_coral_wall_fan[facing=west,waterlogged=false]
+    blockDataWest: minecraft:dead_bubble_coral_wall_fan[facing=east,waterlogged=false]
+    collection:
+      indirect: plank_railing
+  45_degree_beam_right:  
+    itemMaterial: CLAY_BALL
+    cmd: 383
+    display: Wood Beam 45 Right
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=7]
+    blockDataSouth: minecraft:weeping_vines[age=5]
+    blockDataEast: minecraft:weeping_vines[age=4]
+    blockDataWest: minecraft:weeping_vines[age=6]
+    collection:
+      indirect: plank_railing
+  45_degree_beam_left:  
+    itemMaterial: CLAY_BALL
+    cmd: 384
+    display: Wood Beam 45 Left
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=15]
+    blockDataSouth: minecraft:weeping_vines[age=13]
+    blockDataEast: minecraft:weeping_vines[age=12]
+    blockDataWest: minecraft:weeping_vines[age=14]
+    collection:
+      indirect: plank_railing
+  22_degree_beam_right:  
+    itemMaterial: CLAY_BALL
+    cmd: 385
+    display: Wood Beam 22 Right
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=11]
+    blockDataSouth: minecraft:weeping_vines[age=9]
+    blockDataEast: minecraft:weeping_vines[age=8]
+    blockDataWest: minecraft:weeping_vines[age=10]
+    collection:
+      indirect: plank_railing
+  22_degree_beam_left:  
+    itemMaterial: CLAY_BALL
+    cmd: 386
+    display: Wood Beam 22 Left
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=19]
+    blockDataSouth: minecraft:weeping_vines[age=17]
+    blockDataEast: minecraft:weeping_vines[age=16]
+    blockDataWest: minecraft:weeping_vines[age=18]
+    collection:
+      indirect: plank_railing

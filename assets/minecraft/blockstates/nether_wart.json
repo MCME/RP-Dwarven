@@ -12,7 +12,7 @@
       { "model": "block/nether_wart_3_0" },
       { "model": "block/nether_wart_3_1" },
       { "model": "block/nether_wart_3_2" },
-      { "model": "block/nether_wart_3_3" }
+      { "model": "block/hourglass" }
     ]
   }
 }

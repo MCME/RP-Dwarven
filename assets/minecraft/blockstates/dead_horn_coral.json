@@ -1,6 +1,9 @@
 {
   "variants": {
     "waterlogged=true": { "model": "block/unused_cross_0" },
-    "waterlogged=false": { "model": "block/stalagmite2" }
+    "waterlogged=false": [
+      {"model": "block/stacked_wood"},
+      {"model": "block/stacked_wood", "y": 180}
+  ]
   }
 }

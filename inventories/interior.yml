@@ -83,7 +83,7 @@ Items:
       C0: Crops5
       A0: dark_oak_button_floor_west
       F1: Carrots0
-      G2: Clay_pot
+      G2: open_books
       H2: Crops1
       I2: Netherwart2
       J1: Drum
@@ -102,6 +102,7 @@ Items:
       G4: lever_wall
       H4: red_banner
       I4: blue_banner
+      J4: book_stack
   dark_oak_button_floor_west:
     itemMaterial: CLAY_BALL
     cmd: 293
@@ -119,11 +120,20 @@ Items:
     blockData: minecraft:carrots[age=0]
     collection:
       indirect: Crops5
-  Clay_pot:
-    itemMaterial: FLOWER_POT
-    cmd: 1
-    display: Clay pot
-    type: VANILLA
+  open_books:
+    itemMaterial: CLAY_BALL
+    cmd: 409
+    display: Open Books
+    type: BLOCK
+    blockData: minecraft:brain_coral_fan[waterlogged=false]
+    collection:
+      indirect: Crops5
+  book_stack:
+    itemMaterial: CLAY_BALL
+    cmd: 410
+    display: Book Stack
+    type: BLOCK
+    blockData: minecraft:blue_candle[candles=1,lit=false,waterlogged=false]
     collection:
       indirect: Crops5
   Crops1:
@@ -657,6 +667,16 @@ Items:
       E0: bed_green
       E1: bed_brown
       D2: Black_stone_bench
+      C2: stool
+  stool:
+    itemMaterial: CLAY_BALL
+    cmd: 364
+    category: Inter
+    display: Wooden Stool
+    type: BLOCK
+    blockData:  minecraft:lily_of_the_valley
+    collection:
+      indirect: bed_magenta
   bed_white:
     itemMaterial: WHITE_BED
     cmd: 16
