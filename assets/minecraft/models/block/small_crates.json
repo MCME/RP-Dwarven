@@ -84,6 +84,13 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [23, 0, 0],
+			"translation": [0, 3.25, 0],
+			"scale": [0.99, 1, 1]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

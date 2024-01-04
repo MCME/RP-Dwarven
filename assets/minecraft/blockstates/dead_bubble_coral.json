@@ -1,6 +1,9 @@
 {
   "variants": {
     "waterlogged=true": { "model": "block/unused_cross_0" },
-    "waterlogged=false": { "model": "block/unused_cross_0" }
+    "waterlogged=false": [
+      {"model": "minecraft:block/stacked_logs_top"},
+      {"model": "minecraft:block/stacked_logs_top", "y": 180}
+  ]
   }
 }

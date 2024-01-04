@@ -138,7 +138,32 @@
 					{ "model": "block/boulders_ore_6", "y": 180 },
 					{ "model": "block/boulders_ore_6", "y": 270 }
 					],
-        "facing=south,lit=false,signal_fire=true": { "model": "itemblock/bed_green_half" },
+        "facing=south,lit=false,signal_fire=true": [
+					{ "model": "block/boulders_blue" },
+					{ "model": "block/boulders_blue", "y": 90 },
+					{ "model": "block/boulders_blue", "y": 180 },
+					{ "model": "block/boulders_blue", "y": 270 },
+					{ "model": "block/boulders_blue_2" },
+					{ "model": "block/boulders_blue_2", "y": 90 },
+					{ "model": "block/boulders_blue_2", "y": 180 },
+					{ "model": "block/boulders_blue_2", "y": 270 },
+					{ "model": "block/boulders_blue_3" },
+					{ "model": "block/boulders_blue_3", "y": 90 },
+					{ "model": "block/boulders_blue_3", "y": 180 },
+					{ "model": "block/boulders_blue_3", "y": 270 },
+					{ "model": "block/boulders_blue_4" },
+					{ "model": "block/boulders_blue_4", "y": 90 },
+					{ "model": "block/boulders_blue_4", "y": 180 },
+					{ "model": "block/boulders_blue_4", "y": 270 },
+					{ "model": "block/boulders_blue_5" },
+					{ "model": "block/boulders_blue_5", "y": 90 },
+					{ "model": "block/boulders_blue_5", "y": 180 },
+					{ "model": "block/boulders_blue_5", "y": 270 },
+					{ "model": "block/boulders_blue_6" },
+					{ "model": "block/boulders_blue_6", "y": 90 },
+					{ "model": "block/boulders_blue_6", "y": 180 },
+					{ "model": "block/boulders_blue_6", "y": 270 }
+					],
         "facing=east,lit=false,signal_fire=true": { "model": "itemblock/bed_grey_half" },
         "facing=west,lit=false,signal_fire=true": { "model": "block/campfire_off", "y": 90 }
     }
