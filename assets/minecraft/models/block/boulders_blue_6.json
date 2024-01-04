@@ -1,0 +1,11 @@
+{
+  "parent": "block/boulders_6",
+  "textures": {
+    "stone": "block/deepslate",
+    "stone_1": "block/polished_deepslate",
+    "stone_2": "block/deepslate",
+    "stone_3": "block/polished_deepslate",
+    "stone_4": "block/deepslate",
+    "base": "block/deepslate"
+  }
+}

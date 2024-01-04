@@ -778,7 +778,7 @@ Items:
   weathered_stone_1:
     itemMaterial: CLAY_BALL
     cmd: 129
-    display: Wheatered Stone Upper Corner
+    display: Weathered Stone Upper Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=false]
     blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]
@@ -786,6 +786,242 @@ Items:
     blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=false]
     collection:
       indirect: cobblestone
+  blue_bricks:
+    itemMaterial: DEEPSLATE_TILES
+    cmd: 0
+    display: Blue Bricks
+    category: Block
+    type: VANILLA
+    collection:
+      C0: blue_bricks
+      D2: blue_cobblestone_slab
+      C2: blue_cobblestone_stairs
+      B2: blue_cobblestone
+      A1: blue_stone_mixed_bricks
+      A0: light_blue_stone_mixed_bricks
+      F1: blue_bricks
+      G2: blue_brick_stairs
+      H2: weathered_blue_bricks
+      I2: blue_brick_slab
+      J1: blue_brick_flat_trapdoor
+      J2: blue_brick_powered_lower
+      E1: blue_cobblestone_unpowered_upper_flat
+      E2: blue_cobblestone_unpowered_upper
+      A4: blue_brick_vertical_slab
+      B4: blue_brick_vertical_stair
+      C4: blue_brick_balustrade
+      D4: blue_brick_thin_pillar
+      E4: blue_brick_fancy_thin_pillar
+      F4: cobblestone
+      G4: nether_bricks
+      H4: prismarine_bricks
+      I4: sandstone
+      A3: blue_cobblestone_vertical_slab
+      B3: blue_cobblestone_vertical_stair
+      C3: blue_cobblestone_balustrade
+      D3: blue_cobblestone_thin_pillar
+      E3: blue_cobblestone_fancy_thin_pillar
+  blue_brick_flat_trapdoor:
+    itemMaterial: CLAY_BALL
+    cmd: 413
+    display: Blue Brick Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:acacia_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:acacia_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: blue_bricks
+  blue_brick_powered_lower:
+    itemMaterial: CLAY_BALL
+    cmd: 414
+    display: Blue Brick Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_unpowered_upper_flat:
+    itemMaterial: CLAY_BALL
+    cmd: 415
+    display: Blue Cobblestone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_unpowered_upper:
+    itemMaterial: CLAY_BALL
+    cmd: 416
+    display: Dark Cobblestone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: blue_bricks
+  blue_brick_stairs:
+    itemMaterial: DEEPSLATE_TILE_STAIRS
+    cmd: 0
+    display: Blue Brick Stairs
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  weathered_blue_bricks:
+    itemMaterial: CLAY_BALL
+    cmd: 417
+    display: Weathered Blue Bricks
+    type: BLOCK
+    blockData: minecraft:deepslate_tile_slab[type=double,waterlogged=false]
+    collection:
+      indirect: blue_bricks
+  blue_brick_slab:
+    itemMaterial: DEEPSLATE_TILE_SLAB
+    cmd: 0
+    display: Blue Brick Slab
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  blue_brick_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 418
+    display: Blue Brick Pillar
+    type: BLOCK
+    blockData: minecraft:deepslate_tile_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: blue_bricks
+  blue_brick_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 419
+    display: Blue Brick Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:deepslate_tile_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_tile_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_tile_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_brick_vertical_stair:
+    itemMaterial: CLAY_BALL
+    cmd: 420
+    display: Blue Brick Vertical Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:deepslate_tile_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_tile_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_tile_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_brick_balustrade:
+    itemMaterial: DEEPSLATE_TILE_WALL
+    cmd: 0
+    display: Blue Brick Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:deepslate_tile_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:deepslate_tile_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_tile_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:deepslate_tile_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: blue_bricks
+  blue_brick_fancy_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 421
+    display: Fancy Blue Brick Pillar
+    type: BLOCK
+    blockData: deepslate_tile_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone:
+    itemMaterial: DEEPSLATE_BRICKS
+    cmd: 0
+    display: Blue Cobblestone
+    category: Block
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 422
+    display: Blue Cobblestone Pillar
+    category: Block
+    type: BLOCK
+    blockData: minecraft:deepslate_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 423
+    display: Blue Cobblestone Vertical Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:deepslate_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:deepslate_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_vertical_stair:
+    itemMaterial: CLAY_BALL
+    cmd: 424
+    display: Blue Cobblestone Vertical Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:deepslate_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:deepslate_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_balustrade:
+    itemMaterial: DEEPSLATE_BRICK_WALL
+    cmd: 0
+    display: Blue Cobblestone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:deepslate_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:deepslate_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataSouth: minecraft:deepslate_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_fancy_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 425
+    display: Fancy Blue Cobblestone Pillar
+    type: BLOCK
+    blockData: minecraft:deepslate_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_stairs:
+    itemMaterial: DEEPSLATE_BRICK_STAIRS
+    cmd: 0
+    display: Blue Cobblestone Stair
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  blue_cobblestone_slab:
+    itemMaterial: DEEPSLATE_BRICK_SLAB
+    cmd: 0
+    display: Blue Cobblestone Slab
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  blue_stone_mixed_bricks:
+    itemMaterial: CLAY_BALL
+    cmd: 426
+    display: Blue Mixed Stone Bricks
+    category: Block
+    type: BLOCK
+    blockData: minecraft:red_mushroom_block[down=false,east=false,north=false,south=true,up=false,west=false]
+    collection:
+      indirect: blue_bricks
+  light_blue_stone_mixed_bricks:
+    itemMaterial: CLAY_BALL
+    cmd: 427
+    display: Light Blue Mixed Stone Bricks
+    type: BLOCK
+    blockData: minecraft:red_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=true]
+    collection:
+      indirect: blue_bricks
   nether_bricks:
     itemMaterial: NETHER_BRICKS
     cmd: 0

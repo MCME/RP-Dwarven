@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/deepslate_tile_slab" },
+			{ "model": "block/deepslate_tile_slab_2" },
+			{ "model": "block/deepslate_tile_slab_3" },
+			{ "model": "block/deepslate_tile_slab_4" }
+			],
+        "type=top": [
+			{ "model": "block/deepslate_tile_slab", "x": 180 },
+			{ "model": "block/deepslate_tile_slab_2", "x": 180 },
+			{ "model": "block/deepslate_tile_slab_3", "x": 180 },
+			{ "model": "block/deepslate_tile_slab_4", "x": 180 }
+			],
+        "type=double": [
+			{ "model": "block/weathered_blue_bricks" },
+			{ "model": "block/weathered_blue_bricks_2" },
+			{ "model": "block/weathered_blue_bricks_3" },
+			{ "model": "block/weathered_blue_bricks_4" }
+		]
+    }
+}

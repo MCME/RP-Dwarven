@@ -1,0 +1,7 @@
+{
+    "parent": "block/thin_slab",
+    "textures": {
+        "side": "block/deepslate_tiles_4"
+    }
+    
+}

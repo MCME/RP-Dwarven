@@ -2,10 +2,14 @@
   "variants": {
     "stage\u003d0": { "model": "block/dark_oak_sapling_0" },
     "stage\u003d1": [
-      { "model": "block/dark_oak_sapling_1" },
-      { "model": "block/dark_oak_sapling_1", "y": 90 },
-      { "model": "block/dark_oak_sapling_1", "y": 180 },
-      { "model": "block/dark_oak_sapling_1", "y": 270 }
+      { "model": "block/weapons" },
+      { "model": "block/weapons", "y": 90 },
+      { "model": "block/weapons", "y": 180 },
+      { "model": "block/weapons", "y": 270 },
+	   { "model": "block/weapons_2" },
+      { "model": "block/weapons_2", "y": 90 },
+      { "model": "block/weapons_2", "y": 180 },
+      { "model": "block/weapons_2", "y": 270 }
     ]
   }
 }

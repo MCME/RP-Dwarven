@@ -1,0 +1,111 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/book_model",
+		"1": "block/carrots_1_3",
+		"particle": "block/book_model"
+	},
+	"elements": [
+		{
+			"from": [5.30622, 0.225, 8.90568],
+			"to": [14.80622, 0.725, 10.90568],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.05622, 0.4875, 9.90568]},
+			"faces": {
+				"north": {"uv": [0, 2, 7.5, 2.5], "texture": "#0"},
+				"east": {"uv": [0, 2, 0, 2.5], "texture": "#0"},
+				"south": {"uv": [0, 2, 7.5, 2.5], "texture": "#0"},
+				"west": {"uv": [0, 2, 0, 2.5], "texture": "#0"},
+				"up": {"uv": [0, 2, 7.5, 4], "texture": "#0"},
+				"down": {"uv": [0, 2, 7.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.55622, 0.25, 4.65568],
+			"to": [14.55622, 0.75, 9.65568],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.05622, 0.4875, 9.90568]},
+			"faces": {
+				"north": {"uv": [0, 2, 8, 2.5], "texture": "#0"},
+				"east": {"uv": [0, 2, 5, 2.5], "texture": "#0"},
+				"south": {"uv": [0, 2, 8, 2.5], "texture": "#0"},
+				"west": {"uv": [0, 2, 5, 2.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 5, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 5, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.55622, 0, 9.90568],
+			"to": [14.55622, 0.5, 14.90568],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.05622, 0.4875, 9.90568]},
+			"faces": {
+				"north": {"uv": [0, 1, 8, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 1, 5, 1.5], "texture": "#0"},
+				"south": {"uv": [0, 1, 8, 1.5], "texture": "#0"},
+				"west": {"uv": [0, 1, 5, 1.5], "texture": "#0"},
+				"up": {"uv": [6, 0, 1, 8], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 5, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.80622, 0.5, 9.90568],
+			"to": [14.30622, 1, 14.65568],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.05622, 0.4875, 9.90568]},
+			"faces": {
+				"north": {"uv": [2, 2, 10, 2.5], "texture": "#1"},
+				"east": {"uv": [4, 2, 9, 2.5], "texture": "#1"},
+				"south": {"uv": [2, 2, 10, 2.5], "texture": "#1"},
+				"west": {"uv": [4, 2, 9, 2.5], "texture": "#1"},
+				"up": {"uv": [5, 13, 13, 8], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4, 5, 9, 13], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.80622, 0.75, 6.15568],
+			"to": [14.30622, 1.25, 9.90568],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.05622, 0.4875, 9.90568]},
+			"faces": {
+				"north": {"uv": [2, 2, 10, 2.5], "texture": "#1"},
+				"east": {"uv": [5, 2, 10, 2.5], "texture": "#1"},
+				"south": {"uv": [2, 2, 10, 2.5], "texture": "#1"},
+				"west": {"uv": [2, 2, 7, 2.5], "texture": "#1"},
+				"up": {"uv": [13, 9, 5, 13], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4, 5, 8, 13], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [-2, 0.125, 2],
+			"to": [10, 0.125, 14],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.80622, 0.75, 5.15568],
+			"to": [14.30622, 1.25, 6.15568],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.05622, 0.4875, 9.90568]},
+			"faces": {
+				"north": {"uv": [2, 2, 9, 2.5], "texture": "#1"},
+				"east": {"uv": [5, 2, 6, 2.5], "texture": "#1"},
+				"south": {"uv": [2, 2, 9.5, 2.5], "texture": "#1"},
+				"west": {"uv": [2, 2, 3, 2.5], "texture": "#1"},
+				"up": {"uv": [13, 8, 6, 9], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4, 5, 5, 12.5], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8.89317, 0.75, 9.71093],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		},
+		5,
+		6
+	]
+}

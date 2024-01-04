@@ -336,7 +336,6 @@ Items:
     category: Block2
     type: VANILLA
     collection:
-      A1: green_concrete_powder
       A0: light_blue_concrete_powder
       F1: blue_concrete_powder
       G2: brown_concrete_powder
@@ -362,18 +361,10 @@ Items:
     type: VANILLA
     collection:
       indirect: iron_block
-  green_concrete_powder:
-    itemMaterial: GREEN_CONCRETE_POWDER
-    cmd: 0
-    display: Orange Cobblestone
-    category: Block2
-    type: VANILLA
-    collection:
-      indirect: iron_block
   light_blue_concrete_powder:
     itemMaterial: LIGHT_BLUE_CONCRETE_POWDER
     cmd: 0
-    display: Red & Green Pattern Block
+    display: Light Gray Pattern Block
     type: VANILLA
     collection:
       indirect: iron_block
@@ -403,14 +394,14 @@ Items:
   blue_concrete_powder:
     itemMaterial: BLUE_CONCRETE_POWDER
     cmd: 0
-    display: Yellow Bricks
+    display: Light Gold
     type: VANILLA
     collection:
       indirect: iron_block
   brown_concrete_powder:
     itemMaterial: BROWN_CONCRETE_POWDER
     cmd: 0
-    display: Yellow Cobblestone
+    display: Dark Gold
     type: VANILLA
     collection:
       indirect: iron_block

@@ -128,6 +128,15 @@ Items:
       E4: iron_trapdoor
       I4: cauldron_2
       J4: pumpkin
+      E0: mechanical_block
+  mechanical_block:
+    itemMaterial: CLAY_BALL
+    cmd: 390
+    display: Mechanical Block
+    type: BLOCK
+    blockData: minecraft:dropper[facing=up,triggered=false]
+    collection:
+      indirect: blue_terracotta
   chorus_flower_0:
     itemMaterial: CLAY_BALL
     cmd: 40
@@ -244,6 +253,62 @@ Items:
       B2: beetroot_1
       I4: cactus_2
       J4: red_shulker_box
+      H4: iron_ingots
+      G4: gold_ingots
+      F4: tools
+      H2: weapons_ground
+      C2: shield
+  shield:
+    itemMaterial: CLAY_BALL
+    cmd: 412
+    display: Scattered Shields
+    type: BLOCK
+    blockData: minecraft:blue_candle[candles=2,lit=false,waterlogged=false]
+    collection:
+      indirect: cactus_12
+  weapons_ground:
+    itemMaterial: CLAY_BALL
+    cmd: 411
+    display: Scattered Weapons
+    type: BLOCK
+    blockData: minecraft:tube_coral_fan[waterlogged=false]
+    collection:
+      indirect: cactus_12
+  tools:
+    itemMaterial: CLAY_BALL
+    cmd: 363
+    display: Hanging Tool Rack
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataSouth:   minecraft:crimson_button[face=wall,facing=north,powered=true]
+    blockDataWest:   minecraft:crimson_button[face=wall,facing=east,powered=true]
+    blockDataNorth:   minecraft:crimson_button[face=wall,facing=south,powered=true]
+    blockDataEast:   minecraft:crimson_button[face=wall,facing=west,powered=true]
+    collection:
+      indirect: cactus_12
+  iron_ingots:
+    itemMaterial: CLAY_BALL
+    cmd: 361
+    display: Iron Ingots
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataSouth:  minecraft:crimson_button[face=floor,facing=north,powered=false]
+    blockDataWest:  minecraft:crimson_button[face=floor,facing=west,powered=false]
+    blockDataNorth:  minecraft:crimson_button[face=floor,facing=north,powered=false]
+    blockDataEast:  minecraft:crimson_button[face=floor,facing=west,powered=false]
+    collection:
+      indirect: cactus_12
+  gold_ingots:
+    itemMaterial: CLAY_BALL
+    cmd: 362
+    display: Gold Ingots
+    type: FOUR_DIRECTIONS
+    blockDataSouth:  minecraft:crimson_button[face=floor,facing=south,powered=false]
+    blockDataWest:  minecraft:crimson_button[face=floor,facing=east,powered=false]
+    blockDataNorth:  minecraft:crimson_button[face=floor,facing=south,powered=false]
+    blockDataEast:  minecraft:crimson_button[face=floor,facing=east,powered=false]
+    collection:
+      indirect: cactus_12
   jungle_sapling_1:
     itemMaterial: CLAY_BALL
     cmd: 25
@@ -362,8 +427,41 @@ Items:
       E1: white_shulker_box
       D2: brown_terracotta
       B2: purple_terracotta
+      C2: small_crates
       I4: carrots_4
       J4: red_shulker_box
+      A4: log_stack
+      B4: log_stack_top
+  log_stack_top:
+    itemMaterial: CLAY_BALL
+    cmd: 392
+    display: Log Stack Top
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dead_bubble_coral[waterlogged=false]
+    blockDataWest: minecraft:dead_tube_coral[waterlogged=false]
+    blockDataNorth: minecraft:dead_bubble_coral[waterlogged=false]
+    blockDataEast: minecraft:dead_tube_coral[waterlogged=false]
+    collection:
+      indirect: cactus_2
+  log_stack:
+    itemMaterial: CLAY_BALL
+    cmd: 391
+    display: Log Stack
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dead_horn_coral[waterlogged=false]
+    blockDataWest: minecraft:dead_fire_coral[waterlogged=false]
+    blockDataNorth: minecraft:dead_horn_coral[waterlogged=false]
+    blockDataEast: minecraft:dead_fire_coral[waterlogged=false]
+    collection:
+      indirect: cactus_2
+  small_crates:
+    itemMaterial: CLAY_BALL
+    cmd: 389
+    display: Small Crates
+    type: BLOCK
+    blockData: minecraft:wheat[age=6]
+    collection:
+      indirect: cactus_2
   brown_terracotta:
     itemMaterial: BROWN_TERRACOTTA
     cmd: 12
@@ -697,3 +795,71 @@ Items:
     type: VANILLA
     collection:
       indirect: orange_shulker_box
+  pickaxe_rack:
+    itemMaterial: CLAY_BALL
+    cmd: 365
+    display: Pickaxe Rack
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataSouth:  minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest:  minecraft:spruce_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth:  minecraft:spruce_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast:  minecraft:spruce_door[facing=west,half=lower,hinge=left,open=false,powered=false]
+    collection:
+      C0: pickaxe_rack
+      A1: tongs
+      A0: hammer
+      F1: picks
+      G2: tools
+      I2: empty_rack
+      J1: spear_rack
+      E0: dark_oak_sapling_1
+      E1: jungle_sapling_1
+      D2: acacia_sapling_1
+  picks:
+    itemMaterial: CLAY_BALL
+    cmd: 366
+    display: Pickaxes
+    category: Workshop
+    type: BLOCK
+    blockData:  minecraft:light_blue_candle[candles=1,lit=false,waterlogged=false]
+    collection:
+      indirect: pickaxe_rack
+  tongs:
+    itemMaterial: CLAY_BALL
+    cmd: 367
+    display: Tongs
+    type: BLOCK
+    blockData:  minecraft:light_blue_candle[candles=2,lit=false,waterlogged=false]
+    collection:
+      indirect: pickaxe_rack
+  hammer:
+    itemMaterial: CLAY_BALL
+    cmd: 368
+    display: Hammer
+    type: BLOCK
+    blockData:  minecraft:light_blue_candle[candles=3,lit=false,waterlogged=false]
+    collection:
+      indirect: pickaxe_rack
+  empty_rack:
+    itemMaterial: CLAY_BALL
+    cmd: 369
+    display: Empty Rack
+    type: FOUR_DIRECTIONS
+    blockDataSouth:  minecraft:spruce_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest:  minecraft:spruce_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth:  minecraft:spruce_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast:  minecraft:spruce_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    collection:
+      indirect: pickaxe_rack
+  spear_rack:
+    itemMaterial: CLAY_BALL
+    cmd: 370
+    display: Spear Rack
+    type: FOUR_DIRECTIONS
+    blockDataSouth:  minecraft:spruce_door[facing=east,half=lower,hinge=right,open=true,powered=false]
+    blockDataWest:  minecraft:spruce_door[facing=south,half=lower,hinge=right,open=true,powered=false]
+    blockDataNorth:  minecraft:spruce_door[facing=west,half=lower,hinge=right,open=true,powered=false]
+    blockDataEast:  minecraft:spruce_door[facing=north,half=lower,hinge=right,open=true,powered=false]
+    collection:
+      indirect: pickaxe_rack

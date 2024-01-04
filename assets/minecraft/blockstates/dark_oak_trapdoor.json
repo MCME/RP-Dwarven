@@ -1,38 +1,156 @@
 {
     "variants": {
-        "facing=north,half=bottom,open=false,powered=false": { "model": "block/trapdoor_small_gray_brick_bottom" },
-        "facing=south,half=bottom,open=false,powered=false": { "model": "block/trapdoor_stonebrick_cracked_bottom" },
-        "facing=east,half=bottom,open=false,powered=false": { "model": "block/trapdoor_stonebrick_chiseled_bottom" },
-        "facing=west,half=bottom,open=false,powered=false": { "model": "block/trapdoor_mossy_large_gray_brick_bottom" },
-        "facing=north,half=top,open=false,powered=false": { "model": "block/trapdoor_small_gray_brick_top" },
-        "facing=south,half=top,open=false,powered=false": { "model": "block/trapdoor_stonebrick_cracked_top" },
-        "facing=east,half=top,open=false,powered=false": { "model": "block/trapdoor_stonebrick_chiseled_top" },
-        "facing=west,half=top,open=false,powered=false": { "model": "block/trapdoor_mossy_large_gray_brick_top" },
-        "facing=north,half=bottom,open=true,powered=false": { "model": "block/trapdoor_smooth_gray_stone_open" },
-        "facing=south,half=bottom,open=true,powered=false": { "model": "block/trapdoor_smooth_gray_stone_open", "y": 180 },
-        "facing=east,half=bottom,open=true,powered=false": { "model": "block/trapdoor_smooth_gray_stone_open", "y": 90 },
-        "facing=west,half=bottom,open=true,powered=false": { "model": "block/trapdoor_smooth_gray_stone_open", "y": 270 },
-        "facing=north,half=top,open=true,powered=false": { "model": "block/trapdoor_stonebrick_chiseled_open" },
-        "facing=south,half=top,open=true,powered=false": { "model": "block/trapdoor_stonebrick_chiseled_open", "y": 180 },
-        "facing=east,half=top,open=true,powered=false": { "model": "block/trapdoor_stonebrick_chiseled_open", "y": 90 },
-        "facing=west,half=top,open=true,powered=false": { "model": "block/trapdoor_stonebrick_chiseled_open", "y": 270 },
-
-		"facing=north,half=bottom,open=false,powered=true": { "model": "block/trapdoor_large_gray_brick_bottom" },
-        "facing=south,half=bottom,open=false,powered=true": { "model": "block/trapdoor_smooth_gray_stone_bottom" },
-        "facing=east,half=bottom,open=false,powered=true": { "model": "block/trapdoor_smooth_light_gray_stone_bottom" },
-        "facing=west,half=bottom,open=false,powered=true": { "model": "block/trapdoor_monster_egg_stone_bottom" },
-        "facing=north,half=top,open=false,powered=true": { "model": "block/trapdoor_large_gray_brick_top" },
-        "facing=south,half=top,open=false,powered=true": { "model": "block/trapdoor_smooth_gray_stone_top" },
-        "facing=east,half=top,open=false,powered=true": { "model": "block/trapdoor_smooth_light_gray_stone_top" },
-        "facing=west,half=top,open=false,powered=true": { "model": "block/trapdoor_monster_egg_stone_top" },
-        "facing=north,half=bottom,open=true,powered=true": { "model": "block/trapdoor_stonebrick_cracked_open" },
-        "facing=south,half=bottom,open=true,powered=true": { "model": "block/trapdoor_stonebrick_cracked_open", "y": 180 },
-        "facing=east,half=bottom,open=true,powered=true": { "model": "block/trapdoor_stonebrick_cracked_open", "y": 90 },
-        "facing=west,half=bottom,open=true,powered=true": { "model": "block/trapdoor_stonebrick_cracked_open", "y": 270 },
-        "facing=north,half=top,open=true,powered=true": { "model": "block/trapdoor_stonebrick_mossy_open" },
-        "facing=south,half=top,open=true,powered=true": { "model": "block/trapdoor_stonebrick_mossy_open", "y": 180 },
-        "facing=east,half=top,open=true,powered=true": { "model": "block/trapdoor_stonebrick_mossy_open", "y": 90 },
-        "facing=west,half=top,open=true,powered=true": { "model": "block/trapdoor_stonebrick_mossy_open", "y": 270 }
+        "facing=north,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=east,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=south,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=west,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=north,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=south,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=east,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=west,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=north,half=bottom,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_lower", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower1", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower2", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower3", "y": 180 }
+        ],
+        "facing=south,half=bottom,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_lower" },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower1" },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower2" },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower3" }
+        ],
+        "facing=east,half=bottom,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_lower", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower1", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower2", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower3", "y": 270 }
+        ],
+        "facing=west,half=bottom,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_lower", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower1", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower2", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower3", "y": 90 }
+        ],
+        "facing=north,half=top,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_upper", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper1", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper2", "y": 180 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper3", "y": 180 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper4", "y": 180 }
+        ],
+        "facing=south,half=top,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_upper" },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper1" },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper2" },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper3" },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper4" }
+        ],
+        "facing=east,half=top,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_upper", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper1", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper2", "y": 270 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper3", "y": 270 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper4", "y": 270 }
+        ],
+        "facing=west,half=top,open=true,powered=false": [
+            { "model": "block/dark_oak_trapdoor_unpowered_upper", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper1", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper2", "y": 90 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper3", "y": 90 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper4", "y": 90 }
+        ],
+		"facing=north,half=bottom,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_unpowered_lower", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower1", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower2", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower3", "x": 90 }
+        ],
+        "facing=south,half=bottom,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_lower", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_lower1", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_lower2", "x": 90 }
+        ],
+        "facing=east,half=bottom,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_unpowered_upper", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper1", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper2", "x": 90 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper3", "x": 90 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper4", "x": 90 }
+        ],
+        "facing=west,half=bottom,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_upper", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_upper1", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_upper2", "x": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_upper3", "x": 90 }
+        ],
+        "facing=north,half=top,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_unpowered_lower", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower1", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower2", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_lower3", "x": 270 }
+        ],
+        "facing=south,half=top,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_lower", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_lower1", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_lower2", "x": 270 }
+        ],
+        "facing=east,half=top,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_unpowered_upper", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper1", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_unpowered_upper2", "x": 270 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper3", "x": 270 },
+			{ "model": "block/dark_oak_trapdoor_unpowered_upper4", "x": 270 }
+        ],
+        "facing=west,half=top,open=false,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_upper", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_upper1", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_upper2", "x": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_upper3", "x": 270 }
+        ],
+        "facing=north,half=bottom,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_lower", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_powered_lower1", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_powered_lower2", "y": 180 }
+        ],
+        "facing=south,half=bottom,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_lower" },
+            { "model": "block/dark_oak_trapdoor_powered_lower1" },
+            { "model": "block/dark_oak_trapdoor_powered_lower2" }
+        ],
+        "facing=east,half=bottom,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_lower", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_lower1", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_lower2", "y": 270 }
+        ],
+        "facing=west,half=bottom,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_lower", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_lower1", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_lower2", "y": 90 }
+        ],
+        "facing=north,half=top,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_upper", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_powered_upper1", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_powered_upper2", "y": 180 },
+            { "model": "block/dark_oak_trapdoor_powered_upper3", "y": 180 }
+        ],
+        "facing=south,half=top,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_upper" },
+            { "model": "block/dark_oak_trapdoor_powered_upper1" },
+            { "model": "block/dark_oak_trapdoor_powered_upper2" },
+            { "model": "block/dark_oak_trapdoor_powered_upper3" }
+        ],
+        "facing=east,half=top,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_upper", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_upper1", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_upper2", "y": 270 },
+            { "model": "block/dark_oak_trapdoor_powered_upper3", "y": 270 }
+        ],
+        "facing=west,half=top,open=true,powered=true": [
+            { "model": "block/dark_oak_trapdoor_powered_upper", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_upper1", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_upper2", "y": 90 },
+            { "model": "block/dark_oak_trapdoor_powered_upper3", "y": 90 }
+        ]
     }
-
 }
