@@ -5,9 +5,9 @@
         "facing=south,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=west,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=north,half=top,open=false,powered=false": [{ "model": "block/catwalk" }, { "model": "block/catwalk", "y":180 }, { "model": "block/catwalk_2" }, { "model": "block/catwalk_2", "y":180 },{ "model": "block/catwalk_3" }, { "model": "block/catwalk_3", "y":180 },{ "model": "block/catwalk_4" }, { "model": "block/catwalk_4", "y":180 }],
-        "facing=south,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=south,half=top,open=false,powered=false":  [{ "model": "block/catwalk_45" }, { "model": "block/catwalk_45", "y":180 }, { "model": "block/catwalk_45_2" }, { "model": "block/catwalk_45_2", "y":180 },{ "model": "block/catwalk_45_3" }, { "model": "block/catwalk_45_3", "y":180 },{ "model": "block/catwalk_45_4" }, { "model": "block/catwalk_45_4", "y":180 }],
         "facing=east,half=top,open=false,powered=false": [{ "model": "block/catwalk", "y":90 }, { "model": "block/catwalk", "y":270 }, { "model": "block/catwalk_2", "y":90 }, { "model": "block/catwalk_2", "y":270 },{ "model": "block/catwalk_3", "y":90 }, { "model": "block/catwalk_3", "y":270 },{ "model": "block/catwalk_4", "y":90 }, { "model": "block/catwalk_4", "y":270 }],
-        "facing=west,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=west,half=top,open=false,powered=false": [{ "model": "block/catwalk_45", "y":90 }, { "model": "block/catwalk_45", "y":270 }, { "model": "block/catwalk_45_2", "y":90 }, { "model": "block/catwalk_45_2", "y":270 },{ "model": "block/catwalk_45_3", "y":90 }, { "model": "block/catwalk_45_3", "y":270 },{ "model": "block/catwalk_45_4", "y":90 }, { "model": "block/catwalk_45_4", "y":270 }],
         "facing=north,half=bottom,open=true,powered=false": [
             { "model": "block/acacia_trapdoor_unpowered_lower", "y": 180 },
             { "model": "block/acacia_trapdoor_unpowered_lower1", "y": 180 },
