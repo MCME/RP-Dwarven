@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/template_wall_post",
 	"textures": {
-		"wall": "block/brown_stained_glass_pane_nsew"
+		"wall": "block/brown_stained_glass_pane_nsew_3"
 	},
 	"elements": [
 		{
