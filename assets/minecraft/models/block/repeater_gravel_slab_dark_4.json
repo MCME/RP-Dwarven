@@ -1,0 +1,8 @@
+{
+  "parent": "block/fake_slab",
+  "textures": {
+    "bottom": "block/sand_2",
+    "top": "block/sand_2",
+    "side": "block/sand_2"
+  }
+}
