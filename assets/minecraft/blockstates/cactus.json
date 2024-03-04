@@ -21,7 +21,11 @@
       { "model": "block/cactus_14", "y": 90 },
       { "model": "block/cactus_14", "y": 180 },
       { "model": "block/cactus_14", "y": 270 }],
-    "age=15": { "model": "block/unused_cross_0" }
+    "age=15": [
+	  { "model": "block/cactus_15" },
+      { "model": "block/cactus_15", "y": 90 },
+      { "model": "block/cactus_15", "y": 180 },
+      { "model": "block/cactus_15", "y": 270 }]
      
   }
 }

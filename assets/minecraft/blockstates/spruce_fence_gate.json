@@ -12,10 +12,34 @@
     "powered=false,facing=west,in_wall=true,open=false": { "model": "block/spruce_fence_gate_wall", "y": 90, "uvlock": true },
     "powered=false,facing=north,in_wall=true,open=false": { "model": "block/spruce_fence_gate_wall", "y": 180, "uvlock": true },
     "powered=false,facing=east,in_wall=true,open=false": { "model": "block/spruce_fence_gate_wall", "y": 270, "uvlock": true },
-    "powered=false,facing=south,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open" },
-    "powered=false,facing=west,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open", "y": 90, "uvlock": true },
-    "powered=false,facing=north,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open", "y": 180, "uvlock": true },
-    "powered=false,facing=east,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open", "y": 270, "uvlock": true },
+    "powered=false,facing=south,in_wall=true,open=true": [
+	{ "model": "block/spruce_fence_gate_wall_open" },
+	{ "model": "block/spruce_fence_gate_wall_open_2" },
+	{ "model": "block/spruce_fence_gate_wall_open_3" },
+	{ "model": "block/spruce_fence_gate_wall_open_4" },
+	{ "model": "block/spruce_fence_gate_wall_open_5" }
+	],
+    "powered=false,facing=west,in_wall=true,open=true": [
+	{ "model": "block/spruce_fence_gate_wall_open", "y": 90, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_2", "y": 90, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_3", "y": 90, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_4", "y": 90, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_5", "y": 90, "uvlock": true }
+	],
+    "powered=false,facing=north,in_wall=true,open=true": [
+	{ "model": "block/spruce_fence_gate_wall_open", "y": 180, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_2", "y": 180, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_3", "y": 180, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_4", "y": 180, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_5", "y": 180, "uvlock": true }
+	],
+    "powered=false,facing=east,in_wall=true,open=true": [
+	{ "model": "block/spruce_fence_gate_wall_open", "y": 270, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_2", "y": 270, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_3", "y": 270, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_4", "y": 270, "uvlock": true },
+	{ "model": "block/spruce_fence_gate_wall_open_5", "y": 270, "uvlock": true }
+	],
     "powered=true,facing=north,in_wall=false,open=false": [ { "model": "block/spruce_fence_gate_powered_closed", "uvlock": true },
 	{ "model": "block/spruce_fence_gate_powered_closed_2", "uvlock": true },{ "model": "block/spruce_fence_gate_powered_closed_3", "uvlock": true },
 	{ "model": "block/spruce_fence_gate_powered_closed_4", "uvlock": true },{ "model": "block/spruce_fence_gate_powered_closed_5", "uvlock": true } ],
@@ -36,9 +60,27 @@
     "powered=true,facing=west,in_wall=true,open=false": { "model": "block/spruce_fence_gate_wall", "y": 90, "uvlock": true },
     "powered=true,facing=north,in_wall=true,open=false": { "model": "block/spruce_fence_gate_wall", "y": 180, "uvlock": true },
     "powered=true,facing=east,in_wall=true,open=false": { "model": "block/spruce_fence_gate_wall", "y": 270, "uvlock": true },
-    "powered=true,facing=south,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open" },
-    "powered=true,facing=west,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open", "y": 90, "uvlock": true },
-    "powered=true,facing=north,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open", "y": 180, "uvlock": true },
-    "powered=true,facing=east,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open", "y": 270, "uvlock": true }
+    "powered=true,facing=south,in_wall=true,open=true": [
+	{ "model": "block/fish_1" },
+	{ "model": "block/fish_2" },
+	{ "model": "block/fish_3" },
+	{ "model": "block/fish_4" },
+	{ "model": "block/fish_5" },
+	{ "model": "block/fish_6" },
+	{ "model": "block/fish_7" },
+	{ "model": "block/fish_8" }
+	],
+    "powered=true,facing=west,in_wall=true,open=true": [
+	{ "model": "block/fish_1", "y": 90 },
+	{ "model": "block/fish_2", "y": 90 },
+	{ "model": "block/fish_3", "y": 90 },
+	{ "model": "block/fish_4", "y": 90 },
+	{ "model": "block/fish_5", "y": 90 },
+	{ "model": "block/fish_6", "y": 90 },
+	{ "model": "block/fish_7", "y": 90 },
+	{ "model": "block/fish_8", "y": 90 }
+	],
+    "powered=true,facing=north,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open_powered", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=true,open=true": { "model": "block/spruce_fence_gate_wall_open_powered", "y": 270, "uvlock": true }
   }
 }
