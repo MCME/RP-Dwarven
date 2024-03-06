@@ -47,9 +47,20 @@
     "candles=3,lit=true": {
       "model": "minecraft:block/light_blue_candle_three_candles_lit"
     },
-    "candles=4,lit=false": {
-      "model": "minecraft:block/light_blue_candle_four_candles"
-    },
+    "candles=4,lit=false": [
+      {"model": "minecraft:block/iron_helmet"},
+      {"model": "minecraft:block/iron_helmet", "y": 90},
+      {"model": "minecraft:block/iron_helmet", "y": 180},
+      {"model": "minecraft:block/iron_helmet", "y": 270},
+	  {"model": "minecraft:block/iron_helmet_2"},
+      {"model": "minecraft:block/iron_helmet_2", "y": 90},
+      {"model": "minecraft:block/iron_helmet_2", "y": 180},
+      {"model": "minecraft:block/iron_helmet_2", "y": 270},
+	  {"model": "minecraft:block/iron_helmet_3"},
+      {"model": "minecraft:block/iron_helmet_3", "y": 90},
+      {"model": "minecraft:block/iron_helmet_3", "y": 180},
+      {"model": "minecraft:block/iron_helmet_3", "y": 270}
+  ],
     "candles=4,lit=true": {
       "model": "minecraft:block/light_blue_candle_four_candles_lit"
     }
