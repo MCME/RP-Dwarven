@@ -120,7 +120,20 @@
 	{ "model": "block/iron_sheets_ground_3", "y":180 },
 	{ "model": "block/iron_sheets_ground_3", "y":270 }
 	],
-    "age=6": { "model": "block/unused_cross_0" },
+    "age=6":  [
+	{ "model": "block/clothing_model" },
+	{ "model": "block/clothing_model", "y":90 },
+	{ "model": "block/clothing_model", "y":180 },
+	{ "model": "block/clothing_model", "y":270 },
+	{ "model": "block/clothing_model_2" },
+	{ "model": "block/clothing_model_2", "y":90 },
+	{ "model": "block/clothing_model_2", "y":180 },
+	{ "model": "block/clothing_model_2", "y":270 },
+	{ "model": "block/clothing_model_3" },
+	{ "model": "block/clothing_model_3", "y":90 },
+	{ "model": "block/clothing_model_3", "y":180 },
+	{ "model": "block/clothing_model_3", "y":270 }
+	],
     "age=7": { "model": "block/unused_cross_0" }
   }
 }
