@@ -1,6 +1,11 @@
 {
   "variants": {
-    "waterlogged=false,east=none,north=none,south=none,west=none,up=true": { "model": "block/mossy_cobblestone_wall" },
+    "waterlogged=false,east=none,north=none,south=none,west=none,up=true": [
+	{ "model": "block/mossy_cobblestone_wall" },
+	{ "model": "block/mossy_cobblestone_wall", "y": 90 },
+	{ "model": "block/mossy_cobblestone_wall", "y": 180 },
+	{ "model": "block/mossy_cobblestone_wall", "y": 270 }
+	],
     "waterlogged=false,east=none,north=none,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=none,south=none,west=low,up=true": [
       { "model": "block/mossy_cobblestone_wall_n", "y": 270 },
