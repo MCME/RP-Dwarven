@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/template_wall_post",
-	"ambientocclusion": false,
 	"textures": {
 		"wall": "block/brown_stained_glass_pane_nsew"
 	},
@@ -23,7 +22,6 @@
 		{
 			"from": [10.26305, 4.62349, -0.88834],
 			"to": [19.26305, 8.62349, 3.11166],
-			"shade": false,
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.17559, 4.9165, 2.1604]},
 			"faces": {
 				"north": {"uv": [4, 15, 8, 6], "rotation": 90, "texture": "#wall"},
@@ -37,7 +35,6 @@
 		{
 			"from": [11.67072, -0.26356, -0.12037],
 			"to": [14.67072, 2.73644, 3.87963],
-			"shade": false,
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [10.17559, 4.9165, 2.1604]},
 			"faces": {
 				"north": {"uv": [8, 14, 5, 11], "rotation": 270, "texture": "#wall"},
@@ -51,7 +48,6 @@
 		{
 			"from": [6.10305, 6.51203, -0.12037],
 			"to": [9.10305, 9.51203, 7.87963],
-			"shade": false,
 			"rotation": {"angle": -45, "axis": "z", "origin": [10.17559, 4.9165, 2.1604]},
 			"faces": {
 				"north": {"uv": [8, 14, 5, 11], "texture": "#wall"},
@@ -65,7 +61,6 @@
 		{
 			"from": [4.44265, 0.12503, 0.27209],
 			"to": [8.44265, 4.12503, 10.27209],
-			"shade": false,
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.17559, 4.9165, 2.1604]},
 			"faces": {
 				"north": {"uv": [2, 16, 6, 12], "rotation": 180, "texture": "#wall"},
@@ -79,7 +74,6 @@
 		{
 			"from": [8.1882, 4.11867, -2.73398],
 			"to": [11.1882, 13.11867, 0.26602],
-			"shade": false,
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [10.17559, 4.9165, 2.1604]},
 			"faces": {
 				"north": {"uv": [5, 14, 8, 5], "rotation": 180, "texture": "#wall"},
@@ -93,7 +87,6 @@
 		{
 			"from": [10.11314, -2.96098, -1.10363],
 			"to": [13.11314, 4.03902, 1.89637],
-			"shade": false,
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [10.17559, 4.9165, 2.1604]},
 			"faces": {
 				"north": {"uv": [3, 7, 0, 13], "rotation": 180, "texture": "#wall"},
@@ -107,7 +100,6 @@
 		{
 			"from": [2.21772, 6.29724, -0.35892],
 			"to": [9.21772, 9.29724, 2.64108],
-			"shade": false,
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [10.17559, 4.9165, 2.1604]},
 			"faces": {
 				"north": {"uv": [1, 16, 4, 9], "rotation": 270, "texture": "#wall"},
