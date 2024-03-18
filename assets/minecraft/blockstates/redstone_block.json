@@ -1,9 +1,7 @@
 {
   "variants": {
     "": [
-	  { "model": "block/redstone_block" },
-	  { "model": "block/redstone_block_2" },
-	  { "model": "block/redstone_block_3" }
+	  { "model": "block/unused_block" }
 	]
   }
 }
