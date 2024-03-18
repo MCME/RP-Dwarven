@@ -175,7 +175,19 @@
 	{ "model": "block/mud_bricks_n", "y": 180 },
 	{ "model": "block/mud_bricks_n_2", "y": 180 },
 	{ "model": "block/mud_bricks_n_3", "y": 180 }
-	]
+	],
+	"waterlogged=false,east=none,north=low,south=none,west=tall,up=true": 
+	{ "model": "block/oak_planks_offset" },
+	
+	"waterlogged=false,east=low,north=tall,south=none,west=none,up=true": 
+	{ "model": "block/oak_planks_offset", "y": 90 },
+	
+	"waterlogged=false,east=tall,north=none,south=low,west=none,up=true": 
+	{ "model": "block/oak_planks_offset", "y": 180 },
+	
+	"waterlogged=false,east=none,north=none,south=tall,west=low,up=true": 
+	{ "model": "block/oak_planks_offset", "y": 270 }
+	
 	
   }
 }

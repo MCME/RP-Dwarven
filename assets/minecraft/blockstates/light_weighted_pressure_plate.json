@@ -28,7 +28,20 @@
 	{ "model" : "block/chopping_block_2", "y": 180 },
 	{ "model" : "block/chopping_block_2", "y": 270 }
 	],
-    "power=7": { "model" : "block/unused_cross_0" },
+    "power=7": [
+	{ "model" : "block/bread" }, 
+	{ "model" : "block/bread", "y": 90 }, 
+	{ "model" : "block/bread", "y": 180 }, 
+	{ "model" : "block/bread", "y": 270 },
+	{ "model" : "block/bread_2" }, 
+	{ "model" : "block/bread_2", "y": 90 },
+	{ "model" : "block/bread_2", "y": 180 },
+	{ "model" : "block/bread_2", "y": 270 },
+	{ "model" : "block/bread_3" }, 
+	{ "model" : "block/bread_3", "y": 90 },
+	{ "model" : "block/bread_3", "y": 180 },
+	{ "model" : "block/bread_3", "y": 270 }
+	],
     "power=8": { "model" : "block/unused_cross_0" },
     "power=9": { "model" : "block/unused_cross_0" },
     "power=10": { "model" : "block/unused_cross_0" },
