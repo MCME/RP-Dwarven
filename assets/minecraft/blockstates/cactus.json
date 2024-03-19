@@ -6,10 +6,34 @@
     "age=3": { "model": "block/cactus_2", "x": 90 },
     "age=4": { "model": "block/cactus_2", "x": 90, "y": 90 },
     "age=5": { "model": "block/cactus_5" },
-    "age=6": { "model": "block/cactus_6"},
-    "age=7": { "model": "block/cactus_6", "y": 90},
-    "age=8": { "model": "block/cactus_6", "y": 180},
-    "age=9": { "model": "block/cactus_6", "y": 270},
+    "age=6": [
+	{ "model": "block/chair", "weight": 3},
+	{ "model": "block/chair_2", "weight": 3},
+	{ "model": "block/chair_2_2", "weight": 3},
+	{ "model": "block/chair_3", "weight": 3},
+	{ "model": "block/chair_2_3", "weight": 1}
+	],
+    "age=7": [
+	{ "model": "block/chair", "y": 90, "weight": 3},
+	{ "model": "block/chair_2", "y": 90, "weight": 3},
+	{ "model": "block/chair_2_2", "y": 90, "weight": 3},
+	{ "model": "block/chair_3", "y": 90, "weight": 3},
+	{ "model": "block/chair_2_3", "y": 90, "weight": 1}
+	],
+    "age=8": [
+	{ "model": "block/chair", "y": 180, "weight": 3},
+	{ "model": "block/chair_2", "y": 180, "weight": 3},
+	{ "model": "block/chair_2_2", "y": 180, "weight": 3},
+	{ "model": "block/chair_3", "y": 180, "weight": 3},
+	{ "model": "block/chair_2_3", "y": 180, "weight": 1}
+	],
+    "age=9": [
+	{ "model": "block/chair", "y": 270, "weight": 3},
+	{ "model": "block/chair_2", "y": 270, "weight": 3},
+	{ "model": "block/chair_2_2", "y": 270, "weight": 3},
+	{ "model": "block/chair_3", "y": 270, "weight": 3},
+	{ "model": "block/chair_2_3", "y": 270, "weight": 1}
+	],
     "age=10": { "model": "block/cactus_10", "uvlock": true },
     "age=11": [
       { "model": "block/cactus_11" },
