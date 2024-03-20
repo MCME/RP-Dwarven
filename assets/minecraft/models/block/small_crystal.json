@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/template_wall_post",
+	"ambientocclusion": false,
 	"textures": {
 		"wall": "block/brown_stained_glass_pane_nsew"
 	},
@@ -97,6 +98,12 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [-54, 0, 0],
+			"translation": [4.25, 0, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "crystal_0",

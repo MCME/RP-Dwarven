@@ -203,7 +203,12 @@
 			}
 		}
 	],
-	"display": {},
+	"display": {
+		"gui": {
+			"rotation": [13, -117, 0],
+			"translation": [0, 4.75, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

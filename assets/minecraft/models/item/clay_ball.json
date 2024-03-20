@@ -212,7 +212,7 @@
             "predicate": {
                 "custom_model_data": 35
             },
-            "model": "block/cactus_6"
+            "model": "block/chair"
         },
         {
             "predicate": {
@@ -2198,7 +2198,7 @@
             "predicate": {
                 "custom_model_data": 366
             },
-            "model": "block/picks"
+            "model": "block/pickaxe"
         },
 		{
             "predicate": {
@@ -2558,7 +2558,7 @@
             "predicate": {
                 "custom_model_data": 426
             },
-            "model": "block/red_mushroom_block_s"
+            "model": "block/red_mushroom_block_s_2"
         },
 		{
             "predicate": {
@@ -2583,6 +2583,270 @@
                 "custom_model_data": 430
             },
             "model": "item/dark_oak_trapdoor_powered_e"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 431
+            },
+            "model": "block/double_granite_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 432
+            },
+            "model": "block/cactus_15"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 433
+            },
+            "model": "block/double_granite_slab_wall"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 434
+            },
+            "model": "block/spruce_fence_gate_wall_open"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 435
+            },
+            "model": "block/mangrove_trapdoor_unpowered_lower"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 436
+            },
+            "model": "block/iron_sheets_ground"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 437
+            },
+            "model": "block/repeater_gravel_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 438
+            },
+            "model": "block/repeater_gravel_slab_dark"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 439
+            },
+            "model": "block/repeater_ash_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 440
+            },
+            "model": "block/crystal_0"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 441
+            },
+            "model": "block/crystal_6"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 442
+            },
+            "model": "block/crystal_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 443
+            },
+            "model": "block/crystal_4"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 444
+            },
+            "model": "block/small_crystal"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 445
+            },
+            "model": "block/red_mushroom_1"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 446
+            },
+            "model": "block/putrid_mushroom"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 447
+            },
+            "model": "block/wall_mushrooms"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 448
+            },
+            "model": "block/mycelium_snowy"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 449
+            },
+            "model": "block/podzol_snowy"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 450
+            },
+            "model": "block/marker_info"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 451
+            },
+            "model": "block/marker_wip"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 452
+            },
+            "model": "block/marker_comment"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 453
+            },
+            "model": "block/marker_finished"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 454
+            },
+            "model": "block/marker_accepted"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 455
+            },
+            "model": "block/marker_declined"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 456
+            },
+            "model": "item/mud_bricks_trapdoor"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 457
+            },
+            "model": "block/dark_oak_trapdoor_unpowered_lower"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 458
+            },
+            "model": "block/mud_brick_wall_wedge"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 459
+            },
+            "model": "item/mud_brick_wall_arch"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 460
+            },
+            "model": "block/mud_brick_wall"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 461
+            },
+            "model": "block/mud_brick_wall_n"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 462
+            },
+            "model": "block/mud_brick_wall_ne"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 463
+            },
+            "model": "block/mud_bricks_corner"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 464
+            },
+            "model": "block/mud_bricks_n"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 465
+            },
+            "model": "block/mud_bricks_h_wedge"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 466
+            },
+            "model": "block/pillar_top_dark"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 467
+            },
+            "model": "block/pillar_top_dark_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 468
+            },
+            "model": "block/pillar_bottom_dark"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 469
+            },
+            "model": "block/mud_brick_wall_nsew"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 470
+            },
+            "model": "block/bows"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 471
+            },
+            "model": "block/iron_helmet"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 472
+            },
+            "model": "block/hanging_shield"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 473
+            },
+            "model": "block/shovel"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 474
+            },
+            "model": "block/oak_planks_offset"
         }
     ]
 }
