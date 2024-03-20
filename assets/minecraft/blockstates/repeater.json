@@ -31,7 +31,7 @@
 	{ "model": "block/repeater_gravel_slab_dark_2", "y":90 },
 	{ "model": "block/repeater_gravel_slab_dark_2", "y":180 },
 	{ "model": "block/repeater_gravel_slab_dark_2", "y":270 },
-	{ "model": "block/repeater_gravel_sla_dark_3" },
+	{ "model": "block/repeater_gravel_slab_dark_3" },
 	{ "model": "block/repeater_gravel_slab_dark_3", "y":90 },
 	{ "model": "block/repeater_gravel_slab_dark_3", "y":180 },
 	{ "model": "block/repeater_gravel_slab_dark_3", "y":270 },

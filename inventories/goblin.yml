@@ -3,7 +3,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 480
     display: Catwalk
-    category: goblin
+    category: Goblin
     type: EIGHT_FACES
     blockDataSouth: minecraft:acacia_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
     blockDataSouthWest: minecraft:acacia_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
@@ -24,12 +24,12 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 481
     display: Catwalk Ramp
-    category: goblin
+    category: Goblin
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:soul_campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
-    blockDataSouth: minecraft:soul_campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
-    blockDataEast: minecraft:soul_campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
-    blockDataWest: minecraft:soul_campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
+    blockDataSouth: minecraft:soul_campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
+    blockDataEast: minecraft:soul_campfire[facing=east,lit=false,signal_fire=true,waterlogged=false]
+    blockDataWest: minecraft:soul_campfire[facing=west,lit=false,signal_fire=true,waterlogged=false]
     collection:
       indirect: catwalk
   invis_slab:
@@ -44,7 +44,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 483
     display: Log Beam
-    category: goblin
+    category: Goblin
     type: BLOCK
     blockData: minecraft:nether_brick_fence[east=false,north=false,south=false,waterlogged=false,west=false]
     collection:
@@ -53,7 +53,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 484
     display: Palisade
-    category: goblin
+    category: Goblin
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=left,open=false,powered=false]
     blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=left,open=false,powered=false]
@@ -65,7 +65,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 485
     display: Palisade Tops
-    category: goblin
+    category: Goblin
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:acacia_door[facing=east,half=lower,hinge=left,open=true,powered=false]
     blockDataSouth: minecraft:acacia_door[facing=west,half=lower,hinge=left,open=true,powered=false]
@@ -77,7 +77,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 486
     display: Lit Campfire
-    category: goblin
+    category: Goblin
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=true,signal_fire=true,waterlogged=false]
     collection:
@@ -94,7 +94,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 493
     display: Scattered Clothes
-    category: goblin
+    category: Goblin
     type: BLOCK
     blockData: minecraft:carrots[age=6]
     collection:
@@ -103,7 +103,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 492
     display: Fish Bucket
-    category: goblin
+    category: Goblin
     type: BLOCK
     blockData: minecraft:oak_leaves[distance=5,persistent=false,waterlogged=false]
     collection:
@@ -112,7 +112,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 491
     display: Big Bone Pile
-    category: goblin
+    category: Goblin
     type: BLOCK
     blockData: minecraft:yellow_candle[candles=2,lit=false,waterlogged=false]
     collection:
@@ -121,7 +121,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 490
     display: Bone Pile
-    category: goblin
+    category: Goblin
     type: BLOCK
     blockData: minecraft:yellow_candle[candles=1,lit=false,waterlogged=false]
     collection:
@@ -130,7 +130,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 487
     display: Burnt Campfire
-    category: goblin
+    category: Goblin
     type: BLOCK
     blockData: minecraft:campfire[facing=east,lit=false,signal_fire=true,waterlogged=false]
     collection:
@@ -139,7 +139,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 488
     display: Fish Rack
-    category: goblin
+    category: Goblin
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=false,south=false,west=false]
     blockDataSouth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=false,south=false,west=false]
@@ -151,7 +151,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 489
     display: Empty Rack
-    category: goblin
+    category: Goblin
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=false,south=true,west=false]
     blockDataSouth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=false,south=true,west=false]
