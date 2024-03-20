@@ -176,6 +176,13 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [32, -1, -7],
+			"translation": [-0.5, 7.5, 0],
+			"scale": [1.51, 1.45, 1.43]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

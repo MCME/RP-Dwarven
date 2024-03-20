@@ -267,6 +267,12 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [35, 107, 0],
+			"translation": [0, 4, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "Bones",

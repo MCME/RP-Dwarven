@@ -98,6 +98,27 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.75, 0],
+			"scale": [0.63, 0.63, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.67, 0.66, 0.61]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [5, 4.5, 0]
+		},
+		"ground": {
+			"translation": [0, 3.75, 0]
+		},
+		"gui": {
+			"rotation": [38, 149, -3],
+			"translation": [0, 5, 0],
+			"scale": [0.99, 1, 0.93]
+		}
+	},
 	"groups": [
 		0,
 		{
