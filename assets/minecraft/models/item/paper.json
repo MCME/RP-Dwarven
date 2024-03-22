@@ -100,15 +100,27 @@
       },
       "model": "gui/inter_alt"
     },
-    {
+	{
       "predicate": {
         "custom_model_data": 17
+      },
+      "model": "gui/goblin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "gui/goblin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
       },
       "model": "gui/misc"
     },
     {
       "predicate": {
-        "custom_model_data": 18
+        "custom_model_data": 20
       },
       "model": "gui/misc_alt"
     },

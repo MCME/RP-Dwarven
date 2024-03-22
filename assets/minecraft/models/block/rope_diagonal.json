@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/rope",
+		"particle": "block/rope"
+	},
+	"elements": [
+		{
+			"from": [10.25, -1, -11.35],
+			"to": [12.25, 1, 11.45],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [9, 10.5, 8, 11.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [8, 4.5, 9, 14.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 12.5, 8, 13.5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [8, 0, 9, 10], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7, 0, 8, 10], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [9, 0, 10, 10], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

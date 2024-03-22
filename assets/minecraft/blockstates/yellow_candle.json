@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "candles=1,lit=false": [
+	  {"model": "minecraft:block/yellow_candle_2"},
+      {"model": "minecraft:block/yellow_candle_2", "y": 90},
+      {"model": "minecraft:block/yellow_candle_2", "y": 180},
+      {"model": "minecraft:block/yellow_candle_2", "y": 270},
+	  {"model": "minecraft:block/yellow_candle_4"},
+      {"model": "minecraft:block/yellow_candle_4", "y": 90},
+      {"model": "minecraft:block/yellow_candle_4", "y": 180},
+      {"model": "minecraft:block/yellow_candle_4", "y": 270},
+	  {"model": "minecraft:block/yellow_candle_5"},
+      {"model": "minecraft:block/yellow_candle_5", "y": 90},
+      {"model": "minecraft:block/yellow_candle_5", "y": 180},
+      {"model": "minecraft:block/yellow_candle_5", "y": 270}
+  ],
+    "candles=1,lit=true": {
+      "model": "minecraft:block/light_blue_candle_one_candle_lit"
+    },
+    "candles=2,lit=false": [
+      {"model": "minecraft:block/yellow_candle"},
+      {"model": "minecraft:block/yellow_candle", "y": 90},
+      {"model": "minecraft:block/yellow_candle", "y": 180},
+      {"model": "minecraft:block/yellow_candle", "y": 270},
+	  {"model": "minecraft:block/yellow_candle_3"},
+      {"model": "minecraft:block/yellow_candle_3", "y": 90},
+      {"model": "minecraft:block/yellow_candle_3", "y": 180},
+      {"model": "minecraft:block/yellow_candle_3", "y": 270}
+	  ],
+    "candles=2,lit=true": {
+      "model": "minecraft:block/light_blue_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": {
+      "model": "minecraft:block/yellow_candle_three_candles"
+    },
+    "candles=3,lit=true": {
+      "model": "minecraft:block/light_blue_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": {
+      "model": "minecraft:block/yellow_candle_four_candles"
+    },
+    "candles=4,lit=true": {
+      "model": "minecraft:block/yellow_candle_four_candles_lit"
+    }
+  }
+}

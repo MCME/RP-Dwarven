@@ -35,8 +35,13 @@ Categories:
     cmd: 15
     cmdCurrent: 16
     display: Interior Blocks
-  Misc:
+  Goblin:
     itemMaterial: PAPER
     cmd: 17
     cmdCurrent: 18
+    display: Goblin Blocks
+  Misc:
+    itemMaterial: PAPER
+    cmd: 19
+    cmdCurrent: 20
     display: Misc Blocks

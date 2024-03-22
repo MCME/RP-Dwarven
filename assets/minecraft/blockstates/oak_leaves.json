@@ -16,7 +16,12 @@
       {"model" : "block/rail_barrier", "weight" : 2, "y": 270},
       {"model" : "block/rail_barrier_2", "y": 270}
     ],
-    "persistent=false,distance=5": { "model": "block/arch" },
+    "persistent=false,distance=5": [
+	{ "model": "block/fish_bucket" },
+	{ "model": "block/fish_bucket", "y":90 },
+	{ "model": "block/fish_bucket", "y":180 },
+	{ "model": "block/fish_bucket", "y":270 }
+	],
     "persistent=false,distance=6": { "model": "block/unused_block" },
     "persistent=false,distance=7": { "model": "block/unused_block" },
     "persistent=true,distance=1": { "model": "block/unused_block" },

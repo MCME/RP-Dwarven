@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": 
+	[   
+		  { "model": "block/crystal_0" },
+	      { "model": "block/crystal_0", "y": 90 },
+		  { "model": "block/crystal_0", "y": 180 },
+		  { "model": "block/crystal_0", "y": 270 },
+		  { "model": "block/crystal_1" },
+	      { "model": "block/crystal_1", "y": 90 },
+		  { "model": "block/crystal_1", "y": 180 },
+		  { "model": "block/crystal_1", "y": 270 }
+	      ]
+    
+  }
+}

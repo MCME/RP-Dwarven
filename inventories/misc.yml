@@ -175,6 +175,66 @@ Items:
       I2: beacon
       J1: dragon_egg
       E0: sign
+      A4: marker_info
+      B4: marker_wip
+      C4: marker_comment
+      D4: marker_finished
+      E4: marker_accepted
+      A3: marker_declined
+  marker_info:
+    itemMaterial: CLAY_BALL
+    cmd: 450
+    display: Info Marker
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=5,powered=false]
+    collection:
+      indirect: fireworks
+  marker_wip:
+    itemMaterial: CLAY_BALL
+    cmd: 451
+    display: WIP Marker
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=3,powered=false]
+    collection:
+      indirect: fireworks
+  marker_comment:
+    itemMaterial: CLAY_BALL
+    cmd: 452
+    display: Comment Marker
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=4,powered=false]
+    collection:
+      indirect: fireworks
+  marker_finished:
+    itemMaterial: CLAY_BALL
+    cmd: 453
+    display: Finished Marker
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=2,powered=false]
+    collection:
+      indirect: fireworks
+  marker_accepted:
+    itemMaterial: CLAY_BALL
+    cmd: 454
+    display: Accepted Marker
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=0,powered=false]
+    collection:
+      indirect: fireworks
+  marker_declined:
+    itemMaterial: CLAY_BALL
+    cmd: 455
+    display: Declined Marker
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=1,powered=false]
+    collection:
+      indirect: fireworks
   activator_rail_flat:
     itemMaterial: CLAY_BALL
     cmd: 114

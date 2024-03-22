@@ -196,7 +196,7 @@ Items:
   blue_stained_glass_pane_diagonal:
     itemMaterial: CLAY_BALL
     cmd: 140
-    display: Sandstone diagonal
+    display: Sandstone Diagonal
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:blue_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
     blockDataEast: minecraft:blue_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
@@ -221,7 +221,7 @@ Items:
     display: Column Top 1
     category: Block
     type: BLOCK
-    blockData: minecraft:note_block[instrument=basedrum,note=17]
+    blockData: minecraft:note_block[instrument=basedrum,note=16]
     collection:
       indirect: sandstone
   column_2:
@@ -229,7 +229,7 @@ Items:
     cmd: 349
     display: Column Top 2
     type: BLOCK
-    blockData: minecraft:note_block[instrument=basedrum,note=16]
+    blockData: minecraft:note_block[instrument=basedrum,note=17]
     collection:
       indirect: sandstone
   column_bottom:
@@ -821,6 +821,47 @@ Items:
       C3: blue_cobblestone_balustrade
       D3: blue_cobblestone_thin_pillar
       E3: blue_cobblestone_fancy_thin_pillar
+      I3: deco_bricks
+      H3: small_blue_bricks
+      G3: up_small_blue_bricks
+      J4: blue_sandstone
+      J3: tuff
+      F3: mud_packed
+  mud_packed:
+    itemMaterial: PACKED_MUD
+    cmd: 0
+    display: Medium Blue Bricks
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  tuff:
+    itemMaterial: TUFF
+    cmd: 0
+    display: Smooth Blue Stone Tile
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  up_small_blue_bricks:
+    itemMaterial: DEEPSLATE_COAL_ORE
+    cmd: 0
+    display: Small Blue Bricks Vertical
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  small_blue_bricks:
+    itemMaterial: DEEPSLATE_EMERALD_ORE
+    cmd: 0
+    display: Small Blue Bricks
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
+  deco_bricks:
+    itemMaterial: CALCITE
+    cmd: 0
+    display: Small Blue Bricks Pattern
+    type: VANILLA
+    collection:
+      indirect: blue_bricks
   blue_brick_flat_trapdoor:
     itemMaterial: CLAY_BALL
     cmd: 413
@@ -1009,7 +1050,6 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 426
     display: Blue Mixed Stone Bricks
-    category: Block
     type: BLOCK
     blockData: minecraft:red_mushroom_block[down=false,east=false,north=false,south=true,up=false,west=false]
     collection:
@@ -1433,6 +1473,219 @@ Items:
     type: VANILLA
     collection:
       indirect: dark_prismarine
-    
+  blue_sandstone:
+    itemMaterial: MUD_BRICKS
+    cmd: 0
+    display: Blue Sandstone
+    category: Block
+    type: VANILLA
+    collection:
+      F1: mud_bricks_trapdoor
+      J1: blue_sandstone_wall_wedge
+      E1: blue_sandstone_wall_arch
+      A1: dark_oak_trapdoor_unpowered_lower
+      B2: blue_sandstone_stairs
+      D2: blue_sandstone_slab
+      A4: blue_sandstone_corner_pillar
+      B4: blue_sandstone_wall_pillar
+      D4: blue_sandstone_diagonal
+      F4: blue_sandstone_vertical_slab
+      G4: blue_sandstone_vertical_stair
+      G2: pillar_1
+      H2: pillar_2
+      I2: pillar_3
+      H4: blue_sandstone_balustrade
+      I4: blue_sandstone_thin_pillar
+      J4: blue_sandstone_fancy_thin_pillar
+      J3: column_bottom_dark
+      J2: column_2_dark
+      I3: column_1_dark
+      E4: blue_bricks
+  mud_bricks_trapdoor:
+    itemMaterial: CLAY_BALL
+    cmd: 456
+    display: Blue Sandstone Thin Slab
+    type: BISECTED
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: blue_sandstone
+  dark_oak_trapdoor_unpowered_lower:
+    itemMaterial: CLAY_BALL
+    cmd: 457
+    display: Blue Sandstone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_wall_wedge:
+    itemMaterial: CLAY_BALL
+    cmd: 458
+    display: Blue Sandstone Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mud_brick_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mud_brick_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mud_brick_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:mud_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_wall_arch:
+    itemMaterial: CLAY_BALL
+    cmd: 459
+    display: Blue Sandstone Upper Wedge
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mud_brick_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mud_brick_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mud_brick_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mud_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_stairs:
+    itemMaterial: MUD_BRICK_STAIRS
+    cmd: 0
+    display: Blue Sandstone Stairs
+    type: VANILLA
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_slab:
+    itemMaterial: MUD_BRICK_SLAB
+    cmd: 0
+    display: Blue Sandstone Slab
+    type: VANILLA
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 460
+    display: Blue Sandstone Pillar
+    type: BLOCK
+    blockData: minecraft:mud_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 461
+    display: Vertical Blue Sandstone Slab
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mud_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mud_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mud_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mud_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_vertical_stair:
+    itemMaterial: CLAY_BALL
+    cmd: 462
+    display: Vertical Blue Sandstone Stair
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mud_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:mud_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mud_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mud_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_corner_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 463
+    display: Blue Sandstone Pillar Diagonal
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mud_brick_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:mud_brick_wall[east=tall,north=low,south=none,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mud_brick_wall[east=low,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mud_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_wall_pillar:
+   itemMaterial: CLAY_BALL
+   cmd: 464
+   display: Blue Sandstone Pillar Side
+   type: FOUR_DIRECTIONS
+   blockDataNorth: minecraft:mud_brick_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=none]
+   blockDataEast: minecraft:mud_brick_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=none]
+   blockDataSouth: minecraft:mud_brick_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=none]
+   blockDataWest: minecraft:mud_brick_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=tall]
+   collection:
+      indirect: blue_sandstone
+  blue_sandstone_diagonal:
+    itemMaterial: CLAY_BALL
+    cmd: 465
+    display: Blue Sandstone Diagonal
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=20]
+    blockDataEast: minecraft:weeping_vines[age=21]
+    blockDataSouth: minecraft:weeping_vines[age=22]
+    blockDataWest: minecraft:weeping_vines[age=23]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_balustrade:
+    itemMaterial: SANDSTONE_WALL
+    cmd: 0
+    display: Sandstone Balustrade
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mud_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataEast: minecraft:mud_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:mud_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]
+    blockDataWest: minecraft:mud_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: blue_sandstone
+  column_1_dark:
+    itemMaterial: CLAY_BALL
+    cmd: 466
+    display: Dark Column Top 1
+    category: Block
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=7,powered=false]
+    collection:
+      indirect: blue_sandstone
+  column_2_dark:
+    itemMaterial: CLAY_BALL
+    cmd: 467
+    display: Dark Column Top 2
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=8,powered=false]
+    collection:
+      indirect: blue_sandstone
+  column_bottom_dark:
+    itemMaterial: CLAY_BALL
+    cmd: 468
+    display: Dark Column Bottom
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=harp,note=6,powered=false]
+    collection:
+      indirect: blue_sandstone
+  blue_sandstone_fancy_thin_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 469
+    display: Fancy Blue Sandstone Pillar
+    type: BLOCK
+    blockData: mud_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: blue_sandstone
+  pillar_1:
+    itemMaterial: WARPED_STEM
+    cmd: 0
+    display: Blue Sandstone Pillar 1
+    type: VANILLA
+    collection:
+      indirect: blue_sandstone
+  pillar_2:
+    itemMaterial: STRIPPED_WARPED_HYPHAE
+    cmd: 0
+    display: Blue Sandstone Pillar 2
+    type: VANILLA
+    collection:
+      indirect: blue_sandstone
+  pillar_3:
+    itemMaterial: STRIPPED_WARPED_STEM
+    cmd: 0
+    display: Blue Sandstone Pillar 3
+    type: VANILLA
+    collection:
+      indirect: blue_sandstone
   
     
