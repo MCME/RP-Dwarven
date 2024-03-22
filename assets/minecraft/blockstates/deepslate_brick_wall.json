@@ -29,7 +29,11 @@
     "waterlogged=false,east=none,north=low,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=low,west=none,up=true": { "model": "block/deepslate_brick_wall_ns" },
     "waterlogged=false,east=none,north=low,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
-    "waterlogged=false,east=none,north=low,south=low,west=low,up=true": { "model": "block/unused_cross_0" },
+    "waterlogged=false,east=none,north=low,south=low,west=low,up=true": [
+	{ "model": "block/double_granite_slab_wall" },
+	{ "model": "block/double_granite_slab_wall", "y":90 },
+	{ "model": "block/double_granite_slab_wall", "y":180 },
+	{ "model": "block/double_granite_slab_wall", "y":270 }],
     "waterlogged=false,east=none,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=none,south=none,west=none,up=true": [
       { "model": "block/deepslate_brick_wall_n", "y": 90 },

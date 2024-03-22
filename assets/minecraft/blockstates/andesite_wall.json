@@ -1,6 +1,11 @@
 {
   "variants": {
-    "waterlogged=false,east=none,north=none,south=none,west=none,up=true": { "model": "block/andesite_wall" },
+    "waterlogged=false,east=none,north=none,south=none,west=none,up=true": [
+	{ "model": "block/andesite_wall" },
+	{ "model": "block/andesite_wall", "y": 90 },
+	{ "model": "block/andesite_wall", "y": 180 },
+	{ "model": "block/andesite_wall", "y": 270 }
+	],
     "waterlogged=false,east=none,north=none,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=none,south=none,west=low,up=true": [
       { "model": "block/andesite_wall_n", "y": 270 },

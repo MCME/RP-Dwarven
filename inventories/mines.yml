@@ -28,6 +28,18 @@ Items:
       I4: rail
       J4: iron_ore
       E0: vertical_oak_planks
+      D4: offset_planks
+  offset_planks:
+    itemMaterial: CLAY_BALL
+    cmd: 474
+    display: Oak Planks Offset
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:mud_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=tall]
+    blockDataSouth: minecraft:mud_brick_wall[east=tall,north=none,south=low,up=true,waterlogged=false,west=none]
+    blockDataEast: minecraft:mud_brick_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=none]
+    blockDataWest: minecraft:mud_brick_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: jungle_planks
   vertical_oak_planks:
     itemMaterial: CLAY_BALL
     cmd: 377
@@ -546,12 +558,12 @@ Items:
     cmd: 375
     display: Hand Crank
     type: SIX_FACES
-    blockDataSouth: minecraft:acacia_button[face=wall,facing=north,powered=false]
-    blockDataWest: minecraft:acacia_button[face=wall,facing=east,powered=false]
-    blockDataNorth: minecraft:acacia_button[face=wall,facing=south,powered=false]
-    blockDataEast: minecraft:acacia_button[face=wall,facing=west,powered=false]
-    blockDataDown: minecraft:acacia_button[face=floor,facing=south,powered=false]
-    blockDataUp: minecraft:acacia_button[face=ceiling,facing=south,powered=false]
+    blockDataSouth: minecraft:acacia_button[face=wall,facing=south,powered=false]
+    blockDataWest: minecraft:acacia_button[face=wall,facing=west,powered=false]
+    blockDataNorth: minecraft:acacia_button[face=wall,facing=north,powered=false]
+    blockDataEast: minecraft:acacia_button[face=wall,facing=east,powered=false]
+    blockDataDown: minecraft:acacia_button[face=ceiling,facing=south,powered=false]
+    blockDataUp: minecraft:acacia_button[face=floor,facing=south,powered=false]
     collection:
       indirect: bell_floor_east
   white_stained_glass:

@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "block/allium" }
+    "": 
+	[   
+		  { "model": "block/crystal_2" },
+	      { "model": "block/crystal_2", "y": 90 },
+		  { "model": "block/crystal_2", "y": 180 },
+		  { "model": "block/crystal_2", "y": 270 },
+		  { "model": "block/crystal_3" },
+	      { "model": "block/crystal_3", "y": 90 },
+		  { "model": "block/crystal_3", "y": 180 },
+		  { "model": "block/crystal_3", "y": 270 }
+	      ]
+    
   }
 }

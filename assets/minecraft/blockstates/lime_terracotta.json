@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/lime_terracotta" },
+      { "model": "block/lime_terracotta", "x": 90 },
+      { "model": "block/lime_terracotta", "x": 180 },
+      { "model": "block/lime_terracotta", "x": 270 },
+      { "model": "block/lime_terracotta", "y": 90 },
+      { "model": "block/lime_terracotta", "y": 90, "x": 90 },
+      { "model": "block/lime_terracotta", "y": 90, "x": 180 },
+      { "model": "block/lime_terracotta", "y": 90, "x": 270 },
+      { "model": "block/lime_terracotta", "y": 180 },
+      { "model": "block/lime_terracotta", "y": 180, "x": 90 },
+      { "model": "block/lime_terracotta", "y": 180, "x": 180 },
+      { "model": "block/lime_terracotta", "y": 180, "x": 270 },
+      { "model": "block/lime_terracotta", "y": 270 },
+      { "model": "block/lime_terracotta", "y": 270, "x": 90 },
+      { "model": "block/lime_terracotta", "y": 270, "x": 180 },
+      { "model": "block/lime_terracotta", "y": 270, "x": 270 }
+    ]
+  }
+}

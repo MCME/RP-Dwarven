@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "block/clothing_model",
+		"particle": "block/clothing_model"
+	},
+	"elements": [
+		{
+			"from": [6, 0.2, 5],
+			"to": [23, 0.2, 21],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 0.25, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"up": {"uv": [4.5, 0.25, 0.25, 4.25], "texture": "#0"},
+				"down": {"uv": [4.5, 0.25, 0.25, 4.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-3.5, 0.375, -0.5],
+			"to": [12.5, 0.375, 18.5],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.5, 0.25, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#0"},
+				"up": {"uv": [1.25, 11.25, 6, 15.25], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1.25, 11.25, 6, 15.25], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

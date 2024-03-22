@@ -318,11 +318,37 @@ Items:
       F1: Crops3
       G2: Crops0
       H2: Crops2
+      D2: cutting_block
+      E0: bread
+      E1: bowl
+  bowl:
+    itemMaterial: CLAY_BALL
+    cmd: 479
+    display: Bowl
+    type: BLOCK
+    blockData:  minecraft:light_weighted_pressure_plate[power=8]
+    collection:
+      indirect: Crops3
+  bread:
+    itemMaterial: CLAY_BALL
+    cmd: 478
+    display: Bread
+    type: BLOCK
+    blockData:  minecraft:light_weighted_pressure_plate[power=7]
+    collection:
+      indirect: Crops3
+  cutting_block:
+    itemMaterial: CLAY_BALL
+    cmd: 477
+    display: Chopping Block
+    type: BLOCK
+    blockData:  minecraft:light_weighted_pressure_plate[power=6]
+    collection:
+      indirect: Crops3
   Gold_plate:
     itemMaterial: LIGHT_WEIGHTED_PRESSURE_PLATE
     cmd: 0
     display: Gold plate
-    category: Inter
     type: VANILLA
     collection:
       indirect: Crops3
@@ -354,6 +380,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 5
     display: Plate
+    category: Inter
     type: BLOCK
     blockData: minecraft:wheat[age=0]
     collection:
@@ -388,6 +415,20 @@ Items:
       A4: Drawers
       B4: Piston2
       C4: StickyPistonHead
+      E4: bed_magenta
+      D4: table_long
+  table_long:
+    itemMaterial: CLAY_BALL
+    cmd: 476
+    category: Inter
+    display: Table / Shelving
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:scaffolding[bottom=false,distance=0,waterlogged=false]
+    blockDataWest: minecraft:scaffolding[bottom=false,distance=1,waterlogged=false]
+    blockDataNorth: minecraft:scaffolding[bottom=false,distance=2,waterlogged=false]
+    blockDataEast: minecraft:scaffolding[bottom=false,distance=3,waterlogged=false]
+    collection:
+      indirect: bed_magenta
   StickyPistonHead:
     itemMaterial: CLAY_BALL
     cmd: 111
@@ -435,7 +476,6 @@ Items:
     itemMaterial: PISTON
     cmd: 0
     display: Stone base table
-    category: Inter
     type: VANILLA
     collection:
       indirect: Jukebox
@@ -668,6 +708,20 @@ Items:
       E1: bed_brown
       D2: Black_stone_bench
       C2: stool
+      A4: bench
+      E4: Jukebox
+  bench:
+    itemMaterial: CLAY_BALL
+    cmd: 475
+    category: Inter
+    display: Bench
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:mangrove_propagule[age=0,hanging=false,stage=0,waterlogged=false]
+    blockDataWest: minecraft:mangrove_propagule[age=1,hanging=false,stage=0,waterlogged=false]
+    blockDataNorth: minecraft:mangrove_propagule[age=0,hanging=false,stage=0,waterlogged=false]
+    blockDataEast: minecraft:mangrove_propagule[age=1,hanging=false,stage=0,waterlogged=false]
+    collection:
+      indirect: bed_magenta
   stool:
     itemMaterial: CLAY_BALL
     cmd: 364
@@ -704,7 +758,6 @@ Items:
     itemMaterial: BROWN_BED
     cmd: 12
     display: Cobblestone Bench
-    category: Inter
     type: VANILLA
     collection:
       indirect: bed_magenta
