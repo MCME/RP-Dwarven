@@ -1,0 +1,6 @@
+{
+    "parent": "block/thin_slab",
+    "textures": {
+        "side": "block/double_granite_slab_3"
+    }   
+}

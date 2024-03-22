@@ -1,9 +1,9 @@
 {
   "variants": {
-    "waterlogged=false,bottom=false,distance=0": { "model": "block/unused_block" },
-    "waterlogged=false,bottom=false,distance=1": { "model": "block/unused_block" },
-    "waterlogged=false,bottom=false,distance=2": { "model": "block/unused_block" },
-    "waterlogged=false,bottom=false,distance=3": { "model": "block/unused_block" },
+    "waterlogged=false,bottom=false,distance=0": { "model": "block/table_long" },
+    "waterlogged=false,bottom=false,distance=1": { "model": "block/table_long", "y":90 },
+    "waterlogged=false,bottom=false,distance=2": { "model": "block/table_long", "y":180 },
+    "waterlogged=false,bottom=false,distance=3": { "model": "block/table_long", "y":270 },
     "waterlogged=false,bottom=false,distance=4": { "model": "block/unused_block" },
     "waterlogged=false,bottom=false,distance=5": { "model": "block/unused_block" },
     "waterlogged=false,bottom=false,distance=6": { "model": "block/unused_block" },

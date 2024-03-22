@@ -1,6 +1,13 @@
 {
   "variants": {
     "snowy=false": { "model": "block/mycelium" },
-    "snowy=true": { "model": "block/unused_block" }
+    "snowy=true": [
+	{ "model": "block/mycelium_snowy" },
+	{ "model": "block/mycelium_snowy_2" },
+	{ "model": "block/mycelium_snowy_3" },
+	{ "model": "block/mycelium_snowy_4" },
+	{ "model": "block/mycelium_snowy_5" },
+	{ "model": "block/mycelium_snowy_6" }
+	]
   }
 }

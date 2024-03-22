@@ -1,6 +1,13 @@
 {
   "variants": {
     "snowy=false": { "model": "block/podzol" },
-    "snowy=true": { "model": "block/unused_block" }
+    "snowy=true": [
+	{ "model": "block/podzol_snowy" },
+	{ "model": "block/podzol_snowy_2" },
+	{ "model": "block/podzol_snowy_3" },
+	{ "model": "block/podzol_snowy_4" },
+	{ "model": "block/podzol_snowy_5" },
+	{ "model": "block/podzol_snowy_6" }
+	]
   }
 }

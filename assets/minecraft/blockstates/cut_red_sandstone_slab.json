@@ -1,7 +1,7 @@
 {
   "variants": {
     "type=bottom": { "model": "block/unused_slab" },
-    "type=top": { "model": "block/unused_slab_top" },
+    "type=top": { "model": "block/empty" },
     "waterlogged=false,type=double": { "model": "block/unused_block" },
     "waterlogged=true,type=double": { "model": "block/unused_block" }
   }

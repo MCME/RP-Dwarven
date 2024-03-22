@@ -1,20 +1,25 @@
 {
   "variants": {
-    "north=false,east=false,south=false,west=false": { "model": "block/unused_cross_0" },
-    "north=false,east=false,south=false,west=true": { "model": "block/unused_cross_0" },
-    "north=false,east=false,south=true,west=false": { "model": "block/unused_cross_0" },
-    "north=false,east=false,south=true,west=true": { "model": "block/unused_cross_0" },
-    "north=false,east=true,south=false,west=false": { "model": "block/unused_cross_0" },
-    "north=false,east=true,south=false,west=true": { "model": "block/unused_cross_0" },
-    "north=false,east=true,south=true,west=false": { "model": "block/unused_cross_0" },
-    "north=false,east=true,south=true,west=true": { "model": "block/unused_cross_0" },
-    "north=true,east=false,south=false,west=false": { "model": "block/unused_cross_0" },
-    "north=true,east=false,south=false,west=true": { "model": "block/unused_cross_0" },
-    "north=true,east=false,south=true,west=true": { "model": "block/unused_cross_0" },
-    "north=true,east=false,south=true,west=false": { "model": "block/unused_cross_0" },
-    "north=true,east=true,south=false,west=false": { "model": "block/unused_cross_0" },
-    "north=true,east=true,south=false,west=true": { "model": "block/unused_cross_0" },
-    "north=true,east=true,south=true,west=false": { "model": "block/unused_cross_0" },
-    "north=true,east=true,south=true,west=true": { "model": "block/unused_cross_0" }
+    "north=false,east=false,south=false,west=false": [
+	{ "model": "block/stick_beam_up" },
+	{ "model": "block/stick_beam_up", "y":90 },
+	{ "model": "block/stick_beam_up", "y":180 },
+	{ "model": "block/stick_beam_up", "y":270 }
+	],
+    "north=false,east=false,south=false,west=true": { "model": "block/stick_beam_1", "y":270 },
+    "north=false,east=false,south=true,west=false": { "model": "block/stick_beam_1", "y":180 },
+    "north=false,east=false,south=true,west=true": { "model": "block/stick_beam_5" },
+    "north=false,east=true,south=false,west=false": { "model": "block/stick_beam_1", "y":90 },
+    "north=false,east=true,south=false,west=true": { "model": "block/stick_beam_2", "y":90 },
+    "north=false,east=true,south=true,west=false": { "model": "block/stick_beam_5", "y":270 },
+    "north=false,east=true,south=true,west=true": { "model": "block/stick_beam_3", "y":270 },
+    "north=true,east=false,south=false,west=false": { "model": "block/stick_beam_1" },
+    "north=true,east=false,south=false,west=true": { "model": "block/stick_beam_5", "y":90 },
+    "north=true,east=false,south=true,west=true": { "model": "block/stick_beam_3" },
+    "north=true,east=false,south=true,west=false": { "model": "block/stick_beam_2" },
+    "north=true,east=true,south=false,west=false": { "model": "block/stick_beam_5", "y":180 },
+    "north=true,east=true,south=false,west=true": { "model": "block/stick_beam_3", "y":90 },
+    "north=true,east=true,south=true,west=false": { "model": "block/stick_beam_3", "y":180 },
+    "north=true,east=true,south=true,west=true": { "model": "block/stick_beam_4" }
   }
 }

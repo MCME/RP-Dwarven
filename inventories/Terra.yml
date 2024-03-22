@@ -523,7 +523,7 @@ Items:
     display: Blue Stone Upper Wedge
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:polished_deepslate_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
-    blockDataSouth: minecraft:potlished_deepslate_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    blockDataSouth: minecraft:polished_deepslate_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
     blockDataEast: minecraft:polished_deepslate_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]
     blockDataWest: minecraft:polished_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]
     collection:
@@ -616,6 +616,9 @@ Items:
     type: VANILLA
     collection:
       A1: netherrack
+      A3: gravel_slab
+      C3: dark_gravel_slab
+      B3: ash_slab
       F1: lime_terracotta
       G2: polished_diorite
       H2: polished_diorite_stairs
@@ -633,27 +636,51 @@ Items:
       A4: nether_quartz_ore
       B4: red_sand
       C4: nether_gold_ore
+  ash_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 439
+    display: Ash Slab
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=true]
+    collection:
+      indirect: netherrack
+  dark_gravel_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 438
+    display: Rough Dark Gravel Slab
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=east,locked=false,powered=true]
+    collection:
+      indirect: netherrack
+  gravel_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 437
+    display: Rough Light Gravel Slab
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=north,locked=false,powered=true]
+    collection:
+      indirect: netherrack
   nether_gold_ore:
     itemMaterial: NETHER_GOLD_ORE
     cmd: 0
     display: Rough Dark Gravel
     type: VANILLA
     collection:
-      indirect: iron_ore
+      indirect: netherrack
   red_sand:
     itemMaterial: RED_SAND
     cmd: 0
     display: Light Gravel
     type: VANILLA
     collection:
-      indirect: iron_ore
+      indirect: netherrack
   nether_quartz_ore:
     itemMaterial: NETHER_QUARTZ_ORE
     cmd: 0
     display: Rough Light Gravel
     type: VANILLA
     collection:
-      indirect: iron_ore
+      indirect: netherrack
   blue_concrete:
     itemMaterial: BLUE_CONCRETE
     cmd: 0
@@ -743,6 +770,11 @@ Items:
       C0: granite
       A1: pink_concrete
       A0: light_blue_concrete
+      A3: limestone_stalagtite
+      B3: limestone_stalagtite_medium
+      C3: limestone_stalagtite_small
+      D3: limestone_vertical_slab
+      E3: limestone_vertical_thin_slab
       F1: orange_concrete
       G2: polished_granite
       H2: polished_granite_stairs
@@ -924,6 +956,53 @@ Items:
     display: Rough Brown Stone Pillar
     type: BLOCK
     blockData: minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: granite
+  limestone_stalagtite:
+    itemMaterial: CLAY_BALL
+    cmd: 431
+    display: Limestone
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:granite_slab[type=double,waterlogged=false]
+    collection:
+      indirect: granite
+  limestone_stalagtite_medium:
+    itemMaterial: CLAY_BALL
+    cmd: 432
+    display: Limestone Stalagtite
+    type: BLOCK
+    blockData: minecraft:cactus[age=15]
+    collection:
+      indirect: granite
+  limestone_stalagtite_small:
+    itemMaterial: CLAY_BALL
+    cmd: 433
+    display: Limestone Stalagtite Small
+    type: BLOCK
+    blockData:  minecraft:deepslate_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]
+    collection:
+      indirect: granite
+  limestone_vertical_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 434
+    display: Limestone Vertical Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=true,powered=false]
+    blockDataSouth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=true,powered=false]
+    blockDataEast: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=true,powered=false]
+    blockDataWest: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=true,powered=false]
+    collection:
+      indirect: granite
+  limestone_vertical_thin_slab:
+    itemMaterial: CLAY_BALL
+    cmd: 435
+    display: Limestone Vertical Thin Slab
+    type: FOUR_DIRECTIONS
+    blockDataNorth:  minecraft:mangrove_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth:  minecraft:mangrove_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast:  minecraft:mangrove_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest:  minecraft:mangrove_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
     collection:
       indirect: granite
 
@@ -1217,19 +1296,42 @@ Items:
       H2: yellow_concrete
       I2: white_terracotta
       J1: redstone_lamp_lit
-      E0: allium
+      J2: big_blue
+      B4: allium
+      E2: small_blue
       E1: redstone_lamp
       D2: dandelion
       C2: light_blue_terracotta
       B2: magenta_terracotta
       A4: red_stained_glass
-      B4: azure_bluet
+      E0: azure_bluet
       D4: red_tulip
       E4: orange_terracotta
       F4: purple_concrete
       G4: blue_orchid
       I4: poppy
       J4: magenta_concrete
+  small_blue:
+    itemMaterial: CLAY_BALL
+    cmd: 444
+    display: Small Blue Crystals
+    type: SIX_FACES
+    blockDataSouth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=true,powered=false,south=false,west=false]
+    blockDataWest: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=false,south=true,west=false]
+    blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=false,south=false,west=true]
+    blockDataEast: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=false,south=true,west=true]
+    blockDataDown: minecraft:tripwire[attached=false,disarmed=false,east=false,north=true,powered=false,south=false,west=true]
+    blockDataUp: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=false,south=false,west=false]
+    collection:
+      indirect: black_stained_glass
+  big_blue:
+    itemMaterial: CLAY_BALL
+    cmd: 440
+    display: Big Blue Crystal
+    type: BLOCK
+    blockData: minecraft:brown_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=true]
+    collection:
+      indirect: black_stained_glass
   orange_terracotta:
     itemMaterial: ORANGE_TERRACOTTA
     cmd: 1
@@ -1289,11 +1391,11 @@ Items:
   
   #inside collection
   red_tulip:
-    itemMaterial: RED_TULIP
-    cmd: 4
+    itemMaterial: CLAY_BALL
+    cmd: 443
     display: Yellow Crystal
     type: BLOCK
-    blockData: minecraft:red_tulip
+    blockData: minecraft:tripwire[attached=false,disarmed=false,east=true,north=true,powered=false,south=false,west=false]
     collection:
       indirect: black_stained_glass
   blue_orchid:
@@ -1313,11 +1415,11 @@ Items:
     collection:
       indirect: black_stained_glass
   allium:
-    itemMaterial: ALLIUM
-    cmd: 2
-    display: Light Blue Crystal
+    itemMaterial: CLAY_BALL
+    cmd: 442
+    display: White Crystal
     type: BLOCK
-    blockData: minecraft:allium
+    blockData: minecraft:tripwire[attached=false,disarmed=false,east=false,north=true,powered=false,south=true,west=false]
     collection:
       indirect: black_stained_glass
   red_stained_glass:
@@ -1328,11 +1430,11 @@ Items:
     collection:
       indirect: black_stained_glass
   azure_bluet:
-    itemMaterial: AZURE_BLUET
-    cmd: 3
+    itemMaterial: CLAY_BALL
+    cmd: 441
     display: Blue Crystal
     type: BLOCK
-    blockData: minecraft:azure_bluet
+    blockData: minecraft:tripwire[attached=false,disarmed=false,east=false,north=true,powered=false,south=true,west=true]
     collection:
       indirect: black_stained_glass
   red_concrete: 
@@ -1397,10 +1499,13 @@ Items:
     type: VANILLA
     collection:
       A1: mycelium
+      A0: wall_mushrooms
       F1: podzol
+      F4: mycelium_dense
       G2: orange_tulip
       H2: brown_mushrooms
       C2: large_brown_mushrooms
+      C4: mushroom_red
       I2: white_tulip
       J1: tomato_plant
       E0: lily_pad
@@ -1411,6 +1516,49 @@ Items:
       B4: pink_tulip
       D4: red_mushroom
       E4: dead_bush
+  mycelium_sparse:
+    itemMaterial: CLAY_BALL
+    cmd: 449
+    display: Sparse Mycelium
+    type: BLOCK
+    blockData: minecraft:podzol[snowy=true]
+    collection:
+      indirect: podzol
+  mycelium_dense:
+    itemMaterial: CLAY_BALL
+    cmd: 448
+    display: Dense Mycelium
+    type: BLOCK
+    blockData: minecraft:mycelium[snowy=true]
+    collection:
+      indirect: podzol
+  wall_mushrooms:
+    itemMaterial: CLAY_BALL
+    cmd: 447
+    display: Wall Mushrooms
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:spruce_door[facing=east,half=upper,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:spruce_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:spruce_door[facing=west,half=upper,hinge=left,open=false,powered=false]
+    collection:
+      indirect: podzol
+  putrid_mushroom:
+    itemMaterial: CLAY_BALL
+    cmd: 446
+    display: Putrid Mushroom
+    type: BLOCK
+    blockData: minecraft:crimson_fungus
+    collection:
+      indirect: podzol
+  mushroom_red:
+    itemMaterial: CLAY_BALL
+    cmd: 445
+    display: Red Dotted Mushrooms
+    type: BLOCK
+    blockData: minecraft:mangrove_propagule[age=4,hanging=false,stage=0,waterlogged=false]
+    collection:
+      indirect: podzol
   large_brown_mushrooms:
     itemMaterial: CLAY_BALL
     cmd: 394
@@ -1498,7 +1646,7 @@ Items:
   dead_bush:
     itemMaterial: DEAD_BUSH
     cmd: 0
-    display: Mushrooms
+    display: Mixed Grass
     type: BLOCK
     blockData: minecraft:dead_bush
     collection:
