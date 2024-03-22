@@ -15,10 +15,20 @@ Items:
       G2: blast_furnace
       I2: furnace
       E1: anvil
+      E0: scrap_metal
       D2: pumpkin
       B2: smoker
       I4: cauldron_2
       J4: chorus_plant
+  scrap_metal:
+    itemMaterial: CLAY_BALL
+    cmd: 436
+    display: Scrap Metal
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:carrots[age=5]
+    collection:
+      indirect: anvil
   pumpkin:
     itemMaterial: PUMPKIN
     cmd: 0
@@ -258,6 +268,38 @@ Items:
       F4: tools
       H2: weapons_ground
       C2: shield
+      A4: bows
+      B4: helmet
+      C4: shield_hanging
+      E4: pickaxe_rack
+  shield_hanging:
+    itemMaterial: CLAY_BALL
+    cmd: 472
+    display: Hanging Shield And Spears
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dead_fire_coral_wall_fan[facing=north,waterlogged=false]
+    blockDataWest: minecraft:dead_fire_coral_wall_fan[facing=east,waterlogged=false]
+    blockDataNorth: minecraft:dead_fire_coral_wall_fan[facing=south,waterlogged=false]
+    blockDataEast: minecraft:dead_fire_coral_wall_fan[facing=west,waterlogged=false]
+    collection:
+      indirect: cactus_12
+  helmet:
+    itemMaterial: CLAY_BALL
+    cmd: 471
+    display: Battle Helmet
+    type: BLOCK
+    blockData: minecraft:blue_candle[candles=4,lit=false,waterlogged=false]
+    collection:
+      indirect: cactus_12
+  bows:
+    itemMaterial: CLAY_BALL
+    cmd: 470
+    display: Scattered Bows
+    type: BLOCK
+    blockData: minecraft:blue_candle[candles=3,lit=false,waterlogged=false]
+    collection:
+      indirect: cactus_12
   shield:
     itemMaterial: CLAY_BALL
     cmd: 412
@@ -816,6 +858,18 @@ Items:
       E0: dark_oak_sapling_1
       E1: jungle_sapling_1
       D2: acacia_sapling_1
+      E4: cactus_12
+      D4: cactus_2
+      B2: shovel
+  shovel:
+    itemMaterial: CLAY_BALL
+    cmd: 473
+    display: Shovel
+    category: Workshop
+    type: BLOCK
+    blockData: minecraft:crimson_button[face=floor,facing=east,powered=true]
+    collection:
+      indirect: pickaxe_rack
   picks:
     itemMaterial: CLAY_BALL
     cmd: 366

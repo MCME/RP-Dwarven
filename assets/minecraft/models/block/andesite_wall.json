@@ -1,6 +1,31 @@
 {
-  "parent": "block/pillar",
-  "textures": {
-    "side": "block/cyan_terracotta"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "block/cyan_terracotta1",
+		"2": "block/cyan_terracotta3",
+		"3": "block/cyan_terracotta4",
+		"particle": "block/cyan_terracotta5",
+		"side": "block/cyan_terracotta5"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 16, 13],
+			"faces": {
+				"north": {"uv": [5, 0, 15, 16], "texture": "#side"},
+				"east": {"uv": [4, 0, 14, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 10, 16], "texture": "#2"},
+				"west": {"uv": [3, 0, 13, 16], "texture": "#3"},
+				"up": {"uv": [5, 4, 15, 14], "texture": "#side"},
+				"down": {"uv": [1, 3, 11, 13], "texture": "#side"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
 }

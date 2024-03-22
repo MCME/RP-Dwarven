@@ -15,6 +15,11 @@
     "east=true,north=false,south=true,west=true": { "model": "block/pink_stained_glass_pane_nse", "y": 90 },
     "east=false,north=true,south=true,west=true": { "model": "block/pink_stained_glass_pane_nse", "y": 180 },
     "east=true,north=true,south=false,west=true": { "model": "block/pink_stained_glass_pane_nse", "y": 270 },
-    "east=true,north=true,south=true,west=true": { "model": "block/pink_stained_glass_pane_nsew" }
+    "east=true,north=true,south=true,west=true": [
+	{ "model": "block/pink_stained_glass_pane_nsew" },
+	{ "model": "block/pink_stained_glass_pane_nsew", "y": 90 },
+	{ "model": "block/pink_stained_glass_pane_nsew", "y": 180 },
+	{ "model": "block/pink_stained_glass_pane_nsew", "y": 270 }
+	]
   }
 }

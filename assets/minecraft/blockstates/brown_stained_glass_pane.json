@@ -15,14 +15,14 @@
     "east=true,north=true,south=false,west=false": { "model": "block/brown_stained_glass_pane_ne" },
     "east=true,north=true,south=false,west=true": { "model": "block/brown_stained_glass_pane_nse", "y": 270 },
     "east=true,north=true,south=true,west=false": { "model": "block/brown_stained_glass_pane_nse" },
-    "east=true,north=true,south=true,west=true": [ { "model": "block/crystal_0" },
-	                                               { "model": "block/crystal_0", "y": 90 },
-												   { "model": "block/crystal_0", "y": 180 },
-												   { "model": "block/crystal_0", "y": 270 },
-												   { "model": "block/crystal_1" },
-	                                               { "model": "block/crystal_1", "y": 90 },
-												   { "model": "block/crystal_1", "y": 180 },
-												   { "model": "block/crystal_1", "y": 270 }
+    "east=true,north=true,south=true,west=true": [ { "model": "block/crystal_6" },
+	                                               { "model": "block/crystal_6", "y": 90 },
+												   { "model": "block/crystal_6", "y": 180 },
+												   { "model": "block/crystal_6", "y": 270 },
+												   { "model": "block/crystal_7" },
+	                                               { "model": "block/crystal_7", "y": 90 },
+												   { "model": "block/crystal_7", "y": 180 },
+												   { "model": "block/crystal_7", "y": 270 }
 	                                              ]
   }
 }

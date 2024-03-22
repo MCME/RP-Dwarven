@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "block/red_tulip" }
+    "": 
+	[   
+		  { "model": "block/crystal_4" },
+	      { "model": "block/crystal_4", "y": 90 },
+		  { "model": "block/crystal_4", "y": 180 },
+		  { "model": "block/crystal_4", "y": 270 },
+		  { "model": "block/crystal_5" },
+	      { "model": "block/crystal_5", "y": 90 },
+		  { "model": "block/crystal_5", "y": 180 },
+		  { "model": "block/crystal_5", "y": 270 }
+	      ]
+    
   }
 }

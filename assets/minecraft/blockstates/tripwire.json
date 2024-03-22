@@ -1,5 +1,459 @@
 {
   "variants": {
-    "": { "model": "block/unused_cross_0" }
+    "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=false": [
+	{ "model": "block/fish_1" },
+	{ "model": "block/fish_2" },
+	{ "model": "block/fish_3" },
+	{ "model": "block/fish_4" },
+	{ "model": "block/fish_5" },
+	{ "model": "block/fish_6" },
+	{ "model": "block/fish_7" },
+	{ "model": "block/fish_8" }
+	],
+    "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=true": [
+	{ "model": "block/fish_1", "y": 90 },
+	{ "model": "block/fish_2", "y": 90 },
+	{ "model": "block/fish_3", "y": 90 },
+	{ "model": "block/fish_4", "y": 90 },
+	{ "model": "block/fish_5", "y": 90 },
+	{ "model": "block/fish_6", "y": 90 },
+	{ "model": "block/fish_7", "y": 90 },
+	{ "model": "block/fish_8", "y": 90 }
+	],
+    "powered=false,disarmed=false,attached=false,north=false,east=false,south=true,west=false": [
+	{ "model": "block/fish_line_1" },
+	{ "model": "block/fish_line_2" }
+	],
+    "powered=false,disarmed=false,attached=false,north=false,east=false,south=true,west=true": [
+	{ "model": "block/fish_line_1", "y": 90 },
+	{ "model": "block/fish_line_2", "y": 90 }
+	],
+    ",powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=false": [
+		{ "model": "block/small_crystal", "x": 90 },
+		{ "model": "block/small_crystal", "x": 90, "y":90 },
+		{ "model": "block/small_crystal", "x": 90, "y":180 },
+		{ "model": "block/small_crystal", "x": 90, "y":180 },
+		{ "model": "block/small_crystal_2", "x": 90 },
+		{ "model": "block/small_crystal_2", "x": 90, "y":90 },
+		{ "model": "block/small_crystal_2", "x": 90, "y":180 },
+		{ "model": "block/small_crystal_2", "x": 90, "y":180 },
+		{ "model": "block/small_crystal_3", "x": 90 },
+		{ "model": "block/small_crystal_3", "x": 90, "y":90 },
+		{ "model": "block/small_crystal_3", "x": 90, "y":180 },
+		{ "model": "block/small_crystal_3", "x": 90, "y":180 }
+		],
+    "powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=true": [
+		{ "model": "block/small_crystal", "uvlock": true, "y": 180 },
+		{ "model": "block/small_crystal_2", "uvlock": true, "y": 180 },
+		{ "model": "block/small_crystal_3", "uvlock": true, "y": 180 },
+		{ "model": "block/small_crystal_4", "uvlock": true, "y": 180 }
+		],
+	"powered=false,disarmed=false,attached=false,north=false,east=true,south=true,west=false": [
+		{ "model": "block/small_crystal", "uvlock": true, "y": 90 },
+		{ "model": "block/small_crystal_2", "uvlock": true, "y": 90 },
+		{ "model": "block/small_crystal_3", "uvlock": true, "y": 90 },
+		{ "model": "block/small_crystal_4", "uvlock": true, "y": 90 }
+		],
+	"powered=false,disarmed=false,attached=false,north=false,east=true,south=true,west=true": [
+		{ "model": "block/small_crystal", "uvlock": true, "y": 270 },
+		{ "model": "block/small_crystal_2", "uvlock": true, "y": 270 },
+		{ "model": "block/small_crystal_3", "uvlock": true, "y": 270 },
+		{ "model": "block/small_crystal_4", "uvlock": true, "y": 270 }
+		],
+	"powered=false,disarmed=false,attached=false,north=true,east=false,south=false,west=false": [
+		{ "model": "block/small_crystal", "uvlock": true },
+		{ "model": "block/small_crystal_2", "uvlock": true },
+		{ "model": "block/small_crystal_3", "uvlock": true },
+		{ "model": "block/small_crystal_4", "uvlock": true }
+		],
+	"powered=false,disarmed=false,attached=false,north=true,east=false,south=false,west=true": [
+		{ "model": "block/small_crystal", "x": 270 },
+		{ "model": "block/small_crystal", "x": 270, "y":90},
+		{ "model": "block/small_crystal", "x": 270, "y":180},
+		{ "model": "block/small_crystal", "x": 270, "y":270},
+		{ "model": "block/small_crystal_2", "x": 270 },
+		{ "model": "block/small_crystal_2", "x": 270, "y":90},
+		{ "model": "block/small_crystal_2", "x": 270, "y":180},
+		{ "model": "block/small_crystal_2", "x": 270, "y":270},
+		{ "model": "block/small_crystal_3", "x": 270 },
+		{ "model": "block/small_crystal_3", "x": 270, "y":90},
+		{ "model": "block/small_crystal_3", "x": 270, "y":180},
+		{ "model": "block/small_crystal_3", "x": 270, "y":270}
+		],
+    "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=false": [   
+		  { "model": "block/crystal_2" },
+	      { "model": "block/crystal_2", "y": 90 },
+		  { "model": "block/crystal_2", "y": 180 },
+		  { "model": "block/crystal_2", "y": 270 },
+		  { "model": "block/crystal_3" },
+	      { "model": "block/crystal_3", "y": 90 },
+		  { "model": "block/crystal_3", "y": 180 },
+		  { "model": "block/crystal_3", "y": 270 }
+	      ],
+    "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=true": [   
+		  { "model": "block/crystal_0" },
+	      { "model": "block/crystal_0", "y": 90 },
+		  { "model": "block/crystal_0", "y": 180 },
+		  { "model": "block/crystal_0", "y": 270 },
+		  { "model": "block/crystal_1" },
+	      { "model": "block/crystal_1", "y": 90 },
+		  { "model": "block/crystal_1", "y": 180 },
+		  { "model": "block/crystal_1", "y": 270 }
+	      ],
+    "powered=false,disarmed=false,attached=false,north=true,east=true,south=false,west=false": [   
+		  { "model": "block/crystal_4" },
+	      { "model": "block/crystal_4", "y": 90 },
+		  { "model": "block/crystal_4", "y": 180 },
+		  { "model": "block/crystal_4", "y": 270 },
+		  { "model": "block/crystal_5" },
+	      { "model": "block/crystal_5", "y": 90 },
+		  { "model": "block/crystal_5", "y": 180 },
+		  { "model": "block/crystal_5", "y": 270 }
+	      ],
+    "powered=false,disarmed=false,attached=false,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=false,disarmed=false,attached=false,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0", "y": 270 
+	},
+    "powered=false,disarmed=false,attached=true,north=false,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y": 180  
+	},
+    "powered=false,disarmed=false,attached=true,north=false,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    ",powered=false,disarmed=false,attached=true,north=false,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y": 90 
+	},
+    "powered=false,disarmed=false,attached=true,north=false,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0" 
+	},
+	"powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=false,disarmed=false,attached=true,north=true,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=false,attached=true,north=true,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+    "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    ",powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0" 
+	},
+	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=false,attached=false,north=true,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=false,attached=false,north=true,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=false,attached=true,north=false,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+    "powered=true,disarmed=false,attached=true,north=false,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    ",powered=true,disarmed=false,attached=true,north=false,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=false,attached=true,north=false,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=true,disarmed=false,attached=true,north=false,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=false,attached=true,north=false,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=false,attached=true,north=true,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0" 
+	},
+	"powered=true,disarmed=false,attached=true,north=true,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=false,attached=true,north=true,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=false,attached=true,north=true,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=false,attached=true,north=true,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=false,attached=true,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=false,disarmed=true,attached=false,north=false,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+    "powered=false,disarmed=true,attached=false,north=false,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    ",powered=false,disarmed=true,attached=false,north=false,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=true,attached=false,north=false,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0" 
+	},
+	"powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=false,disarmed=true,attached=false,north=true,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=true,attached=false,north=true,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=true,attached=true,north=false,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=true,attached=true,north=false,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=false,disarmed=true,attached=true,north=false,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+    "powered=false,disarmed=true,attached=true,north=false,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    ",powered=false,disarmed=true,attached=true,north=false,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=true,attached=true,north=false,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0" 
+	},
+	"powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=false,disarmed=true,attached=true,north=true,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=false,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=true,attached=false,north=false,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+    "powered=true,disarmed=true,attached=false,north=false,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=true,attached=false,north=false,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=true,attached=false,north=false,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=true,disarmed=true,attached=false,north=false,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0" 
+	},
+	"powered=true,disarmed=true,attached=false,north=true,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=true,attached=false,north=true,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=true,attached=false,north=true,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=true,attached=false,north=true,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=true,attached=false,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=true,attached=false,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=true,attached=false,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=true,attached=true,north=false,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=true,attached=true,north=false,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=true,attached=true,north=false,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+    "powered=true,disarmed=true,attached=true,north=false,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    ",powered=true,disarmed=true,attached=true,north=false,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=true,attached=true,north=false,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0"
+	},
+	"powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":180
+	},
+	"powered=true,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
+	  "model": "block/unused_cross_0" 
+	},
+	"powered=true,disarmed=true,attached=true,north=true,east=false,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=true,attached=true,north=true,east=false,south=true,west=false": {
+	  "model": "block/unused_cross_0"
+	},
+    "powered=true,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
+	  "model": "block/unused_cross_0", "y":270
+	},
+    "powered=true,disarmed=true,attached=true,north=true,east=true,south=false,west=false": {
+	  "model": "block/unused_cross_0", "y":90
+	},
+    "powered=true,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
+	  "model": "block/unused_cross_0" 
+	},
+    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
+	  "model": "block/unused_cross_0", "y": 90
+	},
+    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
+	  "model": "block/unused_cross_0"
+	}
   }
 }
