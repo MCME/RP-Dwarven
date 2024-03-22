@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"0": "block/oak_planks_2",
 		"1": "block/oak_log_4",
@@ -125,8 +126,8 @@
 			}
 		},
 		{
-			"from": [1.75, 11, 1.75],
-			"to": [16.25, 27, 2.75],
+			"from": [1.75, 11, 2],
+			"to": [16.25, 27, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.5, 8]},
 			"faces": {
 				"north": {"uv": [1, 16, 15.5, 0], "texture": "#2"},
@@ -138,7 +139,7 @@
 			}
 		},
 		{
-			"from": [1.75, 15, 2],
+			"from": [1.5, 15, 3],
 			"to": [4.5, 16, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.5, 8]},
 			"faces": {
@@ -151,7 +152,7 @@
 			}
 		},
 		{
-			"from": [13.75, 15, 2],
+			"from": [13.75, 15, 3],
 			"to": [16.5, 16, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.5, 8]},
 			"faces": {
