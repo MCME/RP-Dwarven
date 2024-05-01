@@ -39,9 +39,12 @@
     "candles=3,lit=true": {
       "model": "minecraft:block/light_blue_candle_three_candles_lit"
     },
-    "candles=4,lit=false": {
-      "model": "minecraft:block/light_blue_candle_four_candles"
-    },
+    "candles=4,lit=false": [
+      {"model": "minecraft:block/axe"},
+      {"model": "minecraft:block/axe", "y": 90},
+      {"model": "minecraft:block/axe", "y": 180},
+      {"model": "minecraft:block/axe", "y": 270}
+    ],
     "candles=4,lit=true": {
       "model": "minecraft:block/light_blue_candle_four_candles_lit"
     }

@@ -30,9 +30,12 @@
     "candles=2,lit=true": {
       "model": "minecraft:block/light_blue_candle_two_candles_lit"
     },
-    "candles=3,lit=false": {
-      "model": "minecraft:block/yellow_candle_three_candles"
-    },
+    "candles=3,lit=false": [
+      {"model": "minecraft:block/saw"},
+      {"model": "minecraft:block/saw", "y": 90},
+      {"model": "minecraft:block/saw", "y": 180},
+      {"model": "minecraft:block/saw", "y": 270}
+    ],
     "candles=3,lit=true": {
       "model": "minecraft:block/light_blue_candle_three_candles_lit"
     },

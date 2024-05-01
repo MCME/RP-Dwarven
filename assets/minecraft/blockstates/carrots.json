@@ -134,6 +134,15 @@
 	{ "model": "block/clothing_model_3", "y":180 },
 	{ "model": "block/clothing_model_3", "y":270 }
 	],
-    "age=7": { "model": "block/unused_cross_0" }
+    "age=7": [
+		{ "model": "block/metal_mug" },
+		{ "model": "block/metal_mug", "y": 90 },
+		{ "model": "block/metal_mug", "y": 180 },
+		{ "model": "block/metal_mug", "y": 270 },
+		{ "model": "block/metal_mug_2" },
+		{ "model": "block/metal_mug_2", "y": 90 },
+		{ "model": "block/metal_mug_2", "y": 180 },
+		{ "model": "block/metal_mug_2", "y": 270 }
+		]
   }
 }
