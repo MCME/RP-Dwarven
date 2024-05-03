@@ -336,7 +336,6 @@ Items:
     category: Block2
     type: VANILLA
     collection:
-      A0: light_blue_concrete_powder
       F1: blue_concrete_powder
       G2: brown_concrete_powder
       H2: gold_block
@@ -358,13 +357,6 @@ Items:
     cmd: 0
     display: Gold Block
     category: Block2
-    type: VANILLA
-    collection:
-      indirect: iron_block
-  light_blue_concrete_powder:
-    itemMaterial: LIGHT_BLUE_CONCRETE_POWDER
-    cmd: 0
-    display: Light Gray Pattern Block
     type: VANILLA
     collection:
       indirect: iron_block
@@ -480,8 +472,7 @@ Items:
   black_concrete_powder:
     itemMaterial: BLACK_CONCRETE_POWDER
     cmd: 0
-    display: Light gray Pattern Block
-    category: Block2
+    display: Light Gray Pattern Block
     type: VANILLA
     collection:
       D2: black_concrete_powder
@@ -492,11 +483,12 @@ Items:
       F1: purple_concrete_powder
       G2: light_gray_concrete_powder
       H2: cyan_concrete_powder
+      I2: deepslate_iron_ore
+      C0: light_blue_concrete_powder
   gray_concrete_powder:
     itemMaterial: GRAY_CONCRETE_POWDER
     cmd: 0
     display: Horizontal Hexagon Pattern Block
-    category: Block2
     type: VANILLA
     collection:
       indirect: black_concrete_powder
@@ -510,15 +502,14 @@ Items:
   white_concrete_powder:
     itemMaterial: WHITE_CONCRETE_POWDER
     cmd: 0
-    display: Smooth gray Pattern Block
-    category: Block2
+    display: Smooth Gray Pattern Block
     type: VANILLA
     collection:
       indirect: black_concrete_powder
   bone_block:
     itemMaterial: BONE_BLOCK
     cmd: 0
-    display: Carved gray Pillar
+    display: Carved Gray Pillar
     category: Block2
     type: VANILLA
     collection:
@@ -526,21 +517,37 @@ Items:
   purple_concrete_powder:
     itemMaterial: PURPLE_CONCRETE_POWDER
     cmd: 0
-    display: gray Pattern Block 2
+    display: Gray Pattern Block 2
     type: VANILLA
     collection:
       indirect: black_concrete_powder
   cyan_concrete_powder:
     itemMaterial: CYAN_CONCRETE_POWDER
     cmd: 0
-    display: gray Diamond Pattern Block
+    display: Gray Diamond Pattern Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  light_blue_concrete_powder:
+    itemMaterial: LIGHT_BLUE_CONCRETE_POWDER
+    cmd: 0
+    display: Light Gray Pattern Block
+    type: VANILLA
+    collection:
+      indirect: black_concrete_powder
+  deepslate_iron_ore:
+    itemMaterial: DEEPSLATE_IRON_ORE
+    cmd: 0
+    display: Blue Diamond Pattern Block
+    category: Block2
     type: VANILLA
     collection:
       indirect: black_concrete_powder
   light_gray_concrete_powder:
     itemMaterial: LIGHT_GRAY_CONCRETE_POWDER
     cmd: 0
-    display: gray Pattern Block 1
+    display: Gray Pattern Block 1
     type: VANILLA
     collection:
       indirect: black_concrete_powder
@@ -569,10 +576,19 @@ Items:
       F4: sponge
       G4: wet_sponge
       H4: purple_stained_glass_pane_nsew
+      C0: bubble_coral_block
+  bubble_coral_block:
+    itemMaterial: BUBBLE_CORAL_BLOCK
+    cmd: 0
+    display: Blue Stone Runes
+    type: VANILLA
+    collection:
+      indirect: nether_wart_block
   stone_pillar:
-    itemMaterial: CLAY_BALL
-    cmd: 353
+    itemMaterial: BIRCH_LOG
+    cmd: 5
     display: Stone Pillar
+    category: Block2
     type: VANILLA
     collection:
       indirect: nether_wart_block
@@ -647,7 +663,6 @@ Items:
     itemMaterial: STRIPPED_SPRUCE_LOG
     cmd: 0
     display: Double Smooth Stone Slab
-    category: Block2
     type: VANILLA
     collection:
       indirect: nether_wart_block
@@ -662,6 +677,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 54
     display: Column Type A
+    category: Block2
     type: THREE_AXIS
     blockDataZ: minecraft:observer[facing=north,powered=false]
     blockDataX: minecraft:observer[facing=west,powered=false]

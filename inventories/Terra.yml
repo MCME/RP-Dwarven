@@ -1502,6 +1502,8 @@ Items:
       A0: wall_mushrooms
       F1: podzol
       F4: mycelium_dense
+      G4: mycelium_sparse
+      H4: putrid_mushroom
       G2: orange_tulip
       H2: brown_mushrooms
       C2: large_brown_mushrooms
