@@ -224,8 +224,8 @@
 			"scale": [0.71, 0.71, 0.71]
 		},
 		"gui": {
-			"translation": [0, 3, 0],
-			"scale": [0.63, 0.63, 0.63]
+			"translation": [0, 1.25, 0],
+			"scale": [0.84, 0.88, 0.88]
 		},
 		"fixed": {
 			"translation": [-3, 4.25, 0],
