@@ -15,6 +15,48 @@ Items:
       G2: Sapling5
       H2: Crystal_lamp
       I2: Torch
+      D2: candle_holder
+      E0: wall_torch
+      E1: brazier_small
+      J1: mining_lantern
+  mining_lantern:
+    itemMaterial: CLAY_BALL
+    cmd: 510
+    display: Mining Lantern
+    type: BISECTED
+    blockDataUp: minecraft:spore_blossom
+    blockDataDown: minecraft:fire_coral[waterlogged=false]
+    collection:
+      indirect: Cactus13
+  brazier_small:
+    itemMaterial: CLAY_BALL
+    cmd: 509
+    display: Small Brazier
+    type: BLOCK
+    blockData: minecraft:brain_coral[waterlogged=false]
+    collection:
+      indirect: Cactus13
+  wall_torch:
+    itemMaterial: CLAY_BALL
+    cmd: 508
+    display: Wall Torch
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cocoa[age=2,facing=south]
+    blockDataWest: minecraft:cocoa[age=2,facing=west]
+    blockDataNorth: minecraft:cocoa[age=2,facing=north]
+    blockDataEast: minecraft:cocoa[age=2,facing=east]
+    collection:
+      indirect: Cactus13
+  canlde_holder:
+    itemMaterial: CLAY_BALL
+    cmd: 499
+    display: Candle Holder
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:mangrove_propagule[age=2,hanging=false,stage=0,waterlogged=false]
+    collection:
+      indirect: Cactus13
   Sapling0:
     itemMaterial: CLAY_BALL
     cmd: 16
@@ -220,7 +262,6 @@ Items:
     itemMaterial: GREEN_STAINED_GLASS
     cmd: 0
     display: Jar
-    category: Inter
     type: VANILLA
     collection:
       indirect: Crops5
@@ -236,7 +277,6 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 36
     display: Bell
-    category: Inter
     type: BLOCK
     blockData: minecraft:cactus[age=10]
     collection:
@@ -321,6 +361,75 @@ Items:
       D2: cutting_block
       E0: bread
       E1: bowl
+      J1: kettle
+      I2: metal_mug
+      A4: clear_bottles
+      B4: pan
+      C4: hanging_pans
+      D4: hanging_cutlery
+      E4: wooden_cutlery
+  wooden_cutlery:
+    itemMaterial: CLAY_BALL
+    cmd: 506
+    display: Big Cutlery
+    type: BLOCK
+    blockData: minecraft:warped_fungus
+    collection:
+      indirect: Crops3
+  hanging_cutlery:
+    itemMaterial: CLAY_BALL
+    cmd: 505
+    display: Hanging Cutlery
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cocoa[age=0,facing=south]
+    blockDataWest: minecraft:cocoa[age=0,facing=west]
+    blockDataNorth: minecraft:cocoa[age=0,facing=north]
+    blockDataEast: minecraft:cocoa[age=0,facing=east]
+    collection:
+      indirect: Crops3
+  hanging_pans:
+    itemMaterial: CLAY_BALL
+    cmd: 504
+    display: Hanging Pans
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:spruce_door[facing=west,half=upper,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:spruce_door[facing=north,half=upper,hinge=left,open=true,powered=false]
+    blockDataNorth: minecraft:spruce_door[facing=east,half=upper,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:spruce_door[facing=south,half=upper,hinge=left,open=true,powered=false]
+    collection:
+      indirect: Crops3
+  pan:
+    itemMaterial: CLAY_BALL
+    cmd: 503
+    display: Bottles
+    type: BLOCK
+    blockData: minecraft:wheat[age=7]
+    collection:
+      indirect: Crops3
+  clear_bottles:
+    itemMaterial: CLAY_BALL
+    cmd: 502
+    display: Bottles
+    type: BLOCK
+    blockData: minecraft:tripwire[attached=false,disarmed=false,east=true,north=true,powered=false,south=false,west=true]
+    collection:
+      indirect: Crops3
+  metal_mug:
+    itemMaterial: CLAY_BALL
+    cmd: 501
+    display: Metal Mug
+    type: BLOCK
+    blockData: minecraft:carrots[age=7]
+    collection:
+      indirect: Crops3
+  kettle:
+    itemMaterial: CLAY_BALL
+    cmd: 500
+    display: Kettle
+    type: BLOCK
+    blockData: minecraft:bubble_coral[waterlogged=false]
+    collection:
+      indirect: Crops3
   bowl:
     itemMaterial: CLAY_BALL
     cmd: 479
@@ -333,6 +442,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 478
     display: Bread
+    category: Inter
     type: BLOCK
     blockData:  minecraft:light_weighted_pressure_plate[power=7]
     collection:
@@ -363,7 +473,6 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 31
     display: Meat
-    category: Inter
     type: BLOCK
     blockData: minecraft:cactus[age=0]
     collection:
@@ -372,7 +481,6 @@ Items:
     itemMaterial: CAKE
     cmd: 0
     display: Bread
-    category: Inter
     type: VANILLA
     collection:
       indirect: Crops3
@@ -389,6 +497,7 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 7
     display: Cup
+    category: Inter
     type: BLOCK
     blockData: minecraft:wheat[age=2]
     collection:
@@ -397,7 +506,6 @@ Items:
     itemMaterial: JUKEBOX
     cmd: 0
     display: Table
-    category: Inter
     type: VANILLA
     collection:
       A0: infested_stone_bricks
@@ -417,6 +525,15 @@ Items:
       C4: StickyPistonHead
       E4: bed_magenta
       D4: table_long
+      C0: azalea
+  azalea:
+    itemMaterial: CLAY_BALL
+    cmd: 507
+    display: Wooden Table with Drawer
+    type: BLOCK
+    blockData: minecraft:azalea
+    collection:
+      indirect: Jukebox
   table_long:
     itemMaterial: CLAY_BALL
     cmd: 476
@@ -475,14 +592,14 @@ Items:
   Piston1:
     itemMaterial: PISTON
     cmd: 0
-    display: Stone base table
+    display: Stone Base Table
     type: VANILLA
     collection:
       indirect: Jukebox
   Piston2:
     itemMaterial: CLAY_BALL
     cmd: 198
-    display: Stone foundation table
+    display: Stone Foundation Table
     type: BLOCK
     blockData: minecraft:piston[extended=true,facing=up]
     collection:
@@ -516,7 +633,6 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 48
     display: Stone Wardrobe
-    category: Inter
     type: BLOCK
     blockData: minecraft:infested_stone_bricks
     collection:
@@ -605,7 +721,6 @@ Items:
     itemMaterial: ORANGE_CARPET
     cmd: 0
     display: Knitted Carpet 3
-    category: Inter
     type: VANILLA
     collection:
       indirect: RedstoneWire0
@@ -641,7 +756,6 @@ Items:
     itemMaterial: LIGHT_GRAY_CARPET
     cmd: 0
     display: Knitted Carpet 8
-    category: Inter
     type: VANILLA
     collection:
       indirect: RedstoneWire0
@@ -742,7 +856,6 @@ Items:
     itemMaterial: BLUE_BED
     cmd: 11
     display: Quilted Leather Bench
-    category: Inter
     type: VANILLA
     collection:
       indirect: bed_magenta

@@ -1,9 +1,9 @@
 {
     "variants": {
-        "facing=north,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
-        "facing=south,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
-        "facing=east,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
-        "facing=west,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=north,half=bottom,open=false,powered=false": [{ "model": "block/catwalk_down" }, { "model": "block/catwalk_down", "y":180 }, { "model": "block/catwalk_down_2" }, { "model": "block/catwalk_down_2", "y":180 },{ "model": "block/catwalk_down_3" }, { "model": "block/catwalk_down_3", "y":180 },{ "model": "block/catwalk_down_4" }, { "model": "block/catwalk_down_4", "y":180 }],
+        "facing=south,half=bottom,open=false,powered=false": [{ "model": "block/catwalk_down", "y":90 }, { "model": "block/catwalk_down", "y":270 }, { "model": "block/catwalk_down_2", "y":90 }, { "model": "block/catwalk_down_2", "y":270 },{ "model": "block/catwalk_down_3", "y":90 }, { "model": "block/catwalk_down_3", "y":270 },{ "model": "block/catwalk_down_4", "y":90 }, { "model": "block/catwalk_down_4", "y":270 }],
+        "facing=east,half=bottom,open=false,powered=false": [{ "model": "block/catwalk_45_down" }, { "model": "block/catwalk_45_down", "y":180 }, { "model": "block/catwalk_45_down_2" }, { "model": "block/catwalk_45_down_2", "y":180 },{ "model": "block/catwalk_45_down_3" }, { "model": "block/catwalk_45_down_3", "y":180 },{ "model": "block/catwalk_45_down_4" }, { "model": "block/catwalk_45_down_4", "y":180 }],
+        "facing=west,half=bottom,open=false,powered=false": [{ "model": "block/catwalk_45_down", "y":90 }, { "model": "block/catwalk_45_down", "y":270 }, { "model": "block/catwalk_45_down_2", "y":90 }, { "model": "block/catwalk_45_down_2", "y":270 },{ "model": "block/catwalk_45_down_3", "y":90 }, { "model": "block/catwalk_45_down_3", "y":270 },{ "model": "block/catwalk_45_down_4", "y":90 }, { "model": "block/catwalk_45_down_4", "y":270 }],
         "facing=north,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=south,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=east,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },

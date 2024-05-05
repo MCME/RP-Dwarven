@@ -498,6 +498,15 @@ Items:
      E1: fire_coral_wall_fan
      G2: dead_tube_coral_block
      J1: dead_brain_coral_block
+     C2: dead_bubble_coral_block
+  dead_bubble_coral_block:
+    itemMaterial: DEAD_BUBBLE_CORAL_BLOCK
+    cmd: 0
+    display: Blue Sandstone Decorated Horizontal Black
+    category: Deco
+    type: VANILLA
+    collection:
+      indirect: horn_coral_fan
   fire_coral_wall_fan:
     itemMaterial: CLAY_BALL
     cmd: 355

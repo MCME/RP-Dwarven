@@ -20,6 +20,22 @@ Items:
       F1: invis_slab
       G2: palisade
       H2: palisade_top
+      I2: catwalk_down
+  catwalk_down:
+    itemMaterial: CLAY_BALL
+    cmd: 480
+    display: Catwalk Down
+    type: EIGHT_FACES
+    blockDataSouth: minecraft:mangrove_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataSouthWest: minecraft:mangrove_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataWest: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataNorthWest: minecraft:mangrove_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:mangrove_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataNorthEast: minecraft:mangrove_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataEast: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataSouthEast: minecraft:mangrove_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: catwalk
   catwalk_ramp:
     itemMaterial: CLAY_BALL
     cmd: 481
@@ -87,9 +103,18 @@ Items:
       A0: campfire
       E0: bones
       E1: bones2
-      H2: palisade_top
+      H2: open_basket
       D2: fish_bucket
-      F1: 
+      F1: scattered_clothes
+  open_basket:
+    itemMaterial: CLAY_BALL
+    cmd: 498
+    display: Small Thatch Basket
+    category: Goblin
+    type: BLOCK
+    blockData: minecraft:nether_sprouts
+    collection:
+      indirect: campfire
   scattered_clothes:
     itemMaterial: CLAY_BALL
     cmd: 493
