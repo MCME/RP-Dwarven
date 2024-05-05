@@ -2961,6 +2961,120 @@
                 "custom_model_data": 493
             },
             "model": "block/clothing_model"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 494
+            },
+            "model": "block/axe"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 495
+            },
+            "model": "block/saw"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 496
+            },
+            "model": "block/sawhorse"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 497
+            },
+            "model": "block/bellows"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 498
+            },
+            "model": "block/thatch_basket"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 499
+            },
+            "model": "block/candle_holder"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 500
+            },
+            "model": "block/kettle"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 501
+            },
+            "model": "block/metal_mug"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 502
+            },
+            "model": "block/bottles"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 503
+            },
+            "model": "block/pan"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 504
+            },
+            "model": "block/hanging_pans"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 505
+            },
+            "model": "block/wooden_cutlery_wall"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 506
+            },
+            "model": "block/wooden_cutlery_floor"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 507
+            },
+            "model": "block/azalea"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 508
+            },
+            "model": "block/wall_torch_extinguished"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 509
+            },
+            "model": "block/brazier"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 510
+            },
+            "model": "block/lantern_extinguished"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 511
+            },
+            "model": "block/wall_runes_dark"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 512
+            },
+            "model": "block/gold_wall_deco_horizontal"
         }
     ]
 }

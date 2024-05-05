@@ -100,10 +100,22 @@
 	{ "model": "block/wall_mushrooms_2", "y":270 },
 	{ "model": "block/wall_mushrooms_3", "y":270 }
 	],
-    "powered=false,half=upper,hinge=left,open=true,facing=north": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=true,facing=east": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=true,facing=south": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=true,facing=west": { "model": "block/unused_cross_0" },
+    "powered=false,half=upper,hinge=left,open=true,facing=north": [
+	  {"model": "minecraft:block/hanging_pans", "y":270},
+	  {"model": "minecraft:block/hanging_pans_2", "y":270}
+	  ],
+    "powered=false,half=upper,hinge=left,open=true,facing=east": [
+	  {"model": "minecraft:block/hanging_pans"},
+	  {"model": "minecraft:block/hanging_pans_2"}
+	  ],
+    "powered=false,half=upper,hinge=left,open=true,facing=south": [
+	  {"model": "minecraft:block/hanging_pans", "y":90},
+	  {"model": "minecraft:block/hanging_pans_2", "y":90}
+	  ],
+    "powered=false,half=upper,hinge=left,open=true,facing=west": [
+	  {"model": "minecraft:block/hanging_pans", "y":180},
+	  {"model": "minecraft:block/hanging_pans_2", "y":180}
+	  ],
     "powered=false,half=upper,hinge=right,open=false,facing=north": { "model": "block/unused_cross_0" },
     "powered=false,half=upper,hinge=right,open=false,facing=east": { "model": "block/unused_cross_0" },
     "powered=false,half=upper,hinge=right,open=false,facing=south": { "model": "block/unused_cross_0" },

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "block/dead_horn_coral_wall_fan_2",
-		"particle": "block/dead_horn_coral_wall_fan"
+		"2": "block/gold_wall_deco_horizontal_2",
+		"particle": "block/gold_wall_deco_horizontal"
 	},
 	"elements": [
 		{

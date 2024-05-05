@@ -49,7 +49,6 @@ Items:
     itemMaterial: SMOKER
     cmd: 0
     display: Kiln
-    category: Workshop
     type: VANILLA
     collection:
       indirect: anvil
@@ -139,6 +138,19 @@ Items:
       I4: cauldron_2
       J4: pumpkin
       E0: mechanical_block
+      A0: big_bellows
+  big_bellows:
+    itemMaterial: CLAY_BALL
+    cmd: 497
+    display: Big Bellows
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_leaves[distance=2,persistent=true,waterlogged=false]
+    blockDataWest: minecraft:oak_leaves[distance=6,persistent=false,waterlogged=false]
+    blockDataNorth: minecraft:oak_leaves[distance=7,persistent=false,waterlogged=false]
+    blockDataEast: minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]
+    collection:
+      indirect: blue_terracotta
   mechanical_block:
     itemMaterial: CLAY_BALL
     cmd: 390
@@ -272,6 +284,19 @@ Items:
       B4: helmet
       C4: shield_hanging
       E4: pickaxe_rack
+      A0: buck
+  buck:
+    itemMaterial: CLAY_BALL
+    cmd: 496
+    display: Sawhorse
+    category: Workshop
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:turtle_egg[eggs=4,hatch=1]
+    blockDataWest: minecraft:turtle_egg[eggs=4,hatch=2]
+    blockDataNorth: minecraft:turtle_egg[eggs=4,hatch=1]
+    blockDataEast: minecraft:turtle_egg[eggs=4,hatch=2]
+    collection:
+      indirect: cactus_12
   shield_hanging:
     itemMaterial: CLAY_BALL
     cmd: 472
@@ -461,7 +486,7 @@ Items:
     blockDataY: minecraft:cactus[age=2]
     collection:
       C0: cactus_2
-      A1: redstone_repeater_off_south_2
+      A1: redstone_repeater_off_south_parts
       F1: redstone_repeater_on_south_1
       G2: hay_block
       I2: small_logs
@@ -530,7 +555,7 @@ Items:
     blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
     collection:
       indirect: cactus_2
-  redstone_repeater_off_south_2:
+  redstone_repeater_off_south_parts:
     itemMaterial: CLAY_BALL
     cmd: 93
     display: Parts box
@@ -584,7 +609,7 @@ Items:
       A1: redstone_repeater_off_south_3
       A0: blue_shulker_box
       F1: redstone_repeater_off_east_3
-      G2: light_blue_shulker_box
+      G2: pink_shulker_box
       H2: redstone_repeater_off_north_2
       J1: cactus_2
       E1: carrots_4
@@ -624,7 +649,6 @@ Items:
     itemMaterial: BLUE_SHULKER_BOX
     cmd: 1
     display: Crate of Mushrooms
-    category: Workshop
     type: VANILLA
     collection:
       indirect: orange_shulker_box
@@ -641,7 +665,6 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 83
     display: Basket of Brown Mushrooms
-    category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=east,delay=3,locked=false]
     collection:
@@ -650,7 +673,6 @@ Items:
     itemMaterial: BLACK_SHULKER_BOX
     cmd: 1
     display: Crate of Fish
-    category: Workshop
     type: VANILLA
     collection:
       indirect: orange_shulker_box
@@ -658,7 +680,6 @@ Items:
     itemMaterial: CLAY_BALL
     cmd: 86
     display: Basket of Fish
-    category: Workshop
     type: BLOCK
     blockData: minecraft:repeater[powered=false,facing=south,delay=4,locked=false]
     collection:
@@ -702,7 +723,7 @@ Items:
     blockData: minecraft:repeater[powered=false,facing=east,delay=1,locked=false]
     collection:
       indirect: orange_shulker_box
-  light_blue_shulker_box:
+  pink_shulker_box:
     itemMaterial: PINK_SHULKER_BOX
     cmd: 1
     display: Crate of Berries
@@ -861,6 +882,24 @@ Items:
       E4: cactus_12
       D4: cactus_2
       B2: shovel
+      C2: axe
+      A4: saw
+  saw:
+    itemMaterial: CLAY_BALL
+    cmd: 495
+    display: Saw
+    type: BLOCK
+    blockData: minecraft:yellow_candle[candles=3,lit=false,waterlogged=false]
+    collection:
+      indirect: pickaxe_rack
+  axe:
+    itemMaterial: CLAY_BALL
+    cmd: 494
+    display: Axe
+    type: BLOCK
+    blockData: minecraft:light_blue_candle[candles=4,lit=false,waterlogged=false]
+    collection:
+      indirect: pickaxe_rack
   shovel:
     itemMaterial: CLAY_BALL
     cmd: 473
