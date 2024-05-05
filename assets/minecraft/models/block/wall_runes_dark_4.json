@@ -1,0 +1,7 @@
+{
+  "parent": "block/deco_n",
+  "textures": {
+    "details": "block/runes_dark_4",
+    "particle": "block/runes_dark_4"
+  }
+}
