@@ -3063,6 +3063,18 @@
                 "custom_model_data": 510
             },
             "model": "block/lantern_extinguished"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 511
+            },
+            "model": "block/wall_runes_dark"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 512
+            },
+            "model": "block/gold_wall_deco_horizontal"
         }
     ]
 }
