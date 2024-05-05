@@ -1,6 +1,11 @@
 {
   "variants": {
-    "waterlogged=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false": [
+      { "model": "block/brazier" },
+      { "model": "block/brazier", "y": 90 },
+      { "model": "block/brazier", "y": 180 },
+      { "model": "block/brazier", "y": 270 }
+	  ],
     "waterlogged=true": { "model": "block/unused_cross_0" }
   }
 }

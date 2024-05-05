@@ -1,12 +1,32 @@
 {
   "variants": {
     "waterlogged=true,facing=north": { "model": "block/unused_cross_0" },
-    "waterlogged=true,facing=east": { "model": "block/unused_cross_0" },
+    "waterlogged=true,facing=east": {"model": "block/unused_cross_0"},
     "waterlogged=true,facing=south": { "model": "block/unused_cross_0" },
-    "waterlogged=true,facing=west": { "model": "block/unused_cross_0" },
-    "waterlogged=false,facing=north": { "model": "block/unused_cross_0" },
-    "waterlogged=false,facing=east": { "model": "block/unused_cross_0" },
-    "waterlogged=false,facing=south": { "model": "block/unused_cross_0" },
-    "waterlogged=false,facing=west": { "model": "block/unused_cross_0" }
+    "waterlogged=true,facing=west": {"model": "block/unused_cross_0"},
+    "waterlogged=false,facing=north": [
+		{ "model": "block/wall_runes_dark", "x": 180 },
+		{ "model": "block/wall_runes_dark_2", "x": 180 },
+		{ "model": "block/wall_runes_dark_3", "x": 180 },
+		{ "model": "block/wall_runes_dark_4", "x": 180 }
+		],
+    "waterlogged=false,facing=east": [
+		{ "model": "block/wall_runes_dark", "y": 90, "x": 180 },
+		{ "model": "block/wall_runes_dark_2", "y": 90, "x": 180 },
+		{ "model": "block/wall_runes_dark_3", "y": 90, "x": 180 },
+		{ "model": "block/wall_runes_dark_4", "y": 90, "x": 180 }
+		],
+    "waterlogged=false,facing=south": [
+		{ "model": "block/wall_runes_dark", "y": 180, "x": 180  },
+		{ "model": "block/wall_runes_dark_2", "y": 180, "x": 180 },
+		{ "model": "block/wall_runes_dark_3", "y": 180, "x": 180 },
+		{ "model": "block/wall_runes_dark_4", "y": 180, "x": 180 }
+		],
+    "waterlogged=false,facing=west": [
+		{ "model": "block/wall_runes_dark", "y": 270, "x": 180 },
+		{ "model": "block/wall_runes_dark_2", "y": 270, "x": 180 },
+		{ "model": "block/wall_runes_dark_3", "y": 270, "x": 180 },
+		{ "model": "block/wall_runes_dark_4", "y": 270, "x": 180 }
+		]
   }
 }

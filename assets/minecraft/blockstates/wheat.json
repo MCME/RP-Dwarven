@@ -97,11 +97,28 @@
 	{ "model": "block/small_crates_3", "y":90 },
 	{ "model": "block/small_crates_3", "y":180 },
 	{ "model": "block/small_crates_3", "y":270 },
-		{ "model": "block/small_crates_4" },
+	{ "model": "block/small_crates_4" },
 	{ "model": "block/small_crates_4", "y":90 },
 	{ "model": "block/small_crates_4", "y":180 },
 	{ "model": "block/small_crates_4", "y":270 }
 	],
-    "age=7": { "model": "block/unused_cross_0" }
+    "age=7": [
+	{ "model": "block/pan" },
+	{ "model": "block/pan", "y":90 },
+	{ "model": "block/pan", "y":180 },
+	{ "model": "block/pan", "y":270 },
+	{ "model": "block/pan_2" },
+	{ "model": "block/pan_2", "y":90 },
+	{ "model": "block/pan_2", "y":180 },
+	{ "model": "block/pan_2", "y":270 },
+	{ "model": "block/pan_3" },
+	{ "model": "block/pan_3", "y":90 },
+	{ "model": "block/pan_3", "y":180 },
+	{ "model": "block/pan_3", "y":270 },
+	{ "model": "block/pan_4" },
+	{ "model": "block/pan_4", "y":90 },
+	{ "model": "block/pan_4", "y":180 },
+	{ "model": "block/pan_4", "y":270 }
+	]
   }
 }

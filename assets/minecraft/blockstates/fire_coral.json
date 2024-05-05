@@ -1,6 +1,15 @@
 {
   "variants": {
-    "waterlogged=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false": [
+	{ "model": "block/lantern_extinguished" },
+	{ "model": "block/lantern_extinguished", "y":90 },
+	{ "model": "block/lantern_extinguished", "y":180 },
+	{ "model": "block/lantern_extinguished", "y":270 },
+	{ "model": "block/lantern_extinguished_2" },
+	{ "model": "block/lantern_extinguished_2", "y":90 },
+	{ "model": "block/lantern_extinguished_2", "y":180 },
+	{ "model": "block/lantern_extinguished_2", "y":270 }
+	],
     "waterlogged=true": { "model": "block/unused_cross_0" }
   }
 }

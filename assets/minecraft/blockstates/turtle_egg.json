@@ -10,7 +10,7 @@
     "eggs=3,hatch=1": { "model": "block/unused_cross_0" },
     "eggs=3,hatch=2": { "model": "block/unused_cross_0" },
     "eggs=4,hatch=0": { "model": "block/unused_cross_0" },
-    "eggs=4,hatch=1": { "model": "block/unused_cross_0" },
-    "eggs=4,hatch=2": { "model": "block/unused_cross_0" }
+    "eggs=4,hatch=1": { "model": "block/sawhorse", "y": 90 },
+    "eggs=4,hatch=2": { "model": "block/sawhorse" }
   }
 }

@@ -1,6 +1,11 @@
 {
   "variants": {
-    "waterlogged=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false": [
+      { "model": "block/kettle" },
+      { "model": "block/kettle", "y": 90 },
+      { "model": "block/kettle", "y": 180 },
+      { "model": "block/kettle", "y": 270 }
+	  ],
     "waterlogged=true": { "model": "block/unused_cross_0" }
   }
 }
