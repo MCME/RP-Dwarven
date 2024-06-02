@@ -1,6 +1,15 @@
 {
   "variants": {
-    "powered=false": { "model" : "block/unused_cross_0" },
+    "powered=false": [
+	{ "model": "block/candle_plate" },
+	{ "model": "block/candle_plate", "y":90 },
+	{ "model": "block/candle_plate", "y":180  },
+	{ "model": "block/candle_plate", "y":270  },
+	{ "model": "block/candle_plate_2" },
+	{ "model": "block/candle_plate_2", "y":90 },
+	{ "model": "block/candle_plate_2", "y":180  },
+	{ "model": "block/candle_plate_2", "y":270  }
+	],
     "powered=true": { "model" : "block/unused_cross_0" }
   }
 }
