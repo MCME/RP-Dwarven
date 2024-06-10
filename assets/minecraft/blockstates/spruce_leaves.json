@@ -1,12 +1,15 @@
 {
   "variants": {
-    "persistent=false,distance=1": { "model": "block/unused_block" },
-    "persistent=false,distance=2": { "model": "block/unused_block" },
-    "persistent=false,distance=3": { "model": "block/unused_block" },
+    "persistent=false,distance=1": { "model": "block/thick_chain_hook" },
+    "persistent=false,distance=2": { "model": "block/hanging_metal_bucket" },
+    "persistent=false,distance=3": { "model": "block/hanging_metal_bucket", "y":90 },
     "persistent=false,distance=4": { "model": "block/unused_block" },
     "persistent=false,distance=5": { "model": "block/unused_block" },
     "persistent=false,distance=6": { "model": "block/unused_block" },
-    "persistent=false,distance=7": { "model": "block/unused_block" },
+    "persistent=false,distance=7": [
+	{ "model": "block/thick_chain" },
+	{ "model": "block/thick_chain_2" }
+	],	
     "persistent=true,distance=1": { "model": "block/unused_block" },
     "persistent=true,distance=2": { "model": "block/unused_block" },
     "persistent=true,distance=3": { "model": "block/unused_block" },
