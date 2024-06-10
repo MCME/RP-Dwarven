@@ -3129,6 +3129,18 @@
                 "custom_model_data": 521
             },
             "model": "block/drum"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 522
+            },
+            "model": "block/brick_arch"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 523
+            },
+            "model": "block/stone_slab_arch_parent_blue"
         }
     ]
 }
