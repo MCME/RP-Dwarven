@@ -1,8 +1,12 @@
 {
   "variants": {
     "persistent=false,distance=1": { "model": "block/thick_chain_hook" },
-    "persistent=false,distance=2": { "model": "block/hanging_metal_bucket" },
-    "persistent=false,distance=3": { "model": "block/hanging_metal_bucket", "y":90 },
+    "persistent=false,distance=2": [
+	{ "model": "block/hanging_metal_bucket" },
+	{ "model": "block/hanging_metal_bucket", "y":180 }],
+    "persistent=false,distance=3": [
+	{ "model": "block/hanging_metal_bucket", "y":90 },
+	{ "model": "block/hanging_metal_bucket", "y":270 }],
     "persistent=false,distance=4": { "model": "block/unused_block" },
     "persistent=false,distance=5": { "model": "block/unused_block" },
     "persistent=false,distance=6": { "model": "block/unused_block" },
