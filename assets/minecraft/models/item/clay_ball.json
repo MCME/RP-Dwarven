@@ -3014,7 +3014,7 @@
             "predicate": {
                 "custom_model_data": 502
             },
-            "model": "block/bottles"
+            "model": "block/bottle"
         },
 		{
             "predicate": {
@@ -3075,6 +3075,60 @@
                 "custom_model_data": 512
             },
             "model": "block/gold_wall_deco_horizontal"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 513
+            },
+            "model": "block/candle_plate"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 514
+            },
+            "model": "block/stone_tablet_wall"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 515
+            },
+            "model": "block/hand_crank_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 516
+            },
+            "model": "block/thick_chain"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 517
+            },
+            "model": "block/thick_chain_side"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 518
+            },
+            "model": "block/thick_chain_hook"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 519
+            },
+            "model": "block/ground_chain"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 520
+            },
+            "model": "block/hanging_metal_bucket"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 521
+            },
+            "model": "block/drum"
         }
     ]
 }

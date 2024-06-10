@@ -1,6 +1,6 @@
 {
   "variants": {
-    "powered=false": { "model" : "block/unused_cross_0" },
-    "powered=true": { "model" : "block/unused_cross_0" }
+    "powered=false": { "model" : "block/thick_chain_side" },
+    "powered=true": { "model" : "block/thick_chain_side", "y":90 }
   }
 }
