@@ -1,8 +1,9 @@
 {
 	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
 	"textures": {
 		"0": "block/kettle_model",
-		"2": "block/candle_holder_2",
+		"2": "block/candle_holder",
 		"4": "block/lantern_glass",
 		"particle": "block/kettle_model"
 	},
@@ -38,12 +39,12 @@
 			"to": [9.13, 2.49, 8.3],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.3, 5.44688, 7.41813]},
 			"faces": {
-				"north": {"uv": [7.46667, 4.73333, 9.46667, 6.73333], "texture": "#2"},
-				"east": {"uv": [10.66667, 0, 12.66667, 2], "rotation": 180, "texture": "#2"},
-				"south": {"uv": [14, 0, 16, 2], "rotation": 90, "texture": "#2"},
-				"west": {"uv": [14, 0, 16, 2], "rotation": 90, "texture": "#2"},
-				"up": {"uv": [14, 0, 16, 2], "texture": "#2"},
-				"down": {"uv": [14, 0, 16, 2], "texture": "#2"}
+				"north": {"uv": [6.46667, 1.23333, 7.29667, 2.06333], "texture": "#2"},
+				"east": {"uv": [0, 0.5, 0.83, 1.33], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [2.83333, 0.5, 3.66333, 1.33], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [2.83333, 0.5, 3.66333, 1.33], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [2.83333, 0.5, 3.66333, 1.33], "texture": "#2"},
+				"down": {"uv": [2.83333, 0.5, 3.66333, 1.33], "texture": "#2"}
 			}
 		},
 		{
