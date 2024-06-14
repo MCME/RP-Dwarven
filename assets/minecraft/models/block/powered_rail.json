@@ -31,5 +31,12 @@
 				"down": {"uv": [0, 0, 3, 16], "texture": "#rail"}
 			}
 		}
-	]
+	],
+	"display": {
+		"gui": {
+			"rotation": [21, 90, 0],
+			"translation": [0, 4.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
 }

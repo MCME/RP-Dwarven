@@ -644,7 +644,7 @@
             "predicate": {
                 "custom_model_data": 107
             },
-            "model": "item/golden_rail_flat_diagonal"
+            "model": "block/powered_rail_diagonal"
         },
         {
             "predicate": {
@@ -656,7 +656,7 @@
             "predicate": {
                 "custom_model_data": 109
             },
-            "model": "item/detector_rail_flat_diagonal"
+            "model": "block/detector_rail_flat_diagonal"
         },
         {
             "predicate": {
@@ -3141,6 +3141,18 @@
                 "custom_model_data": 523
             },
             "model": "block/stone_slab_arch_parent_blue"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 524
+            },
+            "model": "block/powered_rail_raised"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 525
+            },
+            "model": "block/powered_rail"
         }
     ]
 }
