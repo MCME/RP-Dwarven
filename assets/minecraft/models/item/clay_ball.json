@@ -3189,6 +3189,12 @@
                 "custom_model_data": 531
             },
             "model": "block/rim_dark"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 532
+            },
+            "model": "block/redstone_dust_power7_center"
         }
     ]
 }
