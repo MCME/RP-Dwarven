@@ -1,158 +1,46 @@
 {
-  "ambientocclusion": false,
-  "elements": [
-    {
-      "from": [
-        7,
-        7,
-        0
-      ],
-      "to": [
-        9,
-        9,
-        16
-      ],
-      "faces": {
-        "west": {
-          "uv": [
-            0.0,
-            0.0,
-            2,
-            16.0
-          ],
-          "texture": "#rope",
-          "rotation": 90
-        },
-        "north": {
-          "uv": [
-            3,
-            0.0,
-            4,
-            2
-          ],
-          "texture": "#rope",
-          "rotation": 180
-        },
-        "east": {
-          "uv": [
-            0.0,
-            0.0,
-            2,
-            16.0
-          ],
-          "texture": "#rope",
-          "rotation": 90
-        },
-        "south": {
-          "uv": [
-            3,
-            0.0,
-            4,
-            2
-          ],
-          "texture": "#rope",
-          "rotation": 180
-        },
-        "down": {
-          "uv": [
-            0.0,
-            0.0,
-            2,
-            16.0
-          ],
-          "texture": "#rope",
-          "rotation": 180
-        },
-        "up": {
-          "uv": [
-            0.0,
-            0.0,
-            2,
-            16.0
-          ],
-          "texture": "#rope",
-          "rotation": 0
-        }
-      }
-    },
-    {
-      "from": [
-        9,
-        4,
-        4
-      ],
-      "to": [
-        16,
-        12,
-        12
-      ],
-      "faces": {
-        "west": {
-          "uv": [
-            0.0,
-            0.0,
-            8,
-            8
-          ],
-          "texture": "#rope_m",
-          "rotation": 0
-        },
-        "north": {
-          "uv": [
-            8,
-            0.0,
-            16,
-            8
-          ],
-          "texture": "#rope_m",
-          "rotation": 0
-        },
-        "east": {
-          "uv": [
-            0.0,
-            0.0,
-            8,
-            8
-          ],
-          "texture": "#rope_m",
-          "rotation": 0
-        },
-        "south": {
-          "uv": [
-            8,
-            0.0,
-            16,
-            8
-          ],
-          "texture": "#rope_m",
-          "rotation": 180
-        },
-        "down": {
-          "uv": [
-            8,
-            0.0,
-            16,
-            8
-          ],
-          "texture": "#rope_m",
-          "rotation": 180
-        },
-        "up": {
-          "uv": [
-            8,
-            0.0,
-            16,
-            8
-          ],
-          "texture": "#rope_m",
-          "rotation": 180
-        }
-      }
-    }
-  ],
-  "textures": {
-    "rope": "block/iron_bars_0",
-    "rope_m": "block/iron_bars_1",
-    "particle": "block/iron_bars_0"
-  }
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/iron_bars_0",
+		"rope": "block/iron_bars_0"
+	},
+	"elements": [
+		{
+			"from": [7, 7, 0],
+			"to": [9, 9, 16],
+			"faces": {
+				"north": {"uv": [2, 0, 4, 2], "rotation": 180, "texture": "#rope"},
+				"east": {"uv": [0, 0, 2, 16], "rotation": 90, "texture": "#rope"},
+				"south": {"uv": [2, 0, 4, 2], "rotation": 180, "texture": "#rope"},
+				"west": {"uv": [0, 0, 2, 16], "rotation": 90, "texture": "#rope"},
+				"up": {"uv": [0, 0, 2, 16], "texture": "#rope"},
+				"down": {"uv": [0, 0, 2, 16], "rotation": 180, "texture": "#rope"}
+			}
+		},
+		{
+			"from": [9, 7, 7],
+			"to": [16, 9, 9],
+			"faces": {
+				"north": {"uv": [3, 13, 10, 15], "texture": "#rope"},
+				"east": {"uv": [0, 14, 2, 16], "texture": "#rope"},
+				"south": {"uv": [1, 14, 8, 16], "rotation": 180, "texture": "#rope"},
+				"west": {"uv": [0, 14, 2, 16], "texture": "#rope"},
+				"up": {"uv": [1, 14, 8, 16], "rotation": 180, "texture": "#rope"},
+				"down": {"uv": [0, 14, 7, 16], "rotation": 180, "texture": "#rope"}
+			}
+		},
+		{
+			"from": [15, 6.5, 6.5],
+			"to": [16, 9.5, 9.5],
+			"faces": {
+				"north": {"uv": [15, 1, 16, 4], "texture": "#rope"},
+				"east": {"uv": [11, 2, 14, 5], "texture": "#rope"},
+				"south": {"uv": [13, 1, 14, 4], "rotation": 180, "texture": "#rope"},
+				"west": {"uv": [13, 2, 16, 5], "texture": "#rope"},
+				"up": {"uv": [15, 1, 16, 4], "rotation": 180, "texture": "#rope"},
+				"down": {"uv": [13, 2, 14, 5], "rotation": 180, "texture": "#rope"}
+			}
+		}
+	]
 }
