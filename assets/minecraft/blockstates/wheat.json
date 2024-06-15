@@ -1,18 +1,22 @@
 {
   "variants": {
     "age=0": [
-      { "model": "block/wheat_0_0" },
-      { "model": "block/wheat_0_0", "y": 90 },
-      { "model": "block/wheat_0_0", "y": 180 },
-      { "model": "block/wheat_0_0", "y": 270 },
-      { "model": "block/wheat_0_1" },
-      { "model": "block/wheat_0_1", "y": 90 },
-      { "model": "block/wheat_0_1", "y": 180 },
-      { "model": "block/wheat_0_1", "y": 270 },
-      { "model": "block/wheat_0_2" },
-      { "model": "block/wheat_0_2", "y": 90 },
-      { "model": "block/wheat_0_2", "y": 180 },
-      { "model": "block/wheat_0_2", "y": 270 }
+      { "model": "block/plate_1" },
+      { "model": "block/plate_1", "y": 90 },
+      { "model": "block/plate_1", "y": 180 },
+      { "model": "block/plate_1", "y": 270 },
+      { "model": "block/plate_1_2" },
+      { "model": "block/plate_1_2", "y": 90 },
+      { "model": "block/plate_1_2", "y": 180 },
+      { "model": "block/plate_1_2", "y": 270 },
+      { "model": "block/plate_2" },
+      { "model": "block/plate_2", "y": 90 },
+      { "model": "block/plate_2", "y": 180 },
+      { "model": "block/plate_2", "y": 270 },
+      { "model": "block/plate_2_2" },
+      { "model": "block/plate_2_2", "y": 90 },
+      { "model": "block/plate_2_2", "y": 180 },
+      { "model": "block/plate_2_2", "y": 270 }
     ],
     "age=1": [
       { "model": "block/wheat_1" },
