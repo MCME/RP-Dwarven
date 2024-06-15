@@ -3153,6 +3153,42 @@
                 "custom_model_data": 525
             },
             "model": "block/powered_rail"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 526
+            },
+            "model": "block/rope"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 527
+            },
+            "model": "block/rope_diagonal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 528
+            },
+            "model": "block/brick_pile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 529
+            },
+            "model": "block/blue_brick_pile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 530
+            },
+            "model": "block/small_blue_brick_pile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 531
+            },
+            "model": "block/rim_dark"
         }
     ]
 }
