@@ -1,6 +1,22 @@
 {
-  "parent": "block/tinted_cross",
-  "textures": {
-    "cross": "block/detector_rail"
-  }
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"cross": "block/rope"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 0.3, 8]},
+			"faces": {
+				"north": {"uv": [7, 0, 8, 8], "texture": "#cross"},
+				"east": {"uv": [9, 0, 8, 8], "texture": "#cross"},
+				"south": {"uv": [9, 0, 10, 8], "texture": "#cross"},
+				"west": {"uv": [8, 0, 9, 8], "texture": "#cross"},
+				"up": {"uv": [9, 2, 8, 3], "texture": "#cross"},
+				"down": {"uv": [9, 6, 8, 7], "texture": "#cross"}
+			}
+		}
+	]
 }
