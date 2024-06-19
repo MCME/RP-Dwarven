@@ -3195,6 +3195,12 @@
                 "custom_model_data": 532
             },
             "model": "block/redstone_dust_power7_center"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 533
+            },
+            "model": "block/birch_planks_offset"
         }
     ]
 }
