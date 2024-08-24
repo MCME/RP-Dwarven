@@ -103,6 +103,17 @@
     "waterlogged=true,east=low,north=low,south=low,west=none,up=true": { "model": "block/unused_cross_0" },
     "waterlogged=true,east=low,north=low,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=true,east=low,north=low,south=low,west=low,up=true": { "model": "block/deepslate_tile_wall_nsew" },
-    "waterlogged=true,east=low,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" }
+    "waterlogged=true,east=low,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
+	"waterlogged=false,east=none,north=tall,south=none,west=tall,up=false": 
+	{ "model": "block/oak_planks_side_stairs", "uvlock":true, "y":270 },
+	
+	"waterlogged=false,east=tall,north=tall,south=none,west=none,up=false": 
+	{ "model": "block/oak_planks_side_stairs", "uvlock":true },
+	
+	"waterlogged=false,east=tall,north=none,south=tall,west=none,up=false": 
+	{ "model": "block/oak_planks_side_stairs", "uvlock":true, "y": 90 },
+	
+	"waterlogged=false,east=none,north=none,south=tall,west=tall,up=false": 
+	{ "model": "block/oak_planks_side_stairs", "uvlock":true, "y": 180 }
   }
 }
