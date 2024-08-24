@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
-		"0": "block/deepslate_tiles_comp"
+		"0": "block/deepslate_tiles_comp",
+		"particle": "block/deepslate_tiles"
 	},
 	"elements": [
 		{

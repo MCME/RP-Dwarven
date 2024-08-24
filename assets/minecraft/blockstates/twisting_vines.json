@@ -1,0 +1,12 @@
+{
+  "variants": {
+   "age=4": { "model": "minecraft:block/twisting_vines_diagonal_beam_1" },
+   "age=5": { "model": "minecraft:block/twisting_vines_diagonal_beam_1", "y": 90 },
+   "age=6": { "model": "minecraft:block/twisting_vines_diagonal_beam_1", "y": 180 },
+   "age=7": { "model": "minecraft:block/twisting_vines_diagonal_beam_1", "y": 270 },
+   "age=8": { "model": "minecraft:block/twisting_vines_diagonal_beam_4" },
+   "age=9": { "model": "minecraft:block/twisting_vines_diagonal_beam_4", "y": 90 },
+   "age=10": { "model": "minecraft:block/twisting_vines_diagonal_beam_4", "y": 180 },
+   "age=11": { "model": "minecraft:block/twisting_vines_diagonal_beam_4", "y": 270 }
+  }
+}

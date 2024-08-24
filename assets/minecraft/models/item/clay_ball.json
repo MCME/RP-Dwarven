@@ -3195,6 +3195,24 @@
                 "custom_model_data": 532
             },
             "model": "block/redstone_dust_power7_center"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 533
+            },
+            "model": "block/birch_planks_offset"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 534
+            },
+            "model": "block/oak_planks_side_stairs"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 535
+            },
+            "model": "block/twisting_vines_diagonal_beam_1"
         }
     ]
 }
