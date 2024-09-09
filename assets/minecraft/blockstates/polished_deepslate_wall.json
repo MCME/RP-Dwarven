@@ -35,7 +35,7 @@
     "waterlogged=false,east=none,north=low,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=low,west=none,up=true": { "model": "block/polished_deepslate_wall_ns" },
     "waterlogged=false,east=none,north=low,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
-    "waterlogged=false,east=none,north=low,south=low,west=low,up=true": { "model": "block/unused_cross_0" },
+    "waterlogged=false,east=none,north=low,south=low,west=low,up=true": { "model": "block/blue_pillar_medium_thick" },
     "waterlogged=false,east=none,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=none,south=none,west=none,up=true": [
       { "model": "block/polished_deepslate_wall_n", "y": 90 },

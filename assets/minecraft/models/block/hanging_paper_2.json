@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/paper_2",
+		"1": "block/cauldron_inner",
+		"particle": "block/paper_2"
+	},
+	"elements": [
+		{
+			"from": [0.75, -0.5, 0.025],
+			"to": [14.75, 17.5, 0.025],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7.75, 8.5, 0.025]},
+			"faces": {
+				"north": {"uv": [14, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 14, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 14, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 14, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.75, 15.5, 0],
+			"to": [7.5, 16.25, 1.25],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [6.75, 15.25, 0]},
+			"faces": {
+				"north": {"uv": [12, 3, 12.75, 3.75], "texture": "#1"},
+				"east": {"uv": [12, 3, 13.25, 3.75], "texture": "#1"},
+				"south": {"uv": [12, 3, 12.75, 3.75], "texture": "#1"},
+				"west": {"uv": [12, 3, 13.25, 3.75], "texture": "#1"},
+				"up": {"uv": [12, 3, 12.75, 4.25], "texture": "#1"},
+				"down": {"uv": [12, 3, 12.75, 4.25], "texture": "#1"}
+			}
+		}
+	]
+}
