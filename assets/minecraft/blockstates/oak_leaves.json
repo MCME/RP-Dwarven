@@ -38,10 +38,10 @@
 	{ "model": "block/bellows", "y":270 },
 	{ "model": "block/bellows_2", "y":270 }
 	],
-    "persistent=true,distance=3": { "model": "block/unused_block" },
-    "persistent=true,distance=4": { "model": "block/unused_block" },
-    "persistent=true,distance=5": { "model": "block/unused_block" },
-    "persistent=true,distance=6": { "model": "block/unused_block" },
+    "persistent=true,distance=3": { "model": "block/dwarven_statue" },
+    "persistent=true,distance=4": { "model": "block/dwarven_statue", "y":90 },
+    "persistent=true,distance=5": { "model": "block/dwarven_statue", "y":180 },
+    "persistent=true,distance=6": { "model": "block/dwarven_statue", "y":270 },
     "persistent=true,distance=7": [
       { "model": "block/oak_leaves" },
       { "model": "block/oak_leaves2", "weight": 8 }
