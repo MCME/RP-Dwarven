@@ -6,7 +6,7 @@
 	{ "model": "minecraft:block/wooden_cutlery_wall_3" },
 	{ "model": "minecraft:block/wooden_cutlery_wall_4" }
 	],
-    "facing=north,age=1": {"model": "block/unused_cross_0"},
+    "facing=north,age=1": {"model": "block/cocoa_stage1"},
     "facing=north,age=2": {"model": "block/wall_torch_extinguished", "y":90},
     "facing=east,age=0": [
 	{ "model": "minecraft:block/wooden_cutlery_wall", "y": 90 },
@@ -14,7 +14,7 @@
 	{ "model": "minecraft:block/wooden_cutlery_wall_3", "y": 90 },
 	{ "model": "minecraft:block/wooden_cutlery_wall_4", "y": 90 }
 	],
-    "facing=east,age=1": {"model": "block/unused_cross_0"},
+    "facing=east,age=1": {"model": "block/cocoa_stage1", "y": 90},
     "facing=east,age=2": {"model": "block/wall_torch_extinguished", "y":180},
     "facing=south,age=0": [
 	{ "model": "minecraft:block/wooden_cutlery_wall", "y": 180 },
@@ -22,7 +22,7 @@
 	{ "model": "minecraft:block/wooden_cutlery_wall_3", "y": 180 },
 	{ "model": "minecraft:block/wooden_cutlery_wall_4", "y": 180 }
 	],
-    "facing=south,age=1": {"model": "block/unused_cross_0"},
+    "facing=south,age=1": {"model": "block/cocoa_stage1", "y": 180},
     "facing=south,age=2": {"model": "block/wall_torch_extinguished", "y":270},
     "facing=west,age=0": [
 	{ "model": "minecraft:block/wooden_cutlery_wall", "y": 270 },
@@ -30,7 +30,7 @@
 	{ "model": "minecraft:block/wooden_cutlery_wall_3", "y": 270 },
 	{ "model": "minecraft:block/wooden_cutlery_wall_4", "y": 270 }
 	],
-    "facing=west,age=1": {"model": "block/unused_cross_0"},
+    "facing=west,age=1": {"model": "block/cocoa_stage1", "y": 270},
     "facing=west,age=2": {"model": "block/wall_torch_extinguished"}
   }
 }
