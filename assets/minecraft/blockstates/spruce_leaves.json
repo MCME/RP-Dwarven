@@ -7,7 +7,7 @@
     "persistent=false,distance=3": [
 	{ "model": "block/hanging_metal_bucket", "y":90 },
 	{ "model": "block/hanging_metal_bucket", "y":270 }],
-    "persistent=false,distance=4": { "model": "block/unused_block" },
+    "persistent=false,distance=4": { "model": "block/statue_pedestal" },
     "persistent=false,distance=5": { "model": "block/unused_block" },
     "persistent=false,distance=6": { "model": "block/unused_block" },
     "persistent=false,distance=7": [

@@ -692,7 +692,7 @@
             "predicate": {
                 "custom_model_data": 115
             },
-            "model": "item/beacon_default"
+            "model": "block/unused_block"
         },
         {
             "predicate": {
@@ -3213,6 +3213,114 @@
                 "custom_model_data": 535
             },
             "model": "block/twisting_vines_diagonal_beam_1"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 536
+            },
+            "model": "block/dwarven_statue"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 537
+            },
+            "model": "block/statue_pedestal"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 538
+            },
+            "model": "block/bronze"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 539
+            },
+            "model": "block/knocker"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 540
+            },
+            "model": "block/spruce_fence_gate_wall_shingles"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 541
+            },
+            "model": "block/campfire_tripod"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 542
+            },
+            "model": "block/hanging_paper"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 543
+            },
+            "model": "block/cocoa_stage1"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 544
+            },
+            "model": "block/rug"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 545
+            },
+            "model": "block/blue_pillar_medium_thick"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 546
+            },
+            "model": "block/spruce_fence_gate_wall_pillar"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 547
+            },
+            "model": "block/pillar_top_dark_half"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 548
+            },
+            "model": "block/pipe_vertical"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 549
+            },
+            "model": "block/pipe_corner"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 550
+            },
+            "model": "block/pipe_corner_up"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 551
+            },
+            "model": "block/pipe_corner_side"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 552
+            },
+            "model": "block/pipe_brace"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 553
+            },
+            "model": "block/pipe_brace_up"
         }
     ]
 }

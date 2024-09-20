@@ -1,0 +1,55 @@
+{
+	"credit": "model_created_by_artemisiaofcaria",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/birch_planks3",
+		"particle": "block/birch_planks3"
+	},
+	"elements": [
+		{
+			"from": [7, -0.84521, 2.73766],
+			"to": [9, 9.02979, 4.73766],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 5.3125, 3.125]},
+			"faces": {
+				"north": {"uv": [15.375, 0, 5.5, 2], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15.375, 1, 5.5, 3], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15.375, 1, 5.5, 3], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [15.375, 1, 5.5, 3], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [3, 0, 1, 2], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [1, 0, 3, 2], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 6.75, 0.25],
+			"to": [16, 8.25, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5.3125, 3.125]},
+			"faces": {
+				"north": {"uv": [0, 3.5, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 4.5, 9.75, 3], "texture": "#0"},
+				"south": {"uv": [0, 4.5, 16, 3], "texture": "#0"},
+				"west": {"uv": [0, 4.5, 9.75, 3], "texture": "#0"},
+				"up": {"uv": [0, 10.75, 16, 1], "texture": "#0"},
+				"down": {"uv": [0, 10.75, 16, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [23, 45, 0],
+			"translation": [1.5, 0, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 8, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

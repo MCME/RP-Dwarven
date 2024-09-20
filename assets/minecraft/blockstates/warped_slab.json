@@ -13,7 +13,7 @@
 			{ "model": "block/warped_slab_3", "x": 180 },
 			{ "model": "block/warped_slab_4", "x": 180 },
 			{ "model": "block/warped_slab_5", "x": 180 }
-			]
+			],
         "type=double": { "model": "block/unused_block" }
     }
 }
