@@ -2,13 +2,25 @@
   "variants": {
     "waterlogged=false,east=none,north=none,south=none,west=none,up=true": { "model": "block/end_stone_brick_wall" },
     "waterlogged=false,east=none,north=none,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
-    "waterlogged=false,east=none,north=none,south=none,west=low,up=true": { "model": "block/end_stone_brick_wall_n", "y": 270 },
+    "waterlogged=false,east=none,north=none,south=none,west=low,up=true": [
+	{ "model": "block/end_stone_brick_wall_n", "y": 270 },
+	{ "model": "block/end_stone_brick_wall_n_2", "y": 270 },
+	{ "model": "block/end_stone_brick_wall_n_3", "y": 270 }
+	],
     "waterlogged=false,east=none,north=none,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
-    "waterlogged=false,east=none,north=none,south=low,west=none,up=true": { "model": "block/end_stone_brick_wall_n", "y": 180 },
+    "waterlogged=false,east=none,north=none,south=low,west=none,up=true": [
+	{ "model": "block/end_stone_brick_wall_n", "y": 180 },
+	{ "model": "block/end_stone_brick_wall_n_2", "y": 180 },
+	{ "model": "block/end_stone_brick_wall_n_3", "y": 180 }
+	],
     "waterlogged=false,east=none,north=none,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=none,south=low,west=low,up=true": { "model": "block/end_stone_brick_wall_ne", "y": 180 },
     "waterlogged=false,east=none,north=none,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
-    "waterlogged=false,east=none,north=low,south=none,west=none,up=true": { "model": "block/end_stone_brick_wall_n" },
+    "waterlogged=false,east=none,north=low,south=none,west=none,up=true": [
+	{ "model": "block/end_stone_brick_wall_n" },
+	{ "model": "block/end_stone_brick_wall_n_2" },
+	{ "model": "block/end_stone_brick_wall_n_3" }
+	],
     "waterlogged=false,east=none,north=low,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=none,west=low,up=true": { "model": "block/end_stone_brick_wall_ne", "y": 270 },
     "waterlogged=false,east=none,north=low,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
@@ -16,7 +28,11 @@
     "waterlogged=false,east=none,north=low,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=low,west=low,up=true": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
-    "waterlogged=false,east=low,north=none,south=none,west=none,up=true": { "model": "block/end_stone_brick_wall_n", "y": 90 },
+    "waterlogged=false,east=low,north=none,south=none,west=none,up=true": [
+	{ "model": "block/end_stone_brick_wall_n", "y": 90 },
+	{ "model": "block/end_stone_brick_wall_n_2", "y": 90 },
+	{ "model": "block/end_stone_brick_wall_n_3", "y": 90 }
+	],
     "waterlogged=false,east=low,north=none,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=none,south=none,west=low,up=true": { "model": "block/end_stone_brick_wall_ns", "y": 90 },
     "waterlogged=false,east=low,north=none,south=none,west=low,up=false": { "model": "block/unused_cross_0" },

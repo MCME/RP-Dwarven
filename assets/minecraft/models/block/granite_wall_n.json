@@ -1,6 +1,6 @@
 {
   "parent": "block/side_slab",
   "textures": {
-    "side": "block/granite"
+    "side": "block/orange_concrete"
   }
 }

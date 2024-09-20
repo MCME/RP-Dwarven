@@ -14,6 +14,6 @@
 			{ "model": "block/jungle_slab_top_4" },
 			{ "model": "block/jungle_slab_top_5" }
 		],
-        "type=double": { "model": "block/double_slab_planks_jungle" }
+        "type=double": { "model": "block/unused_block" }
     }
 }
