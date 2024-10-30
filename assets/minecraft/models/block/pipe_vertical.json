@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "block/pipe"
+		"3": "block/pipe",
+		"particle": "block/end_stone_bricks"
 	},
 	"elements": [
 		{
@@ -19,7 +20,7 @@
 		},
 		{
 			"from": [4.025, 16, 4.025],
-			"to": [11.975, 19.5, 11.975],
+			"to": [11.975, 20.1, 11.975],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9.125, 24, 8.875]},
 			"faces": {
 				"north": {"uv": [2, 7, 9.95, 10], "texture": "#3"},
@@ -31,7 +32,7 @@
 			}
 		},
 		{
-			"from": [4.025, -3.5, 4.025],
+			"from": [4.025, -4.1, 4.025],
 			"to": [11.975, 0, 11.975],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9.125, 6, 8.875]},
 			"faces": {
