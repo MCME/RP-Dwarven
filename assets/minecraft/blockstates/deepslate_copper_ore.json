@@ -6,7 +6,9 @@
 	  { "model": "block/deepslate_copper_ore_3" },
 	  { "model": "block/deepslate_copper_ore_4" },
 	  { "model": "block/deepslate_copper_ore_5" },
-	  { "model": "block/deepslate_copper_ore_6" }
+	  { "model": "block/deepslate_copper_ore_6" },
+	  { "model": "block/deepslate_copper_ore_7" },
+	  { "model": "block/deepslate_copper_ore_8" }
     ]
   }
 }
