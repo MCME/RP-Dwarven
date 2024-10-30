@@ -5,21 +5,36 @@
     "waterlogged=false,east=none,north=none,south=none,west=low,up=true": [
       { "model": "block/granite_wall_n", "y": 270 },
       { "model": "block/granite_wall_n1", "y": 270 },
-      { "model": "block/granite_wall_n2", "y": 270 }
+      { "model": "block/granite_wall_n2", "y": 270 },
+	  { "model": "block/granite_wall_n3", "y": 270 },
+	  { "model": "block/granite_wall_n4", "y": 270 },
+	  { "model": "block/granite_wall_n5", "y": 270 },
+	  { "model": "block/granite_wall_n6", "y": 270 },
+	  { "model": "block/granite_wall_n7", "y": 270 }
     ],
     "waterlogged=false,east=none,north=none,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=none,south=low,west=none,up=true": [
       { "model": "block/granite_wall_n", "y": 180 },
       { "model": "block/granite_wall_n1", "y": 180 },
-      { "model": "block/granite_wall_n2", "y": 180 }
+      { "model": "block/granite_wall_n2", "y": 180 },
+	  { "model": "block/granite_wall_n3", "y": 180 },
+	  { "model": "block/granite_wall_n4", "y": 180 },
+	  { "model": "block/granite_wall_n5", "y": 180 },
+	  { "model": "block/granite_wall_n6", "y": 180 },
+	  { "model": "block/granite_wall_n7", "y": 180 }
     ],
     "waterlogged=false,east=none,north=none,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=none,south=low,west=low,up=true": { "model": "block/granite_wall_ne", "y": 180 },
-    "waterlogged=false,east=none,north=none,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false,east=none,north=none,south=low,west=low,up=false": { "model": "block/stalagmite_diagonal_curtain", "y":90 },
     "waterlogged=false,east=none,north=low,south=none,west=none,up=true": [
       { "model": "block/granite_wall_n" },
       { "model": "block/granite_wall_n1" },
-      { "model": "block/granite_wall_n2" }
+      { "model": "block/granite_wall_n2" },
+	  { "model": "block/granite_wall_n3" },
+	  { "model": "block/granite_wall_n4" },
+	  { "model": "block/granite_wall_n5" },
+	  { "model": "block/granite_wall_n6" },
+	  { "model": "block/granite_wall_n7" }
     ],
     "waterlogged=false,east=none,north=low,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=none,west=low,up=true": { "model": "block/granite_wall_ne", "y": 270 },
@@ -31,7 +46,12 @@
     "waterlogged=false,east=low,north=none,south=none,west=none,up=true": [
       { "model": "block/granite_wall_n", "y": 90 },
       { "model": "block/granite_wall_n1", "y": 90 },
-      { "model": "block/granite_wall_n2", "y": 90 }
+      { "model": "block/granite_wall_n2", "y": 90 },
+	  { "model": "block/granite_wall_n3", "y": 90 },
+	  { "model": "block/granite_wall_n4", "y": 90 },
+	  { "model": "block/granite_wall_n5", "y": 90 },
+	  { "model": "block/granite_wall_n6", "y": 90 },
+	  { "model": "block/granite_wall_n7", "y": 90 }
     ],
     "waterlogged=false,east=low,north=none,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=none,south=none,west=low,up=true": { "model": "block/granite_wall_ns", "y": 90 },
@@ -95,6 +115,86 @@
     "waterlogged=true,east=low,north=low,south=low,west=none,up=true": { "model": "block/unused_cross_0" },
     "waterlogged=true,east=low,north=low,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=true,east=low,north=low,south=low,west=low,up=true": { "model": "block/granite_wall_nsew" },
-    "waterlogged=true,east=low,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" }
+    "waterlogged=true,east=low,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
+	"waterlogged=false,east=none,north=tall,south=low,west=none,up=false": [
+      { "model": "block/deepslate_copper_ore_v_slab", "y": 90 },
+      { "model": "block/deepslate_copper_ore_v_slab_2", "y": 90 },
+      { "model": "block/deepslate_copper_ore_v_slab_3", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_slab_4", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_slab_5", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_slab_6", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_slab_7", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_slab_8", "y": 90 }
+    ],
+	"waterlogged=false,east=tall,north=none,south=none,west=low,up=false": [
+      { "model": "block/deepslate_copper_ore_v_slab", "y": 180 },
+      { "model": "block/deepslate_copper_ore_v_slab_2", "y": 180 },
+      { "model": "block/deepslate_copper_ore_v_slab_3", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_slab_4", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_slab_5", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_slab_6", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_slab_7", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_slab_8", "y": 180 }
+    ],
+	"waterlogged=false,east=none,north=low,south=tall,west=none,up=false": [
+      { "model": "block/deepslate_copper_ore_v_slab", "y": 270 },
+      { "model": "block/deepslate_copper_ore_v_slab_2", "y": 270 },
+      { "model": "block/deepslate_copper_ore_v_slab_3", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_slab_4", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_slab_5", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_slab_6", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_slab_7", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_slab_8", "y": 270 }
+    ],
+	"waterlogged=false,east=low,north=none,south=none,west=tall,up=false": [
+      { "model": "block/deepslate_copper_ore_v_slab" },
+      { "model": "block/deepslate_copper_ore_v_slab_2" },
+      { "model": "block/deepslate_copper_ore_v_slab_3" },
+	  { "model": "block/deepslate_copper_ore_v_slab_4" },
+	  { "model": "block/deepslate_copper_ore_v_slab_5" },
+	  { "model": "block/deepslate_copper_ore_v_slab_6" },
+	  { "model": "block/deepslate_copper_ore_v_slab_7" },
+	  { "model": "block/deepslate_copper_ore_v_slab_8" }
+    ],
+	"waterlogged=false,east=tall,north=none,south=tall,west=none,up=false": [
+      { "model": "block/deepslate_copper_ore_v_stair", "y": 90 },
+      { "model": "block/deepslate_copper_ore_v_stair_2", "y": 90 },
+      { "model": "block/deepslate_copper_ore_v_stair_3", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_stair_4", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_stair_5", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_stair_6", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_stair_7", "y": 90 },
+	  { "model": "block/deepslate_copper_ore_v_stair_8", "y": 90 }
+    ],
+	"waterlogged=false,east=none,north=none,south=tall,west=tall,up=false": [
+      { "model": "block/deepslate_copper_ore_v_stair", "y": 180 },
+      { "model": "block/deepslate_copper_ore_v_stair_2", "y": 180 },
+      { "model": "block/deepslate_copper_ore_v_stair_3", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_stair_4", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_stair_5", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_stair_6", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_stair_7", "y": 180 },
+	  { "model": "block/deepslate_copper_ore_v_stair_8", "y": 180 }
+    ],
+	"waterlogged=false,east=none,north=tall,south=none,west=tall,up=false": [
+      { "model": "block/deepslate_copper_ore_v_stair", "y": 270 },
+      { "model": "block/deepslate_copper_ore_v_stair_2", "y": 270 },
+      { "model": "block/deepslate_copper_ore_v_stair_3", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_stair_4", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_stair_5", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_stair_6", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_stair_7", "y": 270 },
+	  { "model": "block/deepslate_copper_ore_v_stair_8", "y": 270 }
+    ],
+	"waterlogged=false,east=tall,north=tall,south=none,west=none,up=false": [
+      { "model": "block/deepslate_copper_ore_v_stair" },
+      { "model": "block/deepslate_copper_ore_v_stair_2" },
+      { "model": "block/deepslate_copper_ore_v_stair_3" },
+	  { "model": "block/deepslate_copper_ore_v_stair_4" },
+	  { "model": "block/deepslate_copper_ore_v_stair_5" },
+	  { "model": "block/deepslate_copper_ore_v_stair_6" },
+	  { "model": "block/deepslate_copper_ore_v_stair_7" },
+	  { "model": "block/deepslate_copper_ore_v_stair_8" }
+    ]
   }
 }
