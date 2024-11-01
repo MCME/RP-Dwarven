@@ -1,0 +1,8 @@
+{
+  "parent": "block/vertical_slab",
+  "textures": {
+    "bottom": "block/bronze_block",
+    "top": "block/bronze_block",
+    "side": "block/bronze_block"
+  }
+}
