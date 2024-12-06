@@ -3357,6 +3357,36 @@
                 "custom_model_data": 559
             },
             "model": "block/rim_dark_down"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 560
+            },
+            "model": "block/spruce_fence_gate_copper_shingles"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 561
+            },
+            "model": "block/bronze_v_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 562
+            },
+            "model": "block/deepslate_copper_ore_v_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 563
+            },
+            "model": "block/deepslate_copper_ore_v_stair"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 564
+            },
+            "model": "block/stalagmite_diagonal_curtain"
         }
     ]
 }
