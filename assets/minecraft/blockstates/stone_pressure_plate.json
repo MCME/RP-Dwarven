@@ -1,6 +1,10 @@
 {
   "variants": {
-    "powered=false": { "model" : "block/unused_cross_0" },
+    "powered=false": [
+	{ "model" : "block/xmas/xmas_candycane_cross_ground" },
+	{ "model" : "block/xmas/xmas_candycane_cross_ground", "y":90 },
+	{ "model" : "block/xmas/xmas_candycane_cross_ground", "y":180 },
+	{ "model" : "block/xmas/xmas_candycane_cross_ground", "y":270 }],
     "powered=true": { "model" : "block/unused_cross_0" }
   }
 }
