@@ -59,6 +59,17 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [2, -106, 0],
+			"translation": [-1.5, 0, 0],
+			"scale": [0.76, 0.76, 0.76]
+		},
+		"head": {
+			"rotation": [48, 90, 0],
+			"translation": [0, -0.25, -6.25]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",
