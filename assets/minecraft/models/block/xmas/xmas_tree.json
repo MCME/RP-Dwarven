@@ -111,5 +111,17 @@
 				"down": {"uv": [12.66667, 11.75, 9, 14.75], "rotation": 90, "texture": "#1"}
 			}
 		}
-	]
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [7.25, 0, 0],
+			"scale": [0.61, 0.59, 0.59]
+		},
+		"gui": {
+			"scale": [0.52, 0.34, 0.54]
+		},
+		"head": {
+			"translation": [0, 25, 0]
+		}
+	}
 }
