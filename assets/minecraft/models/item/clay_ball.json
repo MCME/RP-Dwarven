@@ -3387,6 +3387,42 @@
                 "custom_model_data": 564
             },
             "model": "block/stalagmite_diagonal_curtain"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 565
+            },
+            "model": "block/xmas/xmas_candycane"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 566
+            },
+            "model": "block/xmas/xmas_wreath"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 567
+            },
+            "model": "block/xmas/xmas_candycane_cross"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 568
+            },
+            "model": "block/xmas/xmas_tree"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 569
+            },
+            "model": "block/xmas/xmas_bow"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 570
+            },
+            "model": "block/xmas/xmas_sock_d"
         }
     ]
 }
