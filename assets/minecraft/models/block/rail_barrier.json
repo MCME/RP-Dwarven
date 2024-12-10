@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
+	"ambientocclusion": false,
 	"textures": {
 		"0": "block/oak_planks",
 		"1": "block/anvil1",
@@ -132,21 +133,27 @@
 		{
 			"name": "metal leg #1",
 			"origin": [-1, -2.5, 6],
+			"color": 0,
 			"children": [0, 1]
 		},
 		{
 			"name": "metal leg #2",
 			"origin": [-1, -2.5, 6],
+			"color": 0,
 			"children": [2, 3]
-		}, 4, 5,
+		},
+		4,
+		5,
 		{
 			"name": "group",
 			"origin": [11, 5.64063, 15],
+			"color": 0,
 			"children": []
 		},
 		{
 			"name": "rail",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [6, 7, 8]
 		}
 	]
