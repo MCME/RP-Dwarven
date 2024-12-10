@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"1": "block/sandstone",
 		"3": "block/chiseled_stone_bricks",
