@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"0": "block/iron_sheet_model_2",
 		"particle": "block/iron_sheet_model_2"
