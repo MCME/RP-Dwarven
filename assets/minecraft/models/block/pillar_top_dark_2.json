@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
 	"textures": {
 		"0": "block/deepslate_coal_ore_5",
 		"1": "block/mud_bricks_2",
