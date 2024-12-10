@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"2": "block/mud_bricks_2",
 		"4": "block/mud_brick_captial_model"

@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"2": "block/oak_log_composite",
 		"particle": "block/oak_planks_composite"
