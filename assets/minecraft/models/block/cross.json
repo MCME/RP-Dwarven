@@ -23,5 +23,12 @@
 				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
 			}
 		}
-	]
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 45, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
 }

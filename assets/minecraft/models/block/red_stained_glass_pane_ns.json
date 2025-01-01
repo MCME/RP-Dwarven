@@ -1,7 +1,22 @@
 {
-  "parent": "block/pane_ns",
-  "textures": {
-    "edge": "block/red_stained_glass_pane",
-    "pane": "block/red_stained_glass_pane"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/pane_ns",
+	"textures": {
+		"pane": "block/red_stained_glass_pane"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 0],
+			"to": [9, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#pane"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#pane"},
+				"south": {"uv": [14, 0, 16, 16], "texture": "#pane"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#pane"},
+				"up": {"uv": [0, 0, 16, 2], "rotation": 90, "texture": "#pane"},
+				"down": {"uv": [0, 0, 2, 16], "texture": "#pane"}
+			}
+		}
+	]
 }
