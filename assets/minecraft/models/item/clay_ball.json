@@ -1202,7 +1202,7 @@
             "predicate": {
                 "custom_model_data": 200
             },
-            "model": "block/scrolls_5"
+            "model": "block/scrolls"
         },
         {
             "predicate": {
@@ -3423,6 +3423,18 @@
                 "custom_model_data": 570
             },
             "model": "block/xmas/xmas_sock_d"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 571
+            },
+            "model": "block/rug_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 572
+            },
+            "model": "block/iron_bars_ns"
         }
     ]
 }
