@@ -3410,19 +3410,19 @@
             "predicate": {
                 "custom_model_data": 568
             },
-            "model": "block/xmas/xmas_tree"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
                 "custom_model_data": 569
             },
-            "model": "block/xmas/xmas_bow"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
                 "custom_model_data": 570
             },
-            "model": "block/xmas/xmas_sock_d"
+            "model": "block/pillar_top_dark_thin"
         },
 		{
             "predicate": {
