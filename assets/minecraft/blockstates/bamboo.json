@@ -1,14 +1,11 @@
 {
   "variants": {
-    "stage=0,leaves=none,age=0": { "model": "block/xmas/xmas_candycane" },
-    "stage=0,leaves=none,age=1": { "model": "block/xmas/xmas_candycane", "y":90 },
-    "stage=0,leaves=small,age=0": { "model": "block/xmas/xmas_candycane", "y":180 },
-    "stage=0,leaves=small,age=1": { "model": "block/xmas/xmas_candycane", "y":270 },
+    "stage=0,leaves=none,age=0": { "model": "block/unused_cross_0" },
+    "stage=0,leaves=none,age=1": { "model": "block/unused_cross_0", "y":90 },
+    "stage=0,leaves=small,age=0": { "model": "block/unused_cross_0", "y":180 },
+    "stage=0,leaves=small,age=1": { "model": "block/unused_cross_0", "y":270 },
     "stage=0,leaves=large,age=0": [
-	{ "model": "block/xmas/xmas_tree" },
-	{ "model": "block/xmas/xmas_tree", "y":90 },
-	{ "model": "block/xmas/xmas_tree", "y":180 },
-	{ "model": "block/xmas/xmas_tree", "y":270 }],
+	{ "model": "block/unused_cross_0" }],
     "stage=0,leaves=large,age=1": { "model": "block/unused_cross_0" },
     "stage=1,leaves=none,age=0": { "model": "block/unused_cross_0" },
     "stage=1,leaves=none,age=1": { "model": "block/unused_cross_0" },
