@@ -3392,19 +3392,19 @@
             "predicate": {
                 "custom_model_data": 565
             },
-            "model": "block/xmas/xmas_candycane"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
                 "custom_model_data": 566
             },
-            "model": "block/xmas/xmas_wreath"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
                 "custom_model_data": 567
             },
-            "model": "block/xmas/xmas_candycane_cross"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
