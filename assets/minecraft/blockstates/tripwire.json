@@ -137,12 +137,20 @@
 	{ "model": "block/rug_2"}
 	],
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=false": [
-	{ "model": "block/rug", "y": 180 },
-	{ "model": "block/rug_2", "y": 180 }
+	{ "model": "block/carpet_1x3_g", "y": 180 },
+	{ "model": "block/carpet_1x3_r", "y": 180 },
+	{ "model": "block/carpet_1x3_b", "y": 180 },
+	{ "model": "block/carpet_1x3_g" },
+	{ "model": "block/carpet_1x3_r" },
+	{ "model": "block/carpet_1x3_b" }
 	],
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=true": [
-	{ "model": "block/rug", "y":270},
-	{ "model": "block/rug_2", "y":270}
+	{ "model": "block/carpet_1x3_g", "y":270},
+	{ "model": "block/carpet_1x3_r", "y":270},
+	{ "model": "block/carpet_1x3_b", "y":270},
+	{ "model": "block/carpet_1x3_g", "y":90},
+	{ "model": "block/carpet_1x3_r", "y":90},
+	{ "model": "block/carpet_1x3_b", "y":90}
 	],
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=true,west=false": [
 	{ "model": "block/wall_rug", "y": 180 },
@@ -186,9 +194,12 @@
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=false,west=false": {
 	  "model": "block/carpet_6x3", "y":90
 	},
-    "powered=false,disarmed=false,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "block/unused_cross_0" 
-	},
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=false,west=true": [
+	{"model": "block/carpet_3x3_b", "y":180},
+	{"model": "block/carpet_3x3_b", "y":270},
+	{"model": "block/carpet_3x3_b", "y":90},
+	{"model": "block/carpet_3x3_b"}
+	],
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
 	  "model": "block/unused_cross_0", "y":90
 	},
