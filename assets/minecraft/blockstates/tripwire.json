@@ -176,11 +176,15 @@
 	],
 	"powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=true": [
 	{ "model": "block/carpet_6x3_middle", "y":180},
-	{ "model": "block/carpet_6x3_middle"}
+	{ "model": "block/carpet_6x3_middle"},
+	{ "model": "block/carpet_6x3_middle_2", "y":180},
+	{ "model": "block/carpet_6x3_middle_2"}
 	],
 	"powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=false": [
 	{ "model": "block/carpet_6x3_middle", "y":90},
-	{ "model": "block/carpet_6x3_middle", "y":270}
+	{ "model": "block/carpet_6x3_middle", "y":270},
+	{ "model": "block/carpet_6x3_middle_2", "y":90},
+	{ "model": "block/carpet_6x3_middle_2", "y":270}
 	],
 	"powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=true": {
 	  "model": "block/carpet_6x3" 
