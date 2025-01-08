@@ -1,9 +1,17 @@
 {
   "variants": {
-    "stage=0,leaves=none,age=0": { "model": "block/unused_cross_0" },
-    "stage=0,leaves=none,age=1": { "model": "block/unused_cross_0", "y":90 },
-    "stage=0,leaves=small,age=0": { "model": "block/unused_cross_0", "y":180 },
-    "stage=0,leaves=small,age=1": { "model": "block/unused_cross_0", "y":270 },
+    "stage=0,leaves=none,age=0": [
+	{ "model": "block/goblin_banner" },
+	{ "model": "block/goblin_banner_2" }],
+    "stage=0,leaves=none,age=1": [
+	{ "model": "block/goblin_banner", "y":90 },
+	{ "model": "block/goblin_banner_2", "y":90 }],
+    "stage=0,leaves=small,age=0": [
+	{ "model": "block/goblin_banner", "y":180 },
+	{ "model": "block/goblin_banner_2", "y":180 }],
+    "stage=0,leaves=small,age=1": [
+	{ "model": "block/goblin_banner", "y":270 },
+	{ "model": "block/goblin_banner_2", "y":270 }],
     "stage=0,leaves=large,age=0": [
 	{ "model": "block/unused_cross_0" }],
     "stage=0,leaves=large,age=1": { "model": "block/unused_cross_0" },
