@@ -204,24 +204,30 @@
 	{"model": "block/carpet_3x3_b", "y":90},
 	{"model": "block/carpet_3x3_b"}
 	],
-    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "block/hanging_hide", "y":90
-	},
-    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/hanging_hide"
-	},
-	"powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "block/hanging_hide", "y":180
-	},
-    "powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=true": {
-	  "model": "block/hanging_hide", "y":270
-	},
-    "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=false": {
-	  "model": "block/unused_cross_0", "y":180
-	},
-    "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=true": {
-	  "model": "block/unused_cross_0", "y":270
-	},
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=false": [
+	{"model": "block/hanging_hide", "y":90},
+	{"model": "block/hanging_hide_2", "y":90}
+	],
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=true": [
+	{ "model": "block/hanging_hide"	},
+	{ "model": "block/hanging_hide_2"	}
+	],
+	"powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": [
+	{ "model": "block/hanging_hide", "y":180},
+	{ "model": "block/hanging_hide_2", "y":180}
+	],
+    "powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=true": [
+	{ "model": "block/hanging_hide", "y":270},
+	{ "model": "block/hanging_hide_2", "y":270}
+	],
+    "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=false": [
+	{ "model": "block/ground_hide", "y":180},
+	{ "model": "block/ground_hide_2", "y":180}
+	],
+    "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=true": [
+	{ "model": "block/ground_hide", "y":270},
+	{ "model": "block/ground_hide_2", "y":270}
+	],
     ",powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
 	  "model": "block/unused_cross_0", "y":90
 	},

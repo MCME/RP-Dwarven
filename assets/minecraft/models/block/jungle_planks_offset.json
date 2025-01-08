@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "block/waxed_exposed_cut_copper",
-		"particle": "block/waxed_exposed_cut_copper"
+		"0": "block/jungle_planks",
+		"particle": "block/jungle_planks"
 	},
 	"elements": [
 		{
