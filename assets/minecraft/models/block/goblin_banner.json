@@ -1,10 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
-	"texture_size": [48, 48],
+	"texture_size": [64, 64],
 	"textures": {
 		"0": "block/oak_log_pickaxe",
-		"1": "block/goblin_banner_back",
 		"2": "block/goblin_banner",
 		"3": "block/oak_log_composite",
 		"particle": "block/oak_log_pickaxe"
@@ -63,16 +62,16 @@
 			}
 		},
 		{
-			"from": [-11, 5, 9],
+			"from": [-9, 5, 9],
 			"to": [22, 31, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-3, 8, 7]},
 			"faces": {
-				"north": {"uv": [2, 0, 13, 8.66667], "texture": "#2"},
-				"east": {"uv": [1, 2.33333, 1, 10], "texture": "#1"},
-				"south": {"uv": [13, 0, 2, 8.66667], "texture": "#1"},
-				"west": {"uv": [1, 2.33333, 1, 10], "texture": "#1"},
-				"up": {"uv": [1, 2.33333, 5.66667, 2.33333], "texture": "#1"},
-				"down": {"uv": [1, 2.33333, 5.66667, 2.33333], "texture": "#1"}
+				"north": {"uv": [0, 0, 7.75, 6.5], "texture": "#2"},
+				"east": {"uv": [1, 2.33333, 1, 10], "texture": "#missing"},
+				"south": {"uv": [16, 0, 8.25, 6.5], "texture": "#2"},
+				"west": {"uv": [1, 2.33333, 1, 10], "texture": "#missing"},
+				"up": {"uv": [1, 2.33333, 5.66667, 2.33333], "texture": "#missing"},
+				"down": {"uv": [1, 2.33333, 5.66667, 2.33333], "texture": "#missing"}
 			}
 		}
 	],
