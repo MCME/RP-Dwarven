@@ -3435,6 +3435,72 @@
                 "custom_model_data": 572
             },
             "model": "block/iron_bars_ns"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 573
+            },
+            "model": "block/carpet_1x3_r"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 574
+            },
+            "model": "block/carpet_3x3_b"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 575
+            },
+            "model": "block/carpet_3x3_g"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 576
+            },
+            "model": "block/carpet_6x3"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 577
+            },
+            "model": "block/carpet_6x3_middle"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 578
+            },
+            "model": "block/hanging_wood_sign_small"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 579
+            },
+            "model": "block/hanging_wood_sign"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 580
+            },
+            "model": "block/hanging_metal_sign_small"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 581
+            },
+            "model": "block/hanging_sign"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 582
+            },
+            "model": "block/hanging_sign_damaged"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 583
+            },
+            "model": "block/coinpile"
         }
     ]
 }
