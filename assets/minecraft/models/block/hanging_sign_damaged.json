@@ -56,6 +56,10 @@
 		}
 	],
 	"display": {
+		"firstperson_righthand": {
+			"translation": [8.25, 0, 0],
+			"scale": [0.64, 0.64, 0.64]
+		},
 		"gui": {
 			"rotation": [30, 225, 0],
 			"translation": [-4, -3.5, 0],

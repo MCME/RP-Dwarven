@@ -3501,6 +3501,120 @@
                 "custom_model_data": 583
             },
             "model": "block/coinpile"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 584
+            },
+            "model": "block/jungle_planks_v_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 585
+            },
+            "model": "block/jungle_planks_v_stairs"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 586
+            },
+            "model": "block/mangrove_trapdoor_jungle_planks"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 587
+            },
+            "model": "item/jungle_planks_thin_horizontal"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 588
+            },
+            "model": "block/jungle_planks_offset"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 589
+            },
+            "model": "block/jungle_planks_offset_down"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 590
+            },
+            "model": "block/jungle_planks_offset_up"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 591
+            },
+            "model": "block/waxed_exposed_cut_copper_v_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 592
+            },
+            "model": "block/waxed_exposed_cut_copper_v_stairs"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 593
+            },
+            "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 594
+            },
+            "model": "item/waxed_exposed_cut_copper_thin_horizontal"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 595
+            },
+            "model": "block/waxed_exposed_cut_copper_offset"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 596
+            },
+            "model": "block/waxed_exposed_cut_copper_offset_down"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 597
+            },
+            "model": "block/waxed_exposed_cut_copper_offset_up"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 598
+            },
+            "model": "block/goblin_banner"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 599
+            },
+            "model": "block/hanging_hide"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 600
+            },
+            "model": "block/ground_hide"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 601
+            },
+            "model": "block/retaining_wall_hide"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 602
+            },
+            "model": "block/drum_big"
         }
     ]
 }
