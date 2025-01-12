@@ -152,19 +152,19 @@
             "predicate": {
                 "custom_model_data": 25
             },
-            "model": "block/jungle_sapling_1"
+            "model": "block/arrows"
         },
         {
             "predicate": {
                 "custom_model_data": 26
             },
-            "model": "block/acacia_sapling_1"
+            "model": "block/spears"
         },
         {
             "predicate": {
                 "custom_model_data": 27
             },
-            "model": "block/dark_oak_sapling_1"
+            "model": "block/weapons"
         },
         {
             "predicate": {
@@ -1760,7 +1760,7 @@
             "predicate": {
                 "custom_model_data": 293
             },
-            "model": "item/small_vase"
+            "model": "block/vase_1_3"
         },
         {
             "predicate": {
