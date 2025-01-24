@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "block/brown_stained_glass_pane_nsew",
 		"wall": "block/brown_stained_glass_pane_nsew"
 	},
 	"elements": [

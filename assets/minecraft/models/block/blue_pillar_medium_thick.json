@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "block/stripped_warped_stem"
+		"3": "block/stripped_warped_stem",
+		"particle": "block/stripped_warped_stem"
 	},
 	"elements": [
 		{
