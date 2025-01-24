@@ -3,7 +3,8 @@
 	"texture_size": [3, 3],
 	"textures": {
 		"5": "block/models/vase_4",
-		"6": "block/models/vase3"
+		"6": "block/models/vase3",
+		"particle": "block/models/vase3"
 	},
 	"elements": [
 		{

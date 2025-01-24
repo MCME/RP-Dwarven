@@ -3,7 +3,8 @@
 	"texture_size": [3, 3],
 	"textures": {
 		"6": "block/models/vase3",
-		"7": "block/models/vase2"
+		"7": "block/models/vase2",
+		"particle": "block/models/vase2"
 	},
 	"elements": [
 		{
@@ -128,11 +129,13 @@
 		{
 			"name": "vase2",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [0, 1, 2, 3]
 		},
 		{
 			"name": "vase3",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [4, 5, 6, 7]
 		}
 	]

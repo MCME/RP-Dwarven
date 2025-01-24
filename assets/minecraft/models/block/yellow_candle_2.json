@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "block/goblin_bones"
+		"1": "block/goblin_bones",
+		"particle": "block/goblin_bones"
 	},
 	"elements": [
 		{
