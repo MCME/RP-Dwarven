@@ -1,0 +1,8 @@
+{
+  "parent": "block/vertical_slab",
+  "textures": {
+    "bottom": "block/sponge",
+    "top": "block/sponge",
+    "side": "block/observer_off_0"
+  }
+}

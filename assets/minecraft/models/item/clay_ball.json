@@ -3633,6 +3633,66 @@
                 "custom_model_data": 605
             },
             "model": "block/portrait"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 606
+            },
+            "model": "block/pillar_top_half"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 607
+            },
+            "model": "block/pillar_half_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 608
+            },
+            "model": "block/pillar_top_half_3"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 609
+            },
+            "model": "block/pillar_top_half"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 610
+            },
+            "model": "block/rim"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 611
+            },
+            "model": "block/rim_down"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 612
+            },
+            "model": "block/pillar_top_thin"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 613
+            },
+            "model": "block/thin_slab_pillar_sandstone"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 614
+            },
+            "model": "block/thin_slab_pillar_sandstone_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 615
+            },
+            "model": "block/thin_slab_pillar_sandstone_3"
         }
     ]
 }
