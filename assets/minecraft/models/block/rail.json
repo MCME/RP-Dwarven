@@ -36,7 +36,8 @@
 			"from": [0, 0.07, 0],
 			"to": [16, 0.19, 16],
 			"faces": {
-				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#rails"}
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#rails"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#rails"}
 			}
 		}
 	],

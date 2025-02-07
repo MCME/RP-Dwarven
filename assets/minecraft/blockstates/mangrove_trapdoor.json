@@ -37,48 +37,54 @@
 			{ "model": "block/mangrove_trapdoor_unpowered_lower4", "y": 90 }
         ],
         "facing=north,half=top,open=true,powered=false": [
-            { "model": "block/unused_cross_0", "y": 180 },
-            { "model": "block/unused_cross_0", "y": 180 },
-            { "model": "block/unused_cross_0", "y": 180 },
-            { "model": "block/unused_cross_0", "y": 180 },
-            { "model": "block/unused_cross_0", "y": 180 }
+            { "model": "block/mangrove_trapdoor_jungle_planks", "y": 180, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_2", "y": 180, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_3", "y": 180, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_4", "y": 180, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_5", "y": 180, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_jungle_planks_6", "y": 180, "uvlock": true }
         ],
         "facing=south,half=top,open=true,powered=false": [
-            { "model": "block/unused_cross_0" },
-            { "model": "block/unused_cross_0" },
-            { "model": "block/unused_cross_0" },
-            { "model": "block/unused_cross_0" },
-            { "model": "block/unused_cross_0" }
+            { "model": "block/mangrove_trapdoor_jungle_planks", "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_2", "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_3", "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_4", "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_5", "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_jungle_planks_6", "uvlock": true }
         ],
         "facing=east,half=top,open=true,powered=false": [
-            { "model": "block/unused_cross_0", "y": 270 },
-            { "model": "block/unused_cross_0", "y": 270 },
-            { "model": "block/unused_cross_0", "y": 270 },
-            { "model": "block/unused_cross_0", "y": 270 },
-            { "model": "block/unused_cross_0", "y": 270 }
+            { "model": "block/mangrove_trapdoor_jungle_planks", "y": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_2", "y": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_3", "y": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_4", "y": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_5", "y": 270, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_jungle_planks_6", "y": 270, "uvlock": true }
         ],
         "facing=west,half=top,open=true,powered=false": [
-            { "model": "block/unused_cross_0", "y": 90 },
-            { "model": "block/unused_cross_0", "y": 90 },
-            { "model": "block/unused_cross_0", "y": 90 },
-            { "model": "block/unused_cross_0", "y": 90 },
-            { "model": "block/unused_cross_0", "y": 90 }
+            { "model": "block/mangrove_trapdoor_jungle_planks", "y": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_2", "y": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_3", "y": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_4", "y": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_jungle_planks_5", "y": 90, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_jungle_planks_6", "y": 90, "uvlock": true }
         ],
 		"facing=north,half=bottom,open=false,powered=true": [
             { "model": "block/mangrove_trapdoor_unpowered_lower", "x": 90 },
             { "model": "block/mangrove_trapdoor_unpowered_lower1", "x": 90 }
         ],
         "facing=south,half=bottom,open=false,powered=true": [
-            { "model": "block/unused_cross_0", "x": 90 },
-            { "model": "block/unused_cross_0", "x": 90 },
-            { "model": "block/unused_cross_0", "x": 90 }
+            { "model": "block/mangrove_trapdoor_jungle_planks", "x": 90 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_2", "x": 90 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_3", "x": 90 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_4", "x": 90 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_5", "x": 90 },
+			{ "model": "block/mangrove_trapdoor_jungle_planks_6", "x": 90 }
         ],
         "facing=east,half=bottom,open=false,powered=true": [
-            { "model": "block/unused_cross_0", "x": 90 },
-            { "model": "block/unused_cross_0", "x": 90 },
-            { "model": "block/unused_cross_0", "x": 90 },
-            { "model": "block/unused_cross_0", "x": 90 },
-            { "model": "block/unused_cross_0", "x": 90 }
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper", "x": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_2", "x": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_3", "x": 90, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_4", "x": 90, "uvlock": true }
         ],
         "facing=west,half=bottom,open=false,powered=true": [
             { "model": "block/unused_cross_0", "x": 90 },
@@ -91,16 +97,18 @@
             { "model": "block/mangrove_trapdoor_unpowered_lower1", "x": 270 }
         ],
         "facing=south,half=top,open=false,powered=true": [
-            { "model": "block/unused_cross_0", "x": 270 },
-            { "model": "block/unused_cross_0", "x": 270 },
-            { "model": "block/unused_cross_0", "x": 270 }
+            { "model": "block/mangrove_trapdoor_jungle_planks", "x": 270 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_2", "x": 270 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_3", "x": 270 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_4", "x": 270 },
+            { "model": "block/mangrove_trapdoor_jungle_planks_5", "x": 270 },
+			{ "model": "block/mangrove_trapdoor_jungle_planks_6", "x": 270 }
         ],
         "facing=east,half=top,open=false,powered=true": [
-            { "model": "block/unused_cross_0", "x": 270 },
-            { "model": "block/unused_cross_0", "x": 270 },
-            { "model": "block/unused_cross_0", "x": 270 },
-            { "model": "block/unused_cross_0", "x": 270 },
-            { "model": "block/unused_cross_0", "x": 270 }
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper", "x": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_2", "x": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_3", "x": 270, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_4", "x": 270, "uvlock": true }
         ],
         "facing=west,half=top,open=false,powered=true": [
             { "model": "block/unused_cross_0", "x": 270 },
@@ -109,24 +117,28 @@
             { "model": "block/unused_cross_0", "x": 270 }
         ],
         "facing=north,half=bottom,open=true,powered=true": [
-            { "model": "block/unused_cross_0", "y": 180 },
-            { "model": "block/unused_cross_0", "y": 180 },
-            { "model": "block/unused_cross_0", "y": 180 }
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper", "y": 180, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_2", "y": 180, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_3", "y": 180, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_4", "y": 180, "uvlock": true }
         ],
         "facing=south,half=bottom,open=true,powered=true": [
-            { "model": "block/unused_cross_0" },
-            { "model": "block/unused_cross_0" },
-            { "model": "block/unused_cross_0" }
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper", "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_2", "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_3", "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_4", "uvlock": true }
         ],
         "facing=east,half=bottom,open=true,powered=true": [
-            { "model": "block/unused_cross_0", "y": 270 },
-            { "model": "block/unused_cross_0", "y": 270 },
-            { "model": "block/unused_cross_0", "y": 270 }
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper", "y": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_2", "y": 270, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_3", "y": 270, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_4", "y": 270, "uvlock": true }
         ],
         "facing=west,half=bottom,open=true,powered=true": [
-            { "model": "block/unused_cross_0", "y": 90 },
-            { "model": "block/unused_cross_0", "y": 90 },
-            { "model": "block/unused_cross_0", "y": 90 }
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper", "y": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_2", "y": 90, "uvlock": true },
+            { "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_3", "y": 90, "uvlock": true },
+			{ "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper_4", "y": 90, "uvlock": true }
         ],
         "facing=north,half=top,open=true,powered=true": [
             { "model": "block/unused_cross_0", "y": 180 },

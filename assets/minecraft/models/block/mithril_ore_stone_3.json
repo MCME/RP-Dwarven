@@ -1,0 +1,7 @@
+{
+  "parent": "block/parent_emissive_block",
+  "textures": {
+    "block": "block/polished_andesite_3",
+	"emissive": "block/mithril_ore_emissive_3"
+    }
+}

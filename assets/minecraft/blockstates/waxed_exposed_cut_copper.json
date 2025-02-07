@@ -1,5 +1,10 @@
 {
   "variants": {
-    "": {"model": "block/unused_block"}
+    "": [
+      { "model": "block/waxed_exposed_cut_copper" },
+	  { "model": "block/waxed_exposed_cut_copper_2" },
+	  { "model": "block/waxed_exposed_cut_copper_3" },
+	  { "model": "block/waxed_exposed_cut_copper_4" }
+    ]
   }
 }

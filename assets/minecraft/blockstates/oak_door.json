@@ -16,22 +16,34 @@
     "powered=false,half=lower,hinge=right,open=true,facing=east": { "model": "block/rim_dark_down" },
     "powered=false,half=lower,hinge=right,open=true,facing=south": { "model": "block/rim_dark_down", "y":90 },
     "powered=false,half=lower,hinge=right,open=true,facing=west": { "model": "block/rim_dark_down", "y":180 },
-    "powered=false,half=upper,hinge=left,open=false,facing=north": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=false,facing=east": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=false,facing=south": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=false,facing=west": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=true,facing=north": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=true,facing=east": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=true,facing=south": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=left,open=true,facing=west": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=false,facing=north": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=false,facing=east": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=false,facing=south": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=false,facing=west": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=true,facing=north": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=true,facing=east": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=true,facing=south": { "model": "block/unused_cross_0" },
-    "powered=false,half=upper,hinge=right,open=true,facing=west": { "model": "block/unused_cross_0" },
+    "powered=false,half=upper,hinge=left,open=false,facing=south": [
+	{ "model": "block/carpet_6x3_middle_v" },
+	{ "model": "block/carpet_6x3_middle_v_2" }
+	],
+    "powered=false,half=upper,hinge=left,open=false,facing=west": [
+	{ "model": "block/carpet_6x3_middle_v", "y":90 },
+	{ "model": "block/carpet_6x3_middle_v_2", "y":90 }
+	],
+    "powered=false,half=upper,hinge=left,open=false,facing=north": [
+	{ "model": "block/carpet_6x3_middle_v", "y":180 },
+	{ "model": "block/carpet_6x3_middle_v_2", "y":180 }
+	],
+    "powered=false,half=upper,hinge=left,open=false,facing=east": [
+	{ "model": "block/carpet_6x3_middle_v", "y":270 },
+	{ "model": "block/carpet_6x3_middle_v_2", "y":270 }
+	],
+    "powered=false,half=upper,hinge=left,open=true,facing=north": { "model": "block/hanging_sign_damaged" },
+    "powered=false,half=upper,hinge=left,open=true,facing=east": { "model": "block/hanging_sign_damaged", "y":90 },
+    "powered=false,half=upper,hinge=left,open=true,facing=south": { "model": "block/hanging_sign_damaged", "y":180 },
+    "powered=false,half=upper,hinge=left,open=true,facing=west": { "model": "block/hanging_sign_damaged", "y":270 },
+    "powered=false,half=upper,hinge=right,open=false,facing=north": { "model": "block/rim" },
+    "powered=false,half=upper,hinge=right,open=false,facing=east": { "model": "block/rim", "y":90 },
+    "powered=false,half=upper,hinge=right,open=false,facing=south": { "model": "block/rim", "y":180 },
+    "powered=false,half=upper,hinge=right,open=false,facing=west": { "model": "block/rim", "y":270 },
+    "powered=false,half=upper,hinge=right,open=true,facing=north": { "model": "block/rim_down", "y":270 },
+    "powered=false,half=upper,hinge=right,open=true,facing=east": { "model": "block/rim_down" },
+    "powered=false,half=upper,hinge=right,open=true,facing=south": { "model": "block/rim_down", "y":90 },
+    "powered=false,half=upper,hinge=right,open=true,facing=west": { "model": "block/rim_down", "y":180 },
     "powered=true,half=lower,hinge=left,open=false,facing=north": [
       { "model": "block/oak_door_bottom", "y": 270 },
       { "model": "block/oak_door_bottom1", "y": 270 },

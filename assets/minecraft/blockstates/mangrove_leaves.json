@@ -8,11 +8,11 @@
     "persistent=false,distance=5": { "model": "block/table_medium", "y": 90 },
     "persistent=false,distance=6": { "model": "block/table_medium", "y": 180 },
     "persistent=true,distance=1": { "model": "block/table_medium", "y": 270 },
-    "persistent=true,distance=2": { "model": "block/unused_block" },
+    "persistent=true,distance=2": { "model": "block/cooking_pot_large" },
     "persistent=true,distance=3": { "model": "block/unused_block" },
     "persistent=true,distance=4": { "model": "block/unused_block" },
     "persistent=true,distance=5": { "model": "block/unused_block" },
     "persistent=true,distance=6": { "model": "block/unused_block" },
-    "persistent=true,distance=1": { "model": "block/unused_block" }
+    "persistent=true,distance=7": { "model": "block/unused_block" }
   }
 }

@@ -3,7 +3,8 @@
 	"texture_size": [3, 3],
 	"textures": {
 		"5": "block/models/vase_4",
-		"6": "block/models/vase3"
+		"6": "block/models/vase3",
+		"particle": "block/models/vase3"
 	},
 	"elements": [
 		{
@@ -177,23 +178,37 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 10.75, 0]
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
 		}
 	},
 	"groups": [
 		{
 			"name": "vase3",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [0, 1, 2, 3]
 		},
 		{
 			"name": "vase4",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [4, 5, 6, 7]
 		},
 		{
 			"name": "vase4",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [8, 9, 10, 11]
 		}
 	]

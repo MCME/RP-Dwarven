@@ -152,19 +152,19 @@
             "predicate": {
                 "custom_model_data": 25
             },
-            "model": "block/jungle_sapling_1"
+            "model": "block/arrows"
         },
         {
             "predicate": {
                 "custom_model_data": 26
             },
-            "model": "block/acacia_sapling_1"
+            "model": "block/spears"
         },
         {
             "predicate": {
                 "custom_model_data": 27
             },
-            "model": "block/dark_oak_sapling_1"
+            "model": "block/weapons"
         },
         {
             "predicate": {
@@ -1760,7 +1760,7 @@
             "predicate": {
                 "custom_model_data": 293
             },
-            "model": "item/small_vase"
+            "model": "block/vase_1_3"
         },
         {
             "predicate": {
@@ -3392,19 +3392,19 @@
             "predicate": {
                 "custom_model_data": 565
             },
-            "model": "block/xmas/xmas_candycane"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
                 "custom_model_data": 566
             },
-            "model": "block/xmas/xmas_wreath"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
                 "custom_model_data": 567
             },
-            "model": "block/xmas/xmas_candycane_cross"
+            "model": "block/unused_block"
         },
 		{
             "predicate": {
@@ -3435,6 +3435,282 @@
                 "custom_model_data": 572
             },
             "model": "block/iron_bars_ns"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 573
+            },
+            "model": "block/carpet_1x3_r"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 574
+            },
+            "model": "block/carpet_3x3_b"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 575
+            },
+            "model": "block/carpet_3x3_g"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 576
+            },
+            "model": "block/carpet_6x3"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 577
+            },
+            "model": "block/carpet_6x3_middle"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 578
+            },
+            "model": "block/hanging_wood_sign_small"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 579
+            },
+            "model": "block/hanging_wood_sign"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 580
+            },
+            "model": "block/hanging_metal_sign_small"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 581
+            },
+            "model": "block/hanging_sign"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 582
+            },
+            "model": "block/hanging_sign_damaged"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 583
+            },
+            "model": "block/coinpile"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 584
+            },
+            "model": "block/jungle_planks_v_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 585
+            },
+            "model": "block/jungle_planks_v_stairs"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 586
+            },
+            "model": "block/mangrove_trapdoor_jungle_planks"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 587
+            },
+            "model": "item/jungle_planks_thin_horizontal"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 588
+            },
+            "model": "block/jungle_planks_offset"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 589
+            },
+            "model": "block/jungle_planks_offset_down"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 590
+            },
+            "model": "block/jungle_planks_offset_up"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 591
+            },
+            "model": "block/waxed_exposed_cut_copper_v_slab"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 592
+            },
+            "model": "block/waxed_exposed_cut_copper_v_stairs"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 593
+            },
+            "model": "block/mangrove_trapdoor_waxed_exposed_cut_copper"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 594
+            },
+            "model": "item/waxed_exposed_cut_copper_thin_horizontal"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 595
+            },
+            "model": "block/waxed_exposed_cut_copper_offset"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 596
+            },
+            "model": "block/waxed_exposed_cut_copper_offset_down"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 597
+            },
+            "model": "block/waxed_exposed_cut_copper_offset_up"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 598
+            },
+            "model": "block/goblin_banner"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 599
+            },
+            "model": "block/hanging_hide"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 600
+            },
+            "model": "block/ground_hide"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 601
+            },
+            "model": "block/retaining_wall_hide"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 602
+            },
+            "model": "block/drum_big"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 603
+            },
+            "model": "block/table_medium"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 604
+            },
+            "model": "block/table_large"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 605
+            },
+            "model": "block/portrait"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 606
+            },
+            "model": "block/pillar_top_half"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 607
+            },
+            "model": "block/pillar_half_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 608
+            },
+            "model": "block/pillar_top_half_3"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 609
+            },
+            "model": "block/pillar_top_half"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 610
+            },
+            "model": "block/rim"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 611
+            },
+            "model": "block/rim_down"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 612
+            },
+            "model": "block/pillar_top_thin"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 613
+            },
+            "model": "block/thin_slab_pillar_sandstone"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 614
+            },
+            "model": "block/thin_slab_pillar_sandstone_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 615
+            },
+            "model": "block/thin_slab_pillar_sandstone_3"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 616
+            },
+            "model": "block/cooking_pot_large"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 617
+            },
+            "model": "block/cooking_pot_small"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 618
+            },
+            "model": "block/cooking_pot_hanging"
         }
     ]
 }

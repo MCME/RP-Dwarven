@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [3, 3],
 	"textures": {
-		"5": "block/models/vase_4"
+		"5": "block/models/vase_4",
+		"particle": "block/models/vase_4"
 	},
 	"elements": [
 		{
@@ -71,6 +72,7 @@
 		{
 			"name": "vase4",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [0, 1, 2, 3]
 		}
 	]
