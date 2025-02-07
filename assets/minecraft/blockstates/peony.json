@@ -10,6 +10,11 @@
 	{ "model": "block/drum_2", "y":180 },
 	{ "model": "block/drum_2", "y":270 }
 	],
-    "half=upper": {"model": "block/unused_cross_0"}
+    "half=upper": [
+	{ "model": "block/drum_big" },
+	{ "model": "block/drum_big", "y":90 },
+	{ "model": "block/drum_big", "y":180 },
+	{ "model": "block/drum_big", "y":270 }
+	]
   }
 }

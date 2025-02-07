@@ -2,7 +2,16 @@
   "variants": {
     "age=0": { "model": "block/beetroots_0" },
     "age=1": { "model": "block/beetroots_0", "y": 90 },
-    "age=2": [{ "model": "block/coinpile" },{ "model": "block/coinpile_2" }],
+    "age=2": [
+	{ "model": "block/coinpile" },
+	{ "model": "block/coinpile", "y":90 },
+	{ "model": "block/coinpile", "y":180 },
+	{ "model": "block/coinpile", "y":270 },
+	{ "model": "block/coinpile_2" },
+	{ "model": "block/coinpile_2", "y":90 },
+	{ "model": "block/coinpile_2", "y":180 },
+	{ "model": "block/coinpile_2", "y":270 }
+	],
     "age=3": { "model": "block/tall_tripod" }
   }
 }

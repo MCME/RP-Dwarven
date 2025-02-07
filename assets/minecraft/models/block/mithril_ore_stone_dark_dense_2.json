@@ -1,0 +1,7 @@
+{
+  "parent": "block/parent_emissive_block",
+  "textures": {
+    "block": "block/deepslate_2",
+	"emissive": "block/mithril_ore_emissive_dense_2"
+  }
+}

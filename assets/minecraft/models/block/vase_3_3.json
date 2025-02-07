@@ -4,7 +4,8 @@
 	"textures": {
 		"5": "block/models/vase_4",
 		"7": "block/models/vase2",
-		"8": "block/models/vase"
+		"8": "block/models/vase",
+		"particle": "block/models/vase2"
 	},
 	"elements": [
 		{
@@ -185,16 +186,19 @@
 		{
 			"name": "vase1",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [0, 1, 2, 3]
 		},
 		{
 			"name": "vase2",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [4, 5, 6, 7]
 		},
 		{
 			"name": "vase4",
 			"origin": [7.5, 9, 7.5],
+			"color": 0,
 			"children": [8, 9, 10, 11]
 		}
 	]

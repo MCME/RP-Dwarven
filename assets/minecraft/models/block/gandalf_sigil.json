@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/parent_emissive_cover",
+	"textures": {
+		"emissive": "block/gandalf_sigil",
+		"particle": "#emissive"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"scale": [1.4, 1.4, 1.4]
+		}
+	}
+}

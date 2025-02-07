@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
+		"particle": "block/brown_stained_glass_pane_nsew_3",
 		"wall": "block/brown_stained_glass_pane_nsew_3"
 	},
 	"elements": [

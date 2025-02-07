@@ -17,7 +17,7 @@
     ],
     "waterlogged=false,east=none,north=none,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=none,south=low,west=low,up=true": { "model": "block/deepslate_brick_wall_ne", "y": 180 },
-    "waterlogged=false,east=none,north=none,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false,east=none,north=none,south=low,west=low,up=false": { "model": "block/waxed_exposed_cut_copper_offset", "y":270 },
     "waterlogged=false,east=none,north=low,south=none,west=none,up=true": [
       { "model": "block/deepslate_brick_wall_n" },
       { "model": "block/deepslate_brick_wall_n1" },
@@ -26,7 +26,7 @@
     ],
     "waterlogged=false,east=none,north=low,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=none,west=low,up=true": { "model": "block/deepslate_brick_wall_ne", "y": 270 },
-    "waterlogged=false,east=none,north=low,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false,east=none,north=low,south=none,west=low,up=false": { "model": "block/waxed_exposed_cut_copper_offset" },
     "waterlogged=false,east=none,north=low,south=low,west=none,up=true": { "model": "block/deepslate_brick_wall_ns" },
     "waterlogged=false,east=none,north=low,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=none,north=low,south=low,west=low,up=true": [
@@ -45,11 +45,11 @@
     "waterlogged=false,east=low,north=none,south=none,west=low,up=true": { "model": "block/deepslate_brick_wall_ns", "y": 90 },
     "waterlogged=false,east=low,north=none,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=none,south=low,west=none,up=true": { "model": "block/deepslate_brick_wall_ne", "y": 90 },
-    "waterlogged=false,east=low,north=none,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false,east=low,north=none,south=low,west=none,up=false": { "model": "block/waxed_exposed_cut_copper_offset", "y":180 },
     "waterlogged=false,east=low,north=none,south=low,west=low,up=true": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=none,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=low,south=none,west=none,up=true": { "model": "block/deepslate_brick_wall_ne" },
-    "waterlogged=false,east=low,north=low,south=none,west=none,up=false": { "model": "block/unused_cross_0" },
+    "waterlogged=false,east=low,north=low,south=none,west=none,up=false": { "model": "block/waxed_exposed_cut_copper_offset", "y":90 },
     "waterlogged=false,east=low,north=low,south=none,west=low,up=true":  { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=low,south=none,west=low,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=false,east=low,north=low,south=low,west=none,up=true": { "model": "block/unused_cross_0" },
@@ -107,6 +107,31 @@
     "waterlogged=true,east=low,north=low,south=low,west=none,up=true": { "model": "block/unused_cross_0" },
     "waterlogged=true,east=low,north=low,south=low,west=none,up=false": { "model": "block/unused_cross_0" },
     "waterlogged=true,east=low,north=low,south=low,west=low,up=true": { "model": "block/deepslate_brick_wall_nsew" },
-    "waterlogged=true,east=low,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" }
+    "waterlogged=true,east=low,north=low,south=low,west=low,up=false": { "model": "block/unused_cross_0" },
+		"waterlogged=false,east=none,north=low,south=none,west=tall,up=true": [
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs", "uvlock":true, "y":270 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_2", "uvlock":true, "y":270 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_3", "uvlock":true, "y":270 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_4", "uvlock":true, "y":270 }
+	],
+	"waterlogged=false,east=low,north=tall,south=none,west=none,up=true":[ 
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs", "uvlock":true },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_2", "uvlock":true },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_3", "uvlock":true },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_4", "uvlock":true }
+	],
+	"waterlogged=false,east=tall,north=none,south=low,west=none,up=true": [
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs", "uvlock":true, "y": 90 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_2", "uvlock":true, "y": 90 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_3", "uvlock":true, "y": 90 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_4", "uvlock":true, "y": 90 }
+	],
+	"waterlogged=false,east=none,north=none,south=tall,west=low,up=true": [
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs", "uvlock":true, "y": 180 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_2", "uvlock":true, "y": 180 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_3", "uvlock":true, "y": 180 },
+	{ "model": "block/waxed_exposed_cut_copper_v_stairs_4", "uvlock":true, "y": 180 }
+  ]
   }
 }
+ 

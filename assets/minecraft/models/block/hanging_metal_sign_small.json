@@ -1,0 +1,67 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "block/raw_copper_block",
+		"particle": "block/raw_copper_block"
+	},
+	"elements": [
+		{
+			"from": [-1.67187, -2, 15],
+			"to": [0.32813, 10, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.67187, 2.5, 6.25]},
+			"faces": {
+				"north": {"uv": [5, 2, 7, 14], "texture": "#3"},
+				"east": {"uv": [6, 2, 7, 14], "texture": "#3"},
+				"south": {"uv": [5, 2, 7, 14], "texture": "#3"},
+				"west": {"uv": [6, 2, 7, 14], "texture": "#3"},
+				"up": {"uv": [15.33333, 6.33333, 16, 6.66667], "texture": "#3"},
+				"down": {"uv": [15.33333, 6.33333, 16, 6.66667], "texture": "#3"}
+			}
+		},
+		{
+			"from": [-1.42187, 0.25, -1],
+			"to": [0.07813, 1.25, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.67187, 4, 6.25]},
+			"faces": {
+				"north": {"uv": [12, 0, 13.5, 1], "texture": "#3"},
+				"east": {"uv": [0, 8, 16, 9], "texture": "#3"},
+				"south": {"uv": [15.5, 0, 16, 0.5], "texture": "#3"},
+				"west": {"uv": [0, 8, 16, 9], "texture": "#3"},
+				"up": {"uv": [13.25, 0, 15, 16], "texture": "#3"},
+				"down": {"uv": [13, 0, 15, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [-1.32187, 2.75, -1],
+			"to": [-0.04687, 3.75, 15],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [-0.67187, 6.5, 6.25]},
+			"faces": {
+				"north": {"uv": [14.5, 0, 16, 1], "texture": "#3"},
+				"east": {"uv": [0, 8, 16, 9], "texture": "#3"},
+				"south": {"uv": [15.5, 0, 16, 0.5], "texture": "#3"},
+				"west": {"uv": [0, 8, 16, 9], "texture": "#3"},
+				"up": {"uv": [13, 0, 14, 16], "texture": "#3"},
+				"down": {"uv": [12, 0, 13, 16], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [4, 4.75, 0],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-3.75, -0.75, 0],
+			"scale": [0.76, 0.76, 0.76]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [-0.67187, 22.5, 6.25],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
