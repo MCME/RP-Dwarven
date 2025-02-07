@@ -3693,6 +3693,24 @@
                 "custom_model_data": 615
             },
             "model": "block/thin_slab_pillar_sandstone_3"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 616
+            },
+            "model": "block/cooking_pot_large"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 617
+            },
+            "model": "block/cooking_pot_small"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 618
+            },
+            "model": "block/cooking_pot_hanging"
         }
     ]
 }

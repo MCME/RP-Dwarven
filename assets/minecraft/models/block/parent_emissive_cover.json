@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "#emissive"
+	},
+	"elements": [
+		{
+			"name": "emissive",
+			"from": [0, 0, 0.00001],
+			"to": [16, 16, 0.00001],
+			"light_emission": 3,
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#emissive"}
+			}
+		}
+	]
+}

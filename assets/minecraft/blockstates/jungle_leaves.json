@@ -1,9 +1,31 @@
 {
   "variants": {
-    "persistent=false,distance=1": { "model": "block/unused_block" },
-    "persistent=false,distance=2": { "model": "block/unused_block" },
-    "persistent=false,distance=3": { "model": "block/unused_block" },
-    "persistent=false,distance=4": { "model": "block/unused_block" },
+    "persistent=false,distance=1": [
+      { "model": "block/mithril_ore_stone_dense" },
+      { "model": "block/mithril_ore_stone_dense_2" },
+      { "model": "block/mithril_ore_stone_dense_3" },
+      { "model": "block/mithril_ore_stone_dense_4" },
+      { "model": "block/mithril_ore_stone_dense_5" }
+    ],
+    "persistent=false,distance=2": [
+      { "model": "block/mithril_ore_stone" },
+      { "model": "block/mithril_ore_stone_2" },
+      { "model": "block/mithril_ore_stone_3" },
+      { "model": "block/mithril_ore_stone_4" }
+    ],
+    "persistent=false,distance=3": [
+      { "model": "block/mithril_ore_stone_dark_dense" },
+      { "model": "block/mithril_ore_stone_dark_dense_2" },
+      { "model": "block/mithril_ore_stone_dark_dense_3" },
+      { "model": "block/mithril_ore_stone_dark_dense_4" },
+      { "model": "block/mithril_ore_stone_dark_dense_5" }
+    ],
+    "persistent=false,distance=4": [
+      { "model": "block/mithril_ore_stone_dark" },
+      { "model": "block/mithril_ore_stone_dark_2" },
+      { "model": "block/mithril_ore_stone_dark_3" },
+      { "model": "block/mithril_ore_stone_dark_4" }
+    ],
     "persistent=false,distance=5": { "model": "block/unused_block" },
     "persistent=false,distance=6": { "model": "block/unused_block" },
     "persistent=false,distance=7": { "model": "block/unused_block" },

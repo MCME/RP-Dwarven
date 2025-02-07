@@ -44,10 +44,11 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [30, 40, 0],
-			"scale": [0.71, 0.71, 0.71]
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
 		},
 		"head": {
 			"rotation": [0, 180, 0],

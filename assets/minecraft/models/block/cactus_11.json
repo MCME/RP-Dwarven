@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
 	"textures": {
 		"0": "block/oak_planks_models",
 		"1": "block/oak_planks_models_vertical",

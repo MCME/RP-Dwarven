@@ -229,16 +229,16 @@
 	{ "model": "block/ground_hide_2", "y":270}
 	],
     ",powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
-	  "model": "block/unused_cross_0", "y":90
+	  "model": "block/gandalf_sigil", "y":90
 	},
     "powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_cross_0"
+	  "model": "block/gandalf_sigil"
 	},
 	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
-	  "model": "block/unused_cross_0", "y":180
+	  "model": "block/gandalf_sigil", "y":180
 	},
 	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "block/unused_cross_0", "y":180
+	  "model": "block/gandalf_sigil", "y":270
 	},
 	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
 	  "model": "block/unused_cross_0" 
