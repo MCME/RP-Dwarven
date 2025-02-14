@@ -1,6 +1,6 @@
 {
   "variants": {
-    "east=false,north=false,south=false,west=false": { "model": "block/unused_cross_0" },
+    "east=false,north=false,south=false,west=false": { "model": "block/window_metal_diagonal" },
     "east=false,north=true,south=false,west=false": { "model": "block/magenta_stained_glass_pane_n" },
     "east=true,north=false,south=false,west=false": { "model": "block/magenta_stained_glass_pane_n", "y": 90 },
     "east=false,north=false,south=true,west=false": { "model": "block/magenta_stained_glass_pane_n", "y": 180 },

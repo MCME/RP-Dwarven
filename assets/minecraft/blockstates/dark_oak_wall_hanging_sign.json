@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraft:block/hanging_wooden_signpost"
+    },
+    "facing=south": {
+      "model": "minecraft:block/hanging_wooden_signpost", "y": 180
+    },
+    "facing=west": {
+      "model": "minecraft:block/hanging_wooden_signpost", "y": 270
+    },
+    "facing=east": {
+      "model": "minecraft:block/hanging_wooden_signpost", "y": 90
+    }
+  }
+}
