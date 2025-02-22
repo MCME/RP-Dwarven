@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraft:block/invisible"
+    },
+    "facing=east": {
+      "model": "minecraft:block/invisible", "y":90
+    },
+    "facing=south": {
+      "model": "minecraft:block/invisible", "y":180
+    },
+    "facing=west": {
+      "model": "minecraft:block/invisible", "y":270
+    }
+  }
+}

@@ -224,18 +224,18 @@
 		]},
 			{ "when": {"north": false, "west": false, "south":true, "east": true, "up": true, "down": false },
 		"apply": [
-		{ "model": "block/red_mushroom_block_esu", "weight": 1 },
-		{ "model": "block/red_mushroom_block_esu_2", "weight": 1 },
-		{ "model": "block/red_mushroom_block_esu_3", "weight": 1 },
-		{ "model": "block/red_mushroom_block_esu_4", "weight": 1 },
-		{ "model": "block/red_mushroom_block_esu_5", "weight": 1 }
+		{ "model": "block/unused_block", "weight": 1 },
+		{ "model": "block/unused_block", "weight": 1 },
+		{ "model": "block/unused_block", "weight": 1 },
+		{ "model": "block/unused_block", "weight": 1 },
+		{ "model": "block/unused_block", "weight": 1 }
 	]},
 				{ "when": {"north": false, "west": false, "south":true, "east": true, "up": true, "down": true },
 		"apply": [
-		{ "model": "block/red_mushroom_block_esud", "weight": 1 },
-		{ "model": "block/red_mushroom_block_esud_2", "weight": 1 },
-		{ "model": "block/red_mushroom_block_esud_3", "weight": 1 },
-		{ "model": "block/red_mushroom_block_esud_4", "weight": 1 }
+		{ "model": "block/unused_block", "weight": 1 },
+		{ "model": "block/unused_block", "weight": 1 },
+		{ "model": "block/unused_block", "weight": 1 },
+		{ "model": "block/unused_block", "weight": 1 }
 	]},
 	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": false, "down": false	 },
 		"apply": [
