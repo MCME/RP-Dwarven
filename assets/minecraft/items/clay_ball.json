@@ -4050,35 +4050,35 @@
                 "threshold": 578,
                 "model": {
                     "type": "model",
-                    "model": "block/hanging_wood_sign_small"
+                    "model": "block/hanging_wooden_signpost_small"
                 }
             },
             {
                 "threshold": 579,
                 "model": {
                     "type": "model",
-                    "model": "block/hanging_wood_sign"
+                    "model": "block/hanging_wooden_signpost"
                 }
             },
             {
                 "threshold": 580,
                 "model": {
                     "type": "model",
-                    "model": "block/hanging_metal_sign_small"
+                    "model": "block/hanging_metal_signpost_small"
                 }
             },
             {
                 "threshold": 581,
                 "model": {
                     "type": "model",
-                    "model": "block/hanging_sign"
+                    "model": "block/unused_block"
                 }
             },
             {
                 "threshold": 582,
                 "model": {
                     "type": "model",
-                    "model": "block/hanging_sign_damaged"
+                    "model": "block/unused_block"
                 }
             },
             {
@@ -4331,6 +4331,118 @@
                 "model": {
                     "type": "model",
                     "model": "block/cooking_pot_hanging"
+                }
+            },
+            {
+                "threshold": 619,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_wooden_sign"
+                }
+            },
+            {
+                "threshold": 620,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_wooden_sign_alt"
+                }
+            },
+            {
+                "threshold": 621,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_wooden_sign_alt_long"
+                }
+            },
+            {
+                "threshold": 622,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_framed_sign"
+                }
+            },
+            {
+                "threshold": 623,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_framed_sign_alt"
+                }
+            },
+            {
+                "threshold": 624,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_framed_sign_alt_long"
+                }
+            },
+            {
+                "threshold": 625,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_sign"
+                }
+            },
+            {
+                "threshold": 626,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_sign_alt"
+                }
+            },
+            {
+                "threshold": 627,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_sign_alt_long"
+                }
+            },
+            {
+                "threshold": 628,
+                "model": {
+                    "type": "model",
+                    "model": "block/framed_sign"
+                }
+            },
+            {
+                "threshold": 629,
+                "model": {
+                    "type": "model",
+                    "model": "block/framed_sign_alt"
+                }
+            },
+            {
+                "threshold": 630,
+                "model": {
+                    "type": "model",
+                    "model": "block/framed_sign_alt_long"
+                }
+            },
+            {
+                "threshold": 631,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_wooden_sign_damaged"
+                }
+            },
+            {
+                "threshold": 632,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_sign_chains"
+                }
+            },
+            {
+                "threshold": 633,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_invisible_sign"
+                }
+            },
+            {
+                "threshold": 634,
+                "model": {
+                    "type": "model",
+                    "model": "block/invisible_sign"
                 }
             }
         ]
