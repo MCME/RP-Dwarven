@@ -3,7 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"2": "block/hanging_sign_wooden"
+		"2": "block/hanging_sign_wooden",
+		"particle": "#2"
 	},
 	"elements": [
 		{

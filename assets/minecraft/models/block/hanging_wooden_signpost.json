@@ -3,7 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [48, 48],
 	"textures": {
-		"2": "block/hanging_wooden_signpost"
+		"2": "block/hanging_wooden_signpost",
+		"particle": "#2"
 	},
 	"elements": [
 		{
@@ -51,13 +52,14 @@
 			"scale": [0.69, 0.69, 0.69]
 		},
 		"firstperson_righthand": {
-			"translation": [4.75, 0, 0],
-			"scale": [0.53, 0.53, 0.53]
+			"rotation": [0, 15, 0],
+			"translation": [-2.5, 0.75, 3],
+			"scale": [0.2, 0.2, 0.2]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"translation": [-6, -3.75, 0],
-			"scale": [0.58, 0.58, 0.58]
+			"rotation": [30, 44, 0],
+			"translation": [2, -2.5, 0],
+			"scale": [0.5, 0.5, 0.5]
 		}
 	},
 	"groups": [

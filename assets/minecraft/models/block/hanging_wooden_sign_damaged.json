@@ -3,7 +3,7 @@
 	"ambientocclusion": false,
 	"textures": {
 		"0": "block/hanging_sign_wooden",
-		"particle": "block/hanging_sign_wooden"
+		"particle": "#0"
 	},
 	"elements": [
 		{
@@ -142,13 +142,12 @@
 	],
 	"display": {
 		"firstperson_righthand": {
-			"translation": [6.75, 0, 0],
-			"scale": [0.55, 0.55, 0.55]
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [-4, -3.5, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"scale": [0.72, 0.72, 0.72]
 		}
 	},
 	"groups": [

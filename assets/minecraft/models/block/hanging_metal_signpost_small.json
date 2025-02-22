@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"3": "block/raw_copper_block",
-		"particle": "block/raw_copper_block"
+		"particle": "#3"
 	},
 	"elements": [
 		{
@@ -47,13 +47,13 @@
 	],
 	"display": {
 		"firstperson_righthand": {
-			"translation": [4, 4.75, 0],
-			"scale": [0.43, 0.43, 0.43]
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"translation": [-3.75, -0.75, 0],
-			"scale": [0.76, 0.76, 0.76]
+			"rotation": [30, 44, 0],
+			"translation": [-1.25, 1.25, 0],
+			"scale": [0.625, 0.625, 0.625]
 		}
 	},
 	"groups": [
