@@ -4444,6 +4444,13 @@
                     "type": "model",
                     "model": "block/invisible_sign"
                 }
+            },
+            {
+                "threshold": 635,
+                "model": {
+                    "type": "model",
+                    "model": "block/cage"
+                }
             }
         ]
     }
