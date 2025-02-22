@@ -4,11 +4,11 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"2": "block/hanging_sign_wooden",
-		"particle": "#2"
+		"particle": "block/hanging_sign_wooden"
 	},
 	"elements": [
 		{
-			"from": [1.07813, 3.5, 14.17187],
+			"from": [1.07813, 3.5, 14.27187],
 			"to": [15.07813, 13.5, 15.92187],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16.07813, 11.5, 14]},
 			"faces": {
