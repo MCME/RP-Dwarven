@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "powered=false,facing=south,in_wall=false,open=true": { "model": "block/unused_block" },
+    "powered=false,facing=west,in_wall=false,open=true": { "model": "block/unused_block", "y": 90, "uvlock": true },
+    "powered=false,facing=north,in_wall=false,open=true": { "model": "block/unused_block", "y": 180, "uvlock": true },
+    "powered=false,facing=east,in_wall=false,open=true": { "model": "block/unused_block", "y": 270, "uvlock": true },
+    "powered=false,facing=south,in_wall=false,open=false": [
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true }
+	],
+    "powered=false,facing=west,in_wall=false,open=false": [
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true }
+	],
+    "powered=false,facing=north,in_wall=false,open=false": [
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true }
+	],
+    "powered=false,facing=east,in_wall=false,open=false": [
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true }
+	],
+    "powered=false,facing=south,in_wall=true,open=false": [
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true },
+	{ "model": "block/unused_block", "uvlock": true }
+	],
+    "powered=false,facing=west,in_wall=true,open=false": [
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true }
+	],
+    "powered=false,facing=north,in_wall=true,open=false": [
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true }
+	],
+    "powered=false,facing=east,in_wall=true,open=false": [
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true }
+	],
+    "powered=false,facing=south,in_wall=true,open=true": [
+	{ "model": "block/unused_block" },
+	{ "model": "block/unused_block" },
+	{ "model": "block/unused_block" }
+	],
+    "powered=false,facing=west,in_wall=true,open=true": [
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true },
+	{ "model": "block/unused_block", "y": 90, "uvlock": true }
+	],
+    "powered=false,facing=north,in_wall=true,open=true": [
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true },
+	{ "model": "block/unused_block", "y": 180, "uvlock": true }
+	],
+    "powered=false,facing=east,in_wall=true,open=true": [
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true },
+	{ "model": "block/unused_block", "y": 270, "uvlock": true }
+	],
+    "powered=true,facing=north,in_wall=false,open=false":  { "model": "block/pillar_top_tuff_half", "uvlock": true },
+    "powered=true,facing=east,in_wall=false,open=false":  { "model": "block/pillar_top_tuff_half", "y": 90, "uvlock": true },
+    "powered=true,facing=south,in_wall=false,open=false":  { "model": "block/pillar_top_tuff_half", "y": 180, "uvlock": true },
+    "powered=true,facing=west,in_wall=false,open=false":  { "model": "block/pillar_top_tuff_half", "y": 270, "uvlock": true },
+    "powered=true,facing=south,in_wall=false,open=true": { "model": "block/pillar_half_tuff_3" },
+    "powered=true,facing=west,in_wall=false,open=true": { "model": "block/pillar_half_tuff_3", "y": 90, "uvlock": true },
+    "powered=true,facing=north,in_wall=false,open=true": { "model": "block/pillar_half_tuff_3", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=false,open=true": { "model": "block/pillar_half_tuff_3", "y": 270, "uvlock": true },
+    "powered=true,facing=south,in_wall=true,open=false": { "model": "block/pillar_half_tuff_2" },
+    "powered=true,facing=west,in_wall=true,open=false": { "model": "block/pillar_half_tuff_2", "y": 90, "uvlock": true },
+    "powered=true,facing=north,in_wall=true,open=false": { "model": "block/pillar_half_tuff_2", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=true,open=false": { "model": "block/pillar_half_tuff_2", "y": 270, "uvlock": true },
+    "powered=true,facing=south,in_wall=true,open=true": { "model": "block/pillar_half_tuff" },
+    "powered=true,facing=west,in_wall=true,open=true": { "model": "block/pillar_half_tuff", "y": 90, "uvlock": true }, 
+    "powered=true,facing=north,in_wall=true,open=true": { "model": "block/pillar_half_tuff", "y": 180, "uvlock": true },
+    "powered=true,facing=east,in_wall=true,open=true": { "model": "block/pillar_half_tuff", "y": 270, "uvlock": true }
+  }
+}
