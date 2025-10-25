@@ -4260,14 +4260,14 @@
                 "threshold": 608,
                 "model": {
                     "type": "model",
-                    "model": "block/pillar_top_half_3"
+                    "model": "block/pillar_half_3"
                 }
             },
             {
                 "threshold": 609,
                 "model": {
                     "type": "model",
-                    "model": "block/pillar_top_half"
+                    "model": "block/pillar_half"
                 }
             },
             {
@@ -4450,6 +4450,181 @@
                 "model": {
                     "type": "model",
                     "model": "block/cage"
+                }
+            },
+			{
+                "threshold": 636,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_tuff_half"
+                }
+            },
+			{
+                "threshold": 637,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_wall_nsew"
+                }
+            },
+			{
+                "threshold": 638,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_bottom_polished_tuff"
+                }
+            },
+			{
+                "threshold": 639,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_tuff"
+                }
+            },
+			{
+                "threshold": 640,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_tuff_2"
+                }
+            },
+			{
+                "threshold": 641,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_h_wedge"
+                }
+            },
+			{
+                "threshold": 642,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_n"
+                }
+            },
+			{
+                "threshold": 643,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_corner"
+                }
+            },
+			{
+                "threshold": 644,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_wall_ne"
+                }
+            },
+			{
+                "threshold": 645,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_wall_n"
+                }
+            },
+			{
+                "threshold": 646,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_wall"
+                }
+            },
+			{
+                "threshold": 647,
+                "model": {
+                    "type": "model",
+                    "model": "item/polished_tuff_wall_arch"
+                }
+            },
+			{
+                "threshold": 648,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_tuff_wall_wedge"
+                }
+            },
+			{
+                "threshold": 649,
+                "model": {
+                    "type": "model",
+                    "model": "block/mangrove_trapdoor_polished_tuff"
+                }
+            },
+			{
+                "threshold": 650,
+                "model": {
+                    "type": "model",
+                    "model": "item/polished_tuff_trapdoor"
+                }
+            },
+			{
+                "threshold": 651,
+                "model": {
+                    "type": "model",
+                    "model": "block/rim_tuff"
+                }
+            },
+			{
+                "threshold": 652,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_half_tuff_3"
+                }
+            },
+			{
+                "threshold": 653,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_tuff_half"
+                }
+            },
+			{
+                "threshold": 654,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_half_tuff_2"
+                }
+            },
+			{
+                "threshold": 655,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_half_tuff"
+                }
+            },
+			{
+                "threshold": 656,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_slab_pillar_tuff"
+                }
+            },
+			{
+                "threshold": 657,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_slab_pillar_tuff_2"
+                }
+            },
+			{
+                "threshold": 658,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_slab_pillar_tuff_3"
+                }
+            },
+			{
+                "threshold": 659,
+                "model": {
+                    "type": "model",
+                    "model": "block/rim_tuff_down"
+                }
+            },
+			{
+                "threshold": 660,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_tuff_thin"
                 }
             }
         ]
