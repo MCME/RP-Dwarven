@@ -1,6 +1,6 @@
 {
     "parent": "block/thin_slab",
     "textures": {
-        "side": "block/quartz_block2"
+        "side": "block/quartz_block_3"
     }   
 }
