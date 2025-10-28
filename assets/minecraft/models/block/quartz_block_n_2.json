@@ -1,0 +1,7 @@
+{
+  "parent": "block/deco_parent_n",
+  "textures": {
+    "base": "block/quartz_block_2",
+    "particle": "block/quartz_block_2"
+  }
+}
