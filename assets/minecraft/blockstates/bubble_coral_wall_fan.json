@@ -3,30 +3,22 @@
     "facing=north": [
       { "model": "block/red_banner", "uvlock": false, "y": 90 },
       { "model": "block/red_banner1", "uvlock": false, "y": 90 },
-      { "model": "block/red_banner2", "uvlock": false, "y": 90 },
-      { "model": "block/red_banner3", "uvlock": false, "y": 90 },
-      { "model": "block/red_banner4", "uvlock": false, "y": 90 }
+      { "model": "block/red_banner2", "uvlock": false, "y": 90 }
     ],
     "facing=east": [
       { "model": "block/red_banner", "uvlock": false, "y": 180 },
       { "model": "block/red_banner1", "uvlock": false, "y": 180 },
-      { "model": "block/red_banner2", "uvlock": false, "y": 180 },
-      { "model": "block/red_banner3", "uvlock": false, "y": 180 },
-      { "model": "block/red_banner4", "uvlock": false, "y": 180 }
+      { "model": "block/red_banner2", "uvlock": false, "y": 180 }
     ],
     "facing=south": [
       { "model": "block/red_banner", "uvlock": false, "y": 270 },
       { "model": "block/red_banner1", "uvlock": false, "y": 270 },
-      { "model": "block/red_banner2", "uvlock": false, "y": 270 },
-      { "model": "block/red_banner3", "uvlock": false, "y": 270 },
-      { "model": "block/red_banner4", "uvlock": false, "y": 270 }
+      { "model": "block/red_banner2", "uvlock": false, "y": 270 }
     ],
     "facing=west": [
       { "model": "block/red_banner", "uvlock": false },
       { "model": "block/red_banner1", "uvlock": false },
-      { "model": "block/red_banner2", "uvlock": false },
-      { "model": "block/red_banner3", "uvlock": false },
-      { "model": "block/red_banner4", "uvlock": false }
+      { "model": "block/red_banner2", "uvlock": false }
     ]
   }
 }
