@@ -1,10 +1,18 @@
 {
     "variants": {
-        "facing=north,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=north,half=bottom,open=false,powered=false": [
+            { "model": "block/thin_slab_mossy_cobblestone", "x": 90 },
+            { "model": "block/thin_slab_mossy_cobblestone_2", "x": 90 },
+            { "model": "block/thin_slab_mossy_cobblestone_3", "x": 90 }
+        ],
         "facing=south,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=east,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=west,half=bottom,open=false,powered=false": { "model": "block/unused_cross_0" },
-        "facing=north,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
+        "facing=north,half=top,open=false,powered=false": [
+            { "model": "block/thin_slab_mossy_cobblestone", "x": 270 },
+            { "model": "block/thin_slab_mossy_cobblestone_2", "x": 270 },
+            { "model": "block/thin_slab_mossy_cobblestone_3", "x": 270 }
+        ],
         "facing=south,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=east,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
         "facing=west,half=top,open=false,powered=false": { "model": "block/unused_cross_0" },
