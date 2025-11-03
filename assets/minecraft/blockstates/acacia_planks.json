@@ -6,7 +6,11 @@
 	{ "model": "block/acacia_planks_2" },
 	{ "model": "block/acacia_planks_2", "y": 180 },
 	{ "model": "block/acacia_planks_3" },
-	{ "model": "block/acacia_planks_3", "y": 180 }
+	{ "model": "block/acacia_planks_3", "y": 180 },
+	{ "model": "block/acacia_planks_4" },
+	{ "model": "block/acacia_planks_4", "y": 180 },
+	{ "model": "block/acacia_planks_5" },
+	{ "model": "block/acacia_planks_5", "y": 180 }
 	]
   }
 }

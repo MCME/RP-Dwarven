@@ -1,8 +1,19 @@
 {
-  "variants": {
-    "type=bottom": { "model": "block/acacia_slab" },
-    "type=top": { "model": "block/acacia_slab_top" },
-    "waterlogged=false,type=double": { "model": "block/unused_block" },
-    "waterlogged=true,type=double": { "model": "block/unused_block"}
-  }
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/acacia_slab" },
+			{ "model": "block/acacia_slab_2" },
+			{ "model": "block/acacia_slab_3" },
+			{ "model": "block/acacia_slab_4" },
+			{ "model": "block/acacia_slab_5" }
+			],
+			"type=double": { "model": "block/unused_block" },
+        "type=top": [
+			{ "model": "block/acacia_slab", "x": 180 },
+			{ "model": "block/acacia_slab_2", "x": 180 },
+			{ "model": "block/acacia_slab_3", "x": 180 },
+			{ "model": "block/acacia_slab_4", "x": 180 },
+			{ "model": "block/acacia_slab_5", "x": 180 }
+			]
+    }
 }
