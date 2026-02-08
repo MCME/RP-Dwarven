@@ -1,7 +1,10 @@
 {
   "pack": {
-    "pack_format": 46,
-    "description": "MCME Dwarven 2.7.2"
+    "pack_format": 15,
+    "supported_formats": [15, 255],
+    "min_format": 15,
+    "max_format": 255,
+    "description": "MCME Dwarven v2.7.5"
   },
   "meta": {
     "game_version": "1.21.4"
