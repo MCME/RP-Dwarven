@@ -12,6 +12,9 @@
 		"instrument=harp,note=9,powered=false,": { "model":"block/pillar_top_tuff" },
 		"instrument=harp,note=10,powered=false,": { "model":"block/pillar_bottom_polished_tuff" },
 		"instrument=harp,note=11,powered=false,": { "model":"block/pillar_top_tuff_2" },
+		"instrument=harp,note=12,powered=false,": { "model":"block/pillar_top_green" },
+		"instrument=harp,note=13,powered=false,": { "model":"block/pillar_top_green_2" },
+		"instrument=harp,note=14,powered=false,": { "model":"block/pillar_bottom_green" },
 		"instrument=basedrum,note=0,powered=false,": [
 			{ "model":"block/note_block_1" },
 			{ "model":"block/note_block_2", "y":-90 },

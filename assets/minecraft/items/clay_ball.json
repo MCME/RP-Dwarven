@@ -25,7 +25,7 @@
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "block/nether_wart_3_0"
+                    "model": "block/hourglass"
                 }
             },
             {
@@ -88,7 +88,7 @@
                 "threshold": 12,
                 "model": {
                     "type": "model",
-                    "model": "block/carrots_1_0"
+                    "model": "block/paper"
                 }
             },
             {
@@ -4625,6 +4625,118 @@
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_tuff_thin"
+                }
+            },
+			{
+                "threshold": 661,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_rune_trim_up"
+                }
+            },
+			{
+                "threshold": 662,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_rune_trim_down"
+                }
+            },
+			{
+                "threshold": 663,
+                "model": {
+                    "type": "model",
+                    "model": "block/gold_rail"
+                }
+            },
+			{
+                "threshold": 664,
+                "model": {
+                    "type": "model",
+                    "model": "block/gold_rail_diagonal"
+                }
+            },
+			{
+                "threshold": 665,
+                "model": {
+                    "type": "model",
+                    "model": "block/gold_v_trim"
+                }
+            },
+			{
+                "threshold": 666,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_green"
+                }
+            },
+			{
+                "threshold": 667,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_green_2"
+                }
+            },
+			{
+                "threshold": 668,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_bottom_green"
+                }
+            },
+			{
+                "threshold": 669,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_half_green"
+                }
+            },
+			{
+                "threshold": 670,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_half_green_2"
+                }
+            },
+			{
+                "threshold": 671,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_green_half"
+                }
+            },
+			{
+                "threshold": 672,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_slab_pillar_green"
+                }
+            },
+			{
+                "threshold": 673,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_slab_pillar_green_2"
+                }
+            },
+			{
+                "threshold": 674,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_thin_green"
+                }
+            },
+			{
+                "threshold": 675,
+                "model": {
+                    "type": "model",
+                    "model": "block/rim_green"
+                }
+            },
+			{
+                "threshold": 676,
+                "model": {
+                    "type": "model",
+                    "model": "block/rim_green_down"
                 }
             }
         ]
