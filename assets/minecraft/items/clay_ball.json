@@ -4738,6 +4738,13 @@
                     "type": "model",
                     "model": "block/rim_green_down"
                 }
+            },
+			{
+                "threshold": 677,
+                "model": {
+                    "type": "model",
+                    "model": "block/purple_stained_glass_pane_diagonal"
+                }
             }
         ]
     }
