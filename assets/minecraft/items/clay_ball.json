@@ -4759,6 +4759,20 @@
                     "type": "model",
                     "model": "block/diagonal_wedge_slab_right"
                 }
+            },
+			{
+                "threshold": 680,
+                "model": {
+                    "type": "model",
+                    "model": "block/diagonal_wedge_slab_2"
+                }
+            },
+			{
+                "threshold": 681,
+                "model": {
+                    "type": "model",
+                    "model": "block/diagonal_wedge_slab_right_2"
+                }
             }
         ]
     }

@@ -1,7 +1,7 @@
 {
   "parent": "block/stone_slab_arch_parent",
   "textures": {
-    "0": "block/bricks_composite",
-	"particle": "block/bricks"
+    "0": "block/quartz_block_composite",
+	"particle": "block/quartz_block"
   }
 }
