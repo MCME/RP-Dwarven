@@ -4745,6 +4745,20 @@
                     "type": "model",
                     "model": "block/purple_stained_glass_pane_ne"
                 }
+            },
+			{
+                "threshold": 678,
+                "model": {
+                    "type": "model",
+                    "model": "block/diagonal_wedge_slab"
+                }
+            },
+			{
+                "threshold": 679,
+                "model": {
+                    "type": "model",
+                    "model": "block/diagonal_wedge_slab_right"
+                }
             }
         ]
     }

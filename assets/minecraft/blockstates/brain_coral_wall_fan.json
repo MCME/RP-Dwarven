@@ -1,24 +1,16 @@
 {
   "variants": {
     "facing=north": [
-      { "model": "block/blue_banner", "uvlock": false, "y": 90 },
-      { "model": "block/blue_banner1", "uvlock": false, "y": 90 },
-      { "model": "block/blue_banner2", "uvlock": false, "y": 90 }
+      { "model": "block/blue_banner", "uvlock": false, "y": 90 }
     ],
     "facing=east": [
-      { "model": "block/blue_banner", "uvlock": false, "y": 180 },
-      { "model": "block/blue_banner1", "uvlock": false, "y": 180 },
-      { "model": "block/blue_banner2", "uvlock": false, "y": 180 }
+      { "model": "block/blue_banner", "uvlock": false, "y": 180 }
     ],
     "facing=south": [
-      { "model": "block/blue_banner", "uvlock": false, "y": 270 },
-      { "model": "block/blue_banner1", "uvlock": false, "y": 270 },
-      { "model": "block/blue_banner2", "uvlock": false, "y": 270 }
+      { "model": "block/blue_banner", "uvlock": false, "y": 270 }
     ],
     "facing=west": [
-      { "model": "block/blue_banner", "uvlock": false },
-      { "model": "block/blue_banner1", "uvlock": false },
-      { "model": "block/blue_banner2", "uvlock": false }
+      { "model": "block/blue_banner", "uvlock": false }
     ]
   }
 }
