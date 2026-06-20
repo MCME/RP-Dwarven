@@ -1,0 +1,49 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/gold_wall_deco_horizontal_2",
+		"particle": "block/gold_wall_deco_horizontal"
+	},
+	"elements": [
+		{
+			"from": [13.71891, -11.0547, 0.15],
+			"to": [17.46891, -1.3047, 0.25],
+			"rotation": {"angle": 0, "axis": "z", "origin": [13.06891, -6.1547, 0.225]},
+			"faces": {
+				"south": {"uv": [0, 0, 4, 9.75], "texture": "#2"}
+			}
+		},
+		{
+			"from": [13, -0.25, 0.2],
+			"to": [22, 15.75, 0.3],
+			"rotation": {"angle": -45, "axis": "z", "origin": [-1.25, 6.75, 0.075]},
+			"faces": {
+				"south": {"uv": [0, 0, 10, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-3.25, -0.25, 0.175],
+			"to": [13, 15.75, 0.275],
+			"rotation": {"angle": -45, "axis": "z", "origin": [-1.25, 6.75, 0.075]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"translation": [0, 5.5, 0],
+			"scale": [0.74, 0.74, 0.74]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [13.06891, -6.1547, 0.225],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

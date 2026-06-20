@@ -4773,6 +4773,27 @@
                     "type": "model",
                     "model": "block/diagonal_wedge_slab_right_2"
                 }
+            },
+			{
+                "threshold": 682,
+                "model": {
+                    "type": "model",
+                    "model": "block/gold_rail_down"
+                }
+            },
+			{
+                "threshold": 683,
+                "model": {
+                    "type": "model",
+                    "model": "block/gold_wall_deco_horizontal_diag_left"
+                }
+            },
+			{
+                "threshold": 684,
+                "model": {
+                    "type": "model",
+                    "model": "block/gold_wall_deco_horizontal_diag_right"
+                }
             }
         ]
     }
