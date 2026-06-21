@@ -4794,6 +4794,41 @@
                     "type": "model",
                     "model": "block/gold_wall_deco_horizontal_diag_right"
                 }
+            },
+			{
+                "threshold": 685,
+                "model": {
+                    "type": "model",
+                    "model": "block/white_marble_tile_border"
+                }
+            },
+			{
+                "threshold": 686,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_block_gold_stripe"
+                }
+            },
+			{
+                "threshold": 687,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_block_gold_cross"
+                }
+            },
+			{
+                "threshold": 688,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_block_dark_stripe"
+                }
+            },
+			{
+                "threshold": 689,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_block_dark_cross"
+                }
             }
         ]
     }
