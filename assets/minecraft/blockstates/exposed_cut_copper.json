@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {"model": "block/exposed_cut_copper"},
+	  {"model": "block/exposed_cut_copper_2"},
+	  {"model": "block/exposed_cut_copper_3"}
+    ]
+  }
+}
