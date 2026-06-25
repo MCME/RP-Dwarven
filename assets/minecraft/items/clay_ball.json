@@ -4829,6 +4829,13 @@
                     "type": "model",
                     "model": "block/quartz_block_dark_cross"
                 }
+            },
+			{
+                "threshold": 690,
+                "model": {
+                    "type": "model",
+                    "model": "block/bookshelf_green"
+                }
             }
         ]
     }
