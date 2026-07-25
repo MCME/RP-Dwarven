@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "candles=1,lit=false": [
+	  {"model": "minecraft:block/gold_item_15"},
+      {"model": "minecraft:block/gold_item_15", "y": 90},
+      {"model": "minecraft:block/gold_item_15", "y": 180},
+      {"model": "minecraft:block/gold_item_15", "y": 270}
+    ],
+    "candles=1,lit=true": {
+      "model": "minecraft:block/light_blue_candle_one_candle_lit"
+    },
+    "candles=2,lit=false": [
+      {"model": "minecraft:block/gold_item_5"},
+      {"model": "minecraft:block/gold_item_5", "y": 90},
+      {"model": "minecraft:block/gold_item_5", "y": 180},
+      {"model": "minecraft:block/gold_item_5", "y": 270}
+	  ],
+    "candles=2,lit=true": {
+      "model": "minecraft:block/light_blue_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": [
+	  {"model": "minecraft:block/gold_item_12"},
+      {"model": "minecraft:block/gold_item_12", "y": 90},
+      {"model": "minecraft:block/gold_item_12", "y": 180},
+      {"model": "minecraft:block/gold_item_12", "y": 270}
+    ],
+    "candles=3,lit=true": {
+      "model": "minecraft:block/light_blue_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": [
+	  {"model": "minecraft:block/gold_item_13"},
+      {"model": "minecraft:block/gold_item_13", "y": 90},
+      {"model": "minecraft:block/gold_item_13", "y": 180},
+      {"model": "minecraft:block/gold_item_13", "y": 270},
+	  {"model": "minecraft:block/gold_item_14"},
+      {"model": "minecraft:block/gold_item_14", "y": 90},
+      {"model": "minecraft:block/gold_item_14", "y": 180},
+      {"model": "minecraft:block/gold_item_14", "y": 270}
+	],
+    "candles=4,lit=true": {
+      "model": "minecraft:block/yellow_candle_four_candles_lit"
+    }
+  }
+}

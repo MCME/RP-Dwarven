@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "candles=1,lit=false": [
+	  {"model": "minecraft:block/gold_item_7"},
+      {"model": "minecraft:block/gold_item_7", "y": 90},
+      {"model": "minecraft:block/gold_item_7", "y": 180},
+      {"model": "minecraft:block/gold_item_7", "y": 270}
+  ],
+    "candles=1,lit=true": {
+      "model": "minecraft:block/light_blue_candle_one_candle_lit"
+    },
+    "candles=2,lit=false": [
+	{"model": "minecraft:block/gold_item"},
+      {"model": "minecraft:block/gold_item", "y": 90},
+      {"model": "minecraft:block/gold_item", "y": 180},
+      {"model": "minecraft:block/gold_item", "y": 270},
+	  {"model": "minecraft:block/gold_item_2"},
+      {"model": "minecraft:block/gold_item_2", "y": 90},
+      {"model": "minecraft:block/gold_item_2", "y": 180},
+      {"model": "minecraft:block/gold_item_2", "y": 270},
+	  {"model": "minecraft:block/gold_item_3"},
+      {"model": "minecraft:block/gold_item_3", "y": 90},
+      {"model": "minecraft:block/gold_item_3", "y": 180},
+      {"model": "minecraft:block/gold_item_3", "y": 270}
+	  ],
+    "candles=2,lit=true": {
+      "model": "minecraft:block/light_blue_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": [
+	  {"model": "minecraft:block/gold_item_8"},
+      {"model": "minecraft:block/gold_item_8", "y": 90},
+      {"model": "minecraft:block/gold_item_8", "y": 180},
+      {"model": "minecraft:block/gold_item_8", "y": 270},
+	  {"model": "minecraft:block/gold_item_10"},
+      {"model": "minecraft:block/gold_item_10", "y": 90},
+      {"model": "minecraft:block/gold_item_10", "y": 180},
+      {"model": "minecraft:block/gold_item_10", "y": 270}
+    ],
+    "candles=3,lit=true": {
+      "model": "minecraft:block/light_blue_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": [
+	  {"model": "minecraft:block/gold_item_9"},
+      {"model": "minecraft:block/gold_item_9", "y": 90},
+      {"model": "minecraft:block/gold_item_9", "y": 180},
+      {"model": "minecraft:block/gold_item_9", "y": 270}
+	],
+    "candles=4,lit=true": {
+      "model": "minecraft:block/yellow_candle_four_candles_lit"
+    }
+  }
+}

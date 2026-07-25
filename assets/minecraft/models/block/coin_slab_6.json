@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "block/amethyst_block_4",
+    "top": "block/amethyst_block_4",
+    "side": "block/amethyst_block_4"
+  }
+}

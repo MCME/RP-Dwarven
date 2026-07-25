@@ -1,0 +1,24 @@
+{
+  "variants": {
+	    "facing=north,half=upper,hinge=right,open=false,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_down", "y": 270 },
+		"facing=north,half=upper,hinge=right,open=true,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_up", "y": 90 },
+		"facing=west,half=upper,hinge=right,open=false,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_down", "y": 180 },
+		"facing=west,half=upper,hinge=right,open=true,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_up" },
+		"facing=north,half=upper,hinge=right,open=false,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_down", "y": 270 },
+		"facing=north,half=upper,hinge=right,open=true,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_up", "y": 90 },
+		"facing=east,half=upper,hinge=right,open=false,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_down" },
+		"facing=east,half=upper,hinge=right,open=true,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_up", "y": 180 },
+		"facing=south,half=upper,hinge=right,open=false,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_down", "y": 90 },
+		"facing=south,half=upper,hinge=right,open=true,powered=true": 
+		{ "model": "minecraft:block/coin_block_offset_up", "y":270 }
+  }
+}

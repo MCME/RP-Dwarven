@@ -1,0 +1,9 @@
+{
+    "parent": "block/vertical_slab",
+    "textures": {
+        "side": "block/amethyst_block_3",
+		"top": "block/amethyst_block_3",
+		"bottom": "block/amethyst_block_3"
+    }
+    
+}
