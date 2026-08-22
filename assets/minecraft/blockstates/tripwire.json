@@ -249,16 +249,16 @@
 	  "model": "block/white_marble_tile_border", "y":270
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=false": {
-	  "model": "block/unused_cross_0", "y":90
+	  "model": "block/white_marble_tile_border_straight", "y":90
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "block/unused_cross_0" 
+	  "model": "block/white_marble_tile_border_straight", "y":180 
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "block/unused_cross_0", "y":90
+	  "model": "block/white_marble_tile_border_straight", "y":270
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_cross_0"
+	  "model": "block/white_marble_tile_border_straight"
 	},
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
 	  "model": "block/unused_cross_0"

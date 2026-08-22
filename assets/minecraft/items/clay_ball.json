@@ -4836,6 +4836,13 @@
                     "type": "model",
                     "model": "block/bookshelf_green"
                 }
+            },
+			{
+                "threshold": 691,
+                "model": {
+                    "type": "model",
+                    "model": "block/white_marble_tile_border_straight"
+                }
             }
         ]
     }
