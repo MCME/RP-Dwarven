@@ -4626,6 +4626,90 @@
                     "type": "model",
                     "model": "block/pillar_top_tuff_thin"
                 }
+            },
+			{
+                "threshold": 661,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_white_terracotta"
+                }
+            },
+			{
+                "threshold": 662,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_light_blue_terracotta"
+                }
+            },
+			{
+                "threshold": 663,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_orange_terracotta"
+                }
+            },
+			{
+                "threshold": 664,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_purple_concrete"
+                }
+            },
+			{
+                "threshold": 665,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_magenta_terracotta"
+                }
+            },
+			{
+                "threshold": 666,
+                "model": {
+                    "type": "model",
+                    "model": "block/white_terracotta_slab"
+                }
+            },
+			{
+                "threshold": 667,
+                "model": {
+                    "type": "model",
+                    "model": "block/magenta_terracotta_slab"
+                }
+            },
+			{
+                "threshold": 668,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_stairs_white_terracotta"
+                }
+            },
+			{
+                "threshold": 669,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_stairs_magenta_terracotta"
+                }
+            },
+			{
+                "threshold": 670,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_stairs_orange_terracotta"
+                }
+            },
+			{
+                "threshold": 671,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_stairs_light_blue_terracotta"
+                }
+            },
+			{
+                "threshold": 672,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_stairs_purple_concrete"
+                }
             }
         ]
     }
