@@ -1,9 +1,29 @@
 {
   "variants": {
-    "powered=false,facing=south,in_wall=false,open=true": { "model": "block/unused_block" },
-    "powered=false,facing=west,in_wall=false,open=true": { "model": "block/unused_block", "y": 90, "uvlock": true },
-    "powered=false,facing=north,in_wall=false,open=true": { "model": "block/unused_block", "y": 180, "uvlock": true },
-    "powered=false,facing=east,in_wall=false,open=true": { "model": "block/unused_block", "y": 270, "uvlock": true },
+    "powered=false,facing=south,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_white_terracotta", "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_2", "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_3", "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_4", "uvlock": false }
+	],
+    "powered=false,facing=west,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_white_terracotta", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_2", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_3", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_4", "y": 90, "uvlock": false }
+	],
+    "powered=false,facing=north,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_white_terracotta", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_2", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_3", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_4", "y": 180, "uvlock": false }
+	],
+    "powered=false,facing=east,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_white_terracotta", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_2", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_3", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_white_terracotta_4", "y": 270, "uvlock": false }
+	],
     "powered=false,facing=south,in_wall=false,open=false": [
 	{ "model": "block/waxed_exposed_cut_copper_v_slab", "uvlock": true },
 	{ "model": "block/waxed_exposed_cut_copper_v_slab_2", "uvlock": true },
