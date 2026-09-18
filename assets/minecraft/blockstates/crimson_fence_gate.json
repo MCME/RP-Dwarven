@@ -1,84 +1,100 @@
 {
   "variants": {
-    "powered=false,facing=south,in_wall=false,open=true": { "model": "block/unused_block" },
-    "powered=false,facing=west,in_wall=false,open=true": { "model": "block/unused_block", "y": 90, "uvlock": true },
-    "powered=false,facing=north,in_wall=false,open=true": { "model": "block/unused_block", "y": 180, "uvlock": true },
-    "powered=false,facing=east,in_wall=false,open=true": { "model": "block/unused_block", "y": 270, "uvlock": true },
+    "powered=false,facing=south,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_purple_concrete", "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_2", "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_3", "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_4", "uvlock": false }
+	],
+    "powered=false,facing=west,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_purple_concrete", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_2", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_3", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_4", "y": 90, "uvlock": false }
+	],
+    "powered=false,facing=north,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_purple_concrete", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_2", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_3", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_4", "y": 180, "uvlock": false }
+	],
+    "powered=false,facing=east,in_wall=false,open=true": [
+	{ "model": "block/vertical_slab_purple_concrete", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_2", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_3", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_purple_concrete_4", "y": 270, "uvlock": false }
+	],
     "powered=false,facing=south,in_wall=false,open=false": [
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true }
+	{ "model": "block/vertical_slab_magenta_terracotta", "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_2", "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_3", "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_4", "uvlock": false }
 	],
     "powered=false,facing=west,in_wall=false,open=false": [
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true }
+	{ "model": "block/vertical_slab_magenta_terracotta", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_2", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_3", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_4", "y": 90, "uvlock": false }
 	],
     "powered=false,facing=north,in_wall=false,open=false": [
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true }
+	{ "model": "block/vertical_slab_magenta_terracotta", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_2", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_3", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_4", "y": 180, "uvlock": false }
 	],
     "powered=false,facing=east,in_wall=false,open=false": [
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true }
+	{ "model": "block/vertical_slab_magenta_terracotta", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_2", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_3", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_magenta_terracotta_4", "y": 270, "uvlock": false }
 	],
     "powered=false,facing=south,in_wall=true,open=false": [
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true },
-	{ "model": "block/unused_block", "uvlock": true }
+	{ "model": "block/vertical_slab_light_blue_terracotta", "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_2", "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_3", "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_4", "uvlock": false }
 	],
     "powered=false,facing=west,in_wall=true,open=false": [
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true }
+	{ "model": "block/vertical_slab_light_blue_terracotta", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_2", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_3", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_4", "y": 90, "uvlock": false }
 	],
     "powered=false,facing=north,in_wall=true,open=false": [
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true }
+	{ "model": "block/vertical_slab_light_blue_terracotta", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_2", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_3", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_4", "y": 180, "uvlock": false }
 	],
     "powered=false,facing=east,in_wall=true,open=false": [
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true }
+	{ "model": "block/vertical_slab_light_blue_terracotta", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_2", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_3", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_light_blue_terracotta_4", "y": 270, "uvlock": false }
 	],
     "powered=false,facing=south,in_wall=true,open=true": [
-	{ "model": "block/unused_block" },
-	{ "model": "block/unused_block" },
-	{ "model": "block/unused_block" }
+	{ "model": "block/vertical_slab_orange_terracotta" },
+	{ "model": "block/vertical_slab_orange_terracotta_2" },
+	{ "model": "block/vertical_slab_orange_terracotta_3" },
+	{ "model": "block/vertical_slab_orange_terracotta_4" }
 	],
     "powered=false,facing=west,in_wall=true,open=true": [
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true },
-	{ "model": "block/unused_block", "y": 90, "uvlock": true }
+	{ "model": "block/vertical_slab_orange_terracotta", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_2", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_3", "y": 90, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_4", "y": 90, "uvlock": false }
 	],
     "powered=false,facing=north,in_wall=true,open=true": [
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true },
-	{ "model": "block/unused_block", "y": 180, "uvlock": true }
+	{ "model": "block/vertical_slab_orange_terracotta", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_2", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_3", "y": 180, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_4", "y": 180, "uvlock": false }
 	],
     "powered=false,facing=east,in_wall=true,open=true": [
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true },
-	{ "model": "block/unused_block", "y": 270, "uvlock": true }
+	{ "model": "block/vertical_slab_orange_terracotta", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_2", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_3", "y": 270, "uvlock": false },
+	{ "model": "block/vertical_slab_orange_terracotta_4", "y": 270, "uvlock": false }
 	],
     "powered=true,facing=north,in_wall=false,open=false":  { "model": "block/pillar_top_tuff_half", "uvlock": true },
     "powered=true,facing=east,in_wall=false,open=false":  { "model": "block/pillar_top_tuff_half", "y": 90, "uvlock": true },

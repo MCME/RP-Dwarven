@@ -4,7 +4,7 @@
     "supported_formats": [15, 255],
     "min_format": 15,
     "max_format": 255,
-    "description": "MCME Dwarven v2.7.5"
+    "description": "MCME Dwarven v2.7.6"
   },
   "meta": {
     "game_version": "1.21.4"
