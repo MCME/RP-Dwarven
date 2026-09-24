@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "":[
+		{ "model": "block/polished_tuff" },
+		{ "model": "block/polished_tuff_2" },
+		{ "model": "block/polished_tuff_3" }
+		]
+    }
+}

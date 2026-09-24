@@ -9,6 +9,9 @@
 		"instrument=harp,note=6,powered=false,": { "model":"block/pillar_bottom_dark" },
 		"instrument=harp,note=7,powered=false,": { "model":"block/pillar_top_dark" },
 		"instrument=harp,note=8,powered=false,": { "model":"block/pillar_top_dark_2" },
+		"instrument=harp,note=9,powered=false,": { "model":"block/pillar_top_tuff" },
+		"instrument=harp,note=10,powered=false,": { "model":"block/pillar_bottom_polished_tuff" },
+		"instrument=harp,note=11,powered=false,": { "model":"block/pillar_top_tuff_2" },
 		"instrument=basedrum,note=0,powered=false,": [
 			{ "model":"block/note_block_1" },
 			{ "model":"block/note_block_2", "y":-90 },
