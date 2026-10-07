@@ -4,5 +4,12 @@
     "min_format": 88,
     "max_format": 88,
     "description": "MCME Dwarven v2.8.2"
+  },
+  "sodium": {
+    "ignored_shaders": [
+      "fog.glsl",
+      "terrain.fsh",
+      "terrain.vsh"
+    ]
   }
 }
