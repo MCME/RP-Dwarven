@@ -3,7 +3,7 @@
     "pack_format": 88,
     "min_format": 88,
     "max_format": 97,
-    "description": "MCME Dwarven v2.8.3"
+    "description": "MCME Dwarven v2.8.4"
   },
   "sodium": {
     "ignored_shaders": [
