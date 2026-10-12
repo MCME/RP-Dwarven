@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/raw_gold_block_3",
-		"particle": "block/raw_gold_block_3"
+		"0": "block/raw_copper_block_2",
+		"particle": "block/raw_copper_block_2"
 	},
 	"elements": [
 		{

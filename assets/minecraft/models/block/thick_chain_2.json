@@ -1,8 +1,9 @@
 {
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/raw_gold_block_3",
-		"particle": "block/raw_gold_block_3"
+		"0": "block/raw_copper_block",
+		"particle": "block/raw_copper_block"
 	},
 	"elements": [
 		{
@@ -218,6 +219,7 @@
 		{
 			"name": "group",
 			"origin": [8, 14, 9],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				0,
@@ -231,6 +233,7 @@
 				{
 					"name": "group",
 					"origin": [8, 14, 9],
+					"scope": 0,
 					"color": 0,
 					"children": [8, 9, 10, 11, 12, 13, 14, 15]
 				}

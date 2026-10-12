@@ -4843,6 +4843,20 @@
                     "type": "model",
                     "model": "block/white_marble_tile_border_straight"
                 }
+            },
+			{
+                "threshold": 692,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_tall_wedge"
+                }
+            },
+			{
+                "threshold": 693,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_tallest_wedge"
+                }
             }
         ]
     }
