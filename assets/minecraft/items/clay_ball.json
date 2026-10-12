@@ -4857,6 +4857,34 @@
                     "type": "model",
                     "model": "block/quartz_tallest_wedge"
                 }
+            },
+			{
+                "threshold": 694,
+                "model": {
+                    "type": "model",
+                    "model": "block/coin_block_offset_down"
+                }
+            },
+			{
+                "threshold": 695,
+                "model": {
+                    "type": "model",
+                    "model": "block/coin_block_offset_up"
+                }
+            },
+			{
+                "threshold": 696,
+                "model": {
+                    "type": "model",
+                    "model": "block/coin_slab"
+                }
+            },
+			{
+                "threshold": 697,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_coin_block"
+                }
             }
         ]
     }
