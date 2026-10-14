@@ -3,3 +3,6 @@
 #define MCME_MODULE_LAVA
 #moj_import <minecraft:lava_config.glsl>
 #moj_import <minecraft:lava.glsl>
+#define MCME_MODULE_MARBLE
+#moj_import <minecraft:marble_config.glsl>
+#moj_import <minecraft:marble.glsl>

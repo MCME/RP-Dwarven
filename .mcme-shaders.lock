@@ -1,33 +1,41 @@
 {
-  "base": "008c10e",
+  "base": "a509b9a",
   "modules": [
-    "lava"
+    "lava",
+    "marble"
   ],
   "files": {
     "assets/minecraft/shaders/core/lightmap.fsh": "ad66edcfd01c6759b17c8ea5a0b52e845e5e3a3f4512c435c13714cad5de63f5",
-    "assets/minecraft/shaders/core/terrain.fsh": "10bb57052bca050f4d836b6ca2cf1e09c15c4629711d9061c176dd3daf71d054",
-    "assets/minecraft/shaders/core/terrain.vsh": "c53a33b21328c7c1d9a2a7ed4f10c866101b90612e4f752e5171bf644f619f29",
+    "assets/minecraft/shaders/core/terrain.fsh": "ac5563c4ed938b3556f282d6ac31f7613faefe33b7892d86864d15fe4f265953",
+    "assets/minecraft/shaders/core/terrain.vsh": "54b0792f035d8696bac4b08bb127305641c84e7b344f76ca50187980c47a3d1a",
     "assets/minecraft/shaders/core/text.vsh": "f280a691ea2363f89a65cf1c14007e32375bd5b275097925f6001a622952902b",
-    "assets/minecraft/shaders/include/fluid.glsl": "1913a5d9e2a127182b18896ef5d49e3e8551de5b058d8e29e4467ce6563db8ef",
+    "assets/minecraft/shaders/include/fluid.glsl": "25604e72b0adccaa567e2012e851f92677b19eef0f113878c190b48af1f602a5",
     "assets/minecraft/shaders/include/fog.glsl": "19f623322a13660eda82afb06179522d6c42b68ddfab3615fd20e189f52e7725",
     "assets/minecraft/shaders/include/lava.glsl": "17a355359cb6cf4a5438035383b97ae7b7d66e23ecb286e9f6aedb75f9178b89",
     "assets/minecraft/shaders/include/lava_config.glsl": "9e5febc6d0538c40d56e16fa141b750b36f9af9e54277f35f9754b660996559b",
+    "assets/minecraft/shaders/include/marble.glsl": "f5a4d8aff6b675d19a3ecdf2d085da0a65b17bcc9209cf8048b72768da525364",
+    "assets/minecraft/shaders/include/marble_config.glsl": "980c4de03a187cb33910687b8a3e01ddbee2b20cd2dd8f0f3977936e42a0f19f",
     "assets/minecraft/shaders/include/mcme_clock.glsl": "8f20f5311a5244862d53c8fd383ce0d584e431f014c09189878b4270df457c41",
     "assets/minecraft/shaders/include/mcme_lite.glsl": "f6fc98d32ea588b818b386caae80f5042b3a0849e74b3722b0e2fed3ccd5d5b8",
-    "assets/minecraft/shaders/include/mcme_modules.glsl": "1e791f6d287b986592602b421e371540a57f70512fe4d8f1ed5ef74679a59cd3",
-    "assets/minecraft/shaders/include/mcme_modules_main.glsl": "a3ddb40134e057b1d8481b3b455777fc8ad3122477740f87ee4aa9a676ec6438",
+    "assets/minecraft/shaders/include/mcme_modules.glsl": "5b88a8d56d2b327ab3a38810e0f9d3231b4b195db19f874b5f8889b4164ebcaf",
+    "assets/minecraft/shaders/include/mcme_modules_main.glsl": "28d0f76659a5fb0b610e595a7115f9d6af673bc292e34e8c6f7952bf7db9dffb",
     "assets/minecraft/shaders/include/objmc_fragment.glsl": "eb9ee2d7a57ab224063c1835d34a3c12bb66eb6af3166da64e784aec8c9e814f",
     "assets/minecraft/shaders/include/objmc_light.glsl": "744b76b4db4744636ec54f912788956aa9387869bbf2453bb2fff9e2ad576105",
     "assets/minecraft/shaders/include/objmc_main.glsl": "43df8df68600fc9697a689b904990ce246955a18bb45c94139bbbc7bba510623",
     "assets/minecraft/shaders/include/objmc_tools.glsl": "99a43b4b6d8f4aecbef6fdde3928dc00932c82ad2c1c3349ddda48ac40f99dc0",
-    "assets/minecraft/shaders/include/water.glsl": "9cdc826c58f70973c290790b0e5affd8aa16a32ce05408fcc621c94547fcdb59",
-    "assets/minecraft/shaders/include/water_config.glsl": "f5f352bf5828484dafd72df7b52faf918cafcbfc45a20d634bb4cdc14ca373fe",
+    "assets/minecraft/shaders/include/water.glsl": "88584525b51b2e8915ea20d08f51344d4acd5431863e9598ebf9e8692c710a29",
+    "assets/minecraft/shaders/include/water_config.glsl": "727cbdb2d9663b672c0f0d4c23598c74c76de4eaabc1c84a988ead77007dabf9",
     "assets/minecraft/shaders/include/water_corner.glsl": "2b4bcd117bb485e5c8a06d391d343dd4385d403070899f610c6f9f5dec792375",
-    "assets/sodium/shaders/blocks/block_layer_opaque.fsh": "cb4d26260604b25bc6d6dfd3cccff5a260039af9dd6b588e5528e10cbc437a73",
-    "assets/sodium/shaders/blocks/block_layer_opaque.vsh": "206bd098d2d5461e15891ca3306fb61fa5b3774fe3bbb2607b25f2d48c3f59f8",
+    "assets/sodium/shaders/blocks/block_layer_opaque.fsh": "39ace4f301cd6ceab3321ed4e4eede649f3a2b0ccc444b2fadb0c20ef713cb36",
+    "assets/sodium/shaders/blocks/block_layer_opaque.vsh": "9d8b7c36a8da4be758cc6ef768d138ecb0f5add7d272fc8f3862e1bdf885dfad",
     "assets/sodium/shaders/include/chunk_material.glsl": "456e00dc7904a2e003fe4e1f06b2023bc3189cb7259fec77ba3e854fc4f7a452",
     "assets/sodium/shaders/include/chunk_vertex.glsl": "812e06bbd4069e7879ff1be91843d38a38850fca37947090fde74e1844a256a3",
     "assets/sodium/shaders/include/fog.glsl": "48bf6249e3e8131e67504f4147122041efa871be20725525744f7c717e8898b4",
-    "assets/sodium/shaders/include/globals.glsl": "59ab558e82d31ea2a0a2b2d95b6a63e4cf960d676cc73c309b7c17e47d02d057"
+    "assets/sodium/shaders/include/globals.glsl": "59ab558e82d31ea2a0a2b2d95b6a63e4cf960d676cc73c309b7c17e47d02d057",
+    "mc26_3/assets/minecraft/shaders/core/terrain.fsh": "ec23b4baf6be54b9602d0e060d9964bf36f4fbf3df46e6a98cf41665232199fb",
+    "mc26_3/assets/minecraft/shaders/core/terrain.vsh": "be5b6e6be2e544f0dad890f52b7fded8072bc2bb56da87922b37a1df5190e376",
+    "mc26_3/assets/sodium/shaders/blocks/block_layer_opaque.fsh": "c30f9e0b66949fba9db5325aa1de89b2a21052e5690adb4845bf66b11805bf36",
+    "mc26_3/assets/sodium/shaders/blocks/block_layer_opaque.vsh": "478ae523afe2bd5f4902e0167de9fa7dd25a236ecd134f1a2d995c8b37944d2a",
+    "mc26_3/assets/sodium/shaders/include/chunk_vertex.glsl": "58f051273c13a4eab5658ff74a1e9725b419bbe92b3b1461520ac675a17fd5e1"
   }
 }

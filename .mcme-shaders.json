@@ -1,3 +1,13 @@
 {
-  "modules": ["lava"]
+  "modules": ["lava", "marble"],
+  "marble": [
+    "quartz_block", "quartz_block_2", "quartz_block_3", "quartz_block_composite",
+    "cobbled_deepslate", "quartz_block_dark_cross", "quartz_block_dark_stripe",
+    "quartz_block_gold_cross", "quartz_block_gold_stripe", "quartz_block_trace",
+    "deepslate_diamond_ore", "deepslate_lapis_ore",
+    "cherry_planks", "red_concrete_powder", "waxed_chiseled_copper",
+    "lime_glazed_terracotta", "lime_glazed_terracotta_end",
+    "lime_glazed_terracotta_side_1", "lime_glazed_terracotta_side_2",
+    "lime_glazed_terracotta_side_3", "lime_glazed_terracotta_side_4"
+  ]
 }
