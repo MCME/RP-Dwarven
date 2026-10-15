@@ -1,0 +1,13 @@
+{
+  "variants": {
+	"berries=true,age=1": [
+	{ "model": "minecraft:block/brazier_hanging" },
+	{ "model": "minecraft:block/brazier_hanging", "y":90 },
+	{ "model": "minecraft:block/brazier_hanging", "y":180 },
+	{ "model": "minecraft:block/brazier_hanging", "y":270 }
+	],
+	"berries=true,age=2": [
+	{ "model": "minecraft:block/lantern_s" }]
+ 
+  }
+}

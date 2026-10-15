@@ -4885,6 +4885,48 @@
                     "type": "model",
                     "model": "block/thin_coin_block"
                 }
+            },
+			{
+                "threshold": 698,
+                "model": {
+                    "type": "model",
+                    "model": "block/gold_rail_down_half"
+                }
+            },
+			{
+                "threshold": 699,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_zig_zag_horizontal"
+                }
+            },
+			{
+                "threshold": 700,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_zig_zag_diag"
+                }
+            },
+			{
+                "threshold": 701,
+                "model": {
+                    "type": "model",
+                    "model": "block/quartz_zig_zag_diag_left"
+                }
+            },
+			{
+                "threshold": 702,
+                "model": {
+                    "type": "model",
+                    "model": "block/brazier_hanging"
+                }
+            },
+			{
+                "threshold": 703,
+                "model": {
+                    "type": "model",
+                    "model": "block/lantern_s"
+                }
             }
         ]
     }
