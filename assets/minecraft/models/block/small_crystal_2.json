@@ -61,6 +61,7 @@
 			"from": [3, 2.29195, 0.21367],
 			"to": [6, 5.29195, 10.21367],
 			"shade": false,
+			"shade_direction_override": "up",
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.49433, 6.93768, 3.30613]},
 			"faces": {
 				"north": {"uv": [2, 16, 5, 13], "rotation": 180, "texture": "#wall"},
