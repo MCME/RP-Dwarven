@@ -13,6 +13,7 @@
         16
       ],
 	  "shade": false,
+	  "shade_direction_override": "up",
       "faces": {
         "up": {
           "uv": [
