@@ -3,7 +3,7 @@
     "pack_format": 88,
     "min_format": 88,
     "max_format": 97,
-    "description": "MCME Erebor 0.1.12"
+    "description": "MCME Erebor 0.1.13"
   },
   "sodium": {
     "ignored_shaders": [

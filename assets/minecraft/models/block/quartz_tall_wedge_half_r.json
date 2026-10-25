@@ -1,0 +1,73 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [48, 48],
+	"textures": {
+		"1": "block/quartz_block_composite",
+		"particle": "block/quartz_block_composite"
+	},
+	"elements": [
+		{
+			"from": [8.01, -3.85, 15.957],
+			"to": [15.98, 6.62, 30.275],
+			"rotation": {"angle": -26.55, "axis": "x", "origin": [0, 0, 16.025]},
+			"faces": {
+				"north": {"uv": [2.65667, 0, 0, 3.49], "texture": "#1"},
+				"east": {"uv": [4.77267, 0, 0, 3.49], "texture": "#1"},
+				"south": {"uv": [2.67667, 0, 0.02, 3.49], "texture": "#1"},
+				"west": {"uv": [4.77267, 0, 0, 3.49], "texture": "#1"},
+				"up": {"uv": [0, 4.77267, 2.65667, 0], "texture": "#1"},
+				"down": {"uv": [0, 4.77267, 2.65667, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.01, 6.61992, 15.95413],
+			"to": [15.98, 32, 30.27213],
+			"rotation": {"angle": -26.55, "axis": "x", "origin": [0, 0, 16.025]},
+			"faces": {
+				"north": {"uv": [2.65667, 0, 0, 8.46003], "texture": "#1"},
+				"east": {"uv": [4.77267, 0, 0, 8.46003], "texture": "#1"},
+				"south": {"uv": [2.67667, 0, 0.02, 8.46003], "texture": "#1"},
+				"west": {"uv": [4.77267, 0, 0, 8.46003], "texture": "#1"},
+				"up": {"uv": [0, 4.77267, 2.65667, 0], "texture": "#1"},
+				"down": {"uv": [0, 9.45467, 2.65667, 4.682], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [2.5, -1.75, 0],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
+		}
+	}
+}
